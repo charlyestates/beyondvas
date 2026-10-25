@@ -1,0 +1,22 @@
+# Render-check scratch output from the prototype harness (see hq/README.md)
+hq/dom*.txt
+hq/*.txt
+hq/tmp-*/
+hq/*-tmp/
+hq/privacy-*/
+hq/backup-run1/
+hq/**/udd*/
+hq/**/edge-prof*/
+hq/**/probe-profile/
+_probe/
+
+# Private: stays on Charly's computer, never pushed.
+# The business plan PDF and the research digests hold internal margins and projections;
+# hq/research/ is a copy of the Beyond HQ training source with real team contacts and links.
+/beyondvas/*.pdf
+/tools/
+/hq/research/
+
+# OS noise
+Thumbs.db
+.DS_Store

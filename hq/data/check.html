@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>HQD seed check</title></head>
+<body>
+<pre id="report">loading</pre>
+<script>
+var errs = [];
+window.onerror = function (m, s, l, c) { errs.push(((s || '').split('/').pop() || '?') + ': ' + m + ' (line ' + l + ', col ' + c + ')'); return false; };
+</script>
+<script src="core.js" onerror="errs.push('core.js: failed to load')"></script>
+<script src="messages.js" onerror="errs.push('messages.js: failed to load (missing?)')"></script>
+<script src="hours.js" onerror="errs.push('hours.js: failed to load (missing?)')"></script>
+<script src="pipeline.js" onerror="errs.push('pipeline.js: failed to load (missing?)')"></script>
+<script src="academy.js" onerror="errs.push('academy.js: failed to load (missing?)')"></script>
+<script src="calendar.js" onerror="errs.push('calendar.js: failed to load (missing?)')"></script>
+<script src="compliance.js" onerror="errs.push('compliance.js: failed to load (missing?)')"></script>
+<script>
+(function () {
+  var out = [];
+  out.push('ERRORS: ' + (errs.length ? errs.join(' | ') : 'none'));
+  var d = window.HQD || {};
+  Object.keys(d).forEach(function (k) {
+    var v = d[k], n;
+    if (Array.isArray(v)) n = v.length + ' items';
+    else if (v && typeof v === 'object') n = Object.keys(v).length + ' keys';
+    else n = typeof v + ' ' + String(v);
+    out.push(k + ': ' + n);
+  });
+  // id cross-check: every *Id field that looks like a person/client/placement/channel id must exist in core
+  var known = {};
+  (d.people || []).forEach(function (p) { known[p.id] = 1; });
+  (d.clients || []).forEach(function (c) { known[c.id] = 1; });
+  (d.placements || []).forEach(function (p) { known[p.id] = 1; });
+  (d.channels || []).forEach(function (c) { known[c.id] = 1; });
+  (d.threads || []).forEach(function (t) { known[t.id] = 1; });
+  var bad = {};
+  function walk(v, path) {
+    if (Array.isArray(v)) { v.forEach(function (x, i) { walk(x, path + '[' + i + ']'); }); return; }
+    if (v && typeof v === 'object') { Object.keys(v).forEach(function (k) { walk(v[k], path + '.' + k); }); return; }
+    if (typeof v === 'string' && /^(u-|c-|p-|ch-|dm-|th-|a-)[a-z0-9-]+$/.test(v) && !known[v]) { bad[v] = (bad[v] || 0) + 1; }
+  }
+  Object.keys(d).forEach(function (k) { if (k !== 'people' && k !== 'clients' && k !== 'placements' && k !== 'channels' && k !== 'threads') walk(d[k], k); });
+  var badKeys = Object.keys(bad);
+  out.push('UNKNOWN IDS: ' + (badKeys.length ? badKeys.map(function (k) { return k + ' x' + bad[k]; }).join(', ') : 'none'));
+  document.getElementById('report').textContent = out.join('\n');
+})();
+</script>
+</body></html>

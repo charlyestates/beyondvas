@@ -1,0 +1,1165 @@
+<title>BeyondVAs</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Bilingual, sales-trained virtual assistants and ISAs from Honduras and across Latin America for real estate teams, in every US time zone. A fraction of a US hire, screenshots about every two minutes, 90-day fit guarantee.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout concept: the Beyond ecosystem web look (cream ground, navy ink, royal blue and gold, condensed uppercase
+   headlines, gold roofline pattern) for a conversion landing page whose hero image is a live tracking dashboard.
+   Light = the sibling Beyond sites; dark = the black-and-gold Beyond logo. */
+:root{
+  --bg:#F5F9FF; --bg-2:#FFFFFF; --bg-3:#E9F1FF; --bg-4:#E3ECFF;
+  --fg:#0F2247; --fg-2:#182B50; --fg-3:#586A8A;
+  --line:#D5E0F3; --line-2:#E3EAF6;
+  --blue:#2B63D9; --blue-deep:#1B3F9E; --blue-soft:#E3ECFF;
+  --gold:#F4B62E; --gold-2:#A8720A; --gold-deep:#A8720A; --gold-soft:#FFF3D1;
+  --good:#0E9F66; --good-soft:#DDF6EA; --good-fg:#0B7A4F; --on-blue:#FFFFFF;
+  --shadow:0 20px 50px -22px rgba(27,63,158,.35);
+  --shadow-2:0 30px 70px -30px rgba(27,63,158,.45);
+  --head-grad:linear-gradient(180deg,#0F2247,#0F2247);
+  --gold-grad:linear-gradient(180deg,#C48A12 0%,#A8720A 100%);
+  --btn-gold:linear-gradient(180deg,#FFCB4D,#F4B62E);
+  --btn-gold-fg:#2A1E00;
+  --btn-gold-shadow:0 10px 26px -10px rgba(168,114,10,.55);
+  --nav-bg:rgba(245,249,255,.86);
+  --shot-bg:#EEF3FC; --shot-bar:#D5E0F3; --shot-a:rgba(43,99,217,.35); --shot-b:rgba(244,182,46,.55); --shot-c:rgba(14,159,102,.4);
+  --roof:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120' viewBox='0 0 160 120'%3E%3Cpath d='M20 70 L60 30 L100 70 M40 90 L80 50 L120 90' fill='none' stroke='%23F4B62E' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.35'/%3E%3C/svg%3E");
+  --display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
+  --body:"Instrument Sans",ui-sans-serif,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  --radius:16px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0A0A0C; --bg-2:#121215; --bg-3:#19191E; --bg-4:#222229;
+  --fg:#F3F1EA; --fg-2:#B9B6AC; --fg-3:#8B887F;
+  --line:rgba(212,175,55,.26); --line-2:rgba(243,241,234,.09);
+  --blue:#7C9BF2; --blue-deep:#A9BDFF; --blue-soft:rgba(124,155,242,.14);
+  --gold:#D4AF37; --gold-2:#F3DA7E; --gold-deep:#E6C65A; --gold-soft:rgba(212,175,55,.12);
+  --good:#5BD08F; --good-soft:rgba(91,208,143,.12); --good-fg:#5BD08F; --on-blue:#0A0A0C;
+  --shadow:0 30px 80px rgba(0,0,0,.6);
+  --shadow-2:0 30px 80px rgba(0,0,0,.6);
+  --head-grad:linear-gradient(180deg,#F7F8FA 0%,#D3DAE4 42%,#8794A8 52%,#E3E8EF 100%);
+  --gold-grad:linear-gradient(180deg,#F6E48A 0%,#D4AF37 48%,#A5801F 100%);
+  --btn-gold:linear-gradient(180deg,#F6E48A 0%,#D4AF37 48%,#A5801F 100%);
+  --btn-gold-fg:#15110A;
+  --btn-gold-shadow:0 8px 30px rgba(212,175,55,.25);
+  --nav-bg:rgba(10,10,12,.84);
+  --shot-bg:#1B1B21; --shot-bar:#2A2A33; --shot-a:rgba(212,175,55,.35); --shot-b:rgba(243,241,234,.1); --shot-c:rgba(91,208,143,.3);
+  --roof:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120' viewBox='0 0 160 120'%3E%3Cpath d='M20 70 L60 30 L100 70 M40 90 L80 50 L120 90' fill='none' stroke='%23D4AF37' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.14'/%3E%3C/svg%3E");
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#0A0A0C; --bg-2:#121215; --bg-3:#19191E; --bg-4:#222229;
+  --fg:#F3F1EA; --fg-2:#B9B6AC; --fg-3:#8B887F;
+  --line:rgba(212,175,55,.26); --line-2:rgba(243,241,234,.09);
+  --blue:#7C9BF2; --blue-deep:#A9BDFF; --blue-soft:rgba(124,155,242,.14);
+  --gold:#D4AF37; --gold-2:#F3DA7E; --gold-deep:#E6C65A; --gold-soft:rgba(212,175,55,.12);
+  --good:#5BD08F; --good-soft:rgba(91,208,143,.12); --good-fg:#5BD08F; --on-blue:#0A0A0C;
+  --shadow:0 30px 80px rgba(0,0,0,.6);
+  --shadow-2:0 30px 80px rgba(0,0,0,.6);
+  --head-grad:linear-gradient(180deg,#F7F8FA 0%,#D3DAE4 42%,#8794A8 52%,#E3E8EF 100%);
+  --gold-grad:linear-gradient(180deg,#F6E48A 0%,#D4AF37 48%,#A5801F 100%);
+  --btn-gold:linear-gradient(180deg,#F6E48A 0%,#D4AF37 48%,#A5801F 100%);
+  --btn-gold-fg:#15110A;
+  --btn-gold-shadow:0 8px 30px rgba(212,175,55,.25);
+  --nav-bg:rgba(10,10,12,.84);
+  --shot-bg:#1B1B21; --shot-bar:#2A2A33; --shot-a:rgba(212,175,55,.35); --shot-b:rgba(243,241,234,.1); --shot-c:rgba(91,208,143,.3);
+  --roof:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120' viewBox='0 0 160 120'%3E%3Cpath d='M20 70 L60 30 L100 70 M40 90 L80 50 L120 90' fill='none' stroke='%23D4AF37' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.14'/%3E%3C/svg%3E");
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+section{scroll-margin-top:84px}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--fg-2);font-family:var(--body);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--display);line-height:1;margin:0;text-wrap:balance;color:var(--fg);text-transform:uppercase;letter-spacing:-.01em}
+p{margin:0}
+a{color:var(--blue)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+img{max-width:100%}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.section{padding-block:88px}
+@media (max-width:760px){.section{padding-block:64px}}
+.eyebrow{font-family:var(--body);font-weight:700;font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.eyebrow::before{content:"";width:34px;height:2px;background:var(--gold);border-radius:2px;flex:none}
+.gold{background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.chrome{background:var(--head-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.h2{font-size:clamp(38px,5.2vw,60px);font-weight:800;margin-bottom:16px}
+.lead{font-size:clamp(18px,1.6vw,21px);color:var(--fg-2);max-width:64ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:var(--body);font-weight:700;font-size:16px;padding:16px 26px;border-radius:999px;border:1px solid transparent;cursor:pointer;text-decoration:none;transition:transform .15s ease,box-shadow .15s ease,background .15s ease;white-space:nowrap}
+.btn-gold{background:var(--btn-gold);color:var(--btn-gold-fg);box-shadow:var(--btn-gold-shadow)}
+.btn-gold:hover{transform:translateY(-1px)}
+.btn-ghost{background:var(--bg-2);color:var(--blue);border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--blue)}
+.btn-sm{padding:11px 18px;font-size:14px}
+.card{background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.num{font-variant-numeric:tabular-nums}
+
+/* NAV */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--nav-bg);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:74px;position:relative}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--fg)}
+.brand svg{width:46px;height:32px;flex:none}
+.brand .word{font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:.01em;line-height:1;text-transform:uppercase}
+.brand .word .vas{color:var(--gold-deep)}
+.brand .tag{display:block;font-family:var(--body);font-weight:700;font-size:9px;letter-spacing:.26em;color:var(--blue);margin-top:4px;text-transform:uppercase}
+.navlinks{display:flex;gap:26px;align-items:center}
+.navlinks a{color:var(--fg-2);text-decoration:none;font-weight:600;font-size:15px}
+.navlinks a:hover{color:var(--blue)}
+.navlinks a.va{color:var(--blue);font-weight:700}
+.navcta{display:flex;align-items:center;gap:10px}
+.menubtn{display:none;background:var(--bg-2);border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:9px 12px;font:inherit;font-weight:600;cursor:pointer}
+@media (max-width:960px){
+  .navlinks{display:none;position:absolute;left:0;right:0;top:100%;background:var(--bg-2);flex-direction:column;align-items:flex-start;gap:0;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+  .navlinks.open{display:flex}
+  .navlinks a{padding:14px max(20px,env(safe-area-inset-left,0px));width:100%;border-top:1px solid var(--line-2)}
+  .menubtn{display:inline-block}
+  .navcta .btn{padding:9px 12px;font-size:13px}
+  .brand .tag{display:none}
+  .brand .word{font-size:22px}
+  .brand svg{width:36px;height:26px}
+}
+
+/* HERO */
+.hero{padding-block:72px 64px;position:relative;overflow:hidden;background:var(--roof) center top/160px 120px repeat}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,var(--bg) 0%,rgba(245,249,255,0) 35%,rgba(245,249,255,0) 65%,var(--bg) 100%),radial-gradient(55% 60% at 75% 30%,var(--blue-soft),transparent 70%);pointer-events:none}
+:root[data-theme="dark"] .hero::before{background:radial-gradient(55% 60% at 75% 30%,rgba(212,175,55,.12),transparent 70%)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .hero::before{background:radial-gradient(55% 60% at 75% 30%,rgba(212,175,55,.12),transparent 70%)}}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .95fr;gap:56px;align-items:center;position:relative}
+@media (max-width:960px){.hero .wrap{grid-template-columns:1fr;gap:40px}}
+.hero h1{font-size:clamp(48px,7vw,86px);font-weight:800;letter-spacing:-.012em;line-height:.95}
+.hero h1 .chrome{display:block}
+.hero h1 .gold{display:block;font-size:.52em;letter-spacing:.02em;margin-top:.16em}
+.hero .lead{margin-top:24px}
+.hero .lead strong{color:var(--fg)}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.proof{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+.proof span{font-weight:700;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-3);display:flex;align-items:center;gap:8px}
+.proof span::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--gold)}
+
+/* Dashboard mock */
+.dash{background:var(--bg-2);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:var(--shadow-2);position:relative}
+.dash .top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px}
+.dash .who{display:flex;align-items:center;gap:12px}
+.avatar{width:42px;height:42px;border-radius:50%;background:var(--btn-gold);display:grid;place-items:center;font-family:var(--display);font-weight:800;color:var(--btn-gold-fg);font-size:17px}
+.dash .name{font-weight:700;font-size:15.5px;color:var(--fg)}
+.dash .role{font-size:13px;color:var(--fg-3)}
+.live{display:inline-flex;align-items:center;gap:7px;font-weight:700;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--good-fg);background:var(--good-soft);border:1px solid transparent;padding:6px 10px;border-radius:999px;white-space:nowrap}
+.live i{width:7px;height:7px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 var(--good);animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 var(--good)}70%{box-shadow:0 0 0 8px transparent}100%{box-shadow:0 0 0 0 transparent}}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}
+.kpi{background:var(--bg-3);border:1px solid var(--line-2);border-radius:10px;padding:10px 10px 9px}
+.kpi b{display:block;font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:0;color:var(--fg)}
+.kpi span{font-size:11px;color:var(--fg-3);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+@media (max-width:440px){.kpi b{font-size:16px;white-space:nowrap}.kpi span{font-size:9.5px}.kpi{padding:9px 7px 8px}}
+.shots{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.shot{aspect-ratio:16/10;border-radius:7px;border:1px solid var(--line-2);background:var(--shot-bg);position:relative;overflow:hidden}
+.shot::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,var(--shot-bar) 0 14%,transparent 14%),repeating-linear-gradient(180deg,transparent 0 22%,var(--line-2) 22% 24%,transparent 24% 36%)}
+.shot::after{content:"";position:absolute;left:14%;right:34%;top:40%;height:28%;border-radius:4px;background:var(--shot-a)}
+.shot.s2::after{left:40%;right:10%;top:30%;height:40%;background:var(--shot-b)}
+.shot.s3::after{left:10%;right:10%;top:55%;height:18%;background:var(--shot-c)}
+.shot.s4::after{left:24%;right:24%;top:28%;height:44%;background:var(--shot-bar)}
+.shot em{position:absolute;right:6px;bottom:5px;z-index:1;font-style:normal;font-weight:700;font-size:10px;color:var(--fg-2);background:var(--bg-2);border:1px solid var(--line-2);padding:1px 6px;border-radius:4px}
+.dash .foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px 14px;margin-top:12px;font-size:12.5px;color:var(--fg-3)}
+.dash .foot b{color:var(--fg)}
+.badge-ex{position:absolute;top:-12px;right:16px;font-weight:700;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;background:var(--bg-2);border:1px solid var(--line);color:var(--blue);padding:4px 10px;border-radius:999px}
+
+/* TWO-COLUMN STATEMENT SECTIONS */
+.twocol{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:start}
+@media (max-width:900px){.twocol{grid-template-columns:1fr;gap:20px}}
+.twocol .h2{margin-bottom:0}
+.twocol .lead+.lead{margin-top:16px}
+.twocol .lead strong{color:var(--fg)}
+
+/* STATS BAND */
+.stats{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg-2)}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.stat{padding:30px 22px;border-left:1px solid var(--line-2)}
+.stat:first-child{border-left:0}
+.stat b{display:block;font-family:var(--display);font-weight:800;font-size:clamp(40px,4.2vw,56px);letter-spacing:0;line-height:1}
+.stat p{color:var(--fg-2);font-size:15px;margin-top:8px}
+.stat small{display:block;color:var(--fg-3);font-size:12px;margin-top:8px}
+.stat small a{color:var(--fg-3)}
+@media (max-width:900px){.stats .wrap{grid-template-columns:1fr 1fr}.stat:nth-child(3){border-left:0}.stat{border-top:1px solid var(--line-2)}.stat:nth-child(-n+2){border-top:0}}
+@media (max-width:520px){.stats .wrap{grid-template-columns:1fr}.stat{border-left:0;border-top:1px solid var(--line-2)}.stat:first-child{border-top:0}}
+
+/* IMAGINE */
+.imagine .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 40px;margin-top:40px}
+@media (max-width:860px){.imagine .grid{grid-template-columns:1fr}}
+.im{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line);font-size:clamp(18px,1.55vw,21px);line-height:1.35}
+.im b{font-family:var(--display);font-weight:800;font-size:17px;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);padding-top:2px}
+.im span{color:var(--fg-2)}
+.im span strong{color:var(--fg)}
+.imagine .close{margin-top:38px;display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px}
+.imagine .close p{font-family:var(--display);font-weight:800;font-size:clamp(26px,3vw,36px);text-transform:uppercase;color:var(--fg);line-height:1}
+
+/* ROLES */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:34px 0 22px}
+.tab{background:var(--bg-2);border:1px solid var(--line);color:var(--fg-2);border-radius:999px;padding:10px 16px;font-family:var(--body);font-weight:600;font-size:14px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+.panel{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:start}
+@media (max-width:900px){.panel{grid-template-columns:1fr}}
+.panel h3{font-size:clamp(28px,3vw,40px);font-weight:800;margin-bottom:10px}
+.panel .why{color:var(--fg-2);font-size:17px;max-width:52ch}
+.tasks{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.tasks li{display:grid;grid-template-columns:18px 1fr;gap:12px;align-items:start;padding:12px 14px;background:var(--bg-2);border:1px solid var(--line);border-radius:12px;font-size:16px;color:var(--fg-2)}
+.tasks li::before{content:"";width:18px;height:18px;border-radius:50%;background:var(--good);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4 10.5l4 4 8-9' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4 10.5l4 4 8-9' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;margin-top:2px}
+.carecard{margin-top:56px;display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;padding:30px;background:var(--gold-soft);border:1px solid var(--line);border-radius:18px}
+@media (max-width:700px){.carecard{grid-template-columns:1fr}}
+.carecard .heart{width:72px;height:72px;border-radius:18px;background:var(--btn-gold);display:grid;place-items:center}
+.carecard h3{font-size:clamp(26px,2.6vw,34px);font-weight:800;margin-bottom:8px}
+.carecard p{color:var(--fg-2)}
+
+/* PRICING */
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+@media (max-width:900px){.tiers{grid-template-columns:1fr}}
+.tier{position:relative;padding:28px 26px 26px;display:flex;flex-direction:column;gap:14px}
+.tier.hot{border-color:var(--gold);box-shadow:0 0 0 3px var(--gold-soft),var(--shadow-2)}
+.tier .pill{position:absolute;top:-13px;left:24px;font-weight:700;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;background:var(--btn-gold);color:var(--btn-gold-fg);padding:6px 12px;border-radius:999px}
+.tier h3{font-size:30px;font-weight:800}
+.price{display:flex;align-items:baseline;gap:6px}
+.price b{font-family:var(--display);font-weight:800;font-size:60px;letter-spacing:-.01em;line-height:1;color:var(--fg)}
+.price span{color:var(--fg-3);font-size:15px}
+.price .quote-line{font-family:var(--display);font-weight:800;font-size:24px;letter-spacing:0;text-transform:uppercase;color:var(--blue);line-height:1.1}
+.res.big.cost{background:var(--blue-soft)}
+.res.big.cost b{color:var(--fg)}
+.res.gold-line{border:0;padding:4px 0 0;color:var(--gold-deep);font-weight:700;font-size:16px}
+.tier .for{color:var(--fg-2);font-size:16px;min-height:3.1em}
+.tier ul{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:15.5px}
+.tier li{display:grid;grid-template-columns:14px 1fr;gap:10px;align-items:start;color:var(--fg-2)}
+.tier li::before{content:"";width:14px;height:14px;margin-top:5px;border-radius:50%;border:2px solid var(--gold)}
+.tier .btn{margin-top:auto}
+.incl{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+@media (max-width:900px){.incl{grid-template-columns:1fr}}
+.incl .card{padding:26px}
+.incl h4{font-family:var(--body);font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin-bottom:14px}
+.incl ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:9px 18px;font-size:15.5px;color:var(--fg-2)}
+@media (max-width:520px){.incl ul{grid-template-columns:1fr}}
+.incl li{display:grid;grid-template-columns:8px 1fr;gap:10px;align-items:baseline}
+.incl li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold);position:relative;top:-1px}
+.incl .big{font-family:var(--display);font-weight:800;font-size:46px;letter-spacing:0;line-height:1;margin-bottom:6px;text-transform:uppercase;color:var(--fg)}
+.fine{color:var(--fg-3);font-size:14px;margin-top:18px;max-width:80ch}
+
+/* CALCULATOR */
+.calc{display:grid;grid-template-columns:.95fr 1.05fr;gap:28px;margin-top:40px}
+@media (max-width:900px){.calc{grid-template-columns:1fr}}
+.calc .card{padding:28px}
+.field{display:grid;gap:8px;margin-bottom:18px}
+.field label{font-weight:700;font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);display:flex;justify-content:space-between;gap:10px}
+.field label output{color:var(--blue)}
+input[type=range]{width:100%;accent-color:var(--blue)}
+select,input[type=text],input[type=email],input[type=tel],input[type=number],input[type=url],textarea{width:100%;background:var(--bg-2);border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:12px 14px;font:inherit;font-size:16px}
+select:hover,input:hover,textarea:hover{border-color:var(--blue)}
+.result{display:grid;gap:14px}
+.res{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.res span{color:var(--fg-2)}
+.res b{font-family:var(--display);font-weight:800;font-size:28px;color:var(--fg)}
+.res.big{background:var(--good-soft);border:1px solid transparent;border-radius:12px;padding:18px 20px;flex-direction:column;align-items:flex-start;gap:4px}
+.res.big b{font-size:clamp(40px,4.4vw,56px);color:var(--good-fg)}
+.calc .cta{margin-top:18px;display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.calc .cta p{color:var(--fg-2);font-size:15px}
+.after-cta{margin-top:28px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 18px}
+.after-cta p{color:var(--fg-2);font-size:16px;font-weight:600}
+.res.big span{font-size:15px;color:var(--fg)}
+.calc .note{color:var(--fg-3);font-size:13.5px;margin-top:14px}
+
+/* COMPARE */
+.tablewrap{overflow-x:auto;margin-top:36px;border:1px solid var(--line);border-radius:16px;background:var(--bg-2);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:15.5px}
+th,td{padding:15px 18px;text-align:left;vertical-align:top;border-top:1px solid var(--line-2)}
+thead th{border-top:0;font-family:var(--body);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-3);background:var(--bg-3)}
+thead th.you{color:var(--blue);background:var(--blue-soft)}
+td.you{background:var(--blue-soft);color:var(--fg);font-weight:600}
+tbody th{color:var(--fg);font-weight:600;width:22%;text-align:left;font-family:var(--body);font-size:15.5px}
+td.meh{color:var(--fg-2)}
+
+/* HOW */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px;counter-reset:step}
+@media (max-width:960px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}}
+.step{padding:26px 24px;position:relative;counter-increment:step}
+.step::before{content:counter(step,decimal-leading-zero);font-family:var(--display);font-weight:800;font-size:48px;line-height:1;color:var(--blue);display:block;margin-bottom:10px}
+.step h3{font-size:26px;font-weight:800;margin-bottom:8px}
+.step p{color:var(--fg-2);font-size:15.5px}
+.step em{display:inline-block;margin-top:12px;font-style:normal;font-weight:700;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-deep)}
+
+/* PILLARS */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+@media (max-width:900px){.pillars{grid-template-columns:1fr}}
+.pillar{padding:28px 26px}
+.pillar .ic{width:46px;height:46px;border-radius:12px;background:var(--blue-soft);display:grid;place-items:center;margin-bottom:18px;color:var(--blue)}
+.pillar h3{font-size:28px;font-weight:800;margin-bottom:10px}
+.pillar p{color:var(--fg-2);font-size:16px}
+.pillar ul{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:7px;font-size:15px;color:var(--fg-2)}
+.pillar li{display:grid;grid-template-columns:8px 1fr;gap:10px;align-items:baseline}
+.pillar li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold);position:relative;top:-1px}
+
+/* GUARANTEE */
+.guar{background:var(--bg-3);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.guar .wrap{text-align:center}
+.guar .h2{max-width:20ch;margin-inline:auto}
+.guar .lead{margin-inline:auto}
+.seals{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:40px auto 0;max-width:900px}
+@media (max-width:700px){.seals{grid-template-columns:1fr}}
+.seal{padding:30px 28px;text-align:left;border-color:var(--gold)}
+.seal b{display:block;font-family:var(--display);font-weight:800;font-size:56px;letter-spacing:0;line-height:1}
+.seal h3{font-size:24px;font-weight:800;margin:10px 0 8px}
+.seal p{color:var(--fg-2);font-size:15.5px}
+.guar .also{margin-top:26px;color:var(--fg);font-weight:700;font-size:16px}
+
+/* CARRY */
+.carry{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:40px}
+@media (max-width:900px){.carry{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.carry{grid-template-columns:1fr}}
+.no{padding:22px 20px;position:relative}
+.no b{display:block;font-weight:700;font-size:17px;margin-bottom:6px;padding-left:30px;position:relative;color:var(--fg)}
+.no b::before{content:"";position:absolute;left:0;top:2px;width:18px;height:18px;border-radius:50%;border:2px solid var(--gold-deep);background:linear-gradient(45deg,transparent 46%,var(--gold-deep) 46% 54%,transparent 54%)}
+.no p{color:var(--fg-2);font-size:14.5px}
+.carrynote{margin-top:22px;color:var(--fg-3);font-size:14.5px;max-width:84ch}
+
+/* WHO */
+.who{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;margin-top:40px}
+@media (max-width:900px){.who{grid-template-columns:1fr}}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.checks li{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;padding:14px 16px;background:var(--bg-2);border:1px solid var(--line);border-radius:12px}
+.checks li b{font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);padding-top:4px;min-width:86px}
+.checks li span{color:var(--fg-2);font-size:15.5px}
+.traits{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.traits span{background:var(--blue-soft);color:var(--blue-deep);border-radius:999px;padding:7px 13px;font-weight:600;font-size:13.5px}
+.quote{margin-top:26px;padding:22px 24px;border-left:4px solid var(--gold);background:var(--bg-2);border-radius:0 12px 12px 0;color:var(--fg-2);font-size:16.5px;box-shadow:var(--shadow)}
+.quote h4{font-family:var(--body);text-transform:uppercase;font-size:12.5px;letter-spacing:.1em;color:var(--blue);margin-bottom:8px}
+
+/* INDUSTRIES */
+.inds{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0;padding:0;list-style:none}
+.inds li{padding:11px 16px;border:1px solid var(--line);border-radius:10px;background:var(--bg-2);font-weight:600;font-size:15px;color:var(--fg-2)}
+
+/* FAQ */
+.faq{max-width:860px;margin:36px auto 0;display:grid;gap:10px}
+details{background:var(--bg-2);border:1px solid var(--line);border-radius:12px;padding:0 22px}
+details[open]{border-color:var(--blue)}
+summary{cursor:pointer;list-style:none;padding:18px 0;font-weight:700;font-size:16.5px;color:var(--fg);display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+" / "";font-weight:400;font-size:26px;color:var(--blue);flex:none;line-height:1}
+details[open] summary::after{content:"–" / ""}
+.faq-cta{max-width:860px;margin:28px auto 0;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:14px 18px}
+.faq-cta p{color:var(--fg-2);font-weight:600}
+details p{color:var(--fg-2);padding-bottom:20px;font-size:16px;max-width:70ch}
+
+/* BOOK */
+.book{background:var(--bg-3);border-top:1px solid var(--line)}
+.book .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:start}
+@media (max-width:960px){.book .wrap{grid-template-columns:1fr}}
+.book .h2{font-size:clamp(42px,5.6vw,68px)}
+.book .lead{margin-top:14px}
+.book ol{margin:26px 0 0;padding:0;list-style:none;display:grid;gap:12px;counter-reset:b}
+.book ol li{display:grid;grid-template-columns:30px 1fr;gap:12px;align-items:baseline;color:var(--fg-2);font-size:16.5px;counter-increment:b}
+.book ol li::before{content:counter(b);font-weight:700;color:var(--on-blue);background:var(--blue);font-size:13px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center}
+.book .alt{margin-top:28px;padding:20px 22px;border:1px dashed var(--blue);border-radius:12px;color:var(--fg-2);font-size:15.5px;background:var(--bg-2)}
+.book .alt a{font-weight:700}
+form{display:grid;gap:14px}
+.f2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:560px){.f2{grid-template-columns:1fr}}
+.fl{display:grid;gap:6px}
+.fl label{font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3)}
+.chk{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media (max-width:560px){.chk{grid-template-columns:1fr}}
+.chk label{display:flex;gap:10px;align-items:center;background:var(--bg-3);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:15px;color:var(--fg-2);cursor:pointer}
+.chk input{accent-color:var(--blue);width:16px;height:16px}
+.formcard{padding:30px}
+.formcard h3{font-size:30px;font-weight:800;margin-bottom:6px}
+.formcard .sub{color:var(--fg-3);font-size:14.5px;margin-bottom:20px}
+.ok{display:none;padding:22px;border:1px solid var(--good);background:var(--good-soft);border-radius:12px}
+.ok.show{display:block}
+.ok h4{font-family:var(--body);text-transform:none;font-size:18px;margin-bottom:8px;color:var(--good-fg)}
+.ok h4:focus{outline:none}
+.consent{color:var(--fg-3);font-size:13.5px;margin:0}
+.ok p{color:var(--fg-2);font-size:15.5px}
+.ok pre{white-space:pre-wrap;word-break:break-word;font:14px/1.5 ui-monospace,Menlo,Consolas,monospace;background:var(--bg-2);border:1px solid var(--line);border-radius:8px;padding:12px;margin:12px 0 0;color:var(--fg-2)}
+.ok .btn{margin-top:12px}
+.hp{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+
+/* VA SECTION */
+.vas{background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.vas::before{content:"";position:absolute;inset:0;background:var(--roof) center/160px 120px repeat;opacity:.5;pointer-events:none;-webkit-mask:linear-gradient(180deg,transparent,#000 40%,#000 70%,transparent);mask:linear-gradient(180deg,transparent,#000 40%,#000 70%,transparent)}
+.vas .wrap{position:relative}
+.langbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--bg-3)}
+.lang button{background:none;border:0;color:var(--fg-2);font-family:var(--body);font-weight:700;font-size:13px;letter-spacing:.04em;padding:8px 14px;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--blue);color:var(--on-blue)}
+.contractor{margin-top:22px;padding:18px 20px;border:1px solid var(--line);border-radius:12px;background:var(--bg-3);color:var(--fg-2);font-size:15px}
+.contractor b{color:var(--fg)}
+.seals-note{max-width:900px;margin:18px auto 0;color:var(--fg-3);font-size:14px}
+.vagrid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:30px;align-items:start}
+@media (max-width:960px){.vagrid{grid-template-columns:1fr}}
+.vagrid .h2{font-size:clamp(38px,5vw,58px)}
+.offer{display:grid;gap:10px;margin-top:24px;list-style:none;padding:0}
+.offer li{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start}
+.offer li b{font-weight:700;color:var(--blue);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;padding-top:4px;min-width:110px}
+.offer li span{color:var(--fg-2);font-size:16px}
+.req{margin-top:26px;padding:22px 24px;border:1px solid var(--line);border-radius:12px;background:var(--bg-3)}
+.req h4{font-family:var(--body);font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin-bottom:12px}
+.req ul{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:15.5px;color:var(--fg-2)}
+.req li{display:grid;grid-template-columns:8px 1fr;gap:10px;align-items:baseline}
+.req li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--gold);position:relative;top:-1px}
+
+/* FOOTER */
+footer{padding-block:48px 40px;border-top:1px solid var(--line);color:var(--fg-3);font-size:14.5px;background:var(--bg)}
+footer .wrap{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:30px}
+@media (max-width:800px){footer .wrap{grid-template-columns:1fr}}
+footer h5{font-family:var(--body);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);margin:0 0 12px}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer a{color:var(--fg-2);text-decoration:none}
+footer a:hover{color:var(--blue)}
+footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px;margin-top:10px;font-size:13.5px;max-width:100ch}
+.copybtn{background:var(--bg-2);border:1px solid var(--line);color:var(--blue);border-radius:6px;padding:3px 9px;font:inherit;font-size:12.5px;cursor:pointer;margin-left:8px}
+</style>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="BeyondVAs home">
+      <svg viewBox="0 0 88 60" aria-hidden="true"><defs><linearGradient id="gm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6E48A"/><stop offset=".5" stop-color="#D4AF37"/><stop offset="1" stop-color="#A5801F"/></linearGradient></defs><path d="M6 44 L44 8 L82 44" fill="none" stroke="url(#gm)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 44 L44 22 L66 44" fill="none" stroke="url(#gm)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="39" y="30" width="10" height="10" rx="1.5" fill="url(#gm)"/><path d="M2 54 H86" stroke="url(#gm)" stroke-width="2" stroke-linecap="round" opacity=".7"/></svg>
+      <span><span class="word"><span class="chrome">BEYOND</span><span class="vas">VAs</span></span><span class="tag">Bilingual virtual assistants</span></span>
+    </a>
+    <nav class="navlinks" id="navlinks" aria-label="Site">
+      <a href="#roles">What your VA does</a>
+      <a href="#pricing">What's included</a>
+      <a href="#how">How it works</a>
+      <a href="#guarantee">Guarantee</a>
+      <a href="#faq">FAQ</a>
+      <a href="#apply" class="va">For VAs · <span lang="es">Aplica aquí</span></a>
+    </nav>
+    <div class="navcta">
+      <a class="btn btn-gold btn-sm" href="#book">Book a call</a>
+      <button class="menubtn" id="menubtn" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">A Beyond company · Talent in Honduras and across Latin America · English + Spanish</div>
+      <h1><span class="chrome">A bilingual, sales-trained assistant for a fraction of a US hire.</span> <span class="gold">Tracked. Trained. Guaranteed.</span></h1>
+      <p class="lead"><strong>BeyondVAs finds, trains, tracks and pays a bilingual assistant or inside sales agent for your real estate business.</strong> You hand off the busywork. You keep the appointments.</p>
+      <div class="ctas">
+        <a class="btn btn-gold" href="#book">Book a 15-minute call</a>
+        <a class="btn btn-ghost" href="#roles">See what your VA will do</a>
+      </div>
+      <div class="proof">
+        <span>One-time setup, then tracked hours only</span><span>Available for all US time zones</span><span>90-day fit guarantee</span><span>9-month replacement</span><span>Screenshots about every 2 minutes</span><span>Cancel with two weeks' notice</span>
+      </div>
+    </div>
+    <div class="dash" role="group" aria-label="Example of the client view">
+      <span class="badge-ex">Example dashboard</span>
+      <div class="top">
+        <div class="who"><div class="avatar">MR</div><div><div class="name">María R.</div><div class="role">ISA · Inside Sales Agent · San Pedro Sula</div></div></div>
+        <span class="live"><i></i>Clocked in 8:00 AM</span>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><b class="num">6h 50m</b><span>Today</span></div>
+        <div class="kpi"><b class="num">2h 10m</b><span>On calls</span></div>
+        <div class="kpi"><b class="num">164</b><span>Dials</span></div>
+        <div class="kpi"><b class="num" style="color:var(--gold-2)">3</b><span>Appts set</span></div>
+      </div>
+      <div class="shots" role="img" aria-label="Example screenshots taken at random intervals">
+        <div class="shot s1"><em>3:02 PM</em></div><div class="shot s2"><em>3:03 PM</em></div><div class="shot s3"><em>3:07 PM</em></div><div class="shot s4"><em>3:08 PM</em></div>
+        <div class="shot s2"><em>3:12 PM</em></div><div class="shot s4"><em>3:13 PM</em></div><div class="shot s1"><em>3:17 PM</em></div><div class="shot s3"><em>3:19 PM</em></div>
+      </div>
+      <div class="foot"><span>Your view. Your VA's screen, up to 30 random captures an hour.</span><span>This week: <b class="num">38h 20m</b> tracked</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats" aria-label="Why response time matters">
+  <div class="wrap">
+    <div class="stat"><b class="gold">73%</b><p>of phone inquiries to large real estate brokerages got no follow-up within 24 hours. The agents were busy. Your VA is not.</p><small><a href="https://www.piedpiperpsi.com/press/press-release-more-than-two-thirds-of-real-estate-inquiries-fail-to-connect-with-an-agent-pied-piper-study-finds-548.htm" target="_blank" rel="noopener">Pied Piper study of 2,198 inquiries, 2026</a></small></div>
+    <div class="stat"><b class="gold">7x</b><p>more likely to qualify a lead when you call back within the hour than when you wait even one hour more.</p><small><a href="https://hbr.org/2011/03/the-short-life-of-online-sales-leads" target="_blank" rel="noopener">Harvard Business Review, 2011 (nearly 7x, 1.25 million leads across industries)</a></small></div>
+    <div class="stat"><b class="gold">50%</b><p>of a typical Realtor's business comes from repeat clients and referrals. Care calls are how you keep it.</p><small><a href="https://www.nar.realtor/news/economists-outlook/the-feature-sheet-2026-member-profile" target="_blank" rel="noopener">NAR 2026 Member Profile: 28% repeat, 22% referral</a></small></div>
+    <div class="stat"><b class="gold">43%</b><p>is what benefits, including payroll taxes, add on top of wages for a US private-industry employee, before recruiting, turnover and a desk.</p><small><a href="https://www.bls.gov/news.release/ecec.nr0.htm" target="_blank" rel="noopener">Derived from US Bureau of Labor Statistics, June 2026 (benefits are 30% of total compensation)</a></small></div>
+  </div>
+</section>
+
+<!-- BOTTLENECK -->
+<section class="section" id="bottleneck">
+  <div class="wrap twocol">
+    <div>
+      <div class="eyebrow">The real cost</div>
+      <h2 class="h2">You are the most expensive admin <span class="gold">in your office.</span></h2>
+    </div>
+    <div>
+      <p class="lead">Count the hours you spent last week on CRM entry, listing input, scheduling, confirmations and follow-up. Put a price on each one. A BeyondVA does that work for a fraction of a US hire, and every one of those hours is an hour you were not listing, showing or negotiating. That is the real cost.</p>
+      <p class="lead"><strong>Every big team started with one assistant.</strong> That hire gave the team leader the hours to build it. We built BeyondVAs so that first hire is cheap to try and easy to undo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- IMAGINE -->
+<section class="section imagine" id="imagine">
+  <div class="wrap">
+    <div class="eyebrow">What changes the day your VA clocks in</div>
+    <h2 class="h2">Imagine your next repetitive task. <span class="gold">Now imagine you never did it again.</span></h2>
+    <p class="lead">Every line below is a task a BeyondVA is trained to take over, starting with the ones we hand off in our own real estate business. Pick the ones eating your week.</p>
+    <div class="grid">
+      <div class="im"><b>Imagine</b><span>every new lead gets a <strong>call back in under five minutes</strong>, even while you are in a showing.</span></div>
+      <div class="im"><b>Imagine</b><span>opening your calendar on Monday and finding <strong>six appointments you did not set</strong>.</span></div>
+      <div class="im"><b>Imagine</b><span>every call, text and DM answered, so your <strong>response time is unbeatable</strong>.</span></div>
+      <div class="im"><b>Imagine</b><span>your past clients hearing from your team <strong>every quarter</strong>, so you stay the agent they recommend.</span></div>
+      <div class="im"><b>Imagine</b><span>the listing goes live with photos, description, MLS input and flyers done, and <strong>you never opened your laptop</strong>.</span></div>
+      <div class="im"><b>Imagine</b><span>your CRM <strong>clean, tagged and followed up on</strong>, every single day.</span></div>
+      <div class="im"><b>Imagine</b><span>your <strong>database of 2,000 past clients and sphere contacts called this month</strong>. Not just the hot ones.</span></div>
+      <div class="im"><b>Imagine</b><span>expireds and FSBOs <strong>followed up every morning</strong>, where your state allows it, before you finish your coffee.</span></div>
+      <div class="im"><b>Imagine</b><span>your transactions <strong>tracked from contract to close</strong> with nothing missed.</span></div>
+      <div class="im"><b>Imagine</b><span>a Spanish-speaking buyer calling your line and getting <strong>a fluent, patient answer</strong> instead of a voicemail.</span></div>
+      <div class="im"><b>Imagine</b><span>your social media <strong>posted five times a week</strong>, in English and in Spanish.</span></div>
+      <div class="im"><b>Imagine</b><span>all of it for <strong>a fraction of what one US hire costs</strong>, with none of the employer paperwork.</span></div>
+    </div>
+    <div class="close">
+      <p>One person, eight hours a day, doing it for you.</p>
+      <a class="btn btn-gold" href="#book">Get your hours back</a>
+    </div>
+  </div>
+</section>
+
+<!-- ROLES -->
+<section class="section" id="roles">
+  <div class="wrap">
+    <div class="eyebrow">What your VA does</div>
+    <h2 class="h2">Built for real estate. <span class="gold">Open to every industry.</span></h2>
+    <p class="lead">Pick your seat. These are the tasks to hand a BeyondVA in the first 30 days.</p>
+    <div class="tabs" role="tablist" aria-label="Choose your role">
+      <button class="tab" role="tab" aria-selected="true" aria-controls="r-solo" id="t-solo">Solo agent</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="r-team" id="t-team">Team leader</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="r-broker" id="t-broker">Broker / owner</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="r-pm" id="t-pm">Property manager</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="r-inv" id="t-inv">Investor / wholesaler</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="r-lend" id="t-lend">Lender / title / insurance</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="r-any" id="t-any">Any other business</button>
+    </div>
+
+    <div class="panel" role="tabpanel" id="r-solo" aria-labelledby="t-solo">
+      <div><h3>Your first hire, with the hiring risk on us.</h3><p class="why">You are the bottleneck. One VA takes 20 to 40 hours of admin and follow-up off your desk every week, for a fraction of a US hire.</p></div>
+      <ul class="tasks">
+        <li>Speed-to-lead calls and texts on every new lead, inside five minutes</li>
+        <li>Appointment setting and calendar handoff</li>
+        <li>Inbox triage, calendar and showing confirmations</li>
+        <li>CRM cleanup, tagging and daily follow-up tasks</li>
+        <li>Listing input, photo scheduling, flyers and descriptions</li>
+        <li>Social posts five days a week, English and Spanish</li>
+        <li>Past-client care calls, reviews and referral asks</li>
+        <li>Open-house follow-up first thing the next morning</li>
+      </ul>
+    </div>
+    <div class="panel" role="tabpanel" id="r-team" aria-labelledby="t-team" hidden>
+      <div><h3>An ISA who fills your agents' calendars.</h3><p class="why">Teams win on follow-up. A sales-trained ISA dials your lead sources all day, sets appointments and sends you the numbers. A common setup is one ISA plus one Operations VA; each has its own one-time setup and its own guarantee, and you can add a seat any time.</p></div>
+      <ul class="tasks">
+        <li>ISA calling every lead source daily: portals, sphere, database, open houses</li>
+        <li>Lead routing and pond hygiene: new leads claimed in minutes, stale leads pulled back and re-worked</li>
+        <li>Appointment confirmation the day before, show-rate follow-up after</li>
+        <li>Transaction coordination from contract to close</li>
+        <li>Database reactivation and nurture campaigns</li>
+        <li>Recruiting calls and interviews scheduled for the team leader</li>
+        <li>Agent onboarding paperwork and checklists</li>
+        <li>Event and open-house logistics, vendor coordination</li>
+        <li>CRM automations, tags and pipeline hygiene</li>
+      </ul>
+    </div>
+    <div class="panel" role="tabpanel" id="r-broker" aria-labelledby="t-broker" hidden>
+      <div><h3>Recruit, retain and run the office for a fraction of a US hire.</h3><p class="why">Brokerages lose agents to slow onboarding and silent phones. A BeyondVA answers every call, chases every file, and makes recruiting calls every afternoon.</p></div>
+      <ul class="tasks">
+        <li>Recruiting calls and appointment setting with agents</li>
+        <li>Agent onboarding and compliance file checks</li>
+        <li>Office phones, voicemail and inbox in English and Spanish</li>
+        <li>Newsletter, social and listing marketing</li>
+        <li>Reviews, reputation and Google Business Profile updates</li>
+        <li>Bookkeeping support: invoices, receipts, commission disbursement prep</li>
+        <li>Listing syndication and MLS compliance checks</li>
+        <li>Training calendar and sales-meeting logistics</li>
+      </ul>
+    </div>
+    <div class="panel" role="tabpanel" id="r-pm" aria-labelledby="t-pm" hidden>
+      <div><h3>Every tenant call answered. In both languages.</h3><p class="why">Property management is a phone business. A bilingual VA handles intake, dispatch and reminders so your team manages properties instead of voicemail.</p></div>
+      <ul class="tasks">
+        <li>Tenant calls, emails and texts in English and Spanish</li>
+        <li>Maintenance request intake and vendor dispatch</li>
+        <li>Rent reminders and ledger follow-up</li>
+        <li>Lease renewals and document preparation</li>
+        <li>Vacancy listings and showing scheduling</li>
+        <li>Move-in and move-out coordination</li>
+        <li>Owner statement preparation</li>
+        <li>HOA, utility and vendor coordination</li>
+      </ul>
+    </div>
+    <div class="panel" role="tabpanel" id="r-inv" aria-labelledby="t-inv" hidden>
+      <div><h3>A caller who works your lists every day.</h3><p class="why">Deals come from volume and follow-up. Your VA pulls lists, dials, texts, qualifies sellers and keeps your pipeline current.</p></div>
+      <ul class="tasks">
+        <li>Calling your DNC-scrubbed seller lists with your scripts</li>
+        <li>Skip tracing and list building for your approved campaigns</li>
+        <li>Seller lead qualification and callback scheduling</li>
+        <li>Comps pulled and offers prepared for your review</li>
+        <li>Buyer list updates and disposition outreach</li>
+        <li>CRM and deal pipeline upkeep</li>
+        <li>Contractor and inspection scheduling</li>
+        <li>Data entry and reporting</li>
+      </ul>
+    </div>
+    <div class="panel" role="tabpanel" id="r-lend" aria-labelledby="t-lend" hidden>
+      <div><h3>Documents chased. Agents updated. Borrowers answered.</h3><p class="why">Lenders, escrow, title and insurance offices run on status updates. A VA keeps every file moving and every partner informed. Licensed activities such as quoting rates, taking applications or giving advice stay with your licensed staff.</p></div>
+      <ul class="tasks">
+        <li>Borrower document collection and reminders</li>
+        <li>Status updates to agents and clients</li>
+        <li>Pre-approval and consultation appointment setting</li>
+        <li>CRM nurture for past clients and referral partners</li>
+        <li>Closing coordination and checklist tracking</li>
+        <li>Spanish-speaking client support</li>
+        <li>Referral partner outreach and follow-up</li>
+        <li>Policy data entry and renewal reminders (no quoting)</li>
+      </ul>
+    </div>
+    <div class="panel" role="tabpanel" id="r-any" aria-labelledby="t-any" hidden>
+      <div><h3>If it happens on a phone or a screen, your VA can do it.</h3><p class="why">Law offices, contractors, insurance agencies, e-commerce stores and service businesses can use a BeyondVA the same way: dedicated, bilingual, tracked, guaranteed.</p></div>
+      <ul class="tasks">
+        <li>Phones, customer service and appointment setting</li>
+        <li>Order, inventory and scheduling admin</li>
+        <li>Bookkeeping support and invoicing</li>
+        <li>Social media, email marketing and content</li>
+        <li>Research, data entry and reporting</li>
+        <li>Bilingual customer care and intake</li>
+        <li>Outbound follow-up calls from your scripts, within your industry's licensing rules</li>
+        <li>Executive assistant work: inbox, calendar, travel</li>
+      </ul>
+    </div>
+
+    <div class="carecard">
+      <div class="heart" aria-hidden="true"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#15110A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></div>
+      <div><h3>The Care VA: someone who checks in on every closed client.</h3><p>Home anniversaries, birthdays, "how is the house treating you," review requests, referral asks. Your past clients hear from your team every quarter, so you stay the only agent they recommend.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="wrap">
+    <div class="eyebrow">What's included</div>
+    <h2 class="h2">Three roles. One simple rate per VA. <span class="gold">Pricing on your call.</span></h2>
+    <p class="lead">You pay a one-time setup, then tracked hours only. Training, management, monitoring, reports and payroll are inside the rate. We share exact rates on a 15-minute call; they are the same for every client and a fraction of a US hire.</p>
+    <div class="tiers">
+      <div class="card tier">
+        <h3>Admin VA</h3>
+        <div class="price"><span class="quote-line">Rate shared on your call</span></div>
+        <p class="for">Your inbox, calendar, CRM and paperwork, handled every day.</p>
+        <ul><li>Inbox and calendar management</li><li>CRM cleanup and daily follow-up tasks</li><li>Data entry and listing paperwork</li><li>Showing confirmations by text and email</li><li>Social posts and basic Canva</li><li>Spanish and English email and chat support</li></ul>
+        <a class="btn btn-ghost" href="#book">Start with an Admin VA</a>
+      </div>
+      <div class="card tier">
+        <h3>Operations VA</h3>
+        <div class="price"><span class="quote-line">Rate shared on your call</span></div>
+        <p class="for">A coordinator who runs your deals, your listings and your marketing.</p>
+        <ul><li>Transaction coordination, contract to close</li><li>Listing coordination: MLS, photos, showings, feedback</li><li>Marketing calendar, Canva, newsletters</li><li>Past-client care calls and reviews</li><li>Vendor and showing coordination</li><li>Weekly reporting</li></ul>
+        <a class="btn btn-ghost" href="#book">Start with an Operations VA</a>
+      </div>
+      <div class="card tier hot">
+        <span class="pill">For teams with lead flow</span>
+        <h3>ISA · Inside Sales Agent</h3>
+        <div class="price"><span class="quote-line">Rate shared on your call</span></div>
+        <p class="for">A sales-trained caller who works your leads all day and fills your calendar.</p>
+        <ul><li>Speed-to-lead on every new lead</li><li>Outbound calls to your database, sphere and portal leads from DNC-scrubbed lists</li><li>Expired and FSBO follow-up where your state allows it, with your approved scripts</li><li>Appointment setting and calendar handoff</li><li>Long-term nurture and reactivation</li><li>Daily call and appointment report</li></ul>
+        <p class="for" style="min-height:0">Best when you have 100 or more new leads a month or a large database to work. Fewer than that? Start with an Operations VA and add calling hours.</p>
+        <a class="btn btn-gold" href="#book">Start with an ISA</a>
+      </div>
+    </div>
+    <div class="incl">
+      <div class="card">
+        <div class="big gold">One-time setup</div>
+        <h4>Charged once per VA, when you sign</h4>
+        <ul><li>Recruiting, interviews and vetting</li><li>BeyondVAs onboarding training</li><li>Clock-in and screenshot tracking account</li><li>Your own access to hours and screenshots</li><li>Billing setup: one invoice, we pay your VA</li><li>Kickoff with a BeyondVAs manager</li></ul>
+      </div>
+      <div class="card">
+        <div class="big chrome">Every hour</div>
+        <h4>Included in your hourly rate, for life</h4>
+        <ul><li>Monthly training for your VA</li><li>Management check-ins and coaching</li><li>Screenshots about every 2 minutes</li><li>Accurate hourly reports</li><li>Cancel with two weeks' notice</li><li>No payroll, no transfers, no employer paperwork</li></ul>
+      </div>
+    </div>
+    <p class="fine">Minimum 20 hours a week. We recommend 40. The one-time setup is charged when you sign, before we schedule your interviews. We bill every two weeks in advance to the card or bank account on file, then adjust to the hours actually tracked. You supply seats in the tools you already use (CRM, phone system, email). No minimum term: cancel with two weeks' notice. Rates are by role, the same for every client, and shared on your call. Outbound prospecting is set up only where your state's license law permits it and after you sign our telemarketing compliance addendum (Do-Not-Call-scrubbed lists, approved scripts, manual dialing, legal calling hours).</p>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<section class="section" id="math">
+  <div class="wrap">
+    <div class="eyebrow">Do the math</div>
+    <h2 class="h2">What a US hire really costs you.</h2>
+    <p class="lead">A US admin or ISA costs wages plus payroll taxes, benefits, equipment and turnover. Move the sliders to your market, then ask us for the BeyondVA number on your call.</p>
+    <div class="calc">
+      <div class="card">
+        <div class="field"><label for="hours">Hours per week <output id="hoursOut" class="num">40</output></label><input type="range" id="hours" min="20" max="40" step="5" value="40"></div>
+        <div class="field"><label for="tier">Role you would hire</label><select id="tier"><option value="admin">Admin assistant</option><option value="ops">Operations or transaction coordinator</option><option value="isa" selected>Inside sales agent (ISA)</option></select></div>
+        <div class="field"><label for="wage">US hourly wage you would pay <output id="wageOut" class="num">$21</output></label><input type="range" id="wage" min="15" max="40" step="1" value="21"></div>
+        <div class="field"><label for="burden">Payroll taxes and benefits on top <output id="burdenOut" class="num">43%</output></label><input type="range" id="burden" min="20" max="60" step="1" value="43"></div>
+        <div class="field"><label for="comm">Your average commission per closing <output id="commOut" class="num">$9,000</output></label><input type="range" id="comm" min="3000" max="25000" step="1000" value="9000"></div>
+      </div>
+      <div class="card">
+        <div class="result">
+          <div class="res"><span>US hire, per month</span><b class="num" id="usMonth">$7,430</b></div>
+          <div class="res big cost"><span>US hire, per year</span><b class="num" id="usYear">$89,160</b></div>
+          <div class="res"><span>Closings per year just to cover that hire</span><b class="num" id="deals">9.9</b></div>
+          <div class="res gold-line"><span>A BeyondVA runs a fraction of this. We put your exact number in front of you on the call.</span></div>
+        </div>
+        <p class="note">Monthly figures use 4.33 weeks. Defaults: $21 is the average advertised wage for a US real estate assistant and $30 a rough US inside-sales base (<a href="https://www.indeed.com/salaries/Real-Estate-Assistant-Salaries" target="_blank" rel="noopener">Indeed, October 2026</a>); 43% is what benefits add on top of wages for US private-industry employees (<a href="https://www.bls.gov/news.release/ecec.nr0.htm" target="_blank" rel="noopener">BLS, June 2026</a>). The US cost leaves out recruiting, turnover and office space.</p>
+        <div class="cta"><a class="btn btn-gold" href="#book">Book a 15-minute call</a><p>Bring these numbers. If a VA does not pay for itself in your market, we will say so.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section class="section" id="compare">
+  <div class="wrap">
+    <div class="eyebrow">The honest comparison</div>
+    <h2 class="h2">Three ways to get help. <span class="gold">One of them is low-risk.</span></h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th scope="col">What you deal with</th><th scope="col">US employee</th><th scope="col">Freelancer you find yourself</th><th scope="col" class="you">BeyondVA</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Hourly cost</th><td class="meh">About $21 average wage, plus about 43% in benefits and taxes</td><td class="meh">You negotiate it; rates vary widely</td><td class="you">A fraction of a US hire, with training, tracking and management included; exact rate on your call</td></tr>
+          <tr><th scope="row">Payroll taxes, workers' comp, benefits</th><td class="meh">You carry them</td><td class="meh">None, but you are on your own</td><td class="you">None to administer. Your VA is engaged and paid through BeyondVAs.</td></tr>
+          <tr><th scope="row">Recruiting and vetting</th><td class="meh">Weeks of your time</td><td class="meh">Hours of your time, every time</td><td class="you">Done before you meet them</td></tr>
+          <tr><th scope="row">Training</th><td class="meh">You train them</td><td class="meh">You train them</td><td class="you">Trained before day one, plus monthly for life</td></tr>
+          <tr><th scope="row">Knowing they are working</th><td class="meh">Walk by their desk</td><td class="meh">Trust</td><td class="you">Screenshots about every 2 minutes, hourly reports, your own report access</td></tr>
+          <tr><th scope="row">Time zone</th><td class="meh">Yours</td><td class="meh">Varies, often overnight</td><td class="you">Matched to your hours: Pacific, Mountain, Central or Eastern</td></tr>
+          <tr><th scope="row">If they quit</th><td class="meh">Start over, pay again</td><td class="meh">Start over</td><td class="you">Replaced free for 9 months</td></tr>
+          <tr><th scope="row">Paying them</th><td class="meh">Payroll service and filings</td><td class="meh">Wires, PayPal, Western Union fees</td><td class="you">One invoice. We pay your VA.</td></tr>
+          <tr><th scope="row">Bilingual</th><td class="meh">Sometimes</td><td class="meh">Sometimes</td><td class="you">Always, English and Spanish</td></tr>
+          <tr><th scope="row">Trained for sales calls</th><td class="meh">Rarely</td><td class="meh">Rarely</td><td class="you">Scripts, role-play and mock calls before placement</td></tr>
+          <tr><th scope="row">Who manages them</th><td class="meh">You</td><td class="meh">You</td><td class="you">A BeyondVAs manager, with you</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="eyebrow">How it works</div>
+    <h2 class="h2">From first call to clocked in, <span class="gold">in about two weeks.</span></h2>
+    <div class="steps">
+      <div class="card step"><h3>Book a 15-minute call</h3><p>Tell us the five tasks you want gone first. We map the role, the hours, your lead flow and the tools you already use.</p><em>Today</em></div>
+      <div class="card step"><h3>Sign, then meet your candidates</h3><p>Sign the services agreement and pay the one-time setup, then meet two or three pre-vetted, trained VAs on 20-minute video interviews. You choose.</p><em>3 to 5 business days</em></div>
+      <div class="card step"><h3>We set everything up</h3><p>Tracking account, your report access, billing, and secure access to your tools through a password vault.</p><em>Setup week</em></div>
+      <div class="card step"><h3>Day one, with a manager</h3><p>A BeyondVAs manager runs the kickoff, sets week-one priorities, and checks in at days 5, 14 and 30.</p><em>Then weekly reports</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section class="section" id="system">
+  <div class="wrap">
+    <div class="eyebrow">What is inside the rate</div>
+    <h2 class="h2">The three things that make a VA actually work.</h2>
+    <p class="lead">Most VA stories fail for the same reasons: nobody tracked, nobody trained, nobody managed. We built the company around those three.</p>
+    <div class="pillars">
+      <div class="card pillar">
+        <div class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h3>Tracked about every two minutes</h3>
+        <p>Your VA clocks in and out. Their screen is captured at random intervals, up to 30 times an hour, and you get your own access to the hours, activity scores and screenshots. Activity is scored from keyboard and mouse use, so for ISAs we read it next to your dialer's call log: a VA on a 20-minute call looks idle to a tracker and is not.</p>
+        <ul><li>Accurate hourly reports every week</li><li>Unexplained idle time is flagged and reviewed before you are billed</li><li>After the one-time setup, you pay for tracked hours only</li></ul>
+      </div>
+      <div class="card pillar">
+        <div class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V6l8-3 8 3v13"/><path d="M4 19h16M9 19v-5h6v5"/></svg></div>
+        <h3>Trained before day one, and every month after</h3>
+        <p>Scripts, objection handling, mock calls, CRM habits, real estate vocabulary, and what an unlicensed assistant can and cannot say.</p>
+        <ul><li>Onboarding academy before placement</li><li>Monthly training for life, included</li><li>Coaching from client feedback</li></ul>
+      </div>
+      <div class="card pillar">
+        <div class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div>
+        <h3>One invoice. We pay your VA.</h3>
+        <p>No Western Union, no PayPal fees, no wires, no exchange-rate guesswork. You pay BeyondVAs in two-week blocks, trued up to tracked hours. We pay your VA on time, every time.</p>
+        <ul><li>Card or bank account on file</li><li>Hours reviewed by a manager before billing</li><li>Full accountability, both directions</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section class="section guar" id="guarantee">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center">The guarantee</div>
+    <h2 class="h2">The lowest-risk hire <span class="gold">you will ever make.</span></h2>
+    <p class="lead">Hiring is scary because a bad hire costs you twice. Here, the hiring risk is ours: if your VA is not working out or leaves, we replace them at no new setup fee.</p>
+    <div class="seals">
+      <div class="card seal"><b class="gold">90 days</b><h3>Fit guarantee</h3><p>If your VA is not the right fit in the first 90 days, we coach first, and if it is still not right we present replacement candidates within ten business days. No new setup fee, and the next VA studies your SOPs before day one.</p></div>
+      <div class="card seal"><b class="gold">9 months</b><h3>Replacement guarantee</h3><p>If your VA leaves for any reason within nine months, we replace them free. Your SOPs, tool access and tracking reports stay in place, so the new VA picks up where the last one left off.</p></div>
+    </div>
+    <p class="seals-note">Both are replacement guarantees under your services agreement: a free replacement with no new setup fee, not a refund of hours worked, for accounts in good standing. The nine months run from your first VA's start date.</p>
+    <p class="also">After the one-time setup, you pay for tracked hours only.</p>
+    <div class="after-cta" style="justify-content:center"><a class="btn btn-gold" href="#book">Book a 15-minute call</a></div>
+  </div>
+</section>
+
+<!-- CARRY -->
+<section class="section" id="carry">
+  <div class="wrap">
+    <div class="eyebrow">What you never have to carry</div>
+    <h2 class="h2">Everything a hire usually costs you, <span class="gold">except the work.</span></h2>
+    <div class="carry">
+      <div class="card no"><b>Payroll taxes</b><p>No employer FICA, no quarterly filings, no W-2s.</p></div>
+      <div class="card no"><b>Workers' comp</b><p>No policy to buy, no claims to manage.</p></div>
+      <div class="card no"><b>Health benefits</b><p>No plans, no enrollment, no renewals.</p></div>
+      <div class="card no"><b>Unemployment claims</b><p>No state unemployment account or claims.</p></div>
+      <div class="card no"><b>Office and equipment</b><p>Your VA works from a vetted home office with their own computer.</p></div>
+      <div class="card no"><b>HR paperwork</b><p>Agreements, confidentiality and onboarding are handled by BeyondVAs.</p></div>
+      <div class="card no"><b>International transfers</b><p>No wires, no transfer apps, no exchange rates. One invoice.</p></div>
+      <div class="card no"><b>Recruiting fees</b><p>Sourcing, vetting and interviews are inside the one-time setup.</p></div>
+    </div>
+    <p class="carrynote">Your VA is an independent professional engaged and paid through BeyondVAs. You direct the work; we carry the relationship, the agreements, the monitoring and the payments. You keep what every business keeps: your own licensing, calling-consent and client-data responsibilities. We train your VA on all three.</p>
+  </div>
+</section>
+
+<!-- WHO -->
+<section class="section" id="who">
+  <div class="wrap">
+    <div class="eyebrow">Who answers your phone</div>
+    <h2 class="h2">Vetted at home, <span class="gold">on video.</span></h2>
+    <div class="who">
+      <div>
+        <p class="lead">Before a VA ever meets you, our recruiting team has been inside their home office on video and tested everything that makes remote work fail.</p>
+        <div class="traits"><span>Sales-call trained</span><span>Native Spanish</span><span>Clear, confident English</span><span>Available for all US time zones</span><span>Tech savvy</span><span>Respectful</span><span>Career-minded</span><span>Long-term intent</span></div>
+        <div class="quote"><h4>Why Latin America</h4>Our VAs are in Honduras and across Latin America, within a few hours of every US market, so we match your VA to your business hours, Pacific to Eastern, with no night shift and no twelve-hour lag. They sound like a professional in English and like family in Spanish.</div>
+      </div>
+      <ul class="checks">
+        <li><b>Internet</b><span>Speed-tested on video, with a backup connection for outages</span></li>
+        <li><b>Home office</b><span>Private, quiet room; noise-cancelling headset; we have seen it</span></li>
+        <li><b>Computer</b><span>Modern machine with webcam; specs verified by screenshot</span></li>
+        <li><b>Power</b><span>Battery backup or laptop with hours of battery, plus an outage plan</span></li>
+        <li><b>Lifestyle</b><span>Available for your full US business-hours schedule, a reliable routine, long-term intent</span></li>
+        <li><b>Skills</b><span>Typing, written English, a mock sales call and a CRM task</span></li>
+        <li><b>Background</b><span>ID, references from recent employers, police record certificate</span></li>
+        <li><b>Training</b><span>BeyondVAs onboarding academy, certified before placement</span></li>
+      </ul>
+    </div>
+    <ul class="inds" aria-label="Industries we serve">
+      <li>Real estate agents and teams</li><li>Brokerages</li><li>Property management</li><li>Investors and wholesalers</li><li>Mortgage, escrow and title</li><li>Insurance agencies</li><li>Law offices</li><li>Contractors and home services</li><li>E-commerce and service businesses</li>
+    </ul>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="section" id="story">
+  <div class="wrap twocol">
+    <div>
+      <div class="eyebrow">Why we built this</div>
+      <h2 class="h2">We run our own real estate business on VAs we recruited and trained <span class="gold">in Latin America, the same way.</span></h2>
+    </div>
+    <div>
+      <p class="lead">BeyondVAs comes from Beyond Estates, a real estate team in California's Antelope Valley. We hired bilingual assistants in Honduras for ourselves first, and we built the vetting, training, tracking and payment system because we needed it. Our recruiting team, led from Honduras, now screens and prepares VAs across Latin America.</p>
+      <p class="lead">Beyond Estates is our sister company. We are new as a company, and small on purpose: we onboard about five new clients a month so every VA is trained properly and every kickoff has a manager on the call. <strong>Our first clients get founder-level attention.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="eyebrow">Questions agents ask us</div>
+    <h2 class="h2" style="text-align:center">Everything you are wondering, answered.</h2>
+    <div class="faq">
+      <details><summary>Will my clients notice an accent?</summary><p>Our VAs are screened on video for clear, confident English, and we recruit from US-facing call centers. Your clients hear a professional. In Spanish, they hear a native speaker, which helps you win the Spanish-speaking leads other agents send to voicemail.</p></details>
+      <details><summary>What time zone are they in?</summary><p>Yours. Our VAs are in Central America and across Latin America, between one hour behind and two hours ahead of US Central Time, so we match a VA to your schedule whether you are on Pacific, Mountain, Central or Eastern time. Your VA clocks in and out on your clock.</p></details>
+      <details><summary>What does a VA cost?</summary><p>We share exact rates on a 15-minute call. Rates are by role and the same for every client; there is one one-time setup per VA, and after that you pay for tracked hours only. The number is a fraction of a US hire once payroll taxes and benefits are counted, and the calculator above shows what that hire costs you.</p></details>
+      <details><summary>How do I know they are actually working?</summary><p>Your VA clocks in and out, their screen is captured about every two minutes, activity is scored, and you get your own access to the hours and screenshots. Idle time pauses the clock. You pay for tracked hours only.</p></details>
+      <details><summary>I cannot afford it right now.</summary><p>A BeyondVA costs a fraction of a US hire, with no payroll taxes, benefits or desk on top, and you pay for tracked hours only from a 20-hour-a-week minimum. Add up the hours you spent last week on CRM entry, listing input, scheduling and follow-up, then ask what those hours would have been worth on appointments. We put the exact number in front of you on the call, and if it does not pay for itself in your market, we will say so.</p></details>
+      <details><summary>How is my client data protected?</summary><p>Every VA signs a confidentiality agreement. Access is granted through a password vault, so passwords are never shared in text, and we revoke access the day a VA leaves and confirm it in writing. VAs work inside your systems and are contractually barred from downloading or exporting client data. Screenshots are stored by our tracking vendor for a limited period and are visible only to you and your BeyondVAs manager, who reviews each week's hours before you are billed. You own every account.</p></details>
+      <details><summary>Can an unlicensed assistant make calls for me?</summary><p>It depends on your state's rules for unlicensed assistants, and we set your VA's scope to match them. In every state your VA can answer calls, confirm and arrange appointments, relay facts you have already advertised, call your past clients, and do admin. A few states allow more under broker supervision; Texas, for example, does not let an unlicensed assistant call anyone to find out whether they want to buy, sell or lease, even to book a follow-up. Your VA never negotiates, discusses price or terms, or acts as an agent. Do-Not-Call, consent, calling-hour and call-recording rules apply to every call made on your behalf, so compliance is a shared job: you supply scrubbed lists and approve every script; your ISA dials manually, inside legal hours, and honors every opt-out. We confirm your state's rules with you before any outbound work. This is general information, not legal advice.</p></details>
+      <details><summary>Will my clients know I use a VA?</summary><p>Only if you want them to. Your VA works from your email domain and your phone system and introduces themselves as your assistant, working on your behalf. What clients notice is that someone answers, and that Spanish-speaking clients get called back in Spanish.</p></details>
+      <details><summary>Can I hire more than one VA?</summary><p>Yes. Each VA has its own one-time setup, its own tracking and its own 90-day and 9-month guarantees. One BeyondVAs manager coordinates the group and you get one invoice.</p></details>
+      <details><summary>How fast will an ISA produce?</summary><p>Weeks one and two are your scripts, your CRM and your lead sources. Most ISAs set their first appointments in weeks two to four and reach a steady pace by month three. We set dial and conversation targets with you in week one and report them every week. We do not guarantee appointments.</p></details>
+      <details><summary>What if my VA quits?</summary><p>We replace them free within nine months, and the new VA studies your SOPs before day one. Your tracking reports, tool access and process documents stay in place.</p></details>
+      <details><summary>What if it is not a good fit?</summary><p>That is what the 90-day guarantee is for. Tell your BeyondVAs manager, we coach first, and if it is still not right we present replacement candidates within ten business days at no new setup fee.</p></details>
+      <details><summary>I tried a VA before and it did not work.</summary><p>Almost every failed VA story has the same three gaps: no training, no tracking, no manager. BeyondVAs provides all three, which is why the hourly rate includes them.</p></details>
+      <details><summary>I do not have time to train someone.</summary><p>Less than you think, but not zero. Your VA arrives trained on real estate vocabulary, phone scripts and common CRMs. What only you can give them is how your business runs: plan on a few hours in week one, which is a kickoff call, screen-sharing your top five tasks, and a ten-minute daily check-in. Your VA records each process into a short video and checklist as you show it, so you explain it once. Our manager runs the kickoff and checks in at days 5, 14 and 30.</p></details>
+      <details><summary>I am not big enough for an assistant yet.</summary><p>Nobody feels big enough until after they hire help. Ask a team leader when they hired their first assistant and the usual answer is "later than I should have." Start at 20 hours a week and grow the schedule as the business grows.</p></details>
+      <details><summary>Do I have to commit to 40 hours?</summary><p>The minimum is 20 hours a week. We recommend 40: a full-time VA learns your business faster and stays longer.</p></details>
+      <details><summary>What do I need to provide?</summary><p>Seats in the tools you already use: a CRM login (Follow Up Boss, kvCORE, Sierra, BoldTrail, Lofty or similar), a calling seat in your CRM dialer or phone system, and an email address on your domain. If you have no dialer, we recommend one on the call. We handle recruiting, training, tracking, management and payment.</p></details>
+      <details><summary>What does the one-time setup cover?</summary><p>Recruiting and vetting, onboarding training, the tracking account, your own access to hours and screenshots, billing setup, and the kickoff with a BeyondVAs manager. It is charged once per VA, when you sign, and we share the amount on your call.</p></details>
+      <details><summary>Why Latin America instead of the Philippines?</summary><p>Your time zone (we staff Pacific, Mountain, Central and Eastern hours), native Spanish for your bilingual market, strong US call-center culture, and no twelve-hour offset. Your VA is awake when your clients are.</p></details>
+      <details><summary>How fast can I start?</summary><p>Interviews within three to five business days, and your VA is clocked in on your systems in about two weeks.</p></details>
+      <details><summary>I am not in real estate. Can I still hire?</summary><p>Yes. We started with real estate because that is where we come from, and the same VAs run phones, admin, marketing and customer care for any business.</p></details>
+    </div>
+    <div class="faq-cta"><p>Still have a question? Ask it on the call.</p><a class="btn btn-gold" href="#book">Book a 15-minute call</a></div>
+  </div>
+</section>
+
+<!-- BOOK -->
+<section class="section book" id="book">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Book your call</div>
+      <h2 class="h2">Fifteen minutes. <span class="gold">Then your hours come back.</span></h2>
+      <p class="lead">Tell us what is eating your week. We will match the role, the hours and the candidates, and you will have interviews scheduled within three to five business days.</p>
+      <ol>
+        <li>We text you within one business day to confirm a time.</li>
+        <li>On the call: your top five tasks, your tools, your hours, and your lead flow.</li>
+        <li>Within three to five business days you meet two or three trained candidates.</li>
+      </ol>
+      <div class="alt">Prefer email? Write to <span id="emailtxt">hello@beyondvas.com</span><button class="copybtn" type="button" data-copy="hello@beyondvas.com">Copy</button> and we will send you two or three times to choose from.</div>
+    </div>
+    <div class="card formcard">
+      <h3>Request your 15-minute call</h3>
+      <p class="sub">No commitment. If a VA is not the right move for you yet, we will say so.</p>
+      <form id="bookForm" name="book-a-call" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+        <input type="hidden" name="form-name" value="book-a-call">
+        <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <div class="f2">
+          <div class="fl"><label for="b-name">Name</label><input id="b-name" name="name" type="text" required autocomplete="name"></div>
+          <div class="fl"><label for="b-email">Email</label><input id="b-email" name="email" type="email" required autocomplete="email"></div>
+        </div>
+        <div class="f2">
+          <div class="fl"><label for="b-phone">Mobile (we text to confirm)</label><input id="b-phone" name="phone" type="tel" required autocomplete="tel"></div>
+          <div class="fl"><label for="b-role">You are a</label><select id="b-role" name="role"><option>Solo agent</option><option>Team leader</option><option>Broker / owner</option><option>Property manager</option><option>Investor / wholesaler</option><option>Lender / title / insurance</option><option>Other business</option></select></div>
+        </div>
+        <div class="fl"><label for="b-first">What should your VA take off your plate first?</label><select id="b-first" name="first_task"><option>ISA calls and appointment setting</option><option>Admin, inbox and calendar</option><option>Transaction or listing coordination</option><option>Marketing and social media</option><option>Past-client care calls</option><option>Property management phones</option><option>Not sure yet, let's talk</option></select></div>
+        <div class="fl"><label for="b-msg">Anything else (optional)</label><textarea id="b-msg" name="message" rows="2" placeholder="Tools you use, hours, start date"></textarea></div>
+        <button class="btn btn-gold" type="submit">Book my call</button>
+        <p class="consent">By submitting you agree to be contacted by BeyondVAs by phone, text or email about your request.</p>
+      </form>
+      <div class="ok" id="bookOk" role="status"><h4 tabindex="-1">Got it. We will text you within one business day.</h4><p id="bookOkP">Keep an eye on your phone. If you would rather email us, write to hello@beyondvas.com.</p><pre id="bookOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="bookCopy" hidden>Copy this request</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- VA APPLY -->
+<section class="section vas" id="apply">
+  <div class="wrap">
+    <div class="langbar">
+      <div class="eyebrow" style="margin:0">For virtual assistants · <span lang="es">Para asistentes virtuales</span></div>
+      <div class="lang" role="group" aria-label="Language"><button type="button" aria-pressed="true" data-lang="en">English</button><button type="button" aria-pressed="false" data-lang="es" lang="es">Español</button></div>
+    </div>
+    <span id="aplica"></span>
+
+    <div class="vagrid" id="va-en">
+      <div>
+        <h2 class="h2">Work with US real estate teams. <span class="gold">Get paid in dollars. Be treated like a professional.</span></h2>
+        <p class="lead">BeyondVAs places bilingual professionals from Honduras and across Latin America with real estate teams and businesses in the United States. We train you, place you, and pay you on time, every time.</p>
+        <ul class="offer">
+          <li><b>From home</b><span>100% remote from your home office, in Honduras or anywhere in Latin America, on US daytime hours. No rotating shifts, no night shifts, no commute.</span></li>
+          <li><b>USD pay</b><span>Paid in US dollars twice a month through BeyondVAs. No chasing clients for money. We tell you the exact pay range for the role on the first call, before any test.</span></li>
+          <li><b>Steady hours</b><span>Most placements are 40 hours a week on US business hours with one client; some start at 20 to 30 hours. You are paid for every tracked hour.</span></li>
+          <li><b>Training</b><span>A one-to-two-week onboarding academy before your first placement and a monthly training session for as long as you work with us, both at no cost to you.</span></li>
+          <li><b>Someone on your side</b><span>A BeyondVAs coordinator who handles the client relationship, backs you up and coaches you.</span></li>
+          <li><b>Growth</b><span>A pay review at 90 days, appointment bonuses for ISAs, and a path to team lead and trainer roles.</span></li>
+          <li><b>Respect</b><span>Our clients are real estate professionals who know your work is what grows their business.</span></li>
+        </ul>
+        <div class="contractor"><b>How it works:</b> you work with BeyondVAs as an independent contractor, not as an employee. We pay you in US dollars, we do not withhold taxes, and you are responsible for your own taxes in your country (in Honduras most VAs invoice with an RTN). We walk you through every document before you sign.</div>
+        <div class="req">
+          <h4>What you need</h4>
+          <ul>
+            <li>Fluent English (B2 or better) and native Spanish, spoken and written</li>
+            <li>Internet of at least 25 Mbps down and 5 Mbps up, plus a backup connection on another carrier</li>
+            <li>A private, quiet workspace and a noise-cancelling headset</li>
+            <li>A computer with 8 GB of RAM or more, a webcam, Windows 10/11 or macOS</li>
+            <li>A laptop with hours of battery or a UPS, plus backup power for your modem, for outages</li>
+            <li>Availability for your client's US business hours (Pacific, Mountain, Central or Eastern); we tell you the exact schedule in your local time before you accept a placement</li>
+            <li>Comfortable working with clock-in time tracking and randomized screenshots while on the clock</li>
+            <li>18 or older with a valid government ID; a criminal record certificate (antecedentes penales, or your country's equivalent) is requested only at the final stage, before placement</li>
+            <li>Customer service, call-center or sales experience is a plus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card formcard">
+        <h3>Apply now</h3>
+        <p class="sub">Takes five minutes. We reply within three business days.</p>
+        <form id="applyForm" name="va-application" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+          <input type="hidden" name="form-name" value="va-application">
+          <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="f2">
+            <div class="fl"><label for="a-name">Full name</label><input id="a-name" name="name" type="text" required autocomplete="name"></div>
+            <div class="fl"><label for="a-country">Country</label><select id="a-country" name="country" required><option value="" disabled selected>Choose your country</option><option>Honduras</option><option>El Salvador</option><option>Guatemala</option><option>Nicaragua</option><option>Costa Rica</option><option>Panama</option><option>Belize</option><option>Mexico</option><option>Dominican Republic</option><option>Colombia</option><option>Venezuela</option><option>Ecuador</option><option>Peru</option><option>Bolivia</option><option>Chile</option><option>Argentina</option><option>Paraguay</option><option>Uruguay</option><option>Other</option></select></div>
+          </div>
+          <div class="f2">
+            <div class="fl"><label for="a-city">City</label><input id="a-city" name="city" type="text" required placeholder="San Pedro Sula"></div>
+            <div class="fl"><label for="a-email">Email</label><input id="a-email" name="email" type="email" required autocomplete="email"></div>
+          </div>
+          <div class="fl"><label for="a-wa">WhatsApp number, with country code</label><input id="a-wa" name="whatsapp" type="tel" required autocomplete="tel" placeholder="+504 9999-9999"></div>
+          <div class="f2">
+            <div class="fl"><label for="a-eng">English level</label><select id="a-eng" name="english"><option>Advanced (C1+): I can run a sales call with a US client with no trouble</option><option>Upper intermediate (B2): I handle calls and emails in English every day</option><option>Intermediate (B1): I read and write well but speaking is still hard for me</option></select></div>
+            <div class="fl"><label for="a-exp">Experience</label><select id="a-exp" name="experience"><option>Call center or customer service</option><option>Sales or appointment setting</option><option>Virtual assistant or admin</option><option>Real estate</option><option>Recent graduate or first job</option><option>Other</option></select></div>
+          </div>
+          <div class="f2">
+            <div class="fl"><label for="a-speed">Internet speed: paste your speedtest.net result link, or type Mbps down / up</label><input id="a-speed" name="internet" type="text" placeholder="50 / 10" required></div>
+            <div class="fl"><label for="a-pc">Computer (RAM, processor)</label><input id="a-pc" name="computer" type="text" placeholder="8 GB, i5" required></div>
+          </div>
+          <div class="f2">
+            <div class="fl"><label for="a-avail">Availability</label><select id="a-avail" name="availability"><option>Full-time, Pacific hours</option><option>Full-time, Mountain or Central hours</option><option>Full-time, Eastern hours</option><option>Part-time, US hours</option></select></div>
+            <div class="fl"><label for="a-video">Link to a 60-second video intro, in English</label><input id="a-video" name="video" type="text" inputmode="url" autocomplete="url" placeholder="Loom, YouTube or Drive. Optional, but it lets us hear your English before the call."></div>
+          </div>
+          <div class="f2">
+            <div class="fl"><label for="a-ref">Who referred you? (optional)</label><input id="a-ref" name="referral" type="text"></div>
+            <div class="fl"><label for="a-why">Why do you want to work with US teams?</label><textarea id="a-why" name="why" rows="2" required></textarea></div>
+          </div>
+          <input type="hidden" name="lang" value="en">
+          <button class="btn btn-gold" type="submit">Send my application</button>
+          <p class="consent">By submitting you agree to be contacted by BeyondVAs by WhatsApp, phone or email about your application.</p>
+        </form>
+        <div class="ok" id="applyOk" role="status"><h4 tabindex="-1">Application received. Gracias.</h4><p id="applyOkP">Our Honduras team will reach out on WhatsApp within three business days with next steps.</p><pre id="applyOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="applyCopy" hidden>Copy this application</button></div>
+      </div>
+    </div>
+
+    <div class="vagrid" id="va-es" lang="es" hidden>
+      <div>
+        <h2 class="h2">Trabaja con equipos de bienes raíces en Estados Unidos. <span class="gold">Cobra en dólares. Trabaja con el respeto que mereces.</span></h2>
+        <p class="lead">BeyondVAs coloca a profesionales bilingües de Honduras y de toda Latinoamérica con equipos de bienes raíces y empresas en Estados Unidos. Te capacitamos, te colocamos y te pagamos puntualmente, siempre.</p>
+        <ul class="offer">
+          <li><b>Desde casa</b><span>100% remoto desde tu casa, en Honduras o en cualquier país de Latinoamérica, en horario de día de Estados Unidos. Sin turnos rotativos, sin turnos de madrugada y sin gastar en transporte.</span></li>
+          <li><b>Pago en USD</b><span>Pago en dólares dos veces al mes a través de BeyondVAs. Nunca tienes que perseguir a un cliente por tu pago. Te decimos el rango exacto de pago del rol en la primera llamada, antes de cualquier prueba.</span></li>
+          <li><b>Horas estables</b><span>La mayoría de las colocaciones son de 40 horas semanales en horario de Estados Unidos con un solo cliente; algunas empiezan con 20 a 30 horas. Se te paga cada hora registrada.</span></li>
+          <li><b>Capacitación</b><span>Academia de inducción de una a dos semanas antes de tu primera colocación y una sesión de capacitación cada mes mientras trabajes con nosotros, ambas sin costo para ti.</span></li>
+          <li><b>Alguien de tu lado</b><span>Un coordinador de BeyondVAs que lleva la relación con el cliente, te respalda y te da coaching.</span></li>
+          <li><b>Crecimiento</b><span>Revisión de pago a los 90 días, bonos por citas logradas para los ISA, y camino a roles de líder de equipo y capacitador.</span></li>
+          <li><b>Respeto</b><span>Nuestros clientes son profesionales que saben que tu trabajo es lo que hace crecer su negocio.</span></li>
+        </ul>
+        <div class="contractor"><b>Cómo funciona:</b> trabajas con BeyondVAs como contratista independiente, no como empleado. Te pagamos en dólares, no hacemos retenciones y tú te encargas de tus impuestos en tu país (en Honduras la mayoría factura con su RTN). Te explicamos cada documento antes de que firmes.</div>
+        <div class="req">
+          <h4>Lo que necesitas</h4>
+          <ul>
+            <li>Inglés fluido (B2 o más) hablado y escrito, y español nativo</li>
+            <li>Internet de al menos 25 Mbps de bajada y 5 Mbps de subida, más una conexión de respaldo con otro proveedor</li>
+            <li>Un espacio de trabajo privado y silencioso, y un headset (audífonos con micrófono) con cancelación de ruido</li>
+            <li>Computadora con 8 GB de RAM o más, cámara web, Windows 10/11 o macOS</li>
+            <li>Laptop con varias horas de batería o UPS (batería de respaldo), más respaldo para el módem, para los apagones</li>
+            <li>Disponibilidad en el horario de oficina de tu cliente en Estados Unidos (Pacífico, Montaña, Central o Este); te decimos el horario exacto en tu hora local antes de que aceptes una colocación</li>
+            <li>Cómodo trabajando con registro de horas y capturas de pantalla aleatorias mientras estás en turno</li>
+            <li>Mayor de 18 años con documento de identidad vigente; la constancia de antecedentes penales (o su equivalente en tu país) se pide solo al final del proceso, antes de la colocación, no para aplicar</li>
+            <li>Experiencia en call center, servicio al cliente o ventas es un plus</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card formcard">
+        <h3>Aplica ahora</h3>
+        <p class="sub">Toma cinco minutos. Respondemos en tres días hábiles.</p>
+        <form id="applyFormEs" name="va-application-es" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+          <input type="hidden" name="form-name" value="va-application-es">
+          <p class="hp"><label>Deja esto vacío <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="f2">
+            <div class="fl"><label for="e-name">Nombre completo</label><input id="e-name" name="name" type="text" required autocomplete="name"></div>
+            <div class="fl"><label for="e-country">País</label><select id="e-country" name="country" required><option value="" disabled selected>Elige tu país</option><option value="Honduras">Honduras</option><option value="El Salvador">El Salvador</option><option value="Guatemala">Guatemala</option><option value="Nicaragua">Nicaragua</option><option value="Costa Rica">Costa Rica</option><option value="Panama">Panamá</option><option value="Belize">Belice</option><option value="Mexico">México</option><option value="Dominican Republic">República Dominicana</option><option value="Colombia">Colombia</option><option value="Venezuela">Venezuela</option><option value="Ecuador">Ecuador</option><option value="Peru">Perú</option><option value="Bolivia">Bolivia</option><option value="Chile">Chile</option><option value="Argentina">Argentina</option><option value="Paraguay">Paraguay</option><option value="Uruguay">Uruguay</option><option value="Other">Otro</option></select></div>
+          </div>
+          <div class="f2">
+            <div class="fl"><label for="e-city">Ciudad</label><input id="e-city" name="city" type="text" required placeholder="San Pedro Sula"></div>
+            <div class="fl"><label for="e-email">Correo</label><input id="e-email" name="email" type="email" required autocomplete="email"></div>
+          </div>
+          <div class="fl"><label for="e-wa">Número de WhatsApp, con código de país</label><input id="e-wa" name="whatsapp" type="tel" required autocomplete="tel" placeholder="+504 9999-9999"></div>
+          <div class="f2">
+            <div class="fl"><label for="e-eng">Nivel de inglés</label><select id="e-eng" name="english"><option value="Advanced (C1+)">Avanzado (C1 o más): puedo manejar una llamada de ventas con un cliente estadounidense sin problema</option><option value="Upper intermediate (B2)">Intermedio alto (B2): atiendo llamadas y correos en inglés a diario</option><option value="Intermediate (B1)">Intermedio (B1): leo y escribo bien, pero hablar todavía me cuesta</option></select></div>
+            <div class="fl"><label for="e-exp">Experiencia</label><select id="e-exp" name="experience"><option value="Call center or customer service">Call center o servicio al cliente</option><option value="Sales or appointment setting">Ventas o programación de citas</option><option value="Virtual assistant or admin">Asistente virtual o administrativo</option><option value="Real estate">Bienes raíces</option><option value="Recent graduate or first job">Recién graduado o primer empleo</option><option value="Other">Otra</option></select></div>
+          </div>
+          <div class="f2">
+            <div class="fl"><label for="e-speed">Velocidad de internet: pega el enlace de tu resultado de speedtest.net, o escribe Mbps de bajada / subida</label><input id="e-speed" name="internet" type="text" placeholder="50 / 10" required></div>
+            <div class="fl"><label for="e-pc">Computadora (RAM, procesador)</label><input id="e-pc" name="computer" type="text" placeholder="8 GB, i5" required></div>
+          </div>
+          <div class="f2">
+            <div class="fl"><label for="e-avail">Disponibilidad</label><select id="e-avail" name="availability"><option value="Full-time, Pacific hours">Tiempo completo, horario del Pacífico</option><option value="Full-time, Mountain or Central hours">Tiempo completo, horario de Montaña o Central</option><option value="Full-time, Eastern hours">Tiempo completo, horario del Este</option><option value="Part-time, US hours">Medio tiempo, horario de EE. UU.</option></select></div>
+            <div class="fl"><label for="e-video">Enlace a un video de presentación de 60 segundos, en inglés</label><input id="e-video" name="video" type="text" inputmode="url" autocomplete="url" placeholder="Loom, YouTube o Drive. Opcional, pero nos deja escuchar tu inglés antes de la llamada."></div>
+          </div>
+          <div class="f2">
+            <div class="fl"><label for="e-ref">¿Quién te refirió? (opcional)</label><input id="e-ref" name="referral" type="text"></div>
+            <div class="fl"><label for="e-why">¿Por qué quieres trabajar con equipos de Estados Unidos?</label><textarea id="e-why" name="why" rows="2" required></textarea></div>
+          </div>
+          <input type="hidden" name="lang" value="es">
+          <button class="btn btn-gold" type="submit">Enviar mi aplicación</button>
+          <p class="consent">Al enviar, aceptas que BeyondVAs te contacte por WhatsApp, teléfono o correo sobre tu solicitud.</p>
+        </form>
+        <div class="ok" id="applyEsOk" role="status"><h4 tabindex="-1">Aplicación recibida. Gracias.</h4><p id="applyEsOkP">Nuestro equipo en Honduras te contactará por WhatsApp en tres días hábiles.</p><pre id="applyEsOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="applyEsCopy" hidden>Copiar esta aplicación</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="brand" href="#top" aria-label="BeyondVAs"><span><span class="word"><span class="chrome">BEYOND</span><span class="vas">VAs</span></span><span class="tag">Bilingual virtual assistants</span></span></a>
+      <p style="margin-top:14px;max-width:40ch">Bilingual, sales-trained virtual assistants and ISAs from Honduras and across Latin America for real estate teams and growing businesses, in every US time zone.</p>
+    </div>
+    <div>
+      <h5>The Beyond family</h5>
+      <ul><li><a href="#top">BeyondVAs</a></li><li><a href="https://beyond-estate.com" target="_blank" rel="noopener">Beyond Estates</a></li><li>Beyond Movers</li><li>Beyond Renovation</li></ul>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <ul><li>hello@beyondvas.com</li><li><a href="#book">Book a 15-minute call</a></li><li><a href="#apply">Apply as a VA · <span lang="es">Aplica como asistente</span></a></li><li><a href="#faq">FAQ</a></li><li>Privacy policy and terms of service: published at launch</li></ul>
+    </div>
+    <p class="legal">BeyondVAs is a managed virtual assistant service, not a licensed real estate brokerage. Virtual assistants are independent professionals contracted and paid by BeyondVAs, which provides recruiting, training, monitoring, management and replacement under your services agreement; the agreement also sets the terms of the 90-day and 9-month replacement guarantees. Clients direct the work product in their own tools and remain responsible for the licensing, telemarketing, call-recording and privacy laws that apply to their business. Beyond Estates is a sister company of BeyondVAs. Statistics on this page link to their sources and were current as of October 2026. Founded 2026. © 2026 BeyondVAs.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // Nav menu
+  var mb=document.getElementById('menubtn'),nl=document.getElementById('navlinks');
+  if(mb){mb.addEventListener('click',function(){var o=nl.classList.toggle('open');mb.setAttribute('aria-expanded',o?'true':'false')});
+    nl.addEventListener('click',function(e){if(e.target.tagName==='A'){nl.classList.remove('open');mb.setAttribute('aria-expanded','false')}})}
+
+  // Role tabs
+  var tabs=Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  tabs.forEach(function(t){t.addEventListener('click',function(){
+    tabs.forEach(function(x){x.setAttribute('aria-selected','false');document.getElementById(x.getAttribute('aria-controls')).hidden=true});
+    t.setAttribute('aria-selected','true');document.getElementById(t.getAttribute('aria-controls')).hidden=false;
+  })});
+
+  // Calculator
+  var $=function(id){return document.getElementById(id)};
+  var money=function(n){return '$'+Math.round(n).toLocaleString('en-US')};
+  function calc(){
+    var h=+$('hours').value,w=+$('wage').value,b=+$('burden').value,c=+$('comm').value,wk=4.33;
+    $('hoursOut').value=h;$('wageOut').value='$'+w;$('burdenOut').value=b+'%';$('commOut').value=money(c);
+    var us=w*(1+b/100)*h*wk;
+    $('usMonth').textContent=money(us);$('usYear').textContent=money(us*12);
+    var deals=(us*12)/c;$('deals').textContent=(Math.round(deals*10)/10).toString();
+  }
+  ['hours','wage','burden','comm'].forEach(function(id){$(id).addEventListener('input',calc)});
+  // Default US wage per role: assistant wage for admin and operations, inside-sales base for the ISA
+  $('tier').addEventListener('change',function(){$('wage').value=(this.value==='isa')?30:21;calc()});
+  $('wage').value=30;
+  calc();
+
+  // Language toggle for the VA section
+  var langBtns=document.querySelectorAll('.lang button');
+  function setLang(es){$('va-en').hidden=es;$('va-es').hidden=!es;langBtns.forEach(function(x){x.setAttribute('aria-pressed',(x.getAttribute('data-lang')==='es')===es?'true':'false')})}
+  langBtns.forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-lang')==='es');try{localStorage.setItem('bv-lang',b.getAttribute('data-lang'))}catch(e){}})});
+  try{var saved=localStorage.getItem('bv-lang');var esBrowser=/^es/i.test(navigator.language||'');var esHash=location.hash==='#aplica';var wantEs=saved?saved==='es':(esBrowser||esHash);if(wantEs){setLang(true)}}catch(e){}
+
+  // Copy buttons
+  function copyText(txt,btn){var done=function(){var o=btn.textContent;btn.textContent='Copied';setTimeout(function(){btn.textContent=o},1500)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){fallback()})}else{fallback()}
+    function fallback(){var ta=document.createElement('textarea');ta.value=txt;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(e){}document.body.removeChild(ta)}}
+  document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){copyText(b.getAttribute('data-copy'),b)})});
+
+  // Forms: on the live site (Netlify) the form posts to Netlify Forms; inside the preview it shows the request so nothing is lost.
+  var inPreview=!!(window.claude&&window.claude.use)||/claude/.test(location.hostname);
+  function serialize(form){var fd=new FormData(form),out=[],seen={};fd.forEach(function(v,k){if(k==='bot-field'||k==='form-name')return;if(seen[k]){out[seen[k]-1]+=', '+v}else{out.push(k+': '+v);seen[k]=out.length}});return out.join('\n')}
+  function wire(formId,okId,preId,copyId,preMsg,failMsg){
+    var form=$(formId),ok=$(okId),pre=$(preId),cp=$(copyId);if(!form)return;
+    form.addEventListener('submit',function(e){
+      e.preventDefault();
+      if(!form.reportValidity())return;
+      var body=new URLSearchParams(new FormData(form)).toString();
+      var show=function(mode){form.hidden=true;ok.classList.add('show');
+        if(mode){ok.querySelector('p').textContent=(mode==='preview')?preMsg:failMsg;pre.textContent=serialize(form);pre.hidden=false;cp.hidden=false;cp.onclick=function(){copyText(pre.textContent,cp)}}
+        ok.scrollIntoView({block:'center'});var h=ok.querySelector('h4');if(h){try{h.focus()}catch(x){}}};
+      if(inPreview){show('preview');return}
+      fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body}).then(function(r){if(!r.ok)throw new Error('bad');show('')}).catch(function(){show('fail')});
+    });
+  }
+  wire('bookForm','bookOk','bookOkPre','bookCopy','This is the preview version of the site, so nothing was sent. On the live site this request goes straight to the BeyondVAs inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to hello@beyondvas.com and we will text you within one business day.');
+  wire('applyForm','applyOk','applyOkPre','applyCopy','This is the preview version of the site, so nothing was sent. On the live site this application goes straight to the BeyondVAs recruiting inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to hello@beyondvas.com; we reply within three business days.');
+  wire('applyFormEs','applyEsOk','applyEsOkPre','applyEsCopy','Esta es la versión de vista previa del sitio, así que no se envió nada. En el sitio en vivo esta aplicación llega directamente al equipo de reclutamiento de BeyondVAs. Esto es lo que se enviaría:','No pudimos enviarlo automáticamente. Copia el texto y envíalo a hello@beyondvas.com; te respondemos en tres días hábiles.');
+})();
+</script>

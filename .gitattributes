@@ -1,0 +1,5 @@
+# Store text with LF line endings so diffs stay clean between Windows, Mac and cloud machines
+* text=auto
+*.png binary
+*.jpg binary
+*.pdf binary
