@@ -276,7 +276,7 @@
     }
     var isa = pl.tier === 'isa';
     s2 += '<div class="card"><div class="row between" style="margin-bottom:10px"><div><div class="small muted">' + esc(t('forPlacement')) + '</div><div class="b" style="color:var(--fg)">' + esc(cl.name) + ' · ' + esc(F.date(Dx.today(), 'long')) + '</div></div>' + h.chip(t('reportDueBy'), 'warn') + '</div>';
-    s2 += h.field(t('doneToday'), '<textarea class="inp" name="done" id="rep-done" placeholder="' + esc(HQ.lang() === 'es' ? 'Ej.: 162 llamadas de prospección alrededor de 38th St W\nSeguimiento a 14 leads en Follow Up Boss' : 'e.g. 162 dials circle prospecting around 38th St W\nFollowed up 14 leads in Follow Up Boss') + '"></textarea>', t('oneLine'));
+    s2 += h.field(t('doneToday'), '<textarea class="inp" name="done" id="rep-done" placeholder="' + esc(HQ.lang() === 'es' ? 'Ej.: 162 llamadas de prospección alrededor de Van Buren Blvd\nSeguimiento a 14 leads en Follow Up Boss' : 'e.g. 162 dials circle prospecting around Van Buren Blvd\nFollowed up 14 leads in Follow Up Boss') + '"></textarea>', t('oneLine'));
     s2 += h.field(t('blocked'), '<textarea class="inp" name="blocked" rows="2" placeholder="' + esc(HQ.lang() === 'es' ? 'Nada, o lo que te detuvo' : 'Nothing, or what stopped you') + '"></textarea>', t('optional'));
     s2 += h.field(t('tomorrow'), '<textarea class="inp" name="tomorrow" rows="2"></textarea>', t('oneLine'));
     if (isa) {

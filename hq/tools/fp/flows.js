@@ -7,7 +7,7 @@ var n0 = D.messages.length, a0 = D.auditLog.length, nt0 = D.notifications.length
 /* 1. VA sends today's report */
 HQ.setUser('u-mariela'); HQ.S.lang = 'en'; HQ.go('report', {}, true);
 __assert('report form present', !!document.querySelector('.main .content [name="done"]'));
-set('done', 'Quartz Hill list: 150 dials\nLead #4527 appointment held by Carla'); set('blocked', ''); set('tomorrow', 'Continue Quartz Hill');
+set('done', 'Canyon Crest list: 150 dials\nLead #4527 appointment held by Carla'); set('blocked', ''); set('tomorrow', 'Continue Canyon Crest');
 set('dials', '150'); set('conversations', '20'); set('apptsSet', '2'); set('apptsHeld', '1');
 HQ.act['send-report'](el({ id: 'p-rod-2' }));
 var rep = HQ.todayReport('p-rod-2');

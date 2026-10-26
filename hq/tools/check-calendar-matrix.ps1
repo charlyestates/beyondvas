@@ -1,5 +1,5 @@
 # Full matrix for app/calendar.js: screens x users x langs, desktop and phone width. Prints one line per combo.
-# Run from the session folder:  powershell -NoProfile -File hq\tools\check-calendar-matrix.ps1
+# Run from the repository root:  powershell -NoProfile -File hq\tools\check-calendar-matrix.ps1
 $ErrorActionPreference = 'Continue'
 $Root = (Get-Location).Path
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"

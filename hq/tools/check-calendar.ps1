@@ -1,5 +1,5 @@
 # Loads hq/debug.html through headless Edge for the calendar module's screens x users x languages and prints the errlog of each.
-# Run from the session folder:  powershell -NoProfile -File hq\tools\check-calendar.ps1
+# Run from the repository root:  powershell -NoProfile -File hq\tools\check-calendar.ps1
 $ErrorActionPreference = 'Continue'
 $Root = (Get-Location).Path
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"

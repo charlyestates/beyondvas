@@ -1,6 +1,6 @@
 # Runs money-inpage.js inside hq/debug.html in headless Edge, once at desktop width and once at phone width, and prints
 # the FAIL lines (and the summary) from <pre id="asserts"> plus anything in <pre id="errlog">.
-# Run from the session folder:  powershell -NoProfile -File hq\tools\money-inpage.ps1
+# Run from the repository root:  powershell -NoProfile -File hq\tools\money-inpage.ps1
 $ErrorActionPreference = 'Continue'
 $Root = Split-Path -Parent (Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path))
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"

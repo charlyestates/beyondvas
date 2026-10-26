@@ -1,5 +1,5 @@
 # Phone-width screenshots of the money module (390x844 frame via hq/phone.html), one Edge profile per shot.
-# Run from the session folder:  powershell -NoProfile -File hq\tools\shots-money.ps1
+# Run from the repository root:  powershell -NoProfile -File hq\tools\shots-money.ps1
 $ErrorActionPreference = 'Continue'
 $Root = Split-Path -Parent (Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path))
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"

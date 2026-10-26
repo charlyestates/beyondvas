@@ -1,3 +1,6 @@
+# Renders the compliance.js screens (help, compliance, scope cards, telemarketing files, call QA, tickets, audit, support)
+# for nine people in headless Edge and prints one line per screen with its errlog (empty = clean).
+# 126 Edge launches, about six minutes; it prints only at the end. Run from the repository root: powershell -NoProfile -File hq\tools\check-compliance.ps1 -Root .
 param([string]$Root)
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 $base = "file:///" + ((Resolve-Path (Join-Path $Root 'hq\debug.html')).Path -replace '\\','/')

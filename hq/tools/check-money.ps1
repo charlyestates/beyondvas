@@ -1,5 +1,5 @@
-# Headless Edge check for the money module: every money screen × user × language (plus a few phone-width runs).
-# Run from the session folder:   powershell -NoProfile -File hq\tools\check-money.ps1
+﻿# Headless Edge check for the money module: every money screen × user × language (plus a few phone-width runs).
+# Run from the repository root:   powershell -NoProfile -File hq\tools\check-money.ps1
 # Writes hq\money-check.txt, one line per combination: ready flag, document scroll width vs window width, title and the
 # <pre id="errlog"> content (empty = clean). Flags: ERR (JS error), VIEWERR (a view threw and core rendered .note.bad),
 # MISSING (screen not registered), NOTREADY (debug driver did not finish), OVERFLOW (horizontal page scroll).

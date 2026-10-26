@@ -1,5 +1,5 @@
 # Checks app/hours.js: every hours-module screen for a set of people in both languages, reading <pre id="errlog">.
-# Run from the session folder:  powershell -NoProfile -File hq\tools\check-hours.ps1
+# Run from the repository root:  powershell -NoProfile -File hq\tools\check-hours.ps1
 $ErrorActionPreference = 'Continue'
 $root = Split-Path -Parent (Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path))
 Set-Location $root

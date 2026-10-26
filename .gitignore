@@ -10,6 +10,9 @@ hq/**/edge-prof*/
 hq/**/probe-profile/
 _probe/
 
+# Screenshots the check scripts write; they go stale as the prototype changes, so they stay local
+/hq/shots/
+
 # Private: stays on Charly's computer, never pushed.
 # The business plan PDF and the research digests hold internal margins and projections;
 # hq/research/ is a copy of the Beyond HQ training source with real team contacts and links.

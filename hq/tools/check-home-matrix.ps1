@@ -1,6 +1,6 @@
 # Renders home and inbox for every person x language through headless Edge; prints errlog, title, card count,
 # scroll width (sw; 390 = no horizontal overflow at phone width when -W 390) and whether the "not in the prototype yet" placeholder rendered.
-# Run from the session folder:  powershell -NoProfile -File hq\tools\check-home-matrix.ps1 [-W 390]
+# Run from the repository root:  powershell -NoProfile -File hq\tools\check-home-matrix.ps1 [-W 390]
 param([int]$W = 1280, [int]$H = 900)
 $ErrorActionPreference = 'Continue'
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"

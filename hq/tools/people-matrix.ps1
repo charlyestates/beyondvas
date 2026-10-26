@@ -1,4 +1,4 @@
-# Renders every people.js screen per user in headless Edge and prints the errlog per combination. Run from the session folder.
+# Renders every people.js screen per user in headless Edge and prints the errlog per combination. Run from the repository root.
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 $dbg = (Resolve-Path 'hq\debug.html').Path -replace '\\','/'
 $screens = @(

@@ -1,5 +1,5 @@
 # Desktop-width matrix, scripted action flows (day-off rule, RSVP, approve, add event) and screenshots for app/calendar.js.
-# Run from the session folder:  powershell -NoProfile -File hq\tools\check-calendar-flows.ps1
+# Run from the repository root:  powershell -NoProfile -File hq\tools\check-calendar-flows.ps1
 $ErrorActionPreference = 'Continue'
 $Root = (Get-Location).Path
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"

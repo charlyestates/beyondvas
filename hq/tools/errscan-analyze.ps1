@@ -1,4 +1,4 @@
-param([string]$Tag = 'desk')
+﻿param([string]$Tag = 'desk')
 Add-Type -AssemblyName System.Web
 $root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 $files = Get-ChildItem (Join-Path $root "dom-errscan-$Tag-*.txt")

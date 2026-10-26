@@ -1,5 +1,5 @@
-# Store text with LF line endings so diffs stay clean between Windows, Mac and cloud machines
-* text=auto
+# Store and check out text with LF line endings on every machine, so the prototype build and diffs stay clean
+* text=auto eol=lf
 *.png binary
 *.jpg binary
 *.pdf binary

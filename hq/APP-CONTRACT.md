@@ -1,6 +1,6 @@
 # HQ prototype: how screens are built (the contract every app/*.js file follows)
 
-The prototype is plain browser JavaScript, no framework, no modules. Files load in this order (see `body.html`): `data/*.js` (seed data into `window.HQD`; `data/academy.js` loads last and replaces `academyModules` (14: five foundation, nine ISA-track with `track: 'isa'`), `academyLessons` (60, kinds text/task/quiz/signoff, each with a bilingual `summary`) and `academyProgress`), `app/i18n.js` (strings into `HQ.T`), `app/core.js` (runtime), `app/channels.js` (chat, daily report, search), then the screen modules `app/home.js`, `app/people.js`, `app/hours.js`, `app/money.js`, `app/calendar.js`, `app/compliance.js`. Each screen module is an IIFE that registers views on `HQ.V` and actions on `HQ.act`, and may add strings with `Object.assign(HQ.T, {...})`. Read `app/core.js` and `app/channels.js` once before writing a module; they are the reference implementation.
+The prototype is plain browser JavaScript, no framework, no modules. Files load in this order (see `body.html`): `data/*.js` (seed data into `window.HQD`; `data/academy.js` loads after `pipeline.js` and replaces `academyModules` (14: five foundation, nine ISA-track with `track: 'isa'`), `academyLessons` (62, kinds text/task/quiz/signoff, each with a bilingual `summary`) and `academyProgress`), `app/i18n.js` (strings into `HQ.T`), `app/core.js` (runtime), `app/channels.js` (chat, daily report, search), then the screen modules `app/home.js`, `app/people.js`, `app/hours.js`, `app/money.js`, `app/calendar.js`, `app/compliance.js`. Each screen module is an IIFE that registers views on `HQ.V` and actions on `HQ.act`, and may add strings with `Object.assign(HQ.T, {...})`. Read `app/core.js` and `app/channels.js` once before writing a module; they are the reference implementation.
 
 ## A view
 
@@ -57,7 +57,7 @@ core: `home`, `more`, `notifications`, `missing`. channels.js: `channels`, `chan
 
 ## Checking a module
 
-Build and open the debug page in headless Edge from the session folder:
+Build and open the debug page in headless Edge from the repository root:
 
 ```powershell
 powershell -NoProfile -File hq\build.ps1
@@ -65,6 +65,7 @@ $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 $u = "file:///" + ((Resolve-Path hq\debug.html).Path -replace '\\','/') + "?user=u-daniela&screen=inbox&lang=es"
 & $edge --headless=new --disable-gpu --allow-file-access-from-files --virtual-time-budget=4000 --dump-dom $u | Out-File -Encoding utf8 hq\dom.txt
 # errors: look for <pre id="errlog">...</pre> in hq\dom.txt (empty = clean)
+New-Item -ItemType Directory -Force hq\shots | Out-Null
 & $edge --headless=new --disable-gpu --allow-file-access-from-files --virtual-time-budget=4000 --window-size=1280,900 --screenshot="$PWD\hq\shots\inbox-desktop.png" $u
 ```
 

@@ -3,7 +3,7 @@ function txt(){return document.querySelector('.main').innerText;}
 function A(n,ok){window.__assert(n,!!ok);}
 as('u-mariela'); HQ.go('report');
 var ta=document.getElementById('rep-done'); A('rep-done textarea present', ta);
-if(ta) ta.value='162 dials circle prospecting around 38th St W\nFollowed up 14 leads in Follow Up Boss';
+if(ta) ta.value='162 dials circle prospecting around Van Buren Blvd\nFollowed up 14 leads in Follow Up Boss';
 function setv(n,v){var el=document.querySelector('.main [name="'+n+'"]'); A('input '+n+' present', el); if(el) el.value=v;}
 setv('dials',162); setv('conversations',18); setv('apptsSet',3); setv('apptsHeld',1);
 var m0=HQD.messages.length;

@@ -1,4 +1,4 @@
-param([string]$Tag = 'aurora', [int]$W = 1280)
+﻿param([string]$Tag = 'aurora', [int]$W = 1280)
 Add-Type -AssemblyName System.Web
 $root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
 $files = Get-ChildItem (Join-Path $root "dom-$Tag-*.txt")

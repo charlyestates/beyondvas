@@ -1,5 +1,5 @@
 # Renders the home.js screens for every relevant person and language through headless Edge and prints the error log per combination.
-# Run from the session folder:  powershell -NoProfile -File hq\tools\check-home.ps1
+# Run from the repository root:  powershell -NoProfile -File hq\tools\check-home.ps1
 $ErrorActionPreference = 'Continue'
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 $base = "file:///" + ((Resolve-Path hq\debug.html).Path -replace '\\','/')

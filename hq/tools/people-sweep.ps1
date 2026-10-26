@@ -1,5 +1,5 @@
 # Renders every people.js screen x user x language inside ONE headless Edge launch (the debug page's ?script= hook),
-# records one PASS/FAIL line per combination in <pre id="asserts"> and prints them. Run from the session folder.
+# records one PASS/FAIL line per combination in <pre id="asserts"> and prints them. Run from the repository root.
 # A combination fails when the view threw (title "Error"), the body says "not in the prototype yet", the body is empty,
 # window.onerror fired, the page scrolls horizontally, or a privacy string leaks (bill rates, block amounts, invoice
 # numbers or margin on a VA page; margin on a manager page; a VA surname or pay rate on a client page).

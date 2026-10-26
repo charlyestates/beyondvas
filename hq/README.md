@@ -24,15 +24,15 @@ https://claude.ai/artifact/JfDqhq9KuabGazh8EehSHA; the same files run from any s
 | `app/compliance.js` | Scope cards, telemarketing files, call QA, tickets and the escalate flow, audit log, support threads, the client Help tab. |
 | `data/core.js` | The fixed people, clients, placements, channels, support threads, rates. Every other file refers to these ids. |
 | `data/messages.js`, `hours.js`, `pipeline.js`, `calendar.js`, `compliance.js` | Seed data per area, generated against `BRIEF.md`. |
-| `data/academy.js` | The academy curriculum (five foundation modules from the VA Hub, nine ISA-track modules carried over from the Beyond HQ training, de-branded) and everyone's progress. Loads last and replaces the academy keys. |
+| `data/academy.js` | The academy curriculum (five foundation modules from the VA Hub, nine ISA-track modules carried over from the Beyond HQ training, de-branded) and everyone's progress. Loads after `pipeline.js` and replaces the academy keys. |
 | `data/check.html` | Loads every seed file and reports errors and unknown ids. |
 | `BRIEF.md` | The product brief and data conventions the generators followed. |
 | `DESIGN-SPEC.md` | The screen spec (navigation, home screens, channel view, report form, every other screen by role, shared components, what was left out). |
 | `APP-CONTRACT.md` | How a screen module is written and the rules every screen must follow (money by role, first names for clients, bilingual, time zones, phone first). |
-| `tools/` | The workflow scripts that generated and reviewed the prototype (`wf-*.js`) and the check scripts that were run against it (error scans, layout and phone audits, privacy sweeps, flow checks). |
-| `shots/` | Reference screenshots of the main screens: desktop and phone, light and dark, per role. |
+| `tools/` | The check scripts that were run against the prototype (error scans, privacy sweeps, layout and phone screenshots, scripted flows) and the workflow scripts that generated and reviewed it. `tools/README.md` says which does what. |
 
-The check scripts write their DOM dumps (`dom*.txt`) and temporary folders next to `debug.html`; Git ignores them.
+The check scripts write DOM dumps (`dom*.txt`), temporary folders and screenshots (`shots/`) inside `hq/`; Git
+ignores all of them. They need Windows with Microsoft Edge at its default install path.
 
 ## Language, people and "view as client"
 
@@ -42,7 +42,7 @@ The check scripts write their DOM dumps (`dom*.txt`) and temporary folders next 
 ## Names are placeholders
 
 Every person except Charly is fictional (Daniela, Mariela, José, Andrea, Kevin, Lucía, Carlos, Fernanda, the client
-contacts, the applicants). Phone numbers and emails are `example.com` and `9xxx` placeholders. Bill rates are the
+contacts, the applicants). Emails are `example.com` addresses and phone numbers are masked placeholders such as `+504 9xxx-xxxx`. Bill rates are the
 decided $8 / $10 / $12 tiers; pay rates are example values inside the $4.50 to $7.00 band and are easy to change in
 `data/core.js`.
 

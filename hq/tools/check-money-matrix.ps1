@@ -1,7 +1,7 @@
-# Money module matrix: every money screen x user x language in headless Edge, in parallel batches, with an in-page
+﻿# Money module matrix: every money screen x user x language in headless Edge, in parallel batches, with an in-page
 # i18n check (every t('key') money.js uses has en and es) and a per-role leak scan of the visible text (bill rates,
 # invoice numbers and block amounts on VA/manager/applicant screens; pay rates, VA surnames, margin and other clients
-# on client screens). Run from the session folder:
+# on client screens). Run from the repository root:
 #   powershell -NoProfile -File hq\tools\check-money-matrix.ps1 [-Langs en,es] [-Batch 8]
 # Writes hq\money-check.txt (one line per combination; flags ERR, VIEWERR, MISSING, NOTREADY, I18N, LEAK(...)).
 param([string[]]$Langs = @('en','es'), [int]$Batch = 3, [switch]$Full)
