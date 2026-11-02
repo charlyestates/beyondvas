@@ -1,0 +1,1136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0A1630">
+<title>ISA 7-Day Certification Boot Camp | BeyondVAs</title>
+<meta name="description" content="The BeyondVAs ISA 7-Day Certification Boot Camp: daily lessons and knowledge checks, live practice in a simulated Follow Up Boss workspace, and a BeyondVAs certificate with a verification ID.">
+<meta property="og:title" content="ISA 7-Day Certification Boot Camp | BeyondVAs">
+<meta property="og:description" content="Seven days of real estate ISA training: speed-to-lead, A.L.M. qualification, objections, Follow Up Boss hygiene, handoffs and compliance, then a certificate.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BeyondVAs">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+/* BeyondVAs ISA Boot Camp: the executive dark dashboard (deep navy, slate blue cards, gold) on the BeyondVAs brand. */
+:root{
+  --bg:#0A1630; --bg-2:#0D1C3D; --card:#15264A; --card-2:#1B2E57; --card-3:#233a69;
+  --line:rgba(150,174,224,.16); --line-2:rgba(150,174,224,.30);
+  --fg:#F4F7FD; --fg-2:#C9D3E8; --fg-3:#93A1BF;
+  --gold:#F4B62E; --gold-2:#FFCB4D; --gold-deep:#C98F12; --gold-soft:rgba(244,182,46,.13); --gold-line:rgba(244,182,46,.45);
+  --good:#3DD68C; --good-soft:rgba(61,214,140,.13); --bad:#FF7F7F; --bad-soft:rgba(255,127,127,.13);
+  --blue:#8FB0FF; --blue-soft:rgba(143,176,255,.13);
+  --btn-gold:linear-gradient(180deg,#FFCB4D,#F4B62E); --btn-gold-fg:#2A1E00;
+  --display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
+  --body:"Instrument Sans",ui-sans-serif,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+  --radius:16px; --shadow:0 24px 60px -28px rgba(0,0,0,.75);
+  --roof:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120' viewBox='0 0 160 120'%3E%3Cpath d='M20 70 L60 30 L100 70 M40 90 L80 50 L120 90' fill='none' stroke='%23F4B62E' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.10'/%3E%3C/svg%3E");
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--fg-2);font-family:var(--body);font-size:16.5px;line-height:1.55;-webkit-font-smoothing:antialiased;padding-bottom:env(safe-area-inset-bottom,0px)}
+h1,h2,h3,h4{font-family:var(--display);line-height:1;margin:0;color:var(--fg);text-transform:uppercase;letter-spacing:-.005em;text-wrap:balance}
+p{margin:0}
+a{color:var(--gold-2)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.skip{position:absolute;left:-9999px;top:8px;z-index:100;background:var(--gold);color:#2A1E00;padding:10px 14px;border-radius:8px;font-weight:700}
+.skip:focus{left:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:var(--body);font-weight:700;font-size:15px;padding:13px 22px;border-radius:999px;border:1px solid transparent;cursor:pointer;text-decoration:none;transition:transform .15s ease,border-color .15s ease,background .15s ease;line-height:1.1;white-space:nowrap}
+.btn-gold{background:var(--btn-gold);color:var(--btn-gold-fg);box-shadow:0 10px 26px -12px rgba(244,182,46,.65)}
+.btn-gold:hover{transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--fg);border-color:var(--line-2)}
+.btn-ghost:hover{border-color:var(--gold)}
+.btn-sm{padding:9px 15px;font-size:13.5px}
+.btn[disabled]{opacity:.45;cursor:not-allowed;transform:none}
+.ic{width:1em;height:1em;flex:none}
+
+/* Site header (same links as the home page) */
+.nav{position:sticky;top:0;z-index:60;background:rgba(10,22,48,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px;position:relative}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--fg)}
+.brand svg{width:42px;height:29px;flex:none}
+.brand .word{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:.01em;line-height:1;text-transform:uppercase}
+.brand .word .vas{color:var(--gold)}
+.brand .tag{display:block;font-weight:700;font-size:9px;letter-spacing:.26em;color:var(--blue);margin-top:4px;text-transform:uppercase}
+.navlinks{display:flex;gap:22px;align-items:center}
+.navlinks a{color:var(--fg-2);text-decoration:none;font-weight:600;font-size:14.5px;white-space:nowrap}
+.navlinks a:hover{color:var(--gold-2)}
+.navlinks a[aria-current="page"]{color:var(--gold);box-shadow:inset 0 -2px 0 var(--gold);padding-bottom:4px}
+.navcta{display:flex;align-items:center;gap:10px}
+.menubtn{display:none;background:var(--card);border:1px solid var(--line-2);color:var(--fg);border-radius:10px;padding:8px 12px;font-weight:600;cursor:pointer}
+@media (max-width:1199px){
+  .navlinks{display:none;position:absolute;left:0;right:0;top:100%;background:var(--bg-2);flex-direction:column;align-items:flex-start;gap:0;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+  .navlinks.open{display:flex}
+  .navlinks a{padding:14px max(16px,env(safe-area-inset-left,0px));width:100%;border-top:1px solid var(--line)}
+  .navlinks a[aria-current="page"]{box-shadow:inset 3px 0 0 var(--gold);padding-bottom:14px}
+  .menubtn{display:inline-block}
+}
+@media (min-width:1200px) and (max-width:1279px){.brand .tag{display:none}}
+@media (max-width:560px){.brand .tag{display:none}.brand .word{font-size:21px}.brand svg{width:34px;height:24px}.navcta .btn{padding:8px 12px;font-size:13px}}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;padding:44px 0 28px;background:var(--roof) center top/160px 120px repeat}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 80% at 85% 0%,rgba(244,182,46,.16),transparent 60%),linear-gradient(180deg,rgba(10,22,48,0) 40%,var(--bg) 100%);pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .9fr;gap:36px;align-items:end}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:24px}}
+.eyebrow{font-weight:700;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.eyebrow::before{content:"";width:30px;height:2px;background:var(--gold);border-radius:2px;flex:none}
+.hero h1{font-size:clamp(40px,6.2vw,74px);font-weight:800;line-height:.92}
+.hero h1 .gold{color:var(--gold);display:block}
+.hero .lead{font-size:clamp(16.5px,1.5vw,19px);margin-top:16px;max-width:60ch}
+.micro{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:16px;font-size:13.5px;color:var(--fg-3)}
+.micro span{display:inline-flex;align-items:center;gap:7px}
+.micro span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.progress-card{background:linear-gradient(180deg,var(--card-2),var(--card));border:1px solid var(--line-2);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+.pc-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:14px}
+.pc-top h2{font-size:22px;font-weight:800}
+.pc-top span{font-size:12.5px;color:var(--fg-3)}
+.pc-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.pc-stat{background:rgba(10,22,48,.55);border:1px solid var(--line);border-radius:12px;padding:12px}
+.pc-stat b{display:block;font-family:var(--display);font-size:30px;font-weight:800;color:var(--fg);line-height:1}
+.pc-stat span{display:block;font-size:12px;color:var(--fg-3);margin-top:6px;letter-spacing:.02em}
+.pc-bar{height:6px;border-radius:99px;background:rgba(150,174,224,.15);margin:16px 0 14px;overflow:hidden}
+.pc-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold-deep),var(--gold-2));border-radius:99px;transition:width .5s ease}
+.pc-actions{display:flex;gap:10px;flex-wrap:wrap}
+
+/* Boot camp tabs */
+.bc-tabs-bar{position:sticky;top:68px;z-index:50;background:rgba(10,22,48,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);border-top:1px solid var(--line)}
+.bc-tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:10px 0}
+.bc-tabs::-webkit-scrollbar{display:none}
+.bc-tab{flex:none;display:inline-flex;align-items:center;gap:10px;background:transparent;border:1px solid transparent;border-radius:12px;padding:10px 16px;cursor:pointer;color:var(--fg-2);font-weight:700;font-size:14.5px;white-space:nowrap}
+.bc-tab .n{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--card-2);border:1px solid var(--line-2);font-size:12.5px;color:var(--fg-2)}
+.bc-tab:hover{background:var(--card)}
+.bc-tab[aria-selected="true"]{background:var(--card-2);border-color:var(--gold-line);color:var(--fg)}
+.bc-tab[aria-selected="true"] .n{background:var(--gold);border-color:var(--gold);color:#2A1E00}
+.bc-tab .pill{font-size:11.5px;font-weight:700;padding:2px 8px;border-radius:99px;background:var(--gold-soft);color:var(--gold-2)}
+.bc-tab .pill.ok{background:var(--good-soft);color:var(--good)}
+.view{padding:28px 0 64px}
+.lesson,.people,.profile,.quiz,.cert-wrap{scroll-margin-top:140px}
+.view:focus{outline:none}
+
+/* View 1: curriculum */
+.cur{display:grid;grid-template-columns:280px minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:900px){.cur{grid-template-columns:minmax(0,1fr);gap:16px}.days{min-width:0}}
+.days{position:sticky;top:140px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:10px}
+.days h2{font-size:14px;font-family:var(--body);font-weight:700;letter-spacing:.14em;color:var(--fg-3);padding:8px 10px 10px}
+.days ol{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.day-btn{width:100%;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;text-align:left;background:transparent;border:1px solid transparent;border-radius:12px;padding:10px;cursor:pointer;color:var(--fg-2)}
+.day-btn:hover{background:var(--card-2)}
+.day-btn .dn{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--bg-2);border:1px solid var(--line-2);font-family:var(--display);font-weight:800;font-size:18px;color:var(--fg)}
+.day-btn .dt{display:block;font-weight:700;font-size:14px;color:var(--fg);line-height:1.25}
+.day-btn .ds{display:block;font-size:12px;color:var(--fg-3);margin-top:2px}
+.day-btn .di{width:22px;height:22px;display:grid;place-items:center;border-radius:50%}
+.day-btn.is-current{background:var(--card-2);border-color:var(--gold-line)}
+.day-btn.is-current .dn{background:var(--gold);border-color:var(--gold);color:#2A1E00}
+.day-btn.is-passed .di{background:var(--good);color:#06301C}
+.day-btn.is-passed .dn{border-color:rgba(61,214,140,.6)}
+.day-btn.is-locked .dn,.day-btn.is-locked .di{opacity:.55}
+.day-btn.is-locked .dt{color:var(--fg-2)}
+.day-btn.is-locked .di{color:var(--fg-3)}
+.days-foot{border-top:1px solid var(--line);margin-top:10px;padding:10px;font-size:12.5px;color:var(--fg-3);display:flex;justify-content:space-between;gap:8px;align-items:center}
+.linkbtn{background:none;border:0;color:var(--fg-3);text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:0;font-size:12.5px}
+.linkbtn:hover{color:var(--gold-2)}
+@media (max-width:900px){
+  .days{position:static;padding:8px}
+  .days h2,.days-foot{display:none}
+  .days ol{display:flex;overflow-x:auto;gap:6px;scrollbar-width:thin;padding-bottom:4px}
+  .days li{flex:none}
+  .day-btn{grid-template-columns:auto auto;width:auto;padding:8px 10px;gap:8px}
+  .day-btn .dtxt{display:none}
+  .day-btn .dn{width:30px;height:30px;font-size:16px}
+}
+.lesson{min-width:0}
+.lesson-head{background:linear-gradient(135deg,var(--card-2),var(--card));border:1px solid var(--line-2);border-radius:var(--radius);padding:24px;position:relative;overflow:hidden}
+.lesson-head::after{content:"";position:absolute;right:-30px;top:-40px;width:220px;height:160px;background:var(--roof) center/160px 120px;opacity:.9;pointer-events:none}
+.lesson-k{font-weight:700;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.lesson-head h2{font-size:clamp(30px,3.6vw,44px);font-weight:800;margin-top:8px;max-width:22ch;position:relative}
+.objective{margin-top:14px;display:flex;gap:12px;align-items:flex-start;background:rgba(10,22,48,.5);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px;position:relative;max-width:72ch}
+.objective b{color:var(--gold-2);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;padding-top:2px;flex:none}
+.lessons{display:grid;gap:14px;margin-top:14px}
+.lcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px}
+.lcard h3{font-size:24px;font-weight:800;display:flex;gap:12px;align-items:baseline;margin-bottom:12px}
+.lcard h3 .ln{font-family:var(--body);font-size:11.5px;letter-spacing:.14em;color:var(--gold);font-weight:700;flex:none}
+.lcard p{max-width:74ch}
+.lcard p + p{margin-top:10px}
+.lcard b{color:var(--fg)}
+.src{font-size:12.5px;color:var(--fg-3);margin-top:10px}
+.callout{margin-top:14px;padding:12px 14px;border-left:3px solid var(--gold);background:var(--gold-soft);border-radius:0 10px 10px 0;font-size:14.5px;color:var(--fg-2);max-width:74ch}
+.callout b{color:var(--gold-2)}
+/* timeline */
+.tline{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:16px;position:relative}
+.tline::before{content:"";position:absolute;left:12px;right:12px;top:11px;height:2px;background:linear-gradient(90deg,var(--good),var(--gold) 45%,var(--bad))}
+.tline div{position:relative;padding-top:30px;padding-right:10px;font-size:13.5px}
+.tline div::before{content:"";position:absolute;left:4px;top:3px;width:16px;height:16px;border-radius:50%;background:var(--bg);border:3px solid var(--gold)}
+.tline div:first-child::before{border-color:var(--good)}
+.tline div:last-child::before{border-color:var(--bad)}
+.tline b{display:block;font-family:var(--display);font-size:22px;color:var(--fg)}
+@media (max-width:560px){.tline{grid-template-columns:1fr 1fr;row-gap:14px}.tline::before{display:none}}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px}
+@media (max-width:640px){.two{grid-template-columns:1fr}}
+.box{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:rgba(10,22,48,.45)}
+.box h4{font-family:var(--body);font-size:12px;letter-spacing:.14em;margin-bottom:10px;color:var(--fg-3)}
+.box.do h4{color:var(--good)}
+.box.dont h4{color:var(--bad)}
+.ticks{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:15px}
+.ticks li{display:grid;grid-template-columns:20px 1fr;gap:10px;align-items:start}
+.ticks li::before{content:"";width:18px;height:18px;border-radius:50%;margin-top:2px;background:var(--good-soft) center/12px no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233DD68C' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E")}
+.ticks.x li::before{background:var(--bad-soft) center/11px no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23FF7F7F' stroke-width='3.5' stroke-linecap='round'%3E%3Cpath d='M6 6l12 12M18 6L6 18'/%3E%3C/svg%3E")}
+.flow{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.flow li{display:flex;align-items:center;gap:8px}
+.flow li span{background:var(--card-2);border:1px solid var(--line-2);border-radius:999px;padding:8px 14px;font-weight:700;font-size:14px;color:var(--fg)}
+.flow li:first-child span{border-color:var(--good)}
+.flow li:last-child span{border-color:var(--gold)}
+.flow li + li::before{content:"";width:18px;height:2px;background:var(--gold-line)}
+.alm3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media (max-width:760px){.alm3{grid-template-columns:1fr}}
+.almc{border:1px solid var(--line);border-radius:12px;padding:16px;background:rgba(10,22,48,.45);border-top:3px solid var(--gold)}
+.almc .big{font-family:var(--display);font-weight:800;font-size:44px;color:var(--gold);line-height:.9}
+.almc h4{font-size:20px;margin:4px 0 8px}
+.almc p{font-size:14.5px}
+.objs{display:grid;gap:10px}
+.obj{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.6fr);gap:0;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+@media (max-width:700px){.obj{grid-template-columns:1fr}}
+.obj .q{padding:14px 16px;background:var(--bad-soft);color:var(--fg);font-weight:700;font-size:15px}
+.obj .q small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--bad);margin-bottom:4px;font-weight:700}
+.obj .a{padding:14px 16px;background:rgba(10,22,48,.45);font-size:15px}
+.obj .a small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--good);margin-bottom:4px;font-weight:700}
+.obj .a em{color:var(--fg);font-style:normal}
+.obj .a .if{display:block;margin-top:8px;font-size:13.5px;color:var(--fg-3)}
+.prio{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:p}
+.prio li{counter-increment:p;display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:rgba(10,22,48,.45)}
+.prio li::before{content:counter(p);display:grid;place-items:center;width:32px;height:32px;border-radius:9px;background:var(--gold);color:#2A1E00;font-family:var(--display);font-weight:800;font-size:19px}
+.prio b{color:var(--fg)}
+.prio .tag{font-size:12px;font-weight:700;color:var(--fg-3);background:var(--card-2);border-radius:99px;padding:3px 10px;white-space:nowrap}
+@media (max-width:560px){.prio li{grid-template-columns:36px 1fr}.prio .tag{grid-column:2;justify-self:start}}
+.notetpl{font-family:var(--mono);font-size:13.5px;line-height:1.7;background:#081126;border:1px solid var(--line-2);border-radius:12px;padding:14px 16px;color:#DCE6FA;overflow-x:auto;white-space:pre;margin-top:12px}
+.notetpl .k{color:var(--gold-2)}
+.notetpl .c{color:var(--fg-3)}
+.strikes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media (max-width:760px){.strikes{grid-template-columns:1fr}}
+.strike{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:rgba(10,22,48,.45);position:relative}
+.strike .when{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--gold-2);background:var(--gold-soft);border-radius:99px;padding:3px 10px;margin-bottom:8px}
+.strike h4{font-size:21px;margin-bottom:6px}
+.strike p{font-size:14.5px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+@media (max-width:560px){.kpis{grid-template-columns:1fr}}
+.kpi{border:1px solid var(--line);border-radius:12px;padding:16px;background:rgba(10,22,48,.45);text-align:center}
+.kpi b{display:block;font-family:var(--display);font-size:42px;font-weight:800;color:var(--fg);line-height:1}
+.kpi span{display:block;margin-top:6px;font-size:13.5px;color:var(--fg-3)}
+.script{border:1px solid var(--gold-line);border-radius:12px;padding:16px 18px;background:linear-gradient(180deg,rgba(244,182,46,.08),rgba(244,182,46,.02));font-size:16px;color:var(--fg)}
+.script .who{display:block;font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-2);margin-bottom:6px}
+.script mark{background:rgba(143,176,255,.18);color:var(--fg);border-radius:4px;padding:0 4px}
+.rubric{display:grid;gap:10px}
+.rrow{display:grid;grid-template-columns:200px 1fr 64px;gap:12px;align-items:center;font-size:14.5px}
+@media (max-width:560px){.rrow{grid-template-columns:1fr 56px}.rrow .rbar{grid-column:1/-1;grid-row:2}}
+.rrow b{color:var(--fg)}
+.rbar{height:10px;background:rgba(150,174,224,.14);border-radius:99px;overflow:hidden}
+.rbar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold-deep),var(--gold-2));border-radius:99px}
+.rrow .pts{text-align:right;font-family:var(--display);font-size:20px;color:var(--gold-2);font-weight:800}
+.panel .rrow{grid-template-columns:minmax(0,150px) 1fr 44px}
+.rtotal{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:10px;margin-top:4px;font-weight:700;color:var(--fg)}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.checks li{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:rgba(10,22,48,.45)}
+.checks .st{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;border:2px solid var(--line-2);color:var(--fg-3)}
+.checks li.ok .st{background:var(--good);border-color:var(--good);color:#06301C}
+.checks .cnt{font-family:var(--display);font-size:22px;color:var(--fg);font-weight:800}
+/* quiz */
+.quiz{margin-top:14px;background:var(--card);border:1px solid var(--gold-line);border-radius:var(--radius);padding:22px;position:relative}
+.quiz fieldset{border:0;margin:0;padding:0;min-width:0}
+.quiz legend{padding:0;margin-bottom:14px;width:100%}
+.quiz-k{display:flex;align-items:center;gap:8px;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.quiz-q{display:block;font-family:var(--display);font-size:clamp(23px,2.4vw,28px);font-weight:700;color:var(--fg);text-transform:none;letter-spacing:0;line-height:1.15;margin-top:8px}
+.opts{display:grid;gap:8px}
+.opt{display:grid;grid-template-columns:32px 1fr 22px;gap:12px;align-items:center;border:1px solid var(--line-2);border-radius:12px;padding:12px 14px;cursor:pointer;background:rgba(10,22,48,.45);transition:border-color .15s,background .15s}
+.opt:hover{border-color:var(--gold-line)}
+.opt input{position:absolute;opacity:0;width:1px;height:1px}
+.opt .ol{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;border:1px solid var(--line-2);font-weight:700;font-size:14px;color:var(--fg-2)}
+.opt .ot{font-size:15.5px;color:var(--fg)}
+.opt .om{width:22px;height:22px}
+.opt:not(.is-right):not(.is-wrong):has(input:checked){border-color:var(--gold);background:var(--gold-soft)}
+.opt:not(.is-right):not(.is-wrong):has(input:checked) .ol{background:var(--gold);border-color:var(--gold);color:#2A1E00}
+.opt.is-right .om{color:var(--good)}
+.opt.is-wrong .om{color:var(--bad)}
+.opt:has(input:focus-visible){outline:3px solid var(--gold);outline-offset:2px}
+.opt.is-right{border-color:var(--good);background:var(--good-soft)}
+.opt.is-right .ol{background:var(--good);border-color:var(--good);color:#06301C}
+.opt.is-wrong{border-color:var(--bad);background:var(--bad-soft)}
+.opt.is-wrong .ol{background:var(--bad);border-color:var(--bad);color:#3A0909}
+.opt.is-locked{cursor:default}
+.quiz-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:16px}
+.quiz-hint{font-size:13.5px;color:var(--fg-3)}
+.fb{margin-top:14px;border-radius:12px;padding:14px 16px;font-size:15px;display:none}
+.fb.show{display:block}
+.fb.good{background:var(--good-soft);border:1px solid rgba(61,214,140,.5)}
+.fb.bad{background:var(--bad-soft);border:1px solid rgba(255,127,127,.5)}
+.fb.info{background:var(--gold-soft);border:1px solid var(--gold-line)}
+.fb h4{font-family:var(--body);text-transform:none;font-size:16px;font-weight:700;margin-bottom:4px}
+.fb.good h4{color:var(--good)}
+.fb.bad h4{color:var(--bad)}
+.fb.info h4{color:var(--gold-2)}
+.fb .btn{margin-top:12px}
+.locked{background:var(--card);border:1px dashed var(--line-2);border-radius:var(--radius);padding:40px 24px;text-align:center}
+.locked .lk{width:56px;height:56px;border-radius:16px;background:var(--card-2);display:grid;place-items:center;margin:0 auto 14px;color:var(--gold)}
+.locked h2{font-size:30px;margin-bottom:8px}
+.locked p{max-width:48ch;margin:0 auto 18px}
+
+/* View 2: simulator */
+.simbar{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--line-2);border-radius:var(--radius);padding:12px 14px}
+.simbrand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--fg);font-size:15px}
+.live{width:10px;height:10px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 rgba(61,214,140,.7);animation:pulse 1.8s infinite;flex:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(61,214,140,.6)}70%{box-shadow:0 0 0 10px rgba(61,214,140,0)}100%{box-shadow:0 0 0 0 rgba(61,214,140,0)}}
+.simbrand small{display:block;font-weight:500;font-size:12px;color:var(--fg-3)}
+.qa{display:flex;align-items:center;gap:12px;position:relative}
+.qa-k{font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.qa-v{font-family:var(--display);font-weight:800;font-size:30px;color:var(--fg);line-height:1;min-width:92px}
+.qa-v small{font-size:16px;color:var(--fg-3)}
+.qa-meter{width:120px;height:8px;border-radius:99px;background:rgba(150,174,224,.15);overflow:hidden}
+.qa-meter i{display:block;height:100%;border-radius:99px;transition:width .5s ease,background .3s}
+.qa-delta{position:absolute;right:0;top:-18px;font-weight:800;font-size:14px;opacity:0;pointer-events:none}
+.qa-delta.go{animation:delta 1.6s ease forwards}
+.qa-delta.up{color:var(--good)}
+.qa-delta.down{color:var(--bad)}
+@keyframes delta{0%{opacity:0;transform:translateY(6px)}15%{opacity:1;transform:translateY(0)}80%{opacity:1}100%{opacity:0;transform:translateY(-10px)}}
+.lists{display:flex;gap:6px;flex-wrap:wrap}
+.lists button{background:var(--bg-2);border:1px solid var(--line-2);border-radius:999px;padding:7px 12px;font-size:13px;font-weight:700;color:var(--fg-2);cursor:pointer;display:inline-flex;gap:7px;align-items:center}
+.lists button span{font-size:11.5px;background:var(--card-2);border-radius:99px;padding:1px 7px;color:var(--fg-3)}
+.lists button[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#2A1E00}
+.lists button[aria-pressed="true"] span{background:rgba(42,30,0,.15);color:#2A1E00}
+.sim{display:grid;grid-template-columns:330px 1fr;gap:16px;margin-top:16px;align-items:start}
+@media (max-width:980px){.sim{grid-template-columns:1fr}}
+.people{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.people-h{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line);font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.prow{display:grid;grid-template-columns:40px 1fr;gap:12px;width:100%;text-align:left;background:transparent;border:0;border-bottom:1px solid var(--line);padding:14px;cursor:pointer;color:var(--fg-2)}
+.prow:last-child{border-bottom:0}
+.prow:hover{background:var(--card-2)}
+.prow[aria-pressed="true"]{background:var(--card-2);box-shadow:inset 3px 0 0 var(--gold)}
+.av{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:14px;color:#0A1630;background:var(--blue);position:relative}
+.av.done::after{content:"";position:absolute;right:-3px;bottom:-3px;width:16px;height:16px;border-radius:50%;border:2px solid var(--card);background:var(--good) center/10px no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2306301C' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E")}
+.prow .nm{display:flex;justify-content:space-between;gap:8px;align-items:center;font-weight:700;color:var(--fg);font-size:15px}
+.prow .meta{display:block;font-size:12.5px;color:var(--fg-3);margin-top:3px;line-height:1.4}
+.stg{display:inline-flex;align-items:center;font-size:11.5px;font-weight:700;border-radius:99px;padding:3px 9px;white-space:nowrap;border:1px solid transparent}
+.stg-new{background:var(--blue-soft);color:var(--blue);border-color:rgba(143,176,255,.4)}
+.stg-contacted{background:rgba(150,174,224,.12);color:var(--fg-2);border-color:var(--line-2)}
+.stg-warm{background:rgba(255,170,90,.12);color:#FFB877;border-color:rgba(255,170,90,.4)}
+.stg-hot{background:var(--bad-soft);color:var(--bad);border-color:rgba(255,127,127,.45)}
+.stg-pending{background:var(--good-soft);color:var(--good);border-color:rgba(61,214,140,.45)}
+.stg-dnc{background:#2A1520;color:#FF9BB0;border-color:rgba(255,155,176,.45)}
+.profile{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px;min-width:0}
+.pf-head{display:flex;gap:14px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.pf-id{display:flex;gap:14px;align-items:center;min-width:0}
+.pf-id .av{width:52px;height:52px;font-size:17px}
+.pf-id h2{font-size:30px;font-weight:800}
+.pf-badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.lbadge{font-size:11.5px;font-weight:700;border-radius:99px;padding:3px 9px;background:var(--gold-soft);color:var(--gold-2);border:1px solid var(--gold-line)}
+.pf-stage{display:grid;gap:6px;min-width:200px}
+.pf-stage label{font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.pf-stage select{appearance:none;-webkit-appearance:none;background:var(--bg-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F4B62E' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") right 12px center/16px no-repeat;border:1px solid var(--line-2);border-radius:10px;color:var(--fg);padding:10px 38px 10px 12px;font:inherit;font-weight:700;font-size:14.5px;cursor:pointer}
+.contact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}
+@media (max-width:560px){.contact{grid-template-columns:minmax(0,1fr)}}
+.contact div{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:rgba(10,22,48,.45);min-width:0}
+.contact span{display:block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.contact b{display:block;color:var(--fg);font-size:14px;font-weight:600;margin-top:3px;overflow-wrap:anywhere}
+.alm{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
+@media (max-width:760px){.alm{grid-template-columns:1fr}}
+.almbox{border:1px solid var(--gold-line);border-radius:12px;padding:12px 14px;background:linear-gradient(180deg,rgba(244,182,46,.10),rgba(244,182,46,.03));min-width:0}
+.almbox .ak{display:flex;align-items:center;gap:8px;font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-2)}
+.almbox .ak b{display:grid;place-items:center;width:22px;height:22px;border-radius:6px;background:var(--gold);color:#2A1E00;font-size:13px;letter-spacing:0}
+.almbox p{margin-top:8px;color:var(--fg);font-weight:600;font-size:14.5px;line-height:1.4}
+.almbox.flash{animation:flash 1.8s ease}
+@keyframes flash{0%{box-shadow:0 0 0 0 rgba(61,214,140,.0);border-color:var(--good)}20%{box-shadow:0 0 0 4px rgba(61,214,140,.35);border-color:var(--good)}100%{box-shadow:0 0 0 0 rgba(61,214,140,0)}}
+.call{margin-top:14px;border:1px solid var(--line-2);border-radius:14px;overflow:hidden}
+.call-h{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 14px;background:var(--bg-2);border-bottom:1px solid var(--line);font-size:13px;font-weight:700;color:var(--fg-2)}
+.call-h .rec{display:inline-flex;align-items:center;gap:8px}
+.call-h .rec i{width:8px;height:8px;border-radius:50%;background:var(--bad);animation:pulse-r 1.4s infinite}
+@keyframes pulse-r{50%{opacity:.25}}
+.call-b{padding:16px 14px;display:grid;gap:12px;background:rgba(10,22,48,.35)}
+.bubble{max-width:620px;background:var(--card-2);border:1px solid var(--line-2);border-radius:4px 16px 16px 16px;padding:12px 14px;color:var(--fg);font-size:15.5px}
+.bubble small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3);margin-bottom:4px}
+.bubble.me{justify-self:end;border-radius:16px 4px 16px 16px;background:rgba(244,182,46,.12);border-color:var(--gold-line)}
+.bubble.me small{color:var(--gold-2)}
+.askline{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:760px){.choices{grid-template-columns:1fr}}
+.choice{display:flex;flex-direction:column;justify-content:flex-start;text-align:left;background:var(--bg-2);border:1px solid var(--line-2);border-radius:12px;padding:14px;cursor:pointer;color:var(--fg);font-size:14.5px;line-height:1.45;transition:border-color .15s,transform .15s}
+.choice:hover:not([disabled]){border-color:var(--gold);transform:translateY(-1px)}
+.choice .cl{display:block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3);margin-bottom:6px}
+.choice.is-right{border-color:var(--good);background:var(--good-soft)}
+.choice.is-right .cl{color:var(--good)}
+.choice.is-wrong{border-color:var(--bad);background:var(--bad-soft)}
+.choice.is-wrong .cl{color:var(--bad)}
+.choice[disabled]{cursor:default}
+.choice[disabled]:not(.is-right):not(.is-wrong){opacity:.5}
+.hist{margin-top:14px;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.hist-h{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;background:var(--bg-2);border-bottom:1px solid var(--line);font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.hist ol{list-style:none;margin:0;padding:0}
+.hist li{display:grid;grid-template-columns:34px 1fr;gap:12px;padding:12px 14px;border-bottom:1px solid var(--line)}
+.hist li:last-child{border-bottom:0}
+.hist li.fresh{animation:fresh 2.2s ease}
+@keyframes fresh{0%{background:rgba(244,182,46,.16)}100%{background:transparent}}
+.hico{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:var(--card-2);color:var(--fg-2)}
+.hico.note{background:var(--gold-soft);color:var(--gold-2)}
+.hico.call{background:var(--blue-soft);color:var(--blue)}
+.hico.bad{background:var(--bad-soft);color:var(--bad)}
+.hico.stage{background:var(--good-soft);color:var(--good)}
+.htop{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;font-weight:700;color:var(--fg)}
+.htop time{font-weight:500;color:var(--fg-3);font-size:12.5px;white-space:nowrap}
+.hbody{font-size:14px;margin-top:3px;color:var(--fg-2);white-space:pre-line}
+.hbody.mono{font-family:var(--mono);font-size:12.5px;line-height:1.65;background:#081126;border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-top:6px;color:#DCE6FA;overflow-x:auto}
+.sim-foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px;font-size:12.5px;color:var(--fg-3)}
+.back-list{display:none}
+@media (max-width:980px){.back-list{display:inline-flex}}
+
+/* View 3: certification */
+.score{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.score{grid-template-columns:1fr 1fr}}
+.sc{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;display:flex;gap:14px;align-items:center;min-width:0}
+.ring{--p:0;width:64px;height:64px;border-radius:50%;flex:none;background:conic-gradient(var(--gold) calc(var(--p)*1%),rgba(150,174,224,.15) 0);display:grid;place-items:center}
+.ring::before{content:"";grid-area:1/1;width:50px;height:50px;border-radius:50%;background:var(--card)}
+.ring b{grid-area:1/1;position:relative;font-family:var(--display);font-weight:800;font-size:19px;color:var(--fg)}
+.ring.good{background:conic-gradient(var(--good) calc(var(--p)*1%),rgba(150,174,224,.15) 0)}
+.sc h3{font-family:var(--body);font-size:12px;letter-spacing:.14em;color:var(--fg-3);font-weight:700}
+.sc p{font-size:13px;color:var(--fg-3);margin-top:4px}
+.sc .v{font-family:var(--display);font-size:26px;font-weight:800;color:var(--fg);line-height:1.05;margin-top:2px}
+.cert-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.5fr);gap:16px;margin-top:16px;align-items:start}
+@media (max-width:980px){.cert-grid{grid-template-columns:1fr}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.panel h2{font-size:24px;font-weight:800;margin-bottom:12px}
+.panel + .panel{margin-top:16px}
+.reqs{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.reqs li{display:grid;grid-template-columns:24px 1fr auto;gap:10px;align-items:center;font-size:14.5px}
+.reqs .st{width:22px;height:22px;border-radius:50%;border:2px solid var(--line-2);display:grid;place-items:center;color:#06301C}
+.reqs li.ok .st{background:var(--good);border-color:var(--good)}
+.reqs .cnt{font-weight:700;color:var(--fg);font-size:13.5px}
+.minirows{display:grid;gap:6px;margin-top:12px}
+.minirow{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;border-top:1px solid var(--line);padding-top:8px}
+.minirow b{color:var(--fg)}
+.minirow .ok{color:var(--good)}
+.minirow .no{color:var(--fg-3)}
+.namefield{display:grid;gap:6px;margin-top:4px}
+.namefield label{font-size:11.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
+.namefield input{background:var(--bg-2);border:1px solid var(--line-2);border-radius:10px;color:var(--fg);padding:12px 14px;font:inherit;font-size:16px}
+.namefield input:focus{border-color:var(--gold);outline:none;box-shadow:0 0 0 3px rgba(244,182,46,.25)}
+.namefield input[readonly]{opacity:.8}
+.namefield small{font-size:12.5px;color:var(--fg-3)}
+.notice{display:flex;gap:14px;align-items:flex-start;background:linear-gradient(90deg,rgba(244,182,46,.16),rgba(244,182,46,.06));border:1px solid var(--gold-line);border-radius:14px;padding:16px 18px;color:var(--fg)}
+.notice .ni{width:36px;height:36px;flex:none;border-radius:10px;background:var(--gold);color:#2A1E00;display:grid;place-items:center}
+.notice h3{font-family:var(--body);text-transform:none;font-size:16.5px;font-weight:700;margin-bottom:4px;color:var(--gold-2)}
+.notice p{font-size:14.5px;color:var(--fg-2)}
+/* the certificate */
+.cert-wrap{margin-top:0}
+.cert{position:relative;background:#FBF6EA;color:#0F2247;border-radius:10px;padding:14px;box-shadow:0 30px 80px -30px rgba(0,0,0,.8)}
+.cert.is-locked{filter:grayscale(.65);opacity:.45;pointer-events:none;user-select:none}
+.cert-in{position:relative;border:3px solid #C9971F;outline:1px solid #C9971F;outline-offset:5px;border-radius:4px;padding:34px 30px 26px;text-align:center;background:radial-gradient(70% 60% at 50% 40%,rgba(244,182,46,.08),transparent 70%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120' viewBox='0 0 160 120'%3E%3Cpath d='M20 70 L60 30 L100 70 M40 90 L80 50 L120 90' fill='none' stroke='%23C9971F' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.07'/%3E%3C/svg%3E") center/160px 120px}
+.cert-logo{display:flex;align-items:center;justify-content:center;gap:10px}
+.cert-logo svg{width:52px;height:36px}
+.cert-logo span{font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:.02em;color:#0F2247}
+.cert-logo span em{font-style:normal;color:#A8720A}
+.cert-k{margin-top:16px;font-size:12px;font-weight:700;letter-spacing:.32em;text-transform:uppercase;color:#8A5D08}
+.cert-title{font-family:var(--display);font-weight:800;font-size:clamp(26px,3.4vw,40px);text-transform:uppercase;color:#0F2247;margin-top:8px;line-height:1}
+.cert-pre{margin-top:18px;font-style:italic;color:#4A5878;font-size:15px}
+.cert-name{font-family:var(--display);font-weight:700;font-size:clamp(30px,4.4vw,52px);color:#0F2247;margin:6px auto 0;padding:0 10px 6px;border-bottom:2px solid #C9971F;display:inline-block;min-width:60%;line-height:1.1;overflow-wrap:anywhere}
+.cert-name.ph{color:#A9B2C6}
+.cert-body{max-width:56ch;margin:14px auto 0;color:#2B3B5E;font-size:15px;line-height:1.55}
+.cert-foot{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:end;margin-top:22px}
+.cert-foot div span{display:block;font-size:10.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#7A6A3A}
+.cert-foot div b{display:block;font-size:15px;color:#0F2247;margin-top:3px}
+.cert-foot .mono{font-family:var(--mono);letter-spacing:.04em;white-space:nowrap}
+.cert-foot .cf-l{text-align:left}
+.cert-foot .cf-r{text-align:right}
+.seal{width:84px;height:84px}
+.cert-issuer{margin-top:14px;font-size:12px;color:#6B5C2E;letter-spacing:.04em}
+@media (max-width:560px){.cert-in{padding:24px 14px 18px}.cert-foot{grid-template-columns:1fr;gap:10px}.cert-foot .cf-l,.cert-foot .cf-r{text-align:center}.cert-foot .seal{grid-row:1;justify-self:center;width:64px;height:64px}}
+.cert-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.regmsg{margin-top:12px;font-size:14px}
+.regmsg.ok{color:var(--good)}
+.regmsg.warn{color:var(--gold-2)}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:28px 0 36px;color:var(--fg-3);font-size:13.5px;background:var(--bg-2)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px 28px}
+footer nav{display:flex;flex-wrap:wrap;gap:8px 18px}
+footer a{color:var(--fg-2);text-decoration:none}
+footer a:hover{color:var(--gold-2)}
+footer p{max-width:70ch}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Print. The "Print or save as PDF" button adds .printing-cert so only the earned certificate prints, on one landscape page.
+   Printing anything else prints the open view in black on white. A locked certificate never prints. */
+.print-locked{display:none}
+@page certpage{size:landscape;margin:10mm}
+@media print{
+  @page{margin:12mm}
+  .skip,header.nav,.bc-tabs-bar,footer nav,.pc-actions,.quiz-actions,.cert-actions,.regmsg,.sim-foot,.days-foot,.back-list,form[name="isa-certification"]{display:none!important}
+  body:not(.printing-cert),body:not(.printing-cert) *:not(.cert):not(.cert *){background:transparent!important;color:#111!important;box-shadow:none!important;border-color:#bbb!important;text-shadow:none!important}
+  .lesson,.lcard,.quiz,.panel{break-inside:avoid}
+  body.printing-cert{background:#fff;padding:0}
+  body.printing-cert .hero,body.printing-cert footer,body.printing-cert #view-curriculum,body.printing-cert #view-simulator,body.printing-cert #scorecard,body.printing-cert .cert-grid>div:first-child,body.printing-cert #certNotice{display:none!important}
+  body.printing-cert #view-certificate{display:block!important;padding:0}
+  body.printing-cert .cert-grid{display:block;margin:0}
+  .cert-wrap{page:certpage;margin:0!important}
+  .cert{box-shadow:none;break-inside:avoid;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .cert.is-locked{display:none!important}
+  .cert.is-locked + .print-locked{display:block!important;font-size:16px;padding:20px 0}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#bc-main">Skip to the boot camp</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="BeyondVAs home">
+      <svg viewBox="0 0 88 60" aria-hidden="true"><defs><linearGradient id="gm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6E48A"/><stop offset=".5" stop-color="#D4AF37"/><stop offset="1" stop-color="#A5801F"/></linearGradient></defs><path d="M6 44 L44 8 L82 44" fill="none" stroke="url(#gm)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 44 L44 22 L66 44" fill="none" stroke="url(#gm)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="39" y="30" width="10" height="10" rx="1.5" fill="url(#gm)"/><path d="M2 54 H86" stroke="url(#gm)" stroke-width="2" stroke-linecap="round" opacity=".7"/></svg>
+      <span><span class="word"><span>BEYOND</span><span class="vas">VAs</span></span><span class="tag">Bilingual virtual assistants</span></span>
+    </a>
+    <nav class="navlinks" id="navlinks" aria-label="Site">
+      <a href="index.html#roles">What your VA does</a>
+      <a href="index.html#pricing">What's included</a>
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#guarantee">Guarantee</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="bootcamp.html" aria-current="page">ISA Boot Camp</a>
+      <a href="index.html#apply">For VAs · <span lang="es">Aplica aquí</span></a>
+    </nav>
+    <div class="navcta">
+      <a class="btn btn-gold btn-sm" href="index.html#book">Book a call</a>
+      <button class="menubtn" id="menubtn" type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="bc-main">
+  <section class="hero" aria-labelledby="bc-title">
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">BeyondVAs Academy · ISA track</div>
+        <h1 id="bc-title">ISA 7-Day <span class="gold">Certification Boot Camp</span></h1>
+        <p class="lead">Seven short days. A lesson and a knowledge check each day, live practice inside a simulated Follow Up Boss workspace, and a BeyondVAs certificate with a verification ID when you finish. It is part of every BeyondVAs ISA’s onboarding, and you can start it before you apply.</p>
+        <div class="micro"><span>Free</span><span>In English, like the calls you will make</span><span>Progress saves on this device</span></div>
+      </div>
+      <div class="progress-card">
+        <div class="pc-top"><h2>Your progress</h2><span id="pcLabel">Not started</span></div>
+        <div class="pc-stats">
+          <div class="pc-stat"><b id="pcDays">0/7</b><span>Days passed</span></div>
+          <div class="pc-stat"><b id="pcCalls">0/3</b><span>Simulator calls</span></div>
+          <div class="pc-stat"><b id="pcQa">–</b><span>QA average</span></div>
+        </div>
+        <div class="pc-bar" aria-hidden="true"><i id="pcBar"></i></div>
+        <div class="pc-actions"><button class="btn btn-gold" type="button" id="pcGo" data-act="continue">Start Day 1</button></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bc-tabs-bar">
+    <div class="wrap">
+      <div class="bc-tabs" role="tablist" aria-label="Boot camp sections">
+        <button class="bc-tab" role="tab" id="tab-curriculum" aria-controls="view-curriculum" aria-selected="true" data-tab="curriculum"><span class="n">1</span>Curriculum (7 Days)<span class="pill" id="tabDays">0/7</span></button>
+        <button class="bc-tab" role="tab" id="tab-simulator" aria-controls="view-simulator" aria-selected="false" tabindex="-1" data-tab="simulator"><span class="n">2</span>Follow Up Boss Simulator<span class="pill" id="tabCalls">0/3</span></button>
+        <button class="bc-tab" role="tab" id="tab-certificate" aria-controls="view-certificate" aria-selected="false" tabindex="-1" data-tab="certificate"><span class="n">3</span>Certification &amp; QA<span class="pill" id="tabCert">Locked</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- VIEW 1: CURRICULUM -->
+  <section class="view" id="view-curriculum" role="tabpanel" aria-labelledby="tab-curriculum" tabindex="-1">
+    <div class="wrap cur">
+      <aside class="days" aria-label="Boot camp days">
+        <h2>7-Day curriculum</h2>
+        <ol id="dayList"></ol>
+        <div class="days-foot"><span>Saved on this device</span><button class="linkbtn" type="button" data-act="reset-all">Reset progress</button></div>
+      </aside>
+      <article class="lesson" id="lesson"></article>
+    </div>
+  </section>
+
+  <!-- VIEW 2: FOLLOW UP BOSS SIMULATOR -->
+  <section class="view" id="view-simulator" role="tabpanel" aria-labelledby="tab-simulator" tabindex="-1" hidden>
+    <div class="wrap">
+      <div class="simbar">
+        <div class="simbrand"><span class="live" aria-hidden="true"></span><span>Follow Up Boss (Simulated Workspace)<small>Practice CRM built by BeyondVAs. Not affiliated with Follow Up Boss. No real leads, no real calls.</small></span></div>
+        <div class="qa" aria-live="polite">
+          <span class="qa-k">QA Live Score</span>
+          <span class="qa-v" id="qaLive">85<small>/100</small></span>
+          <span class="qa-meter" aria-hidden="true"><i id="qaMeter"></i></span>
+          <span class="qa-delta" id="qaDelta" aria-hidden="true"></span>
+        </div>
+        <div class="lists" role="group" aria-label="Smart Lists" id="lists"></div>
+      </div>
+      <div class="sim">
+        <div class="people" aria-label="People directory">
+          <div class="people-h"><span>People</span><span id="peopleCount">3 leads</span></div>
+          <div id="people"></div>
+        </div>
+        <div class="profile" id="profile" tabindex="-1"></div>
+      </div>
+      <div class="sim-foot">
+        <span>Each call starts at 100 points; a wrong first response costs the points shown. Your QA score average is the average of your call scores.</span>
+        <button class="linkbtn" type="button" data-act="reset-sim">Replay all three calls</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIEW 3: CERTIFICATION & QA -->
+  <section class="view" id="view-certificate" role="tabpanel" aria-labelledby="tab-certificate" tabindex="-1" hidden>
+    <div class="wrap">
+      <div class="score" id="scorecard"></div>
+      <div class="cert-grid">
+        <div>
+          <div class="panel">
+            <h2>Requirements</h2>
+            <ul class="reqs" id="reqs"></ul>
+            <div class="minirows" id="callRows"></div>
+          </div>
+          <div class="panel">
+            <h2>Your certificate name</h2>
+            <div class="namefield">
+              <label for="certName">Full legal name</label>
+              <input id="certName" type="text" maxlength="80" autocomplete="name" spellcheck="false" placeholder="As it appears on your ID">
+              <small id="nameHint">Type it exactly as it appears on your government ID. It is printed on your certificate.</small>
+            </div>
+          </div>
+          <div class="panel">
+            <h2>The 100-point QA rubric</h2>
+            <div class="rubric" id="rubricSide"></div>
+          </div>
+        </div>
+        <div>
+          <div class="notice" id="certNotice" role="status">
+            <span class="ni" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
+            <div><h3>Your certificate is locked</h3><p id="certNoticeP">Finish all 7 Daily Knowledge Checks and the 3 simulator calls to unlock your certificate.</p></div>
+          </div>
+          <div class="cert-wrap" style="margin-top:16px">
+            <div class="cert is-locked" id="certCard" aria-label="BeyondVAs certificate">
+              <div class="cert-in">
+                <div class="cert-logo">
+                  <svg viewBox="0 0 88 60" aria-hidden="true"><defs><linearGradient id="gm2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E8C65A"/><stop offset=".5" stop-color="#C9971F"/><stop offset="1" stop-color="#8F6A12"/></linearGradient></defs><path d="M6 44 L44 8 L82 44" fill="none" stroke="url(#gm2)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 44 L44 22 L66 44" fill="none" stroke="url(#gm2)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="39" y="30" width="10" height="10" rx="1.5" fill="url(#gm2)"/><path d="M2 54 H86" stroke="url(#gm2)" stroke-width="2" stroke-linecap="round" opacity=".7"/></svg>
+                  <span>BEYOND<em>VAs</em></span>
+                </div>
+                <p class="cert-k">Official certificate of completion</p>
+                <h2 class="cert-title">BeyondVAs Certified Real Estate ISA</h2>
+                <p class="cert-pre">This certifies that</p>
+                <p class="cert-name ph" id="cName">Your full legal name</p>
+                <p class="cert-body" id="cBody">has completed the BeyondVAs 7-Day ISA Certification Boot Camp, passing all seven daily knowledge checks and three simulated CRM practice calls.</p>
+                <div class="cert-foot">
+                  <div class="cf-l"><span>Issued</span><b id="cDate">–</b></div>
+                  <svg class="seal" viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E48A"/><stop offset=".5" stop-color="#C9971F"/><stop offset="1" stop-color="#8F6A12"/></linearGradient></defs><g fill="url(#sg)"><path d="M50 3l7 8 10-4 3 10 11 1-1 11 9 6-6 9 5 10-10 4v11l-11 1-4 10-10-4-7 8-7-8-10 4-4-10-11-1v-11l-10-4 5-10-6-9 9-6-1-11 11-1 3-10 10 4z"/></g><circle cx="50" cy="50" r="30" fill="#FBF6EA"/><circle cx="50" cy="50" r="27" fill="none" stroke="#C9971F" stroke-width="1.5"/><path d="M34 56 L50 40 L66 56" fill="none" stroke="#0F2247" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="69" text-anchor="middle" font-family="Barlow Condensed,Arial Narrow,sans-serif" font-weight="800" font-size="9" fill="#0F2247" letter-spacing="1">ISA</text></svg>
+                  <div class="cf-r"><span>Verification ID</span><b class="mono" id="cId">–</b></div>
+                </div>
+                <p class="cert-issuer">Issued by the BeyondVAs Academy · A training certificate, not a real estate license · Verify at hello@beyondvas.com</p>
+              </div>
+            </div>
+            <p class="print-locked">Certificate locked. Finish all 7 daily knowledge checks and the 3 simulator calls to earn it.</p>
+            <div class="cert-actions" id="certActions" hidden>
+              <button class="btn btn-gold" type="button" data-act="register">Register my certificate</button>
+              <button class="btn btn-ghost" type="button" data-act="print">Print or save as PDF</button>
+              <button class="btn btn-ghost" type="button" data-act="copy-id">Copy verification ID</button>
+              <a class="btn btn-ghost" href="index.html#apply">Apply with this certificate</a>
+            </div>
+            <p class="regmsg" id="regMsg" role="status"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Netlify Forms needs this static copy to register the form at deploy time; the page submits it with fetch. -->
+  <form name="isa-certification" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="isa-certification">
+    <input name="bot-field"><input name="full_name"><input name="certificate_id"><input name="quizzes_passed"><input name="quizzes_first_try"><input name="calls_completed"><input name="qa_average"><input name="qa_live"><input name="completed_at">
+  </form>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="index.html">BeyondVAs home</a>
+      <a href="index.html#apply">Apply as a VA · <span lang="es">Aplica aquí</span></a>
+      <a href="index.html#book">Book a call</a>
+      <a href="index.html#faq">FAQ</a>
+    </nav>
+    <p>Training simulation. Follow Up Boss is a trademark of its owner; this practice workspace was built by BeyondVAs for training and is not affiliated with or endorsed by Follow Up Boss. Every lead, name, phone number and email in it is fictional.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  var KEY='bv-bootcamp-v1';
+  var $=function(id){return document.getElementById(id)};
+  var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
+  var ICON={
+    check:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>',
+    lock:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>',
+    x:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+    arrow:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+    note:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg>',
+    phone:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>',
+    flag:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22V4M4 4h13l-2 4 2 4H4"/></svg>',
+    user:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>',
+    trophy:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>'
+  };
+
+  /* ---------- Curriculum ---------- */
+  var DAYS=[
+    {n:1,title:'ISA Operating Framework & Speed-to-Lead',short:'Speed-to-Lead',
+     objective:'Master the 0 to 5-minute conversion window, inbound lead distribution channels, and operational boundaries.',
+     lessons:[
+      {t:'The 5-Minute Inbound Speed-to-Lead Rule',h:'<p>Contacting an internet lead within <b>5 minutes</b> makes the odds of qualifying it about <b>21 times higher</b> than waiting 30 minutes. Your dialer must launch within <b>180 seconds</b> of lead arrival.</p><p>All of this happens inside the calling window (Day 6). A lead that arrives after hours gets its first call as soon as the window opens in the lead’s time zone.</p>'+
+        '<div class="tline" aria-label="Speed-to-lead timeline"><div><b>0:00</b>Lead arrives</div><div><b>3:00</b>Dialer launched, at the latest</div><div><b>5:00</b>Best window closes</div><div><b>30:00</b>Odds of qualifying about 21x lower</div></div>'+
+        '<p class="src">Source: Lead Response Management Study, Dr. James Oldroyd (MIT) with InsideSales.com, 2007.</p>'},
+      {t:'Operating Boundaries for ISAs',h:'<div class="two"><div class="box do"><h4>ISAs handle</h4><ul class="ticks"><li>Discovery</li><li>A.L.M. Qualification</li><li>Appointment Scheduling</li></ul></div><div class="box dont"><h4>ISAs never</h4><ul class="ticks x"><li>Give pricing promises</li><li>Quote legal clauses</li><li>Interpret inspection reports</li><li>Sign agency agreements</li><li>Negotiate, or discuss price, terms or commission</li><li>Act as an agent or give an opinion of value</li></ul></div></div>'+
+        '<p class="callout"><b>Your scope depends on your client’s state.</b> In some states (Texas, for example) an unlicensed assistant may not call to find out whether someone wants to buy, sell or lease. Your manager sets your scope before you dial.</p>'},
+      {t:'Lead Lifecycle Pipeline',h:'<ol class="flow" aria-label="Lead lifecycle"><li><span>New Inbound Lead</span></li><li><span>Speed Call</span></li><li><span>A.L.M. Qualified</span></li><li><span>Direct Agent Handoff</span></li><li><span>In-Escrow Tracker</span></li></ol>'}
+     ],
+     quiz:{q:'What is the primary objective of an ISA during the first 3 minutes of an inbound lead arrival?',
+      o:['Explain closing costs and draft a mock buyer representation contract.','Initiate contact immediately, execute ALM qualification, and secure an agent appointment.','Wait 30 minutes to make sure the client isn’t busy browsing properties.','Assign the lead to an automated email drip without calling.'],
+      a:1,e:'Speed-to-lead is king. The goal is rapid engagement and securing the appointment using ALM.'}},
+    {n:2,title:'ALM Qualification Mastery & Cold Call Objections',short:'A.L.M. & Objections',
+     objective:'Anchor every conversation around Appointment, Location, and Motivation (ALM) while overcoming common objections.',
+     lessons:[
+      {t:'The ALM Engine',h:'<div class="alm3"><div class="almc"><div class="big">A</div><h4>Appointment</h4><p>Never end a call without pitching a date and time, such as asking if they can meet our local specialist this Saturday at 11 AM or 2 PM.</p></div><div class="almc"><div class="big">L</div><h4>Location</h4><p>Uncover target areas, preferred zip codes, and commute tolerances.</p></div><div class="almc"><div class="big">M</div><h4>Motivation</h4><p>Find the underlying “WHY”: relocating for work, growing family, downsizing, or lease expiring.</p></div></div>'},
+      {t:'Top Objection Turnarounds',h:'<div class="objs">'+
+        '<div class="obj"><div class="q"><small>Objection</small>“Just looking online.”</div><div class="a"><small>Your reply</small><em>“Completely get it! Most of our clients browse 6 months early. What neighborhood caught your eye today?”</em></div></div>'+
+        '<div class="obj"><div class="q"><small>Objection</small>“I already have an agent.”</div><div class="a"><small>Your reply</small><em>“Understood, and I won’t step on that. Have you signed an agreement with them?”</em><span class="if">If they have: “Great, I’ll make a note. If anything changes, we’re here.” Log it in Follow Up Boss and tell your agent. Never pitch around another agent’s agreement. If they haven’t: offer a second opinion from your local specialist and ask for a time.</span></div></div>'+
+        '<div class="obj"><div class="q"><small>Objection</small>“Just send me info.”</div><div class="a"><small>Your reply</small><em>“I will email that right now! While I pull it up, are you free Saturday morning or afternoon to take a quick look inside?”</em></div></div>'+
+        '</div><p class="callout"><b>The pattern:</b> acknowledge, pivot to a Location or Motivation question, then ask for the appointment.</p>'}
+     ],
+     quiz:{q:'What does the ALM qualification framework stand for in our ISA operations?',
+      o:['Address, Listing price, Mortgage approval','Appointment, Location, Motivation','Action plans, Leads, Metrics','Agent, Lender, Marketing'],
+      a:1,e:'ALM stands for Appointment, Location, and Motivation.'}},
+    {n:3,title:'Follow Up Boss Hygiene & Smart Lists',short:'Follow Up Boss Hygiene',
+     objective:'Master Smart Lists, clean stage transitions, and mandatory ALM note formatting in Follow Up Boss.',
+     lessons:[
+      {t:'Smart List Execution Priority',h:'<p>Work your lists in this order, every shift:</p><ol class="prio" style="margin-top:12px"><li><b>New Speed-to-Lead</b><span class="tag">0 to 15 mins old</span></li><li><b>Hot Active Buyers</b><span class="tag">Ready within 30 days</span></li><li><b>Scheduled Follow-Up Tasks</b><span class="tag">Due today</span></li><li><b>30 to 60 Day Nurtures</b><span class="tag">Check-ins</span></li></ol>'},
+      {t:'Mandatory ALM Note Syntax',h:'<p>Every note logged in Follow Up Boss must list the <b>Date/Time</b>, <b>Call/Text Disposition</b>, <b>A</b> (Proposed or Confirmed Tour/Consult Time), <b>L</b> (Target Neighborhoods, Beds, Baths, Price), <b>M</b> (Reason for moving and timeline), and <b>Next Step</b> (Action item and assigned agent).</p>'+
+        '<div class="notetpl" aria-label="Example note"><span class="c">// Example note</span>\n<span class="k">Date/Time:</span>   Tue 10:42 AM\n<span class="k">Disposition:</span> Call, connected (4 min)\n<span class="k">A:</span>           Proposed tour Sat 11:00 AM\n<span class="k">L:</span>           Westside Lancaster, 4 bd / 2 ba, up to $550K\n<span class="k">M:</span>           Job relocation, wants to move by March\n<span class="k">Next step:</span>   Text 3 listings today; hand off to Agent Jordan</div>'+
+        '<p class="callout"><b>Why it matters:</b> your agent should never have to ask the client the same question twice.</p>'}
+     ],
+     quiz:{q:'When logging a call inside Follow Up Boss, what must always be included in the note?',
+      o:['A personal opinion about the client’s credit score.','Standard ALM syntax covering Appointment, Location, Motivation, and Next Step.','Just a thumbs up emoji.','Only the phone number dialed.'],
+      a:1,e:'Structured ALM notes ensure field agents know exactly what was uncovered without asking the client the same questions twice.'}},
+    {n:4,title:'Multi-Touch Workflows & Dial Execution',short:'Multi-Touch & Dials',
+     objective:'Execute the 3-strike multi-channel cadence to generate live conversations from cold and unresponsive leads.',
+     lessons:[
+      {t:'The 3-Strike Inbound Cadence',h:'<div class="strikes"><div class="strike"><span class="when">0 min</span><h4>Strike 1: Call</h4><p>Outbound call. Let it ring 5 to 6 times. If no answer, leave a 20-second voicemail.</p></div><div class="strike"><span class="when">2 min</span><h4>Strike 2: Text</h4><p>Immediate personalized text message referencing their property inquiry, to leads who agreed to texts.</p></div><div class="strike"><span class="when">4 hours later</span><h4>Strike 3: Call</h4><p>Second phone call, before the 6:00 PM evening rush in the lead’s time zone.</p></div></div>'+
+        '<p class="callout"><b>Every strike stays inside the calling window (Day 6),</b> texts included. If Strike 3 would land after hours, make it first thing the next morning.</p>'},
+      {t:'Daily KPI Benchmarks per Shift',h:'<div class="kpis"><div class="kpi"><b>80–100</b><span>Outbound dials</span></div><div class="kpi"><b>12–15</b><span>Live conversations</span></div><div class="kpi"><b>2–3</b><span>A.L.M.-qualified appointments scheduled</span></div></div>'}
+     ],
+     quiz:{q:'If an inbound lead doesn’t answer your first call, what is the required next step?',
+      o:['Wait 3 days before calling back.','Immediately send a targeted text message addressing their inquiry and schedule the afternoon follow-up call.','Mark the lead as Trash/DNC.','Assign the lead to an external call center.'],
+      a:1,e:'Immediate text follow-up captures leads who prefer texting over answering unfamiliar numbers.'}},
+    {n:5,title:'Agent Calendar Scheduling & 3-Way Handoff',short:'Scheduling & Handoff',
+     objective:'Coordinate calendars with field agents and execute warm phone and text introductions.',
+     lessons:[
+      {t:'The 3-Way Warm Phone Handoff Script',h:'<div class="script"><span class="who">You, to the agent, with the lead on the line</span>“<mark>[Agent Name]</mark>, I have <mark>[Lead Name]</mark> on the line. They are looking for a <mark>[4]</mark>-bed home in <mark>[Location]</mark> around <mark>[Budget]</mark> with a goal to move by <mark>[Timeline]</mark>. <mark>[Lead]</mark>, meet <mark>[Agent]</mark>, our local market expert!”</div>'},
+      {t:'Calendar Booking Rules',h:'<ul class="ticks"><li>Paste the Follow Up Boss lead profile link directly into the Google Calendar invite.</li><li>Set 24-hour and 1-hour text reminders.</li><li>Change the Follow Up Boss Stage immediately to “Pending Handoff”.</li><li>For any tour, note in the invite that the agent needs a signed buyer agreement before the showing. The agent sends and explains it; you never do.</li></ul>'}
+     ],
+     quiz:{q:'What is the proper stage in Follow Up Boss after booking an appointment with an agent?',
+      o:['Archived / DNC','Cold Nurture','Pending Handoff / Appointment Scheduled','Unassigned'],
+      a:2,e:'Updating the stage to Pending Handoff notifies the team and stops automated cold drip campaigns.'}},
+    {n:6,title:'Compliance, TCPA & QA Scorecard Standards',short:'Compliance & QA',
+     objective:'Protect the company from TCPA violations, handle Do Not Call (DNC) requests properly, and maintain a 90%+ QA score.',
+     lessons:[
+      {t:'TCPA Golden Rules',h:'<div class="two"><div class="box"><h4>Calling window</h4><p><b>9:00 AM to 8:00 PM</b> in the prospect’s local time zone, Monday to Saturday, and <b>noon to 8:00 PM</b> on Sunday. Texts follow the same window.</p><p class="src" style="margin-top:8px">Federal rules allow 8 AM to 9 PM. Texas allows no solicitation calls before 9 AM (noon on Sunday) and Florida none after 8 PM, so this window is our default everywhere. Some states are stricter still: Rhode Island, for example, allows unsolicited sales calls only 9 AM to 6 PM on weekdays and 10 AM to 5 PM on Saturday, never on Sundays or holidays. The lead’s state is what counts, and your manager tells you its rules before you dial.</p></div><div class="box dont"><h4>Opt-outs</h4><p>If a prospect says <b>“STOP”</b>, <b>“Remove me”</b>, or <b>“Don’t call”</b>, immediately tag them as DNC and move their stage to <b>Archived / DNC</b>. Pause every automation and log the opt-out in the notes.</p><p style="margin-top:8px">Never delete an opted-out contact: the DNC record is what stops future calls and texts.</p></div></div>'},
+      {t:'Before You Dial',h:'<ul class="ticks"><li>Inbound leads who asked to be contacted can be called inside the calling window.</li><li>Any other list (an old database, a farm list, a purchased list): call only numbers your client has checked against the National Do Not Call Registry and their own DNC list.</li><li>Text only leads who agreed to texts. Portal and ad forms usually include that consent; ask your manager if you are not sure.</li><li>Dial by hand. Never use an autodialer or a prerecorded message unless your manager confirms written consent.</li></ul>'},
+      {t:'Fair Housing',h:'<p>Treat every caller the same. Never steer anyone toward or away from an area, and never describe a neighborhood by who lives there, its schools, crime or “safety”, religion, or how “family-friendly” it is.</p><p>If they ask, say: <b>“Great question for your agent. I can also send you public sources.”</b> Log what the lead wants in the home, not who they are.</p>'},
+      {t:'The 100-Point QA Rubric',h:'<div class="rubric" data-rubric></div>'}
+     ],
+     quiz:{q:'A prospect texts back: “STOP CALLING ME”. What is your mandatory immediate action?',
+      o:['Call them immediately to convince them to stay subscribed.','Change their Follow Up Boss stage to Archived / DNC, pause all automations, and log the opt-out.','Ignore the text and try calling from a different number.','Delete the entire CRM database.'],
+      a:1,e:'TCPA compliance requires immediate cessation of all calls and texts upon an opt-out request.'}},
+    {n:7,title:'Practical Assessment & Certification',short:'Practical & Certification',
+     objective:'Synthesize all skills in the Follow Up Boss simulator and unlock your official BeyondVAs ISA credential.',
+     lessons:[
+      {t:'Final Simulation Checkpoints',h:function(){
+        var q=passedCount(),c=callsDone();
+        return '<p>Complete all three lead roleplay scenarios inside the Follow Up Boss Simulator tab and pass all 7 daily quizzes to unlock your completion certificate.</p>'+
+          '<ul class="checks" style="margin-top:14px"><li class="'+(q===7?'ok':'')+'"><span class="st">'+(q===7?ICON.check:'')+'</span><span>All 7 daily knowledge checks</span><span class="cnt">'+q+'/7</span></li>'+
+          '<li class="'+(c===LEADS.length?'ok':'')+'"><span class="st">'+(c===LEADS.length?ICON.check:'')+'</span><span>All 3 Follow Up Boss simulator calls</span><span class="cnt">'+c+'/'+LEADS.length+'</span></li></ul>'+
+          '<div class="quiz-actions"><button class="btn btn-ghost btn-sm" type="button" data-act="tab" data-tab="simulator">Open the simulator '+ICON.arrow+'</button></div>';
+      }}
+     ],
+     quiz:{q:'What is the ultimate standard for an elite BeyondVAs ISA?',
+      o:['Making 300 dials without taking any notes.','Executing fast speed-to-lead, securing appointments via ALM, and maintaining clean CRM data.','Sending generic bulk emails once a week.','Waiting for clients to call the office.'],
+      a:1,e:'Speed, qualification discipline, and CRM hygiene define high-performing real estate ISAs.'}}
+  ];
+  var RUBRIC=[['Speed to Lead',20],['ALM Discovery',30],['Objection Handling',20],['Follow Up Boss Hygiene',15],['Compliance',15]];
+
+  /* ---------- Simulator leads ---------- */
+  var STAGES=['New Lead','Contacted','Warm Nurture','Hot','Pending Handoff','Archived / DNC'];
+  var STAGE_CLS={'New Lead':'stg-new','Contacted':'stg-contacted','Warm Nurture':'stg-warm','Hot':'stg-hot','Pending Handoff':'stg-pending','Archived / DNC':'stg-dnc'};
+  var LISTS=[['all','All'],['speed','Speed-to-Lead'],['hot','Hot Active'],['nurture','30-60 Day']];
+  var LEADS=[
+    {id:'marcus',name:'Marcus Vance',ini:'MV',color:'#8FB0FF',email:'marcus.vance@example.com',phone:'(661) 555-8921',source:'Facebook Meta Ad - 4 Bed Pool Home',stage:'New Lead',list:'speed',listLabel:'Speed-to-Lead (0-15m)',created:'2 mins ago',
+     alm:{a:'Not Scheduled',l:'Palmdale / East Quartz Hill',m:'Lease ends in 45 days, 2 kids need bigger backyard'},
+     kind:'Objection',says:'I just clicked to see pictures of the kitchen! Please don’t bombard me with sales pitches.',
+     seed:[['2 mins ago','system','Lead created','Facebook Meta Ad: 4 Bed Pool Home. Added to the Speed-to-Lead Smart List.'],['2 mins ago','system','Assigned','Round-robin assigned to you (ISA).']],
+     order:[1,0],
+     choices:[
+      {label:'Acknowledge & ALM Pivot',text:'“Completely understand, Marcus! The kitchen in that home has incredible granite counters. Most of our clients look 6 months out. What specific area are you hoping to stay in when you do make a move?”',correct:true,pts:25,
+       effect:{stage:'Warm Nurture',alm:{l:'Prefers East Palmdale near 30th St',m:'Ready in 45-60 days if kitchen is upgraded'}},
+       coach:'You lowered the pressure, kept the conversation going and learned where and when he wants to move. Acknowledge, pivot to Location or Motivation, then work toward the appointment.',
+       note:{disp:'Call, connected. Objection handled: just browsing.',a:'Not scheduled yet. Follow-up call set.',next:'Text 3 homes with upgraded kitchens in East Palmdale today; call back in 2 days.'}},
+      {label:'Hard Push Tour',text:'“Well Marcus, you gave us your number! Can my agent meet you there today at 4 PM to see it in person?”',correct:false,pts:-15,
+       coach:'He asked not to be pitched. Pushing a same-day tour ignores the objection and ends the conversation. Acknowledge it first, then ask a Location or Motivation question. (Had he said “don’t call me”, that is an opt-out: Day 6.)',
+       log:'Pushed a same-day 4 PM tour after the lead asked not to be pitched. Lead ended the call.'}
+     ]},
+    {id:'elena',name:'Elena Rostova',ini:'ER',color:'#FFB877',email:'elena.rostova@example.com',phone:'(818) 555-3412',source:'Zillow Premier Inbound Tour Request',stage:'Hot',list:'hot',listLabel:'Hot Active Leads',created:'12 mins ago',
+     alm:{a:'Sat 11:00 AM (Requested)',l:'Lancaster / Westside',m:'Job relocation from Bay Area, all cash buyer'},
+     kind:'Tour request',says:'Hello! I am flying down this Friday. Can an agent open up this home Saturday at 11 AM? I have full proof of funds.',
+     seed:[['12 mins ago','system','Lead created','Zillow Premier tour request: Saturday 11:00 AM. Added to the Hot Active Smart List.'],['11 mins ago','system','Assigned','Assigned to you (ISA).']],
+     order:[0,1],
+     choices:[
+      {label:'Execute Warm Appointment Lock',text:'“Welcome to the area, Elena! Yes, our specialist agent is available this Saturday at 11 AM. I will lock that on the calendar and text you a direct confirmation with their contact card!”',correct:true,pts:30,
+       effect:{stage:'Pending Handoff',alm:{a:'CONFIRMED: Saturday @ 11:00 AM w/ Agent Jordan'}},
+       coach:'A ready, all-cash buyer asked for a specific time. Lock it, confirm by text, and move the stage to Pending Handoff right away (Day 5).',
+       note:{disp:'Call, connected. Appointment set.',next:'Calendar invite to Agent Jordan with the Follow Up Boss link; 24-hour and 1-hour text reminders set. Agent Jordan to send the buyer agreement before Saturday.'}},
+      {label:'Delay & Email Info',text:'“Let me check with someone and email you back sometime on Friday.”',correct:false,pts:-20,
+       coach:'She asked for Saturday at 11 AM and has proof of funds. Delaying to a Friday email risks losing a hot, ready buyer to the next agent who answers. Lock the appointment now.',
+       log:'Delayed the tour request to an email on Friday. Hot lead left without an appointment.'}
+     ]},
+    {id:'david',name:'David Sterling',ini:'DS',color:'#B7C3DD',email:'d.sterling@example.com',phone:'(661) 555-1049',source:'Old Website Registration',stage:'Contacted',list:'nurture',listLabel:'30-60 Day Nurture',created:'45 days ago',
+     alm:{a:'None',l:'Unknown',m:'Unknown'},
+     kind:'Opt-out',says:'Stop calling this number! Remove me from your database right now!',
+     seed:[['45 days ago','system','Lead created','Registered on the old website. Added to the 30-60 Day Nurture Smart List.'],['30 days ago','call','Call','No answer. Left a 20-second voicemail.']],
+     order:[1,0],
+     choices:[
+      {label:'Immediate DNC Compliance',text:'“I completely apologize for the disturbance, David. I have permanently opted your number out and removed you from all lists. Have a wonderful day.”',correct:true,pts:25,
+       effect:{stage:'Archived / DNC',alm:{m:'DO NOT CONTACT - Verbal Opt-Out'}},
+       coach:'An opt-out ends all contact immediately: stage to Archived / DNC, every automation paused, the opt-out logged (Day 6).',
+       note:{disp:'Call, connected. Verbal opt-out.',next:'Tagged DNC, all automations paused, opt-out logged. No further contact.'}},
+      {label:'Argue / Ask Why',text:'“Why are you angry? Are you sure you don’t want to buy a house in Palmdale?”',correct:false,pts:-30,
+       coach:'Arguing with an opt-out breaks TCPA rules and our DNC policy, and it exposes your client to fines. Apologize, opt them out, end the call.',
+       log:'Questioned an opt-out request instead of honoring it. Compliance violation.'}
+     ]}
+  ];
+  var leadById=function(id){for(var i=0;i<LEADS.length;i++) if(LEADS[i].id===id) return LEADS[i]; return LEADS[0]};
+
+  /* ---------- State (saved on this device) ---------- */
+  function fresh(){
+    var s={v:1,tab:'curriculum',day:1,passed:{},attempts:{},firstTry:{},qa:85,filter:'all',sel:'marcus',leads:{},name:'',certId:'',completedAt:'',registeredAt:''};
+    LEADS.forEach(function(l){s.leads[l.id]=freshLead(l)});
+    return s;
+  }
+  function freshLead(l){return {stage:l.stage,alm:{a:l.alm.a,l:l.alm.l,m:l.alm.m},history:[],picked:[],done:false,score:null}}
+  function load(){
+    try{var raw=localStorage.getItem(KEY);if(raw){var s=JSON.parse(raw);if(s&&s.v===1){var f=fresh();for(var k in f){if(!(k in s)) s[k]=f[k]}LEADS.forEach(function(l){if(!s.leads[l.id]) s.leads[l.id]=freshLead(l)});return s}}}catch(e){}
+    return fresh();
+  }
+  var S=load();
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+  var Q={}; // per-day transient quiz state {sel, result}
+  var flashKeys={}; var freshHist=null;
+
+  function passedCount(){var n=0;for(var d=1;d<=7;d++) if(S.passed[d]) n++;return n}
+  function firstTryCount(){var n=0;for(var d=1;d<=7;d++) if(S.firstTry[d]===true) n++;return n}
+  function unlocked(d){return d===1||!!S.passed[d-1]}
+  function callsDone(){var n=0;LEADS.forEach(function(l){if(S.leads[l.id].done) n++});return n}
+  function qaAvg(){var t=0,n=0;LEADS.forEach(function(l){var st=S.leads[l.id];if(st.done&&st.score!=null){t+=st.score;n++}});return n?Math.round(t/n):null}
+  function certReady(){return passedCount()===7&&callsDone()===LEADS.length}
+  function nextDay(){for(var d=1;d<=7;d++) if(!S.passed[d]) return d;return 0}
+  function clamp(v){return Math.max(0,Math.min(100,v))}
+  function newId(){
+    var A='ABCDEFGHJKLMNPQRSTUVWXYZ23456789',b=new Uint8Array(8),out='';
+    try{(window.crypto||window.msCrypto).getRandomValues(b)}catch(e){for(var j=0;j<8;j++) b[j]=Math.floor(Math.random()*256)}
+    for(var i=0;i<8;i++){out+=A[b[i]%32];if(i===3) out+='-'}
+    return 'BVA-ISA-'+out;
+  }
+  function fmtTime(iso){try{return new Date(iso).toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})}catch(e){return iso}}
+  function fmtDate(iso){try{return new Date(iso).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}catch(e){return iso}}
+  function checkCert(){if(certReady()&&!S.certId){S.certId=newId();S.completedAt=new Date().toISOString()}}
+
+  /* ---------- Tabs ---------- */
+  var TABS=['curriculum','simulator','certificate'];
+  function setTab(t,focus){
+    if(TABS.indexOf(t)<0) t='curriculum';
+    S.tab=t;save();
+    TABS.forEach(function(x){
+      var b=$('tab-'+x),p=$('view-'+x),on=x===t;
+      b.setAttribute('aria-selected',on?'true':'false');b.tabIndex=on?0:-1;p.hidden=!on;
+    });
+    try{history.replaceState(null,'','#'+t)}catch(e){}
+    // keep the selected tab visible in the scrolling tab strip (phones)
+    var strip=document.querySelector('.bc-tabs'),tb=$('tab-'+t),cr=strip.getBoundingClientRect(),br=tb.getBoundingClientRect();
+    if(br.left<cr.left||br.right>cr.right) strip.scrollLeft+=br.left-cr.left-16;
+    // pin the tabs bar under the header so the chosen view starts in sight
+    if(focus){var bar=document.querySelector('.bc-tabs-bar');var y=bar.getBoundingClientRect().top+window.scrollY-68;if(Math.abs(window.scrollY-y)>2) window.scrollTo({top:y,behavior:'smooth'})}
+  }
+
+  /* ---------- Render: hero + tab pills ---------- */
+  function renderTop(){
+    var p=passedCount(),c=callsDone(),avg=qaAvg(),ready=certReady();
+    $('pcDays').textContent=p+'/7';$('pcCalls').textContent=c+'/'+LEADS.length;$('pcQa').textContent=avg==null?'–':avg;
+    $('pcBar').style.width=Math.round((p+c)/(7+LEADS.length)*100)+'%';
+    $('tabDays').textContent=p+'/7';$('tabDays').className='pill'+(p===7?' ok':'');
+    $('tabCalls').textContent=c+'/'+LEADS.length;$('tabCalls').className='pill'+(c===LEADS.length?' ok':'');
+    $('tabCert').textContent=ready?'Unlocked':'Locked';$('tabCert').className='pill'+(ready?' ok':'');
+    var go=$('pcGo'),lbl=$('pcLabel'),nd=nextDay();
+    if(ready){go.textContent='View your certificate';go.setAttribute('data-next','certificate');lbl.textContent='Certificate unlocked'}
+    else if(nd){go.textContent=(p===0?'Start Day 1':'Continue with Day '+nd);go.setAttribute('data-next','day');lbl.textContent=p===0?'Not started':'Day '+nd+' of 7'}
+    else{go.textContent='Finish the simulator calls';go.setAttribute('data-next','simulator');lbl.textContent='All 7 days passed'}
+  }
+
+  /* ---------- Render: curriculum ---------- */
+  function renderDays(){
+    var html='';
+    DAYS.forEach(function(d){
+      var cls='day-btn'+(S.day===d.n?' is-current':'')+(S.passed[d.n]?' is-passed':'')+(!unlocked(d.n)?' is-locked':'');
+      var ic=S.passed[d.n]?ICON.check:(!unlocked(d.n)?ICON.lock:'');
+      var status=S.passed[d.n]?'Passed':(!unlocked(d.n)?'Locked':(S.day===d.n?'In progress':'Open'));
+      html+='<li><button type="button" class="'+cls+'" data-act="day" data-day="'+d.n+'"'+(S.day===d.n?' aria-current="step"':'')+' aria-label="Day '+d.n+': '+esc(d.short)+', '+status+'">'+
+        '<span class="dn">'+d.n+'</span><span class="dtxt"><span class="dt">'+esc(d.short)+'</span><span class="ds">'+status+'</span></span><span class="di" aria-hidden="true">'+ic+'</span></button></li>';
+    });
+    $('dayList').innerHTML=html;
+  }
+  function rubricHTML(){
+    return RUBRIC.map(function(r){return '<div class="rrow"><b>'+esc(r[0])+'</b><span class="rbar"><i style="width:'+(r[1]/30*100)+'%"></i></span><span class="pts">'+r[1]+'</span></div>'}).join('')+'<div class="rtotal"><span>Total</span><span>100 points</span></div>';
+  }
+  function renderLesson(){
+    var d=DAYS[S.day-1],el=$('lesson');
+    if(!unlocked(d.n)){
+      var nd=nextDay()||1;
+      el.innerHTML='<div class="locked"><div class="lk">'+ICON.lock.replace('class="ic"','class="ic" style="width:26px;height:26px"')+'</div><h2 tabindex="-1">Day '+d.n+' is locked</h2><p>Days unlock in order. Pass the Day '+(d.n-1)+' knowledge check to unlock '+esc(d.title)+'. You are on Day '+nd+'.</p><button class="btn btn-gold" type="button" data-act="day" data-day="'+nd+'">Go to Day '+nd+'</button></div>';
+      return;
+    }
+    var h='<div class="lesson-head"><div class="lesson-k">Day '+d.n+' of 7</div><h2 tabindex="-1">'+esc(d.title)+'</h2><div class="objective"><b>Objective</b><span>'+esc(d.objective)+'</span></div></div><div class="lessons">';
+    d.lessons.forEach(function(l,i){
+      var body=typeof l.h==='function'?l.h():l.h;
+      h+='<section class="lcard"><h3><span class="ln">Lesson '+(i+1)+'</span>'+esc(l.t)+'</h3>'+body+'</section>';
+    });
+    h+='</div>'+quizHTML(d);
+    el.innerHTML=h;
+    var rb=el.querySelector('[data-rubric]');if(rb) rb.innerHTML=rubricHTML();
+  }
+  function quizHTML(d){
+    var q=d.quiz,passed=!!S.passed[d.n],st=Q[d.n]||{},res=passed?'right':st.result,L='ABCD';
+    var h='<form class="quiz" id="quiz" data-day="'+d.n+'" novalidate><fieldset'+(passed||res==='wrong'?' disabled':'')+'><legend><span class="quiz-k">'+ICON.flag+' Day '+d.n+' knowledge check · required</span><span class="quiz-q">'+esc(q.q)+'</span></legend><div class="opts">';
+    q.o.forEach(function(o,i){
+      var cls='opt';
+      if(passed&&i===q.a) cls+=' is-right';
+      else if(res==='right'&&i===st.sel) cls+=' is-right';
+      else if(res==='wrong'&&i===st.sel) cls+=' is-wrong';
+      if(passed||res==='wrong') cls+=' is-locked';
+      var mark=(cls.indexOf('is-right')>=0)?ICON.check:(cls.indexOf('is-wrong')>=0?ICON.x:'');
+      h+='<label class="'+cls+'"><input type="radio" name="q" value="'+i+'"'+((passed&&i===q.a)||(!passed&&st.sel===i)?' checked':'')+'><span class="ol">'+L[i]+'</span><span class="ot">'+esc(o)+'</span><span class="om" aria-hidden="true">'+mark+'</span></label>';
+    });
+    h+='</div></fieldset>';
+    var unlockTxt=d.n<7?'Pass this check to unlock Day '+(d.n+1)+'.':(callsDone()===LEADS.length?'Pass this check to unlock your certificate.':'Pass this check and finish the 3 simulator calls to unlock your certificate.');
+    if(!passed&&res!=='wrong') h+='<div class="quiz-actions"><button class="btn btn-gold" type="submit">Check answer</button><span class="quiz-hint" id="quizHint">'+unlockTxt+'</span></div>';
+    var nextBtn=d.n<7?'<button class="btn btn-gold btn-sm" type="button" data-act="day" data-day="'+(d.n+1)+'">Continue to Day '+(d.n+1)+' '+ICON.arrow+'</button>':(certReady()?'<button class="btn btn-gold btn-sm" type="button" data-act="tab" data-tab="certificate">See your certificate '+ICON.arrow+'</button>':'<button class="btn btn-gold btn-sm" type="button" data-act="tab" data-tab="simulator">Finish the simulator calls '+ICON.arrow+'</button>');
+    if(passed) h+='<div class="fb good show" role="status"><h4>Correct. Day '+d.n+' passed.</h4><p>'+esc(q.e)+'</p>'+nextBtn+'</div>';
+    else if(res==='wrong') h+='<div class="fb bad show" role="alert"><h4>Not quite.</h4><p>'+esc(q.e)+'</p><button class="btn btn-ghost btn-sm" type="button" data-act="retry" data-day="'+d.n+'">Try again</button></div>';
+    else h+='<div class="fb" id="quizMsg" role="status"></div>';
+    return h+'</form>';
+  }
+  function submitQuiz(form){
+    var n=+form.getAttribute('data-day'),d=DAYS[n-1],pick=form.querySelector('input[name="q"]:checked');
+    if(!pick){var m=$('quizMsg');if(m){m.className='fb info show';m.innerHTML='<h4>Choose an answer first.</h4><p>Pick the option you think is right, then check it.</p>'}return}
+    var i=+pick.value;S.attempts[n]=(S.attempts[n]||0)+1;
+    if(i===d.quiz.a){S.passed[n]=true;if(S.firstTry[n]==null) S.firstTry[n]=true;Q[n]={sel:i,result:'right'};checkCert()}
+    else{if(S.firstTry[n]==null) S.firstTry[n]=false;Q[n]={sel:i,result:'wrong'}}
+    save();renderAll();
+    var fb=document.querySelector('#quiz .fb.show');if(fb){fb.setAttribute('tabindex','-1');try{fb.focus({preventScroll:true})}catch(e){}fb.scrollIntoView({block:'nearest',behavior:'smooth'})}
+  }
+
+  /* ---------- Render: simulator ---------- */
+  function stageBadge(s){return '<span class="stg '+(STAGE_CLS[s]||'stg-contacted')+'">'+esc(s)+'</span>'}
+  function renderSim(){
+    var counts={all:LEADS.length};LEADS.forEach(function(l){counts[l.list]=(counts[l.list]||0)+1});
+    $('lists').innerHTML=LISTS.map(function(x){return '<button type="button" data-act="filter" data-filter="'+x[0]+'" aria-pressed="'+(S.filter===x[0]?'true':'false')+'">'+esc(x[1])+'<span>'+(counts[x[0]]||0)+'</span></button>'}).join('');
+    var shown=LEADS.filter(function(l){return S.filter==='all'||l.list===S.filter});
+    $('peopleCount').textContent=shown.length+(shown.length===1?' lead':' leads');
+    $('people').innerHTML=shown.map(function(l){var st=S.leads[l.id];
+      return '<button type="button" class="prow" data-act="lead" data-id="'+l.id+'" aria-pressed="'+(S.sel===l.id?'true':'false')+'"><span class="av'+(st.done?' done':'')+'" style="background:'+l.color+'" aria-hidden="true">'+l.ini+'</span><span><span class="nm"><span>'+esc(l.name)+'</span>'+stageBadge(st.stage)+'</span><span class="meta">'+esc(l.source)+'<br>'+esc(l.phone)+' · '+esc(l.created)+(st.done?' · Call complete':'')+'</span></span></button>';
+    }).join('');
+    var q=S.qa;$('qaLive').innerHTML=q+'<small>/100</small>';
+    var m=$('qaMeter');m.style.width=q+'%';m.style.background=q>=90?'var(--good)':(q>=75?'var(--gold)':'var(--bad)');
+    renderProfile();
+  }
+  function renderProfile(){
+    var l=leadById(S.sel),st=S.leads[l.id],el=$('profile');
+    var opts=STAGES.map(function(s){return '<option'+(s===st.stage?' selected':'')+'>'+esc(s)+'</option>'}).join('');
+    var h='<button class="btn btn-ghost btn-sm back-list" type="button" data-act="back-list" style="margin-bottom:12px">Back to People</button>'+
+      '<div class="pf-head"><div class="pf-id"><span class="av" style="background:'+l.color+'" aria-hidden="true">'+l.ini+'</span><div><h2>'+esc(l.name)+'</h2><div class="pf-badges"><span class="lbadge">'+esc(l.listLabel)+'</span>'+stageBadge(st.stage)+'</div></div></div>'+
+      '<div class="pf-stage"><label for="stageSel">Follow Up Boss stage</label><select id="stageSel" data-id="'+l.id+'">'+opts+'</select></div></div>'+
+      '<div class="contact"><div><span>Email</span><b>'+esc(l.email)+'</b></div><div><span>Phone</span><b>'+esc(l.phone)+'</b></div><div><span>Lead source</span><b>'+esc(l.source)+'</b></div><div><span>Created</span><b>'+esc(l.created)+'</b></div></div>'+
+      '<div class="alm">'+[['a','A','Appointment'],['l','L','Location'],['m','M','Motivation']].map(function(k){return '<div class="almbox'+(flashKeys[l.id+k[0]]?' flash':'')+'"><span class="ak"><b>'+k[1]+'</b>'+k[2]+'</span><p>'+esc(st.alm[k[0]])+'</p></div>'}).join('')+'</div>';
+    // live call
+    var picked=st.picked;
+    h+='<div class="call"><div class="call-h"><span class="rec"><i aria-hidden="true"></i>Live call simulation · '+esc(l.kind)+'</span><span>'+(st.done?'Call complete':'On the line')+'</span></div><div class="call-b">'+
+      '<div class="bubble"><small>'+esc(l.name)+' says</small>“'+esc(l.says)+'”</div>';
+    var right=null;l.choices.forEach(function(c,i){if(c.correct&&picked.indexOf(i)>=0) right=c});
+    if(right) h+='<div class="bubble me"><small>You</small>'+esc(right.text.replace(/^“|”$/g,''))+'</div>';
+    h+='<div class="askline">'+(st.done?'Your response':'How do you respond?')+'</div><div class="choices">';
+    l.order.forEach(function(i){var c=l.choices[i],was=picked.indexOf(i)>=0,cls='choice'+(was?(c.correct?' is-right':' is-wrong'):'');
+      var lab=was?(c.correct?'Correct · '+c.label+' · +'+c.pts+' QA':'Wrong · '+c.label+' · '+c.pts+' QA'):'Response '+(l.order.indexOf(i)===0?'1':'2');
+      h+='<button type="button" class="'+cls+'" data-act="pick" data-id="'+l.id+'" data-i="'+i+'"'+((st.done||was)?' disabled':'')+'><span class="cl">'+esc(lab)+'</span>'+esc(c.text)+'</button>';
+    });
+    h+='</div>';
+    var last=picked.length?l.choices[picked[picked.length-1]]:null;
+    if(last&&last.correct){var nxt=nextOpenLead(l.id);
+      h+='<div class="fb good show" role="status"><h4>Great call. Score for this call: '+st.score+'/100.</h4><p>'+esc(last.coach)+'</p><p style="margin-top:6px">QA Live Score +'+last.pts+', now '+S.qa+'/100.</p>'+(nxt?'<button class="btn btn-gold btn-sm" type="button" data-act="lead" data-id="'+nxt.id+'">Next lead: '+esc(nxt.name)+' '+ICON.arrow+'</button>':(certReady()?'<button class="btn btn-gold btn-sm" type="button" data-act="tab" data-tab="certificate">All calls done. See your certificate '+ICON.arrow+'</button>':'<button class="btn btn-gold btn-sm" type="button" data-act="tab" data-tab="curriculum">All calls done. Back to the curriculum '+ICON.arrow+'</button>'))+'</div>';
+    } else if(last){
+      h+='<div class="fb bad show" role="alert"><h4>That response cost '+Math.abs(last.pts)+' QA points.</h4><p>'+esc(last.coach)+'</p><p style="margin-top:6px">QA Live Score now '+S.qa+'/100. Try the other response.</p></div>';
+    }
+    h+='</div></div>';
+    // history
+    // newest first: this session's entries, then the seeded history (stored oldest first)
+    var hist=st.history.slice().concat(l.seed.slice().reverse().map(function(s){return {rel:s[0],kind:s[1],title:s[2],text:s[3]}}));
+    h+='<div class="hist"><div class="hist-h"><span>Follow Up Boss activity history</span><span>'+hist.length+' entries</span></div><ol>'+hist.map(function(e,idx){
+      var ico=e.kind==='note'?ICON.note:(e.kind==='stage'?ICON.flag:(e.kind==='call'||e.kind==='bad'?ICON.phone:ICON.user));
+      return '<li'+(idx===0&&freshHist===l.id?' class="fresh"':'')+'><span class="hico '+e.kind+'" aria-hidden="true">'+ico+'</span><div><div class="htop"><span>'+esc(e.title)+'</span><time>'+esc(e.t?fmtTime(e.t):e.rel)+'</time></div><div class="hbody'+(e.mono?' mono':'')+'">'+esc(e.text)+'</div></div></li>';
+    }).join('')+'</ol></div>';
+    el.innerHTML=h;
+    freshHist=null;
+  }
+  function nextOpenLead(id){for(var i=0;i<LEADS.length;i++){var l=LEADS[i];if(l.id!==id&&!S.leads[l.id].done) return l}return null}
+  function noteText(l,st,c){
+    return 'Date/Time:   '+fmtTime(new Date().toISOString())+'\nDisposition: '+c.note.disp+'\nA:           '+(c.note.a||st.alm.a)+'\nL:           '+st.alm.l+'\nM:           '+st.alm.m+'\nNext step:   '+c.note.next;
+  }
+  function pick(id,i){
+    var l=leadById(id),st=S.leads[id],c=l.choices[i];
+    if(!c||st.done||st.picked.indexOf(i)>=0) return;
+    st.picked.push(i);
+    var before=S.qa;S.qa=clamp(S.qa+c.pts);showDelta(S.qa-before,c.pts);
+    var now=new Date().toISOString();
+    if(c.correct){
+      var oldStage=st.stage;
+      Object.keys(c.effect.alm||{}).forEach(function(k){st.alm[k]=c.effect.alm[k];flashKeys[id+k]=true});
+      if(c.effect.stage&&c.effect.stage!==oldStage){st.stage=c.effect.stage;st.history.unshift({t:now,kind:'stage',title:'Stage changed',text:oldStage+' → '+st.stage})}
+      st.history.unshift({t:now,kind:'note',title:'Note · A.L.M.',text:noteText(l,st,c),mono:true});
+      st.done=true;
+      var lost=0;st.picked.forEach(function(p){var pc=l.choices[p];if(!pc.correct) lost+=Math.abs(pc.pts)});
+      st.score=Math.max(0,100-lost);
+      checkCert();
+    } else {
+      st.history.unshift({t:now,kind:'bad',title:'Call · QA '+c.pts,text:c.log});
+    }
+    freshHist=id;save();renderAll();
+    setTimeout(function(){flashKeys={}},1900);
+    var fb=document.querySelector('#profile .fb.show');if(fb){fb.setAttribute('tabindex','-1');try{fb.focus({preventScroll:true})}catch(e){}fb.scrollIntoView({block:'nearest',behavior:'smooth'})}
+  }
+  function showDelta(real,pts){
+    var d=$('qaDelta');d.className='qa-delta';void d.offsetWidth;
+    d.textContent=(pts>0?'+':'')+pts+(real!==pts?' (max 100)':'');d.className='qa-delta go '+(pts>0?'up':'down');
+  }
+
+  /* ---------- Render: certification ---------- */
+  function renderCert(){
+    var p=passedCount(),c=callsDone(),avg=qaAvg(),ft=firstTryCount(),ready=certReady();
+    $('scorecard').innerHTML=
+      '<div class="sc"><div class="ring'+(p===7?' good':'')+'" style="--p:'+Math.round(p/7*100)+'"><b>'+p+'/7</b></div><div><h3>Curriculum progress</h3><div class="v">'+p+' of 7 days</div><p>Daily quizzes passed</p></div></div>'+
+      '<div class="sc"><div class="ring'+(avg!=null&&avg>=90?' good':'')+'" style="--p:'+(avg==null?0:avg)+'"><b>'+(avg==null?'–':avg)+'</b></div><div><h3>QA score average</h3><div class="v">'+(avg==null?'No calls yet':avg+'/100')+'</div><p>Our standard is 90 or more</p></div></div>'+
+      '<div class="sc"><div class="ring'+(c===LEADS.length?' good':'')+'" style="--p:'+Math.round(c/LEADS.length*100)+'"><b>'+c+'/'+LEADS.length+'</b></div><div><h3>Simulator calls</h3><div class="v">'+c+' of '+LEADS.length+' complete</div><p>Live QA score: '+S.qa+'/100</p></div></div>'+
+      '<div class="sc"><div class="ring" style="--p:'+Math.round(ft/7*100)+'"><b>'+ft+'</b></div><div><h3>First-try answers</h3><div class="v">'+ft+' of 7</div><p>Knowledge checks passed first try</p></div></div>';
+    $('reqs').innerHTML=
+      '<li class="'+(p===7?'ok':'')+'"><span class="st">'+(p===7?ICON.check:'')+'</span><span>Pass all 7 Daily Knowledge Checks</span><span class="cnt">'+p+'/7</span></li>'+
+      '<li class="'+(c===LEADS.length?'ok':'')+'"><span class="st">'+(c===LEADS.length?ICON.check:'')+'</span><span>Complete the 3 simulator calls</span><span class="cnt">'+c+'/'+LEADS.length+'</span></li>';
+    $('callRows').innerHTML=LEADS.map(function(l){var st=S.leads[l.id];return '<div class="minirow"><span>'+esc(l.name)+' · '+esc(l.kind)+'</span>'+(st.done?'<b class="ok">'+st.score+'/100</b>':'<span class="no">Not done</span>')+'</div>'}).join('');
+    $('rubricSide').innerHTML=rubricHTML();
+    var inp=$('certName');
+    if(document.activeElement!==inp) inp.value=S.name||'';
+    inp.readOnly=!!S.registeredAt;
+    $('nameHint').textContent=S.registeredAt?'Registered on '+fmtDate(S.registeredAt)+'. To change the name, contact hello@beyondvas.com.':'Type it exactly as it appears on your government ID. It is printed on your certificate.';
+    var cert=$('certCard'),notice=$('certNotice');
+    cert.classList.toggle('is-locked',!ready);
+    notice.hidden=ready;
+    if(!ready){var rm=$('regMsg');rm.textContent='';rm.className='regmsg'}
+    if(!ready){
+      var need=[];if(p<7) need.push((7-p)+' more Daily Knowledge Check'+(7-p===1?'':'s'));if(c<LEADS.length) need.push((LEADS.length-c)+' more simulator call'+(LEADS.length-c===1?'':'s'));
+      $('certNoticeP').textContent='Finish all 7 Daily Knowledge Checks and the 3 simulator calls to unlock your certificate. Still to go: '+need.join(' and ')+'.';
+    }
+    renderCertName();
+    $('cId').textContent=ready&&S.certId?S.certId:'BVA-ISA-••••-••••';
+    $('cDate').textContent=ready&&S.completedAt?fmtDate(S.completedAt):'–';
+    $('cBody').textContent='has completed the BeyondVAs 7-Day ISA Certification Boot Camp, passing all seven daily knowledge checks and three simulated CRM practice calls'+(ready&&avg!=null?', with a QA score average of '+avg+' out of 100.':'.');
+    $('certActions').hidden=!ready;
+    var rb=document.querySelector('[data-act="register"]');if(rb){rb.disabled=!!S.registeredAt;rb.textContent=S.registeredAt?'Registered':'Register my certificate'}
+  }
+  function renderCertName(){var n=(S.name||'').trim(),el=$('cName');el.textContent=n||'Your full legal name';el.classList.toggle('ph',!n)}
+
+  function renderAll(){renderTop();renderDays();renderLesson();renderSim();renderCert()}
+
+  /* ---------- Certificate registration (Netlify Forms) ---------- */
+  var inPreview=!!(window.claude&&window.claude.use)||/claude/.test(location.hostname)||location.protocol==='file:';
+  function register(){
+    var msg=$('regMsg'),n=(S.name||'').trim();
+    if(!certReady()) return;
+    if(n.length<3||!/[A-Za-zÀ-ÿ]/.test(n)||n.split(/\s+/).length<2){msg.className='regmsg warn';msg.textContent='Type your full legal name (first and last name) before registering.';$('certName').focus();return}
+    var data={'form-name':'isa-certification','full_name':n,'certificate_id':S.certId,'quizzes_passed':passedCount()+'/7','quizzes_first_try':firstTryCount()+'/7','calls_completed':callsDone()+'/'+LEADS.length,'qa_average':String(qaAvg()),'qa_live':String(S.qa),'completed_at':S.completedAt};
+    if(inPreview){msg.className='regmsg warn';msg.textContent='This is a preview copy of the site, so nothing was sent. On the live site this registers your certificate ID with BeyondVAs.';return}
+    msg.className='regmsg';msg.textContent='Registering…';
+    fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(data).toString()})
+      .then(function(r){if(!r.ok) throw new Error('bad');S.registeredAt=new Date().toISOString();save();renderCert();msg.className='regmsg ok';msg.textContent='Registered. BeyondVAs now has your certificate ID on file, so recruiters can verify it.'})
+      .catch(function(){msg.className='regmsg warn';msg.textContent='We could not register it automatically. Email your name and certificate ID to hello@beyondvas.com and we will add it.'});
+  }
+  function clearRegMsg(){var m=$('regMsg');m.textContent='';m.className='regmsg'}
+  window.addEventListener('afterprint',function(){document.body.classList.remove('printing-cert')});
+  function copyId(btn){
+    var t=S.certId;if(!t) return;
+    var done=function(){var o=btn.textContent;btn.textContent='Copied';setTimeout(function(){btn.textContent=o},1500)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,fallback)}else fallback();
+    function fallback(){var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(e){}document.body.removeChild(ta)}
+  }
+
+  /* ---------- Events ---------- */
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('[data-act]');if(!b) return;
+    var act=b.getAttribute('data-act');
+    if(act==='tab'){setTab(b.getAttribute('data-tab'),true);return}
+    if(act==='day'){var n=+b.getAttribute('data-day');if(n>=1&&n<=7){var fromSide=!!b.closest('.days');S.day=n;save();setTab('curriculum');renderDays();renderLesson();
+      var L=$('lesson');var y=L.getBoundingClientRect().top+window.scrollY-140;if(Math.abs(window.scrollY-y)>40&&window.scrollY>y) window.scrollTo({top:y,behavior:'smooth'});
+      // keep keyboard focus: on the same day button when picked from the list, otherwise on the new lesson heading
+      var tgt=fromSide?document.querySelector('.day-btn[data-day="'+n+'"]'):L.querySelector('h2');if(tgt){try{tgt.focus({preventScroll:true})}catch(x){}}}return}
+    if(act==='retry'){var d=+b.getAttribute('data-day');Q[d]={};renderLesson();var f=document.querySelector('#quiz input');if(f) f.focus();return}
+    if(act==='continue'){var nx=b.getAttribute('data-next');if(nx==='certificate') setTab('certificate',true);else if(nx==='simulator') setTab('simulator',true);else{S.day=nextDay()||7;save();setTab('curriculum',true);renderDays();renderLesson();var hh=$('lesson').querySelector('h2');if(hh){try{hh.focus({preventScroll:true})}catch(x){}}}return}
+    if(act==='filter'){var fv=b.getAttribute('data-filter');S.filter=fv;var shown=LEADS.filter(function(l){return S.filter==='all'||l.list===S.filter});if(shown.length&&!shown.some(function(l){return l.id===S.sel})) S.sel=shown[0].id;save();renderSim();var fb2=document.querySelector('#lists [data-filter="'+fv+'"]');if(fb2) fb2.focus();return}
+    if(act==='lead'){S.sel=b.getAttribute('data-id');var picked=leadById(S.sel);if(S.filter!=='all'&&picked.list!==S.filter) S.filter='all';save();setTab('simulator');renderSim();if(window.matchMedia('(max-width:980px)').matches){$('profile').scrollIntoView({behavior:'smooth',block:'start'})}try{$('profile').focus({preventScroll:true})}catch(x){}return}
+    if(act==='back-list'){document.querySelector('.people').scrollIntoView({behavior:'smooth',block:'start'});return}
+    if(act==='pick'){pick(b.getAttribute('data-id'),+b.getAttribute('data-i'));return}
+    if(act==='reset-sim'){if(!confirm('Replay all three calls? Your call scores and live QA score start over, and your certificate stays locked until you finish the calls again. Your curriculum progress'+(S.certId?' and verification ID stay.':' stays.'))) return;S.qa=85;LEADS.forEach(function(l){S.leads[l.id]=freshLead(l)});clearRegMsg();save();renderAll();return}
+    if(act==='reset-all'){var reg=!!S.registeredAt;if(!confirm('Reset all boot camp progress on this device? This clears your days and calls'+(reg?'. Your registered certificate ID stays.':' and your certificate.'))) return;
+      var keep=reg?{name:S.name,certId:S.certId,completedAt:S.completedAt,registeredAt:S.registeredAt}:null;S=fresh();if(keep){for(var kk in keep) S[kk]=keep[kk]}Q={};clearRegMsg();save();renderAll();setTab('curriculum');return}
+    if(act==='register'){register();return}
+    if(act==='print'){document.body.classList.add('printing-cert');window.print();setTimeout(function(){document.body.classList.remove('printing-cert')},500);return}
+    if(act==='copy-id'){copyId(b);return}
+  });
+  document.addEventListener('submit',function(e){if(e.target&&e.target.id==='quiz'){e.preventDefault();submitQuiz(e.target)}});
+  document.addEventListener('change',function(e){
+    var t=e.target;
+    if(t&&t.id==='stageSel'){var id=t.getAttribute('data-id'),st=S.leads[id],old=st.stage;if(t.value===old) return;st.stage=t.value;st.history.unshift({t:new Date().toISOString(),kind:'stage',title:'Stage changed manually',text:old+' → '+t.value});freshHist=id;save();renderSim();var s=$('stageSel');if(s) s.focus();return}
+    if(t&&t.name==='q'){var f=t.form,n=+f.getAttribute('data-day');Q[n]={sel:+t.value};f.querySelectorAll('.opt').forEach(function(o){o.classList.remove('is-right','is-wrong')});var m=$('quizMsg');if(m){m.className='fb';m.innerHTML=''}}
+  });
+  var nameTimer;
+  $('certName').addEventListener('input',function(e){if(S.registeredAt) return;S.name=e.target.value.replace(/\s+/g,' ').replace(/^\s/,'');renderCertName();clearTimeout(nameTimer);nameTimer=setTimeout(save,250)});
+  $('certName').addEventListener('blur',function(e){if(S.registeredAt) return;S.name=e.target.value.trim().replace(/\s+/g,' ');e.target.value=S.name;save();renderCertName()});
+  // tabs: keyboard
+  document.querySelector('.bc-tabs').addEventListener('click',function(e){var b=e.target.closest('.bc-tab');if(b) setTab(b.getAttribute('data-tab'),true)});
+  document.querySelector('.bc-tabs').addEventListener('keydown',function(e){
+    var i=TABS.indexOf(S.tab),j=i;
+    if(e.key==='ArrowRight') j=(i+1)%3;else if(e.key==='ArrowLeft') j=(i+2)%3;else if(e.key==='Home') j=0;else if(e.key==='End') j=2;else return;
+    e.preventDefault();setTab(TABS[j]);$('tab-'+TABS[j]).focus();
+  });
+  // site nav menu
+  var mb=$('menubtn'),nl=$('navlinks');
+  mb.addEventListener('click',function(){var o=nl.classList.toggle('open');mb.setAttribute('aria-expanded',o?'true':'false')});
+  nl.addEventListener('click',function(e){if(e.target.closest('a')){nl.classList.remove('open');mb.setAttribute('aria-expanded','false')}});
+  window.addEventListener('hashchange',function(){var h=location.hash.replace('#','');if(TABS.indexOf(h)>=0&&h!==S.tab) setTab(h)});
+
+  // start
+  checkCert();
+  var h0=location.hash.replace('#','');
+  renderAll();
+  setTab(TABS.indexOf(h0)>=0?h0:S.tab);
+})();
+</script>
+</body>
+</html>
