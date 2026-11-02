@@ -1,0 +1,738 @@
+{
+  "id": "I7",
+  "part": "isa",
+  "title": "Follow Up Boss discipline",
+  "summary": "Work your Smart Lists in the right order, keep every stage, tag, task and A.L.M. note correct the same day, and close each shift with a CRM that any agent can trust.",
+  "objectives": [
+    "Work the four Smart Lists in the required order and explain why a new lead interrupts everything else.",
+    "Move a lead to the correct stage the same day its situation changes, and apply tags the way your client defines them.",
+    "Write a complete A.L.M. note (Date/Time, Disposition, A, L, M, Next Step) for every call and text, so the agent never asks the lead the same question twice.",
+    "Give every active lead a dated next task, and pause or remove action plans at the right moments (reply, handoff, opt-out).",
+    "Close your day in 10 minutes: clean lists, no overdue tasks, tomorrow's first three calls written down."
+  ],
+  "lessons": [
+    {
+      "id": "I7-1",
+      "title": "If it is not in the CRM, it did not happen",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Follow Up Boss (people say “FUB”) is the CRM most of our clients use. A CRM is a customer relationship management system: one place that holds every lead, every call, every text, every note and every appointment. For an ISA, the CRM is not an extra task after the real work. **The CRM is the real work that other people can see.**"
+        },
+        {
+          "t": "p",
+          "text": "Think about who reads what you write. Your client, the agent, opens a lead before a tour and wants to know in 30 seconds who this person is and what they want. The team leader looks at reports to decide which leads go to which agent. Your BeyondVAs coordinator checks your activity to coach you. The QA reviewer scores you, and **Follow Up Boss Hygiene is 15 of the 100 points** on your scorecard. None of these people heard your call. They only see what you logged."
+        },
+        {
+          "t": "callout",
+          "title": "The rule",
+          "text": "**If it is not in the CRM, it did not happen.** A great call with no note is, for your client, a call that never happened. A booked tour that is not in the calendar is a tour the agent will miss."
+        },
+        {
+          "t": "p",
+          "text": "**What counts as an update.** Every one of these is a CRM update, and every one should be logged on the lead's profile:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "A call you made, connected or not, with its outcome (Follow Up Boss calls this the call result or disposition).",
+            "A text you sent or received. If you text from inside Follow Up Boss, it logs itself. If your client uses another texting tool, you add a note.",
+            "An email, if it was personal and not part of an automatic plan.",
+            "A note: your A.L.M. note after any conversation, or a short factual note after a no-answer.",
+            "A stage change, a new tag, a new or completed task, an appointment created."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Five to eight updates per new connection.** A connection is a lead you have spoken with. Aim for five to eight updates on each new connection during its first month (your client may set a different number): calls, texts, notes, a stage change, tasks. This is not busywork. A lead with eight useful touches in a month has been worked; a lead with one has been forgotten."
+        },
+        {
+          "t": "p",
+          "text": "**The 10-day rule.** Every lead you are responsible for gets a real update at least every 10 days. Many teams treat a lead with no update in 10 days as abandoned, and it can be reassigned to someone else. When you look at a lead and the last activity is 9 days old, that lead is your next call, not tomorrow's."
+        },
+        {
+          "t": "p",
+          "text": "**A quick tour of a lead profile.** Every client sets up Follow Up Boss a little differently, but most lead profiles show the same parts. Learn where each one is in your client's account during your first day:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Part of the profile",
+            "What you check or do there"
+          ],
+          "rows": [
+            [
+              "Name, phone, email",
+              "Correct spelling. Add a second phone if the lead gives one. Never type a guess."
+            ],
+            [
+              "Source",
+              "Where the lead came from (a portal, a Facebook ad, the website, an open house). It tells you which script to use."
+            ],
+            [
+              "Stage",
+              "Where the lead is in the pipeline. You move it the same day it changes (lesson 3)."
+            ],
+            [
+              "Assigned to",
+              "The agent (and sometimes the ISA) who owns this lead. Do not change it unless your manager tells you."
+            ],
+            [
+              "Tags",
+              "Short labels for things like timeline, language or DNC (lesson 3)."
+            ],
+            [
+              "Timeline / activity",
+              "Every call, text, email and note in order. Read it before you dial."
+            ],
+            [
+              "Tasks and appointments",
+              "What is due next and when. Every active lead needs one (lesson 5)."
+            ],
+            [
+              "Action plans",
+              "Automatic sequences of emails, texts or tasks (lesson 5)."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Read before you dial.** Before every call, take 15 seconds to read the last three timeline entries and the last note. Nothing sounds worse to a lead than “So, are you looking to buy?” when they told your colleague yesterday that they are buying a 3-bedroom in Mesa in April. Starting with “Hi Dana, last week you mentioned April and a 3-bedroom in Mesa. Is that still the plan?” shows you listen."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Log the call result right after you hang up, before the next dial.",
+            "Write in English, in full words, so any agent can read it.",
+            "Read the last note before every call.",
+            "Keep everything inside Follow Up Boss and your client's approved tools."
+          ],
+          "dont": [
+            "Keep notes on paper, in a personal notebook or in your phone “to add later”.",
+            "Text or call leads from a personal phone or WhatsApp outside the client's system.",
+            "Export, download or copy client lead lists to your computer. Never.",
+            "Change the assigned agent, merge duplicate leads or delete anything without your manager's OK."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "A last point about trust. Your client cannot stand behind you while you work. Your Hubstaff screenshots show that you were working; your Follow Up Boss record shows **what** you did and **how well**. A clean CRM is the strongest proof of your value, and it is the first thing a happy client mentions when they renew."
+        }
+      ]
+    },
+    {
+      "id": "I7-2",
+      "title": "Smart Lists: the order you work every shift",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "A Smart List in Follow Up Boss is a saved filter. It shows every lead that matches some rules right now, for example “created in the last 15 minutes” or “has a task due today”. The list updates itself: when a lead stops matching, it leaves the list. Smart Lists turn a database of thousands of people into a short, ordered to-do list."
+        },
+        {
+          "t": "p",
+          "text": "Your client or your manager builds the Smart Lists. Your job is to work them in the right order, every shift, without skipping."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**New Speed-to-Lead** (0 to 15 minutes old). Brand-new leads. You call within 180 seconds of arrival, inside the calling window. This list always comes first.",
+            "**Hot Active** (ready within 30 days). Leads who want to buy or sell soon. They are close to an appointment or already have one coming.",
+            "**Scheduled Follow-Up Tasks** (due today). Every call or text you or the agent promised for today.",
+            "**30 to 60 Day Nurtures** (check-ins). Leads who are a month or two away. You keep the relationship warm until they are ready."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Why this order",
+          "text": "The order follows the money and the clock. A new lead is worth the most in the first 5 minutes: contacting it within 5 minutes makes the odds of qualifying about 21 times higher than at 30 minutes. A hot lead can choose another agent this week. A task due today is a promise. A nurture lead can wait an hour without harm."
+        },
+        {
+          "t": "p",
+          "text": "**New leads interrupt everything.** Keep the New Speed-to-Lead list (or Follow Up Boss notifications) open in a tab the whole shift. If a new lead arrives while you are in the middle of your nurture calls, finish the current call politely, log it in one line, and dial the new lead. Come back to write the full note after. The only things that do not get interrupted are a live conversation that is going well and a 3-way handoff in progress."
+        },
+        {
+          "t": "p",
+          "text": "**How to work one list.** Open the list and sort it the way your client asks (often by oldest task first, or by last activity). Then, for each lead:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Read the last note and the last three activities (15 seconds).",
+            "Check the lead's time zone and the calling window. If it is before 9:00 AM or after 8:00 PM where the lead lives (noon on Sunday), skip and come back.",
+            "Check the tags: DNC means no contact at all. No text consent means call only.",
+            "Call. Text only if the lead agreed to texts.",
+            "Log the result and an A.L.M. note, update the stage and tags, set the next task.",
+            "Move to the next lead. The lead you just finished should drop off the list if you did step 5 correctly."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Common mistake: cherry-picking.** It is tempting to call the leads that look friendly and skip the ones that look hard. Do not. The lead with three no-answers is exactly the lead who needs your fourth try. Work top to bottom. If you skip a lead on purpose (for example, the calling window has not opened in Hawaii yet), leave a short note or task so you come back."
+        },
+        {
+          "t": "p",
+          "text": "**Common mistake: working from the full database.** The “All leads” view is not a work list. If you scroll through all leads and call whoever you see, you will call people twice, miss people completely and call leads who are already with an agent. Use the Smart Lists."
+        },
+        {
+          "t": "p",
+          "text": "**When a list is empty.** An empty list is good news: it means that list is done. Move to the next one. When all four are done, ask your manager what comes next (often a reactivation list your client has DNC-scrubbed, covered in module I9). Never invent your own list by filtering old leads and dialing them; old lists need a Do Not Call scrub before any call."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Time in your shift",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "First 10 minutes",
+              "Open Follow Up Boss, check the New Speed-to-Lead list and any leads that came in overnight (their first call goes out as soon as the window opens in their time zone)."
+            ],
+            [
+              "Most of the shift",
+              "Hot Active, then Scheduled Follow-Up Tasks, then 30 to 60 Day Nurtures, with new leads interrupting as they arrive."
+            ],
+            [
+              "Last 10 minutes",
+              "Close the day (lesson 6)."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Time zones matter for list order.** You may work for a team in Arizona and have leads from Florida. The calling window is based on the lead's local time, not yours and not the agent's. At the start of your shift, East Coast leads may already be callable while Pacific leads are not. Work the callable ones first and come back. If you are not sure of a lead's time zone, look at the area code and the address, and ask your manager if they disagree."
+        }
+      ]
+    },
+    {
+      "id": "I7-3",
+      "title": "Stages and tags: the lead's status at a glance",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "A **stage** says where a lead is in the pipeline. Every lead has exactly one stage at a time. The stage drives Smart Lists, reports and often automations, so a wrong stage causes real problems: a lead who already has a tour keeps getting “are you still looking?” texts, or a hot buyer sits in a nurture list nobody calls."
+        },
+        {
+          "t": "p",
+          "text": "Stage names are different in every client's Follow Up Boss. Your client may say “Prospect” where another says “Contacted”. In training we use the stages below. On your first day, ask your manager for your client's stage list and write down which of their stages matches each of these."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Training stage",
+            "Means",
+            "Move a lead here when"
+          ],
+          "rows": [
+            [
+              "New Lead",
+              "Nobody has spoken with this person yet.",
+              "It arrives. You do not move leads back to New Lead."
+            ],
+            [
+              "Contacted",
+              "You reached them, but the timeline or need is not clear yet.",
+              "You had a first real conversation."
+            ],
+            [
+              "Warm Nurture",
+              "Real interest, but not ready in the next 30 days.",
+              "A.L.M. shows a timeline of one month or more."
+            ],
+            [
+              "Hot",
+              "Ready within 30 days, close to an appointment.",
+              "The lead wants to see homes, list or meet soon."
+            ],
+            [
+              "Pending Handoff",
+              "An appointment with an agent is booked.",
+              "You book the appointment. Immediately."
+            ],
+            [
+              "Archived / DNC",
+              "Do not contact.",
+              "The lead opts out (“STOP”, “remove me”, “don't call”)."
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Same day, every time",
+          "text": "Move the stage **the day it changes**, during or right after the call. Not on Friday. Not at the end of the week. A stage that is three days old is a wrong stage for three days."
+        },
+        {
+          "t": "p",
+          "text": "**Pending Handoff after booking.** When you book an appointment, the stage goes to Pending Handoff right away. This tells the team the lead belongs to an agent now, and it stops the cold drip campaigns that would otherwise keep texting the lead. Module I8 covers the full booking routine."
+        },
+        {
+          "t": "p",
+          "text": "**Archived / DNC after an opt-out.** When a lead says “STOP”, “remove me” or “don't call”, you tag them DNC, move them to Archived / DNC, pause every automation and log the opt-out in a note. **Never delete an opted-out contact.** The record with the DNC tag is what stops anyone on the team from calling or texting them again. A deleted contact can come back through a new portal inquiry or an old list and get called by mistake."
+        },
+        {
+          "t": "p",
+          "text": "**Do not use Archived for “annoying” leads.** A lead who did not answer six times is not a DNC. A lead who said “not interested right now” is not a DNC either; they go to nurture with a longer cadence. Only a clear request to stop contact, or a manager's instruction, makes a lead DNC."
+        },
+        {
+          "t": "p",
+          "text": "**Tags.** A tag is a short label you add to a lead. A lead can have many tags. Smart Lists and action plans often use tags, so spelling matters: “Spanish” and “spanish ” (with a space) can be two different tags. Use only the tags your client already has. If you think a new tag is needed, ask in the client channel; do not create your own."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Common tag",
+            "Use it when"
+          ],
+          "rows": [
+            [
+              "DNC",
+              "The lead opted out. Always with stage Archived / DNC."
+            ],
+            [
+              "Spanish",
+              "The lead prefers Spanish. Your agent may want to assign a Spanish-speaking agent."
+            ],
+            [
+              "Text OK / No Text",
+              "Whether the lead agreed to texts. Text only leads who agreed."
+            ],
+            [
+              "Has Agent",
+              "The lead signed an agreement with another agent. You respect it and never pitch around it."
+            ],
+            [
+              "Timeline tags (0-30, 30-60, 60-90, 6-12 mo)",
+              "How soon they plan to move. Many nurture Smart Lists are built on these."
+            ],
+            [
+              "Seller / Buyer / Both",
+              "What the lead wants to do."
+            ],
+            [
+              "Bad Number",
+              "The phone number is disconnected or belongs to someone else. Note what you tried."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**“I already have an agent.”** This answer changes tags and stage, so learn it well. Ask whether they signed an agreement with that agent. If yes, respect it: tag Has Agent (or your client's equivalent), write a note with the agent's name if they shared it, tell your agent in the client channel, and stop pitching. If they did not sign, they are still free to choose: offer a second opinion from your agent and ask for a time."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Check stage and tags as part of every call, not only when something big happens.",
+            "Use the exact tag names from your client's list.",
+            "Ask your manager before archiving anyone who did not opt out."
+          ],
+          "dont": [
+            "Leave a booked lead in Hot or Warm Nurture.",
+            "Delete an opted-out contact, or remove a DNC tag to “try one more time”.",
+            "Tag people by who they are (age, religion, family status, where they come from). Tag what they want in a home, never who they are. That is a fair housing rule."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7-4",
+      "title": "The A.L.M. note: write it so nobody asks twice",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "After every conversation you write a note in Follow Up Boss. Not “Good call!” and not a thumbs up. Every note follows the same structure, so any agent can read any note from any ISA and find the information in the same place."
+        },
+        {
+          "t": "p",
+          "text": "Every note logged in Follow Up Boss must list:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Date/Time**: when the contact happened.",
+            "**Call/Text Disposition**: what kind of contact and what happened (for example: Call, connected, 4 min; Call, no answer, VM left; Text, replied).",
+            "**A** (Appointment): the proposed or confirmed tour or consultation time.",
+            "**L** (Location): target neighborhoods, beds, baths, price.",
+            "**M** (Motivation): the reason for moving and the timeline.",
+            "**Next Step**: the action item and the assigned agent."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Example note",
+          "lines": [
+            {
+              "who": "Date/Time",
+              "text": "Tue 10:42 AM"
+            },
+            {
+              "who": "Disposition",
+              "text": "Call, connected (4 min)"
+            },
+            {
+              "who": "A",
+              "text": "Proposed tour Sat 11:00 AM"
+            },
+            {
+              "who": "L",
+              "text": "Westside Lancaster, 4 bd / 2 ba, up to $550K"
+            },
+            {
+              "who": "M",
+              "text": "Job relocation, wants to move by March"
+            },
+            {
+              "who": "Next step",
+              "text": "Text 3 listings today; hand off to Agent Jordan"
+            }
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Why it matters",
+          "text": "Your agent should never have to ask the client the same question twice. When the agent calls and says “I see you are relocating for work and want a 4-bedroom on the Westside by March,” the lead feels the team is organized. When the agent asks “So, what are you looking for?” the lead feels nobody listened."
+        },
+        {
+          "t": "p",
+          "text": "**Write facts, not feelings.** Write what the lead said, not your opinion of them. “Says pre-approved with a local credit union up to $480K; did not share the letter” is a fact. “Probably can't afford it” is an opinion, and it should never be in a note. Never write a personal opinion about anyone's credit, income or character. Never write anything you would not want the lead to read, because some day they might."
+        },
+        {
+          "t": "p",
+          "text": "**Write what they want in the home, not who they are.** “Needs 4 bedrooms, single story, yard for a dog, under 30 minutes to downtown” is good. “Big family, older couple, from Mexico” is not; it describes the person, and it can lead to steering. Fair housing law protects people from being treated differently because of race, color, religion, sex, disability, familial status or national origin, and many states add more. Keep notes about the home and the plan."
+        },
+        {
+          "t": "p",
+          "text": "**What if you did not learn everything?** Write what you know and mark the rest. “A: not scheduled yet, asked for Sat, lead will check with spouse. L: Gilbert or Chandler, 3 bd, price not shared. M: lease ends June 30.” Unknown is useful information too: it tells the next caller what to ask."
+        },
+        {
+          "t": "p",
+          "text": "**Short notes for short contacts.** A no-answer still gets a note, but a short one: “Tue 3:10 PM. Call, no answer, 20-sec VM left. Text sent (Text OK). Next: call Wed 11 AM.” Short and factual is perfect."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Weak note",
+            "Strong note"
+          ],
+          "rows": [
+            [
+              "Talked to her, she's interested.",
+              "Wed 2:15 PM. Call, connected (6 min). A: proposed Sat 10 AM or 1 PM, lead will confirm by text tonight. L: Riverside, 3 bd / 2 ba, up to $450K. M: first-time buyer, lease ends Aug 31. Next: confirm time tonight; hand off to Agent Lee."
+            ],
+            [
+              "No answer.",
+              "Thu 9:20 AM. Call, no answer, 20-sec VM. Text sent. Next: second call Thu 1 PM (before 6 PM her time)."
+            ],
+            [
+              "Not a good lead, rude.",
+              "Fri 11:05 AM. Call, connected (1 min). Lead said he is busy at work, asked for a call after 5 PM. Next: call Fri 5:30 PM his time."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Language and clarity.** Write in English, even if the call was in Spanish. Add “Call in Spanish; prefers Spanish” and tag Spanish so the agent knows. Avoid abbreviations your client does not use. “VM”, “bd”, “ba” and “K” for thousands are common and fine; private shorthand is not. Spell names, streets and cities correctly; copy them from the lead's profile or the listing."
+        },
+        {
+          "t": "p",
+          "text": "**Timing.** Write the note right after the call, while you remember. A note written two hours later loses details. If a new lead arrives right after a call, write one line now (“Connected, Sat tour proposed, full note to follow”) and complete it within the hour."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Use the same six-part order every time.",
+            "Quote the lead's exact words when they matter (“We must be out by June 30”).",
+            "Write the next step with a day and time, and the name of the agent."
+          ],
+          "dont": [
+            "Write opinions about credit, income, appearance or personality.",
+            "Leave A, L or M empty without saying “unknown” or “not shared”.",
+            "Copy a previous note and forget to change the date or details."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7-5",
+      "title": "Tasks and action plans: every lead has a next step",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "A note records the past. A **task** schedules the future. In Follow Up Boss a task is a reminder attached to a lead: “Call Dana, Thursday 11:00 AM”. Tasks feed the Scheduled Follow-Up Tasks Smart List, which is how tomorrow's work appears in front of you without you having to remember it."
+        },
+        {
+          "t": "callout",
+          "title": "The rule",
+          "text": "**Every active lead has one open task with a date.** If a lead is not DNC, not closed and not handed off, and it has no open task, it is falling through the cracks."
+        },
+        {
+          "t": "p",
+          "text": "**How to write a good task.** A good task says what, when and why, in a few words:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Type**: call, text or email. Follow Up Boss lets you choose.",
+            "**Title**: “Call: confirm Sat tour time” or “Call: ask if lease renewal was decided”. Not just “Follow up”.",
+            "**Due date and time**: in a time that will be inside the lead's calling window. A task due at 8:00 AM Pacific time is a trap.",
+            "**Assigned to**: you, unless the task belongs to the agent. Do not assign tasks to an agent without the agent or manager agreeing to that system."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**How far out?** The next task date depends on the lead's timeline and what you promised. If you said “I'll call you Thursday,” the task is Thursday. If the lead asked for a call after payday, the task is the day after payday. When there is no promise, use the cadence from your client or from module I9 (for example, every 2 to 3 days for hot leads, weekly for 1 to 3 months away)."
+        },
+        {
+          "t": "p",
+          "text": "**Complete or reschedule. Never ignore.** When you do the task, mark it complete and create the next one. If you cannot do a task today, move it to a real new date with a reason in the note. Overdue tasks pile up quickly and hide the important ones; your goal is zero overdue tasks at the end of every shift."
+        },
+        {
+          "t": "p",
+          "text": "**Action plans.** An action plan is an automatic sequence your client sets up: for example, an email on day 1, a text on day 3, a call task on day 5, an email on day 10. Clients use them so that new and nurture leads keep hearing from the team even on busy days. Your client decides which action plans exist and which leads go on them. You may be asked to start a plan on a lead, or to pause one."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "What to do with automations"
+          ],
+          "rows": [
+            [
+              "The lead replies or you have a real conversation",
+              "Check whether the plan pauses by itself. Many clients set this up; if not, pause it so the lead does not get a “just checking in” text an hour after talking to you."
+            ],
+            [
+              "You book an appointment",
+              "Stage to Pending Handoff, which stops cold drip campaigns. Check that no nurture plan is still running."
+            ],
+            [
+              "The lead opts out",
+              "Pause every automation. Tag DNC, stage Archived / DNC, log it."
+            ],
+            [
+              "The lead moves from hot to a 6-month timeline",
+              "Ask whether to start the client's long-term nurture plan, and set your own check-in task."
+            ],
+            [
+              "A text in the plan says something wrong or outdated",
+              "Tell your manager and the client in the client channel. Do not edit the client's templates yourself."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Automations do not replace you.** An automatic email on day 10 is nice, but it does not ask about the lead's motivation, handle an objection or book a tour. Action plans keep the door open. Your calls walk through it. Never assume “the plan will follow up” and skip your task."
+        },
+        {
+          "t": "p",
+          "text": "**Never send mass messages yourself.** Do not select 200 leads and send them all the same text, even if Follow Up Boss lets you. Mass texting has strict consent rules, it is easy to hit DNC contacts, and one mistake can expose your client to fines. Mass messages are the client's decision, built by the client or your manager, sent only to leads who agreed to texts."
+        },
+        {
+          "t": "p",
+          "text": "**Appointments are not tasks.** A tour or consultation goes in as an appointment (and on the agent's Google Calendar), not as a task that says “tour Saturday”. Module I8 covers this. Set a task for yourself to confirm the appointment the day before."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Create the next task before you leave the lead's profile.",
+            "Put the due time inside the lead's calling window.",
+            "Pause automations when the lead replies, books, or opts out."
+          ],
+          "dont": [
+            "Write tasks that only say “Follow up”.",
+            "Leave overdue tasks at the end of a shift.",
+            "Edit the client's action plan templates or start mass texts without approval."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I7-6",
+      "title": "Close the day in 10 minutes",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "The last 10 minutes of your shift decide how your next shift starts. A clean close means tomorrow you open Follow Up Boss and know exactly what to do. A messy close means tomorrow starts with 30 minutes of guessing, and some lead waits too long."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Notes complete.** Every call and text today has its A.L.M. note or its short no-answer note. Finish any “full note to follow” lines.",
+            "**Stages and tags right.** Every lead you spoke with today is in the correct stage. Every booked appointment is Pending Handoff. Every opt-out is DNC and Archived / DNC with automations paused.",
+            "**Tasks.** No overdue tasks. Every active lead you touched has one open task with a date inside the calling window.",
+            "**Appointments.** Every appointment booked today is on the agent's calendar with the Follow Up Boss link, reminders and the buyer-agreement flag for tours (module I8).",
+            "**Tomorrow's first three calls.** Write them down at the top of your daily report or in a task: the three leads you will call first, and why.",
+            "**Daily report.** Post your end-of-shift report in the client channel (module I11 has the format)."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Short, factual notes.** At the end of a long day you may want to write “did follow ups”. Resist. Short is fine; vague is not. “Called, no answer, left VM, texted. Next: call Thu.” is short and complete."
+        },
+        {
+          "t": "p",
+          "text": "**Why three calls?** Choosing tomorrow's first three calls tonight removes the slow start. Usually they are: a hot lead who asked for a morning call, a lead whose 10-day mark is tomorrow, and an appointment confirmation. When you clock in, the New Speed-to-Lead list comes first; then you go straight to those three."
+        },
+        {
+          "t": "script",
+          "title": "Example: tomorrow's first three calls",
+          "lines": [
+            {
+              "who": "1",
+              "text": "Maria Lopez (Hot): asked for a call at 9:30 AM her time to confirm Saturday tour time."
+            },
+            {
+              "who": "2",
+              "text": "Kevin Brooks (Warm Nurture): last update 9 days ago; ask about the lease decision."
+            },
+            {
+              "who": "3",
+              "text": "Ana and Tom Reyes (Pending Handoff): confirm tomorrow's 4 PM listing consultation with Agent Patel."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Data protection at the close.** Before you clock out, close Follow Up Boss and any client tabs. You never download or export lead lists, never take screenshots of lead data to share outside the client's tools, and never keep lead phone numbers on your own phone. Passwords live only in the password vault. If you used a shared computer by accident, tell your manager."
+        },
+        {
+          "t": "p",
+          "text": "**Your Hubstaff time and your CRM tell the same story.** Your client can see your Hubstaff hours and screenshots. If your screenshots show four hours of work and Follow Up Boss shows 20 calls and clean notes, the story matches. If your screenshots show four hours and the CRM shows three calls and no notes, your client will ask why, and your manager will review it before billing. Log as you go and the two always agree."
+        },
+        {
+          "t": "callout",
+          "title": "A quick self-check",
+          "text": "Open your client's Smart Lists one last time. New Speed-to-Lead: empty or only after-hours leads with a first-call task for the morning. Scheduled Follow-Up Tasks: nothing overdue. Any lead you touched today with no next task? Fix it. Then send your report and clock out."
+        },
+        {
+          "t": "p",
+          "text": "**When something went wrong.** If you missed a callback, booked a time the agent cannot make, or forgot to tag an opt-out, do not hide it. Fix what you can now, write it in your daily report and tell your manager. Module I10 teaches how to own a mistake with a client. Hidden mistakes become client complaints; reported mistakes become coaching."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "CRM hygiene drill in a practice account",
+    "minutes": 75,
+    "intro": "You will clean up and work a set of practice leads the way you would on a real shift. Use only the practice Follow Up Boss account or the practice sheet your coordinator gives you, never a real client account. The leads are fictional.",
+    "steps": [
+      "Ask your coordinator for practice access (a sandbox Follow Up Boss account or the practice workbook). Write down the stage names and tags in it and map them to the six training stages from lesson 3.",
+      "Open the practice account's four Smart Lists. Write in one sentence each what rule each list uses and in what order you will work them. (10 minutes)",
+      "Lead 1, Priya Shah, arrived 4 minutes ago from a portal, wants to tour Saturday, Phoenix, 3 bd up to $425K, moving for a new job in May, agreed to texts. Write her full A.L.M. note as if you called and proposed Saturday 10 AM, set the stage, the tags and her next task.",
+      "Lead 2, Robert King, has had no update in 11 days, stage Hot, last note says he wanted to tour “soon”. Write the call you would make (two sentences), then a short no-answer note, and the next task with a date and time inside his window (he lives in Florida).",
+      "Lead 3, Luisa Moreno, texted “please remove me”. Do every step of the opt-out in the practice account and write the note. Explain in one sentence why you do not delete her.",
+      "Lead 4, Jake Turner, said “I already signed with an agent from my church.” Write the note (what he wants in the home is not needed; the agent's name is not known; decide what you leave out of the note and why, using lesson 4), the tag and stage you use, and the one-line message you post for your agent in the client channel.",
+      "Lead 5, Hannah Cole, booked a listing consultation for Thursday 5 PM with Agent Patel. Set the stage, check that no nurture plan is running, and create your confirmation task for Wednesday.",
+      "Rewrite these three weak notes into strong A.L.M. notes, inventing realistic facts: “interested”, “no answer”, “nice family, wants good schools” (for the last one, explain what was wrong and what you write instead).",
+      "Do your 10-minute close on the practice account and write tomorrow's first three calls with a reason for each.",
+      "Take screenshots of the five lead profiles (practice account only) and put them with your notes in one document."
+    ],
+    "deliverable": "One document (Google Doc in your BeyondVAs folder) with: your stage map, the Smart List order, the five lead notes and actions, the three rewritten notes, tomorrow's first three calls, and screenshots of the five practice lead profiles. Share it with your coach."
+  },
+  "quiz": [
+    {
+      "q": "When logging a call inside Follow Up Boss, what must always be included in the note?",
+      "options": [
+        "A personal opinion about the client’s credit score.",
+        "Standard ALM syntax covering Appointment, Location, Motivation, and Next Step.",
+        "Just a thumbs up emoji.",
+        "Only the phone number dialed."
+      ],
+      "answer": 1,
+      "explain": "Structured ALM notes ensure field agents know exactly what was uncovered without asking the client the same questions twice."
+    },
+    {
+      "q": "You are calling your 30 to 60 Day Nurture list when a lead from a portal arrives. What do you do?",
+      "options": [
+        "Finish the nurture list first; the new lead is on the Speed-to-Lead list and will wait.",
+        "Wrap up the current call politely, log one line, and dial the new lead within 180 seconds, inside the calling window.",
+        "Start an action plan on the new lead so the system contacts it for you.",
+        "Text the new lead that you will call tomorrow."
+      ],
+      "answer": 1,
+      "explain": "New Speed-to-Lead always comes first. Contacting within 5 minutes makes the odds of qualifying about 21 times higher than at 30 minutes. You finish the full note after."
+    },
+    {
+      "q": "What is the correct order for working Smart Lists every shift?",
+      "options": [
+        "Scheduled Follow-Up Tasks, Hot Active, New Speed-to-Lead, 30 to 60 Day Nurtures",
+        "Hot Active, New Speed-to-Lead, 30 to 60 Day Nurtures, Scheduled Follow-Up Tasks",
+        "30 to 60 Day Nurtures, Scheduled Follow-Up Tasks, Hot Active, New Speed-to-Lead",
+        "New Speed-to-Lead, Hot Active, Scheduled Follow-Up Tasks, 30 to 60 Day Nurtures"
+      ],
+      "answer": 3,
+      "explain": "The order follows the clock and the money: brand-new leads (0 to 15 minutes), then leads ready within 30 days, then tasks due today, then 30 to 60 day check-ins."
+    },
+    {
+      "q": "A lead has had no update in Follow Up Boss for 12 days. What is true?",
+      "options": [
+        "It broke the 10-day rule, can be reassigned, and should be your next call.",
+        "Nothing; leads only need an update once a month.",
+        "It should be moved to Archived / DNC because it is cold.",
+        "It should be deleted to keep the database clean."
+      ],
+      "answer": 0,
+      "explain": "Every lead gets a real update at least every 10 days. Past that, many teams treat it as abandoned and can reassign it. Cold is not the same as DNC, and you never delete leads."
+    },
+    {
+      "q": "A lead who opted out last month appears in your list again. What should have happened when she opted out?",
+      "options": [
+        "Her contact should have been deleted so nobody could see it.",
+        "She should have been moved to Warm Nurture with a 90-day task.",
+        "She should have been tagged DNC, moved to Archived / DNC, with all automations paused and the opt-out logged, and never deleted.",
+        "Her phone number should have been changed to a fake number."
+      ],
+      "answer": 2,
+      "explain": "The DNC record is what stops future calls and texts. A deleted contact can come back through a new inquiry or an old list and get called by mistake."
+    },
+    {
+      "q": "Which note follows the rules?",
+      "options": [
+        "“Nice older couple, probably can't afford much.”",
+        "“Mon 4:05 PM. Call, connected (5 min). A: proposed Sat 11 AM. L: Mesa, 3 bd / 2 ba, single story, up to $400K. M: downsizing, wants to move by May. Next: confirm Sat by text tonight; hand off to Agent Kim.”",
+        "“Good call! Will follow up.”",
+        "“Wants a safe, family-friendly area with good schools.”"
+      ],
+      "answer": 1,
+      "explain": "It has all six parts, facts only, and describes the home and the plan. The others are opinions, vague, or describe people and neighborhoods in ways fair housing forbids."
+    },
+    {
+      "q": "You finished a call and the lead is still on an action plan that will text “Are you still looking?” tomorrow. What do you do?",
+      "options": [
+        "Nothing; automations always know what to do.",
+        "Delete the action plan from the client's account.",
+        "Edit the template so it sounds better.",
+        "Check whether the plan paused on the reply; if not, pause it (or change the stage if you booked an appointment), and set your own next task."
+      ],
+      "answer": 3,
+      "explain": "Automations keep the door open; they must not talk over a real conversation. Pause or stop them at the right moments, and never edit or delete the client's templates yourself."
+    },
+    {
+      "q": "Which task is written correctly for a lead in Los Angeles?",
+      "options": [
+        "“Follow up”, no date.",
+        "“Call: confirm Sat tour time”, Friday 10:00 AM Pacific time, assigned to you.",
+        "“Call back”, Friday 7:30 AM Pacific time.",
+        "“Tour Saturday” as a task instead of an appointment."
+      ],
+      "answer": 1,
+      "explain": "A good task has a clear title, a date and a time inside the lead's calling window. 7:30 AM is before the 9:00 AM window, and a tour belongs in an appointment and the agent's calendar, not a task."
+    },
+    {
+      "q": "What belongs in your 10-minute close at the end of a shift?",
+      "options": [
+        "Exporting the day's leads to a spreadsheet on your computer as a backup.",
+        "Clocking out first and finishing notes tomorrow morning.",
+        "Completing notes, fixing stages and tags, clearing overdue tasks, writing tomorrow's first three calls, and posting the daily report.",
+        "Sending one mass text to all nurture leads."
+      ],
+      "answer": 2,
+      "explain": "The close leaves a clean CRM and a clear start for tomorrow. Never export or download client data, and never send mass texts without the client's approval and consent rules."
+    }
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "id": "F1",
+  "part": "foundations",
+  "title": "Welcome to BeyondVAs",
+  "summary": "How BeyondVAs works, how this certification program works, who supports you, how you work with your client, and how you get paid.",
+  "objectives": [
+    "Explain in your own words what BeyondVAs does, what it believes and what a client expects from you.",
+    "Plan your study of this program: the modules, the practice assignments, the quizzes and how to send work to your coach.",
+    "Name the people around you (coordinator, coach, client) and know which one to contact for each kind of problem.",
+    "Describe your first 30 days with a client: the kickoff, the check-ins on days 5, 14 and 30, the daily report and the process videos.",
+    "Explain how you are paid (USD, the 5th and the 20th, tracked hours) and what keeps you in good standing."
+  ],
+  "lessons": [
+    {
+      "id": "F1-1",
+      "title": "Who we are and what we believe",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Welcome. You were approved because you showed us three things: clear English, a professional attitude and the wish to build a long career. This program turns those three things into the skills a US real estate team pays for. Read every lesson. Do every practice assignment. Ask every question you have. Nobody here expects you to know US real estate already. We expect you to learn it well."
+        },
+        {
+          "t": "p",
+          "text": "**What BeyondVAs does.** BeyondVAs finds, trains, tracks and pays bilingual virtual assistants (VAs) and inside sales agents (ISAs) from Honduras and Latin America. We place them with real estate agents and teams in the United States. The agent or team you work for is **your client**. The people your client wants to sell homes to, or buy homes from, are **leads** or **prospects**. You never call them “customers” of BeyondVAs: they belong to your client."
+        },
+        {
+          "t": "p",
+          "text": "Clients hire us for three reasons, and you are the center of all three. They want an assistant who is **trained** before day one, **tracked** so they know the work is real, and **managed** by someone who backs the assistant up. Most bad VA stories in the US have the same three gaps: nobody trained the VA, nobody tracked the work, nobody managed the relationship. Our company is built to close those gaps. When you do your job well, you prove that the model works."
+        },
+        {
+          "t": "callout",
+          "title": "The two roles in this program",
+          "text": "A **VA** (virtual assistant) handles operations: email, calendars, data entry, CRM updates, listing paperwork, marketing tasks. An **ISA** (inside sales agent) talks to leads all day by phone and text, qualifies them and sets appointments for the agents. The Foundations modules (F1 to F6) are for everyone. The ISA track (I1 to I11) is for anyone who will make calls."
+        },
+        {
+          "t": "p",
+          "text": "**What we believe.** Our culture fits in three short ideas. You will hear them often."
+        },
+        {
+          "t": "list",
+          "items": [
+            "**People first.** You are a colleague and a professional, never a “resource”. We treat you with respect, and we expect you to treat your client, their leads and your teammates the same way.",
+            "**Over-communicate.** A US client cannot see you. Silence feels like a problem, even when everything is fine. Say what you are doing, when it will be done and what is blocking you. Too much clear information is better than too little.",
+            "**Grow together.** You start with this program, then you get monthly training and coaching for as long as you work with us. When you grow, your client grows, and so do we."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**What a client expects.** US real estate agents are busy, fast and practical. Most of them run a small business. They pay for results, and they notice small things. Here is what a good client relationship looks like from their side:"
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Start your shift on time, every day, already clocked in and ready.",
+            "Reply to a request quickly, even if the answer is “I am on it, done by 2 PM ET”.",
+            "Follow their process exactly, and write it down so you never ask twice.",
+            "Tell them about a problem early, with a suggestion.",
+            "Keep their leads’ information private and safe."
+          ],
+          "dont": [
+            "Disappear for an hour without a word.",
+            "Say “yes” to a task you do not understand, then guess.",
+            "Change their process because you think yours is better, without asking.",
+            "Hide a mistake and hope nobody sees it.",
+            "Copy any client data to your own phone, computer or accounts."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**An example.** Ana works as a VA for a two-agent team in Phoenix. On her third day, the team lead, Mark, asks her to update 40 contacts in the CRM before his 3 PM meeting. At 1:30 PM she sees that 12 contacts have no email address. A weak VA would update the 28 she can and say nothing. Ana writes in the client channel: “Mark, 28 of 40 are done. 12 have no email in the CRM. I listed them in this note. Do you want me to skip them or text them to ask?” Mark answers in two minutes. He remembers this message for months. That is over-communication, and it is the habit that keeps clients for years."
+        },
+        {
+          "t": "p",
+          "text": "**What this means for you.** Your client will judge BeyondVAs by you. Your coordinator will defend you, coach you and help you when something goes wrong. In return we ask for honesty, reliability and effort. If you give those three, the rest can be taught, and this program is where we teach it."
+        },
+        {
+          "t": "callout",
+          "title": "Remember",
+          "text": "Trained, tracked, managed. People first, over-communicate, grow together. If you are ever unsure what to do, ask yourself: what would a reliable professional do here, and what would my client want to know right now?"
+        }
+      ]
+    },
+    {
+      "id": "F1-2",
+      "title": "How this certification program works",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "This is a real training program, not a short video. Plan for about 20 to 26 hours in total, which is roughly three full working days. About half of that time is reading. The other half is hands-on practice: role-plays you record, notes you write, exercises in a practice CRM and calls you shadow. The practice is where you really learn, so do not skip it to finish faster."
+        },
+        {
+          "t": "p",
+          "text": "**The two parts.** Every VA takes the Foundations. Anyone who will call or text leads also takes the ISA track."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Part",
+            "Modules",
+            "What you learn"
+          ],
+          "rows": [
+            [
+              "Foundations",
+              "F1 Welcome to BeyondVAs",
+              "How the company, your coordinator, your client and your pay work"
+            ],
+            [
+              "Foundations",
+              "F2 Working with US clients",
+              "Culture, time zones, phone English, email and text, reliability"
+            ],
+            [
+              "Foundations",
+              "F3 Your tools",
+              "Hubstaff, Follow Up Boss, Google Workspace, password vault, backups"
+            ],
+            [
+              "Foundations",
+              "F4 Real estate basics",
+              "The buyer and seller journeys, who does what, the vocabulary"
+            ],
+            [
+              "Foundations",
+              "F5 Professionalism and scope",
+              "Confidentiality and what an unlicensed assistant can and cannot say"
+            ],
+            [
+              "Foundations",
+              "F6 Compliance essentials",
+              "Calling hours, Do Not Call, consent, opt-outs, recording, fair housing"
+            ],
+            [
+              "ISA track",
+              "I1 to I11",
+              "A.L.M., speed to lead, conversations, financing, objections, sellers, CRM discipline, appointments, nurture, recovery, QA and KPIs"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Inside every module.** Each module has the same parts, so you always know what comes next:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Objectives.** Three to five things you will be able to do at the end. Read them first, and read them again at the end to check yourself.",
+            "**Lessons.** Four to six lessons with explanations, examples, scripts and common mistakes. Each lesson shows how many minutes it takes to read.",
+            "**Practice.** One real assignment, usually 45 to 120 minutes. It ends with a deliverable: something you send to your coach, such as a recording, a written note or screenshots.",
+            "**Quiz.** Eight to ten questions. The wrong options are realistic on purpose. Each question has an explanation, so read it even when you answer correctly."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Your coach.** A BeyondVAs coach reviews your practice deliverables and gives you feedback. Sometimes your coach asks you to repeat a role-play. That is normal. It does not mean you failed; it means the coach wants you to sound confident before a real lead hears you. On the ISA track, the program ends with supervised calls scored on our 100-point quality rubric, where the standard is 90 or more. You will learn the rubric in module I11."
+        },
+        {
+          "t": "callout",
+          "title": "How to send a deliverable",
+          "text": "Name every file with your name, the module and the date, for example **Lopez_F2_practice_2026-11-03.mp3**. Send it the way your coach tells you during onboarding. Never put client data or real lead information in a practice file: use the fictional people from the lessons."
+        },
+        {
+          "t": "p",
+          "text": "**How to study in English.** You read English well, or you would not be here. Still, reading three days of training in your second language is tiring. These habits help:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Study in blocks of 50 minutes with a 10-minute break. Your brain keeps more that way.",
+            "Read the scripts **out loud**. On the phone you will speak, not read silently, so train your mouth as well as your eyes.",
+            "Keep a personal vocabulary list. When you meet a new word, write the word, the meaning in English and an example sentence. Do not only write the Spanish translation.",
+            "When a sentence is confusing, read the example after it. Every rule in this program comes with an example.",
+            "If something is still unclear, write down the question and ask your coach. A question you ask now saves a mistake with a real client later."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**A sample three-day plan.** You can study at your own pace, but many VAs follow a plan like this one:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Day",
+            "Morning",
+            "Afternoon"
+          ],
+          "rows": [
+            [
+              "Day 1",
+              "F1, F2 and F3 lessons",
+              "F1 to F3 practice, F4 lessons"
+            ],
+            [
+              "Day 2",
+              "F4 practice, F5 and F6",
+              "I1 to I4 lessons and practice"
+            ],
+            [
+              "Day 3",
+              "I5 to I8",
+              "I9 to I11, then schedule supervised calls"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "A VA who only does Foundations will finish sooner. A future ISA will often need a fourth day for role-plays and recordings. That is fine. We prefer you finish well rather than fast."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Do the practice assignments honestly, in your own words and your own voice.",
+            "Re-read a lesson before its quiz if you are not sure.",
+            "Ask your coach about anything that sounds different from what a client told you."
+          ],
+          "dont": [
+            "Click through lessons just to see the quiz.",
+            "Copy answers or recordings from another VA. Coaches compare, and it ends your application.",
+            "Use real client or lead information in any practice file."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "When you finish, you will know more about US real estate operations than many new agents do. That is the goal. Our clients choose BeyondVAs because our assistants arrive ready."
+        }
+      ]
+    },
+    {
+      "id": "F1-3",
+      "title": "The people around you: coordinator, coach and client",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "You never work alone at BeyondVAs. Three kinds of people are around you, and each one has a different job. Knowing who to contact for each problem saves time and protects you."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Person",
+            "Who they are",
+            "Contact them for"
+          ],
+          "rows": [
+            [
+              "Your client",
+              "The US agent or team you work for. They direct your daily work.",
+              "Tasks, priorities, their processes, questions about their leads and tools"
+            ],
+            [
+              "Your coordinator (manager)",
+              "A BeyondVAs manager who backs you up and manages the relationship with the client.",
+              "Schedule, pay, time tracking, outages, days off, conflicts, anything that feels wrong"
+            ],
+            [
+              "Your coach",
+              "A BeyondVAs trainer, sometimes the same person as your coordinator.",
+              "Training questions, practice feedback, call quality, scripts and role-plays"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The client directs the work.** You are an independent professional engaged through BeyondVAs, and the client decides what you work on each day: which leads to call, which tasks come first, how they like their CRM. Follow their process. If you think a process could be better, suggest it politely, but keep following the current process until they agree to change it."
+        },
+        {
+          "t": "p",
+          "text": "**The coordinator carries the relationship.** BeyondVAs holds the agreements, the monitoring and the payments. Your coordinator runs the kickoff with your client, checks in with them during your first month and reviews your time before the client is billed. Your coordinator is on your side. When something goes wrong, the coordinator wants to hear it from you first, not from the client."
+        },
+        {
+          "t": "callout",
+          "title": "The client channel",
+          "text": "Your client talks to you **only inside the client channel** that BeyondVAs sets up. No private direct messages, no personal WhatsApp, no personal email. If a client sends you a private message, answer politely in the channel: “Thanks, Mark! Moving this to our channel so everything stays in one place.” This protects you, the client and the record of what was agreed."
+        },
+        {
+          "t": "p",
+          "text": "Why so strict? Because a channel is a shared memory. If the client says on Tuesday “call the Garcia lead on Friday”, and on Friday a teammate asks why you called, the message is there. Private messages disappear, get misread or create disagreements nobody can check. Your coordinator can also see the channel, which means you always have backup."
+        },
+        {
+          "t": "p",
+          "text": "**When to go to your coordinator.** Contact your coordinator the same day, and before you act, when any of these happen:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Your internet or power fails, or you will be late or absent. Tell your coordinator first, then the client in the channel.",
+            "The client asks you to do something outside your scope, such as negotiating a price, giving an opinion of value, explaining a contract or calling a list that was not checked against Do Not Call. You will learn exactly why in F5 and F6.",
+            "The client asks you to work off the clock, to share a password in chat, or to download or export client data.",
+            "The client is rude, pressures you, or crosses a personal line. You do not have to handle that alone.",
+            "You made a mistake that a lead or the client will notice. Tell your coordinator, then fix it with the client."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Saying no to an out-of-scope request, politely",
+          "lines": [
+            {
+              "who": "Client",
+              "text": "Hey Lucia, can you call the Smiths and tell them we can probably get them $20K off the asking price?"
+            },
+            {
+              "who": "You",
+              "text": "Thanks, Mark. Price and negotiation have to come from a licensed agent, so I can’t say that part. I can call the Smiths now and book a time for you to talk with them today. Does 4:00 or 5:30 PM your time work?"
+            },
+            {
+              "who": "Client",
+              "text": "Right, good catch. Book 5:30."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice the pattern: thank the client, say clearly what you cannot do in one sentence, and offer what you can do right away. Most clients respect this. If a client insists, do not argue. Say “Let me check with my coordinator so we do this the right way,” and message your coordinator at once."
+        },
+        {
+          "t": "p",
+          "text": "**When to go to your coach.** Your coach helps you get better. Ask your coach when a lead raised an objection you did not know how to answer, when you want feedback on a recorded call, or when a script from your client sounds unclear in English. Coaches like specific questions: “On the call with the Lee lead, she said she wanted to wait for rates. What could I have said?” is better than “How do I handle objections?”"
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Keep every client conversation in the client channel.",
+            "Tell your coordinator about problems the same day, before the client hears it from someone else.",
+            "Follow the client’s process, and suggest improvements politely."
+          ],
+          "dont": [
+            "Accept private messages or personal phone numbers from a client.",
+            "Try to solve a serious problem alone because you are embarrassed.",
+            "Complain about the client to other VAs or in any public place."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "In short: the client directs the work, the coordinator backs you up, the coach helps you grow, and the channel keeps everyone on the same page."
+        }
+      ]
+    },
+    {
+      "id": "F1-4",
+      "title": "Your first 30 days with a client",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "The first month decides most client relationships. A client who feels confident in week one becomes a client for years. A client who feels confused in week one starts to doubt. This lesson shows you what happens in the first 30 days and how to make each step go well."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Interviews.** After a client signs, they meet two or three trained VAs on short video interviews and choose one. Camera on, quiet room, good light, a clean background. Prepare two sentences about yourself and one question about their business.",
+            "**Setup week.** BeyondVAs sets up your Hubstaff tracking account, the client’s access to your hours and screenshots, and secure access to the client’s tools through the password vault. You check that every login works before day one.",
+            "**Day one: the kickoff.** A BeyondVAs manager runs a kickoff call with you and the client. Together you set week-one priorities, your schedule in the client’s time zone and how the client wants to be updated.",
+            "**Week one: learn their business.** The client screen-shares their top five tasks. You record each process as a short video and write a checklist for it. There is a short daily check-in, usually about ten minutes.",
+            "**Days 5, 14 and 30: check-ins.** Your manager checks in with the client, and with you, to see what is working and what needs to change. After day 30, weekly reports continue."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The kickoff call.** Come with a notebook and these questions. Write down every answer:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "What are the three most important things you want me to take off your plate in week one?",
+            "What are my hours, in your time zone? Who covers when I am offline?",
+            "How do you want updates: one daily report, or also messages during the day? Which things are urgent enough to interrupt you?",
+            "Which tools will I use, and which ones should I never touch?",
+            "Are there words, phrases or scripts you want me to use with your leads, and anything I should never say?",
+            "Who else on your team will send me tasks?"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Recording processes (your SOP library).** When the client shows you a task, ask permission to record the screen-share. Then turn each recording into a short checklist, called an **SOP** (standard operating procedure). Example title: “How to add a new open-house lead”. Write numbered steps, one action per step, with the tool and the button names. Save it where the client tells you, inside the client’s systems, never on your own computer. A good SOP library means you never ask the same question twice, the client sees your progress, and if you are ever sick, a backup can follow your steps."
+        },
+        {
+          "t": "callout",
+          "title": "The question rule",
+          "text": "In week one, collect your non-urgent questions and ask them together at the daily check-in, instead of sending ten separate messages. Urgent questions (a lead waiting, a deadline today) go in the channel right away. This shows respect for the client’s time."
+        },
+        {
+          "t": "p",
+          "text": "**The daily report.** At the end of every shift, you post a daily report in the client channel. It is short, structured and the same every day, so the client can read it in 30 seconds. Here is a general format for a VA. ISAs add their call numbers, which you will learn in I11."
+        },
+        {
+          "t": "script",
+          "title": "Example daily report (VA)",
+          "lines": [
+            {
+              "who": "You",
+              "text": "**Daily report, Tue 11/03, 9:00 AM to 5:00 PM PT**"
+            },
+            {
+              "who": "You",
+              "text": "**Done:** 42 contacts updated in the CRM; 3 showing requests confirmed for Thursday; listing photos for 1820 Elm St uploaded to the marketing folder."
+            },
+            {
+              "who": "You",
+              "text": "**In progress:** open-house sign-in sheet entry, 18 of 30, finishing tomorrow by 11 AM PT."
+            },
+            {
+              "who": "You",
+              "text": "**Blocked / need from you:** login for the showing app is not working; I sent the error to my coordinator too."
+            },
+            {
+              "who": "You",
+              "text": "**Tomorrow:** finish sign-in sheets, prepare Friday’s newsletter draft."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**How to win the first month.** These habits make clients say “I should have done this years ago”:"
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Be online five minutes before your start time, every day.",
+            "Repeat a task back before you start it: “So I will update all 40 contacts and flag the ones without email. Right?”",
+            "Finish small tasks fast and well. Trust starts with small things.",
+            "Send the daily report every single day, even on slow days.",
+            "Ask your coordinator for feedback after the day-5 and day-14 check-ins."
+          ],
+          "dont": [
+            "Wait for the client to tell you every step. Use your SOPs.",
+            "Say “I understand” when you do not. Ask again; it is professional.",
+            "Promise big improvements in week one. Show them with results instead.",
+            "Skip the report because “nothing happened”. Say what you did and what is next."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**An example.** In her first week, Daniela notices her client, a team in Dallas, answers messages mostly at 7:30 AM and 6:00 PM Central. She adjusts: she posts her questions at 7:00 AM so they are waiting, and her report at 5:45 PM. By day 14, the client tells the manager, “She just runs things.” Daniela did not work harder; she worked in the client’s rhythm."
+        },
+        {
+          "t": "p",
+          "text": "Expect some confusion in the first two weeks. Every client is different, and nobody knows a new business on day one. What the client wants to see is not perfection; it is steady progress, clear communication and no surprises."
+        }
+      ]
+    },
+    {
+      "id": "F1-5",
+      "title": "Getting paid and staying in good standing",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "You deserve to understand exactly how you are paid, and what you need to do so that every hour you work is counted. This lesson explains it."
+        },
+        {
+          "t": "p",
+          "text": "**Your status.** You are an **independent contractor** engaged and paid through BeyondVAs. You are not an employee of your client. The client never pays you directly, and you never send invoices to the client. BeyondVAs bills the client and pays you. This protects you: you never have to chase a client for money. As an independent contractor, you are responsible for your own taxes and registrations in your country; if you are not sure what applies to you, ask a local accountant."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Topic",
+            "How it works"
+          ],
+          "rows": [
+            [
+              "Currency",
+              "US dollars (USD)"
+            ],
+            [
+              "Pay dates",
+              "Twice a month: the 5th and the 20th"
+            ],
+            [
+              "What is paid",
+              "Your tracked hours in Hubstaff for your client"
+            ],
+            [
+              "Who pays",
+              "BeyondVAs, using the payment method you set up during onboarding"
+            ],
+            [
+              "Pay calendar",
+              "Your coordinator gives you the calendar that shows which dates each payment covers"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Tracked hours are your pay.** Your hours come from Hubstaff, the time tracker you will learn in F3. While you are clocked in, Hubstaff takes screenshots at random moments, about every two minutes, and measures activity from your keyboard and mouse. The client can see your hours and your screenshots. This is not because anyone thinks you are dishonest. It is how the client knows the work is real, and it is the reason clients trust a VA in another country."
+        },
+        {
+          "t": "p",
+          "text": "**Idle time.** If Hubstaff shows a long period with no keyboard or mouse activity and no explanation, that time is flagged. Your manager reviews flagged time before the client is billed, and may ask you about it. There is often a good reason. An ISA on a 20-minute phone call looks idle to a tracker. A VA reading a long contract scrolls slowly. The solution is simple: when you do work with little typing, write a short note in the tracker, such as “Call with lead, Garcia” or “Reading client SOP for listings”. A clear note turns a question into a non-issue."
+        },
+        {
+          "t": "callout",
+          "title": "Clock in only when you work",
+          "text": "Clock in when you start working for the client. Clock out for lunch, breaks, personal calls and errands. Never leave the tracker running while you are away, and never use any tool or trick that fakes activity. Fake activity is fraud. It ends the placement and the relationship with BeyondVAs."
+        },
+        {
+          "t": "p",
+          "text": "**The daily report.** At the end of every shift, post your daily report in the client channel. The report, the tracked hours and the screenshots tell the same story. When the three agree, nobody has questions. When your report says “called 85 leads” and your tracker shows two hours idle, someone will ask why."
+        },
+        {
+          "t": "p",
+          "text": "**What keeps you in good standing.** These are the habits your coordinator watches. They matter as much as your skills."
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Punctuality.** Clocked in and ready at your start time. If you will be late, message your coordinator and the client channel **before** your start time, not after.",
+            "**Honest time.** Every tracked minute is client work, with a note when activity is low.",
+            "**Daily report.** Every shift, no exceptions.",
+            "**Communication.** Requests acknowledged quickly, problems reported early, everything inside the client channel.",
+            "**Security.** Passwords only through the password vault, client data never downloaded or exported, a lost or suspicious login reported at once.",
+            "**Outages handled.** If your internet or power fails, tell your manager immediately and switch to your backup internet or power. You will set this up in F3."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**What puts you at risk.** Missing shifts without notice, tracking time while doing personal things, sharing client information, talking to a client outside the channel to make private arrangements, or ignoring a compliance rule on calls. Any of these can end a placement. Most VAs who lose a client do not lack skill; they lose trust through small, repeated habits."
+        },
+        {
+          "t": "script",
+          "title": "Messaging before your start time",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Carla (coordinator), power is out in my area since 7:40 AM. I am on my phone hotspot and laptop battery, clocking in on time at 8:00 AM CT. I will update you at 10."
+            },
+            {
+              "who": "Coordinator",
+              "text": "Thanks for the heads-up. Tell the client channel too, and let me know if the hotspot drops."
+            },
+            {
+              "who": "You",
+              "text": "(in the client channel) Good morning, Mark! Quick note: power outage here, I am on backup and working normally. If calls drop, I will switch to tasks and message you."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Questions about your pay.** If a payment looks wrong, or hours seem missing, ask your coordinator in writing, with the dates. Never raise pay questions with the client. Your coordinator checks Hubstaff, the approved hours and the pay calendar, and answers you. Most issues are a missing clock-out or a time-zone mix-up, and they are easy to fix when you report them quickly."
+        },
+        {
+          "t": "p",
+          "text": "Honest time, a daily report and clear communication: do those three every day and you will never have to worry about your pay or your place."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Your welcome plan",
+    "minutes": 60,
+    "intro": "Prepare for your first client the way a professional does. You will write your introduction, plan your questions, practice a daily report and check that you understand how your time and pay work. Use fictional details from the lessons only.",
+    "steps": [
+      "Write a two-sentence introduction you could say at a client interview (who you are, what you are good at). Record yourself saying it on camera, in under 30 seconds, in a quiet room with good light.",
+      "Write the first message you would post in a new client channel on day one (4 to 6 lines): greeting, your hours in the client’s time zone, how you will send updates, and one question.",
+      "From F1-4, choose the six kickoff questions you think matter most for a team that sells homes in Phoenix, Arizona, and add one question of your own.",
+      "Write a sample daily report in the Done / In progress / Blocked / Tomorrow format for this fictional day: you confirmed 4 showings, updated 30 contacts, could not log in to the showing app, and will prepare a newsletter tomorrow.",
+      "Write the message you would send to your coordinator and the client channel if your power fails 20 minutes before your shift.",
+      "Answer in writing, in 2 or 3 sentences each: When do you clock out? What do you do if Hubstaff will show low activity during a long call? Who do you ask if a payment looks wrong?",
+      "Read the three beliefs (people first, over-communicate, grow together) and write one sentence for each about how you will show it in your first week."
+    ],
+    "deliverable": "One document with your channel message, kickoff questions, daily report, outage message and written answers, plus your 30-second video introduction. Send both to your coach, named Lastname_F1_practice_date."
+  },
+  "quiz": [
+    {
+      "q": "A client is a US real estate team. In BeyondVAs language, what are the people that team wants to help buy or sell homes?",
+      "options": [
+        "BeyondVAs customers",
+        "Leads or prospects of your client",
+        "Your clients",
+        "Contractors"
+      ],
+      "answer": 1,
+      "explain": "Your client is the agent or team you work for. The people they want to work with are their leads or prospects. They belong to your client, not to BeyondVAs."
+    },
+    {
+      "q": "Your client sends you a private direct message asking you to call a lead. What do you do?",
+      "options": [
+        "Answer privately; it is faster",
+        "Ignore it until they post in the channel",
+        "Thank them and move the conversation to the client channel, then do the task",
+        "Give them your personal WhatsApp number instead"
+      ],
+      "answer": 2,
+      "explain": "Clients talk to VAs only inside the client channel. Move it there politely and do the work, so the record stays in one place and your coordinator can back you up."
+    },
+    {
+      "q": "Your client asks you to tell a lead the seller will “probably take $20K less”. What is the best reply?",
+      "options": [
+        "Do it, because the client directs your work",
+        "Say price and negotiation must come from a licensed agent, and offer to book a time for the agent to talk with the lead",
+        "Refuse and stop working until your coordinator calls",
+        "Tell the lead a smaller number to be safe"
+      ],
+      "answer": 1,
+      "explain": "Negotiation and price are outside an unlicensed assistant's scope. Say what you cannot do in one sentence and offer what you can do: book the agent. If the client insists, message your coordinator."
+    },
+    {
+      "q": "Which of these is the main reason the client channel rule exists?",
+      "options": [
+        "It keeps a shared record of what was agreed, and your coordinator can see it",
+        "It makes messages slower so clients send fewer tasks",
+        "Clients prefer not to talk to VAs",
+        "It replaces the daily report"
+      ],
+      "answer": 0,
+      "explain": "A channel is a shared memory. Private messages get lost or misread; the channel shows what was agreed and gives you backup."
+    },
+    {
+      "q": "When are BeyondVAs VAs paid?",
+      "options": [
+        "Every Friday, by the client",
+        "Once a month in local currency",
+        "When the client approves each task",
+        "Twice a month, on the 5th and the 20th, in US dollars, by BeyondVAs"
+      ],
+      "answer": 3,
+      "explain": "You are an independent contractor paid in USD by BeyondVAs on the 5th and the 20th. The client never pays you directly."
+    },
+    {
+      "q": "You are an ISA on a 20-minute call with a lead, and you barely touch the keyboard. What should you do in Hubstaff?",
+      "options": [
+        "Move the mouse every minute so it does not look idle",
+        "Clock out during calls",
+        "Add a short note, such as “Call with lead, Garcia”, so the low activity makes sense",
+        "Nothing; idle time is never reviewed"
+      ],
+      "answer": 2,
+      "explain": "Low activity during calls or reading is normal. A short note explains it. Faking activity is fraud, and unexplained idle time is flagged and reviewed before billing."
+    },
+    {
+      "q": "You will be 20 minutes late because of a power outage. When do you tell your coordinator and client?",
+      "options": [
+        "Before your start time, and you switch to your backup power or internet",
+        "After you arrive, with an apology",
+        "Only if the client asks",
+        "At the end of the day in the report"
+      ],
+      "answer": 0,
+      "explain": "Message before your start time, not after. Tell your manager at once and switch to backup internet or power."
+    },
+    {
+      "q": "In your first week, a client screen-shares how to add an open-house lead. What is the best habit?",
+      "options": [
+        "Watch once and trust your memory",
+        "Ask them to show you again every time",
+        "Record it with permission and turn it into a step-by-step SOP saved in the client's systems",
+        "Save a copy of their CRM on your computer to practice"
+      ],
+      "answer": 2,
+      "explain": "Recording each process and writing a checklist (SOP) means you never ask twice. Save it inside the client's systems, never on your own computer."
+    },
+    {
+      "q": "Who should you contact first if a payment looks wrong?",
+      "options": [
+        "The client, in the channel",
+        "Another VA",
+        "Your coordinator, in writing, with the dates",
+        "Hubstaff support"
+      ],
+      "answer": 2,
+      "explain": "Pay questions go to your coordinator, never to the client. Your coordinator checks the tracked hours and the pay calendar."
+    },
+    {
+      "q": "Which belief means “tell people what you are doing, when it will be done and what is blocking you”?",
+      "options": [
+        "People first",
+        "Over-communicate",
+        "Grow together",
+        "Trained, tracked, managed"
+      ],
+      "answer": 1,
+      "explain": "A US client cannot see you, so silence feels like a problem. Over-communicating keeps them confident."
+    }
+  ]
+}

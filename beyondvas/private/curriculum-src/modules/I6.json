@@ -1,0 +1,841 @@
+{
+  "id": "I6",
+  "part": "isa",
+  "title": "Working with sellers",
+  "summary": "Qualify seller leads with A.L.M., handle “what is my home worth?” without ever giving a value, set the listing consultation with every decision maker, and follow up in a way that respects the seller’s timeline.",
+  "objectives": [
+    "Name the main reasons people sell and the main seller lead sources, and know which sources you may call and under what rules.",
+    "Run seller discovery with A.L.M.: the listing consultation, the property, and the reason and timeline.",
+    "Answer “What is my home worth?” and “The website says it’s worth $X” warmly, without giving any number, range or opinion of value.",
+    "Book a listing consultation with two time options, every decision maker present, and a calendar invite the agent can act on.",
+    "Handle the common seller objections and sensitive situations, and build a follow-up plan that matches the seller’s timeline."
+  ],
+  "lessons": [
+    {
+      "id": "I6-1",
+      "title": "Who calls about selling, and why",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "For many real estate agents, sellers are the most valuable leads. A listing brings a commission, a sign in the yard, buyer calls from that sign, and often a second deal when the seller buys their next home. That is why your client may ask you to work seller leads with special care. A seller lead is also very different from a buyer lead. A buyer is looking forward to something new. A seller is often leaving something: a home full of memories, a marriage, a parent’s house, a job, a city. Your tone has to match that."
+        },
+        {
+          "t": "p",
+          "text": "People sell for a reason, and **the reason sets the timeline.** Ask for it early, gently, and listen to the whole answer. Here are the most common reasons you will hear:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Reason",
+            "What you might hear",
+            "Usual timeline and tone"
+          ],
+          "rows": [
+            [
+              "Moving for work",
+              "“I got a job offer in Denver, I start in March.”",
+              "Fixed date, often urgent. Practical tone."
+            ],
+            [
+              "Need more space",
+              "“We have a baby coming and we’re out of room.”",
+              "Medium. Often a buy-and-sell at the same time."
+            ],
+            [
+              "Downsizing",
+              "“The kids are gone, the house is too big for us now.”",
+              "Flexible. Emotional; take your time."
+            ],
+            [
+              "Inheritance",
+              "“My mom passed last year and we have her house.”",
+              "Varies. Be gentle; there may be several family members and legal steps (probate)."
+            ],
+            [
+              "Divorce or separation",
+              "“We’re splitting up and need to sell.”",
+              "Often time-sensitive and stressful. Stay neutral; both owners matter."
+            ],
+            [
+              "Landlord done with renting",
+              "“I’m tired of tenants. The lease ends in June.”",
+              "Tied to the lease. Tenants have rights; the agent handles that."
+            ],
+            [
+              "Financial pressure",
+              "“We’re behind on payments.”",
+              "Can be urgent. Never give legal or financial advice; tell the agent quickly."
+            ],
+            [
+              "Curious",
+              "“Just curious what it’s worth.”",
+              "Unclear. Often a future seller; worth a careful follow-up plan."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Seller leads come from several sources. Each source tells you something about how warm the lead is, and each one has its own calling rules. This matters a lot: **you may only call a seller in the calling window, and only if the lead asked to be contacted or the number was scrubbed against the National Do Not Call Registry and your client’s own DNC list.**"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Source",
+            "What it is",
+            "May you call?"
+          ],
+          "rows": [
+            [
+              "Home value form",
+              "The owner typed their address on your client’s website to get an estimate.",
+              "Yes, inside the calling window. They asked to be contacted. Text only if they agreed to texts."
+            ],
+            [
+              "Sign call or ad call",
+              "Someone called about a listing and mentions they also need to sell.",
+              "Yes, inside the calling window. They contacted your client."
+            ],
+            [
+              "Past client or sphere",
+              "People your client already knows, in the CRM.",
+              "Yes, inside the window, if your client gives you the list and it is scrubbed against the National DNC Registry and their own DNC list."
+            ],
+            [
+              "Old database leads",
+              "People who registered months or years ago.",
+              "Only numbers scrubbed against the National DNC Registry and your client’s DNC list."
+            ],
+            [
+              "Expired listings and FSBO",
+              "Homes that did not sell with another agent, or owners selling by themselves (“For Sale By Owner”).",
+              "Only if your manager confirms your scope allows it and the list is DNC-scrubbed. Many states limit this for unlicensed assistants."
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Scope comes first",
+          "text": "Your manager sets your scope before you dial. In some states, Texas for example, an unlicensed assistant may not call to find out whether someone wants to buy, sell or lease. In those states, you may only follow up with sellers who already asked to be contacted, in the way your manager describes. When in doubt, ask in the client channel before you call, not after."
+        },
+        {
+          "t": "p",
+          "text": "One more source deserves attention: **your buyer leads.** Many buyers own a home now. When a buyer says “We need to sell our house first,” you have just found a seller lead. Log it as both, tell your agent, and treat the home sale with the same care as the purchase."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Ask for the reason early: “Can I ask what has you thinking about selling?”",
+            "Match your tone to the reason: practical for a job move, gentle for an inheritance.",
+            "Check the source and the calling rules before every outbound seller call.",
+            "Log the reason and the timeline in the lead’s words."
+          ],
+          "dont": [
+            "Treat a seller like a buyer with the same rushed script.",
+            "Call an expired or FSBO list unless your manager confirms scope and the list is scrubbed.",
+            "Ask about debts, divorce details or the will. If they share, listen and log only what the agent needs.",
+            "Assume “just curious” means “not a seller.”"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I6-2",
+      "title": "Seller discovery with A.L.M.",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "You already use A.L.M. on buyer calls. With sellers, the three letters stay the same, but each one means something slightly different."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Letter",
+            "For a buyer",
+            "For a seller"
+          ],
+          "rows": [
+            [
+              "A: Appointment",
+              "A tour or buyer consultation with the agent.",
+              "A **listing consultation**: the agent visits the home (or meets by video) to look at it and talk about selling."
+            ],
+            [
+              "L: Location",
+              "Where they want to buy.",
+              "**The property**: address, type, size, condition, recent updates. Plus where they are going next."
+            ],
+            [
+              "M: Motivation",
+              "Why they are moving and when.",
+              "**Why they are selling and by when**, and what happens if it does not sell."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Seller discovery is a conversation, not a form. You do not need every answer on the first call. You need enough for the agent to walk into the consultation prepared, and you need the appointment. A good rule: **ask four to six questions, then ask for the appointment.** If the seller is talkative, let them talk and take notes. If they are short, keep it brief and get to the appointment faster."
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Reason:** “Can I ask what has you thinking about selling?”",
+            "**Timeline:** “Do you have a date in mind for when you’d like to be moved?”",
+            "**Next home:** “Where are you planning to go next? Will you be buying another home?” (If yes, that is also a buyer lead.)",
+            "**The property:** “Tell me a little about the home. How many bedrooms and bathrooms?” “Have you done any updates over the years?”",
+            "**Occupancy:** “Are you living in the home now, or is it rented or empty?”",
+            "**Decision makers:** “Is anyone else on the title or part of the decision?”",
+            "**Experience:** “Have you sold a home before?” “Have you talked with any other agents yet?”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice what is **not** on the list: “How much do you owe?” “What’s your mortgage payment?” “What price do you want?” These questions are important for the agent, but they touch money, value and terms, which belong in the consultation with a licensed professional. If the seller volunteers a number (“We need at least $500,000 to make this work”), write it down in their words and pass it on. Do not react, agree or disagree."
+        },
+        {
+          "t": "script",
+          "title": "A home value lead: Linda Carter",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi, is this Linda? This is Sofia, I’m an assistant with Rachel Moore’s team. Just so you know, this call may be recorded. You requested a home value report for 418 Maple Court a few minutes ago, is that right?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, I was just curious."
+            },
+            {
+              "who": "You",
+              "text": "Of course. Lots of homeowners check. Can I ask what has you thinking about it?"
+            },
+            {
+              "who": "Lead",
+              "text": "Well, my husband got a job offer in Phoenix. We might need to move by summer."
+            },
+            {
+              "who": "You",
+              "text": "Congratulations to him! So summer is the goal. Will you be buying in Phoenix?"
+            },
+            {
+              "who": "Lead",
+              "text": "Probably, yes. Once we sell here."
+            },
+            {
+              "who": "You",
+              "text": "That makes sense. Tell me a little about the Maple Court home. How many bedrooms and bathrooms?"
+            },
+            {
+              "who": "Lead",
+              "text": "Four bedrooms, two and a half baths. We redid the kitchen two years ago."
+            },
+            {
+              "who": "You",
+              "text": "That’s great. Is your husband part of the decision too?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, we both own it."
+            },
+            {
+              "who": "You",
+              "text": "Perfect. The best way to know what the home would sell for today is for Rachel to walk through it, see the kitchen and the updates, and show you real numbers. It takes about an hour, with both of you there. Would Tuesday at 5 or Thursday at 6 be better?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "In about three minutes, you learned the reason (job move), the timeline (summer), the next step (buying in Phoenix: a referral opportunity your agent may want to handle), the property basics, the recent update, and the decision makers. And you asked for the appointment with two times. Your note:"
+        },
+        {
+          "t": "callout",
+          "title": "Example note",
+          "text": "**Date/Time:** Tue 2:14 PM. **Disposition:** Call, connected (4 min). **A:** Listing consult proposed Tue 5 PM or Thu 6 PM, both owners. **L:** 418 Maple Court, 4 bd / 2.5 ba, kitchen remodeled 2 years ago, owner-occupied. **M:** Husband’s job offer in Phoenix; wants to move by summer; plans to buy in Phoenix after selling. **Next step:** Confirm time by text; Rachel to prepare for consult; flag Phoenix purchase for possible referral."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Say your name, your client’s team and the recording notice at the start.",
+            "Ask four to six questions, then ask for the appointment.",
+            "Find out who is on the title and make sure everyone can attend.",
+            "Log a buy-and-sell as two needs, and tell your agent."
+          ],
+          "dont": [
+            "Ask what they owe, what they want for the house or what their payment is.",
+            "Comment on the home: “That kitchen will add a lot of value.”",
+            "Spend 20 minutes on discovery and forget to ask for the appointment.",
+            "Book a consultation with only one of two owners without asking about the other."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I6-3",
+      "title": "“What is my home worth?” without giving a value",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "This is the most important skill in this module, and the easiest place to make a serious mistake. Almost every seller asks some version of: “So what do you think it’s worth?” You must **never** give a number, a range, a guess, or an opinion like “I think it’s on the high side.” You are not licensed to give an opinion of value, and in real estate that is a serious line. A wrong number also hurts everyone: too high and the seller is disappointed by the agent’s real analysis; too low and they may not list at all."
+        },
+        {
+          "t": "callout",
+          "title": "The core idea",
+          "text": "You do not quote a price; your client does, at the home. “The agent can walk the property and show you what it would sell for today. Tuesday at 5 or Thursday at 6?”"
+        },
+        {
+          "t": "p",
+          "text": "Why is the agent’s visit the right answer, and not just a way to avoid the question? Because it is true. A home’s value depends on things no website and no assistant can see from a phone call: the condition, the updates, the layout, the view, the street, and what similar homes nearby sold for recently. The agent prepares a **comparative market analysis (CMA)**: a study of recent nearby sales, homes currently for sale, and homes that did not sell. Then they adjust for what makes this home different. That takes a licensed professional and, ideally, a walk through the house."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Seller says",
+            "Never say",
+            "Say instead"
+          ],
+          "rows": [
+            [
+              "“What do you think it’s worth?”",
+              "“Homes there go for about $450K.”",
+              "“That’s exactly what Rachel will show you. She looks at recent sales nearby and at your home itself, so the number is real. Would Tuesday at 5 or Thursday at 6 work?”"
+            ],
+            [
+              "“Just give me a ballpark.”",
+              "“Somewhere between $400K and $500K.”",
+              "“I wish I could, but any number from me would be a guess, and with your biggest asset you deserve a real one. Rachel can give you that in one visit.”"
+            ],
+            [
+              "“The website says it’s worth $520,000.”",
+              "“That sounds about right.” / “Those sites are always wrong.”",
+              "“Those online estimates are a helpful starting point. They can’t see inside your home or your new kitchen, though. Rachel can show you how your home compares. Tuesday at 5 or Thursday at 6?”"
+            ],
+            [
+              "“My neighbor sold for $600K, so mine is worth that.”",
+              "“Then yours is probably similar.”",
+              "“That’s really useful to know, I’ll note it for Rachel. She’ll look at that sale and others and compare them to your home.”"
+            ],
+            [
+              "“Can you just email me the report?”",
+              "Sends a value you made or found online.",
+              "“Of course, if Rachel has a report ready, I’ll ask her to send it. The most accurate number comes from her seeing the home. Can we find a time?” (Only send what your agent prepares and approves.)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Look at the website row carefully. Do not attack online estimates and do not agree with them. Both are opinions of value. Online estimates are automated: a computer guesses from public records and nearby sales. They can be close or far off. Your neutral line (“a helpful starting point... they can’t see inside your home”) is true and respectful."
+        },
+        {
+          "t": "script",
+          "title": "Holding the line with a persistent seller: Robert",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Look, I don’t want a sales pitch. I just want a number. What’s my house worth?"
+            },
+            {
+              "who": "You",
+              "text": "I completely understand, Robert. You want a real answer, not a pitch. Can I ask what you’d do with the number?"
+            },
+            {
+              "who": "Lead",
+              "text": "If it’s enough, we’d sell next spring and move closer to our daughter."
+            },
+            {
+              "who": "You",
+              "text": "That makes sense, being closer to family. Here’s the honest answer: I’m an assistant, and I’m not able to give values. Any number from me would be a guess. Rachel can look at the home and the recent sales and give you a real number, with no obligation to list. It takes about 45 minutes. Would Saturday at 10 or Monday at 5 be easier?"
+            },
+            {
+              "who": "Lead",
+              "text": "No obligation?"
+            },
+            {
+              "who": "You",
+              "text": "None. You’ll just know where you stand for spring."
+            },
+            {
+              "who": "Lead",
+              "text": "Okay. Saturday at 10."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Robert’s “I just want a number” became a Motivation (move closer to his daughter), a timeline (next spring) and an appointment. You used ask, listen, mirror from module I5, you were honest about your role, and you never gave a value. “No obligation” is a phrase to use only if your agent agrees with it; check your client’s preferred wording."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Say clearly that you are an assistant and not able to give values.",
+            "Explain why the agent’s visit gives a real number: condition, updates and recent nearby sales.",
+            "Log any number the seller mentions, in their words, with the source (“per lead,” “online estimate”).",
+            "Send a value report only if your agent prepared it and asked you to send it."
+          ],
+          "dont": [
+            "Give a number, a range, a price per square foot, or “about what the neighbor got.”",
+            "Say whether their number is high, low or reasonable.",
+            "Look up recent sales and read them to the seller.",
+            "Promise a selling price, a time on market or that the home “will sell fast.”"
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Why this protects you",
+          "text": "An opinion of value from an unlicensed person can break your client’s state rules and create legal risk for your client. On the QA rubric, giving a value costs you Compliance points, and your coach treats it as a serious error. Saying “That’s exactly what the agent will show you” is never wrong."
+        }
+      ]
+    },
+    {
+      "id": "I6-4",
+      "title": "Setting the listing consultation",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "The listing consultation (also called the listing appointment or listing presentation) is where the agent meets the seller, sees the home, shares the market analysis, explains how they would sell it, and, if the seller is ready, signs a listing agreement. You never discuss or sign the listing agreement, and you never discuss commission. Your job is to get the right people, at the right time, in the right place, with the agent fully prepared."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Ask with two times.** “Would Tuesday at 5 or Thursday at 6 be better?” Never “When works for you?” Use the agent’s real availability from their calendar.",
+            "**Get every decision maker.** “Will everyone on the title be able to be there?” If one owner travels, offer a video option for that person if your agent allows it, or find a time that works for all.",
+            "**Confirm the place.** Usually the property itself. For a vacant home or a seller who lives far away, ask your agent whether a video meeting or a meeting at the office is acceptable.",
+            "**Set expectations.** “It usually takes about an hour. Rachel will walk through the home and then sit down with you to go over the numbers.”",
+            "**Confirm by text** right away, if they agreed to texts, with the date, time, address and the agent’s name.",
+            "**Create the calendar invite** and move the stage. Then write the note."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Why do all decision makers matter so much? Because if one owner is missing, the seller cannot decide, and the agent often has to come back a second time. Worse, the missing person may meet another agent in the meantime. In divorce or inheritance situations, there may be two or more people with different opinions. Ask the question neutrally and let the agent handle the rest."
+        },
+        {
+          "t": "script",
+          "title": "Booking the consultation with everyone: the Nguyens",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Rachel can walk through the home and show you what it would sell for today. Would Tuesday at 5 or Thursday at 6 be better?"
+            },
+            {
+              "who": "Lead",
+              "text": "Thursday, but my wife works late on Thursdays."
+            },
+            {
+              "who": "You",
+              "text": "Thanks for telling me. Since you both own the home, it’s best if you’re both there, so all your questions get answered at once. Would Saturday at 10 or Saturday at 1 work for both of you?"
+            },
+            {
+              "who": "Lead",
+              "text": "Saturday at 10 is good."
+            },
+            {
+              "who": "You",
+              "text": "Perfect. Saturday at 10 at 27 Lakeview Drive, with Rachel Moore. It takes about an hour. I’ll text you the details now, and you’ll get a reminder the day before. Is there anything you’d like Rachel to know or bring?"
+            },
+            {
+              "who": "Lead",
+              "text": "We want to know how long it usually takes to sell."
+            },
+            {
+              "who": "You",
+              "text": "Great question. I’ll put it in my note so she’s ready to cover it."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The calendar invite is your handoff to the agent. Build it so the agent can prepare in five minutes without calling you:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Invite field",
+            "What goes in it"
+          ],
+          "rows": [
+            [
+              "Title",
+              "Listing consult: Tran and Mai Nguyen, 27 Lakeview Dr"
+            ],
+            [
+              "Time and place",
+              "Saturday 10:00 AM (lead’s time zone), at the property"
+            ],
+            [
+              "Follow Up Boss link",
+              "Paste the lead profile link"
+            ],
+            [
+              "Property",
+              "3 bd / 2 ba, single family, new roof 2023, owner-occupied (per lead)"
+            ],
+            [
+              "Motivation and timeline",
+              "Want to move closer to family in Sacramento by fall; will buy there"
+            ],
+            [
+              "Decision makers",
+              "Both owners attending"
+            ],
+            [
+              "Seller questions",
+              "How long homes usually take to sell; they mentioned an online estimate of $610K"
+            ],
+            [
+              "Reminders",
+              "24-hour and 1-hour text reminders to the seller (if they agreed to texts)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Then move the Follow Up Boss stage to **Pending Handoff**, so the team knows an appointment is set and nurture automations stop (your manager confirms how your client’s Follow Up Boss is set up). Write your A.L.M. note with the same facts. And the night before, send a short confirmation text with the address and the agent’s name: many no-shows happen because nobody confirmed."
+        },
+        {
+          "t": "callout",
+          "title": "If the seller wants the agent to call first",
+          "text": "Some sellers prefer to talk with the agent by phone before an in-person visit. That is fine. Book a phone appointment with two time options, and use a 3-way warm handoff if the agent is available right now (module I8). Never leave it as “the agent will call you sometime.”"
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Check the agent’s calendar before offering times.",
+            "Repeat the date, time, address and agent’s name before you end the call.",
+            "Write the seller’s questions in the invite so the agent prepares.",
+            "Confirm the night before."
+          ],
+          "dont": [
+            "Book over another appointment or outside the agent’s working hours.",
+            "Promise what the agent will say about price or commission.",
+            "Send listing agreements or explain them.",
+            "Forget the stage change: automations may keep emailing a seller who already booked."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I6-5",
+      "title": "Seller objections and sensitive situations",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Sellers object for different reasons than buyers. They may be protecting their pride in the home, testing the market, hoping to save money by selling alone, or dealing with a painful life event. Use the same tools from module I5: **ask, listen, mirror,** then **acknowledge, pivot, appointment.** And remember: if they say stop, it is an opt-out, not an objection."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Seller objection",
+            "A reply that works"
+          ],
+          "rows": [
+            [
+              "“We’re just testing the market.”",
+              "“That’s smart, it’s good to know where you stand. The fastest way to really know is for the agent to walk through the home and show you what it would sell for today, with no pressure to list. Would Tuesday at 5 or Thursday at 6 work?”"
+            ],
+            [
+              "“We’re not selling for six months.”",
+              "“That’s helpful to know, thank you. A lot of sellers meet the agent a few months early so they know what to fix and what to leave alone before listing. Would a visit next month be useful? If not, when should I check back?”"
+            ],
+            [
+              "“We’ll sell it ourselves.” (FSBO)",
+              "“I understand wanting to keep control of it. Can I ask what’s most important to you in the sale?” Listen. “Rachel can share how she would market it, and you can decide what makes sense. Would a short meeting be useful?” (Only if your scope allows FSBO contact.)"
+            ],
+            [
+              "“We already have an agent we like / a friend who is an agent.”",
+              "“That’s great. Have you signed a listing agreement with them?” If yes: respect it, note it, tell your agent, never pitch around it. If no: “Would a second opinion be helpful before you decide?”"
+            ],
+            [
+              "“Your agent will just tell me a high price to get the listing.”",
+              "“That’s a fair worry. Rachel shows the recent sales she used, so you can see exactly where the number comes from. You can ask her anything.”"
+            ],
+            [
+              "“What’s your commission?”",
+              "“Rachel will go through all of that with you at the consultation. I’m not able to discuss it, but she’ll answer every question.”"
+            ],
+            [
+              "“We need to find our next home first.”",
+              "“That’s really common. Rachel helps people plan the order so they’re not stuck between homes. Where are you hoping to move next?” Log it as a buy-and-sell."
+            ],
+            [
+              "“The house needs too much work to sell.”",
+              "“A lot of homes sell with work needed. Rachel can tell you what is worth fixing and what isn’t. Would you like her to take a look?”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Some seller calls touch hard life events: a death in the family, a divorce, a job loss, being behind on payments. These calls need extra care. You are not a counselor, a lawyer or a financial advisor, and you do not need to be. You need to be kind, patient and clear about what happens next."
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Inheritance:** start with condolences. “I’m so sorry for your loss.” Do not ask about the will or probate. If they mention it, log it: “Estate sale; probate status unknown, per lead.” Ask who else in the family is part of the decision.",
+            "**Divorce:** stay neutral and never take sides. Ask if both owners can be part of the meeting, or whether the agent should contact each one separately. Log facts, not feelings.",
+            "**Behind on payments or facing foreclosure:** do not give legal or financial advice, do not promise a sale will fix it, and do not mention lenders or programs. Say: “Thank you for trusting me with that. Rachel can talk with you about your options, and the sooner the better. Can we set a time today or tomorrow?” Tell your agent the same day.",
+            "**Tenant-occupied homes:** do not tell the owner what they can do with tenants. Log “tenant-occupied, lease ends [date], per lead.” The agent handles tenant questions."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Gentle and clear: an inherited home",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "It was my father’s house. He passed in the spring. My brother and I don’t really know what to do with it."
+            },
+            {
+              "who": "You",
+              "text": "I’m so sorry about your father. Thank you for telling me. There’s no rush on this call. Can I ask what you and your brother are thinking so far?"
+            },
+            {
+              "who": "Lead",
+              "text": "Neither of us lives nearby, so we probably have to sell. But we haven’t even cleaned it out."
+            },
+            {
+              "who": "You",
+              "text": "That’s a lot to handle from far away. Rachel helps families in this situation often. She could walk through the house, by video if you’re not nearby, and explain the options and steps, with no pressure. Would it be possible for you and your brother to join together, maybe Wednesday at 6 or Saturday at 11?"
+            }
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Fair housing applies to sellers too",
+          "text": "If a seller says “I only want to sell to a certain kind of family” or asks about the buyers’ background, do not agree and do not argue. Say: “That’s something Rachel will talk with you about; the law requires treating every buyer the same.” Log it neutrally and tell your agent the same day."
+        }
+      ]
+    },
+    {
+      "id": "I6-6",
+      "title": "Follow-up that respects their timeline",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most seller leads are not ready to list this week. A homeowner who says “Maybe next year” is not a lost lead. **“Not for six months” is a date, not a no.** Put it in Follow Up Boss with a next action, send something useful in between, and never pressure a seller who already told you when. Sellers remember the team that stayed in touch respectfully, and they list with that team."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Seller timeline",
+            "Smart List / stage",
+            "Follow-up rhythm (inside the calling window)"
+          ],
+          "rows": [
+            [
+              "Ready now (0-30 days)",
+              "Hot Active",
+              "Book the consultation now. If not booked, call again within 24 hours."
+            ],
+            [
+              "Soon (1-3 months)",
+              "Hot or warm nurture, per your client’s stages",
+              "Call or text every 1-2 weeks. Ask what has changed. Offer the consultation at every contact."
+            ],
+            [
+              "Later (3-6 months)",
+              "30-60 Day Nurture",
+              "A useful touch every 2-4 weeks (a market update the agent approves, a note about recent sales the agent prepared). A call each month."
+            ],
+            [
+              "Far out (6-12+ months)",
+              "Long-term nurture",
+              "A monthly touch, a call every 2-3 months, and a call 3-4 months before their stated date."
+            ],
+            [
+              "Opted out",
+              "Archived / DNC",
+              "No contact. Ever. Never delete the record."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "What counts as “useful”? Something that helps the seller make a decision, not something that only asks for one. Examples: a short market update your agent prepared, a reminder of their own timeline (“You mentioned wanting to move before the school year; many sellers start preparing about 90 days before”), or an offer the agent approves, like a list of simple things to fix before photos. Never send your own value opinion, and never send market numbers your agent has not approved."
+        },
+        {
+          "t": "script",
+          "title": "A respectful follow-up call: Linda, four months later",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Linda, it’s Sofia with Rachel Moore’s team. This call may be recorded. In June you mentioned possibly moving to Phoenix by next summer. I’m just checking in. How are things going with the move?"
+            },
+            {
+              "who": "Lead",
+              "text": "Actually, his start date moved up. Now it’s April."
+            },
+            {
+              "who": "You",
+              "text": "Oh, that’s much sooner. Thank you for telling me. With April in mind, many sellers like to meet the agent three or four months before. Would it help to have Rachel walk through the home in early December, so you have a plan before the holidays? Maybe December 3 at 5 or December 5 at 6?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "You opened with **their** words and **their** timeline, not with “Are you ready to sell yet?” You learned the timeline changed. And you asked for the appointment with two dates. If Linda had said nothing changed, you would thank her, ask if anything new would be helpful, and set the next follow-up date out loud: “I’ll check in again in early January, is that okay?”"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "After every seller call, set a Follow Up Boss task with a specific date that matches their timeline.",
+            "Put the seller on the right Smart List and stage the same day.",
+            "Write the reason and the timeline in their words so the next caller starts where you left off.",
+            "Before each follow-up, read the last note. Open with something they told you.",
+            "When the timeline changes, update the stage, the task dates and the note immediately, and tell your agent if the seller is now ready."
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Respect a stated date. Call when you said you would, not every week.",
+            "Offer the consultation at every contact, gently.",
+            "Text only sellers who agreed to texts, inside the window.",
+            "Tell your agent the same day when a seller moves from “later” to “now.”"
+          ],
+          "dont": [
+            "Ask “Are you ready to sell yet?” as your opening line.",
+            "Send generic “Just checking in!” messages with nothing useful.",
+            "Keep calling someone who said “Please stop.” That is an opt-out.",
+            "Let a nurture seller go more than 10 days past their scheduled follow-up."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "The seller mindset",
+          "text": "Listen for the reason. Never give a value. Get everyone to the consultation. And when they say “later,” make “later” a date you keep."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Seller call lab: discovery, value questions and the consultation invite",
+    "minutes": 90,
+    "intro": "You will practice the full seller call, from the first question to a calendar invite the agent can act on, in a Follow Up Boss practice account (or a practice document if your account is not ready). Your practice partner or coach plays the seller. Record every role-play. Use only fictional names, addresses, 555 phone numbers and example.com emails. Never give a value, even in practice.",
+    "steps": [
+      "Prepare (10 min): write your own seller discovery question list (4-6 questions) and your one-sentence reply to “What is my home worth?”. Read both out loud five times.",
+      "Role-play 1 (10 min): a home value form lead, “Linda Carter”, 418 Maple Court, husband has a job offer in another state. Run discovery, find out who is on the title, and book a listing consultation with two time options.",
+      "Role-play 2 (8 min): “Robert”, who says “I don’t want a pitch, I just want a number” three times, then “The website says $520,000.” Hold the line, find the Motivation and ask for the appointment.",
+      "Role-play 3 (8 min): an inherited home owned by two siblings who live in different states. Use a gentle tone, offer condolences, and book a video consultation with both siblings.",
+      "Role-play 4 (8 min): a seller who says “We’re not selling for six months” and “We might just sell it ourselves.” Turn “six months” into a date and a follow-up plan.",
+      "Compliance check (6 min): your partner asks, in any order, “What’s your commission?”, “Would they pay $600K for it?”, “Are the buyers going to be families?” and “Stop calling me.” Answer each correctly.",
+      "CRM work (25 min): for role-plays 1 and 3, create the lead in the practice account (or document), write the full A.L.M. note, set the stage to Pending Handoff, and write the complete calendar invite using the fields from lesson I6-4. For role-play 4, write the note, choose the Smart List and stage, and set three dated follow-up tasks that match the seller’s timeline.",
+      "Self-review (15 min): listen to your recordings. Mark every place you were close to giving a value, an opinion of the home, or a price comment, and rewrite that sentence."
+    ],
+    "deliverable": "Send your coach, in your BeyondVAs training channel: the four role-play recordings plus the compliance check recording, the three notes, the two calendar invites, the follow-up task plan, and your self-review with rewritten sentences. Your coach checks that you gave zero values or price opinions, got every decision maker, and offered two times."
+  },
+  "quiz": [
+    {
+      "q": "A seller asks, “What do you think my house is worth?” What do you say?",
+      "options": [
+        "Give a range based on recent sales nearby",
+        "Say the online estimate is probably right",
+        "“That’s exactly what the agent will show you, from your home and recent nearby sales. Would Tuesday at 5 or Thursday at 6 work?”",
+        "Tell them you will look up the neighbors’ sales and text them"
+      ],
+      "answer": 2,
+      "explain": "You do not quote a price; your client does, at the home. Never give a number, range or opinion of value."
+    },
+    {
+      "q": "A seller says, “The website says my home is worth $520,000.” Which reply is best?",
+      "options": [
+        "“Those online estimates are a helpful starting point, but they can’t see inside your home. The agent can show you how yours compares.”",
+        "“That sounds about right for your area.”",
+        "“Those websites are always wrong, ignore them.”",
+        "“You could probably get more than that.”"
+      ],
+      "answer": 0,
+      "explain": "Agreeing or disagreeing are both opinions of value. Stay neutral and offer the agent’s visit."
+    },
+    {
+      "q": "In seller A.L.M., what does the A stand for?",
+      "options": [
+        "Asking price",
+        "Agent agreement",
+        "Address",
+        "The appointment: a listing consultation with the agent"
+      ],
+      "answer": 3,
+      "explain": "A is always the appointment. For sellers, that is the listing consultation."
+    },
+    {
+      "q": "Which question should you leave for the agent instead of asking it yourself?",
+      "options": [
+        "“Can I ask what has you thinking about selling?”",
+        "“How much do you still owe on the mortgage?”",
+        "“Is anyone else on the title?”",
+        "“Where are you planning to go next?”"
+      ],
+      "answer": 1,
+      "explain": "Money, value and terms belong in the consultation with a licensed professional. If the seller volunteers a number, log it in their words."
+    },
+    {
+      "q": "A married couple owns the home, but only one spouse can meet on Thursday. What do you do?",
+      "options": [
+        "Book Thursday with one spouse; the other can hear about it later",
+        "Cancel and call back next month",
+        "Explain that it’s best if both owners attend, and offer two times that work for both",
+        "Ask the agent to go twice"
+      ],
+      "answer": 2,
+      "explain": "Every decision maker should be there so the seller can decide and the agent does not need a second visit."
+    },
+    {
+      "q": "After you book a listing consultation, which Follow Up Boss stage do you set?",
+      "options": [
+        "Pending Handoff",
+        "Archived / DNC",
+        "30-60 Day Nurture",
+        "New Lead"
+      ],
+      "answer": 0,
+      "explain": "Pending Handoff tells the team an appointment is set, so the agent takes over and nurture messages should not continue."
+    },
+    {
+      "q": "You want to call a list of expired listings for your client. What must be true first?",
+      "options": [
+        "Nothing: expired listings are public",
+        "Your manager confirms your scope allows it, and the list is scrubbed against the National DNC Registry and your client’s DNC list",
+        "The sellers must have a new agent",
+        "You must call before 9 AM, when sellers are home"
+      ],
+      "answer": 1,
+      "explain": "Scope depends on your client’s state, and any non-inbound list must be DNC-scrubbed. Calls stay inside the calling window."
+    },
+    {
+      "q": "A seller says, “We’re not selling for six months.” What is the best response?",
+      "options": [
+        "Mark the lead as not interested",
+        "Call every week until they change their mind",
+        "Tell them prices will drop if they wait",
+        "Thank them, ask what happens in six months, set a dated follow-up plan, and send useful updates your agent approves"
+      ],
+      "answer": 3,
+      "explain": "“Not for six months” is a date, not a no. Respect the timeline and make follow-up useful."
+    },
+    {
+      "q": "A seller who inherited a home starts telling you about the will and a family disagreement. What do you do?",
+      "options": [
+        "Listen kindly, do not give legal advice, log only what the agent needs, and ask who is part of the decision",
+        "Explain how probate works in their state",
+        "Tell them which sibling is right",
+        "End the call because it is too personal"
+      ],
+      "answer": 0,
+      "explain": "Be kind and patient, stay neutral, give no legal advice, and pass the facts the agent needs."
+    },
+    {
+      "q": "A seller asks, “What’s your commission?” What do you say?",
+      "options": [
+        "Quote the usual percentage in your area",
+        "Say commissions are negotiable and offer a discount",
+        "“The agent will go through all of that with you at the consultation. I’m not able to discuss it.”",
+        "Say there is no commission"
+      ],
+      "answer": 2,
+      "explain": "Commission, price and terms are outside an ISA’s scope. Pass them to the agent and keep the appointment."
+    }
+  ]
+}

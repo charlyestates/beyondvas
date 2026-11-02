@@ -1,0 +1,719 @@
+{
+  "id": "I4",
+  "part": "isa",
+  "title": "The financing conversation",
+  "summary": "Ask about financing in twenty seconds once the appointment is set, log what you learn, and leave every loan, rate and credit question to the lender and every lender choice to the buyer.",
+  "objectives": [
+    "Place the 20-second financing conversation at the right moment: after the appointment is set, never before you have shown you care.",
+    "Tell the difference between a pre-qualification and a verified pre-approval, and ask what was verified without judging the answer.",
+    "Answer money questions (rates, credit, down payment, “should we wait?”) with a clear, friendly redirect that gives no loan, rate or credit advice.",
+    "Offer a lender introduction only when your agent says so, always as one option, and say out loud that the buyer chooses their lender.",
+    "Log financing status in a Follow Up Boss note so the agent never has to ask the same money question twice."
+  ],
+  "lessons": [
+    {
+      "id": "I4-1",
+      "title": "Why money comes up, and when to bring it up",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Almost every buyer who calls your client has one quiet question in their head: **“Can we actually afford this?”** Some say it out loud. Most do not. They ask about a house, a neighborhood or a tour, but the money question sits behind every answer they give you. A good ISA knows this question is there, respects it, and makes sure the buyer gets to the right person to answer it. That person is never you. It is a lender."
+        },
+        {
+          "t": "p",
+          "text": "Financing matters to your client for a simple reason. In many US markets, sellers do not take an offer seriously unless the buyer shows a letter from a lender, or proof that they have the cash. A buyer who falls in love with a home and has not talked to a lender can lose it to another buyer who is ready. That is painful for the buyer and wasted time for the agent. Your job is to make sure financing is **on the buyer’s radar early**, gently, so the agent can help them be ready."
+        },
+        {
+          "t": "callout",
+          "title": "The order matters",
+          "text": "**Care first, appointment second, money third.** Ask for the appointment before you qualify. Bring up financing only after the appointment is set, in about twenty seconds, and never as a test the buyer must pass to get help."
+        },
+        {
+          "t": "p",
+          "text": "Why this order? Think about the buyer from module I1: 11:14 PM, on the couch, rent just went up, three years of saving and still not sure it is enough. If the first thing they hear from you is “Are you pre-approved? We cannot show homes without a pre-approval letter,” they feel judged. Many first-time buyers freeze, say “we’re just looking,” and never answer the phone again. The same buyer, asked about a lender **after** they have a tour booked and feel looked after, usually answers openly."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Set the appointment first, then ask the financing question in one or two sentences.",
+            "Treat every buyer the same at every price point: same questions, same tone, same respect.",
+            "Explain why the agent cares: so the offer is ready the day they find the right home.",
+            "Write down exactly what they told you, in their words, in your note."
+          ],
+          "dont": [
+            "Open the call with “Are you pre-approved?”",
+            "Make the tour depend on a pre-approval letter unless your agent has told you that rule for that client.",
+            "Guess what someone can afford from their job, accent, address, name or how they sound.",
+            "Say anything that sounds like a promise: “You’ll qualify, no problem.”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "There is one exception to “appointment first.” Sometimes the buyer brings up money themselves in the first minute: “Honestly, I don’t know if we can even afford anything.” When that happens, do not ignore it and do not answer it. Acknowledge it, tell them that is exactly what a short meeting with the agent (and, if they want, a lender) is for, and then ask for the appointment. You will practice this in lesson I4-5."
+        },
+        {
+          "t": "p",
+          "text": "Here is how the money question fits inside A.L.M., the framework you use on every call. **Appointment** is still the goal. **Location** is where they want to live. **Motivation** is why they are moving and when. Financing is not a fourth letter. It is a detail you log under Motivation and Next Step, because how ready they are with money tells the agent how close the timeline really is. A buyer who says “we want to move in 60 days” and “we haven’t talked to anyone about a loan yet” has a real goal and a real gap. The agent needs to know both."
+        },
+        {
+          "t": "table",
+          "head": [
+            "What the buyer says",
+            "What it tells the agent",
+            "Where you log it"
+          ],
+          "rows": [
+            [
+              "“We already have a pre-approval from our credit union.”",
+              "They may be ready to write an offer soon.",
+              "M and Next Step: “Pre-approved with own lender (credit union), per lead. Agent to confirm details.”"
+            ],
+            [
+              "“We talked to someone online, they said we’re good.”",
+              "Maybe a pre-qualification only. Needs checking by the agent.",
+              "M: “Spoke with an online lender, unsure if pre-approval or pre-qual.”"
+            ],
+            [
+              "“Not yet, we wanted to see houses first.”",
+              "Normal. The agent will start the lender conversation.",
+              "Next Step: “No lender yet. Agent to discuss financing at the tour.”"
+            ],
+            [
+              "“We’re paying cash.”",
+              "Seller will want proof of funds. The agent handles it.",
+              "M: “Says cash buyer. Agent to request proof of funds.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice the last column. You never write your opinion (“probably can’t afford it”), and you never write anything about credit you were not told. You write facts and the source of the fact (“per lead”). Your agent will read your note before the appointment and walk in prepared, which is the whole point of your work."
+        },
+        {
+          "t": "callout",
+          "title": "Remember",
+          "text": "You are not the lender and not the agent. You are the person who makes sure the buyer feels cared for, the appointment is on the calendar, and the agent knows where the buyer stands with money before they meet."
+        }
+      ]
+    },
+    {
+      "id": "I4-2",
+      "title": "The 20-second financing conversation",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "The financing conversation is short on purpose. It takes about twenty seconds, it happens right after the appointment is set, and it ends with a note, not a lecture. Here is the core line, which you should know by heart:"
+        },
+        {
+          "t": "callout",
+          "title": "The core line",
+          "text": "“Have you talked to a lender yet? Many buyers get a verified pre-approval before touring, so the offer is ready the day they find the one.”"
+        },
+        {
+          "t": "p",
+          "text": "Look at what this sentence does. It asks a yes or no question that is easy to answer. It explains **why** in terms of the buyer’s own goal (getting the home they love). And it uses the word “many,” which tells the buyer this is normal, not a test. It does not ask about credit score, income, savings or debt. Those are lender questions."
+        },
+        {
+          "t": "script",
+          "title": "A full example: Jasmine, a portal lead",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Perfect, Jasmine. I have you down with Daniel, our agent, on Saturday at 11 AM at the house on Birchwood. I’ll text you the confirmation in a minute."
+            },
+            {
+              "who": "Lead",
+              "text": "Great, thank you!"
+            },
+            {
+              "who": "You",
+              "text": "One quick question so Daniel can prepare. Have you talked to a lender yet? Many buyers get a verified pre-approval before touring, so the offer is ready the day they find the one."
+            },
+            {
+              "who": "Lead",
+              "text": "Not yet. We weren’t sure when to do that."
+            },
+            {
+              "who": "You",
+              "text": "That’s very common, and it’s a great question for Daniel on Saturday. He can explain how it works and what your options are. Is there anything else you’d like him to know before you meet?"
+            },
+            {
+              "who": "Lead",
+              "text": "Just that we want to stay under about $2,000 a month."
+            },
+            {
+              "who": "You",
+              "text": "Got it, I’ll write that down for him. You’ll get my text in a minute, and a reminder the day before. See you Saturday!"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Look at what you did **not** do. You did not tell Jasmine what house price $2,000 a month buys. You did not tell her what rate to expect. You did not tell her which lender to use. You logged the number she gave you and passed the question to the agent. Monthly budget is useful for the agent to know, and it is her information to share, so it goes in the note in her words."
+        },
+        {
+          "t": "p",
+          "text": "There are four common answers to the core line. Each one has a simple follow-up and a simple note."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Answer",
+            "Your follow-up (one line)",
+            "Note"
+          ],
+          "rows": [
+            [
+              "“Yes, we’re pre-approved.”",
+              "“Great. Who is it with, so Daniel knows?” (Name of the lender or bank only.)",
+              "“Pre-approved with [lender name], per lead.”"
+            ],
+            [
+              "“We got pre-qualified online.”",
+              "“Good start. Daniel can tell you if anything else is needed before you make an offer.”",
+              "“Pre-qualified online with [name], per lead. Agent to review.”"
+            ],
+            [
+              "“No, not yet.”",
+              "“Totally normal. Daniel will walk you through it on Saturday.”",
+              "“No lender yet. Agent to discuss financing.” (Plus a lender introduction only if the agent has told you to offer one: lesson I4-4.)"
+            ],
+            [
+              "“We’re paying cash.”",
+              "“Perfect, Daniel will explain what the seller will want to see.”",
+              "“Cash buyer, per lead. Agent to request proof of funds.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Keep your follow-up to one line. If the buyer starts asking more questions about money, that is a sign they are worried, and worry needs a person who can actually answer. You say: “Those are exactly the right questions. Daniel and a lender can answer them properly. I’ll put them in my note so they’re covered on Saturday.” Then write the questions in the note."
+        },
+        {
+          "t": "callout",
+          "title": "Text version",
+          "text": "When the appointment was set by text, the financing question can go by text too, the same day, inside the calling window, and only to a lead who agreed to texts: “Hi Jasmine, it’s Ana with Daniel’s team. You’re all set for Sat 11 AM. Quick question so Daniel can prepare: have you talked to a lender yet? No problem if not.”"
+        },
+        {
+          "t": "p",
+          "text": "Here is a common mistake. A new ISA, nervous about “qualifying,” asks five money questions in a row: Are you pre-approved? How much do you have for a down payment? What’s your credit like? How much do you make? Do you have debt? The buyer feels interrogated, and you have collected information you are not trained to use, which creates privacy risk for your client. **One question, one follow-up, one note.** That is the whole conversation."
+        },
+        {
+          "t": "p",
+          "text": "Another common mistake is skipping the question because it feels awkward. Then the agent arrives at the tour and learns the buyer has never talked to a lender. The tour still happens, but if the buyer loves the home, they are not ready to act. Twenty seconds on your call saves the agent days."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Set the appointment and confirm the date, time and place.",
+            "Say the core line, word for word, in a calm voice.",
+            "Listen to the answer and give the one-line follow-up from the table.",
+            "If they ask more money questions, write them down and promise the agent will answer them.",
+            "Log the financing status in your A.L.M. note before you dial the next lead."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I4-3",
+      "title": "The words of financing, and what “verified” means",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "You do not give financing advice, but you need to understand financing words. Buyers and agents use them, and your notes must use them correctly. If a buyer says “pre-qual” and you write “pre-approved,” you just gave your agent wrong information. This lesson gives you the vocabulary and one important idea: **a pre-approval is a boarding pass, not takeoff.**"
+        },
+        {
+          "t": "glossary",
+          "terms": [
+            {
+              "term": "Lender / loan officer",
+              "def": "The bank, credit union or mortgage company that lends the money, and the person there who works with the buyer. Only they can talk about rates, programs and whether someone qualifies."
+            },
+            {
+              "term": "Mortgage",
+              "def": "The loan used to buy a home. The home is the guarantee for the loan."
+            },
+            {
+              "term": "Pre-qualification (pre-qual)",
+              "def": "A quick estimate, often online, based on what the buyer says about income and debt. Usually nothing is checked. Useful as a first step, weak in front of a seller."
+            },
+            {
+              "term": "Pre-approval",
+              "def": "A lender has reviewed documents (for example pay stubs, bank statements, tax returns) and usually checked credit, and says in a letter how much they are willing to lend, with conditions. Much stronger than a pre-qual."
+            },
+            {
+              "term": "Pre-approval letter",
+              "def": "The document the buyer’s agent sends with an offer to show the seller the buyer can likely get the loan."
+            },
+            {
+              "term": "Down payment",
+              "def": "The part of the price the buyer pays from their own money. The rest is the loan."
+            },
+            {
+              "term": "Closing costs",
+              "def": "Fees paid when the purchase is completed (lender fees, title, taxes and more). Separate from the down payment."
+            },
+            {
+              "term": "Interest rate",
+              "def": "The cost of borrowing, as a yearly percentage. It changes with the market and the buyer’s situation. You never quote or predict it."
+            },
+            {
+              "term": "Monthly payment",
+              "def": "What the buyer pays each month: usually loan payment plus property taxes and insurance, sometimes HOA fees and mortgage insurance."
+            },
+            {
+              "term": "Credit score",
+              "def": "A number that shows how a person has handled debt. Lenders use it. You never ask for it or comment on it."
+            },
+            {
+              "term": "Debt-to-income (DTI)",
+              "def": "How much of a buyer’s monthly income goes to debt payments. A lender word, not an ISA word."
+            },
+            {
+              "term": "Conventional, FHA, VA, USDA loans",
+              "def": "Common US loan types with different rules. Buyers may mention them. Log what they say; the lender explains which fits."
+            },
+            {
+              "term": "Cash buyer",
+              "def": "A buyer who will not use a loan. The seller will usually ask for proof of funds."
+            },
+            {
+              "term": "Proof of funds",
+              "def": "A bank statement or letter showing the buyer has the money for a cash purchase or down payment. The agent requests it. You never collect it."
+            },
+            {
+              "term": "Underwriting",
+              "def": "The lender’s final, detailed review after an offer is accepted. A pre-approval can still fail here if something changes."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Now the boarding pass idea. A boarding pass lets you walk to the gate. It does not mean the plane has taken off. A pre-approval is the same. It is a strong sign, but the loan is not final until underwriting is done. If the buyer changes jobs, buys a car on credit, or the documents were never really checked, the loan can fall apart weeks later."
+        },
+        {
+          "t": "callout",
+          "title": "Ask what was verified, without judging",
+          "text": "When a buyer says they are pre-approved, you can ask one neutral question: “Did the lender review your documents, or was it a quick online estimate?” Then write the answer. You are not checking if they are good enough. You are giving the agent accurate information."
+        },
+        {
+          "t": "script",
+          "title": "Example: Marco says he is pre-approved",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Have you talked to a lender yet? Many buyers get a verified pre-approval before touring, so the offer is ready the day they find the one."
+            },
+            {
+              "who": "Lead",
+              "text": "Yeah, we’re pre-approved."
+            },
+            {
+              "who": "You",
+              "text": "Great. Who is it with, so the agent knows?"
+            },
+            {
+              "who": "Lead",
+              "text": "One of those apps. I filled it out last week."
+            },
+            {
+              "who": "You",
+              "text": "Got it. Did they review your documents, like pay stubs or bank statements, or was it a quick online estimate?"
+            },
+            {
+              "who": "Lead",
+              "text": "Just the form, I think. Nobody asked for documents."
+            },
+            {
+              "who": "You",
+              "text": "Thanks, that helps. Rachel will look at it with you on Thursday and tell you if anything else is needed before an offer."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Your note says: “Lead says pre-approved through an online app last week. No documents reviewed, per lead. Likely a pre-qual. Agent to review.” That is accurate, it is not insulting, and it gives Rachel exactly what she needs. Notice the word “likely” and the phrase “per lead.” You report what you heard and you mark your guess as a guess."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Use “pre-qualified” and “pre-approved” exactly as the buyer described their situation.",
+            "Write the lender’s name if the buyer offers it.",
+            "Write “per lead” when the information comes only from the buyer.",
+            "Pass every “what does this word mean?” question to the agent or lender, with a short, simple definition if you are sure of it."
+          ],
+          "dont": [
+            "Ask for a credit score, income, savings amount or Social Security number. Ever.",
+            "Accept documents (bank statements, letters) by text or email. If a buyer sends one, tell your manager and follow their data rules.",
+            "Explain loan programs, rates or which loan is “better.”",
+            "Say “You’re pre-approved, so you’re good to go.” Only the lender can say that."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "One more word: a buyer may mention an ITIN, being self-employed, receiving income in cash, or a recent job change. These are important details for a lender, and they are nobody’s business to judge. Log them only if the buyer brings them up, in neutral words, and let the agent decide what to do. Never suggest that someone “won’t qualify.” You do not know, and saying it could also be unfair treatment."
+        }
+      ]
+    },
+    {
+      "id": "I4-4",
+      "title": "Always the buyer’s choice of lender",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Many US real estate teams work with one or more lenders they trust. Your client may call this their “preferred lender.” A good preferred lender answers fast, explains clearly and closes on time, which helps buyers. But there is one rule that never changes: **the buyer always chooses their own lender.** You say it out loud, every time a lender introduction comes up."
+        },
+        {
+          "t": "callout",
+          "title": "House rule",
+          "text": "Never give loan, rate or credit advice. Connect a buyer with your client’s preferred lender **only when your agent says so**, and always as one option: “You can use any lender you like.”"
+        },
+        {
+          "t": "p",
+          "text": "Why so strict? First, it is right: the buyer is borrowing a lot of money and deserves to compare. Second, it protects your client. US federal rules on real estate settlement services (often called RESPA) forbid paying or receiving anything of value for referring a buyer to a lender, and a buyer who feels forced into a lender can file a complaint against the agent. Your manager confirms exactly how these rules apply to your client. Third, it builds trust. Buyers who feel pressured stop answering. Buyers who feel free often choose the agent’s lender anyway, because the introduction was helpful and respectful."
+        },
+        {
+          "t": "p",
+          "text": "Before you ever offer an introduction, you need three things from your agent or manager, in writing in the client channel: (1) whether you should offer a lender introduction at all, (2) the lender’s name and how to introduce them (a warm three-way call, a text introduction, or the agent does it), and (3) when (for example, “only after the appointment is set” or “only when the buyer asks for one”). If you do not have these instructions, you do not offer a lender. You log the status and the agent handles it."
+        },
+        {
+          "t": "script",
+          "title": "Offering an introduction (only when your agent has told you to)",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Have you talked to a lender yet? Many buyers get a verified pre-approval before touring, so the offer is ready the day they find the one."
+            },
+            {
+              "who": "Lead",
+              "text": "No, we don’t really know where to start."
+            },
+            {
+              "who": "You",
+              "text": "That’s very normal. Daniel works with a loan officer who explains things clearly, and I can set up a short call so you have an option to compare. You can use any lender you like. Would that be helpful?"
+            },
+            {
+              "who": "Lead",
+              "text": "Sure, I guess that would help."
+            },
+            {
+              "who": "You",
+              "text": "Great. Is tomorrow at 12 or at 5 better for a 15-minute call?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice the words “an option to compare” and “You can use any lender you like.” Those two phrases are what make this an introduction and not pressure. Also notice that you did not describe rates, fees or programs. You offered a conversation with a person who can."
+        },
+        {
+          "t": "script",
+          "title": "A common question: “Do we have to use your lender?”",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "My cousin said we HAVE to use your team’s lender?"
+            },
+            {
+              "who": "You",
+              "text": "Great question, and no: you always choose your lender. If it helps, I can introduce you to a loan officer Daniel works with, so you have an option to compare with whoever you’re talking to now. The choice is completely yours."
+            }
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Wrong reply",
+            "Why it is wrong"
+          ],
+          "rows": [
+            [
+              "“Yes, with us it’s our lender or nothing.”",
+              "Never true, and it creates legal risk for your client. Always the buyer’s choice."
+            ],
+            [
+              "“Lenders are all the same, go with whoever.”",
+              "Not helpful, and it is advice. Lenders differ. Offer the option to compare (if your agent allows) and let them choose."
+            ],
+            [
+              "“Our lender has the best rates.”",
+              "A rate claim you cannot know or promise. Rates are lender talk."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Some buyers already have a lender, often a family bank or a credit union. Celebrate that: “Great, that’s one less thing to do.” Log the name. Do not suggest switching. If your agent wants a comparison offered to buyers who already have a lender, they will tell you exactly how to say it."
+        },
+        {
+          "t": "p",
+          "text": "Some buyers prefer to speak Spanish with their lender. You may be the first person on the team who notices. Do not promise a Spanish-speaking lender. Write it in the note (“Prefers Spanish for financing conversations”) and ask your agent in the client channel whether there is an option to offer. Never ask about immigration status, ever."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Check the client channel for your agent’s written lender instructions. No instructions, no introduction.",
+            "Ask the core financing line after the appointment is set.",
+            "If the buyer has a lender, log the name and stop there.",
+            "If not, and your agent has asked you to, offer the introduction as one option and say “You can use any lender you like.”",
+            "Book the lender call with two time options, or do the warm transfer the way your agent described.",
+            "Log it: “Offered intro to [lender] as one option; lead chose to [accept/decline]. Buyer chooses lender.”"
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Never",
+          "text": "Never tell a buyer they must use a lender to see homes, get a better deal or work with your client. Never mention money, gifts or credits from a lender. If a buyer asks “Do you get something for sending me there?”, say: “That’s a great question for Daniel. I just schedule the call, and the choice of lender is always yours.” Then tell your agent the buyer asked."
+        }
+      ]
+    },
+    {
+      "id": "I4-5",
+      "title": "Money questions you must not answer, and what to say instead",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Buyers trust a friendly voice. Once you have helped them, they will ask you things like “What rate can I get?” or “Is 600 good enough credit?” It feels rude not to answer. But any answer you give is advice you are not licensed or trained to give, and a wrong answer can cost a family thousands of dollars or a home. The kind thing, and the professional thing, is a warm redirect: **acknowledge the question, explain who answers it, and keep the appointment moving.**"
+        },
+        {
+          "t": "callout",
+          "title": "The redirect pattern",
+          "text": "1) “That’s a really good question.” 2) “The person who can answer it properly is [the agent / a lender], because it depends on your situation.” 3) “I’ll put it in my note so it’s covered at [the appointment / the lender call].”"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Buyer asks",
+            "Never say",
+            "Say instead"
+          ],
+          "rows": [
+            [
+              "“What interest rate can we get?”",
+              "“Around 6 percent right now.”",
+              "“Rates depend on each person’s situation and change often, so only a lender can quote one. I’ll note it so Daniel can talk about next steps on Saturday.”"
+            ],
+            [
+              "“My credit is around 580. Can I still buy?”",
+              "“Yes, FHA allows that.” / “Probably not.”",
+              "“Thanks for telling me. A lender is the right person to look at that with you. I won’t write your score down, but I’ll let Daniel know you have financing questions.”"
+            ],
+            [
+              "“How much should we put down?”",
+              "“Always 20 percent.”",
+              "“That really depends on your plans and the loan. A lender can show you the options side by side.”"
+            ],
+            [
+              "“How much house can we afford with $85,000 a year?”",
+              "“About $350,000.”",
+              "“That’s exactly what a pre-approval tells you, based on your real numbers. Daniel can explain how to get one.”"
+            ],
+            [
+              "“Should we wait for rates to drop?”",
+              "“Rates will drop soon.” / “Buy now, they’ll go up.”",
+              "“Nobody can promise what rates will do. What would help you decide? Daniel can show you real numbers on Saturday, and then you choose.”"
+            ],
+            [
+              "“Is it better to rent or buy?”",
+              "“Buying is always better.”",
+              "“That’s a big personal decision. The meeting with Daniel is a good place to look at it with real numbers, no pressure.”"
+            ],
+            [
+              "“What will closing costs be?”",
+              "“About 3 percent.”",
+              "“That depends on the home and the loan. Your agent and lender will give you real estimates.”"
+            ],
+            [
+              "“Can I use my tax refund or a gift from my parents?”",
+              "“Sure, that works.”",
+              "“Good question for a lender. Every loan has its own rules about where money comes from.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Look at the “Should we wait for rates to drop?” row carefully. It is the most tempting one. A prediction about rates is not a fact, and it is pressure. Nobody knows what rates will do, even after reading the news. When you say “Prices will only go up, buy now,” you are pushing, and the buyer feels it. When you ask what would help them decide and offer real numbers from a qualified person, you are guiding."
+        },
+        {
+          "t": "script",
+          "title": "When money worry comes first: Maria",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Honestly, I’m not sure we can afford anything right now. Is it even worth talking?"
+            },
+            {
+              "who": "You",
+              "text": "I’m really glad you said that, Maria. Can I ask what’s making it feel hard right now?"
+            },
+            {
+              "who": "Lead",
+              "text": "Rent went up again. We’ve been saving, but every house we see online looks so expensive."
+            },
+            {
+              "who": "You",
+              "text": "That makes sense. A lot of the families we talk to feel the same way at the start. That’s exactly what a short, no-pressure meeting with Daniel is for: he can look at what you’re hoping for and help you see what’s realistic, and if you want, connect you with someone who can check the numbers. Would Tuesday at 6 or Thursday at 6 be easier?"
+            },
+            {
+              "who": "Lead",
+              "text": "Thursday, I think."
+            },
+            {
+              "who": "You",
+              "text": "Perfect, Thursday at 6. I’ll text you the details."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "You never told Maria she could afford a house, and you never told her she couldn’t. You asked what was making it hard (Motivation), you normalized her feeling, and you offered the appointment as the place to get real answers. Your note: “Lead worried about affordability; rent increased; has been saving. No lender yet. Wants guidance on what’s realistic. Appt Thu 6 PM.”"
+        },
+        {
+          "t": "p",
+          "text": "Fair housing and fair lending rules also apply to money. Never assume someone can or cannot afford a home because of their job, their family, their accent, the language they prefer, where they live now or how they sound. Never treat a lower price range as less important. Every inquiry gets the same speed, the same questions and the same respect. A buyer looking at a $180,000 condo deserves the same 20-second financing conversation as a buyer looking at a $1.2 million house."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Say “I don’t know, but the right person does, and I’ll make sure they cover it.”",
+            "Write the buyer’s money questions in the note, so the agent answers every one.",
+            "Stay warm. A redirect is help, not a rejection."
+          ],
+          "dont": [
+            "Search the internet for a rate and read it to the buyer.",
+            "Share your own experience with loans (“When I bought my house...”).",
+            "Repeat a buyer’s credit score or income in a text, email or group chat."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "When a buyer pushes",
+          "text": "Some buyers will say “Just give me a ballpark.” Stay friendly and firm: “I wish I could, but I’d be guessing, and a guess could steer you wrong with something this important. A lender can give you a real number in one short call.” Then ask for the time."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Financing role-plays and A.L.M. notes",
+    "minutes": 75,
+    "intro": "You will practice the 20-second financing conversation and the money redirects out loud until they sound natural, then write the notes your agent would read before the appointment. Work with your practice partner or coach playing the buyer. Record every role-play with your partner’s permission (screen recording or phone audio is fine) and use only fictional names and 555 phone numbers.",
+    "steps": [
+      "Warm-up (10 min): read the core line out loud 10 times until you can say it without looking: “Have you talked to a lender yet? Many buyers get a verified pre-approval before touring, so the offer is ready the day they find the one.” Record your tenth try.",
+      "Role-play 1 (5 min): “Jasmine” has just booked a Saturday tour and is not pre-approved. Set the appointment confirmation, ask the core line, give the one-line follow-up and close.",
+      "Role-play 2 (5 min): “Marco” says he is pre-approved through an app. Ask who it is with and whether documents were reviewed, without judging.",
+      "Role-play 3 (5 min): your partner, as the buyer, asks three money questions in a row: rate, credit score of 590, and how much to put down. Redirect each one with the three-part pattern and keep the appointment.",
+      "Role-play 4 (5 min): “My cousin said we HAVE to use your team’s lender?” Answer it, offer an introduction as one option, and say “You can use any lender you like.”",
+      "Role-play 5 (5 min): “Maria” opens with “I’m not sure we can afford anything.” Ask what makes it feel hard, normalize, and ask for the appointment with two times.",
+      "Role-play 6 (5 min): a cash buyer who is flying in on Friday. Confirm the appointment and log the cash detail correctly.",
+      "Notes (20 min): write a complete Follow Up Boss style note for each of the six role-plays using Date/Time, Call/Text Disposition, A, L, M, Next Step. Use “per lead” where the fact came only from the buyer. Never include a credit score or income figure.",
+      "Self-review (15 min): listen to your recordings. For each one, write one sentence on what you did well and one on what you would change. Mark any moment you gave advice by accident."
+    ],
+    "deliverable": "Send your coach, in your BeyondVAs training channel: the six role-play recordings, the six written notes, and your self-review. Your coach will score whether you asked the financing question after the appointment, gave zero loan, rate or credit advice, and said the buyer chooses their lender."
+  },
+  "quiz": [
+    {
+      "q": "When should you ask the financing question on a new buyer call?",
+      "options": [
+        "In the first sentence, so you do not waste time with unqualified buyers",
+        "After the appointment is set, in about twenty seconds",
+        "Only at the end of the second phone call",
+        "Never: financing is not part of an ISA call"
+      ],
+      "answer": 1,
+      "explain": "Care first, appointment second, money third. Asking before you have helped them makes many first-time buyers freeze."
+    },
+    {
+      "q": "A buyer says, “We filled out a form on an app and it said we’re approved.” What is the best note?",
+      "options": [
+        "“Pre-approved. Ready to make offers.”",
+        "“Not qualified.”",
+        "“Says approved through an online app; no documents reviewed, per lead. Likely a pre-qual. Agent to review.”",
+        "“Credit unknown, probably weak.”"
+      ],
+      "answer": 2,
+      "explain": "Write what you heard, mark the source with “per lead,” and mark any guess as a guess. Never write opinions about their credit."
+    },
+    {
+      "q": "Which statement about a pre-approval is true?",
+      "options": [
+        "It means the loan is final and cannot fail",
+        "It is the same as a pre-qualification",
+        "It is the lender’s rate guarantee",
+        "It is a boarding pass, not takeoff: strong, but the loan can still fail in underwriting"
+      ],
+      "answer": 3,
+      "explain": "A pre-approval is a strong sign, usually based on reviewed documents, but things can change before the loan is final."
+    },
+    {
+      "q": "A buyer asks, “What rate can we get right now?” What do you say?",
+      "options": [
+        "“Rates depend on each person’s situation and change often, so only a lender can quote one. I’ll note it so the agent covers it.”",
+        "“About 6 percent, but it might drop.”",
+        "“Rates are going up, so you should buy now.”",
+        "“I can check online and text you a number.”"
+      ],
+      "answer": 0,
+      "explain": "Never quote or predict rates. Acknowledge, say who can answer, and log the question."
+    },
+    {
+      "q": "When may you offer an introduction to your client’s preferred lender?",
+      "options": [
+        "On every call, to every buyer",
+        "Only when your agent has told you to, and always as one option the buyer is free to refuse",
+        "Only to buyers who sound unsure about money",
+        "Never, under any circumstances"
+      ],
+      "answer": 1,
+      "explain": "House rule: connect a buyer with the preferred lender only when the agent says so, and say “You can use any lender you like.”"
+    },
+    {
+      "q": "“My cousin said we HAVE to use your team’s lender?” Which reply is right?",
+      "options": [
+        "“Yes, with us it’s our lender or nothing.”",
+        "“Lenders are all the same, go with whoever.”",
+        "“Our lender has the lowest rates in town.”",
+        "“Great question, and no: you always choose your lender. I can introduce one so you have an option to compare.”"
+      ],
+      "answer": 3,
+      "explain": "Always the buyer’s choice of lender. You can offer an option to compare (when your agent allows it) and leave the choice with them."
+    },
+    {
+      "q": "A buyer volunteers, “My credit score is 590.” What do you do with that number?",
+      "options": [
+        "Do not write the score down; note that they have financing questions for the agent or lender",
+        "Write it in the note so the agent sees it",
+        "Text it to the agent right away",
+        "Tell them it is too low to buy"
+      ],
+      "answer": 0,
+      "explain": "You never collect, repeat or comment on credit scores. Pass the need, not the number, to the agent."
+    },
+    {
+      "q": "“Should we wait for rates to drop?” Why is “Rates will drop soon” a bad answer?",
+      "options": [
+        "Because rates always go up",
+        "Because the buyer will think you are too young",
+        "Because a prediction is not a fact, and it is pressure; ask what would help them decide instead",
+        "It is a good answer if you read it in the news"
+      ],
+      "answer": 2,
+      "explain": "No one can promise what rates will do. Guide with a question and real numbers from a qualified person."
+    },
+    {
+      "q": "Which of these is a money question you are allowed to ask a buyer?",
+      "options": [
+        "“What is your credit score?”",
+        "“How much do you earn a year?”",
+        "“How much do you have saved for a down payment?”",
+        "“Have you talked to a lender yet?”"
+      ],
+      "answer": 3,
+      "explain": "One question, one follow-up, one note. Income, savings and credit are lender questions."
+    }
+  ]
+}

@@ -1,0 +1,802 @@
+{
+  "id": "I11",
+  "part": "isa",
+  "title": "QA scorecard, daily KPIs and your daily report",
+  "summary": "How your work is measured every shift: the three daily KPIs, the 100-point QA rubric and the 90+ standard, how to score your own calls, and how to close the day with an honest report and clean time records.",
+  "objectives": [
+    "State the daily KPIs per shift (80-100 dials, 12-15 live conversations, 2-3 A.L.M.-qualified appointments) and explain what counts toward each.",
+    "Plan a shift around the Smart List order so speed to lead and follow-ups never fall behind.",
+    "Score a recorded call on the 100-point QA rubric and name the one change that would raise the score most.",
+    "Write an end-of-shift daily report in the client channel that matches your Follow Up Boss activity and your Hubstaff hours."
+  ],
+  "lessons": [
+    {
+      "id": "I11-1",
+      "title": "Your daily numbers: dials, conversations, appointments",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Your client hired an ISA for one main reason: more appointments with real buyers and sellers. Appointments come from conversations, and conversations come from dials. That is why every shift is measured with three numbers. These are your **daily KPIs** (Key Performance Indicators):"
+        },
+        {
+          "t": "table",
+          "head": [
+            "KPI per shift",
+            "Benchmark",
+            "What counts"
+          ],
+          "rows": [
+            [
+              "Outbound dials",
+              "**80-100**",
+              "Every call you place by hand to a lead, inside the calling window, to a number you are allowed to call"
+            ],
+            [
+              "Live conversations",
+              "**12-15**",
+              "A real two-way conversation with the lead (not a voicemail, not a wrong number, not a 10-second \"call me later\")"
+            ],
+            [
+              "A.L.M.-qualified appointments",
+              "**2-3**",
+              "An appointment set with your agent where you know the Appointment time, the Location and the Motivation, logged and handed off"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Think of it as a funnel.** Of 100 dials, many will not answer. Some numbers are wrong. Some leads will say \"call me later\". Out of 100 dials you might reach 12 to 15 real conversations. Out of those conversations, 2 or 3 become appointments. If one number is low, look at the number before it:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Few dials?** Check your time. Were you writing notes too slowly, waiting between calls, or doing tasks that are not calling? Plan your shift better (lesson I11-2).",
+            "**Many dials but few conversations?** Check when you call. Calling at the wrong hours for the lead's time zone reaches fewer people. Check your lists, too: old leads answer less than new ones.",
+            "**Many conversations but few appointments?** Check your calls. Are you asking for the appointment on every call? Are you handling objections with acknowledge, pivot, appointment? This is where the QA rubric helps (lessons I11-3 and I11-4)."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Benchmarks, not promises",
+          "text": "These numbers are the program benchmark. Your client may adjust them: a team with few new leads may expect fewer dials, and a team with a big database may expect more. Targets are set with your client in your first week and reported every week. BeyondVAs does not guarantee appointments to clients, and nobody expects you to set appointments on day one. New ISAs usually need a few weeks to set their first appointments and longer to reach a steady pace; your manager confirms what is realistic for your client."
+        },
+        {
+          "t": "p",
+          "text": "**Dials only count when they are allowed.** A number is not a reason to break a rule. A dial counts only when all of these are true:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "It is inside the calling window in the **lead's** local time: 9:00 AM to 8:00 PM Monday to Saturday, noon to 8:00 PM Sunday, or the stricter window your manager gave you for that state.",
+            "The lead is an inbound lead who asked to be contacted, or the number comes from a list your client scrubbed against the National Do Not Call Registry and their own DNC list.",
+            "You dialed by hand. No autodialer and no prerecorded messages unless your manager confirms written consent.",
+            "The contact is not tagged DNC or in Archived / DNC."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "If you reach 100 dials by calling people who opted out or by calling at 8:30 PM, your QA score and your placement are at risk. Your client would much rather see 70 clean dials than 100 risky ones."
+        },
+        {
+          "t": "p",
+          "text": "**What a \"live conversation\" means.** A live conversation is a real exchange: you introduce yourself, announce the recording, and talk about what the lead wants. A good target is two minutes or more. You do not need to finish A.L.M. on every call, but you should always ask at least one Location or Motivation question and always ask for the appointment. A call where the lead says \"wrong number\" is a dial, not a conversation."
+        },
+        {
+          "t": "p",
+          "text": "**What an \"A.L.M.-qualified appointment\" means.** It is not just a time on the calendar. It means you know:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**A**: the confirmed date and time, in the lead's time zone, with the agent.",
+            "**L**: where they want to buy (neighborhoods, beds, baths, price) or which property they want to sell.",
+            "**M**: why they are moving and their timeline."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "And it means the handoff is complete: the calendar invite has the Follow Up Boss profile link, the 24-hour and 1-hour text reminders are set, the stage is **Pending Handoff**, and, for any tour, the invite notes that the agent needs a signed buyer agreement before the showing."
+        },
+        {
+          "t": "p",
+          "text": "**Volume and quality together.** Some ISAs chase dials and forget quality. Others have beautiful conversations but make only 30 dials. Neither works. The best ISAs keep a steady rhythm: dial, talk, log the note, next dial. That rhythm is the real skill, and you will build it through practice and through the scorecard in the next lessons."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Track your three numbers during the shift, not only at the end",
+            "Look at the number before a low number to find the cause",
+            "Count only real, allowed dials and real conversations",
+            "Ask for the appointment on every live conversation"
+          ],
+          "dont": [
+            "Call outside the window or call opted-out contacts to reach 100 dials",
+            "Count voicemails or wrong numbers as conversations",
+            "Count a time on the calendar without A.L.M. and a handoff as an appointment",
+            "Hide a slow day: report the real numbers and what you will change"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I11-2",
+      "title": "Plan a shift that hits the numbers",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Hitting 80 to 100 dials, 12 to 15 conversations and 2 to 3 appointments does not happen by accident. It happens because you plan the shift. This lesson shows you how to organize a shift around the **Smart List order** and the **calling window**, so that you never miss a new lead and never fall behind on follow-ups."
+        },
+        {
+          "t": "p",
+          "text": "**The Smart List order.** Work your lists in this order, every shift:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**New Speed-to-Lead** (0 to 15 minutes old)",
+            "**Hot Active** (ready within 30 days)",
+            "**Scheduled Follow-Up Tasks** (due today)",
+            "**30-60 Day Nurtures** (check-ins)"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The first list always wins. When a new lead arrives, you stop what you are doing (finish your sentence politely if you are on a call) and dial within **180 seconds**, inside the window. If the new lead does not answer, run the 3-strike cadence: the call (ring 5 to 6 times, 20-second voicemail), a personalized text at 2 minutes to leads who agreed to texts, and a second call about 4 hours later, before 6:00 PM their time. Then go back to where you were."
+        },
+        {
+          "t": "p",
+          "text": "**Two clocks, always.** You work in Honduras or elsewhere in Latin America, and your leads live in US time zones. Before every block of calls, check what time it is **for the lead**. A shift that starts at 8:00 AM your time may be 9:00 AM or 10:00 AM in New York, but it is still too early to call California. Plan your blocks so that each time zone gets called inside its window."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Lead's time zone",
+            "Window (Mon-Sat)",
+            "Tip"
+          ],
+          "rows": [
+            [
+              "Eastern (New York, Atlanta, Tampa)",
+              "9:00 AM - 8:00 PM Eastern",
+              "Earliest in the day for you; good for the first block"
+            ],
+            [
+              "Central (Chicago, Dallas, Houston)",
+              "9:00 AM - 8:00 PM Central",
+              "Remember Texas: no solicitation calls before 9 AM, noon on Sunday"
+            ],
+            [
+              "Mountain (Denver, Phoenix)",
+              "9:00 AM - 8:00 PM Mountain",
+              "Arizona does not change its clocks in summer"
+            ],
+            [
+              "Pacific (Los Angeles, Seattle)",
+              "9:00 AM - 8:00 PM Pacific",
+              "Latest in the day; often your best evening calls"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Your manager will tell you the rules for your client's states before you dial. Some are stricter than the default window."
+        },
+        {
+          "t": "p",
+          "text": "**A sample shift.** Here is how an 8-hour shift can look for an ISA whose client is in Arizona (Mountain time). Your real schedule will match your client's hours:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Lead's time",
+            "Block",
+            "Goal"
+          ],
+          "rows": [
+            [
+              "8:30 - 9:00 AM",
+              "Prep: read yesterday's notes, today's tasks, check the agent's calendar for open times",
+              "Know the first 10 calls before the window opens"
+            ],
+            [
+              "9:00 - 11:00 AM",
+              "Power block 1: Hot Active, then Scheduled Follow-Up Tasks",
+              "35-40 dials, 5-6 conversations"
+            ],
+            [
+              "11:00 - 11:15 AM",
+              "Notes catch-up and appointment handoffs",
+              "Every call logged, invites sent"
+            ],
+            [
+              "11:15 AM - 12:30 PM",
+              "Power block 2: remaining tasks, then 30-60 Day Nurtures",
+              "25-30 dials"
+            ],
+            [
+              "12:30 - 1:00 PM",
+              "Break (clocked out)",
+              "Rest"
+            ],
+            [
+              "1:00 - 3:30 PM",
+              "Power block 3: second strikes, nurtures, re-engagement",
+              "25-30 dials, 4-5 conversations"
+            ],
+            [
+              "3:30 - 4:30 PM",
+              "Close: notes, tomorrow's first three calls, daily report",
+              "Clean CRM, report sent"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "New Speed-to-Lead interrupts any block at any time. Your break and your close are planned, but speed to lead still comes first if you are clocked in."
+        },
+        {
+          "t": "callout",
+          "title": "Log as you go",
+          "text": "Write each A.L.M. note right after the call, in under a minute, before the next dial. If you wait until the end of the shift, you will forget details and lose time. Every Follow Up Boss note has the same six parts: Date/Time, Call/Text Disposition, A, L, M, Next Step."
+        },
+        {
+          "t": "p",
+          "text": "**Protect your rhythm.** The difference between 60 dials and 90 dials is usually not effort. It is small gaps: checking messages between calls, searching for a lead's profile, writing long notes, waiting for the agent to answer about a time. Some habits that help:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Open the next lead's profile while the current call is ringing out.",
+            "Know the agent's open appointment times before the block, so you can offer two times without waiting.",
+            "Keep the client channel open but check it at set times (for example, every 30 minutes), unless the agent marks something urgent.",
+            "Use your note template so the six fields are already there."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Watch the numbers during the shift.** At the halfway point, check your three KPIs. If you have 30 dials at mid-shift, you know you need to speed up. If you have 50 dials but only 3 conversations, think about time zones and lists. Small corrections at noon are easier than a bad report at the end of the day."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Start every shift with prep before the window opens",
+            "Drop everything for a new lead and dial within 180 seconds",
+            "Plan blocks by the lead's time zone",
+            "Take your break clocked out"
+          ],
+          "dont": [
+            "Start the shift by checking email for 30 minutes",
+            "Call Pacific leads at your morning time because you are ready",
+            "Leave all notes for the end of the shift",
+            "Skip the 3-strike cadence because the lead \"probably will not answer\""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I11-3",
+      "title": "The 100-point QA rubric",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Your calls are reviewed with a **QA (Quality Assurance) rubric**. QA means checking the quality of the work, not just the quantity. Your coach or manager listens to a sample of your recorded calls and reads the matching Follow Up Boss notes. Each call gets a score out of 100. The standard is **90 or higher**."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Category",
+            "Points"
+          ],
+          "rows": [
+            [
+              "Speed to Lead",
+              "20"
+            ],
+            [
+              "ALM Discovery",
+              "30"
+            ],
+            [
+              "Objection Handling",
+              "20"
+            ],
+            [
+              "Follow Up Boss Hygiene",
+              "15"
+            ],
+            [
+              "Compliance",
+              "15"
+            ],
+            [
+              "**Total**",
+              "**100**"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Learn what earns full points in each category, and what loses them."
+        },
+        {
+          "t": "p",
+          "text": "**Speed to Lead (20 points).** For a new lead: did you dial within 180 seconds of arrival, inside the calling window? If they did not answer, did you run the 3-strike cadence: call with a 20-second voicemail, a personalized text at 2 minutes (to leads who agreed to texts), and a second call about 4 hours later before 6:00 PM their time? For follow-up calls, this category looks at whether you called on the day the task was due. Contacting within 5 minutes makes the odds of qualifying about 21 times higher than at 30 minutes, which is why this category is worth so much."
+        },
+        {
+          "t": "p",
+          "text": "**ALM Discovery (30 points).** The biggest category. Did you learn the Location (areas, beds, baths, price) and the Motivation (why they are moving, and when)? Did you ask for the **Appointment** with two specific times? A call with great rapport and no appointment ask loses most of these points. Full marks need open questions, real listening, and a clear ask: \"Can you meet our local specialist this Saturday at 11 AM or 2 PM?\""
+        },
+        {
+          "t": "p",
+          "text": "**Objection Handling (20 points).** When the lead pushed back (\"just looking\", \"send me info\", \"I already have an agent\"), did you acknowledge, pivot to a Location or Motivation question, then ask for the appointment? Did you stay calm and friendly? If the lead had a signed agreement with another agent, did you respect it and never pitch around it? If there was no objection, the reviewer looks at how naturally you kept the conversation moving."
+        },
+        {
+          "t": "p",
+          "text": "**Follow Up Boss Hygiene (15 points).** Is the note complete with all six parts (Date/Time, Disposition, A, L, M, Next Step)? Is the stage correct, for example Pending Handoff after booking? Is there a task for the next step? Are tags right? Your agent should never have to ask the lead the same question twice."
+        },
+        {
+          "t": "p",
+          "text": "**Compliance (15 points).** Did you announce that the call may be recorded? Was the call inside the window for the lead's state? Did you stay in scope: no values, no rates, no credit advice, no legal clauses, no talk of price, terms or commission? Did you follow fair housing (no comments on who lives in an area, schools, crime or \"safety\")? Did you honor any opt-out right away?"
+        },
+        {
+          "t": "callout",
+          "title": "Some mistakes matter more than the total",
+          "text": "Ignoring an opt-out, calling a DNC contact or giving an opinion of value is not just \"minus a few points\". It is reported to your manager right away, whatever the total score, because it creates real risk for your client."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Category",
+            "Full points look like",
+            "Common deductions"
+          ],
+          "rows": [
+            [
+              "Speed to Lead",
+              "Dialed in 2 minutes; text at 2 minutes; second call scheduled",
+              "Dialed after 20 minutes; no text; no second strike"
+            ],
+            [
+              "ALM Discovery",
+              "L and M uncovered; two times offered; appointment set or next step agreed",
+              "Only \"are you still looking?\"; no appointment ask"
+            ],
+            [
+              "Objection Handling",
+              "Acknowledge, pivot, appointment; calm tone",
+              "Argued, gave up at the first \"no\", or pushed without acknowledging"
+            ],
+            [
+              "Follow Up Boss Hygiene",
+              "Six-part note, correct stage, task created",
+              "Note says only \"talked to lead\"; stage unchanged"
+            ],
+            [
+              "Compliance",
+              "Recording announced; in window; in scope",
+              "No recording announcement; guessed a rate; \"great schools there\""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**How reviews work.** In your first weeks, expect your coach to review many of your calls. As your scores stay at 90 or above, reviews become a regular sample. You will receive the score, the points lost in each category, and usually one or two comments. Read them the same day."
+        },
+        {
+          "t": "p",
+          "text": "**Why 90?** A score of 90 means the call was fast, discovered A.L.M., handled pushback, was logged cleanly and broke no rules, with only small details to improve. Below 90, something important was missing: usually the appointment ask, a weak note, or a compliance step. The QA score and your daily KPIs together tell your client the full story: how much you did, and how well."
+        },
+        {
+          "t": "p",
+          "text": "This is also the standard behind the practice simulator in this program: the QA Live Score rewards correct responses and takes points away for wrong ones, in the same five areas. To earn your certificate you pass every module quiz, complete every practice assignment and finish every simulator call."
+        }
+      ]
+    },
+    {
+      "id": "I11-4",
+      "title": "Score your own calls and improve one thing at a time",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "The fastest way to improve is to listen to your own calls. Most ISAs do not like hearing their own voice, especially in a second language. Do it anyway. In one week of self-review, you will notice habits that no coach could explain as clearly."
+        },
+        {
+          "t": "p",
+          "text": "**The self-review routine.** Two or three times a week, choose two recorded calls: one that went well and one that did not. Then follow these steps:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Open the call recording and the matching Follow Up Boss note side by side.",
+            "Listen once without stopping, just to hear the call as the lead heard it.",
+            "Listen again and score each category on the rubric: Speed to Lead (20), ALM Discovery (30), Objection Handling (20), Follow Up Boss Hygiene (15), Compliance (15).",
+            "Write one sentence per category: what earned points and what lost them.",
+            "Choose **one** thing to improve this week. Only one.",
+            "When your coach scores the same call, compare. Where your score is higher than your coach's, you are missing something. Ask about it."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**A worked example.** Here is a call with a buyer lead, Tessa, who requested information about a home in Mesa, Arizona. The lead arrived at 10:02 AM; the ISA called at 10:04 AM."
+        },
+        {
+          "t": "script",
+          "title": "Call excerpt",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Tessa, this is Luis with the Hollis Home Team. You asked about the home on Juniper Street. This call may be recorded. Is now a good time?"
+            },
+            {
+              "who": "Lead",
+              "text": "Sure, quickly. I was just looking at pictures."
+            },
+            {
+              "who": "You",
+              "text": "Totally understand. What caught your eye about that one?"
+            },
+            {
+              "who": "Lead",
+              "text": "The backyard. We have two dogs. Our lease ends in May."
+            },
+            {
+              "who": "You",
+              "text": "That makes sense. Are you looking mostly in Mesa, or other areas too?"
+            },
+            {
+              "who": "Lead",
+              "text": "Mesa or Gilbert. Under 450."
+            },
+            {
+              "who": "You",
+              "text": "Great. I will send you some homes with big yards in Mesa and Gilbert. Talk soon!"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The note in Follow Up Boss said: \"Talked to Tessa. Wants Mesa. Send listings.\" The stage was not changed."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Category",
+            "Score",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Speed to Lead",
+              "20 / 20",
+              "Called in 2 minutes, inside the window"
+            ],
+            [
+              "ALM Discovery",
+              "15 / 30",
+              "Good L (Mesa or Gilbert, under $450K, yard) and M (lease ends in May, dogs). No appointment ask at all."
+            ],
+            [
+              "Objection Handling",
+              "16 / 20",
+              "Handled \"just looking\" with acknowledge and pivot, but never reached the appointment step"
+            ],
+            [
+              "Follow Up Boss Hygiene",
+              "6 / 15",
+              "Note missing Date/Time, Disposition, A and a clear Next Step; stage not updated; no task"
+            ],
+            [
+              "Compliance",
+              "15 / 15",
+              "Recording announced, in window, in scope"
+            ],
+            [
+              "**Total**",
+              "**72 / 100**",
+              "Below the 90 standard"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Luis did many things well: fast, friendly, good questions. But he lost 24 points in two places (15 in ALM Discovery and 9 in Follow Up Boss Hygiene) that are easy to fix. The **one thing** to improve this week: **always ask for the appointment with two times before ending the call**. For example: \"Since your lease ends in May, it helps to start seeing homes early. Could you see a couple of them with our specialist Saturday at 10 or Sunday at 1?\" That single sentence, plus a complete note, would move this call above 90."
+        },
+        {
+          "t": "p",
+          "text": "With that appointment ask and a complete note, the call would be logged like this:"
+        },
+        {
+          "t": "script",
+          "title": "Six-part note",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Date/Time: Tue 10:04 AM MST. Disposition: Call, connected (3 min). A: Not set; asked for Sat 10 AM or Sun 1 PM, lead to confirm by text tonight. L: Mesa or Gilbert, under $450K, large backyard (two dogs). M: Lease ends in May. Next step: Text 3 homes with large yards today; follow-up task Wed 5 PM MST."
+            }
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "One thing at a time",
+          "text": "If you try to fix five things at once, you will fix none of them. Pick the change that is worth the most points. For most new ISAs, it is the appointment ask (ALM Discovery, 30 points) or the six-part note (Follow Up Boss Hygiene, 15 points)."
+        },
+        {
+          "t": "p",
+          "text": "**Listen for your English, too.** While you review, notice your speaking. Do you talk too fast when you are nervous? Do you say \"okay, okay\" many times? Do you use long sentences that the lead has to ask you to repeat? Write down two phrases you want to say more naturally, and practice them out loud before your next shift."
+        },
+        {
+          "t": "p",
+          "text": "**Track your scores over time.** Keep a simple table of your QA scores by week, next to your three KPIs. When your scores rise, you will see your appointments rise too. When they drop, look at which category fell first. That is where to focus."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Review two calls a week: one good, one difficult",
+            "Score with the same five categories your coach uses",
+            "Pick one improvement per week and practice it out loud",
+            "Ask your coach when your score and theirs are different"
+          ],
+          "dont": [
+            "Only listen to your best calls",
+            "Feel defeated by a low score: it shows you exactly where to work",
+            "Try to fix everything in one week",
+            "Argue with feedback before you listen to the call again"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I11-5",
+      "title": "Close the day: the daily report and your time records",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "At the end of every shift, you send a **daily report** in the client channel. It is the most visible thing you do all day. Many US agents spend the day in showings and only see your work through this report. A clear, honest report every day builds more trust than anything else you can do."
+        },
+        {
+          "t": "p",
+          "text": "**Close the day in 10 minutes.** Before you write the report, close your work:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Check that every call and text today has a note in Follow Up Boss, with all six parts for live conversations.",
+            "Check that every stage is correct (Pending Handoff for every appointment booked; Archived / DNC for every opt-out).",
+            "Check that every next step has a task with a due date and time in the lead's time zone.",
+            "Write tomorrow's first three calls.",
+            "Then write and send the daily report."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The daily report template.** Keep it short and in the same order every day, so your client can read it in 30 seconds:"
+        },
+        {
+          "t": "p",
+          "text": "**Example: daily report in the client channel**"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Daily report, Tue Nov 3 (Luis), shift 9:00 AM - 5:00 PM MST**",
+            "**Dials:** 88 | **Live conversations:** 13 | **A.L.M. appointments:** 2",
+            "**Appointments:** (1) Tessa Lane, buyer, Sat 10:00 AM, Mesa, under $450K, lease ends in May. Invite sent with the Follow Up Boss link; buyer agreement flagged. (2) Ron Fisher, seller, listing consultation Thu 6:00 PM, Gilbert, relocating for work in March.",
+            "**Hot follow-ups:** Maria Okafor (wants Saturday times; agent to confirm by Wed noon).",
+            "**Opt-outs:** 1 (tagged DNC, Archived / DNC, automations paused).",
+            "**Needs from you:** confirm Thursday 6 PM works for Ron.",
+            "**Tomorrow:** first calls are Maria Okafor, Dev Sharma, Kim Alvarez."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice what is there: the three KPIs at the top, each appointment with A.L.M. in one line, what needs the agent's attention, opt-outs, and tomorrow's plan. Notice what is not there: long stories, feelings, or excuses."
+        },
+        {
+          "t": "callout",
+          "title": "Your numbers must match",
+          "text": "The numbers in your report must match your Follow Up Boss activity and your dialer log. If they do not match, the client stops trusting the report. Never round up. If you made 61 dials, write 61, and add one line about why and what you will change."
+        },
+        {
+          "t": "p",
+          "text": "**A slow day, reported honestly.** Some days will be slow: few new leads, a list that does not answer, a long training call. Report it plainly: \"Dials: 54 | Conversations: 7 | Appointments: 0. Lower dials because of a 90-minute system outage (reported to my manager at 11:10 AM). Tomorrow I start with the 12 second strikes I could not reach today.\" That is a professional report."
+        },
+        {
+          "t": "p",
+          "text": "**Your time records.** BeyondVAs uses Hubstaff to track your time. While you are clocked in, it takes random screenshots about every two minutes, and it scores activity from keyboard and mouse use. Your client can see your hours and your screenshots. Your manager reviews each week's hours, and unexplained idle time is flagged and reviewed before the client is billed. Clients are billed for tracked hours, so accurate records protect both you and them."
+        },
+        {
+          "t": "p",
+          "text": "**Why calls can look idle.** When you are on a 20-minute call, you are not typing much, so the tracker may show low activity. That is normal, and your manager reads your activity next to your dialer's call log. You make that easy by logging every call in Follow Up Boss as it happens and by keeping your daily report accurate. Gaps that are not calls, such as a break you forgot to clock out for or an internet outage, must be explained to your manager the same day."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "Break or lunch",
+              "Clock out of Hubstaff, then clock back in"
+            ],
+            [
+              "Long call with low activity",
+              "Nothing extra: the call is in the dialer log and the note is in Follow Up Boss"
+            ],
+            [
+              "Internet or power outage",
+              "Tell your manager at once, switch to backup internet or power, and mention it in the daily report"
+            ],
+            [
+              "Forgot to clock out",
+              "Tell your manager the same day so the time is removed before billing"
+            ],
+            [
+              "Personal task during the shift",
+              "Clock out first. Never do personal tasks while clocked in"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Keep it professional.** The daily report goes only in the client channel, never by private DM or personal text. Do not paste lead phone numbers or emails into the report; names and the Follow Up Boss record are enough. Never download or export client data to build a report."
+        },
+        {
+          "t": "p",
+          "text": "**Why this matters for you.** Your daily reports, your KPIs and your QA scores are the record of your work. They are what your client sees, what your manager reviews, and what supports your hours, which are paid in USD twice a month, on the 5th and the 20th. An ISA with honest reports, 90+ QA scores and steady numbers is the ISA every team wants to keep."
+        },
+        {
+          "t": "p",
+          "text": "The elite standard is simple to say and hard to do every day: fast speed to lead, appointments secured with A.L.M., and clean CRM data, closed with an honest report."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Close the CRM before you write the report",
+            "Put the three KPIs at the top, with real numbers",
+            "Clock out for every break",
+            "Explain any gap to your manager the same day"
+          ],
+          "dont": [
+            "Send the report by private message",
+            "Round up dials or count voicemails as conversations",
+            "Paste lead phone numbers or emails into the channel",
+            "Stay clocked in while doing personal tasks"
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Mock shift: plan it, work it, score it, report it",
+    "minutes": 120,
+    "intro": "In this practice you run a two-hour mock shift in your Follow Up Boss practice account, then score your own calls and write the daily report exactly as you will for a real client. Your coach plays the leads. Use only practice data.",
+    "steps": [
+      "Your coach gives you a practice list of 20 leads in three US time zones (a mix of new, hot, follow-up and nurture), plus one \"new lead\" that arrives during the shift. Write your shift plan first: the order you will call them by Smart List, and the time in each lead's zone for each block. Confirm every call falls inside the calling window.",
+      "Run the mock shift for 60 minutes with your coach playing the leads. Announce the recording on every call, ask for the appointment on every live conversation, and dial the surprise new lead within 180 seconds of it appearing. Record every call.",
+      "Log every call in the practice account as you go: six-part note, correct stage, a task for every next step. Set at least one appointment with a calendar invite that includes the Follow Up Boss link, 24-hour and 1-hour reminders, Pending Handoff, and the buyer agreement flag.",
+      "Close the day in 10 minutes: check notes, stages and tasks, and write tomorrow's first three calls.",
+      "Write the daily report using the template from lesson I11-5. Your dials, conversations and appointments must match your call log exactly.",
+      "Choose two of your recorded calls (one strong, one weak) and score each on the 100-point rubric, with one sentence per category and a total.",
+      "Write your one improvement for next week and the exact sentence you will practice (for example, your appointment ask)."
+    ],
+    "deliverable": "Send your coach the shift plan, the daily report, the two scored calls with recordings, your one improvement, and a screenshot of one complete six-part note and one calendar invite from the practice account. Your coach scores the same two calls and you compare them in your next session."
+  },
+  "quiz": [
+    {
+      "q": "What is the ultimate standard for an elite BeyondVAs ISA?",
+      "options": [
+        "Making 300 dials without taking any notes.",
+        "Executing fast speed-to-lead, securing appointments via ALM, and maintaining clean CRM data.",
+        "Sending generic bulk emails once a week.",
+        "Waiting for clients to call the office."
+      ],
+      "answer": 1,
+      "explain": "Speed, qualification discipline, and CRM hygiene define high-performing real estate ISAs."
+    },
+    {
+      "q": "What are the daily KPI benchmarks per shift?",
+      "options": [
+        "300 dials, 50 conversations, 10 appointments",
+        "20-30 dials, 2-3 conversations, 1 appointment a week",
+        "80-100 dials, 12-15 live conversations, 2-3 A.L.M.-qualified appointments",
+        "80-100 texts, 12-15 emails, 2-3 listings"
+      ],
+      "answer": 2,
+      "explain": "The benchmark per shift is 80-100 outbound dials, 12-15 live conversations and 2-3 A.L.M.-qualified appointments. Your client may adjust targets in your first week."
+    },
+    {
+      "q": "Which category is worth the most points on the 100-point QA rubric?",
+      "options": [
+        "ALM Discovery (30)",
+        "Speed to Lead (20)",
+        "Compliance (15)",
+        "Follow Up Boss Hygiene (15)"
+      ],
+      "answer": 0,
+      "explain": "The rubric is Speed to Lead 20, ALM Discovery 30, Objection Handling 20, Follow Up Boss Hygiene 15 and Compliance 15. ALM Discovery is the largest because appointments come from it."
+    },
+    {
+      "q": "You have 95 dials but only 4 live conversations at the end of a shift. What should you check first?",
+      "options": [
+        "Your appointment ask",
+        "Whether you called at good times for each lead's time zone, and which lists you dialed",
+        "Your daily report format",
+        "Whether you need more dials tomorrow"
+      ],
+      "answer": 1,
+      "explain": "When dials are high but conversations are low, look at the step before: timing by the lead's time zone and list quality. The appointment ask matters when conversations are high and appointments are low."
+    },
+    {
+      "q": "It is 8:20 PM for a lead in Dallas and you are 6 dials short of 80. What do you do?",
+      "options": [
+        "Call quickly; a few minutes late is fine",
+        "Send texts instead, since texts do not count",
+        "Stop calling that lead today and report the real number",
+        "Call from a different number"
+      ],
+      "answer": 2,
+      "explain": "The calling window ends at 8:00 PM in the lead's local time, and texts follow the same window. Dials only count when they are allowed. Report the real number."
+    },
+    {
+      "q": "A call scored 72. The ISA called in 2 minutes and was friendly, but never asked for an appointment and wrote \"Talked to lead.\" What is the one change worth the most?",
+      "options": [
+        "Call even faster next time",
+        "Talk less and listen more",
+        "Always ask for the appointment with two specific times before ending the call",
+        "Announce the recording twice"
+      ],
+      "answer": 2,
+      "explain": "The appointment ask sits in ALM Discovery, the 30-point category. Pick the one improvement worth the most points; the six-part note would be the next."
+    },
+    {
+      "q": "Where and when do you send your daily report?",
+      "options": [
+        "In the client channel at the end of every shift",
+        "By private text to the agent when you remember",
+        "By email once a week",
+        "Only on days you set an appointment"
+      ],
+      "answer": 0,
+      "explain": "The daily report goes in the client channel at the end of every shift. Clients talk with VAs only inside the client channel, never by private DM."
+    },
+    {
+      "q": "You were on a 25-minute call, and Hubstaff shows low activity for that time. What should you do?",
+      "options": [
+        "Move the mouse during calls so activity stays high",
+        "Nothing extra: the call is in the dialer log and the note is in Follow Up Boss, which your manager reads next to the activity",
+        "Clock out during long calls",
+        "Delete the screenshots from that period"
+      ],
+      "answer": 1,
+      "explain": "Calls look idle to a tracker. Your manager reads activity next to the dialer's call log, so logging every call as it happens is what explains it. Faking activity or deleting screenshots breaks trust."
+    },
+    {
+      "q": "Your dialer log shows 61 dials today. What do you write in the daily report?",
+      "options": [
+        "80, because that is the benchmark",
+        "70, to be close to the benchmark",
+        "Nothing about dials, only appointments",
+        "61, with one line on why and what you will change tomorrow"
+      ],
+      "answer": 3,
+      "explain": "Report numbers must match your Follow Up Boss activity and dialer log. Never round up; explain a slow day plainly and name your plan."
+    },
+    {
+      "q": "What is the QA standard for every call?",
+      "options": [
+        "60 or higher",
+        "75 or higher",
+        "90 or higher",
+        "100 on every call"
+      ],
+      "answer": 2,
+      "explain": "The standard is 90+. A serious compliance error, such as ignoring an opt-out, is reported to your manager right away whatever the total."
+    }
+  ]
+}

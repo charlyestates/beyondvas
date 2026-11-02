@@ -1,0 +1,706 @@
+{
+  "id": "I10",
+  "part": "isa",
+  "title": "When you mess up: win the client back",
+  "summary": "Every ISA makes mistakes; this module teaches you to own them fast, repair trust with leads and with your client, fix the process, and handle compliance slips the right way.",
+  "objectives": [
+    "Recover from a mistake with a lead in four steps: own it, name what it cost them, fix the process, give them a reason to respond.",
+    "Tell your client about a mistake in the client channel before they discover it, using a five-part message.",
+    "Recognize a compliance mistake and follow the stop, escalate, log sequence without deleting or hiding anything.",
+    "Choose a process fix that stops the same mistake from happening again, and show it in your work the next day."
+  ],
+  "lessons": [
+    {
+      "id": "I10-1",
+      "title": "Mistakes happen: what matters is the next hour",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "You will make mistakes in this job. Every ISA does, including the best ones. You will call a lead back a day late. You will book an appointment at 2 PM when the lead said 2 PM **their** time, and you were thinking of yours. You will forget to move a stage, and an automatic text will go out to someone who already booked. This module is not about never making mistakes. It is about what you do in the **next hour** after you notice one."
+        },
+        {
+          "t": "p",
+          "text": "Here is the surprising truth: a fast, honest recovery often builds **more** trust than a perfect record. A lead who was let down and then treated with real respect remembers it. A client who hears about a problem from you first, with the fix already in place, learns that you are someone they can rely on when things go wrong. That is the person they want on their team for years."
+        },
+        {
+          "t": "p",
+          "text": "The opposite is also true. A small mistake that is hidden becomes a big problem when someone else finds it. And in this job, someone else **will** find it. Many of your calls are recorded. Every call, text, note and stage change has a time stamp in Follow Up Boss. Hubstaff takes screenshots about every two minutes while you are clocked in, and your client can see them. If you hide a mistake, the client does not think \"they made an error\". They think \"I cannot trust what they tell me\". That is a much harder problem to fix."
+        },
+        {
+          "t": "callout",
+          "title": "Skill problem or trust problem?",
+          "text": "A mistake you report is a **skill problem**: your coordinator can train you, and you get better. A mistake you hide is a **trust problem**: no training fixes it. Always choose the skill problem."
+        },
+        {
+          "t": "p",
+          "text": "**The most common ISA mistakes.** Learn to recognize them so you can catch them early:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Mistake",
+            "Who it hurts",
+            "Your first move"
+          ],
+          "rows": [
+            [
+              "Missed callback or late follow-up",
+              "The lead, then your client",
+              "Call or text the lead now (inside the calling window), then log it"
+            ],
+            [
+              "Appointment booked at the wrong time or time zone",
+              "The lead and the agent",
+              "Tell the agent in the client channel, then contact the lead to fix the time"
+            ],
+            [
+              "Stage not changed, so automations kept sending",
+              "The lead",
+              "Fix the stage, pause the wrong automation, tell your agent"
+            ],
+            [
+              "Wrong address or missing details in the calendar invite",
+              "The agent",
+              "Correct the invite and tell the agent before the appointment"
+            ],
+            [
+              "Daily report late or missing",
+              "Your client",
+              "Send it now with one line explaining the delay"
+            ],
+            [
+              "Call outside the window, text without consent, missed opt-out",
+              "Your client, legally",
+              "Stop and tell your manager at once (lesson I10-5)"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Why mistakes happen.** Most ISA mistakes come from three places: **memory** (you planned to do it later and forgot), **time zones** (you calculated in your own time instead of the lead's), and **speed** (you rushed a note or a stage change to get to the next call). Notice that none of these is about intelligence or effort. They are about **process**. That is good news, because a process can be fixed. You will learn how in lesson I10-3."
+        },
+        {
+          "t": "p",
+          "text": "**The recovery sequence.** Whatever the mistake, use the same order. Practice it until it feels automatic:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Stop the damage.** Fix what you can fix right now: correct the stage, pause the automation, update the calendar invite.",
+            "**Tell the right people.** Your coordinator, and your client in the client channel if it affects them. Do it in the same hour if you can, and always before the end of your shift.",
+            "**Repair it with the person affected.** Use the four steps in the next two lessons: own it, name what it cost them, fix the process, give them a reason to respond.",
+            "**Log it.** Write a factual note in Follow Up Boss. Never delete or edit old notes to make the record look better.",
+            "**Change the process** so it does not happen again, and let people see the change in your work."
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Tell your coordinator as soon as you notice the mistake",
+            "Fix what you can first, then explain",
+            "Use simple, factual words: what happened, when, what you did",
+            "Expect to feel uncomfortable, and do it anyway"
+          ],
+          "dont": [
+            "Wait and hope nobody notices",
+            "Delete notes, texts or call logs to hide it",
+            "Blame the lead, the CRM, the internet or another person",
+            "Keep apologizing for days: one clear recovery is enough"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "One more thing about feelings. When you make a mistake with a US client, you may feel embarrassed or afraid of losing the job. That is normal. But remember that your BeyondVAs coordinator is there to back you up. You are not alone with the problem. Bring it to them early, and you will solve it together."
+        }
+      ]
+    },
+    {
+      "id": "I10-2",
+      "title": "Own it, and name what it cost them",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "The recovery method in this module has four steps. It comes from field experience with real buyers and sellers, and it works in English with US clients because it is direct, short and honest:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Own it.** Apologize promptly. No excuses, no gifts, no long story.",
+            "**Name what it cost them.** Say the impact on them out loud.",
+            "**Fix the process.** Name the correction you already made.",
+            "**Give them a reason to respond.** A useful next step, not a plea. Leave room for their answer."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "This lesson covers the first two steps. The next lesson covers the last two."
+        },
+        {
+          "t": "p",
+          "text": "**Step 1: Own it.** Apologize **promptly**, which means as soon as you can, inside the calling window. Every hour you wait makes the apology weaker, because the person starts to wonder whether you even noticed."
+        },
+        {
+          "t": "p",
+          "text": "**No excuses.** In US business culture, an explanation that comes before the apology sounds like an excuse, even when it is true. \"My internet went down, and then the CRM did not save, so...\" The lead hears: \"It is not my fault.\" Even if the internet really went down, the lead does not care. They care that they waited."
+        },
+        {
+          "t": "p",
+          "text": "**No gifts.** You may want to make it up to them with something: a discount, a gift card, a promise that the agent will do something special. Do not do this. As an unlicensed assistant you cannot promise anything about price, terms or commission, and you cannot offer incentives your client has not approved. A gift also feels like you are buying forgiveness. What the person wants is respect and a fix."
+        },
+        {
+          "t": "p",
+          "text": "**No long story.** A long story makes the conversation about you. Keep the apology to one or two sentences."
+        },
+        {
+          "t": "p",
+          "text": "**Watch your English here.** Some phrases sound like apologies but are not, and US listeners notice:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Weak (sounds like avoiding blame)",
+            "Strong (sounds like ownership)"
+          ],
+          "rows": [
+            [
+              "\"Sorry if there was any confusion.\"",
+              "\"I am sorry. I made a mistake with the time.\""
+            ],
+            [
+              "\"The appointment was missed.\"",
+              "\"I missed your appointment.\""
+            ],
+            [
+              "\"Sorry, but the system did not save it.\"",
+              "\"I did not double-check it, and that is on me.\""
+            ],
+            [
+              "\"Mistakes happen.\"",
+              "\"I let you down, and I want to fix it.\""
+            ],
+            [
+              "\"I apologize for any inconvenience.\"",
+              "\"I am sorry you drove there for nothing.\""
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice the pattern. Strong apologies use **\"I\"** and an **active verb**: \"I missed\", \"I booked\", \"I forgot\". Weak apologies hide the person (\"the appointment was missed\") or put the problem on the listener (\"if there was confusion\"). \"Any inconvenience\" is a formal phrase that sounds like a company letter, not a person."
+        },
+        {
+          "t": "p",
+          "text": "**Step 2: Name what it cost them.** After you own it, say out loud what the mistake did to them. They already know. They lived it. When **you** say it, it shows that you understand, and that changes the whole conversation. Most people relax the moment they feel understood."
+        },
+        {
+          "t": "p",
+          "text": "Be specific. \"I wasted your time\" is fine. \"You took the afternoon off work and drove 40 minutes, and nobody was there to open the door\" is much better. Use the details you have in Follow Up Boss: their schedule, their motivation, their timeline."
+        },
+        {
+          "t": "script",
+          "title": "Missed callback: the lead asked for a call on Tuesday, you called Thursday",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Rachel, this is Ana with the Hollis Home Team. Just so you know, this call may be recorded. I owe you an apology. You asked me to call you Tuesday afternoon, and I did not call until today. That was my mistake."
+            },
+            {
+              "who": "Lead",
+              "text": "Yeah, I noticed. I kind of figured you guys were not interested."
+            },
+            {
+              "who": "You",
+              "text": "I understand why you felt that way. You told me your lease ends in March and you need to move quickly, and I lost you two days. I am sorry."
+            },
+            {
+              "who": "Lead",
+              "text": "Okay. Well, I appreciate you saying that."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Look at what Ana did **not** say. She did not explain why she was late. She did not offer anything. She did not talk for long. She owned it in two sentences, named the cost (two days lost when time matters), and stopped to let Rachel answer."
+        },
+        {
+          "t": "callout",
+          "title": "Do not over-apologize",
+          "text": "One clear apology is strong. Five apologies in one call make the lead uncomfortable and make you sound unsure. After step 2, move forward."
+        },
+        {
+          "t": "p",
+          "text": "**When the person is angry.** Sometimes the lead or the agent will be upset, and they may say it strongly. Do not defend yourself and do not argue. Let them finish. Then say: \"You are right to be frustrated.\" and continue with the steps. If the lead says \"stop calling me\" or \"remove me\", that is an **opt-out**: apologize, honor it immediately (tag DNC, stage Archived / DNC, pause automations, log it), and end the call. Do not try to win back someone who opted out."
+        },
+        {
+          "t": "p",
+          "text": "**Practice the words out loud.** Apologizing in a second language is hard because emotions make our vocabulary smaller. Memorize three short sentences so they come out naturally: \"I am sorry. That was my mistake.\" / \"You waited, and that cost you [the impact].\" / \"Here is what I already changed.\""
+        }
+      ]
+    },
+    {
+      "id": "I10-3",
+      "title": "Fix the process, and give them a reason to respond",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Steps 1 and 2 show the person that you understand what happened. Steps 3 and 4 show them that it will not happen again, and give them a simple way to move forward with you."
+        },
+        {
+          "t": "p",
+          "text": "**Step 3: Fix the process.** Name the correction you **already made**. Use the past tense, or \"now\" with the present: \"I changed\", \"I added\", \"I set up\", \"I now put\". A promise about the future (\"I will be more careful\") is weak, because everybody says it. A change that is already done is strong, because it is a fact."
+        },
+        {
+          "t": "callout",
+          "title": "Memory has no alarm button",
+          "text": "Most ISA mistakes come from trusting your memory. The fix is almost always the same idea: **put it in the system before the call ends**. Every appointment goes in the calendar before you hang up. Every callback becomes a Follow Up Boss task before you dial the next number."
+        },
+        {
+          "t": "p",
+          "text": "Here are common mistakes and process fixes that really work:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Mistake",
+            "Process fix you can name"
+          ],
+          "rows": [
+            [
+              "Forgot a callback",
+              "Every callback becomes a Follow Up Boss task with a due time before the call ends."
+            ],
+            [
+              "Wrong time zone",
+              "Every appointment and task is written in the lead's time zone, with the zone in the note (for example \"2:00 PM Central\")."
+            ],
+            [
+              "Drip kept sending after booking",
+              "I change the stage to Pending Handoff while the lead is still on the line."
+            ],
+            [
+              "Wrong address in the invite",
+              "I read the address back to the lead and copy it from the Follow Up Boss profile, never type it from memory."
+            ],
+            [
+              "Double-booked the agent",
+              "I check the agent's live calendar before I offer two times, every time."
+            ],
+            [
+              "Missed details in the handoff",
+              "I fill all six fields of the A.L.M. note before I send the invite."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Keep the fix short when you say it to a lead. They do not need to know about Follow Up Boss tasks. \"I now put every callback on my calendar before I hang up\" is enough."
+        },
+        {
+          "t": "p",
+          "text": "**Step 4: Give them a reason to respond.** Now offer a **useful next step**. Not a plea. A plea sounds like this: \"Please give us another chance.\" It puts the work on the lead and makes them feel responsible for your feelings. A useful next step gives them something of value: a time with the agent, homes that match what they told you, an answer to the question they asked."
+        },
+        {
+          "t": "p",
+          "text": "Then **leave room for their answer**. Ask one question and stop talking. Silence is uncomfortable, especially on a phone call in a second language, but it is respectful. The lead needs a moment to decide."
+        },
+        {
+          "t": "script",
+          "title": "Wrong time: you booked 2 PM Pacific, the lead meant 2 PM Mountain, and the agent showed up an hour late",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Marco, this is Ana with the Hollis Home Team, and this call may be recorded. I am calling to apologize. I booked Saturday's showing in the wrong time zone, and Agent Jordan arrived an hour after you did. That was my mistake."
+            },
+            {
+              "who": "Lead",
+              "text": "We waited outside with the kids for almost an hour."
+            },
+            {
+              "who": "You",
+              "text": "I am sorry. You gave up your Saturday and stood outside with your family, and that should not have happened."
+            },
+            {
+              "who": "You",
+              "text": "I already changed how I book: every appointment is now written in your time zone, and I read it back to you before I hang up. Agent Jordan still has the house available. Would Wednesday at 5:30 PM or Thursday at 6:00 PM Mountain time work better for you?"
+            },
+            {
+              "who": "Lead",
+              "text": "Thursday could work."
+            },
+            {
+              "who": "You",
+              "text": "Thursday at 6:00 PM Mountain time. I will send the confirmation to your phone right now."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "All four steps took less than a minute. Ana owned it, named the cost, named a fix that is already done, and offered two specific times. She ended with the time read back, which proves the fix is real."
+        },
+        {
+          "t": "p",
+          "text": "**When you cannot reach them by phone.** Leave a short voicemail and, only if the lead agreed to texts, send a text inside the calling window. Keep both brief:"
+        },
+        {
+          "t": "script",
+          "title": "Recovery text (lead agreed to texts)",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Rachel, this is Ana with the Hollis Home Team. I am sorry I did not call Tuesday like I promised; I know your March move date makes every day count. I now put every callback on my calendar before I hang up. Agent Jordan found two 2-bedroom homes near your work. Want me to send them?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice the question at the end. It is easy to answer with one word: \"yes\". That is what \"a reason to respond\" means."
+        },
+        {
+          "t": "p",
+          "text": "**If they do not respond.** Do not chase them every day. Go back to the normal follow-up cadence for their timeline, inside the calling window. One recovery attempt by phone and one by text (if they agreed to texts) is enough for the apology itself. After that, treat them like any other lead and keep giving value."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Name a fix that is already done, in the past tense",
+            "Offer two specific times or one specific useful thing",
+            "Ask one easy question and wait for the answer",
+            "Write the recovery in the Follow Up Boss note"
+          ],
+          "dont": [
+            "Say \"it will never happen again\" without a real change",
+            "Beg: \"please give us another chance\"",
+            "Offer discounts, gifts or promises about price or commission",
+            "Send three texts in a row because they did not reply"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I10-4",
+      "title": "When the mistake affects your client",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Your client is the US agent or team you work for. Many mistakes affect them directly: they drive to an appointment at the wrong time, they get surprised by an angry lead, or they see a gap in your work. The four steps still apply, but there is one extra rule: **tell your client first, before they discover it.**"
+        },
+        {
+          "t": "p",
+          "text": "If your agent learns about your mistake from a lead, it hurts twice: once for the mistake, and once because you did not tell them. If they learn it from you, with the fix already moving, it becomes a normal work update."
+        },
+        {
+          "t": "p",
+          "text": "**Where to tell them.** Always in the **client channel**, never in a private DM, text or personal email. Clients talk with VAs only inside the client channel; that keeps your BeyondVAs coordinator informed and keeps a clear record. If the problem is serious, also message your coordinator directly so they can support you."
+        },
+        {
+          "t": "p",
+          "text": "**What to write.** Use five short parts. This structure is easy to read on a phone between showings, which is where most agents will see it:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**What happened**, in one sentence, with \"I\".",
+            "**The impact** on the client or the lead.",
+            "**What I already did** to fix it.",
+            "**What I changed** so it does not happen again.",
+            "**What I need from you**, if anything. If nothing, say so."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Client channel message: the stage was not changed, so a drip text went out",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Jordan, I made a mistake I want you to know about. I booked Megan Ross for Thursday 5 PM but did not change her stage to Pending Handoff, so she got an automatic \"still looking?\" text this morning. I moved her to Pending Handoff and paused the drip at 10:12 AM, and I texted her to confirm Thursday; she replied \"see you then\". From now on I change the stage while the lead is still on the line. Nothing needed from you; the invite and her A.L.M. note are in the calendar."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "That message is short, honest and complete. Jordan does not need to ask a single question. Compare it with \"Hi, small issue with Sofia, sorry!!\" which tells Jordan nothing and forces them to investigate."
+        },
+        {
+          "t": "p",
+          "text": "**How to handle a frustrated client.** Your agent may reply with frustration: \"This is the second time this month.\" Do not defend yourself and do not write a long explanation. Reply once, briefly: \"You are right, and I understand. I set up a checklist with my coordinator today so this stops.\" Then make sure the next ten bookings are perfect. Clients judge recovery by what they see in the following days, not by the words."
+        },
+        {
+          "t": "callout",
+          "title": "Your coordinator is your backup",
+          "text": "If a client is upset, or you are not sure how to word a message, ask your BeyondVAs coordinator before you send it. That is part of their job. They have seen these situations many times and can help you respond calmly."
+        },
+        {
+          "t": "p",
+          "text": "**Mistakes in your hours and reports.** Some mistakes are about your time, not your calls. You forgot to clock out of Hubstaff during lunch. You stayed clocked in while your internet was down. Your daily report was late. Tell your manager the same day so the hours can be reviewed and corrected before billing. Unexplained idle time is flagged and reviewed by your manager before the client is billed, so it is always better to explain it yourself. Never try to hide or adjust time on your own."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "What to write and where"
+          ],
+          "rows": [
+            [
+              "Forgot to clock out for a 30-minute break",
+              "Message your manager: \"I forgot to clock out from 1:00 to 1:30 PM. Please remove it before billing.\""
+            ],
+            [
+              "Internet outage during the shift",
+              "Tell your manager at once, switch to backup internet or power, and mention the gap in your daily report."
+            ],
+            [
+              "Daily report late",
+              "Send it now in the client channel with one line: \"Sorry this is late; here is today's report.\""
+            ],
+            [
+              "Missed the first 20 minutes of the shift",
+              "Tell your manager and your client in the client channel with the time you started."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Patterns matter more than single mistakes.** One mistake is normal. The same mistake three times is a pattern, and your client will notice. If you see a pattern in your own work, raise it with your coordinator before the client does: \"I have had two time zone errors this month. Can we build a check for it?\" That kind of honesty is exactly what US clients value."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Tell the client in the client channel before they find out",
+            "Use the five parts: happened, impact, did, changed, need",
+            "Copy your coordinator on anything serious",
+            "Report time-tracking errors to your manager the same day"
+          ],
+          "dont": [
+            "Send a private DM or personal text to the client",
+            "Write \"small issue, sorry!!\" with no details",
+            "Argue when the client is frustrated",
+            "Adjust or hide hours yourself"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I10-5",
+      "title": "Compliance mistakes: stop, escalate, log",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Some mistakes are not just service problems. They can create **legal risk** for your client, and fines for calling and texting violations can be large. These mistakes follow a different path. You do not try to fix them alone with the lead. You **stop, escalate and log**."
+        },
+        {
+          "t": "p",
+          "text": "**What counts as a compliance mistake?**"
+        },
+        {
+          "t": "list",
+          "items": [
+            "A call or text outside the calling window: before 9:00 AM or after 8:00 PM in the lead's local time Monday to Saturday, or outside noon to 8:00 PM on Sunday, or outside a stricter state window your manager gave you.",
+            "A text to a lead who did not agree to texts.",
+            "A call to a number from an old database, farm or purchased list that was not scrubbed against the National Do Not Call Registry and the client's own DNC list.",
+            "Missing an opt-out: you kept calling or texting after the lead said \"STOP\", \"remove me\" or \"don't call\".",
+            "Forgetting to announce that the call may be recorded.",
+            "Saying something outside your scope: an opinion of value, a rate, a credit opinion, a legal clause, a promise about price or commission.",
+            "A fair housing slip: describing an area by who lives there, its schools, crime, \"safety\", religion, or how \"family-friendly\" it is."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The sequence.** When you notice a compliance mistake, do these steps in order:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Stop.** Do not make another call or send another text to that lead until your manager tells you what to do.",
+            "**If it involves an opt-out, honor it now:** tag the contact DNC, move the stage to Archived / DNC, pause every automation, and log the opt-out. Do not argue and do not explain.",
+            "**Escalate at once.** Message your BeyondVAs manager in the same hour with the facts.",
+            "**Log it factually** in Follow Up Boss: what happened, when, and what you did.",
+            "**Never delete anything.** Not the contact, not the note, not the text. The record protects your client. A deleted opted-out contact can be called again by mistake.",
+            "**Let your manager decide** what the client hears and whether anyone contacts the lead again."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Why you do not \"fix it\" with the lead yourself",
+          "text": "If you texted a lead at 6:40 AM their time, calling them to apologize can make it worse, especially if they are upset. Your manager knows the client's rules and decides the next step. Your job is to stop, report and keep the record clean."
+        },
+        {
+          "t": "p",
+          "text": "**Writing the incident note.** Keep it short and factual. No feelings, no excuses, no guesses:"
+        },
+        {
+          "t": "script",
+          "title": "Incident note to your manager",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Compliance incident, Tue 9:55 AM Eastern. At 9:40 AM Eastern I sent a text to lead Kevin Marsh (Sacramento, CA). That was 6:40 AM in his time zone, before the 9:00 AM start. I used the wrong time zone for his area. No reply from the lead. I have stopped all contact with him and logged it in Follow Up Boss. Please advise next steps."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Scope slips.** Sometimes the mistake is something you **said**. A seller pushed hard and you said, \"Probably around $450,000.\" Or a buyer asked about rates and you said, \"About 6.5 percent.\" These are outside your scope as an unlicensed assistant. Tell your agent and your coordinator the same day. With your agent's approval, you can correct it on the next contact:"
+        },
+        {
+          "t": "script",
+          "title": "Correcting a value you should not have given (with the agent's approval)",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Linda, this is Ana with the Hollis Home Team, and this call may be recorded. Yesterday I mentioned a number for your home, and I should not have. I am not the right person to give a value, and I do not want you to rely on a guess. Agent Jordan can walk through the home and show you what it would sell for today. Would Tuesday at 5 or Thursday at 6 work better?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Fair housing slips** follow the same path. If you said \"that area is very safe\" or \"lots of young families live there\", tell your agent and coordinator, log it, and from now on use the standard answer: \"Great question for your agent. I can also send you public sources.\" Log what the lead wants in the home, not who they are."
+        },
+        {
+          "t": "p",
+          "text": "**Recording announcement missed.** If you realize in the middle of a call that you forgot, say it as soon as you notice: \"Before we continue, I should mention this call may be recorded.\" Then tell your manager after the call. Treat every state as one that requires everyone's consent."
+        },
+        {
+          "t": "callout",
+          "title": "Reporting is always the better choice",
+          "text": "A compliance mistake you report in the same hour can usually be contained. A compliance mistake someone finds later, after it was hidden or deleted, can cost your client money and cost you the placement. Report it, every time."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Stop all contact with the lead and report the same hour",
+            "Honor any opt-out immediately and completely",
+            "Keep every record, even the embarrassing ones",
+            "Use the standard fair housing answer from now on"
+          ],
+          "dont": [
+            "Call the lead to explain a call made outside the window",
+            "Delete an opted-out contact \"to be safe\"",
+            "Edit an old note to change the time or what you said",
+            "Try to make up for a scope slip with another promise"
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Recovery drills: three repairs, one client message, one incident note",
+    "minutes": 75,
+    "intro": "In this practice you will run the full recovery method on realistic cases, out loud and in writing. Your coach will listen for ownership (the word \"I\" and an active verb), a specific cost, a fix that is already done, and one easy question at the end. Work in a practice account or a shared document; never use real lead data.",
+    "steps": [
+      "Read the three scenarios. A: you promised to call a buyer on Monday at 6 PM her time and called Wednesday. B: you booked a seller's listing consultation at 4 PM Eastern when the seller meant 4 PM Central, and the agent waited an hour. C: you forgot to change a buyer's stage to Pending Handoff, and he received two automatic \"still looking?\" texts after booking.",
+      "For each scenario, write a phone script of 4 to 6 lines that uses all four steps: own it, name what it cost them, fix the process (a change already made), give them a reason to respond. Include the recording announcement.",
+      "For scenario A, also write a recovery text of 60 words or fewer for a lead who agreed to texts, ending with one easy question.",
+      "Record two role-plays with a practice partner or your coach playing the lead: scenario B with a calm seller, and scenario A with an annoyed buyer who says \"I figured you weren't interested.\" Each call 2 to 3 minutes. Do not read from the page for the apology; say it from memory.",
+      "Write the client channel message for scenario C using the five parts: what happened, impact, what I already did, what I changed, what I need from you. Keep it under 90 words.",
+      "Write a compliance incident note for this case: you called a lead in Tampa, Florida at 8:15 PM Eastern because you confused his time zone with another one. Use the format from lesson I10-5.",
+      "Check every piece against this list: no excuses, no gifts or promises, no \"sorry if\", one apology per call, a fix that is already done, one question at the end, no deleted records. Fix anything that fails."
+    ],
+    "deliverable": "Send your coach one document with the three phone scripts, the recovery text, the client channel message and the incident note, plus the two role-play recordings. Add two sentences on which step felt hardest to say in English and how you will practice it."
+  },
+  "quiz": [
+    {
+      "q": "You missed a lead's appointment. What comes first when you reach them?",
+      "options": [
+        "Explain what went wrong with your schedule so they understand",
+        "Offer a gift card so they feel valued",
+        "Own it: apologize promptly, name what it cost them and the correction you already made",
+        "Wait for them to call you, so you do not bother them"
+      ],
+      "answer": 2,
+      "explain": "Apologize promptly, name the impact and the completed fix, skip excuses and gifts, and leave room for their answer."
+    },
+    {
+      "q": "Which sentence is the strongest apology in US English?",
+      "options": [
+        "\"Sorry if there was any confusion about the time.\"",
+        "\"I booked the wrong time, and that was my mistake.\"",
+        "\"The appointment time was entered incorrectly.\"",
+        "\"We apologize for any inconvenience this may have caused.\""
+      ],
+      "answer": 1,
+      "explain": "A strong apology uses \"I\" and an active verb. \"Sorry if\" puts the problem on the listener, the passive voice hides who did it, and \"any inconvenience\" sounds like a form letter."
+    },
+    {
+      "q": "Which is the best way to name a fix in step 3?",
+      "options": [
+        "\"I now write every appointment in your time zone and read it back before I hang up.\"",
+        "\"I promise I will be much more careful from now on.\"",
+        "\"It will never happen again, I can guarantee that.\"",
+        "\"Our CRM had a problem, but IT is looking at it.\""
+      ],
+      "answer": 0,
+      "explain": "Name a correction you already made, in the past or present tense. Promises about the future are weak, and blaming a system is an excuse."
+    },
+    {
+      "q": "A lead you let down has not replied to your recovery call and text. What do you do?",
+      "options": [
+        "Text every day until they answer",
+        "Mark them Archived / DNC because they are clearly upset",
+        "Ask the agent to offer them a lower commission",
+        "Return to the normal follow-up cadence for their timeline, inside the calling window"
+      ],
+      "answer": 3,
+      "explain": "One recovery attempt by phone and one by text (if they agreed to texts) is enough. Then treat them like any other lead. Only an opt-out moves them to Archived / DNC, and you never discuss commission."
+    },
+    {
+      "q": "You forgot to change a lead's stage and a drip text went out after booking. How should your client hear about it?",
+      "options": [
+        "They do not need to know if the lead did not complain",
+        "From you, first, in the client channel, with what happened, the impact, what you did, what you changed and what you need",
+        "In a private text to the agent so it stays between you",
+        "In next week's report, so it does not interrupt their day"
+      ],
+      "answer": 1,
+      "explain": "Tell the client before they discover it, inside the client channel (never a private DM), using the five parts so they do not need to investigate."
+    },
+    {
+      "q": "You texted a lead at 6:40 AM in their time zone. What is the right first move?",
+      "options": [
+        "Call the lead right away to apologize for the early text",
+        "Delete the text from Follow Up Boss so the record is clean",
+        "Stop contact with that lead, tell your manager at once and log the facts",
+        "Do nothing, since the lead did not reply"
+      ],
+      "answer": 2,
+      "explain": "Compliance mistakes follow stop, escalate, log. Your manager decides the next step. Never delete records, and do not contact the lead on your own."
+    },
+    {
+      "q": "Why must you never delete an opted-out contact, even after a mistake?",
+      "options": [
+        "The DNC record is what stops future calls and texts to that person",
+        "Deleting contacts is slow in Follow Up Boss",
+        "The agent might want to call them later to change their mind",
+        "Deleted contacts still count in your daily KPIs"
+      ],
+      "answer": 0,
+      "explain": "If the contact is deleted, nothing stops the number from being imported and called again. Keep the contact, tagged DNC, in Archived / DNC with every automation paused."
+    },
+    {
+      "q": "During a call you told a seller their home is \"probably worth about $450,000.\" What should you do?",
+      "options": [
+        "Nothing; it was only an estimate",
+        "Call back and give a more accurate number",
+        "Offer the seller a discount if the number was wrong",
+        "Tell your agent and coordinator the same day and, with the agent's approval, correct it and offer the agent's walk-through"
+      ],
+      "answer": 3,
+      "explain": "An opinion of value is outside an unlicensed assistant's scope. Report it, and with approval tell the seller they should not rely on your guess and set the listing consultation."
+    },
+    {
+      "q": "You forgot to clock out of Hubstaff during a 30-minute lunch. What do you do?",
+      "options": [
+        "Work 30 minutes less tomorrow to balance it",
+        "Tell your manager the same day so the time is removed before billing",
+        "Leave it; the client will not notice",
+        "Edit the screenshots to remove the lunch period"
+      ],
+      "answer": 1,
+      "explain": "Unexplained idle time is flagged and reviewed by your manager before billing. Explaining it yourself the same day keeps your hours accurate and your client's trust intact."
+    }
+  ]
+}

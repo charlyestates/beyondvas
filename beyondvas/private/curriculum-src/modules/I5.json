@@ -1,0 +1,783 @@
+{
+  "id": "I5",
+  "part": "isa",
+  "title": "Mastering objections",
+  "summary": "Hear an objection as a question in disguise, use ask-listen-mirror to find what is behind it, then acknowledge, pivot and ask for the appointment, with ready replies for the objections you will hear every day.",
+  "objectives": [
+    "Tell an objection apart from an opt-out, and honor every opt-out at once without arguing.",
+    "Use ask, listen, mirror to uncover the real concern behind a short objection before answering it.",
+    "Answer any objection with the acknowledge, pivot, appointment pattern in three sentences or fewer.",
+    "Reply naturally to at least 15 common buyer, trust and scope objections without leaving your unlicensed scope or breaking fair housing rules.",
+    "Practice objections out loud every week and log each one in Follow Up Boss so the agent knows what the lead is worried about."
+  ],
+  "lessons": [
+    {
+      "id": "I5-1",
+      "title": "What an objection really is (and what it is not)",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "An objection is anything a lead says that slows the conversation down: “We’re just looking,” “Send me the info,” “Prices are too high,” “I already have an agent.” New ISAs hear these as a door closing. Experienced ISAs hear them as **a question in disguise.** “We’re just looking” often means “I’m not ready to be pushed.” “Send me the info” often means “I don’t know you yet.” “Prices are too high” can mean three completely different things. Your job is to find the real question and answer that one."
+        },
+        {
+          "t": "p",
+          "text": "Remember the five buyer truths from module I1. The first one matters most here: buyers are **overwhelmed, not unmotivated.** Someone who filled out a form at 11 PM is interested. They are also nervous, busy, and maybe a little embarrassed about how much they don’t know. An objection is often that nervousness coming out. If you meet it with pressure, it gets stronger. If you meet it with curiosity and calm, it usually gets smaller."
+        },
+        {
+          "t": "callout",
+          "title": "First rule: an opt-out is not an objection",
+          "text": "If a lead says **“STOP”**, **“Remove me”**, **“Don’t call”**, or anything that clearly means stop contacting me, you do not handle it. You honor it: tag DNC, move the stage to Archived / DNC, pause all automations, log it. Never delete the contact. Never argue, never ask why, never try “just one more question.”"
+        },
+        {
+          "t": "table",
+          "head": [
+            "The lead says",
+            "Objection or opt-out?",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "“I’m just browsing right now.”",
+              "Objection",
+              "Acknowledge, pivot, appointment."
+            ],
+            [
+              "“Please don’t bombard me with sales pitches.”",
+              "Objection (a request for less pressure)",
+              "Lower the pressure, acknowledge, ask a Location or Motivation question."
+            ],
+            [
+              "“Stop calling this number.”",
+              "Opt-out",
+              "Apologize, confirm you will not contact them again, end the call, DNC process."
+            ],
+            [
+              "“Take me off your list.”",
+              "Opt-out",
+              "Same as above, same day, every channel."
+            ],
+            [
+              "“Text me instead, I can’t talk at work.”",
+              "Neither: a channel preference",
+              "Log the preference. Your manager confirms whether a spoken request counts as text consent for your client; until then, follow up by phone."
+            ],
+            [
+              "“Call me next month.”",
+              "Objection (a timing objection)",
+              "Ask one question about timing, then set a specific follow-up date."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "When you are not sure, treat it as an opt-out. If a lead says “I’m not interested, don’t bother,” you may ask one gentle clarifying question only if your manager allows it: “Understood. Would you like me to stop calling completely?” If they say yes, it is an opt-out. In most cases, the safest and kindest choice is simply to say “I’m sorry for the bother, I’ll make sure you don’t get more calls from us,” and follow the DNC process."
+        },
+        {
+          "t": "script",
+          "title": "Honoring an opt-out the right way (David, an old website lead)",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Stop calling this number! Remove me from your database right now!"
+            },
+            {
+              "who": "You",
+              "text": "I’m very sorry for the disturbance, David. I’ve opted your number out, and you won’t receive more calls or texts from us. Have a good day."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Then, before your next dial: tag DNC, stage Archived / DNC, pause every automation, and log “Call, connected. Verbal opt-out. Tagged DNC, automations paused. No further contact.” You **do not delete** David. The DNC record is what stops future calls and texts from anyone on the team. If you argue (“Why are you angry? Are you sure you don’t want to buy?”), you break calling rules and your client’s DNC policy, and you can expose your client to fines."
+        },
+        {
+          "t": "p",
+          "text": "Now, the mindset for real objections. You are not trying to “win.” You are trying to help a person take one small, useful step: a meeting with an agent who can answer their questions. If the honest answer is that they are not ready, the win is a specific follow-up date and a good note. A lead who hangs up feeling respected will answer your call in two months. A lead who hangs up feeling pushed will not."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Slow down when you hear an objection. A calm voice lowers pressure.",
+            "Get curious: “Can I ask what makes you say that?”",
+            "Keep your answer short. Three sentences or fewer.",
+            "Always end with a next step: an appointment, or a specific follow-up date."
+          ],
+          "dont": [
+            "Argue, correct the lead, or say “You’re wrong.”",
+            "Answer the objection you expected instead of the one they said.",
+            "Use pressure lines: “This house won’t last,” “Prices will only go up.”",
+            "Treat an opt-out as an objection to overcome."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Objection handling is 20 of the 100 points on the QA rubric you will learn in module I11. Your coach listens for three things: you stayed calm, you found the real concern, and you still asked for the appointment. You will learn the two tools for this in the next two lessons: **ask, listen, mirror** and **acknowledge, pivot, appointment.**"
+        }
+      ]
+    },
+    {
+      "id": "I5-2",
+      "title": "Ask, listen, mirror",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most objections are too short to answer well. “Prices are too high” is five words. You cannot know what the lead means yet. So before you answer, you use three small skills, in order: **Ask** what is behind it. **Listen** without filling the silence. **Mirror** their words back so they know you heard them. Only then do you answer."
+        },
+        {
+          "t": "p",
+          "text": "**Ask.** Use an open question, one that cannot be answered with yes or no. Good open questions start with “what” or “how,” or with “Can I ask...” or “Tell me more about...” Avoid “why” at the start, because in English “Why do you think that?” can sound like a challenge. Compare:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Closed or challenging (avoid)",
+            "Open and curious (use)"
+          ],
+          "rows": [
+            [
+              "“Why do you think prices are too high?”",
+              "“Which part feels too high: the asking price, the monthly payment, or what you get for the money?”"
+            ],
+            [
+              "“Do you not want to buy anymore?”",
+              "“What changed since you reached out?”"
+            ],
+            [
+              "“Are you sure you want to wait?”",
+              "“What would need to happen for the timing to feel right?”"
+            ],
+            [
+              "“Is your agent good?”",
+              "“How is the search going so far?”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Listen.** After you ask, stop talking. Count to three in your head. Silence feels long on the phone, especially in a second language, and many ISAs rush to fill it with another question or a sales line. Don’t. The lead is thinking. The next thing they say is usually the real reason. If you interrupt, you lose it. While you listen, type short notes: their exact words are gold for the agent."
+        },
+        {
+          "t": "p",
+          "text": "**Mirror.** Repeat the last one to three important words they said, with a gentle questioning tone, or summarize their concern in one short sentence. This shows you heard them, and it often makes them explain more without you asking another question."
+        },
+        {
+          "t": "script",
+          "title": "Mirroring in action: Marcus",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Honestly prices are just too high right now. We’re going to wait."
+            },
+            {
+              "who": "You",
+              "text": "I hear you. Which part feels too high: the asking price, the monthly payment, or what you get for the money?"
+            },
+            {
+              "who": "Lead",
+              "text": "The monthly payment, mostly. Our rent is already a lot."
+            },
+            {
+              "who": "You",
+              "text": "Your rent is already a lot..."
+            },
+            {
+              "who": "Lead",
+              "text": "Yeah, $2,300, and it goes up every year. We just don’t want to pay more than that for a mortgage."
+            },
+            {
+              "who": "You",
+              "text": "So the goal is a monthly cost you can live with, ideally around what you pay now. That’s exactly what our agent can look at with you, with real numbers. Would Thursday at 5 or Saturday at 10 work for a short meeting?"
+            },
+            {
+              "who": "Lead",
+              "text": "If you can show us the real numbers, we would look. Saturday."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Look at what happened. “Prices are too high” turned into a clear Motivation (rent rising), a clear budget concern (monthly cost around $2,300), and an appointment. You did not argue that prices are fine. You did not predict rates. You did not give a number. You asked, listened, mirrored, and then offered the meeting where the real numbers can be shown."
+        },
+        {
+          "t": "callout",
+          "title": "Mirroring tips for second-language speakers",
+          "text": "Mirroring is a gift if English is your second language: you use the lead’s own words, so you do not have to find new ones. Keep your tone soft and slightly rising, like a question. Do not mirror every sentence, or it sounds strange. Once or twice per objection is enough."
+        },
+        {
+          "t": "p",
+          "text": "A related tool is **labeling**: naming the feeling you hear. “It sounds like this has been stressful.” “It sounds like you’ve had a bad experience with agents before.” Labels are powerful when you are right and harmless when you are a little wrong, because the lead will correct you, and the correction tells you more. Never label in a way that judges (“It sounds like you can’t afford it”)."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Ask one open question, then wait at least three seconds.",
+            "Write down the lead’s exact words for the agent.",
+            "Mirror once or twice with a soft, rising tone.",
+            "Summarize the concern in one sentence before you answer it."
+          ],
+          "dont": [
+            "Ask two questions at once (“What price, and when are you moving?”).",
+            "Fill the silence with a pitch.",
+            "Mirror with a flat, robotic voice, or mirror everything.",
+            "Label something personal: money, family, health, background."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Practice this with everyday conversations too. When a friend says “Work is crazy this week,” try “Crazy?” and wait. You will be surprised how much people share when they feel heard. That same skill, on a call with a nervous buyer, is the difference between “We’ll wait” and “Saturday works.”"
+        }
+      ]
+    },
+    {
+      "id": "I5-3",
+      "title": "Acknowledge, pivot, appointment",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Ask, listen, mirror helps you find the real concern. **Acknowledge, pivot, appointment** is how you answer it. It is a three-step pattern you can use for almost any objection, and it keeps your reply short, warm and moving forward."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Acknowledge** the concern in one sentence. Show it is normal and that you are not going to fight it. “Completely get it.” “That makes sense.” “Understood, and I won’t step on that.”",
+            "**Pivot** to a Location or Motivation question. This moves the conversation from the objection back to what the lead wants. “What neighborhood caught your eye today?” “What has you thinking about moving?”",
+            "**Appointment.** Ask for a specific time, with two options. Never “When works for you?” Always “Saturday morning or afternoon?” or “Thursday at 5 or 6?”"
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "The pattern",
+          "text": "Acknowledge, pivot to a Location or Motivation question, then ask for the appointment."
+        },
+        {
+          "t": "p",
+          "text": "Here are the three core turnarounds. Learn them word for word first. Later you will make them sound like you."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Objection",
+            "Your reply"
+          ],
+          "rows": [
+            [
+              "“Just looking online.”",
+              "“Completely get it! Most of our clients browse 6 months early. What neighborhood caught your eye today?”"
+            ],
+            [
+              "“I already have an agent.”",
+              "“Understood, and I won’t step on that. Have you signed an agreement with them?” If they have: “Great, I’ll make a note. If anything changes, we’re here.” Log it in Follow Up Boss and tell your agent. Never pitch around another agent’s agreement. If they haven’t: offer a second opinion from your local specialist and ask for a time."
+            ],
+            [
+              "“Just send me info.”",
+              "“I will email that right now! While I pull it up, are you free Saturday morning or afternoon to take a quick look inside?”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Let’s look closely at why each one works. In “Just looking online,” the acknowledgment (“Completely get it!”) removes pressure, and “Most of our clients browse 6 months early” tells them browsing is normal. The pivot (“What neighborhood caught your eye today?”) is an easy, fun Location question. Once they answer, you have a reason to offer a look at homes in that area."
+        },
+        {
+          "t": "p",
+          "text": "“I already have an agent” is different, because there may be a signed agreement. If there is one, you respect it completely: note it, tell your agent the same day, and never try to pull the lead away. That is an ethics rule, not a sales tactic. If there is no signed agreement, the lead is free to talk to more than one agent, and a second opinion is a fair offer. You will see this one again in lesson I5-5."
+        },
+        {
+          "t": "p",
+          "text": "“Just send me info” is often a polite way to end the call. So you say yes (and you really do send it, right away), and in the same breath you ask a simple appointment question. Many leads say “Saturday afternoon, actually.” If they say “No, just the info,” send it, log it, and set a follow-up task for two days later to ask what they thought."
+        },
+        {
+          "t": "script",
+          "title": "When the lead asks for less pressure: Marcus Vance (social media ad lead)",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "I just clicked to see pictures of the kitchen! Please don’t bombard me with sales pitches."
+            },
+            {
+              "who": "You",
+              "text": "Completely understand, Marcus! The kitchen in that home is beautiful. Most of our clients look 6 months out. What specific area are you hoping to stay in when you do make a move?"
+            },
+            {
+              "who": "Lead",
+              "text": "Somewhere on the east side, near 30th Street. Our lease ends in about 45 days, and the kids need a bigger backyard."
+            },
+            {
+              "who": "You",
+              "text": "That’s really helpful. Would it be useful if I sent you three homes on the east side with big yards and kitchens like that one, and then checked in on Thursday?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Marcus asked not to be pitched, so a hard push (“You gave us your number! Can my agent meet you there today at 4?”) would end the call. Instead you acknowledged, pivoted to Location, and learned his Motivation and timeline. In this case the “appointment” step is softened into a specific next step, because pressure was the problem. On the next call, with the homes in hand, you ask for the tour."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Keep each step to one sentence.",
+            "Offer two specific times every time you ask for the appointment.",
+            "Do what you promise: if you say you will send info, send it within minutes.",
+            "Log the objection and the lead’s exact words in your note."
+          ],
+          "dont": [
+            "Skip the acknowledgment and jump straight to the pitch.",
+            "Pivot to a question about money, credit or family background.",
+            "Ask “When works for you?” It gives the lead an easy “I’ll let you know.”",
+            "Use the same pattern three times in a row if the lead clearly says no."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "How many times?",
+          "text": "Use the pattern up to two times per call. If the lead objects a third time, stop. Thank them, set a specific follow-up date they agree to (or a nurture task if they won’t give one), and log it. Respect is part of the method."
+        }
+      ]
+    },
+    {
+      "id": "I5-4",
+      "title": "The objection library, part 1: timing, interest and price",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "This lesson and the next give you ready replies for the objections you will hear most often. Each reply follows acknowledge, pivot, appointment. Read them out loud. Then, in your practice, change the words until they sound like you, without changing the structure or leaving your scope."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Objection",
+            "What it may really mean",
+            "A reply that works"
+          ],
+          "rows": [
+            [
+              "1. “We’re just looking.”",
+              "I’m early. Don’t push me.",
+              "“Completely get it! Most of our clients browse 6 months early. What neighborhood caught your eye today?” Then: “Would it help to see one or two in person this weekend, Saturday morning or afternoon?”"
+            ],
+            [
+              "2. “Just send me the info.”",
+              "I don’t know you yet. / I want to end the call.",
+              "“I will email that right now! While I pull it up, are you free Saturday morning or afternoon to take a quick look inside?”"
+            ],
+            [
+              "3. “Prices are too high.”",
+              "The asking price, the monthly payment, or the value for the money.",
+              "“I hear you. Which part feels too high: the asking price, the monthly payment, or what you get for the money?” Then let the answer change your approach, and offer the meeting where real numbers can be shown."
+            ],
+            [
+              "4. “We’ll wait for rates to drop.”",
+              "We’re worried about the monthly cost.",
+              "“That makes sense, nobody wants to overpay. Nobody can promise what rates will do, but our agent can show you what the numbers look like today so you can decide with real information. Thursday at 5 or Saturday at 10?”"
+            ],
+            [
+              "5. “Call me in six months.”",
+              "Not now, but maybe. Or: I want you to go away.",
+              "“Happy to. Can I ask what happens in six months: a lease ending, a job, school year?” Log the reason. “Would it help to meet the agent before then, so you know your options when the time comes? If not, I’ll call you on [specific date].”"
+            ],
+            [
+              "6. “We need to sell our house first.”",
+              "We are a buyer and a seller.",
+              "“That’s really common. Our agent helps people do both and plan the order. Can I ask where your current home is?” Log as a buyer and seller lead. Offer a meeting about both. (Module I6 covers seller leads.)"
+            ],
+            [
+              "7. “I’m busy right now.”",
+              "Bad timing, not a no.",
+              "“No problem at all, I’ll be quick or I can call back. Is later today at 6 or tomorrow at noon better?” Call back exactly then, inside the calling window."
+            ],
+            [
+              "8. “I need to talk to my husband / wife / partner.”",
+              "I can’t decide alone.",
+              "“Of course, it’s a decision for both of you. Would it be easier if you both met the agent together? Saturday at 10 or Sunday at 1?”"
+            ],
+            [
+              "9. “We found the house ourselves online, we don’t need an agent.”",
+              "We don’t see the value yet.",
+              "“That’s great, you’ve done the hard part. Can I ask what you liked most about it?” Then: “Our agent can get you inside and help you understand the home before you decide anything. Want to see it Saturday at 11 or 2?”"
+            ],
+            [
+              "10. “How did you get my number?”",
+              "I don’t remember asking. Am I being spammed?",
+              "Be honest and specific: “You asked about the home on Oak Street on [the website] yesterday, and I’m following up for Daniel’s team.” If they say they didn’t, apologize and offer to remove them. If they want removal, it is an opt-out."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Look at objection 3 again, because it is the most important one in a high-price market. **“Prices are too high” means three things.** If it is the asking price, the lead may be looking at the wrong homes or the wrong area; the agent can show other options. If it is the monthly payment, it is a financing question; the agent and a lender can show real numbers (module I4). If it is the value (“$400,000 for that?”), the lead may need to see homes in person to understand the market. **Ask first, then let the answer change your approach.**"
+        },
+        {
+          "t": "callout",
+          "title": "Never use predictions as pressure",
+          "text": "“Rates will drop soon and prices will only go up. You should buy now before it gets worse.” This line is wrong twice. A prediction is not a fact, and it is pressure. It also gives financial advice you are not allowed to give. Ask which part feels too high instead."
+        },
+        {
+          "t": "p",
+          "text": "Objection 5, “Call me in six months,” deserves special care. A real reason (a lease ending) is Motivation: log it and plan around it. No reason? Offer value, like new homes in their area once a week, and set a specific follow-up date. “Not now” is a date, not a no."
+        },
+        {
+          "t": "script",
+          "title": "“Call me in six months” done well: Priya",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Honestly, just call me in six months."
+            },
+            {
+              "who": "You",
+              "text": "Happy to, Priya. Can I ask what happens in six months?"
+            },
+            {
+              "who": "Lead",
+              "text": "Our lease is up in April, and my bonus comes in March."
+            },
+            {
+              "who": "You",
+              "text": "That makes sense, so you’d want to be ready to move in April. A lot of people meet the agent two or three months before, so they know what to look for and what to prepare. Would a short call with Daniel in January be useful? If not, I’ll call you the first week of February."
+            },
+            {
+              "who": "Lead",
+              "text": "January is fine, actually."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Note for Priya: “Timing objection. Lease ends April, per lead. Agreed to call with agent in January. Task: confirm date first week of January.”"
+        }
+      ]
+    },
+    {
+      "id": "I5-5",
+      "title": "The objection library, part 2: trust, agents and questions outside your scope",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "The second group of objections is about trust (“Who are you?”), other agents, and questions you are not allowed to answer. Honesty is the foundation: **never pretend to be the agent, never pretend to be somewhere you are not, and never answer a question outside your scope.**"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Objection",
+            "A reply that works",
+            "Why"
+          ],
+          "rows": [
+            [
+              "11. “I already have an agent.”",
+              "“Understood, and I won’t step on that. Have you signed an agreement with them?” If yes: “Great, I’ll make a note. If anything changes, we’re here.” If no: “Would a second opinion from our local specialist be helpful? Thursday at 5 or Saturday at 10?”",
+              "A signed agreement is respected completely. No agreement means the lead is free to compare."
+            ],
+            [
+              "12. “My cousin / friend is an agent.”",
+              "“That’s great to have someone in the family. Are you working with them on this search, or is it more of an option?” If they are working together, ask: “Have you signed an agreement with them?” If yes, respect it completely. If the cousin is only an option, offer a second opinion.",
+              "Same rule as above, said kindly."
+            ],
+            [
+              "13. “Are you the agent?”",
+              "“No, I’m Ana, an assistant on Daniel’s team. I help schedule time with Daniel, who is the licensed agent and will answer your questions about the home.”",
+              "Never act as an agent; clarity builds trust."
+            ],
+            [
+              "14. “Where are you calling from? Are you a real person?”",
+              "“Yes, I’m a real person! I’m Ana, I work remotely as an assistant with Daniel’s team. Daniel is the licensed agent, based in [city].”",
+              "Never lie about who or where you are. Most people accept an honest remote assistant."
+            ],
+            [
+              "15. “Is this a good / safe neighborhood? How are the schools?”",
+              "“Great question for your agent. I can also send you public sources.”",
+              "Fair housing: never describe areas by who lives there, schools, crime, safety, religion or “family-friendly.”"
+            ],
+            [
+              "16. “What’s the lowest the seller will take?”",
+              "“That’s exactly the kind of thing Daniel can help you with. I don’t have that information, and I’m not able to discuss price. Want to see the home first, Saturday at 11 or 2?”",
+              "ISAs never negotiate or discuss price or terms."
+            ],
+            [
+              "17. “What’s your commission? Do I have to pay you?”",
+              "“Good question, and Daniel will explain exactly how that works before you decide anything. I schedule the meeting so you can ask him directly.”",
+              "Commission and terms are outside your scope."
+            ],
+            [
+              "18. “I don’t want to sign anything.”",
+              "“Totally fair. Daniel will explain any paperwork before you see homes, and you can ask him anything about it. Nothing gets signed on this call.”",
+              "Since August 2024, a written buyer agreement is needed before a tour. The agent sends and explains it; you never do."
+            ],
+            [
+              "19. “I had a bad experience with an agent before.”",
+              "“I’m sorry, that sounds frustrating. Can I ask what happened?” Listen. “Thank you for telling me. I’ll make sure Daniel knows what matters to you.”",
+              "Labeling and listening. The note helps the agent avoid the same mistake."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "“I already have an agent” is easy to get wrong in both directions. Giving up loses leads who only talked to an agent once. Pushing past a signed agreement is unethical and risky for your client. The right path is the question: **“Have you signed an agreement with them?”**"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Ask: “Have you signed an agreement with them?”",
+            "If yes: “Great, I’ll make a note. If anything changes, we’re here.” Log it in Follow Up Boss, tell your agent the same day, and never pitch around the agreement.",
+            "If no: offer a second opinion from your local specialist and ask for a time with two options.",
+            "If they are not sure: “No problem. Daniel can go over that with you.” Log it and tell your agent."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Staying in scope: Kevin asks about price and safety",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Is that area safe? And do you think they’d take $20K less?"
+            },
+            {
+              "who": "You",
+              "text": "Both great questions for Daniel. On the area, I can also send you public sources so you can look for yourself. On price, I’m not able to discuss that, but Daniel can walk you through it after you’ve seen the home. Would Saturday at 11 or Sunday at 2 work to see it?"
+            },
+            {
+              "who": "Lead",
+              "text": "Sunday at 2."
+            },
+            {
+              "who": "You",
+              "text": "Perfect. I’ll text you the confirmation now."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "You did not say “It’s safe,” “It’s not safe,” “Lots of families live there,” or “They might take less.” Each would break a rule: fair housing or unlicensed scope. Your note: “Lead asked about area safety (offered public sources) and whether seller would accept $20K less (referred to agent). Appt Sun 2 PM.”"
+        },
+        {
+          "t": "callout",
+          "title": "Honesty about who you are",
+          "text": "If a lead asks directly whether you are in the US, tell the truth: “No, I work remotely from [your country] as part of Daniel’s team.” If they are uncomfortable, respect it: “I understand. Would you prefer that Daniel calls you himself?” Then tell Daniel. Lying once destroys trust with the lead and with your client."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Say your name and your client’s team early in every call.",
+            "Use the fair housing line word for word: “Great question for your agent. I can also send you public sources.”",
+            "Pass every price, commission, contract and value question to the agent, and log it."
+          ],
+          "dont": [
+            "Say “I’m the agent” or let the lead believe it.",
+            "Give your opinion about a neighborhood, school or safety.",
+            "Explain or send a buyer agreement yourself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I5-6",
+      "title": "Practice like a pro: drills, logging and getting better every week",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Reading objection replies does not make you good at them. Saying them out loud, many times, does. On a live call you have about two seconds to respond. If the reply is not already in your mouth, you will hesitate, say “um,” or reach for pressure. Professional ISAs practice objections the way athletes practice: short, frequent and recorded."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Pick one objection a week.** Write it at the top of your notebook or a sticky note on your screen.",
+            "**Say your reply out loud 20 times** over the week, until it sounds natural, not memorized.",
+            "**Role-play it with your practice partner or coach** at least twice. They should vary the objection (“just browsing,” “only looking,” “not ready yet”) so you learn to recognize it in different words.",
+            "**Record yourself** once a week and listen back. Check your speed, your tone and whether you asked for the appointment.",
+            "**Use it on real calls** and mark in your notes when it worked and when it didn’t."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Here is a good rotation for your first ten weeks: “we’re just looking,” “send me the info,” “prices are too high,” “we’ll wait for rates to drop,” “I already have an agent,” “call me in six months,” “I need to talk to my partner,” “are you the agent?”, “is it a safe area?”, and “how did you get my number?” After ten weeks, start again. You will be surprised how much better the second round sounds."
+        },
+        {
+          "t": "callout",
+          "title": "Tone beats words",
+          "text": "Leads remember how you made them feel more than what you said. Smile when you speak (people can hear it). Slow down by about 10 percent when you hear an objection. Lower your voice slightly at the end of a sentence; a rising tone on statements can sound unsure. Your English does not need to be perfect. It needs to be calm and kind."
+        },
+        {
+          "t": "p",
+          "text": "**Log every objection.** Your note in Follow Up Boss should say what the objection was, in the lead’s words, and how it ended. This matters for three reasons. First, the agent walks into the appointment knowing what worries the lead. Second, the next person who calls the lead (maybe you, in two weeks) can start where you left off instead of repeating the same mistake. Third, your coach can review patterns: if you lose most leads at “send me the info,” that is your next practice objection."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Weak note",
+            "Strong note"
+          ],
+          "rows": [
+            [
+              "“Not interested.”",
+              "“Objection: ‘prices too high’ = monthly payment, per lead (rent $2,300, rising). Wants payment near current rent. Appt Sat 10 AM with Daniel. Next: confirm Fri evening.”"
+            ],
+            [
+              "“Has agent.”",
+              "“Says working with another agent; signed agreement: YES, per lead. Respecting it. Told Daniel in client channel. No further outreach unless lead contacts us.”"
+            ],
+            [
+              "“Call later.”",
+              "“Timing objection: lease ends April, per lead. Agreed to call with agent in January. Task set for Jan 6.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Your coach scores objection handling on the QA rubric (20 of 100 points). Here is what a strong score sounds like: you heard the objection without interrupting; you asked an open question to find the real concern; you mirrored or summarized; you acknowledged in one sentence; you pivoted to Location or Motivation; you asked for the appointment with two specific times; you stayed in scope and inside fair housing rules; and if the lead opted out, you honored it immediately. A weak score usually comes from one of three mistakes: arguing, giving up after the first “no,” or answering a question you should have passed to the agent."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Practice daily for five minutes rather than once a month for an hour.",
+            "Ask your coach for one specific thing to improve after each review.",
+            "Celebrate small wins: a “just looking” that became a Saturday tour is a big deal."
+          ],
+          "dont": [
+            "Read replies from a screen word for word on live calls; it sounds robotic.",
+            "Take objections personally. The lead is reacting to the situation, not to you.",
+            "Keep pushing after the second objection on the same call."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Your objection mindset",
+          "text": "Every objection is a question in disguise. Ask, listen, mirror. Then acknowledge, pivot, appointment. And when they say stop, stop."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "The objection gauntlet",
+    "minutes": 100,
+    "intro": "This practice turns the objection library into habits. You will record your replies to the 19 objections in this module, then do three full role-play calls with your practice partner or coach, who will throw objections at you without warning. Use only fictional names, 555 numbers and example.com emails.",
+    "steps": [
+      "Script sheet (20 min): in a document, write your own version of the reply to each of the 19 objections in lessons I5-4 and I5-5. Keep the acknowledge, pivot, appointment structure. Mark each reply with A, P and Ap where each step starts.",
+      "Solo recording (20 min): record yourself saying each reply out loud, as if a lead just said the objection. Do not read word for word; glance at your sheet, then speak. Redo any reply that takes more than 20 seconds.",
+      "Opt-out drill (5 min): your partner mixes 10 short lines, some objections and some opt-outs (“remove me”, “stop texting me”). For each one, say “objection” or “opt-out” and give the correct response. Aim for 10 out of 10.",
+      "Role-play A (10 min): “Marcus Vance”, a social media ad lead for a 4-bed pool home: “I just clicked to see pictures of the kitchen! Please don’t bombard me with sales pitches.” Lower the pressure, pivot to Location, learn the Motivation and set a specific next step.",
+      "Role-play B (10 min): a portal lead who says “prices are too high”, then “call me in six months”, then “I need to talk to my wife.” Use ask, listen, mirror on the first one. Get to an appointment or a specific follow-up date.",
+      "Role-play C (10 min): a lead who asks “Are you the agent?”, “Is the area safe?”, and “Would they take $15K less?” Stay honest, stay in scope, use the fair housing line, and ask for the appointment.",
+      "Notes (10 min): write a Follow Up Boss style A.L.M. note for each role-play, with the objection in the lead’s words and how it ended.",
+      "Self-score (15 min): listen to the three role-plays and score yourself out of 20 on objection handling using the checklist in lesson I5-6. Choose your first “objection of the week” from your weakest moment."
+    ],
+    "deliverable": "Send your coach, in your BeyondVAs training channel: your script sheet, the 19 solo recordings, the three role-play recordings, the three notes, your self-scores and the objection you chose to practice this week. Your coach will reply with a score and one thing to improve."
+  },
+  "quiz": [
+    {
+      "q": "A lead says, “Stop calling this number!” What do you do?",
+      "options": [
+        "Use acknowledge, pivot, appointment, because every objection is a question in disguise",
+        "Apologize, confirm they will not be contacted, then tag DNC, stage Archived / DNC, pause automations and log it",
+        "Ask why they are upset so you can fix the problem",
+        "Delete the contact so nobody calls them again"
+      ],
+      "answer": 1,
+      "explain": "An opt-out is not an objection. Honor it immediately and never delete the contact: the DNC record is what stops future contact."
+    },
+    {
+      "q": "A buyer says, “Prices are too high.” What is the best first move?",
+      "options": [
+        "Show them cheaper homes right away",
+        "Tell them rates will drop soon",
+        "Ask which part feels too high: the asking price, the monthly payment, or what you get for the money",
+        "Agree and set a follow-up for next year"
+      ],
+      "answer": 2,
+      "explain": "Same words, different problems. Ask first, then let the answer change your approach."
+    },
+    {
+      "q": "What are the three steps of ask, listen, mirror?",
+      "options": [
+        "Ask an open question, stay silent while they answer, repeat their key words back",
+        "Ask for the appointment, listen to their excuse, mirror their tone of voice",
+        "Ask about money, listen to the number, mirror it in the note",
+        "Ask three questions, listen to the last answer, mirror the agent’s script"
+      ],
+      "answer": 0,
+      "explain": "Ask what is behind the objection, listen without filling the silence, and mirror their words so they feel heard and explain more."
+    },
+    {
+      "q": "Which reply to “Just send me info” follows the pattern you learned?",
+      "options": [
+        "“Okay, bye.”",
+        "“I can’t send anything until you meet the agent.”",
+        "“What’s your budget first?”",
+        "“I will email that right now! While I pull it up, are you free Saturday morning or afternoon to take a quick look inside?”"
+      ],
+      "answer": 3,
+      "explain": "Say yes, really send it, and ask for the appointment in the same breath with two options."
+    },
+    {
+      "q": "A lead says “I already have an agent” and confirms they signed an agreement. What do you do?",
+      "options": [
+        "Offer a second opinion and ask for a time",
+        "Say “Great, I’ll make a note. If anything changes, we’re here,” log it and tell your agent; never pitch around it",
+        "Ask how much the other agent charges and offer a better deal",
+        "Remove the lead from Follow Up Boss"
+      ],
+      "answer": 1,
+      "explain": "A signed agreement is respected completely. The second-opinion offer is only for leads with no signed agreement."
+    },
+    {
+      "q": "Which question is the best open question to use after an objection?",
+      "options": [
+        "“Why don’t you want to buy?”",
+        "“Are you sure about waiting?”",
+        "“What would need to happen for the timing to feel right?”",
+        "“Do you have a pre-approval?”"
+      ],
+      "answer": 2,
+      "explain": "Open questions start with what or how and cannot be answered with yes or no. “Why” can sound like a challenge."
+    },
+    {
+      "q": "A lead asks, “Is that neighborhood safe for kids?” What do you say?",
+      "options": [
+        "“Great question for your agent. I can also send you public sources.”",
+        "“Yes, lots of families live there.”",
+        "“I’d avoid it, honestly.”",
+        "“The schools there are excellent.”"
+      ],
+      "answer": 0,
+      "explain": "Fair housing: never describe an area by safety, schools, who lives there or how family-friendly it is."
+    },
+    {
+      "q": "“Are you the agent?” Which answer is right?",
+      "options": [
+        "“Yes, I can help with everything.”",
+        "“Kind of, I do most of the work.”",
+        "Avoid the question and ask for the appointment",
+        "“No, I’m an assistant on the team. I schedule time with the licensed agent, who will answer your questions about the home.”"
+      ],
+      "answer": 3,
+      "explain": "Never act as an agent or let a lead believe you are one. Honesty builds trust."
+    },
+    {
+      "q": "How many times should you use acknowledge, pivot, appointment on the same call before stopping?",
+      "options": [
+        "Once only",
+        "Up to two times; after a third objection, thank them and set a specific follow-up date",
+        "As many times as it takes to get the appointment",
+        "Never more than once a week per lead"
+      ],
+      "answer": 1,
+      "explain": "Respect is part of the method. After the second try, end kindly with a specific next step and a good note."
+    },
+    {
+      "q": "Which statement about “Rates will drop soon, so buy now before prices go up” is correct?",
+      "options": [
+        "It is a strong close you should use with nervous buyers",
+        "It is fine if the news says so",
+        "It is wrong twice: a prediction is not a fact, it is pressure, and it is advice you may not give",
+        "It is only allowed with buyers who are already pre-approved"
+      ],
+      "answer": 2,
+      "explain": "Predictions used as pressure push buyers away and break your scope. Ask which part feels too high instead."
+    }
+  ]
+}

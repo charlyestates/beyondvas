@@ -1,0 +1,712 @@
+{
+  "id": "I2",
+  "part": "isa",
+  "title": "Speed to lead and the 3-strike cadence",
+  "summary": "Reach every new lead within minutes, inside the legal calling window, with a call, a text and a second call that follow one proven rhythm.",
+  "objectives": [
+    "Explain why the first five minutes decide most internet leads, and quote the research behind it.",
+    "Launch your first call within 180 seconds of a lead arriving, after a 30-second pre-dial check of consent, time zone and state.",
+    "Run the 3-strike cadence (call, text, second call) correctly, including when a lead arrives late in the day or after hours.",
+    "Leave a voicemail of 20 seconds or less and send a personalized first text that gets replies.",
+    "Handle missed inbound calls and lead texts fast, with a reply that always asks for the appointment."
+  ],
+  "lessons": [
+    {
+      "id": "I2-1",
+      "title": "The 5-minute rule: why speed wins",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Speed to lead is the time between the moment a lead arrives in your client's CRM and the moment you first try to reach them. For internet leads, it is the single biggest factor you control. Your client pays for leads from portals, ads and their website. Every minute you wait, that money loses value."
+        },
+        {
+          "t": "p",
+          "text": "**The research.** Contacting an internet lead within **5 minutes** makes the odds of qualifying it about **21 times higher** than waiting 30 minutes. That number comes from the Lead Response Management Study by Dr. James Oldroyd (MIT) with InsideSales.com, 2007. Many real estate teams report the same pattern: the first helpful agent to call often wins the client."
+        },
+        {
+          "t": "callout",
+          "title": "Your house rule",
+          "text": "Your dialer must launch within **180 seconds** (3 minutes) of lead arrival. All of this happens inside the calling window. A lead that arrives after hours gets its first call as soon as the window opens in the lead's time zone."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Time since the lead arrived",
+            "What it means"
+          ],
+          "rows": [
+            [
+              "0:00",
+              "Lead arrives in Follow Up Boss"
+            ],
+            [
+              "3:00",
+              "Dialer launched, at the latest"
+            ],
+            [
+              "5:00",
+              "Best window closes"
+            ],
+            [
+              "30:00",
+              "Odds of qualifying about 21x lower"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Why are the first minutes so powerful?** Think back to Maria on her couch (module I1). When she taps “Contact agent,” three things are true at the same moment:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Her attention is on the home.** The listing is still open on her phone. In 30 minutes she is cooking dinner, driving or asleep.",
+            "**Her question is fresh.** She remembers exactly what she wanted to ask. Tomorrow, she may not even remember which website she used.",
+            "**She is talking to several people.** Many portals and ads send inquiries to more than one agent, and many buyers contact several homes. The first friendly, helpful voice usually becomes “their agent.”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The calling window always wins over speed.** Speed never means breaking the law. Your calling window is **9:00 AM to 8:00 PM in the lead's local time, Monday to Saturday, and noon to 8:00 PM on Sunday.** Texts follow the same window. If a lead arrives at 10:40 PM in their time zone, you do not call and you do not text. Their first call happens at 9:00 AM their time the next morning (or noon if it is Sunday), and it is the first call you make when the window opens. Some states are stricter; your manager gives you the rules for each state before you dial. Module F6 covers this in full."
+        },
+        {
+          "t": "p",
+          "text": "**Speed is a habit, not a mood.** Most people answer leads fast when they are not busy and slowly when they are. Elite ISAs answer fast every time, because they set up their day around it. A new lead interrupts everything except a live conversation. If you are writing a note, you stop and dial. If you are on a call, you finish politely and dial right after."
+        },
+        {
+          "t": "p",
+          "text": "**The lead lifecycle.** Speed is the first step in a pipeline that every lead moves through. Know the pipeline, because each step has an owner and a clear action:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**New Inbound Lead:** the lead arrives from a portal, ad, website or sign call. It lands on the New Speed-to-Lead Smart List.",
+            "**Speed Call:** you dial within 180 seconds, inside the window, and run the 3-strike cadence if they do not answer.",
+            "**A.L.M. Qualified:** you learn Appointment, Location and Motivation and set the appointment.",
+            "**Direct Agent Handoff:** you hand the lead to your client, the agent, with a clean note and a calendar invite.",
+            "**In-Escrow Tracker:** the agent works the deal; the lead is now in a transaction."
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Stop what you are doing when a new lead arrives (unless you are in a live conversation).",
+            "Check the lead's local time before every first call.",
+            "Make after-hours leads your first calls when the window opens."
+          ],
+          "dont": [
+            "Wait until you have “a few leads” to call them together.",
+            "Call or text outside 9 AM to 8 PM (noon to 8 PM Sunday) in the lead's time zone.",
+            "Assume someone else on the team already called."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I2-2",
+      "title": "Your speed station and the 30-second pre-dial check",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "You cannot call within 180 seconds if you have to search for the lead, log in again or open five tabs. Fast ISAs prepare their workstation before the shift starts. We call it your speed station."
+        },
+        {
+          "t": "p",
+          "text": "**Set up your speed station at the start of every shift:**"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Clock in on Hubstaff. Your time and screenshots start now.",
+            "Open Follow Up Boss in your browser, with the **New Speed-to-Lead** Smart List (leads 0 to 15 minutes old) in its own tab.",
+            "Turn on new-lead notifications (sound and desktop) in Follow Up Boss. Test them once.",
+            "Check your headset, microphone and internet. Have your backup internet ready.",
+            "Open your text and voicemail templates so you can personalize them in seconds.",
+            "Check the time zones you will call today and any state rules your manager gave you."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The 30-second pre-dial check.** When a new lead appears, you have 180 seconds. Use the first 30 to read the lead profile. Never skip this: it keeps you legal and it makes your opener personal."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Check",
+            "Where to look",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Source",
+              "Lead source field (portal, ad, website, sign call)",
+              "Tells you which opener to use and how warm the lead is"
+            ],
+            [
+              "What they asked about",
+              "The inquiry or property field and their message",
+              "Your opener names the home or the question"
+            ],
+            [
+              "Local time and state",
+              "Area code, address or property location",
+              "Calling window and state rules; the lead's state counts"
+            ],
+            [
+              "Consent to texts",
+              "Form consent, tags, or notes",
+              "Text only leads who agreed to texts"
+            ],
+            [
+              "DNC and history",
+              "Tags, stage, previous notes",
+              "Never contact a lead tagged DNC; see who talked to them before"
+            ],
+            [
+              "Assigned agent",
+              "Assigned-to field",
+              "The person whose calendar you book"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Inbound versus other lists.** A new inbound lead asked to be contacted, so you may call them inside the window. Any other list (an old database, a farm list, a purchased list) may be called only if it was scrubbed against the National Do Not Call Registry and your client's own DNC list. Speed-to-lead is about inbound leads. Never treat an old list like a fresh inquiry."
+        },
+        {
+          "t": "callout",
+          "title": "Dial by hand",
+          "text": "You dial every number by hand. Never use an autodialer or a prerecorded message unless your manager confirms written consent. Speed comes from preparation, not from machines."
+        },
+        {
+          "t": "p",
+          "text": "**Time zones, the practical way.** You may work from Honduras or elsewhere in Latin America while your client is in Florida and the lead is in California. Always think in the **lead's** local time. Keep a small table on your desk with the current difference between your time and each US time zone. Remember that most of the US changes its clocks twice a year (daylight saving time, from March to November), while Honduras does not, so the difference changes. Arizona (most of it) and Hawaii do not change either. When you are unsure, check a world clock before you dial."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Example",
+            "Lead's local time",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "Lead in California arrives Tuesday",
+              "8:15 AM Pacific",
+              "Wait. First call at 9:00 AM Pacific; set a task for 8:59"
+            ],
+            [
+              "Lead in New York arrives Monday",
+              "7:50 PM Eastern",
+              "Call now. Text at 7:52 if they agreed to texts. Second call tomorrow at 9:00 AM"
+            ],
+            [
+              "Lead in Texas arrives Sunday",
+              "10:05 AM Central",
+              "Wait. Sunday calls start at noon. First call at 12:00 PM Central"
+            ],
+            [
+              "Lead in Florida arrives Saturday",
+              "8:20 PM Eastern",
+              "Too late. First call Sunday at 12:00 PM Eastern"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Never batch your leads.** A common mistake is to “collect” new leads and call them all at the top of the hour. That turns a 2-minute response into a 40-minute response, and you lose most of the 21x advantage. One lead arrives, one lead gets dialed."
+        },
+        {
+          "t": "p",
+          "text": "**When two leads arrive at once.** Call the first one. If they do not answer, leave the voicemail, send the text (if they agreed), then dial the second lead. A full Strike 1 and Strike 2 takes about two minutes, so both leads are still inside five minutes. If you are on a live conversation with lead 1, finish it well, then dial lead 2 immediately and tell your manager if leads are piling up."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Prepare your speed station before your first lead arrives.",
+            "Read source, inquiry, local time, state, consent and history before you dial.",
+            "Think in the lead's local time, every time."
+          ],
+          "dont": [
+            "Text a lead who did not agree to texts.",
+            "Call a list that has not been scrubbed against the Do Not Call Registry.",
+            "Use an autodialer or recorded message without the manager's confirmation of written consent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I2-3",
+      "title": "The 3-strike inbound cadence",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most new leads do not answer the first call. They are at work, driving, or they do not recognize the number. That is normal. What matters is what you do next. Every BeyondVAs ISA follows the same rhythm, called the **3-strike cadence**."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Strike",
+            "When",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "Strike 1: Call",
+              "0 min",
+              "Outbound call. Let it ring 5 to 6 times. If no answer, leave a 20-second voicemail."
+            ],
+            [
+              "Strike 2: Text",
+              "2 min",
+              "Immediate personalized text message referencing their property inquiry, to leads who agreed to texts."
+            ],
+            [
+              "Strike 3: Call",
+              "About 4 hours later",
+              "Second phone call, before the 6:00 PM evening rush in the lead's time zone."
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Every strike stays inside the calling window",
+          "text": "Texts included. If Strike 3 would land after hours, make it first thing the next morning, when the window opens in the lead's time zone."
+        },
+        {
+          "t": "p",
+          "text": "**Strike 1: the call.** Let the phone ring 5 to 6 times. Do not hang up after two rings: many people need a moment to find their phone. If voicemail answers, leave a short, friendly message of **20 seconds or less** (lesson I2-5 has scripts). Name yourself, your client's team, the home they asked about, and say you will text them. Then log the attempt."
+        },
+        {
+          "t": "p",
+          "text": "**Strike 2: the text, at 2 minutes.** Many people do not answer unknown numbers but do read texts. The text must be personal: use their first name, name the home or question, and ask an easy question. Send it only if the lead agreed to texts (portal and ad forms usually include that consent; ask your manager if you are not sure)."
+        },
+        {
+          "t": "script",
+          "title": "A Strike 2 text",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Jordan, this is Ana with the Rivera Home Team. I just tried calling about the 3-bed on Maple Ave you asked about. Would you like to see it this week? Daniel can show it Thursday at 5 or Saturday at 11."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Strike 3: the second call, about 4 hours later.** Call again before 6:00 PM in the lead's time zone. After 6 PM, families are cooking, picking up kids and eating, and fewer people answer. Set a task in Follow Up Boss for Strike 3 as soon as you finish Strike 2, so you never rely on memory."
+        },
+        {
+          "t": "p",
+          "text": "**Worked examples.** Practice the timing until it is automatic:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Lead arrives (lead's time)",
+            "Strike 1",
+            "Strike 2",
+            "Strike 3"
+          ],
+          "rows": [
+            [
+              "Tuesday 10:12 AM",
+              "10:13 AM call + voicemail",
+              "10:15 AM text",
+              "About 2:15 PM call"
+            ],
+            [
+              "Tuesday 2:40 PM",
+              "2:41 PM",
+              "2:43 PM",
+              "Before 6:00 PM (around 5:30 PM), or 9:00 AM Wednesday if you cannot"
+            ],
+            [
+              "Tuesday 6:30 PM",
+              "6:31 PM",
+              "6:33 PM",
+              "Wednesday 9:00 AM (first thing in the window)"
+            ],
+            [
+              "Saturday 7:55 PM",
+              "7:56 PM",
+              "7:58 PM",
+              "Sunday 12:00 PM (noon is when the Sunday window opens)"
+            ],
+            [
+              "Wednesday 9:45 PM",
+              "Thursday 9:00 AM",
+              "Thursday 9:02 AM",
+              "About 1:00 PM Thursday"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**When the lead answers at any strike,** the cadence stops and the conversation begins: A.L.M., then the appointment. When the lead texts back, reply quickly (lesson I2-4). When the lead says “stop,” “remove me” or “don't call,” the cadence stops forever: tag them DNC, move the stage to Archived / DNC, pause every automation and log it. Never argue."
+        },
+        {
+          "t": "p",
+          "text": "**After the third strike.** If the lead has not answered after three strikes, they are not lost. They move into your client's follow-up plan (often an action plan in Follow Up Boss) with scheduled calls and texts over the next days and weeks. Module I9 teaches long-term follow-up. Your job now is to log all three attempts cleanly so the plan starts on time."
+        },
+        {
+          "t": "p",
+          "text": "**Logging each strike.** Every attempt gets logged in Follow Up Boss: the call with its disposition (no answer, voicemail left), the text, and the task for the next step. A lead with three logged attempts tells your client you did your job. A lead with no history looks like it was ignored, even if you called."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Ring 5 to 6 times before you give up on a call.",
+            "Send Strike 2 about 2 minutes after Strike 1, only to leads who agreed to texts.",
+            "Create the Strike 3 task immediately, timed before 6 PM in the lead's time zone."
+          ],
+          "dont": [
+            "Wait 3 days before the second attempt.",
+            "Mark an unanswered lead as Trash or DNC.",
+            "Let Strike 3 fall outside the calling window."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I2-4",
+      "title": "Missed calls, inbound texts and the reply rule",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "Speed to lead is not only about new leads. It is also about leads who reach out to you: a missed call from a lead, a text reply, an email. A lead who contacts you is the warmest lead you will ever have. Treat their message like a brand-new lead."
+        },
+        {
+          "t": "p",
+          "text": "**Missed a live call? Call back inside 60 seconds.** If a lead calls your client's line while you are on another call, call them back the moment you hang up, inside 60 seconds if you can. They just tried to reach you. In two minutes they may call the next agent on the list."
+        },
+        {
+          "t": "p",
+          "text": "**The reply rule.** Every lead who texts or emails gets a reply fast, and the reply **asks for the appointment.** Your client sets the exact standard (many teams use two hours or less); during your shift, aim for minutes. If the message arrives outside the calling window, reply when the window opens in the lead's time zone. “Next week” is a lost client."
+        },
+        {
+          "t": "script",
+          "title": "Dana has been waiting",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Hi, it's Dana. I texted this morning about the house on 10th Street, did you get it? Is it still available?"
+            },
+            {
+              "who": "You",
+              "text": "Hi Dana, yes, and sorry for the wait. I'll check with Daniel that 10th Street is still available and confirm right away. Would you like to see it tomorrow afternoon or Saturday morning?"
+            },
+            {
+              "who": "Lead",
+              "text": "Saturday morning works. Thank you!"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Look at the reply. It apologizes once (not three times), it answers the question honestly (you confirm availability with the agent instead of guessing), and it offers two times. Compare it with weak replies:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Reply",
+            "Why it fails"
+          ],
+          "rows": [
+            [
+              "“Got it. I'll get back to you next week with options.”",
+              "Too slow, and no appointment. A lost client."
+            ],
+            [
+              "“Text me on my personal WhatsApp, it's faster.”",
+              "All client communication stays in the client's systems (Follow Up Boss). Never move a lead to a personal number."
+            ],
+            [
+              "“So sorry, so sorry, we have been very busy, so sorry!”",
+              "One clear apology is enough. Too many sound unprofessional."
+            ],
+            [
+              "“Yes it's available, the price is negotiable.”",
+              "You never discuss price or terms, and you never guess availability."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Read the whole history before you reply.** Before you answer a text, open the lead's profile and read the last notes and messages. Maybe the agent already talked to Dana yesterday. Maybe she asked a different question last week. A reply that ignores the history (“Hi! Are you looking to buy?”) tells the lead nobody is paying attention."
+        },
+        {
+          "t": "p",
+          "text": "**Questions you cannot answer.** Leads often text questions that need a license or information you do not have: “Will the seller take less?”, “What are the HOA fees?”, “Is the roof new?”, “Can I buy with no money down?” Do not guess. Use a bridge: acknowledge the question, say who will answer it, and ask for the appointment."
+        },
+        {
+          "t": "script",
+          "title": "A bridge reply",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Would the seller take $20K less?"
+            },
+            {
+              "who": "You",
+              "text": "Great question for Daniel, our agent. He handles everything about price and offers. He can talk it through with you on a quick call today at 4 or tomorrow at 11. Which is better?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Emails.** Some leads prefer email. The same rule applies: reply quickly, personally, and ask for the appointment. Keep emails short: three to five sentences, the home they asked about, two times, and your name and the team's name. Never send attachments or documents the agent has not approved."
+        },
+        {
+          "t": "callout",
+          "title": "Opt-out words end the conversation",
+          "text": "If any message says STOP, “remove me,” “unsubscribe,” or “don't call/text me,” do not reply with a sales message. Tag DNC, move the stage to Archived / DNC, pause all automations, and log the opt-out. Never delete the contact."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Call back a missed lead call inside 60 seconds.",
+            "Reply to texts fast, inside the window, and ask for the appointment with two times.",
+            "Read the history before every reply."
+          ],
+          "dont": [
+            "Move a lead to your personal phone or WhatsApp.",
+            "Guess about price, availability, HOA fees or loans.",
+            "Send a sales reply to a STOP message."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I2-5",
+      "title": "Voicemails, texts and emails that get answered",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Strike 1 often ends in voicemail, and Strike 2 is always a text. The words you choose decide whether the lead calls back. This lesson gives you templates and the rules behind them, so you can adapt them to any client."
+        },
+        {
+          "t": "p",
+          "text": "**Voicemail: 20 seconds or less.** A long voicemail does not get heard. Speak a little slower than normal, smile while you talk (people can hear it), and say your name and callback number clearly. Follow this structure:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Their name and your name: “Hi Jordan, this is Ana with the Rivera Home Team.”",
+            "Why you are calling: “You asked about the 3-bed on Maple Avenue.”",
+            "An easy next step: “I'll send you a quick text. You can reply there or call me at 555-0142.”",
+            "Your number again, slowly: “That's 555-0142. Talk soon.”"
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Voicemail templates by source",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Portal inquiry: “Hi Jordan, this is Ana with the Rivera Home Team. You asked about the 3-bed on Maple Avenue. I'm sending you a quick text with times to see it. You can also call me at 555-0142. That's 555-0142. Talk soon.”"
+            },
+            {
+              "who": "You",
+              "text": "Ad lead: “Hi Priya, Ana here with the Rivera Home Team. You asked for the list of homes from our ad. I'll text you now so you can tell me which areas you like. My number is 555-0142. Again, 555-0142.”"
+            },
+            {
+              "who": "You",
+              "text": "Website sign-up: “Hi Sam, this is Ana with the Rivera Home Team. Thanks for signing up on our website. I'll text you a quick question about what you're looking for. My number is 555-0142. Again, 555-0142. Thanks!”"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Texts: short, personal, one question.** A good first text has four parts: their first name, who you are and which team, the home or request they asked about, and **one** easy question, usually two appointment times. Keep it under 300 characters. No links unless your client approves them. No ALL CAPS, no emojis in a first message, no pressure."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "Template (fill in the brackets)"
+          ],
+          "rows": [
+            [
+              "Portal inquiry",
+              "Hi [first name], this is [you] with [client team]. You asked about [address]. Would you like to see it? [Agent] can show it [day/time] or [day/time]."
+            ],
+            [
+              "Ad lead",
+              "Hi [first name], [you] here with [client team]. Thanks for asking about homes in [area]. What matters most to you in your next home?"
+            ],
+            [
+              "Website sign-up",
+              "Hi [first name], it's [you] with [client team]. Thanks for registering. Are you looking to buy in the next few months, or just starting to look?"
+            ],
+            [
+              "Open house sign-in",
+              "Hi [first name], [you] with [client team]. Thanks for visiting [address] on Saturday. What did you think of it?"
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Check your scope before you use any template",
+          "text": "Your client approves every template you send. In some states (Texas, for example), an unlicensed assistant may not call to find out whether someone wants to buy, sell or lease. Your manager sets your scope, and your client's approved scripts replace these examples where they differ."
+        },
+        {
+          "t": "p",
+          "text": "**What makes a lead reply.** Leads answer questions that are easy and specific. “Let me know if you have any questions” gets silence: it puts all the work on the lead. “Would Thursday at 5 or Saturday at 11 work?” gets an answer, because it takes two seconds to choose. If they are not ready for an appointment, a question about the home works too: “What did you like most about it?”"
+        },
+        {
+          "t": "p",
+          "text": "**Common mistakes.** Writing a paragraph instead of two sentences. Sending the same generic text to every lead (“Hi! Are you still looking?”). Forgetting to name the home. Writing in a way that sounds like a robot. Sending a text at 9:15 PM because “it is only a text” (texts follow the calling window). Promising anything about price, the seller or loans."
+        },
+        {
+          "t": "p",
+          "text": "**The email touch.** Many clients also send an email within the first hour, either automatically through an action plan or written by you. If you write it, use the same structure as the text: name, home, two times, signature. Then log it."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Keep voicemails to 20 seconds and say your number twice.",
+            "Name the home or request in every first message.",
+            "End every message with one easy question."
+          ],
+          "dont": [
+            "Leave a long voicemail with your life story.",
+            "Send generic texts like “Still looking?” to a brand-new lead.",
+            "Text outside the calling window or to leads who did not agree to texts."
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Speed drills, cadence timing and your message kit",
+    "minutes": 90,
+    "intro": "You will practice speed and the cadence until they are automatic. Use your Follow Up Boss practice account (or the practice leads your coach gives you), a timer, and fictional leads only. Never contact a real lead for practice.",
+    "steps": [
+      "Set up your speed station exactly as in lesson I2-2. Take a screenshot of your screen layout (with no real client data visible).",
+      "Time-zone worksheet (20 minutes): your coach gives you 10 lead arrival times in different states and days. For each one, write the lead's local time, the exact time of Strike 1, Strike 2 and Strike 3, and whether you text. Mark any lead you must not contact yet.",
+      "Speed drill (20 minutes): your coach (or a partner) adds 5 practice leads to your practice account at random times. For each one, do the 30-second pre-dial check, then “dial” (call your partner) and start the timer when the lead appears. Record your time from arrival to dial. Goal: every lead under 180 seconds.",
+      "Write your message kit (20 minutes): one voicemail and one first text for each source (portal, ad, website, open house), personalized with fictional names and 555 numbers. Every voicemail must read in 20 seconds or less: time yourself.",
+      "Record your four voicemails as audio. Listen back. Re-record any that are over 20 seconds or unclear.",
+      "Reply drill (15 minutes): answer these three fictional lead texts in writing: (a) “Is the house on Pine St still available?” (b) “Would the seller take less?” (c) “STOP texting me.” Use the reply rule, the bridge reply, and the opt-out procedure.",
+      "Log each practice lead's attempts in your practice account: call disposition, voicemail, text, and a Strike 3 task at the right time."
+    ],
+    "deliverable": "Send your coach (in your BeyondVAs training channel): your completed time-zone worksheet, your speed-drill times for all 5 leads, your written message kit, the 4 voicemail recordings, your 3 written replies, and a screenshot of one practice lead's activity log showing all three strikes."
+  },
+  "quiz": [
+    {
+      "q": "What is the primary objective of an ISA during the first 3 minutes of an inbound lead arrival?",
+      "options": [
+        "Explain closing costs and draft a mock buyer representation contract.",
+        "Initiate contact immediately, execute ALM qualification, and secure an agent appointment.",
+        "Wait 30 minutes to make sure the client isn’t busy browsing properties.",
+        "Assign the lead to an automated email drip without calling."
+      ],
+      "answer": 1,
+      "explain": "Speed-to-lead is king. The goal is rapid engagement and securing the appointment using ALM."
+    },
+    {
+      "q": "If an inbound lead doesn’t answer your first call, what is the required next step?",
+      "options": [
+        "Wait 3 days before calling back.",
+        "Immediately send a targeted text message addressing their inquiry and schedule the afternoon follow-up call.",
+        "Mark the lead as Trash/DNC.",
+        "Assign the lead to an external call center."
+      ],
+      "answer": 1,
+      "explain": "Immediate text follow-up captures leads who prefer texting over answering unfamiliar numbers."
+    },
+    {
+      "q": "According to the Lead Response Management Study (Oldroyd, MIT, with InsideSales.com, 2007), contacting a lead within 5 minutes instead of 30 minutes makes the odds of qualifying it about:",
+      "options": [
+        "2 times higher",
+        "5 times higher",
+        "21 times higher",
+        "100 times higher"
+      ],
+      "answer": 2,
+      "explain": "About 21 times higher. That is why your dialer must launch within 180 seconds of a lead arriving, inside the calling window."
+    },
+    {
+      "q": "A portal lead in California arrives at 8:15 AM Pacific time on a Tuesday. What do you do?",
+      "options": [
+        "Call immediately; speed matters more than the window",
+        "Send a text now and call at 9:00 AM",
+        "Wait until the afternoon so you don't bother them",
+        "Wait and make your first call at 9:00 AM Pacific, the moment the window opens"
+      ],
+      "answer": 3,
+      "explain": "The calling window (9 AM to 8 PM Monday to Saturday in the lead's local time) applies to calls and texts. The lead gets the first call as soon as the window opens."
+    },
+    {
+      "q": "A new lead arrives at 6:30 PM their time on a Tuesday. When is Strike 3?",
+      "options": [
+        "At 10:30 PM, exactly 4 hours later",
+        "Wednesday at 9:00 AM their time, first thing in the window",
+        "Next Monday",
+        "Never; after 6 PM you skip Strike 3"
+      ],
+      "answer": 1,
+      "explain": "Every strike stays inside the calling window. If Strike 3 would land after hours, make it first thing the next morning."
+    },
+    {
+      "q": "How long should your Strike 1 voicemail be?",
+      "options": [
+        "20 seconds or less",
+        "About 1 minute, to explain everything",
+        "2 minutes, including the listing details",
+        "Do not leave voicemails"
+      ],
+      "answer": 0,
+      "explain": "Let it ring 5 to 6 times; if no answer, leave a voicemail of 20 seconds or less with your name, the home, and your number said twice."
+    },
+    {
+      "q": "A lead's form shows they did NOT agree to texts. They miss your first call. What do you do for Strike 2?",
+      "options": [
+        "Text anyway; it's only a text",
+        "Skip the text, log the call and voicemail, and set the Strike 3 call task",
+        "Text from your personal phone instead",
+        "Mark them DNC"
+      ],
+      "answer": 1,
+      "explain": "Text only leads who agreed to texts. Without consent, you continue with calls inside the window and log everything."
+    },
+    {
+      "q": "Dana texted three hours ago asking if the house on 10th Street is available. Which reply is best?",
+      "options": [
+        "“Got it. I'll get back to you next week with some options.”",
+        "“Text me on my personal cell instead, it's faster.”",
+        "“Hi Dana, sorry for the wait. I'll confirm with Daniel that it's available right away. Want to see it tomorrow afternoon or Saturday morning?”",
+        "“Yes, and the seller is flexible on price.”"
+      ],
+      "answer": 2,
+      "explain": "Apologize once, answer honestly without guessing, and ask for the appointment with two times. Never move leads to a personal phone or discuss price."
+    },
+    {
+      "q": "Which is the correct order of the lead lifecycle?",
+      "options": [
+        "Speed Call, New Inbound Lead, Direct Agent Handoff, A.L.M. Qualified, In-Escrow Tracker",
+        "New Inbound Lead, A.L.M. Qualified, Speed Call, In-Escrow Tracker, Direct Agent Handoff",
+        "New Inbound Lead, Direct Agent Handoff, Speed Call, A.L.M. Qualified, In-Escrow Tracker",
+        "New Inbound Lead, Speed Call, A.L.M. Qualified, Direct Agent Handoff, In-Escrow Tracker"
+      ],
+      "answer": 3,
+      "explain": "A lead arrives, gets the speed call, is A.L.M.-qualified, is handed to the agent, and then is tracked in escrow."
+    },
+    {
+      "q": "A lead called your client's line while you were on another call. What should you do when you hang up?",
+      "options": [
+        "Call them back inside 60 seconds",
+        "Wait for them to call again",
+        "Send an email tomorrow",
+        "Add them to the 30-60 day nurture list"
+      ],
+      "answer": 0,
+      "explain": "A lead who calls you is the warmest lead you have. Call back inside 60 seconds, before they call the next agent."
+    }
+  ]
+}

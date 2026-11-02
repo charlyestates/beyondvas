@@ -1,0 +1,711 @@
+{
+  "id": "F3",
+  "part": "foundations",
+  "title": "Your tools",
+  "summary": "Set up and use the tools every BeyondVAs assistant works with: your workstation and backups, the outage protocol, Hubstaff, the password vault, Google Workspace and Follow Up Boss.",
+  "objectives": [
+    "Prepare a workstation with backup internet and backup power, and follow the outage protocol without losing client time or trust.",
+    "Track your time honestly in Hubstaff: clock in and out correctly, write task notes, and explain low activity before it becomes a question.",
+    "Protect client accounts and data: use the password vault, recognize phishing and fraud attempts, and never download or export client data.",
+    "Use Gmail, Google Calendar, Docs, Sheets and video calls the way a US client expects, with every time in the right time zone.",
+    "Find your way around Follow Up Boss: people, profiles, stages, tags, tasks, notes, Smart Lists and action plans."
+  ],
+  "lessons": [
+    {
+      "id": "F3-1",
+      "title": "Your workstation, internet and power",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "A US client cannot see your office, but they feel it on every call and every task. A dropped call, a frozen screen or barking in the background costs trust. Before your first client, your workstation must be ready and tested. BeyondVAs verified your computer, internet and backup during your application. This lesson explains what “ready” means every single day."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Item",
+            "What you need",
+            "Why"
+          ],
+          "rows": [
+            [
+              "Computer",
+              "A modern laptop or desktop with webcam, updated operating system and antivirus, used only by you for client work",
+              "Client tools run in the browser; slow or shared machines cause errors and security risks"
+            ],
+            [
+              "Headset",
+              "A wired or reliable headset with a microphone that reduces noise",
+              "Leads must hear you clearly; laptop microphones pick up the room"
+            ],
+            [
+              "Main internet",
+              "A stable home connection, with the computer connected by cable when possible",
+              "Cable is more stable than Wi-Fi for calls and video"
+            ],
+            [
+              "Backup internet",
+              "A mobile hotspot with enough data, ideally from a different provider than your home internet",
+              "If your main internet fails, you switch in minutes"
+            ],
+            [
+              "Backup power",
+              "A laptop with several hours of battery, or a battery backup (UPS) for the computer and router",
+              "Power outages happen; your router needs power too"
+            ],
+            [
+              "Work space",
+              "A quiet room with a door, good light, a neutral background",
+              "Clients and leads should hear only you"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Test your internet.** Run a speed test at the start of your first week and whenever calls sound bad. Look at three numbers: download speed, upload speed and ping (also called latency). For voice and video calls, upload and ping matter most. Your coordinator gives you the minimum for your role; as a general guide, a stable connection with a low ping (under about 100 milliseconds) is more important than a very high download speed. Take a screenshot of the result for your main and your backup connection; you will send both in the practice."
+        },
+        {
+          "t": "p",
+          "text": "**Test your backup before you need it.** Many VAs have a backup that does not work when the moment comes: the hotspot has no data, the phone battery is low, or the UPS battery is old. Once a week, switch to your backup for five minutes and make a test call. Keep your phone charged during your shift, and keep enough data on the plan for at least half a day of work."
+        },
+        {
+          "t": "callout",
+          "title": "Your personal checklist, every morning",
+          "text": "Fifteen minutes before your shift: computer charged and updated, headset connected and tested, internet working, phone charged with hotspot data, battery backup on, client tools open and logged in through the vault, world clock showing your client’s time zone. Then clock in."
+        },
+        {
+          "t": "p",
+          "text": "**Noise and privacy.** Tell the people you live with your working hours. Close the door. Put pets in another room during calls. Turn off notifications on your phone and computer that are not work related. Remember that Hubstaff screenshots show your whole screen while you are clocked in: keep only client work open, and never open personal email, social media or banking during your shift."
+        },
+        {
+          "t": "p",
+          "text": "**Separate work and personal.** Use a separate browser profile for client work, so client tabs, logins and history never mix with your personal ones. Do not let anyone else use the computer you work on. If you share a computer at home, talk to your coordinator before your first shift."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Connect by cable when you can, and keep Wi-Fi as a second option.",
+            "Test your backup internet and power once a week.",
+            "Keep your workspace quiet and your screen showing only client work."
+          ],
+          "dont": [
+            "Work from a café, a car or any public Wi-Fi with client data.",
+            "Let family members use your work computer.",
+            "Wait for an outage to find out your hotspot has no data."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**An example.** Luis works for a team in Houston. One afternoon a storm hits his city and the power goes out. His laptop keeps running on battery, but his router turns off. Because he tested his hotspot that Monday, he switches in under two minutes, tells his manager and posts a short note in the client channel. The client barely notices. A month later, the client asks BeyondVAs for a second VA, “someone like Luis”. Preparation is invisible when it works, and that is the point."
+        }
+      ]
+    },
+    {
+      "id": "F3-2",
+      "title": "The outage protocol",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Internet and power outages are not your fault. How you handle them is your responsibility. A VA who disappears for two hours during an outage loses trust. A VA who follows the protocol keeps it, even if work stops for a while. Learn these steps until they are automatic."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Tell your manager at once.** Message your BeyondVAs manager from your phone the moment the outage starts: what happened, when, and what you are doing.",
+            "**Switch to your backup.** Turn on your hotspot or battery backup and reconnect. Most switches take a few minutes.",
+            "**Tell the client channel.** Post a short, calm note: you are on backup and working, or you are offline and when you will update them.",
+            "**Handle what was interrupted.** If a call dropped, call or text the lead back as soon as you are connected (inside the calling window). If you were in the middle of a task, check that nothing was saved half done.",
+            "**Fix your time.** If you could not work for a period, clock out in Hubstaff for that time, or tell your manager so the record is correct. Never leave the timer running while you cannot work.",
+            "**Update and close.** When the outage ends, tell your manager and the client channel that you are back to normal, and add a line to your daily report."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Outage messages that build trust",
+          "lines": [
+            {
+              "who": "You",
+              "text": "(to your manager) Hi Carla, power outage in my area since 2:10 PM my time. Laptop on battery, switching to my phone hotspot now. Will confirm in 5 minutes."
+            },
+            {
+              "who": "You",
+              "text": "(to your manager, 5 minutes later) Back online on hotspot. Calls sound clear. I’ll keep you posted if anything changes."
+            },
+            {
+              "who": "You",
+              "text": "(in the client channel) Hi Mark, quick heads-up: power outage here, I’m on backup and working normally. If my connection drops, I’ll switch to tasks and update you within 15 minutes."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**If the backup also fails.** Sometimes both connections are down, for example during a big storm. Then your manager decides what happens next: they may tell the client, ask a teammate to cover urgent work like new leads, or agree on a time to check in again. Your job is to keep your manager informed with honest updates, for example every 30 minutes by phone, and to not make promises to the client that you cannot keep."
+        },
+        {
+          "t": "callout",
+          "title": "Speed to lead does not stop",
+          "text": "If you are an ISA, new leads keep arriving during your outage, and the first team to call usually wins them. That is why your manager must know immediately: they can make sure someone covers new leads while you reconnect. Five minutes of silence from you can cost your client a buyer."
+        },
+        {
+          "t": "p",
+          "text": "**What you must never do during an outage.** You may want to “keep working” by saving client files on your computer or phone to work offline. Do not. You never download or export client data, not even during an outage. You also never use a public Wi-Fi network in a café to continue client work; it is not secure. If you cannot work safely, you stop, clock out and tell your manager. A safe pause is always better than a data risk."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "Right action"
+          ],
+          "rows": [
+            [
+              "Internet drops for 30 seconds during a call",
+              "Reconnect, call the lead back right away, apologize briefly: “Sorry, my line dropped.”"
+            ],
+            [
+              "Power out, laptop on battery, router off",
+              "Switch to hotspot, tell your manager, note in client channel."
+            ],
+            [
+              "Hotspot and power both down for an hour",
+              "Tell your manager by phone, clock out, update every 30 minutes, follow their plan."
+            ],
+            [
+              "You expect a planned outage tomorrow (your power company announced it)",
+              "Tell your manager today, plan to work on backup, confirm with the client channel."
+            ],
+            [
+              "Your computer breaks",
+              "Tell your manager at once. Never move client work to a borrowed or family computer without approval."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Planned outages.** In many areas, power companies announce cuts in advance. If you know about one, tell your manager the day before and make sure your backup battery and hotspot are ready. Your client will appreciate the warning more than any explanation after the fact."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Message your manager first, within minutes.",
+            "Keep the client informed with short, calm notes.",
+            "Correct your tracked time for any period you could not work."
+          ],
+          "dont": [
+            "Disappear and explain later.",
+            "Download client files to work offline, or use public Wi-Fi.",
+            "Blame the client’s tools or the weather in a long message. Short and factual is best."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F3-3",
+      "title": "Hubstaff: time tracking and screenshots",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Hubstaff is the time tracker BeyondVAs uses. It records your hours, takes screenshots and measures activity while you are clocked in. Your hours in Hubstaff are what the client is billed and what you are paid for. The client can see your hours and screenshots. Used well, Hubstaff is your best friend: it proves your work without you having to explain it."
+        },
+        {
+          "t": "p",
+          "text": "**How it works.** You install the Hubstaff desktop app, sign in with the account BeyondVAs creates for you, and choose your client’s project. When you press start, the timer runs. While it runs:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Hubstaff takes **screenshots at random moments, about every two minutes**. You do not know exactly when. If you use two monitors, it captures both.",
+            "It measures **activity**: how much of the time your keyboard or mouse was used. It does not record what you type.",
+            "If you stop using the keyboard and mouse for a while, the time may be marked as **idle**, and the app may ask you whether you were working.",
+            "Your manager and your client see the hours, the activity levels and the screenshots."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Unexplained idle time is reviewed",
+          "text": "Long periods with no activity and no explanation are flagged. Your manager reviews flagged time before the client is billed and may ask you about it. A short task note usually answers the question before anyone asks."
+        },
+        {
+          "t": "p",
+          "text": "**The four habits of clean time.**"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Start when you start.** Clock in when you begin client work, not when you wake up or while you make coffee.",
+            "**Stop for every break.** Lunch, personal calls, errands, a child who needs you: stop the timer. Start it again when you return.",
+            "**Write task notes.** Choose the task if your manager created tasks in Hubstaff, and add a short note when you change activity, especially work with little typing: “Calls: new leads” or “Reading client SOP for listings”.",
+            "**Answer idle prompts honestly.** If Hubstaff asks about idle time and you were away, choose to remove that time. If you were on a call, keep it and add a note."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Low activity is normal for some work.** Calls, video meetings, reading long documents and watching training videos all have little typing. That is real work. The problem is only low activity with no explanation. Compare these two days:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Day A (questions)",
+            "Day B (no questions)"
+          ],
+          "rows": [
+            [
+              "10:00 to 11:30, activity 8%, no note",
+              "10:00 to 11:30, activity 8%, note: “Calls with new leads (12 dials, 3 conversations)”"
+            ],
+            [
+              "Screenshots show the dialer only",
+              "Screenshots show the dialer and the CRM, matching the note"
+            ],
+            [
+              "Daily report: “made calls”",
+              "Daily report: “85 dials, 13 conversations, 2 appointments”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The work was the same; Day B tells a clear story. For ISAs, managers also compare activity with the call log, because a VA on a 20-minute call looks idle to a tracker and is not."
+        },
+        {
+          "t": "p",
+          "text": "**Screenshots and privacy.** Screenshots show your whole screen. That is why you keep only client work open while you are clocked in. Never open personal email, social media, banking or private chats during your shift. If you need to do something personal, stop the timer first. Screenshots may also capture client information, which is why they are visible only to your client and BeyondVAs."
+        },
+        {
+          "t": "p",
+          "text": "**Manual time and corrections.** If you forgot to start the timer, do not add time on your own. Tell your manager the same day with the exact times and what you worked on, and follow their instructions. If you forgot to stop the timer, tell your manager so the extra time is removed. Honest corrections are normal; hidden ones are not."
+        },
+        {
+          "t": "callout",
+          "title": "Zero tolerance",
+          "text": "Never use any device, app or trick that fakes keyboard or mouse activity, and never let someone else work under your account. Hubstaff and your manager can detect these patterns. Fake activity is fraud and ends the placement and your relationship with BeyondVAs."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Start and stop the timer exactly with your work.",
+            "Write a note for calls, meetings and reading.",
+            "Report any forgotten clock-in or clock-out the same day."
+          ],
+          "dont": [
+            "Leave the timer running during breaks.",
+            "Open personal sites or chats while clocked in.",
+            "Add or edit time without telling your manager."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F3-4",
+      "title": "Passwords, the vault and security habits",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Your client trusts you with their CRM, their email and their leads’ names, phone numbers, addresses and sometimes finances. One stolen password can expose all of it. Real estate is also a favorite target for fraud, because large amounts of money move between buyers, sellers and banks. This lesson gives you the habits that keep that information safe."
+        },
+        {
+          "t": "p",
+          "text": "**The password vault.** BeyondVAs gives you access to your client’s tools through a **password vault**: a secure app that stores logins and fills them in for you. You may never even see some passwords. The rules are simple:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Passwords travel **only through the vault**. Never in chat, email, text, a document or a photo.",
+            "If a client tries to send you a password in the channel, reply: “Thanks! Could you add it to the vault instead? We never share passwords in chat.” If they already sent it, tell your manager so the password can be changed.",
+            "Never save client passwords in your browser, a notebook or a file.",
+            "Use a strong, unique password for your own vault account and your Hubstaff account, and turn on two-step verification wherever you can.",
+            "When you leave a client, your access is removed the same day. That protects you as much as the client."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Verification codes.** Many tools send a one-time code to the client’s phone when you sign in. Ask for it in the client channel, use it right away, and never forward a code to anyone else. If you receive a code you did not request, someone may be trying to sign in to that account: tell your manager and the client at once."
+        },
+        {
+          "t": "callout",
+          "title": "Client data never leaves the client’s systems",
+          "text": "You work inside your client’s tools. You never download, export, copy, print or photograph client data, and you never move it to your own computer, phone, email or cloud storage. This is part of your contract. If a client asks you to export a list, tell your coordinator before you do anything."
+        },
+        {
+          "t": "p",
+          "text": "**Phishing: the fake message.** Phishing is a message that pretends to be someone you trust in order to steal a password or money. Watch for these signs:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Urgency and pressure:** “Your account will be closed in 1 hour, log in now.”",
+            "**A sender that is almost right:** mark@parkerhometeam-mail.example.com instead of the client’s real address.",
+            "**A link to a login page** you did not ask for. Open your tools only from the vault or your saved bookmarks, never from a link in an email.",
+            "**Unusual requests from “the boss”:** buy gift cards, change payment details, send a list of contacts, keep it secret.",
+            "**Attachments you did not expect,** especially files that ask you to enable something."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Checking a suspicious request",
+          "lines": [
+            {
+              "who": "Email",
+              "text": "From: “Mark Parker”. Hi, I’m in a showing and can’t talk. I need you to buy four $100 gift cards for a client gift and send me the codes. Urgent, don’t tell anyone."
+            },
+            {
+              "who": "You",
+              "text": "(in the client channel, not replying to the email) Hi Mark, I received an email from an address that looks like yours, asking me to buy gift cards. I haven’t replied or clicked anything. Can you confirm it’s not from you? I’m also letting my manager know."
+            },
+            {
+              "who": "Client",
+              "text": "Definitely not me. Thanks for checking!"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Wire fraud in real estate.** Criminals send fake emails to buyers with new bank instructions for the down payment. You will rarely touch this, but remember: never send, change or confirm any bank or payment details for anyone. If a lead or client mentions new wiring instructions, tell your client right away so the agent can warn the buyer by phone."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Lock your screen every time you stand up.",
+            "Keep your computer and browser updated.",
+            "Report a lost device, a strange login or a clicked bad link to your manager within the hour.",
+            "Check any unusual request in the client channel before you act."
+          ],
+          "dont": [
+            "Install browser extensions or software on client accounts without approval.",
+            "Use public Wi-Fi or a shared computer for client work.",
+            "Feel embarrassed to report a mistake. Fast reporting limits the damage; hiding it multiplies it."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Security is not about being afraid. It is about a few calm habits every day: vault for passwords, client data stays inside, check before you click, and report quickly."
+        }
+      ]
+    },
+    {
+      "id": "F3-5",
+      "title": "Google Workspace and video calls",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most US real estate teams run their office on Google Workspace: Gmail, Calendar, Drive, Docs and Sheets. Some use Microsoft 365 instead; the habits are the same. Your client usually gives you an email address on their own domain, such as sofia@parkerhometeam.example.com. Everything you do there represents your client."
+        },
+        {
+          "t": "p",
+          "text": "**Gmail.** Your client may ask you to manage their inbox or your own team address. Keep it organized:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Use **labels** to sort mail the way your client decides, for example “Leads”, “Listings”, “Showings”, “Vendors”, “Waiting for reply”.",
+            "Use **stars** or a label for anything that needs action, and clear them when done.",
+            "Read each email fully before replying. Reply all only when everyone needs the answer.",
+            "Use templates the client approves for common replies, and personalize the name and details every time.",
+            "Never delete emails unless your client asks. Archive instead."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Google Calendar.** In real estate, the calendar is where money is made: showings, listing appointments and consultations. One wrong time zone can make an agent miss a buyer. Set up your calendar like this: set the **primary time zone to your client’s zone**, and add your own zone as a **secondary time zone**, so you see both clocks on the side of the calendar."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Create the event at the correct time in the right zone, and check it twice.",
+            "Use a clear title: “Showing: Jennifer Walsh, 1820 Elm St”.",
+            "Add the address in the location field, and the details the agent needs in the description (your client will tell you what to include; you will learn the full booking rules in I8).",
+            "Invite the right people only, with the right email addresses.",
+            "Set reminders the way your client wants.",
+            "Never move or delete an event on an agent’s calendar without permission."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Drive, Docs and Sheets.** Your client’s documents live in their Drive. Follow these rules:"
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Save work in the folder your client chooses, with clear names: “2026-11-03 Open house sign-ins, Oak Ave”.",
+            "Share a file only with the specific people who need it, by email address.",
+            "Use comments to ask questions in a document, and suggestion mode to propose changes to someone else’s text.",
+            "Use version history if something goes wrong, instead of trying to rebuild a file.",
+            "Keep spreadsheets clean: one header row, one record per row, no merged cells in data."
+          ],
+          "dont": [
+            "Set any client file to public or “anyone can view” sharing.",
+            "Download client files to your computer, or save them in your personal account.",
+            "Rename, move or delete files that other people use without asking.",
+            "Rewrite someone else’s document directly when suggestion mode is available."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Video calls (Google Meet, Zoom or similar).** Your kickoff, check-ins and team meetings are video calls. Treat them like an in-person meeting."
+        },
+        {
+          "t": "list",
+          "items": [
+            "Join one or two minutes early, with your camera on unless told otherwise.",
+            "Test your headset and microphone before the meeting starts.",
+            "Use a neutral background or a simple blur. Good light in front of you, not behind you.",
+            "Mute yourself when you are not speaking in a group call.",
+            "Keep a notebook open, and write action items with owners and due times.",
+            "Close other tabs and notifications; you may need to share your screen."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "After every meeting",
+          "text": "Within an hour, post a short summary in the client channel: what was decided, what you will do and by when, and any questions. “Summary of today’s check-in: 1) I take over showing confirmations starting Monday. 2) Open-house leads go in the CRM the same day. 3) Question: should I text weekend leads on Sunday afternoon?” This turns a conversation into a record."
+        },
+        {
+          "t": "p",
+          "text": "**An example of a calendar mistake.** A VA created a listing appointment for “Thursday at 5” in her own calendar zone, Honduras, during the summer. Her client was in Los Angeles. The event showed at 4:00 PM Pacific, and the agent arrived an hour early to an empty house. Setting the primary calendar zone to the client’s zone prevents this. Always look at the event in the client’s zone before you send the invite."
+        }
+      ]
+    },
+    {
+      "id": "F3-6",
+      "title": "A tour of Follow Up Boss",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Follow Up Boss (often called FUB) is a CRM: a customer relationship manager. It is the system where your client keeps every lead, every call, every text, every note and every task. Many US real estate teams use it. Others use different CRMs; the ideas in this lesson work in all of them. Your coach gives you a practice account so you can click through everything before you touch a real client’s data."
+        },
+        {
+          "t": "callout",
+          "title": "The most important rule",
+          "text": "**If it is not in the CRM, it did not happen.** Your client’s dashboards, your agents and your manager only see what you log. Every call, text, note, stage change and task is logged the same day, inside the CRM. All lead conversations happen through the client’s systems: never from your personal phone, WhatsApp or personal email."
+        },
+        {
+          "t": "p",
+          "text": "**The main parts of Follow Up Boss.**"
+        },
+        {
+          "t": "glossary",
+          "terms": [
+            {
+              "term": "People",
+              "def": "The list of all contacts (leads, past clients, sphere). You can search, filter and sort it."
+            },
+            {
+              "term": "Person profile",
+              "def": "One contact’s page: name, phones, emails, address, source (where the lead came from), assigned agent, stage, tags, and the timeline."
+            },
+            {
+              "term": "Timeline",
+              "def": "The history on the profile: every call, text, email, note, task and stage change, newest first. Read it before every call."
+            },
+            {
+              "term": "Stage",
+              "def": "Where the person is in the process. Each client names its own stages; in this program you will see stages like New, Attempted Contact, Hot Active, Nurture, Pending Handoff and Archived / DNC."
+            },
+            {
+              "term": "Tags",
+              "def": "Short labels that describe a person, for example “Open House Oak Ave”, “Spanish”, “Seller”, or “DNC”. Tags drive lists and automations, so use only the tags your client approves."
+            },
+            {
+              "term": "Source",
+              "def": "Where the lead came from: a website form, a portal, an ad, an open house, a referral."
+            },
+            {
+              "term": "Task",
+              "def": "A to-do with a type (call, text, email, follow up), a due date and an owner. Tasks due today appear on your task list."
+            },
+            {
+              "term": "Note",
+              "def": "What you write after each contact. ISAs use a fixed format: Date/Time, Call/Text Disposition, A, L, M, Next Step (you will master it in I7)."
+            },
+            {
+              "term": "Smart List",
+              "def": "A saved filter that shows the people who match certain rules, such as “new leads in the last 15 minutes”. You work your day from Smart Lists."
+            },
+            {
+              "term": "Action plan",
+              "def": "An automatic sequence of emails, texts or tasks that runs over days or weeks. It must be paused when a person opts out or books an appointment."
+            },
+            {
+              "term": "Deals",
+              "def": "The pipeline of transactions (under contract, closing). VAs often update it for the client."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Calling and texting from the CRM.** Follow Up Boss can place calls and send texts from inside the profile, and it logs them on the timeline automatically. Your client may also use a separate dialer connected to the CRM. Either way, you dial by hand from the client’s system. You will learn the rules for who you may call and text, and when, in F6."
+        },
+        {
+          "t": "p",
+          "text": "**How an ISA uses the CRM in a shift.** You will learn each step in depth in the ISA track. Here is the overview, so the pieces make sense:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Open your Smart Lists in order: New Speed-to-Lead (0 to 15 minutes old), Hot Active (ready within 30 days), Scheduled Follow-Up Tasks (due today), then 30 to 60 Day Nurtures.",
+            "Open the person’s profile and read the timeline before every call: what did they ask, who talked to them last, what was promised?",
+            "Call or text from the profile, inside the lead’s calling window.",
+            "Log the note right after the contact, never at the end of the day from memory.",
+            "Update the stage, the tags and the next task before you move to the next person.",
+            "Before you end the shift, check that today’s tasks are done or rescheduled with a reason."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**How an operations VA uses it.** Entering open-house sign-ins as new people with the right source and tag, cleaning duplicates, updating contact details, adding tasks for agents, updating deals and making sure every new lead is assigned. The rule is the same: accurate, same day, inside the system."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Search before you create a person, to avoid duplicates.",
+            "Read the timeline before every contact.",
+            "Log every contact right away, in English, in the client’s format.",
+            "Pause action plans when a lead opts out or books an appointment."
+          ],
+          "dont": [
+            "Delete a contact. Opted-out contacts especially must stay, tagged DNC, so nobody contacts them again.",
+            "Invent new tags or stages without your client’s approval.",
+            "Export lists or copy contacts outside the CRM.",
+            "Write opinions about a lead in notes. Write facts and what they want."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Spend time clicking around your practice account. The more natural the CRM feels, the more attention you can give to the person on the phone."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Set up and prove your toolkit",
+    "minutes": 100,
+    "intro": "In this practice you prepare your real workstation and show your coach that every tool works, including your backups. Then you complete a short exercise in the Follow Up Boss practice account your coach gives you. Use only fictional leads.",
+    "steps": [
+      "Run a speed test on your main connection (by cable if possible) and on your backup hotspot. Take a screenshot of each result showing download, upload and ping.",
+      "Do a backup drill: during a test call with a friend or family member, turn off your main internet and switch to your hotspot. Time how long the switch takes. Then unplug your laptop charger and write down how many hours of battery the system estimates.",
+      "Write your personal outage plan (half a page): your backup internet, your backup power, your manager's contact method, and the three messages you would send (manager, manager update, client channel).",
+      "In Hubstaff, with your coach's permission, run a 20-minute practice session on the training project: 10 minutes of typing work and 10 minutes reading a lesson. Add a task note for each part. Take a screenshot of the session summary.",
+      "Set up your Google Calendar with a client time zone of Pacific as primary and your own zone as secondary. Create a practice event: “Showing: Jennifer Walsh, 1820 Elm St” on next Saturday at 11:00 AM Pacific. Screenshot the event showing both time zones.",
+      "Phishing check: read these three messages and write for each whether it is safe and what you would do: (a) an email from your client's real address asking you to call a lead; (b) an email from “Mark Parker” at an unknown domain asking for the CRM password; (c) a text with a link saying your Hubstaff account will be closed today.",
+      "In the Follow Up Boss practice account: search for “Jennifer Walsh” to check for duplicates, then create her as a new person (phone (661) 555-0142, email jen.walsh@example.com, source “Website”, tag “Practice”). Add a note “Practice note: first contact attempt, left voicemail”, set her stage to Attempted Contact (or the closest stage in the account), and create a call task for tomorrow at 10:00 AM in her time zone.",
+      "Find one Smart List in the practice account and write two sentences about which people it shows and why an ISA would work it."
+    ],
+    "deliverable": "Send your coach: the two speed-test screenshots, your backup drill results (switch time and battery hours), your written outage plan, the Hubstaff session screenshot, the calendar screenshot, your phishing answers, and a screenshot of Jennifer Walsh's profile showing the note, stage, tag and task, plus your Smart List sentences. Name the files Lastname_F3_practice_date."
+  },
+  "quiz": [
+    {
+      "q": "The power goes out during your shift. What is the first thing you do?",
+      "options": [
+        "Wait 30 minutes to see if it comes back",
+        "Message your manager at once, then switch to your backup and tell the client channel",
+        "Clock out and go offline until the next day",
+        "Tell the client in tomorrow's report"
+      ],
+      "answer": 1,
+      "explain": "Tell your manager immediately and switch to backup internet or power. Then post a short note in the client channel."
+    },
+    {
+      "q": "Your internet and backup are both down for a long time. A coworker suggests working from a café's Wi-Fi with client files saved on your phone. What do you do?",
+      "options": [
+        "Do it so the client does not lose time",
+        "Use the café Wi-Fi but do not save files",
+        "Save the files on a USB drive to work at home later",
+        "Stop, clock out, keep your manager informed and follow their plan"
+      ],
+      "answer": 3,
+      "explain": "You never download or export client data and never use public Wi-Fi for client work. A safe pause is better than a data risk."
+    },
+    {
+      "q": "How often does Hubstaff take screenshots while you are clocked in?",
+      "options": [
+        "At random moments, about every two minutes",
+        "Once an hour at a fixed time",
+        "Only when the client requests one",
+        "Never; it only counts hours"
+      ],
+      "answer": 0,
+      "explain": "Screenshots are taken at random moments, about every two minutes, and the client can see them along with your hours."
+    },
+    {
+      "q": "You spend 40 minutes on calls with leads and barely use the keyboard. What is the right Hubstaff habit?",
+      "options": [
+        "Use a tool that moves the mouse",
+        "Stop the timer during calls",
+        "Add a task note such as “Calls: new leads” so the low activity is explained",
+        "Type random text between calls"
+      ],
+      "answer": 2,
+      "explain": "Low activity during calls is normal work. A note explains it. Any trick that fakes activity is fraud."
+    },
+    {
+      "q": "You forgot to start the timer for the first hour of your shift. What do you do?",
+      "options": [
+        "Add the hour yourself in Hubstaff",
+        "Tell your manager the same day with the exact times and what you did",
+        "Work an extra hour at the end without telling anyone",
+        "Leave the timer running tonight to make up for it"
+      ],
+      "answer": 1,
+      "explain": "Never add or edit time on your own. Report forgotten clock-ins or clock-outs to your manager the same day and follow their instructions."
+    },
+    {
+      "q": "Your client posts the CRM password in the channel. What is the best response?",
+      "options": [
+        "Thank them and save it in your browser",
+        "Copy it into your notes document",
+        "Ask them to put it in the vault, and tell your manager so the password can be changed",
+        "Delete the message and use the password"
+      ],
+      "answer": 2,
+      "explain": "Passwords travel only through the password vault. A password posted in chat should be changed, so tell your manager."
+    },
+    {
+      "q": "An email from “your client” at a slightly different address asks you to buy gift cards urgently and keep it secret. What do you do?",
+      "options": [
+        "Buy them; the client is busy",
+        "Reply to the email to ask if it is real",
+        "Click the link to verify the sender",
+        "Do not reply or click; check with the client in the client channel and tell your manager"
+      ],
+      "answer": 3,
+      "explain": "Urgency, secrecy, gift cards and an almost-right address are classic phishing signs. Verify through a channel you trust, never by replying to the email."
+    },
+    {
+      "q": "What is the best way to set up Google Calendar to avoid booking mistakes?",
+      "options": [
+        "Primary time zone set to your client's zone, your own zone as secondary",
+        "Primary time zone set to your own zone only",
+        "Use UTC for everything",
+        "Write the times in the event title instead"
+      ],
+      "answer": 0,
+      "explain": "Seeing both clocks, with the client's zone as primary, prevents appointments from landing an hour off."
+    },
+    {
+      "q": "A lead opted out and asked never to be contacted. What do you do with their contact in Follow Up Boss?",
+      "options": [
+        "Delete the contact so nobody calls them",
+        "Keep the contact, tag it DNC, set the stage to Archived / DNC and pause action plans",
+        "Export it to a separate spreadsheet",
+        "Leave it as it is and remember not to call"
+      ],
+      "answer": 1,
+      "explain": "Never delete an opted-out contact: the DNC record is what stops future calls and texts. Tag it, archive it and pause automations. Full rules are in F6."
+    },
+    {
+      "q": "Which statement best describes the CRM rule for BeyondVAs assistants?",
+      "options": [
+        "Log calls at the end of the week",
+        "Personal WhatsApp is fine for leads who prefer it",
+        "If it is not in the CRM, it did not happen: log every contact the same day inside the client's system",
+        "Notes are optional if the call was short"
+      ],
+      "answer": 2,
+      "explain": "Your client's dashboards and agents only see what you log. Every contact is logged the same day, and lead conversations stay inside the client's systems."
+    }
+  ]
+}

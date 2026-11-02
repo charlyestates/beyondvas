@@ -1,0 +1,624 @@
+{
+  "id": "I9",
+  "part": "isa",
+  "title": "Nurture and long-term follow-up",
+  "summary": "Keep leads who are not ready yet warm with a cadence that matches their timeline, send texts, emails and calls that are useful instead of pushy, and safely re-engage cold leads until they are ready to meet an agent.",
+  "objectives": [
+    "Explain why most leads are not ready today and treat “not now” as a date, not a no.",
+    "Set a follow-up cadence by timeline and mix calls, texts and emails inside the calling window and consent rules.",
+    "Write short, personal nurture texts and emails that add value and end with an easy question.",
+    "Run a compliant database reactivation: confirm the list is scrubbed, use approved scripts, and log every reply correctly.",
+    "Recognize when a nurture lead is warming up and move them to Hot with an appointment."
+  ],
+  "lessons": [
+    {
+      "id": "I9-1",
+      "title": "Why nurture wins",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most people who fill out a form on a real estate website are not ready to buy or sell this week. Some are three months away, some a year, some are just dreaming. If the team only works the leads who are ready today, it throws away most of the money it spent on advertising. **Nurture** is the long, patient follow-up that keeps those people connected to your client until they are ready."
+        },
+        {
+          "t": "p",
+          "text": "Here is the simple truth of this business: when a lead is finally ready, they usually call the agent who stayed in touch. Not the agent who called once and gave up, and not the one who sent 40 pushy texts. The one who was helpful, remembered their plans and was there at the right moment. You are that person for your client."
+        },
+        {
+          "t": "callout",
+          "title": "“Not now” is a date, not a no",
+          "text": "When a lead says “We're not moving for six months,” they are not saying no. They are telling you **when**. Put it in the CRM with a timeline tag, a dated task and a reason. Six months from now, that lead is a hot lead, and you will be the one who remembers."
+        },
+        {
+          "t": "p",
+          "text": "**Quiet does not mean uninterested.** A buyer who stops answering is usually overwhelmed or confused, not unmotivated. Buying a home is a big decision with many unknown steps: saving for the down payment, talking to a lender, a lease to end, a job change, a family conversation. Often they are stuck on one question. Your job in nurture is to find that question and connect them with the agent who can answer it. Pressure freezes people. Education and patience move them."
+        },
+        {
+          "t": "p",
+          "text": "**What nurture is and what it is not.**"
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Remember their plan and refer to it (“You mentioned your lease ends in June”).",
+            "Send something useful: new homes that match what they said, a price drop, an open house, a market update from the agent.",
+            "Ask short, easy questions that are simple to answer.",
+            "Respect the timeline they gave you and the cadence your client sets.",
+            "Honor every opt-out immediately."
+          ],
+          "dont": [
+            "Send “Just checking in!” with nothing else, again and again.",
+            "Push for an appointment every single time with someone who told you next year.",
+            "Contact people outside the calling window, or text people who did not agree to texts.",
+            "Argue with “not interested” or “stop”.",
+            "Give opinions on prices, rates or neighborhoods."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Your place in the system.** Your client probably has automatic action plans that send emails and some texts to nurture leads. Automations are good at being regular; they are bad at listening. You add what software cannot: a real voice, a personal text that responds to what the lead said last time, and the judgment to notice when a lead is warming up. Think of it this way: the action plan keeps the door open, and your calls invite them in."
+        },
+        {
+          "t": "p",
+          "text": "**The nurture Smart Lists.** In module I7 you learned the Smart List order: New Speed-to-Lead, Hot Active, Scheduled Follow-Up Tasks, then 30 to 60 Day Nurtures. Nurture work happens in the last two lists. It never comes before a new lead, but it is not optional. A shift with no nurture calls is a shift that steals from next month's appointments."
+        },
+        {
+          "t": "p",
+          "text": "**A story to remember.** Carla filled out a form in January. She said she wanted to buy “maybe next year”. The ISA tagged her 6-12 months, set a monthly check-in and sent her new listings in her price range every few weeks. In May, Carla replied to a text: “My landlord is selling. Can we look this weekend?” The ISA booked a tour that afternoon. Carla bought in July. Nothing about that was luck. It was a tag, a task and five months of small, useful messages."
+        },
+        {
+          "t": "p",
+          "text": "In this module you will learn how often to contact each type of lead, what to send, how to restart conversations with old leads safely, and how to spot the moment a nurture lead is ready to meet the agent."
+        }
+      ]
+    },
+    {
+      "id": "I9-2",
+      "title": "Cadence by timeline",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "**Cadence** means how often you contact a lead and by which channel. Too little and the lead forgets your client. Too much and the lead feels chased and opts out. The right cadence depends mostly on one thing: **how soon the lead plans to move**. That is the M (Motivation and timeline) in your A.L.M. note."
+        },
+        {
+          "t": "p",
+          "text": "Your client may have its own cadence; if so, follow it. If not, this table is a good starting point. “Personal touch” means a call or a personal text from you, not an automatic email."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Timeline",
+            "Typical tag",
+            "Personal touch",
+            "Mix"
+          ],
+          "rows": [
+            [
+              "Ready within 30 days",
+              "0-30 / Hot",
+              "Every 1 to 3 days",
+              "Calls first; texts to confirm; new listings as they appear. Goal: an appointment."
+            ],
+            [
+              "1 to 2 months",
+              "30-60",
+              "Weekly",
+              "One call a week; a useful text or listing between calls."
+            ],
+            [
+              "2 to 3 months",
+              "60-90",
+              "Every 1 to 2 weeks",
+              "Alternate a call and a text; client's emails continue."
+            ],
+            [
+              "3 to 6 months",
+              "3-6 mo",
+              "Every 2 to 3 weeks",
+              "A call about once a month; value texts between."
+            ],
+            [
+              "6 to 12 months",
+              "6-12 mo",
+              "Monthly",
+              "A monthly call or text that refers to their plan."
+            ],
+            [
+              "More than a year, or unknown",
+              "12+ / Long-term",
+              "Every 60 to 90 days",
+              "A short question text or call; mostly the client's emails."
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "The 10-day rule still applies",
+          "text": "Many teams require some update on every assigned lead at least every 10 days, or the lead can be reassigned. For long-term leads, the client's automatic emails often keep the record active between your personal touches. Ask your manager exactly which leads the 10-day rule covers in your client's account, and never let a Hot or 30 to 60 day lead pass 10 days without a personal touch."
+        },
+        {
+          "t": "p",
+          "text": "**Move the cadence when the timeline moves.** Timelines change all the time. A 6-month buyer whose landlord sells the building is now a 30-day buyer. A hot buyer who loses a job may now be a year away. Every time you talk to a lead, update the M in your note, change the timeline tag and set the next task at the new cadence. A wrong tag means a wrong cadence."
+        },
+        {
+          "t": "p",
+          "text": "**Mix your channels.** Some people never answer the phone but reply to every text. Others ignore texts and pick up calls. Notice which channel works for each lead and write it in the note (“Prefers text; never answers calls before 5 PM”). Use it. But remember the rules:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Calls and texts** happen only inside the calling window: 9:00 AM to 8:00 PM in the lead's local time, Monday to Saturday, noon to 8:00 PM on Sunday. Some states are stricter; your manager gives you the rules for each state before you dial.",
+            "**Texts** go only to leads who agreed to texts. Check the tag or the lead source before every first text.",
+            "**Calls to an old database, farm or purchased list** happen only after your client scrubs it against the National Do Not Call Registry and their own DNC list (lesson 4).",
+            "**Emails** come from your client's templates or your client's email account, with the unsubscribe option your client's system adds. Honor every unsubscribe.",
+            "**Every opt-out** (“STOP”, “remove me”, “don't call”) ends all contact: tag DNC, stage Archived / DNC, pause all automations, log it."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Pick good times.** Inside the window, some times work better. Many people answer between 10 and 11 AM, around lunch, and between 4 and 7 PM after work. Saturday mornings after 9 AM can be good. Try different times for a lead who never answers, and write which time worked."
+        },
+        {
+          "t": "p",
+          "text": "**Example: setting cadence after a call.** You speak with Kevin Brooks. He rents, his lease ends in five months, he wants a 3-bed in Tampa, and he is saving for the down payment. Your note: “M: lease ends end of March, saving for down payment, timeline 3-6 months.” You tag 3-6 mo and set a task for a value text in two weeks: new 3-bed homes in his price range. A call task in four weeks. At the end of each call you ask one question that tells you if the timeline changed: “Is the end of March still the plan?”"
+        },
+        {
+          "t": "p",
+          "text": "**How many tries before you slow down?** For a lead who never answers, the client usually sets a limit, for example eight to ten attempts in the first month across calls and texts, then a slower long-term cadence. A lead who does not answer is still a lead. You slow down; you do not delete, and you do not archive unless they opted out or your manager says so."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Set the next task at the cadence that matches the timeline tag.",
+            "Ask “Is [timeline] still the plan?” on every nurture contact.",
+            "Write which channel and time works for each lead."
+          ],
+          "dont": [
+            "Call a 12-month lead every two days.",
+            "Let a Hot lead wait a week between touches.",
+            "Forget to change the tag when the timeline changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I9-3",
+      "title": "Texts and emails that add value",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "A nurture message has one job: to be **useful or easy to answer**, ideally both. The best ones are short, personal, and end with a simple question. The worst ones are long, generic and ask for nothing."
+        },
+        {
+          "t": "p",
+          "text": "**The anatomy of a good nurture text:**"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Their name and yours.** “Hi Kevin, it's Ana with the Rivera Team.” People ignore texts from unknown numbers; say who you are.",
+            "**One personal detail** from your notes: their area, their timeline, the home they asked about.",
+            "**One useful thing** or one question. Not five.",
+            "**An easy reply.** A yes or no question, or a choice of two.",
+            "**Short.** Two or three lines. If it does not fit on a phone screen without scrolling, it is too long."
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "Weak text",
+            "Strong text"
+          ],
+          "rows": [
+            [
+              "Just checking in!! Let me know if you need anything!!",
+              "Hi Kevin, it's Ana with the Rivera Team. Two new 3-bed homes came up in Brandon under $350K this week. Want me to send them?"
+            ],
+            [
+              "Are you ready to buy yet? We have great agents available today.",
+              "Hi Dana, you mentioned spring for your move. Is that still the plan, or did anything change?"
+            ],
+            [
+              "Hello, I am following up regarding your inquiry on our website from several months ago to see if you are still interested in purchasing a property in the area.",
+              "Hi Luis, are you still thinking about buying in Orlando this year?"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "That last strong example is a **short question text**: one simple question about their plan. It works surprisingly well with old, quiet leads because it is easy to answer and does not feel like a sales pitch. Use it for leads who have not replied in a long time, not for someone you talked with yesterday."
+        },
+        {
+          "t": "p",
+          "text": "**Value ideas for nurture touches.** Your client decides what you may send. These are common:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**New listings** that match what the lead told you (area, beds, baths, price), from the search your client set up. Send a link or two, not twenty.",
+            "**Price drops** on a home the lead looked at or saved.",
+            "**Open house invitations** for homes in their search area.",
+            "**A market update** the agent prepared, for example how many homes sold last month in their area. Send it as the agent's update; do not add your own opinion.",
+            "**Seasonal or personal notes**: a home anniversary for a past client, or a friendly holiday message if your client does this.",
+            "**An offer of the agent's time**: “Would a 15-minute call with Sofia to plan your search be helpful?”"
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Stay inside your scope in writing too",
+          "text": "Everything you write can be screenshotted and shared. Never write prices you think a home is worth, predictions (“prices will go up soon, buy now”), interest rates or loan advice (“rates dropped, now is the time”), or comments on legal terms. Never describe an area by who lives there, its schools, crime, “safety”, religion or how “family-friendly” it is. If they ask, write: “Great question for your agent. I can also send you public sources.”"
+        },
+        {
+          "t": "p",
+          "text": "**Emails.** Most nurture emails come from your client's action plans. Sometimes you will send a personal email, for example to a lead who prefers email or to send listings. Keep the same rules: a clear subject (“Three new homes in Brandon under $350K”), a short greeting with their name, one purpose, one question, and your name, team and phone. Use your client's email account and signature, never a personal email. Never attach client documents or lead lists."
+        },
+        {
+          "t": "script",
+          "title": "Personal nurture email",
+          "lines": [
+            {
+              "who": "Subject",
+              "text": "Three new homes in Brandon under $350K"
+            },
+            {
+              "who": "Body",
+              "text": "Hi Kevin, Sofia asked me to send you three new 3-bedroom homes in Brandon that match what you told us: [link 1], [link 2], [link 3]. Do any of these look worth a visit? If your timeline is still March, Sofia is happy to plan a first tour day with you. Best, Ana, Rivera Team, (813) 555-0110"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Replies.** When a lead replies, answer quickly, inside the window. If it is after 8 PM their time, answer first thing the next day inside the window. Log the reply, update A.L.M., and if they are warming up, call them. A reply is a door opening; walk through it."
+        },
+        {
+          "t": "p",
+          "text": "**Spanish-speaking leads.** If a lead writes in Spanish or tells you they prefer Spanish, write to them in Spanish and tag Spanish. Your client may want a Spanish-speaking agent for them. Notes in Follow Up Boss stay in English so every agent can read them."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Say who you are in the first line.",
+            "Use one personal detail from the notes.",
+            "End with one easy question.",
+            "Send only to leads who agreed to texts, inside the calling window."
+          ],
+          "dont": [
+            "Use many exclamation marks, all caps or emojis your client does not use.",
+            "Copy the same text to many leads at once.",
+            "Write prices, rates, predictions or neighborhood opinions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I9-4",
+      "title": "Re-engaging cold leads safely",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Every team has a database full of old leads: website registrations from two years ago, open house sign-ins, past inquiries that went quiet. **Database reactivation** means contacting these people again to find the ones who are now ready. Done well, it produces appointments from leads the team already paid for. Done carelessly, it produces complaints and legal risk. So reactivation starts with compliance, not with dialing."
+        },
+        {
+          "t": "callout",
+          "title": "Before you dial an old list",
+          "text": "Inbound leads who asked to be contacted may be called inside the calling window. **Any other list** (an old database, a farm list, a purchased list) is called **only if your client has scrubbed it against the National Do Not Call Registry and their own DNC list.** Text only leads who agreed to texts. Dial by hand: no autodialer or prerecorded messages unless your manager confirms written consent. If you are not sure a list was scrubbed, ask before the first dial."
+        },
+        {
+          "t": "p",
+          "text": "Why so careful? A person who asked about a home two years ago may have joined the Do Not Call Registry since then, or may have forgotten your client completely. Calling a number on the Registry without permission can bring fines for your client. Your manager and the client prepare the list; your job is to work only the list you were given and stop if anything looks wrong (for example, a lead marked DNC in the notes but still on the list)."
+        },
+        {
+          "t": "p",
+          "text": "**Read before you dial.** Old leads often have history: a note from an earlier agent, an old opt-out, a “bought with another agent”. Read the timeline first. If there is any opt-out in the history, do not contact, and tell your manager the lead is on the list by mistake."
+        },
+        {
+          "t": "script",
+          "title": "Reactivation call",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi, is this Luis? This is Ana with the Rivera Team in Orlando. This call may be recorded. A while back you looked at homes on our website, and I'm just calling to see if buying a home is still on your mind this year."
+            },
+            {
+              "who": "Lead",
+              "text": "Oh, wow, that was a long time ago. We put it on hold."
+            },
+            {
+              "who": "You",
+              "text": "That makes sense. May I ask what put it on hold?"
+            },
+            {
+              "who": "Lead",
+              "text": "We were saving more for the down payment. Maybe next summer."
+            },
+            {
+              "who": "You",
+              "text": "Next summer, great. Is it still the Orlando area, and still around three bedrooms?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, maybe four now. We had a baby."
+            },
+            {
+              "who": "You",
+              "text": "Congratulations! So four bedrooms in Orlando, next summer. Would it help if Sofia, our local specialist, did a short call with you this month so you know the steps and the numbers to aim for?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice the note you will write: L is Orlando, 4 bd. M is saving for the down payment, timeline next summer. You do not write “new baby” as a description of who they are; you write what they need in the home (4 bedrooms). Tag 6-12 mo, set the cadence, and if they said yes to the agent call, book it."
+        },
+        {
+          "t": "p",
+          "text": "**Common answers and what to do.**"
+        },
+        {
+          "t": "table",
+          "head": [
+            "The lead says",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "“We already bought.”",
+              "Congratulate them. Ask, if your client wants it, whether they know anyone else thinking of moving. Note “Bought in [year]” and use the client's stage or tag for it. Do not keep nurturing them as a buyer."
+            ],
+            [
+              "“I'm working with an agent.”",
+              "Ask whether they signed an agreement. If yes, respect it, note it, tell your agent, and stop. If not, offer a second opinion and ask for a time."
+            ],
+            [
+              "“Wrong number.”",
+              "Apologize, ask nothing more, tag Bad Number (or your client's tag), and note it. Do not call it again."
+            ],
+            [
+              "“Not interested.”",
+              "Thank them. Ask one soft question (“Is that for now, or for good?”). If for good, ask if they want to be removed. If they say remove, it is an opt-out."
+            ],
+            [
+              "“Stop calling me.”",
+              "Opt-out. Apologize, confirm you will remove them, end the call. Tag DNC, stage Archived / DNC, pause automations, log it. Never argue."
+            ],
+            [
+              "“Maybe in a few months.”",
+              "“Not now” is a date. Ask what would need to happen first. Tag the timeline, set the cadence, offer something useful."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The “close the file” message.** For a lead who has not replied to anything in a long time, some clients use a polite last message that gives them an easy way to answer: “Hi Dana, I haven't heard back and don't want to bother you. Should I close your file, or would you like me to keep sending homes in Mesa?” Many people reply to this. Use it only if your client approves it, and never as a threat. If they say “close it”, ask your manager whether that means an opt-out in your client's system, and follow the opt-out steps if the lead asked to stop contact."
+        },
+        {
+          "t": "p",
+          "text": "**Sellers in nurture.** Old seller leads are valuable: a homeowner who asked “what is my home worth?” a year ago may be ready to list now. Never give a value or a price range, even an old one. Ask about their plans and offer the agent's visit: “The agent can walk the property and show you what it would sell for today. Would Tuesday at 5 or Thursday at 6 work?”"
+        }
+      ]
+    },
+    {
+      "id": "I9-5",
+      "title": "Nurture calls that move a lead forward",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "A nurture call is not a fresh qualification call. You already know the lead. The goal is to **update** what you know, find out what changed, give something useful, and agree on a small next step. When the timeline has moved closer, the next step becomes an appointment."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Prepare (30 seconds).** Read the last note and the timeline tag. Pick one useful thing to offer (new homes, a price drop, the agent's time).",
+            "**Open with their plan.** Name, team, recording disclosure, then their detail: “Last time you said your lease ends in March.”",
+            "**Ask what changed.** “Is March still the plan, or did anything change?” Then listen. This is where the real information comes.",
+            "**Update A.L.M.** Location, beds, price, timeline, reason. One or two quick questions, not a full interview.",
+            "**Offer the useful thing.** “I have two new homes in Brandon in your range. Want me to text them?”",
+            "**Agree a next step.** If they are close: ask for the appointment with two options. If not: “I'll check in after the holidays. Is text better?”",
+            "**Log and set the task** at the right cadence."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Buying signals: when nurture becomes hot.** Listen for these. Each one means the lead may be ready for the agent now:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "They ask about a **specific home** (“Is the one on Elm Street still available?”).",
+            "A **date gets close or fixed**: a lease end, a job start, a school year, a move-out notice.",
+            "They mention a **lender, a pre-approval or savings reached**.",
+            "They ask **how the process works** or what the next step is.",
+            "**A new decision-maker** joins: “My husband wants to see some homes too.”",
+            "For sellers: they mention **repairs to prepare**, a **move date**, or ask what homes nearby sold for."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "From nurture to appointment",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Kevin, it's Ana with the Rivera Team. This call may be recorded. Last time you said your lease ends in March. Is that still the plan?"
+            },
+            {
+              "who": "Lead",
+              "text": "Actually, my landlord wants to sell, so I may have to move in January."
+            },
+            {
+              "who": "You",
+              "text": "That's a big change. So now it's January instead of March. Still a 3-bed in Brandon?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes. And I talked to a lender last week."
+            },
+            {
+              "who": "You",
+              "text": "Great, that helps. With January so close, the best next step is a first tour day with Sofia so you can see what's out there. Would Saturday at 10 AM or Sunday at 2 PM work better?"
+            },
+            {
+              "who": "Lead",
+              "text": "Saturday at 10."
+            },
+            {
+              "who": "You",
+              "text": "Perfect. I'll put that on Sofia's calendar and text you her details."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "After this call you move Kevin to Hot, change the tag to 0-30, write the A.L.M. note (“M: landlord selling, must move by January; has talked to a lender”), book the tour following module I8 (calendar invite with Follow Up Boss link, reminders, buyer-agreement flag), and move the stage to Pending Handoff. Do not ask about loan amounts or rates; the lender and the agent handle that."
+        },
+        {
+          "t": "p",
+          "text": "**When the lead is not warming.** Many nurture calls end with “nothing has changed.” That is fine. Thank them, offer something useful, set the next touch and keep the call short. Two minutes of real attention every few weeks builds more trust than one long pitch. Never invent urgency (“prices are about to jump”) to push them; it is outside your scope and it damages trust."
+        },
+        {
+          "t": "p",
+          "text": "**When to stop.** You stop all contact when the lead opts out. You stop nurturing as a buyer or seller when they bought or sold with someone else, or signed an agreement with another agent (note and tag it). For leads who never answer, you slow to the long-term cadence and follow your client's limits. You never delete a lead, and you never archive a lead as DNC unless they asked or your manager decided it."
+        },
+        {
+          "t": "callout",
+          "title": "Measure your nurture",
+          "text": "In your daily report, include how many nurture contacts you made, how many replied, and how many moved to Hot or booked. Your QA reviewer looks for A.L.M. updates on nurture leads too. A team that sees appointments coming from old leads knows exactly what its ISA is worth."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Start every nurture call with what they told you last time.",
+            "Listen for buying signals and ask for the appointment when you hear them.",
+            "Keep calls short when nothing has changed."
+          ],
+          "dont": [
+            "Repeat a full qualification interview every time.",
+            "Create false urgency or predict prices.",
+            "Ask about income, credit or rates. Write what they share; the lender handles it."
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Nurture campaign build and reactivation role-plays",
+    "minutes": 90,
+    "intro": "You will plan the nurture for ten practice leads, write the messages, and record two reactivation calls with a partner. Use the practice Follow Up Boss account or the practice workbook from your coordinator. All leads are fictional; never use a real client's database for practice.",
+    "steps": [
+      "Take the ten practice leads your coordinator gives you (or use these: two Hot, two 30-60, two 3-6 month, two 6-12 month, one unknown timeline, one seller who said “maybe next year”). For each, write the timeline tag, the cadence and the date of the next personal touch.",
+      "For three of the leads, write a full four-touch plan for the next 30 to 60 days: which channel, which day, and the exact message or call goal.",
+      "Write five nurture texts that follow the anatomy from lesson 3 (name and team, one personal detail, one useful thing or question, an easy reply, short). Include one short question text for a lead who has not replied in a year.",
+      "Write one personal nurture email with a clear subject line, sending three new listings for a buyer.",
+      "Rewrite these weak messages into strong ones: “Just checking in!!”, “Rates are dropping, now is the time to buy!”, “This is a great safe neighborhood for families.” Explain in one line what was wrong with each.",
+      "Write the steps you take before dialing a reactivation list (what you confirm, who you ask, what you check on each lead).",
+      "Role-play 1 (record it): reactivation call to an old website lead who is now 6 months away. Update A.L.M., set the next step, and write the note.",
+      "Role-play 2 (record it): nurture call where the lead's timeline suddenly moves closer. Catch the buying signal and book an appointment with a two-option ask. Write the note and list what you change in Follow Up Boss.",
+      "Role-play 3 (record it, short): the lead says “Stop calling me”. Handle it correctly and list every CRM step.",
+      "Listen to your recordings and write two strengths and two improvements."
+    ],
+    "deliverable": "One shared document with the ten-lead cadence table, the three four-touch plans, the five texts and the email, the rewrites, your pre-dial checklist, and the notes for each role-play, plus the three recordings. Send the folder link to your coach."
+  },
+  "quiz": [
+    {
+      "q": "A lead tells you, “We're not moving for six months.” What does that mean for you?",
+      "options": [
+        "It is a polite no; archive the lead.",
+        "It is a date: tag the timeline, set the cadence and a dated task, and keep in touch with useful messages.",
+        "Call every day so they do not forget your client.",
+        "Move them to Archived / DNC until they call back."
+      ],
+      "answer": 1,
+      "explain": "“Not now” is a date, not a no. The ISA who stays in touch usefully is usually the one the lead calls when ready. Archived / DNC is only for opt-outs."
+    },
+    {
+      "q": "What is a reasonable personal-touch cadence for a lead who plans to move in 6 to 12 months?",
+      "options": [
+        "Every day",
+        "Every 2 to 3 days",
+        "About once a month",
+        "Once a year"
+      ],
+      "answer": 2,
+      "explain": "Six to twelve months out: a monthly call or text that refers to their plan, with the client's emails in between. Daily contact feels like chasing; once a year is too little."
+    },
+    {
+      "q": "Which nurture text is best?",
+      "options": [
+        "“Hi Kevin, it's Ana with the Rivera Team. Two new 3-bed homes came up in Brandon under $350K this week. Want me to send them?”",
+        "“Just checking in!! Let me know if you need anything!!”",
+        "“Rates just dropped, you should buy now before prices go up.”",
+        "“Hello, I am following up regarding your inquiry on our website from several months ago to see if you are still interested in purchasing a property in the area.”"
+      ],
+      "answer": 0,
+      "explain": "It says who you are, uses a personal detail, offers something useful and ends with an easy question. Rate advice and price predictions are outside your scope."
+    },
+    {
+      "q": "Your manager gives you an old database from three years ago to call. What must be true before you dial?",
+      "options": [
+        "Nothing; they were leads once, so they gave permission forever.",
+        "The list must be loaded into an autodialer for speed.",
+        "You must text everyone first to ask if you can call.",
+        "Your client has scrubbed it against the National Do Not Call Registry and their own DNC list, and you dial by hand inside the calling window."
+      ],
+      "answer": 3,
+      "explain": "Any list other than fresh inbound leads who asked to be contacted is called only after a DNC scrub. Dial by hand; no autodialer or prerecorded messages without confirmed written consent. Text only leads who agreed to texts."
+    },
+    {
+      "q": "During a reactivation call, the lead says, “We already bought a house last year.” What do you do?",
+      "options": [
+        "Congratulate them, ask (if your client wants) whether they know anyone else thinking of moving, note it, and stop nurturing them as a buyer.",
+        "Ask what price they paid and whether they overpaid.",
+        "Keep them on the buyer nurture plan in case they buy again next month.",
+        "Delete their contact."
+      ],
+      "answer": 0,
+      "explain": "They are no longer a buyer lead. Note it with the client's stage or tag. Never comment on price or value, and never delete contacts."
+    },
+    {
+      "q": "Which of these is a buying signal that a nurture lead may be ready for the agent now?",
+      "options": [
+        "“Nothing has changed, still next year.”",
+        "“Please send emails instead of calls.”",
+        "“My landlord is selling, so I have to move by January, and I talked to a lender last week.”",
+        "“I'm busy right now, call me next month.”"
+      ],
+      "answer": 2,
+      "explain": "A fixed, close date plus a lender conversation means the timeline moved. Move them to Hot, update A.L.M. and ask for the appointment with two options."
+    },
+    {
+      "q": "A nurture lead asks by text, “Is this a safe area for kids?” What do you reply?",
+      "options": [
+        "“Yes, it's very safe and family-friendly.”",
+        "“Great question for your agent. I can also send you public sources.”",
+        "“The schools are excellent there.”",
+        "“No, I would look in a different area.”"
+      ],
+      "answer": 1,
+      "explain": "Fair housing: never describe areas by safety, crime, schools, who lives there or how family-friendly they are, in calls or in writing. Use the bridge and offer public sources."
+    },
+    {
+      "q": "A lead has not answered eight calls and texts this month. They never opted out. What is the right move?",
+      "options": [
+        "Tag them DNC so they stop appearing in your lists.",
+        "Delete them; they are a bad lead.",
+        "Call them three times a day until they answer.",
+        "Slow down to the long-term cadence the client sets, keep the record, and try different times and channels."
+      ],
+      "answer": 3,
+      "explain": "No answer is not an opt-out. Slow down, keep useful touches going and follow the client's limits. Never delete, and DNC is only for opt-outs or a manager's decision."
+    },
+    {
+      "q": "A lead replies “Yes, send them!” to your text at 9:15 PM their time. When do you answer?",
+      "options": [
+        "Right away; they texted first, so the calling window does not matter.",
+        "Next week, at your next scheduled touch.",
+        "First thing the next day inside the calling window, then log the reply and update A.L.M.",
+        "Never; replies after hours should be ignored."
+      ],
+      "answer": 2,
+      "explain": "Texts follow the same calling window as calls (9:00 AM to 8:00 PM, noon on Sunday). Answer as soon as the window opens, because a reply is a door opening."
+    }
+  ]
+}

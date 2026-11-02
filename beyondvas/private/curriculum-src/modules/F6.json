@@ -1,0 +1,654 @@
+{
+  "id": "F6",
+  "part": "foundations",
+  "title": "Compliance essentials: calling rules and fair housing",
+  "summary": "The calling window, Do Not Call lists, consent, opt-outs, call recording and fair housing: the rules that protect every lead, your client and you on every call and text.",
+  "objectives": [
+    "Decide whether you may call or text a lead right now, using the lead’s local time, day of the week and state",
+    "Check consent and Do Not Call status before you dial, and dial by hand",
+    "Identify yourself, announce recording, and handle any opt-out the same moment it happens, with the correct Follow Up Boss steps",
+    "Answer questions about schools, safety or “what kind of people live there” without steering, using the fair housing phrase",
+    "Explain why compliance is a shared job between you, your client and your BeyondVAs manager"
+  ],
+  "lessons": [
+    {
+      "id": "F6-1",
+      "title": "Why compliance matters: the rules in one page",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "Every call and text you make goes out in your client’s name. US law sets strict rules for calls and texts to consumers, and the penalties are large. Under the federal Telephone Consumer Protection Act (TCPA), a person can sue for **$500 for each illegal call or text**, and up to **$1,500 each** if the violation was knowing or willful. One careless afternoon of 100 wrong calls could cost a client $50,000 or more. Real estate teams have been sued for exactly this."
+        },
+        {
+          "t": "p",
+          "text": "You do not need to be a lawyer. You need to follow a short set of house rules that are stricter than the law in most places, so that if you follow them, you are safe almost everywhere. Here is the map of the rules that apply to your work."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Rule",
+            "What it covers",
+            "Your habit"
+          ],
+          "rows": [
+            [
+              "**TCPA** (federal law)",
+              "Calling hours, consent for autodialed and prerecorded calls and texts, Do Not Call, opt-outs",
+              "Call and text only in the window, dial by hand, honor every opt-out"
+            ],
+            [
+              "**Telemarketing Sales Rule** and the **National Do Not Call Registry**",
+              "Consumers can register their number to stop sales calls. Callers must check lists against the registry at least every 31 days and identify themselves.",
+              "Call non-inbound lists only after a fresh scrub; say your name and your client’s team in the first 30 seconds"
+            ],
+            [
+              "**State telemarketing laws** (“mini-TCPAs”)",
+              "Stricter hours, limits on repeat calls, registration rules. Texas, Florida and others.",
+              "Your manager gives you the state rules before you dial"
+            ],
+            [
+              "**Call recording laws**",
+              "Some states require everyone on the call to agree to recording",
+              "Always announce that the call may be recorded"
+            ],
+            [
+              "**Fair Housing Act**",
+              "No discrimination or steering in housing",
+              "Treat every caller the same; describe homes, not people"
+            ],
+            [
+              "**Real estate license law**",
+              "What an unlicensed assistant may do (F5)",
+              "Stay inside your scope card"
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Compliance is a shared job",
+          "text": "Your client supplies scrubbed lists and approves every script. You dial by hand, inside legal hours, and honor every opt-out. Your BeyondVAs manager confirms your client’s state rules with them before any outbound work. If any part is missing, you pause and ask. (This is general training, not legal advice; your manager confirms the rules for your client.)"
+        },
+        {
+          "t": "p",
+          "text": "**The six house rules you will learn in this module:**"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Call and text only from **9:00 AM to 8:00 PM** in the lead’s local time Monday to Saturday, and **noon to 8:00 PM** on Sunday.",
+            "Call inbound leads who asked to be contacted. Call any other list only after it is scrubbed against the National Do Not Call Registry and the client’s own DNC list.",
+            "Text only leads who agreed to texts.",
+            "Dial by hand. No autodialer or prerecorded message unless your manager confirms written consent.",
+            "Identify yourself, announce that the call may be recorded, and honor every opt-out immediately.",
+            "Treat every caller the same and never steer."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Why a stricter house rule is easier.** Federal law allows calls from 8 AM to 9 PM. But Texas, Florida and other states are stricter, and leads live in many states. Remembering one safe window that works almost everywhere is easier and safer than remembering 50 different rules during a busy shift. The same idea applies to call recording: instead of memorizing which states require everyone’s consent, we treat every state as if it does."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Check the lead’s state and local time before every dial",
+            "Ask your manager when a rule is unclear",
+            "Follow the house rule even when the law seems to allow more"
+          ],
+          "dont": [
+            "Assume a rule from one client applies to another client in a different state",
+            "Make “just one more call” after the window closes",
+            "Let a client or agent talk you out of a compliance rule; escalate instead"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F6-2",
+      "title": "The calling window and time zones",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "The calling window is the rule you will use most often, dozens of times per shift. Learn it until it is automatic."
+        },
+        {
+          "t": "callout",
+          "title": "Calling window",
+          "text": "**9:00 AM to 8:00 PM** in the prospect’s local time zone, Monday to Saturday, and **noon to 8:00 PM** on Sunday. Texts follow the same window."
+        },
+        {
+          "t": "p",
+          "text": "Federal rules allow 8 AM to 9 PM. Texas allows no solicitation calls before 9 AM (noon on Sunday) and Florida none after 8 PM, so this window is our default everywhere. Some states are stricter still: Rhode Island, for example, allows unsolicited sales calls only 9 AM to 6 PM on weekdays and 10 AM to 5 PM on Saturday, never on Sundays or holidays. The lead’s state is what counts, and your manager tells you its rules before you dial."
+        },
+        {
+          "t": "p",
+          "text": "**The lead’s time, not yours, and not your client’s.** You are in Honduras or elsewhere in Latin America. Your client may be in California. The lead may be in Texas. The time that matters is the lead’s local time. Honduras does not change its clocks, but most of the US moves clocks forward one hour in March and back in November (daylight saving time), so the difference between you and your leads changes twice a year. Arizona (most of it) and Hawaii do not change."
+        },
+        {
+          "t": "table",
+          "head": [
+            "US time zone",
+            "Example states",
+            "Hours from Honduras (US summer, Mar-Nov)",
+            "Hours from Honduras (US winter, Nov-Mar)"
+          ],
+          "rows": [
+            [
+              "Eastern (ET)",
+              "New York, Florida (most), Georgia",
+              "2 hours ahead",
+              "1 hour ahead"
+            ],
+            [
+              "Central (CT)",
+              "Texas (most), Illinois",
+              "1 hour ahead",
+              "Same time"
+            ],
+            [
+              "Mountain (MT)",
+              "Colorado, Utah; Arizona (no daylight saving)",
+              "Same time (Arizona: 1 hour behind)",
+              "1 hour behind (Arizona: 1 hour behind)"
+            ],
+            [
+              "Pacific (PT)",
+              "California, Washington, Nevada",
+              "1 hour behind",
+              "2 hours behind"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Which local time?** Use the lead’s address or the state of the property they asked about, as shown in Follow Up Boss. Be careful with the area code: people keep their mobile numbers when they move, so a 305 (Miami) number might belong to someone living in California. When the address and the area code point to different time zones, call inside the window that is safe in **both** places. When you have no location at all, wait until it is inside the window everywhere in the continental US: 9:00 AM Pacific is noon Eastern, and 8:00 PM Eastern is 5:00 PM Pacific, so Monday to Saturday that means about noon to 8:00 PM Eastern."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "May you call now?"
+          ],
+          "rows": [
+            [
+              "Tuesday, 8:40 AM for a lead in Dallas, Texas",
+              "No. Wait until 9:00 AM Central. Texas allows no solicitation calls before 9 AM."
+            ],
+            [
+              "Saturday, 7:50 PM for a lead in Miami, Florida",
+              "Yes, but finish the attempt before 8:00 PM. Do not start a voicemail at 7:59."
+            ],
+            [
+              "Sunday, 10:30 AM for a lead in Phoenix, Arizona",
+              "No. Sunday starts at noon."
+            ],
+            [
+              "Wednesday, 8:15 PM for a lead in Los Angeles who just filled a form",
+              "No. Schedule the first call for 9:00 AM tomorrow, Pacific time."
+            ],
+            [
+              "Saturday, 5:30 PM for a lead in Providence, Rhode Island",
+              "No. Rhode Island allows unsolicited sales calls only 10 AM to 5 PM on Saturday. Your manager confirms how this applies to your client."
+            ],
+            [
+              "Monday, 9:05 AM for a California lead whose number has a New York area code",
+              "Yes: it is 9:05 AM where they live (12:05 PM in New York), inside the window in both places."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**After-hours leads.** Leads arrive at night and on Sunday mornings. Speed to lead never overrides the window. A lead that arrives after hours gets its first call as soon as the window opens in the lead’s time zone, and texts wait too. Set a task in Follow Up Boss for the first minute of the window so it is the first thing you do."
+        },
+        {
+          "t": "p",
+          "text": "**Holidays.** Some states ban sales calls on certain holidays, and many people do not want calls on Thanksgiving, Christmas or July 4th. Your manager will tell you the client’s holiday rules. If you are unsure, do not dial non-inbound lists on a US federal holiday until you ask."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Keep a world clock with ET, CT, MT and PT visible all shift",
+            "Check the lead’s address before the area code",
+            "Move any task that would land outside the window to the next morning"
+          ],
+          "dont": [
+            "Use your own local time to decide",
+            "Send texts outside the window because “texts are different”",
+            "Forget the daylight saving changes in March and November"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F6-3",
+      "title": "Before you dial: consent, Do Not Call and manual dialing",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Before your finger touches the dial button, answer one question: **does this person expect or allow a call from us?** The answer depends on where the number came from."
+        },
+        {
+          "t": "list",
+          "items": [
+            "Inbound leads who asked to be contacted can be called inside the calling window.",
+            "Any other list (an old database, a farm list, a purchased list): call only numbers your client has checked against the National Do Not Call Registry and their own DNC list.",
+            "Text only leads who agreed to texts. Portal and ad forms usually include that consent; ask your manager if you are not sure.",
+            "Dial by hand. Never use an autodialer or a prerecorded message unless your manager confirms written consent."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**What is an inbound lead?** A person who contacted your client or asked to be contacted: they filled a form on a portal or the team website, called a sign, signed in at an open house and agreed to follow-up, or replied to the team. They gave permission for that conversation. That permission is not unlimited: if they say stop, it ends at once, and an inquiry from long ago may not count anymore. Your manager decides when an old lead must be treated like a cold list and scrubbed."
+        },
+        {
+          "t": "p",
+          "text": "**Scrubbed lists.** The National Do Not Call Registry is the federal list of numbers whose owners do not want sales calls. Your client must check (“scrub”) any non-inbound list against it, and against the client’s own internal DNC list, before you call. A scrub stays valid for **31 days**; after that the list must be scrubbed again, because people add their numbers every day. Outbound calls are made only on a list scrubbed within the last 31 days. If you do not know when a list was scrubbed, you do not dial it. Ask."
+        },
+        {
+          "t": "callout",
+          "title": "Signs a list may not be safe",
+          "text": "A spreadsheet with no source, a list called “old leads 2019”, numbers copied from a website, or a client saying “just call them all, they won’t mind”. In each case: pause and ask your manager to confirm the scrub and the consent before dialing."
+        },
+        {
+          "t": "p",
+          "text": "**Texting consent.** Texts are treated like calls under the law, and marketing texts need clear consent. Most portal and website forms include a consent box for calls and texts. A lead who called the team or met an agent at an open house may not have agreed to texts. Check the consent field or tag your client uses in Follow Up Boss. No consent, no text: call instead, inside the window."
+        },
+        {
+          "t": "p",
+          "text": "**Dial by hand.** An autodialer is any system that dials numbers automatically, in bulk or in sequence, and a prerecorded or artificial voice message is a recording played to the person. Both need prior express written consent, and the penalties are where most lawsuits come from. You click to call each number yourself, one at a time, and leave voicemails in your own live voice. If a tool offers “power dialing”, “ringless voicemail” or “voice drops”, do not turn it on unless your manager confirms in writing that the consent is in place."
+        },
+        {
+          "t": "p",
+          "text": "**Identify yourself.** Within the first 30 seconds of every call, say your name and your client’s team. Your caller ID must show a real number that the lead can call back. If the lead asks, give the team’s phone number or address."
+        },
+        {
+          "t": "script",
+          "title": "A compliant opening",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi, is this Maria? This is Daniel with the Lakeside Realty Team. Just so you know, this call may be recorded for quality. You asked about the townhouse on Birch Street this morning. Do you have two minutes?"
+            },
+            {
+              "who": "Lead",
+              "text": "Oh yes, I did. Sure."
+            },
+            {
+              "who": "You",
+              "text": "Great. What caught your eye about that one?"
+            }
+          ]
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Check the lead source: inbound, or a list?",
+            "If a list: was it scrubbed in the last 31 days? If you do not know, stop and ask.",
+            "Check the lead’s local time, day and state against the window.",
+            "Check the DNC tag and stage. Archived / DNC means never.",
+            "For a text: check text consent.",
+            "Click to dial by hand. Identify yourself and announce recording."
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Run the six-step check until it is automatic",
+            "Leave voicemails in your own voice",
+            "Write in your note where the lead came from if the source field is empty"
+          ],
+          "dont": [
+            "Dial a list you cannot confirm was scrubbed",
+            "Text a lead who has not agreed to texts",
+            "Turn on dialer or voicemail-drop features without written confirmation from your manager"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F6-4",
+      "title": "Opt-outs and call recording",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "An opt-out is a person telling you they do not want more calls or texts. When it happens, you stop. Not after one more try, not after a nice explanation: you stop, and you make sure nobody on the team or any automation contacts them again."
+        },
+        {
+          "t": "callout",
+          "title": "Opt-outs",
+          "text": "If a prospect says **“STOP”**, **“Remove me”**, or **“Don’t call”**, immediately tag them as DNC and move their stage to **Archived / DNC**. Pause every automation and log the opt-out in the notes. Never delete an opted-out contact: the DNC record is what stops future calls and texts."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "On the call: say one polite sentence and end the call. Do not argue or try to change their mind.",
+            "Add the **DNC** tag in Follow Up Boss.",
+            "Change the stage to **Archived / DNC**.",
+            "Pause every action plan, email drip and automated text for the contact.",
+            "Write a note: date, time, channel, the lead’s words and “Opt-out honored.”",
+            "Do it right away, before your next dial. The law gives companies a short deadline; our rule is immediately."
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Honoring an opt-out on a call",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Look, I don’t want any more calls. Take me off your list."
+            },
+            {
+              "who": "You",
+              "text": "Of course. I’m sorry for the interruption. I’ll remove you right now, and you won’t hear from us again. Have a good day."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Opt-outs come in many forms.** People rarely use the exact words. Treat all of these as opt-outs: “STOP”, “Unsubscribe”, “Quit”, “End”, “Cancel”, “Leave me alone”, “Take me off your list”, “Wrong number, don’t text me”, “Stop calling me”, and the same ideas in Spanish (“no me llames”, “ya no me escriban”). The law says people may opt out in any reasonable way, so do not wait for a magic word."
+        },
+        {
+          "t": "table",
+          "head": [
+            "What the lead says",
+            "Is it an opt-out?",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "“STOP”",
+              "Yes",
+              "Full opt-out steps."
+            ],
+            [
+              "“Please don’t call me anymore, just email.”",
+              "Yes, for calls and texts",
+              "Tag DNC for phone and text, follow your client’s rule for email, log exactly what they said, and tell your manager."
+            ],
+            [
+              "“Not interested right now.”",
+              "Not by itself",
+              "Respect it: “No problem.” Ask if a check-in later is OK. If they say no or sound annoyed, treat it as an opt-out."
+            ],
+            [
+              "“I bought already, thanks.”",
+              "No",
+              "Congratulate them, update the stage per your client’s rules, stop buyer follow-up."
+            ],
+            [
+              "“Wrong number.”",
+              "Yes, for that number",
+              "Apologize, note it, and mark the number so it is never called again for that contact."
+            ],
+            [
+              "“How did you get my number? Never call again!”",
+              "Yes",
+              "Apologize, give the team name, full opt-out steps, tell your manager."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Why never delete?** If you delete the contact, the opt-out disappears with it. Next month the same person may come in again from an old list or an import, and someone will call them. The DNC record in Follow Up Boss is the memory that protects them and your client."
+        },
+        {
+          "t": "p",
+          "text": "**Call recording.** Many teams record calls for quality and coaching. Recording laws differ by state: some require only one person on the call to agree, but others (for example California, Florida, Pennsylvania, Washington, Illinois, Maryland and Massachusetts) require **everyone** on the call to agree. Our rule: **always announce that the call may be recorded, on every call, and treat every state as requiring everyone’s consent.** Say it at the start, in the opening: “Just so you know, this call may be recorded for quality.” If your client has its own wording in the script, use the client’s wording."
+        },
+        {
+          "t": "p",
+          "text": "If a lead says “I don’t want to be recorded”, respect it: tell them you understand, and if your system lets you stop the recording, stop it; if it does not, offer to have the agent call them back from an unrecorded line. Note it. In a 3-way handoff, announce the recording again so the agent and the lead both hear it."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Announce recording in your first sentences, every call",
+            "Complete all opt-out steps before your next dial",
+            "Treat Spanish opt-outs exactly like English ones"
+          ],
+          "dont": [
+            "Argue, explain or ask “Are you sure?” after an opt-out",
+            "Delete an opted-out contact",
+            "Call back from a different number after a lead asked you to stop"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F6-5",
+      "title": "Fair housing: treat every caller the same",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "The federal Fair Housing Act makes it illegal to discriminate in housing because of **race, color, religion, sex, national origin, familial status (families with children under 18, pregnancy) or disability**. Many states and cities protect more groups, such as age, marital status, sexual orientation, gender identity, source of income (for example, housing vouchers) or military status. Everyone on your client’s team, including you, must follow these laws on every call, text and note."
+        },
+        {
+          "t": "p",
+          "text": "Treat every caller the same. Never steer anyone toward or away from an area, and never describe a neighborhood by who lives there, its schools, crime or “safety”, religion, or how “family-friendly” it is."
+        },
+        {
+          "t": "callout",
+          "title": "The phrase to remember",
+          "text": "If they ask, say: **“Great question for your agent. I can also send you public sources.”** Log what the lead wants in the home, not who they are."
+        },
+        {
+          "t": "p",
+          "text": "**What is steering?** Steering means guiding people toward or away from areas or homes because of who they are, or who lives there. It is often accidental and friendly: “You’ll feel at home in that area, there are lots of Hispanic families”, or “That area isn’t great for kids.” Both comments are steering, even if you meant to help. Your job is to let the lead choose based on facts about homes, prices and locations, and to send questions about the community to public sources."
+        },
+        {
+          "t": "table",
+          "head": [
+            "The lead asks",
+            "Do not say",
+            "Say instead"
+          ],
+          "rows": [
+            [
+              "“Is it a safe neighborhood?”",
+              "“Yes, very safe.” / “I wouldn’t go there.”",
+              "“Great question for your agent. I can also send you public sources, like the local police department’s crime map.”"
+            ],
+            [
+              "“How are the schools?”",
+              "“The schools are excellent, perfect for families.”",
+              "“Great question for your agent. I can also send you public sources, like the school district’s website and state school reports.”"
+            ],
+            [
+              "“What kind of people live there?”",
+              "“Mostly young professionals.” / “Lots of families like yours.”",
+              "“Great question for your agent. I can also send you public sources, like census information. What matters most to you in the home itself?”"
+            ],
+            [
+              "“Is there a church or mosque nearby?”",
+              "“It’s a very Christian area.”",
+              "“Great question for your agent. I can also send you public sources, like a map search for places that matter to you.”"
+            ],
+            [
+              "“Is it family-friendly?”",
+              "“Totally, lots of kids.”",
+              "“Great question for your agent. What do you need in the home: how many bedrooms, a yard?”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Describe homes, not people.** You may talk about the home and its features: bedrooms, yard, garage, square footage, distance to a highway or a park, the price. You may relay facts from the listing. You may not describe neighbors, the “type” of buyers who like an area, or whether a place is “good” or “bad”."
+        },
+        {
+          "t": "p",
+          "text": "**Notes follow the same rule.** Write what the lead wants in the home: “3 bd, yard, near I-35, under $350K, move by June.” Never write who they are: not their race, religion, accent, nationality, age guess, disability or whether they “seem like” anything. Notes can be read in a lawsuit. Write every note as if a judge will read it."
+        },
+        {
+          "t": "p",
+          "text": "**Language and accessibility.** As a bilingual ISA, you are a huge asset to Spanish-speaking leads. Offer the same service in either language, with the same questions, the same homes and the same urgency. Never give one group different information or less attention. If a caller uses a relay service for deaf or hard-of-hearing people, or needs more time or a different way to communicate because of a disability, treat it as a normal call and give them the same service. If a lead asks for an accommodation, note it and tell the agent."
+        },
+        {
+          "t": "script",
+          "title": "A fair housing question handled well",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "We have two little kids. Which of these areas has the best schools and the fewest problems?"
+            },
+            {
+              "who": "You",
+              "text": "Great question for your agent. I can also send you public sources, like the school district websites and the city crime maps, so you can compare yourselves. In the home itself, how many bedrooms do you need?"
+            },
+            {
+              "who": "Lead",
+              "text": "At least three, and a fenced yard."
+            },
+            {
+              "who": "You",
+              "text": "Got it, three bedrooms and a fenced yard. Your agent can show you options in every area you’re considering. Would Saturday at 10 or 1 work?"
+            }
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Use the fair housing phrase word for word",
+            "Ask about the home: rooms, yard, price, commute, timeline",
+            "Give every lead the same service in English or Spanish"
+          ],
+          "dont": [
+            "Describe an area by who lives there, schools, crime, safety, religion or “family-friendly”",
+            "Suggest or discourage an area for any lead",
+            "Write anything about a lead’s identity in a note"
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Compliance drills and supervised dialing",
+    "minutes": 120,
+    "intro": "Compliance must be automatic, so this practice has two parts. First you drill the decisions on paper and in a Follow Up Boss practice account. Then you make supervised calls on your coach’s line, where every call is scored on compliance before you ever call a real lead.",
+    "steps": [
+      "Calling-window drill: your coach sends you 15 situations (day, your time, lead’s city). For each, write the lead’s local time and “call now” or “call at …”. Your target is 15 out of 15.",
+      "Before-you-dial drill: for 10 sample leads (source, scrub date, consent field, tags), write whether you may call, text, both or neither, and why.",
+      "Opt-out drill in the practice account: for three sample contacts who opted out by call, by text (“STOP”) and in Spanish (“ya no me escriban”), add the DNC tag, set the stage to Archived / DNC, pause all action plans and write the opt-out note. Take one screenshot of each finished contact (practice account only).",
+      "Write your compliant opening (name, client’s team, recording announcement, reason for the call) and say it aloud ten times until you can say it naturally without reading.",
+      "Fair housing drill: record yourself answering five questions your coach sends (schools, safety, “what kind of people”, religion, family-friendly) with the fair housing phrase and a question about the home.",
+      "Supervised dialing: join your coach for live role-play calls on the coach’s line. Each call is scored on identification, script, Do Not Call and opt-out handling, recording announcement and the appointment handoff. At least one caller will opt out and one will ask a fair housing question, and one call will be set at a time outside the window, where the right answer is not to dial.",
+      "Write a short reflection: the one compliance habit you found hardest and how you will make it automatic."
+    ],
+    "deliverable": "Send your coach your window and before-you-dial answers, the three opt-out screenshots from the practice account, your written opening, the fair housing recording and your reflection. Your coach adds the scores from the supervised calls. Name the files Lastname_F6_practice_date."
+  },
+  "quiz": [
+    {
+      "q": "A prospect texts back: “STOP CALLING ME”. What is your mandatory immediate action?",
+      "options": [
+        "Call them immediately to convince them to stay subscribed.",
+        "Change their Follow Up Boss stage to Archived / DNC, pause all automations, and log the opt-out.",
+        "Ignore the text and try calling from a different number.",
+        "Delete the entire CRM database."
+      ],
+      "answer": 1,
+      "explain": "TCPA compliance requires immediate cessation of all calls and texts upon an opt-out request."
+    },
+    {
+      "q": "It is Sunday at 10:30 AM in Phoenix, Arizona. A lead there asked for a call yesterday. What do you do?",
+      "options": [
+        "Call now, because the lead asked for it",
+        "Text now, because texts are not calls",
+        "Wait until noon Phoenix time, then call",
+        "Wait until Monday at 8 AM"
+      ],
+      "answer": 2,
+      "explain": "On Sunday the window is noon to 8:00 PM in the lead’s local time, and texts follow the same window."
+    },
+    {
+      "q": "A lead’s address is in Los Angeles, but the phone number has a Miami area code. Which time do you use?",
+      "options": [
+        "Miami time only, because of the area code",
+        "Your own local time",
+        "Your client’s office time",
+        "A time that is inside the window in both places"
+      ],
+      "answer": 3,
+      "explain": "People keep their numbers when they move. Use the address first, and when the two disagree, call when it is safe in both time zones."
+    },
+    {
+      "q": "Your client gives you a farm list with no scrub date. What may you do?",
+      "options": [
+        "Nothing on that list until your manager confirms it was scrubbed against the National Do Not Call Registry and the client’s DNC list within the last 31 days",
+        "Call it, because farm lists are always allowed",
+        "Text it instead of calling",
+        "Call only the numbers with local area codes"
+      ],
+      "answer": 0,
+      "explain": "Non-inbound lists are called only after a scrub, and a scrub stays valid for 31 days."
+    },
+    {
+      "q": "Which opening is compliant?",
+      "options": [
+        "“Hi, I’m calling about homes. Are you buying?”",
+        "“Hi Maria, this is Daniel with the Lakeside Realty Team. This call may be recorded for quality. You asked about the townhouse on Birch Street.”",
+        "“Hi, this is your agent. Do you want to see homes?”",
+        "A prerecorded message about new listings"
+      ],
+      "answer": 1,
+      "explain": "Identify yourself and your client’s team, announce the recording, and give the reason for the call. Never claim to be the agent, and never use prerecorded messages without confirmed written consent."
+    },
+    {
+      "q": "Why do we always announce that a call may be recorded?",
+      "options": [
+        "Because it makes the lead talk faster",
+        "Because only Florida requires it",
+        "Because some states require everyone on the call to agree, and we treat every state as requiring everyone’s consent",
+        "Because the recording replaces the Follow Up Boss note"
+      ],
+      "answer": 2,
+      "explain": "Recording laws vary, and several states require all-party consent. One habit on every call keeps you safe everywhere."
+    },
+    {
+      "q": "A lead asks, “Is that neighborhood safe for my kids?” What do you say?",
+      "options": [
+        "“Great question for your agent. I can also send you public sources.”",
+        "“Yes, it’s very safe and family-friendly.”",
+        "“I would avoid that area.”",
+        "“Most of the families there are like yours.”"
+      ],
+      "answer": 0,
+      "explain": "Describing an area by safety, schools, who lives there or how family-friendly it is can be steering. Use the fair housing phrase and ask about the home."
+    },
+    {
+      "q": "Which Follow Up Boss note follows fair housing rules?",
+      "options": [
+        "“Nice young Hispanic couple, expecting a baby.”",
+        "“Older man, seems to have a disability, wants a quiet area.”",
+        "“Religious family, wants to be near their church.”",
+        "“3 bd / 2 ba, fenced yard, near I-35, under $350K, move by June.”"
+      ],
+      "answer": 3,
+      "explain": "Log what the lead wants in the home, not who they are. Notes can be read in a lawsuit."
+    },
+    {
+      "q": "Your dialing software offers a “voice drop” that leaves a prerecorded voicemail. When may you use it?",
+      "options": [
+        "Any time, because it saves time",
+        "Only after 6 PM",
+        "Only if your manager confirms written consent is in place",
+        "Only for leads in your own time zone"
+      ],
+      "answer": 2,
+      "explain": "Dial by hand and leave voicemails in your own voice. Autodialers and prerecorded messages need prior express written consent confirmed by your manager."
+    },
+    {
+      "q": "Why must you never delete a contact who opted out?",
+      "options": [
+        "Because the DNC record is what stops future calls and texts if the number comes in again",
+        "Because deleting contacts slows down Follow Up Boss",
+        "Because the agent may want to call them later",
+        "Because it is fine to delete them after 30 days"
+      ],
+      "answer": 0,
+      "explain": "Deleting the contact erases the opt-out. Keep it tagged DNC in Archived / DNC so nobody contacts them again."
+    }
+  ]
+}

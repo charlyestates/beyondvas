@@ -1,0 +1,696 @@
+{
+  "id": "I1",
+  "part": "isa",
+  "title": "In the buyer's shoes and A.L.M.",
+  "summary": "Understand the person behind every inquiry and run every call on Appointment, Location and Motivation.",
+  "objectives": [
+    "Describe what a typical buyer feels when they send an inquiry, and adjust your tone to it.",
+    "Explain the five buyer truths and use them to choose what to say when a lead is nervous, quiet or doubtful.",
+    "Run A.L.M. (Appointment, Location, Motivation) on a live call, with at least two good questions for each letter.",
+    "Answer “Can we even afford it?” and “I already have an agent” without pressure and inside your unlicensed scope.",
+    "Ask about location and lifestyle in a way that respects fair housing rules."
+  ],
+  "lessons": [
+    {
+      "id": "I1-1",
+      "title": "11:14 PM, a couch in your client's area",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Every lead in your client's CRM started as a person on a couch, in a car or at a kitchen table, scrolling a phone. Before you learn any script, you need to see that person clearly. This lesson tells one story. Keep it in your head every time a new lead appears on your screen."
+        },
+        {
+          "t": "callout",
+          "title": "The story",
+          "text": "It is 11:14 PM. The kids are asleep. Maria and Luis are on the couch, looking at homes on one phone. Their rent went up again this month. They have saved for three years, and they still do not know if it is enough. Then they see a three-bedroom house in your client's area. It is not fancy. It is just the first home that looks like theirs."
+        },
+        {
+          "t": "p",
+          "text": "Maria taps **“Contact agent.”** Her heart beats fast. The house does not scare her. The numbers scare her: the down payment, the monthly payment, the words she does not understand. She is afraid someone will make her feel stupid, or push her into something she cannot afford."
+        },
+        {
+          "t": "p",
+          "text": "The next morning, inside the calling window, a phone rings. It is you, calling on behalf of your client, the agent. What happens in the next two minutes decides whether Maria and Luis ever buy that home with your client, or with anyone."
+        },
+        {
+          "t": "p",
+          "text": "**What Maria needs from you.** She does not need a lecture about interest rates. She does not need ten listings. And you must never give her loan, rate or price advice: that is not your job, and it needs a license you do not have. She needs three things:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**To feel heard.** You ask what they are hoping for and you listen to the answer.",
+            "**To feel safe.** You are calm, kind and patient. No pressure, no judgment.",
+            "**A clear next step.** You offer a meeting with your client, the agent, who can walk them through the real process. You mean it, and you give two concrete times."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Nobody has ever walked Maria and Luis through buying a home. You are often the very first person in the industry who talks to them. That is a big responsibility, and it is also why this job matters."
+        },
+        {
+          "t": "script",
+          "title": "How the first call can sound",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi, is this Maria? This is Ana with the Rivera Home Team. Just so you know, this call may be recorded. You asked about the three-bedroom on Oak Street last night. Do you have two minutes?"
+            },
+            {
+              "who": "Lead",
+              "text": "Oh, yes. Hi. Honestly, we were just looking."
+            },
+            {
+              "who": "You",
+              "text": "That's how almost everyone starts. What did you like about that house?"
+            },
+            {
+              "who": "Lead",
+              "text": "The yard. And it's close to my husband's work. But we don't even know if we can afford it."
+            },
+            {
+              "who": "You",
+              "text": "That's a really common worry, and it's exactly what Daniel, our agent, helps with. He can sit down with you and walk you through the whole process, no pressure. Would Thursday at 6 PM or Saturday at 10 AM be easier for you?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Look at what the ISA did. She announced the recording. She asked an open question about what Maria liked. She did not argue with “just looking.” She did not answer the money question herself. She connected the worry to the agent and asked for an appointment with two times."
+        },
+        {
+          "t": "p",
+          "text": "**A year later.** Maria and Luis have their keys. Their kids play in the yard. They send their cousin to your client. That is who is on the other end of every inquiry: a family, and every family they know."
+        },
+        {
+          "t": "callout",
+          "title": "Every price point gets your best",
+          "text": "A $250,000 inquiry and a $900,000 inquiry get the same speed, the same care and the same follow-up. Never pre-judge a lead by the price of the home they clicked. Today's small deal is next year's referral. No lead left behind."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Picture the person before you dial: what are they worried about tonight?",
+            "Use their name, slow down, and let them finish their sentences.",
+            "Offer the agent's help as the answer to their worries."
+          ],
+          "dont": [
+            "Treat the lead as a number on a list.",
+            "Judge the lead by price point, accent, name or how they write.",
+            "Answer money, rate or price questions yourself."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I1-2",
+      "title": "Five buyer truths",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Thousands of buyer conversations teach the same lessons again and again. We call them the five buyer truths. Learn them well: they tell you what to say when you are not sure what to say."
+        },
+        {
+          "t": "p",
+          "text": "**Truth 1: Overwhelmed, not unmotivated.** A buyer who goes quiet is usually confused, not uninterested. They saw a word they did not understand (“escrow,” “contingency,” “pre-approval”), they felt embarrassed, and they stopped answering. When a lead goes silent, do not decide they are “not serious.” Ask yourself: what question are they stuck on? Then make it easy to come back."
+        },
+        {
+          "t": "script",
+          "title": "Re-opening a quiet lead (by text, to a lead who agreed to texts)",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Kevin, Ana here with the Rivera Home Team. A lot of buyers tell us the hardest part is knowing where to start. Would a 15-minute call with Daniel this week help? He can do Wednesday at 5 or Thursday at 7."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Truth 2: Education over pressure.** Buyers do not need more listings. They need clarity: what is the next step, and what does it need? Pressure freezes people. If you push, they stop picking up. As an ISA you do not teach the legal or financial details, but you can explain the **process** in simple words: “The first step is a short meeting with the agent. He explains how buying works, what it costs to get started, and what to do first.”"
+        },
+        {
+          "t": "p",
+          "text": "**Truth 3: Guidance, not sales.** Think of the agent as someone who holds the map. The agent explains the roads; the buyer chooses where to go. Your role is to bring the buyer to the person with the map. You do not choose for them, and you do not tell them which neighborhood is “better.” A clear “no, that is not for us” is useful too: it helps the agent narrow the search. Write it in the notes."
+        },
+        {
+          "t": "p",
+          "text": "**Truth 4: Trust comes from clear facts.** Buyers trust people who separate what they know from what still needs checking. You never quote a monthly payment, a rate or a price opinion. Instead, you are honest about what you can and cannot answer: “I don't want to guess on that. Daniel will go through the real numbers with you at the meeting, in writing.” That sentence builds more trust than any guess."
+        },
+        {
+          "t": "callout",
+          "title": "Your scope",
+          "text": "You are an unlicensed assistant. You do discovery, A.L.M. qualification and appointment scheduling. You never give pricing promises, opinions of value, loan or rate advice, or legal explanations. When a question needs a license, the answer is always the agent (or, when the agent says so, the client's preferred lender)."
+        },
+        {
+          "t": "p",
+          "text": "**Truth 5: Every inquiry matters.** The first-time buyer with a small budget, the investor, the person who “is just looking”: each one gets the same speed and care. Small deals become referrals. Old leads become clients. Many buyers start looking six months or more before they buy, so today's casual browser is next season's client."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Truth",
+            "What you see",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "Overwhelmed, not unmotivated",
+              "The lead stops replying after one call",
+              "Find the question they are stuck on; offer a short meeting"
+            ],
+            [
+              "Education over pressure",
+              "“We're not ready yet”",
+              "Explain the next step in simple words; no push"
+            ],
+            [
+              "Guidance, not sales",
+              "“Which area is better?”",
+              "Ask what matters to them; leave the advice to the agent"
+            ],
+            [
+              "Trust comes from clear facts",
+              "“How much would my payment be?”",
+              "Do not guess; book the agent who will show real numbers"
+            ],
+            [
+              "Every inquiry matters",
+              "A low price point or a vague message",
+              "Same speed, same care, same follow-up"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Putting the truths together.** Imagine a lead named Sofia who writes: “We looked at a few homes online but we probably can't buy for a while.” A weak ISA hears “not a lead” and moves on. A strong ISA hears Truth 1 and Truth 5: Sofia is probably unsure, and she still matters. The reply asks what “a while” means, what is holding them back, and offers a no-pressure meeting."
+        },
+        {
+          "t": "script",
+          "title": "Using the truths on a call",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "We probably can't buy for a while."
+            },
+            {
+              "who": "You",
+              "text": "That's completely fine. Many of our clients start looking six months early. Can I ask what “a while” looks like for you, and what you'd want to have in place first?"
+            },
+            {
+              "who": "Lead",
+              "text": "Maybe spring. We're not sure how much we need saved."
+            },
+            {
+              "who": "You",
+              "text": "That's one of the most common questions, and Daniel can walk you through it so you have a plan for spring. Would a short call next Tuesday at 6 or Wednesday at 12 work?"
+            }
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Treat silence as confusion, not rejection.",
+            "Explain the next step, not the whole process.",
+            "Say “I don't want to guess” when a question needs a license."
+          ],
+          "dont": [
+            "Send ten listings to someone who has not met the agent.",
+            "Predict prices or rates (“prices will only go up”).",
+            "Decide a lead is “not serious” because of budget or timeline."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I1-3",
+      "title": "The A.L.M. engine",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Every call you make has a structure, and the structure has a name: **A.L.M.**, which stands for **Appointment, Location, Motivation**. Your client's whole team uses it, your QA scorecard measures it (A.L.M. Discovery is worth 30 of the 100 points), and every Follow Up Boss note you write is organized by it."
+        },
+        {
+          "t": "p",
+          "text": "A.L.M. is not a form you read out loud. It is a checklist in your head. By the end of a good call, you know the answer to all three letters, or you know which one is still missing and you have a plan to get it."
+        },
+        {
+          "t": "p",
+          "text": "**A is for Appointment.** Never end a call without pitching a date and time. For example, ask if they can meet the local specialist (your client, the agent) this Saturday at 11 AM or 2 PM. An appointment can be a home tour, a buyer consultation at the office or on video, a phone call with the agent, or a listing consultation for a seller. The appointment is the goal of every call, because the agent can only help people they actually meet."
+        },
+        {
+          "t": "p",
+          "text": "**L is for Location.** Uncover target areas, preferred zip codes and commute tolerances. Where do they want to live? Which cities, neighborhoods or zip codes are they looking at? How far are they willing to drive to work? What kind of home: how many bedrooms and bathrooms, what price range, a yard, a garage, one story? Location also includes the property itself: which home did they ask about, and what did they like about it?"
+        },
+        {
+          "t": "p",
+          "text": "**M is for Motivation.** Find the underlying “WHY”: relocating for work, growing family, downsizing, or lease expiring. Motivation tells you how urgent the move is and what really matters to the lead. It also includes the timeline: when do they want to be in the new home? A lead whose lease ends in 45 days is very different from a lead who wants to move “sometime next year.”"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Letter",
+            "What you need to learn",
+            "Example answer you log"
+          ],
+          "rows": [
+            [
+              "A: Appointment",
+              "A proposed or confirmed time with the agent",
+              "Proposed tour Sat 11:00 AM; lead will confirm by text tonight"
+            ],
+            [
+              "L: Location",
+              "Areas, zip codes, commute, beds, baths, price range, the home they asked about",
+              "Westside, 4 bd / 2 ba, up to $550K, 30-minute commute max"
+            ],
+            [
+              "M: Motivation",
+              "The reason for moving and the timeline",
+              "Job relocation, wants to move by March"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Why this order of letters, if Appointment comes first?** A is first because it is the goal, not because it is the first question. In practice, you often ask a Location or Motivation question to open the conversation, and then you ask for the appointment early, sometimes in the first minute. When a lead asks about a specific home, you can ask for the tour right away: “Would you like to see it tomorrow at 4 or 6?” Then you learn L and M while you set it up."
+        },
+        {
+          "t": "callout",
+          "title": "The golden rule of A.L.M.",
+          "text": "The agent should never have to ask the client the same question twice. If you learn it, you log it. Your A.L.M. note is the agent's preparation for the appointment."
+        },
+        {
+          "t": "p",
+          "text": "**Good A.L.M. questions are open.** An open question cannot be answered with yes or no. “Are you looking in Westside?” gets a yes or a no. “Which areas are you looking at?” gets a real answer. Here are starter questions. Make them your own, and practice them out loud until they sound natural."
+        },
+        {
+          "t": "list",
+          "items": [
+            "**A:** “Our agent can show it to you Thursday at 5 or Saturday at 10. Which is better?” / “Would a 15-minute call with the agent tomorrow at 12 or 6 help?”",
+            "**L:** “What made you click on that home?” / “Which areas are you looking at?” / “How far is too far from work?” / “What does the home need to have? What would be nice to have?”",
+            "**M:** “What has you thinking about moving now?” / “When would you ideally like to be in your new place?” / “What happens if you don't move by then?”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Common mistakes.** The first mistake is the interrogation: ten questions in a row, like a survey. People hang up. Ask one question, listen, react to the answer, then ask the next one. The second mistake is forgetting the A: a friendly ten-minute chat that ends with “OK, call us when you're ready.” That call scores badly on QA, and worse, the lead never meets the agent. The third mistake is collecting the answers and not logging them."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Ask for an appointment on every call, with two specific times.",
+            "Ask open questions and follow up on the answer.",
+            "Log A, L and M in the note right after the call."
+          ],
+          "dont": [
+            "Read the questions like a survey.",
+            "End with “let me know when you're ready.”",
+            "Ask about the lead's family, religion, origin or other personal traits; ask about the home they want."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I1-4",
+      "title": "A.L.M. in a real conversation",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Knowing the three letters is easy. Using them in a real, friendly, two-to-five-minute conversation is a skill. This lesson walks through a full call, line by line, and shows you where each letter appears."
+        },
+        {
+          "t": "p",
+          "text": "**The situation.** A lead named Marcus Hill filled out a form on a home portal 2 minutes ago, asking about a 4-bedroom house with a pool. The form includes his consent to calls and texts. His area code is in the same time zone as your client, and it is 10:20 AM on a Tuesday there: inside the calling window. You dial."
+        },
+        {
+          "t": "script",
+          "title": "A full A.L.M. call",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi, is this Marcus? This is Ana with the Rivera Home Team. This call may be recorded. You just asked about the 4-bedroom with the pool on Cedar Lane. Did I catch you at an OK time?"
+            },
+            {
+              "who": "Lead",
+              "text": "Uh, sure. I just wanted to see more pictures of the kitchen."
+            },
+            {
+              "who": "You",
+              "text": "Of course. What caught your eye about that one? (L)"
+            },
+            {
+              "who": "Lead",
+              "text": "We need more space. We have two kids and our lease ends in about 45 days. (M)"
+            },
+            {
+              "who": "You",
+              "text": "Forty-five days, so timing matters. Is Cedar Lane the area you want, or are you open to nearby areas too? (L)"
+            },
+            {
+              "who": "Lead",
+              "text": "We like that side of town. My job is about 20 minutes from there."
+            },
+            {
+              "who": "You",
+              "text": "Good to know. Besides four bedrooms, what does the home need to have? (L)"
+            },
+            {
+              "who": "Lead",
+              "text": "A bigger backyard. And we'd like to stay under $500,000."
+            },
+            {
+              "who": "You",
+              "text": "Got it. With your lease ending soon, the best next step is to see a few homes in person with Daniel, our agent. He could show you Cedar Lane and two or three similar homes this Saturday at 11 AM or 2 PM. Which works better? (A)"
+            },
+            {
+              "who": "Lead",
+              "text": "Saturday at 11 could work."
+            },
+            {
+              "who": "You",
+              "text": "Great. I'll put Saturday at 11 AM on Daniel's calendar and text you a confirmation with his contact details. Daniel will also send you a short agreement to review before the tour; he'll explain it. Anything else he should know before Saturday?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**What happened in that call?** In under four minutes, the ISA learned Location (the side of town, a 20-minute commute, 4 bedrooms, a big backyard, under $500,000), Motivation (more space for the family, lease ends in 45 days) and set the Appointment (Saturday 11 AM). She never asked “What is your budget?” in a cold way; the lead offered it because the conversation felt safe."
+        },
+        {
+          "t": "callout",
+          "title": "Notice the buyer agreement",
+          "text": "Since August 2024, an agent working with a buyer needs a written buyer agreement before any tour. The agent sends it and explains it. You never send, explain or sign it. You only mention that the agent will send it, and you flag it in the calendar invite."
+        },
+        {
+          "t": "p",
+          "text": "**Listen for the letters the lead gives you for free.** Leads often answer questions you have not asked yet. When Marcus said “our lease ends in 45 days,” he gave you Motivation and timeline in one sentence. Do not ask “When do you want to move?” two minutes later: he already told you. Instead, use it: “Forty-five days, so timing matters.” That shows you listened."
+        },
+        {
+          "t": "p",
+          "text": "**When you cannot get all three letters.** Some calls are short. The lead is driving, or busy, or nervous. In that case, prioritize like this:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Try for the appointment (A). Even a short phone call with the agent counts.",
+            "If they will not book, get one Location or Motivation answer so the next call is easier.",
+            "Agree on a next step: “Can I call you back tomorrow at 6?” and log it as a task.",
+            "Log what you learned and what is still missing, so the next person knows exactly where to start."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The A.L.M. note.** Right after the call, write your note in Follow Up Boss. Module I7 teaches the full note format; here is the short version so you can start practicing now:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Field",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Date/Time",
+              "Tue 10:24 AM"
+            ],
+            [
+              "Disposition",
+              "Call, connected (4 min)"
+            ],
+            [
+              "A",
+              "Confirmed tour Sat 11:00 AM with Daniel"
+            ],
+            [
+              "L",
+              "Cedar Lane side of town, 4 bd, big backyard, under $500K, 20-min commute"
+            ],
+            [
+              "M",
+              "Lease ends in ~45 days, needs more space"
+            ],
+            [
+              "Next step",
+              "Calendar invite to Daniel with the lead link; buyer agreement flagged; reminders set"
+            ]
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Use what the lead tells you, out loud, to show you listened.",
+            "Ask for the appointment as soon as there is a reason to meet.",
+            "Write down what is still missing if the call was short."
+          ],
+          "dont": [
+            "Ask a question the lead already answered.",
+            "Promise what the agent will do about price or terms.",
+            "Leave a call without a next step in the CRM."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I1-5",
+      "title": "Hard moments: money worries, “I already have an agent” and fair housing",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Three situations come up again and again with buyers. Each one can go very well or very badly depending on your first sentence. Learn the right first sentence for each."
+        },
+        {
+          "t": "p",
+          "text": "**1. “Can we even afford it?”** This is the most common worry, and it is a good sign: the lead is thinking seriously. The wrong answers are a brush-off (“Let me know when you're ready”), a guess (“Your payment would be about $2,400”), or a demand (“Are you pre-approved? We can't show homes without a letter”). The first is cold, the second is outside your scope, and the third freezes a first-time buyer."
+        },
+        {
+          "t": "script",
+          "title": "Maria texts back (she agreed to texts)",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Hi, we saw the 3 bedroom on Oak Street. Honestly not sure we can afford anything right now. Is it even worth talking?"
+            },
+            {
+              "who": "You",
+              "text": "It's always worth talking, Maria. What are you hoping for, and what is making it feel hard right now? Daniel would love to meet and walk you through the real process, no pressure. Would Thursday at 6 or Saturday at 10 work?"
+            },
+            {
+              "who": "Lead",
+              "text": "Oh wow, thank you. Nobody has explained any of this to us. Saturday at 10 is good."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The right reply does three things: it says “it is worth talking,” it asks what is making it feel hard (so you learn Motivation and worries), and it offers a meeting with two times. Financing questions go to the agent; the agent decides if and when to connect them with the client's preferred lender. Module I4 covers the financing conversation in depth."
+        },
+        {
+          "t": "p",
+          "text": "**2. “I already have an agent.”** Never just hang up and delete the lead. Never pitch around another agent's agreement either. Ask one simple question first:"
+        },
+        {
+          "t": "script",
+          "title": "The agent question",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "I already have an agent."
+            },
+            {
+              "who": "You",
+              "text": "Understood, and I won't step on that. Have you signed an agreement with them?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, we signed last week."
+            },
+            {
+              "who": "You",
+              "text": "Great, I'll make a note. If anything changes, we're here. Have a wonderful day."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "If they **have** signed: respect it. Log it in Follow Up Boss (“Has agent, signed agreement, per lead on [date]”), tell your agent the same day, and follow whatever plan your client sets for that lead. Never try to talk them out of the agreement. If they **have not** signed: offer a second opinion from your local specialist and ask for a time."
+        },
+        {
+          "t": "script",
+          "title": "When there is no signed agreement",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "No, we haven't signed anything. We've just been talking to someone."
+            },
+            {
+              "who": "You",
+              "text": "Thanks for telling me. Many buyers like a second opinion before they decide who to work with. Daniel could do a quick 15-minute call tomorrow at 12 or 5. Would one of those work?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**3. Fair housing questions.** Buyers often ask “Is it a safe area?”, “Are the schools good?”, “What kind of people live there?” or “Is it family-friendly?” These sound innocent, but answering them can be steering, which is illegal under the federal Fair Housing Act. You must treat every caller the same, never steer anyone toward or away from an area, and never describe a neighborhood by who lives there, its schools, crime or “safety,” religion, or how “family-friendly” it is."
+        },
+        {
+          "t": "script",
+          "title": "The fair housing answer",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Is that a safe neighborhood? We have kids."
+            },
+            {
+              "who": "You",
+              "text": "Great question for your agent. I can also send you public sources. What else is important to you in the home itself, like the yard or the number of bedrooms?"
+            }
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Log the home, not the person",
+          "text": "Write what the lead wants in the home: bedrooms, yard, commute, price range, one story. Never write who they are: “young family,” “Hispanic couple,” “religious,” “retired.” Notes are business records, and the agent may share them."
+        },
+        {
+          "t": "p",
+          "text": "**Why A.L.M. helps in every hard moment.** In all three situations, you return to the structure. Money worry? Ask what makes it hard (M), then book (A). Has an agent? Ask about the agreement, then respect it or book a second opinion (A). Fair housing question? Give the safe answer, then return to the home they want (L). The structure keeps you calm and keeps you inside your scope."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Answer “can we afford it?” with care, a question, and a meeting.",
+            "Ask whether they signed an agreement with the other agent.",
+            "Use the exact fair housing sentence, then move back to the home."
+          ],
+          "dont": [
+            "Quote a payment, a rate or a price opinion.",
+            "Pitch around another agent's signed agreement.",
+            "Describe an area as safe, unsafe, good for kids, or by who lives there."
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Your A.L.M. call book and three recorded role-plays",
+    "minutes": 90,
+    "intro": "You will build your own A.L.M. question bank, then practice it out loud with a partner (another VA in training or your coach) in three recorded role-plays. Use only fictional leads. Record on your computer or phone with your partner's permission; never record a real lead for practice.",
+    "steps": [
+      "Write your A.L.M. call book (20 minutes): at least 5 questions for Location, 5 for Motivation and 3 ways to ask for the Appointment with two specific times. Write them in your own natural English. Add the exact fair housing sentence and the “Have you signed an agreement with them?” question.",
+      "Read your questions out loud three times. Mark any word that is hard to say clearly and replace it with a simpler one.",
+      "Role-play 1, the ready buyer (10 minutes): your partner plays a lead whose lease ends in 45 days and who asked about a specific home. Your goal: all three letters and a booked appointment in under 5 minutes. Remember to announce that the call may be recorded.",
+      "Role-play 2, the worried first-time buyer (10 minutes): your partner says “Honestly, I'm not sure we can afford anything.” Your goal: no guessing about money, learn what is making it hard, and offer a no-pressure meeting with two times.",
+      "Role-play 3, the hard moments (10 minutes): during one call your partner says “Is it a safe area?” and later “We've been talking to another agent.” Your goal: the fair housing answer, the agreement question, and the right next step for their answer.",
+      "Switch roles and play the lead for your partner, so you hear the calls from the buyer's side (20 minutes).",
+      "After each of your role-plays, write a practice A.L.M. note (Date/Time, Disposition, A, L, M, Next Step) exactly as you would in Follow Up Boss.",
+      "Listen to your three recordings. For each one, write two sentences: one thing you did well and one thing you will change."
+    ],
+    "deliverable": "Send your coach (in your BeyondVAs training channel): your written A.L.M. call book, the three recordings, the three practice A.L.M. notes, and your six self-review sentences."
+  },
+  "quiz": [
+    {
+      "q": "What does the ALM qualification framework stand for in our ISA operations?",
+      "options": [
+        "Address, Listing price, Mortgage approval",
+        "Appointment, Location, Motivation",
+        "Action plans, Leads, Metrics",
+        "Agent, Lender, Marketing"
+      ],
+      "answer": 1,
+      "explain": "ALM stands for Appointment, Location, and Motivation."
+    },
+    {
+      "q": "A lead stopped replying after one short call. Based on the five buyer truths, what is most likely true?",
+      "options": [
+        "They were never serious and should be archived",
+        "They are overwhelmed and stuck on a question",
+        "They already bought a home",
+        "They want you to send many more listings"
+      ],
+      "answer": 1,
+      "explain": "Overwhelmed, not unmotivated. A quiet buyer is usually confused. Find the question they are stuck on and make it easy to come back."
+    },
+    {
+      "q": "A lead asks, “How much would my monthly payment be on that house?” What is the best answer?",
+      "options": [
+        "Give a quick estimate so they stay interested",
+        "Tell them to search for a mortgage calculator online and call back",
+        "“I don't want to guess on that. Our agent will go through the real numbers with you. Would Thursday at 5 or Saturday at 10 work?”",
+        "Ask for their credit score so you can estimate it"
+      ],
+      "answer": 2,
+      "explain": "Payments, rates and loan advice are outside your unlicensed scope. Be honest that you will not guess, and book the agent, who shows real numbers."
+    },
+    {
+      "q": "Which of these is the best Location question?",
+      "options": [
+        "“Which areas are you looking at, and how far is too far from work?”",
+        "“Are you looking in Westside?”",
+        "“Is the area important?”",
+        "“What kind of neighbors do you want?”"
+      ],
+      "answer": 0,
+      "explain": "It is open (not yes or no) and it covers target areas and commute tolerance. Asking what kind of neighbors they want invites a fair housing problem."
+    },
+    {
+      "q": "A buyer asks, “Is that a family-friendly, safe neighborhood?” What do you say?",
+      "options": [
+        "“Yes, lots of families with kids live there.”",
+        "“Great question for your agent. I can also send you public sources.”",
+        "“I would avoid that area if I were you.”",
+        "“The schools there are the best in town.”"
+      ],
+      "answer": 1,
+      "explain": "Fair housing: never describe an area by who lives there, schools, crime or safety, or how family-friendly it is. Use the exact sentence, then return to the home they want."
+    },
+    {
+      "q": "A lead says, “I already have an agent.” What is your first move?",
+      "options": [
+        "Hang up and delete the lead",
+        "Explain why your client is a better agent",
+        "Ask, “Have you signed an agreement with them?”",
+        "Offer a discount to switch"
+      ],
+      "answer": 2,
+      "explain": "Ask about the agreement first. If they signed, respect it, note it and tell your agent. If not, offer a second opinion and ask for a time. Never pitch around a signed agreement."
+    },
+    {
+      "q": "You had a friendly 8-minute call and learned the lead's areas and timeline, but the call ended with “Call us when you're ready.” What went wrong?",
+      "options": [
+        "Nothing; the lead will call back",
+        "The call was too short",
+        "You should have asked about their family",
+        "You never asked for the Appointment with specific times"
+      ],
+      "answer": 3,
+      "explain": "A is the goal of every call. Never end a call without pitching a date and time, like Saturday at 11 AM or 2 PM."
+    },
+    {
+      "q": "Which note follows the “log the home, not the person” rule?",
+      "options": [
+        "“Young Hispanic family, wants a quiet area”",
+        "“4 bd / 2 ba, big backyard, under $500K, max 20-min commute; lease ends in 45 days”",
+        "“Retired couple, very religious”",
+        "“Nice people, seem serious”"
+      ],
+      "answer": 1,
+      "explain": "Log what the lead wants in the home and their timeline, never who they are. Notes are business records and may be shared."
+    },
+    {
+      "q": "Two inquiries arrive at the same time: one for a $260,000 condo and one for a $950,000 house. How do you treat them?",
+      "options": [
+        "Same speed, same care, same follow-up for both",
+        "Call the expensive one first and the condo tomorrow",
+        "Send the condo lead to an email drip only",
+        "Ask the manager which one is worth your time"
+      ],
+      "answer": 0,
+      "explain": "Every price point gets your best. Today's small deal is next year's referral."
+    }
+  ]
+}

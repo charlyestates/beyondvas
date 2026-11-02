@@ -1,0 +1,774 @@
+{
+  "id": "I3",
+  "part": "isa",
+  "title": "Conversations that set appointments",
+  "summary": "Turn dials into real two-minute conversations, open each call the right way for its lead source, ask discovery questions that open people up, and ask for the appointment on every call.",
+  "objectives": [
+    "Run a two-minute conversation with a clear structure: opener, discovery, appointment, confirmation.",
+    "Use the right opener for portal, ad, open-house, sign-call and past-client leads, including the recording notice.",
+    "Ask open discovery questions, follow up on answers and listen more than you talk.",
+    "Ask for the appointment on every call with two specific times, and confirm it so the lead shows up.",
+    "Plan a daily power hour that works your lists in the right order."
+  ],
+  "lessons": [
+    {
+      "id": "I3-1",
+      "title": "Two-minute conversations beat ten dials",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "In this job you will hear two words all the time: **dials** and **conversations**. A dial is any call you make, answered or not. A conversation is a live talk with a lead that lasts **two minutes or more**. Dials are the input you control completely. Conversations are what actually move appointments. Ten dials with no conversation set nothing; one good two-minute conversation can set an appointment."
+        },
+        {
+          "t": "p",
+          "text": "Your daily targets (module I11) are 80 to 100 dials, 12 to 15 live conversations and 2 to 3 A.L.M.-qualified appointments per shift. Look at the math: about one dial in seven becomes a conversation, and about one conversation in five becomes an appointment. That means every conversation is precious. When someone answers, you must be ready."
+        },
+        {
+          "t": "p",
+          "text": "**Why two minutes?** Many people decide in the first 20 seconds whether to stay on the phone. If they are still talking after two minutes, they trust you enough to answer real questions. Short calls under 30 seconds are usually wrong numbers, “call me later,” or hang-ups. Your goal is to get past the first 20 seconds, then make the next 90 seconds useful for the lead."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Time",
+            "Stage",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "0:00 to 0:20",
+              "Opener",
+              "Your name, your client's team, the recording notice, why you are calling, and permission (“Do you have two minutes?”)"
+            ],
+            [
+              "0:20 to 1:20",
+              "Discovery",
+              "Two or three open questions about Location and Motivation; listen and react"
+            ],
+            [
+              "1:20 to 1:50",
+              "Appointment",
+              "Give a reason to meet and offer two specific times"
+            ],
+            [
+              "1:50 to 2:30",
+              "Confirmation",
+              "Repeat the day, time and place; say how you will confirm; ask if there is anything the agent should know"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "This is a guide, not a stopwatch. Some leads book in 60 seconds; some need six minutes. But if you are at minute five and have not asked for the appointment, you are probably chatting, not working."
+        },
+        {
+          "t": "p",
+          "text": "**Your voice is your whole presentation.** The lead cannot see you. They hear only your voice, your energy and your clarity. Phone English is a skill you can train:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Smile when you talk.** It changes the sound of your voice. People hear warmth.",
+            "**Slow down by about 10 percent,** especially for names, numbers and times. Nervous callers speak fast.",
+            "**Use the lead's name** two or three times in the call, not more.",
+            "**Repeat to confirm:** “So that's Saturday at 11 AM at 42 Cedar Lane, right?” This also protects you from misunderstandings.",
+            "**Short sentences.** One idea per sentence. It is easier to say and easier to understand.",
+            "**Stand up or sit up straight** for important calls. Your voice sounds more confident."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Your accent is not the problem",
+          "text": "Many clients choose bilingual ISAs on purpose: millions of people in the US speak Spanish at home, and many prefer it for big decisions. Clarity matters, not accent. If a lead says “Sorry?”, repeat more slowly with simpler words, never louder. If a lead prefers Spanish and your client approves, switch languages and log it."
+        },
+        {
+          "t": "p",
+          "text": "**What a conversation is not.** A conversation is not a pitch. If you talk for 90 seconds straight about your client's team, the lead is gone. A good rule: the lead talks more than you do. Your job is to ask, listen, and guide toward the appointment."
+        },
+        {
+          "t": "p",
+          "text": "**Count your conversations, not just your dials.** At the end of each hour, look at your numbers. If you made 25 dials and had zero conversations, check your timing (are you calling when people can answer?) and your list (are these numbers fresh?). If you had five conversations and zero appointments, the problem is the ask: listen to a recording and find where you stopped before asking."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Treat every answered call as a rare chance and be ready before you dial.",
+            "Follow the opener, discovery, appointment, confirmation structure.",
+            "Repeat names, times and addresses to confirm them."
+          ],
+          "dont": [
+            "Talk more than the lead.",
+            "Speed up when you are nervous.",
+            "Measure your day only by dials."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I3-2",
+      "title": "Openers and scripts by lead source",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "The first 20 seconds depend on where the lead came from. A person who just asked about a home on a portal is in a very different mood from a person who clicked an ad last week or signed in at an open house. Use the opener that fits the source. Every opener includes the same four parts: **who you are, the recording notice, why you are calling, and permission.**"
+        },
+        {
+          "t": "callout",
+          "title": "Always announce the recording",
+          "text": "Treat every state as requiring everyone's consent to record a call. Every opener includes a simple line like “Just so you know, this call may be recorded.” Never skip it, even on short calls."
+        },
+        {
+          "t": "p",
+          "text": "**1. Portal inquiry (the lead asked about a specific home).** These are the warmest leads. They want information about one home, now. Name the home and ask for the showing early."
+        },
+        {
+          "t": "script",
+          "title": "Portal inquiry",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi, is this Jordan? This is Ana with the Rivera Home Team. Just so you know, this call may be recorded. You asked about the 3-bedroom on Maple Avenue a few minutes ago. Do you have two minutes?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, I wanted to know if it's still available."
+            },
+            {
+              "who": "You",
+              "text": "I'll confirm that with Daniel, our agent, right now. Would you like to see it in person? He can do tomorrow at 4 or 6."
+            },
+            {
+              "who": "Lead",
+              "text": "Maybe. What's it near?"
+            },
+            {
+              "who": "You",
+              "text": "Good question. What's important for you to be close to, work or something else? (L)"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**2. Social media ad lead (the lead clicked an ad and filled a short form).** These leads are cooler. Many were scrolling and clicked out of curiosity. Lower the pressure, remind them what they asked for, and open with an easy question."
+        },
+        {
+          "t": "script",
+          "title": "Ad lead",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Priya, this is Ana with the Rivera Home Team. This call may be recorded. You asked for our list of homes with pools on our social media ad. Is now an OK time?"
+            },
+            {
+              "who": "Lead",
+              "text": "Oh, I just clicked to see pictures."
+            },
+            {
+              "who": "You",
+              "text": "Completely get it! Most of our clients browse 6 months early. What neighborhood caught your eye?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**3. Open-house sign-in (the lead visited a home and left their information).** They have already been inside a home with your client's team. Ask what they thought. Their opinion gives you Location and Motivation fast."
+        },
+        {
+          "t": "script",
+          "title": "Open-house follow-up",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Sam, this is Ana with the Rivera Home Team. This call may be recorded. Thanks for stopping by the open house on Birch Street on Saturday. Do you have a minute?"
+            },
+            {
+              "who": "Lead",
+              "text": "Sure."
+            },
+            {
+              "who": "You",
+              "text": "What did you think of the home?"
+            },
+            {
+              "who": "Lead",
+              "text": "Nice, but the kitchen was small."
+            },
+            {
+              "who": "You",
+              "text": "That helps a lot. If Daniel found two or three homes like it with a bigger kitchen, would you want to see them this weekend? He has Saturday at 10 or 1."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**4. Sign call or inbound call (the lead calls your client's line).** The lead is calling you, so answer warmly and take control gently. Get their name and number first, in case the call drops."
+        },
+        {
+          "t": "script",
+          "title": "Inbound call",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Thank you for calling the Rivera Home Team, this is Ana. Just so you know, calls may be recorded. Who do I have the pleasure of speaking with?"
+            },
+            {
+              "who": "Lead",
+              "text": "This is Luis. I'm calling about the sign on Elm Street."
+            },
+            {
+              "who": "You",
+              "text": "Thanks, Luis. In case we get disconnected, what's the best number for you? ... Great. What made you call about Elm Street?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**5. Past client or client's own database (people who already know your client).** These calls are about the relationship, not a hard ask. Only call these lists when your manager confirms they were scrubbed against the National Do Not Call Registry and your client's DNC list, and inside the window."
+        },
+        {
+          "t": "script",
+          "title": "Past-client check-in",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Mrs. Carter, this is Ana, I work with Daniel at the Rivera Home Team. This call may be recorded. Daniel asked me to check in: how are you enjoying the house on Willow Court?"
+            },
+            {
+              "who": "Lead",
+              "text": "We love it! Actually, my brother is thinking of moving here."
+            },
+            {
+              "who": "You",
+              "text": "That's wonderful. Daniel would love to help him. Could you ask him if he would like a call from Daniel? If he says yes, send me his number and the best time to call."
+            }
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Your client's scripts and your state's rules come first",
+          "text": "These scripts are training examples. Your client may give you their own approved scripts; use those. Your scope depends on your client's state: in Texas, for example, an unlicensed assistant may not call to find out whether someone wants to buy, sell or lease. Your manager tells you exactly which calls you can make."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Name the home, ad or event the lead responded to in your first sentence.",
+            "Include the recording notice in every opener.",
+            "Get the caller's name and number early on inbound calls."
+          ],
+          "dont": [
+            "Use a portal-lead opener on a cold ad lead.",
+            "Call a database or past-client list that has not been scrubbed.",
+            "Open with “How are you today?” and a long pause; get to the reason."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I3-3",
+      "title": "Discovery questions that open people up",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Discovery is the part of the call where you learn about the lead: what they want, where, and why. Good discovery makes the lead feel understood. Bad discovery feels like a police interview. The difference is not the questions; it is how you ask and how you listen."
+        },
+        {
+          "t": "p",
+          "text": "**Open questions, not closed ones.** A closed question gets yes or no. An open question gets a story, and stories carry information. Usually, open questions start with what, which, how, tell me, or walk me through."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Closed (weak)",
+            "Open (strong)"
+          ],
+          "rows": [
+            [
+              "“Do you like that house?”",
+              "“What did you like about that house?”"
+            ],
+            [
+              "“Are you moving soon?”",
+              "“When would you ideally like to be in your new home?”"
+            ],
+            [
+              "“Do you need 3 bedrooms?”",
+              "“How many bedrooms do you need, and how will you use them?”"
+            ],
+            [
+              "“Is the commute important?”",
+              "“How far is too far from work for you?”"
+            ],
+            [
+              "“Are you serious about buying?”",
+              "“What has you thinking about moving now?”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Go one level deeper.** The first answer is usually the surface. The real motivation is one or two questions below. Use short follow-ups: “Tell me more about that.” “What's driving that?” “What happens if you don't move by then?”"
+        },
+        {
+          "t": "script",
+          "title": "Going deeper",
+          "lines": [
+            {
+              "who": "You",
+              "text": "What has you thinking about moving now?"
+            },
+            {
+              "who": "Lead",
+              "text": "We just need more space."
+            },
+            {
+              "who": "You",
+              "text": "Tell me more about that. What does “more space” look like for you?"
+            },
+            {
+              "who": "Lead",
+              "text": "My mom is moving in with us in the spring, so we need a bedroom on the first floor."
+            },
+            {
+              "who": "You",
+              "text": "That's really helpful. So a first-floor bedroom, and you'd want to be settled before spring. Is that right?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Now you know the real need (a first-floor bedroom) and the real timeline (before spring). The agent can search much better with that. Note how you log it: “Needs a first-floor bedroom; wants to move before spring.” Log the home need, not the family details."
+        },
+        {
+          "t": "p",
+          "text": "**Listen like it matters.** Listening is a skill you can practice:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Do not interrupt.** Let the lead finish, then wait one second before you speak. That small pause often makes them add something important.",
+            "**Reflect back.** Repeat the key point in a few words: “So the commute is the big one.” The lead feels heard, and you confirm you understood.",
+            "**React like a human.** “Oh, that's exciting.” “That sounds stressful.” Short and real.",
+            "**Take notes during the call,** in short words, so your Follow Up Boss note is accurate."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Your discovery question bank.** You do not need all of these on every call. Pick two or three, based on what the lead says."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Goal",
+            "Questions"
+          ],
+          "rows": [
+            [
+              "Location: area",
+              "“Which areas are you looking at?” “What do you like about that area?” “Are you open to nearby areas?”"
+            ],
+            [
+              "Location: the home",
+              "“What does the home need to have?” “What would be nice to have?” “What would rule a home out?”"
+            ],
+            [
+              "Location: budget",
+              "“What price range are you comfortable looking in?” (Never comment on whether it is enough.)"
+            ],
+            [
+              "Motivation: why",
+              "“What has you thinking about moving now?” “What's not working in your current place?”"
+            ],
+            [
+              "Motivation: timeline",
+              "“When would you ideally like to move?” “Is there a date you need to be out by, like a lease ending?”"
+            ],
+            [
+              "Process",
+              "“Have you bought a home before?” “Have you seen any homes in person yet?” “Is anyone else part of the decision?”"
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Questions you never ask",
+          "text": "Never ask about race, color, national origin, religion, sex, disability or family status (for example: “Do you have kids?”, “Where are you from?”, “Are you married?”). If the lead shares these things, do not write them down. Ask about the home they need, not who they are. And do not ask detailed credit or income questions: module I4 teaches how financing is handled."
+        },
+        {
+          "t": "p",
+          "text": "**Mistakes to avoid.** Asking leading questions that push an answer (“You'd want a bigger yard, right?”). Asking two questions at once (“What areas and what price and when?”): the lead answers only one. Filling every silence. And the biggest mistake: doing excellent discovery and then forgetting to ask for the appointment. Discovery is the road; the appointment is the destination."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Ask one open question at a time.",
+            "Follow up with “Tell me more about that.”",
+            "Reflect back the key point before you move on."
+          ],
+          "dont": [
+            "Ask about family, origin, religion or other protected traits.",
+            "Comment on whether a budget is “enough.”",
+            "Stack three questions in one sentence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I3-4",
+      "title": "Always ask for the appointment",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "This is the most important lesson in the module. **Ask for the appointment on every call.** Not only on the easy calls. Not only when the lead seems ready. Every call. Your QA score, your client's results and your own career depend on this one habit."
+        },
+        {
+          "t": "p",
+          "text": "**Ask for the tour before you qualify.** Many new ISAs think they must learn everything before they can ask for a meeting. The opposite is true. When a lead asks about a specific home, ask for the showing in the first minute: “Would you like to see it tomorrow at 4 or 6?” Then you learn Location and Motivation while you set it up. If they say no, you have lost nothing; you continue discovery and ask again later."
+        },
+        {
+          "t": "p",
+          "text": "**Two times, never “when works for you?”** An open question about time makes the lead think, and thinking often ends in “I'll let you know.” Two specific times make it easy: they just pick one. If neither works, they usually suggest a third. That is still a yes."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Weak ask",
+            "Strong ask"
+          ],
+          "rows": [
+            [
+              "“Let me know if you want to see it sometime.”",
+              "“Daniel can show it Thursday at 5 or Saturday at 11. Which is better?”"
+            ],
+            [
+              "“When are you free?”",
+              "“Is a weekday evening or Saturday morning easier for you?” then “Saturday at 10 or 11?”"
+            ],
+            [
+              "“Do you maybe want to talk to an agent?”",
+              "“The best next step is a 15-minute call with Daniel. Tomorrow at 12 or 6?”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Say the word “appointment.”** Use the word clearly so the lead knows it is a real plan, not a maybe: “I'll book that appointment with Daniel for Saturday at 11.” Leads show up to appointments; they forget “maybes.”"
+        },
+        {
+          "t": "p",
+          "text": "**Give a reason to meet.** People agree to meetings that help them. Connect the appointment to what they told you in discovery: “Since your lease ends in 45 days, seeing a few homes this weekend gives you time to choose.” “Since the monthly cost is your big question, Daniel can walk you through it at the meeting.”"
+        },
+        {
+          "t": "p",
+          "text": "**Types of appointments you can set** (your client tells you which ones they want):"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Showing or tour:** the lead sees one or more homes with the agent.",
+            "**Buyer consultation:** a meeting at the office or on video to plan the search.",
+            "**Phone call with the agent:** 10 to 15 minutes, for leads not ready to meet.",
+            "**Listing consultation:** for sellers (module I6)."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**When the lead says “Just send me info.”** Do not argue, and do not just send it and disappear. Say yes, then ask for the appointment in the same breath:"
+        },
+        {
+          "t": "script",
+          "title": "“Just send me info”",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Just send me info."
+            },
+            {
+              "who": "You",
+              "text": "I will email that right now! While I pull it up, are you free Saturday morning or afternoon to take a quick look inside?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "The pattern for any soft “no” is: acknowledge, pivot to a Location or Motivation question, then ask for the appointment again. Module I5 teaches objections in depth. For now, remember: one soft no is not the end. Two clear no's mean you set a follow-up instead: “No problem. Can I check in on Thursday?”"
+        },
+        {
+          "t": "p",
+          "text": "**Lock it in before you hang up.** When the lead says yes, confirm every detail out loud:"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Repeat the day, date, time and place (and the time zone if the lead and agent are in different ones).",
+            "Confirm the best phone number for reminders and whether they agreed to texts.",
+            "Ask who is coming and if anything is important for the agent to know.",
+            "Tell them what happens next: “You'll get a text confirmation with Daniel's details now, and a reminder before the appointment.”",
+            "For any tour, mention that Daniel will send a short buyer agreement to review before the showing. He explains it; you never do."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Right after the call",
+          "text": "Put the appointment in the agent's calendar before you do anything else, with the Follow Up Boss lead link in the invite and the buyer-agreement flag for tours. Set 24-hour and 1-hour reminders and change the stage to Pending Handoff. Module I8 covers the calendar and the 3-way handoff in full."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Ask for the appointment on every call, early.",
+            "Offer two specific times and use the word “appointment.”",
+            "Confirm every detail out loud before you hang up."
+          ],
+          "dont": [
+            "Ask “When works for you?”",
+            "Give up after one soft no.",
+            "End the call without a booked appointment or a scheduled follow-up."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I3-5",
+      "title": "The power hour and the night-before confirmation",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "Great conversations come from great habits. The best ISAs do not “call when they have time.” They protect focused calling blocks every day, at the same time, and they confirm every appointment so it actually happens. This lesson gives you both habits."
+        },
+        {
+          "t": "p",
+          "text": "**The power hour.** A power hour is a protected block of focused calling: no email, no social media, no notes beyond quick call logs. Choose a time when leads in your client's time zones are most likely to answer, often late morning or late afternoon on weekdays, before the 6 PM evening rush. Same time every day, so it becomes automatic."
+        },
+        {
+          "t": "p",
+          "text": "**Work your lists in this order, every shift:**"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**New Speed-to-Lead** (0 to 15 minutes old). These always come first, even in the middle of a power hour.",
+            "**Hot Active** (ready within 30 days).",
+            "**Scheduled Follow-Up Tasks** (due today).",
+            "**30 to 60 Day Nurtures** (check-ins)."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Work each list top to bottom. Do not skip a lead because the name or the notes look “hard.” The difficult-looking lead is often the one who books. A.L.M. on every call; an appointment asked for on every call."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Part of the power hour",
+            "Minutes",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "Prepare",
+              "5",
+              "Open your Smart Lists, check time zones and state rules, have scripts and calendar ready"
+            ],
+            [
+              "Call block",
+              "45",
+              "Dial top to bottom; log each call in a few words right away"
+            ],
+            [
+              "Clean up",
+              "10",
+              "Complete notes, set tasks, send confirmation texts, update stages"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Between calls: log fast, then dial.** After each call, write the disposition and the key A.L.M. facts in short form. Set the next task. Then dial the next lead. Full, polished notes happen in the clean-up minutes, but never leave a call with nothing logged: you will forget details within the hour."
+        },
+        {
+          "t": "p",
+          "text": "**Confirm the night before.** Many no-shows are appointments that nobody confirmed. People forget, get busy, or feel shy about cancelling. A short confirmation the day before fixes many of them. Send it inside the calling window, to leads who agreed to texts, in addition to the automatic 24-hour and 1-hour reminders."
+        },
+        {
+          "t": "script",
+          "title": "Night-before confirmation text",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Jordan, Ana with the Rivera Home Team. Just confirming your appointment with Daniel tomorrow, Saturday, at 11:00 AM at 42 Maple Ave. Here's a photo of the home. Reply YES to confirm, or let me know if you need a different time."
+            },
+            {
+              "who": "Lead",
+              "text": "YES, see you then!"
+            },
+            {
+              "who": "You",
+              "text": "Perfect, Daniel will see you there. His number is 555-0177 if you need him tomorrow."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Include the address and a photo of the home (your client approves which photos and links you can send). The photo reminds the lead why they said yes. Ask for a simple reply, like YES, so you know they saw it."
+        },
+        {
+          "t": "p",
+          "text": "**When the lead wants to reschedule.** That is good news: they still want to meet. Offer two new times right away and update the calendar, the reminders and the note. Tell the agent in the client channel. Never let a reschedule become “I'll let you know.”"
+        },
+        {
+          "t": "p",
+          "text": "**When there is no reply.** If the lead does not answer the confirmation by midday, call them inside the window. If you still cannot reach them, tell the agent before the appointment so they can decide whether to go. After a no-show, the lead goes back to your follow-up plan with a friendly message: “Sorry we missed you! Want to pick a new time?”"
+        },
+        {
+          "t": "callout",
+          "title": "Opt-outs still apply",
+          "text": "If the lead replies STOP or asks not to be contacted, cancel the reminders, tag DNC, move the stage to Archived / DNC, pause all automations, log it, and tell the agent."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Protect a power hour at the same time every day.",
+            "Work Smart Lists in order, top to bottom.",
+            "Confirm every appointment the day before, with the address and a photo."
+          ],
+          "dont": [
+            "Check email or social media during the power hour.",
+            "Skip leads that look difficult.",
+            "Assume the automatic reminders are enough."
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Scripted drills, four recorded source calls and a shadowed live call",
+    "minutes": 120,
+    "intro": "This practice turns the scripts into habits. You will drill openers out loud, record four full role-plays (one per lead source), plan a power hour, and shadow a live call with an experienced ISA or your coach. Use fictional leads for all role-plays; when shadowing, only listen and take notes, and keep everything you hear confidential.",
+    "steps": [
+      "Opener drill (15 minutes): say each of the five openers from lesson I3-2 out loud 5 times, with the recording notice, until you can say them without reading. Time each one: it should take 20 seconds or less.",
+      "Discovery drill (15 minutes): rewrite 10 closed questions from your coach into open questions. Then, with a partner, practice “going one level deeper” on three surface answers (“We need more space,” “We want a good area,” “We're just looking”).",
+      "Ask drill (10 minutes): your partner says 10 different things a lead might say. After each one, ask for the appointment with two specific times. Your partner counts how many asks used two times and the word “appointment.”",
+      "Recorded role-plays (40 minutes): record four full calls with a partner playing the lead: a portal inquiry, an ad lead who “just clicked to see pictures,” an open-house visitor, and an inbound sign call. Each must include the recording notice, at least two open discovery questions, an appointment ask with two times, and a full confirmation.",
+      "After each role-play, write the A.L.M. note you would log and the night-before confirmation text you would send.",
+      "Power hour plan (10 minutes): write your power hour for your future client's main time zone: the start time (in your time and the lead's time), the list order, and your preparation checklist.",
+      "Shadow a live call (30 minutes): sit in on at least 30 minutes of live calling by an experienced ISA or your coach. Write down three openers you liked, two questions that opened a lead up, and every appointment ask you heard (word for word if you can)."
+    ],
+    "deliverable": "Send your coach (in your BeyondVAs training channel): the four role-play recordings with their A.L.M. notes and confirmation texts, your 10 rewritten open questions, your power hour plan, and your shadowing notes. Your coach scores each recording on the opener, discovery and the appointment ask."
+  },
+  "quiz": [
+    {
+      "q": "What counts as a “conversation” in your daily numbers?",
+      "options": [
+        "Any dial you make",
+        "A voicemail you leave",
+        "A live talk with a lead that lasts two minutes or more",
+        "A text reply from a lead"
+      ],
+      "answer": 2,
+      "explain": "Dials are the input you control; a conversation is a live talk of two minutes or more, and conversations are what move appointments."
+    },
+    {
+      "q": "Which four parts does every opener include?",
+      "options": [
+        "Who you are, the recording notice, why you are calling, and permission",
+        "The listing price, the agent's experience, your name and a joke",
+        "Your name, a question about their credit, the address and a goodbye",
+        "The team's awards, your name, a discount and the appointment"
+      ],
+      "answer": 0,
+      "explain": "Name and team, “this call may be recorded,” the reason (the home, ad or event), and “Do you have two minutes?”"
+    },
+    {
+      "q": "A lead from a social media ad says, “I just clicked to see pictures.” What is the best reply?",
+      "options": [
+        "“Then why did you give us your number?”",
+        "“OK, sorry to bother you,” and hang up",
+        "“Can my agent meet you there today at 4 PM?”",
+        "“Completely get it! Most of our clients browse 6 months early. What neighborhood caught your eye?”"
+      ],
+      "answer": 3,
+      "explain": "Ad leads are cooler. Lower the pressure, acknowledge, and pivot to an easy Location question before you work toward the appointment."
+    },
+    {
+      "q": "Which question is an open discovery question?",
+      "options": [
+        "“Do you need three bedrooms?”",
+        "“What has you thinking about moving now?”",
+        "“Are you serious about buying?”",
+        "“You'd want a bigger yard, right?”"
+      ],
+      "answer": 1,
+      "explain": "Open questions cannot be answered with yes or no and invite a story. “You'd want a bigger yard, right?” is a leading question."
+    },
+    {
+      "q": "A lead says, “We just need more space.” What is the best next step?",
+      "options": [
+        "“Tell me more about that. What does more space look like for you?”",
+        "“How many kids do you have?”",
+        "“OK. Next question: what's your credit score?”",
+        "Write “needs space” and end the call"
+      ],
+      "answer": 0,
+      "explain": "Go one level deeper to find the real need. Never ask about family status; ask about the home they need."
+    },
+    {
+      "q": "Which appointment ask is strongest?",
+      "options": [
+        "“When works for you?”",
+        "“Let me know if you ever want to see it.”",
+        "“Daniel can show it Thursday at 5 or Saturday at 11. Which is better?”",
+        "“Do you maybe want to talk to someone?”"
+      ],
+      "answer": 2,
+      "explain": "Two specific times make it easy to say yes. Open questions about time usually end in “I'll let you know.”"
+    },
+    {
+      "q": "A lead asks about a specific home on a portal. When should you first ask for the showing?",
+      "options": [
+        "Only after you have learned everything about their finances",
+        "Early, often in the first minute: ask for the tour before you qualify",
+        "Never; let the agent ask",
+        "At the end of a second call next week"
+      ],
+      "answer": 1,
+      "explain": "Ask for the tour before you qualify. You learn Location and Motivation while you set it up, and a no costs nothing."
+    },
+    {
+      "q": "In what order do you work your Smart Lists during a power hour?",
+      "options": [
+        "30-60 Day Nurtures, Hot Active, New Speed-to-Lead, Scheduled Follow-Up Tasks",
+        "Scheduled Follow-Up Tasks, New Speed-to-Lead, Hot Active, 30-60 Day Nurtures",
+        "Hot Active, 30-60 Day Nurtures, Scheduled Follow-Up Tasks, New Speed-to-Lead",
+        "New Speed-to-Lead, Hot Active, Scheduled Follow-Up Tasks, 30-60 Day Nurtures"
+      ],
+      "answer": 3,
+      "explain": "New leads first (0-15 minutes old), then Hot Active (ready within 30 days), then tasks due today, then 30-60 day nurtures."
+    },
+    {
+      "q": "Why do you send a confirmation text the day before an appointment?",
+      "options": [
+        "Because many no-shows are appointments nobody confirmed",
+        "To remind the lead about the price",
+        "To send the buyer agreement yourself",
+        "It is optional and rarely helps"
+      ],
+      "answer": 0,
+      "explain": "A text the day before, with the address and a photo, inside the window and to leads who agreed to texts, prevents many no-shows."
+    },
+    {
+      "q": "The lead agrees to a tour on Saturday at 11 AM. Which step is NOT part of locking it in?",
+      "options": [
+        "Repeat the day, time and address out loud",
+        "Tell them the agent will send a buyer agreement to review before the showing",
+        "Explain the buyer agreement's terms and ask them to sign it with you",
+        "Confirm the best number for reminders"
+      ],
+      "answer": 2,
+      "explain": "The agent sends and explains the buyer agreement; you never do. You only mention it and flag it in the calendar invite."
+    }
+  ]
+}

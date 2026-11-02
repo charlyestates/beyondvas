@@ -6,7 +6,8 @@
 | --- | --- |
 | `site/index.html` | The whole website in one file: the HTML, the CSS and the small script for the calculator, role tabs and forms. Edit it directly; there is no build step. |
 | `site/favicon.svg` | The browser-tab icon, cut from the logo mark in the header. |
-| `private/bootcamp.html` | The ISA 7-Day Certification Boot Camp. Private training for approved VAs, kept outside `site/` so it is never deployed with the public website. See "The ISA Boot Camp" below. |
+| `private/bootcamp.html` + `private/curriculum.js` | The ISA Certification Program (formerly the 7-day boot camp). Private training for approved VAs, kept outside `site/` so it is never deployed with the public website. See "The ISA Certification Program" below. |
+| `private/curriculum-src/` | The editable source of the program: one JSON file per module, `sim.json` for the extra practice calls, the writer spec with the house rules, and `build.js`, which validates them and regenerates `curriculum.js`. |
 
 Deploy the `site/` folder as it is, and never the `private/` folder. The page was first built as a Claude artifact from two other files. Those were
 retired in October 2026, so `site/index.html` is the only source now. The artifact link in `HANDOFF.md` is an
@@ -56,29 +57,40 @@ There are three forms, all for Netlify Forms: `book-a-call`, `va-application` (E
 If a post fails, the page shows the visitor what they typed with a Copy button and asks them to email it, so nothing
 is lost.
 
-## The ISA Boot Camp
+## The ISA Certification Program
 
-Who it is for (decided by Charly on November 1, 2026): only VAs who have applied and been approved. It is private,
-exclusive training, so nothing on the public website links to it, the page tells search engines not to index it, and
-it lives in `private/` outside the deployed folder.
+Who it is for (decided by Charly on November 1, 2026): only VAs who have applied and been approved. Nothing on the
+public website links to it and search engines are told not to index it. It is live at the unlisted address
+https://bva-isa-training-k7q4m.netlify.app, which is sent to VAs once they are approved.
 
-A file on a public website can be opened by anyone who has the link, so the boot camp needs a real sign-in before
-approved VAs can use it online. The natural home is the VA Hub, which already has logins and an academy. Until then
-it opens from disk for review. When a VA finishes, the certificate shows a verification ID (`BVA-ISA-XXXX-XXXX`), and
-"Register my certificate" posts their name, ID and scores to an `isa-certification` Netlify form. That only works once
-the page is hosted on Netlify.
+What it contains (rebuilt November 2, 2026, from the 7-day boot camp, the HQ academy outline and the Beyond HQ agent
+training with all team-specific material removed): 17 modules, about 35 hours, so four to five working days.
+
+- Foundations: Welcome to BeyondVAs, Working with US clients, Your tools, Real estate basics and vocabulary,
+  Professionalism and scope, Compliance essentials.
+- ISA track: buyer's shoes and A.L.M., speed to lead and the 3-strike cadence, conversations that set appointments,
+  financing, objections, sellers, Follow Up Boss discipline, appointments and the 3-way handoff, nurture, client
+  recovery, QA and daily KPIs.
+- Each module has 5 or 6 full lessons, a hands-on practice assignment sent to the coach, and a 9 or 10 question quiz.
+  There are 8 practice calls in the simulator: the original 3 plus a Spanish-speaking buyer, a seller asking for a
+  home value, a rate question, a lead with a signed agent agreement, and a past client with a referral.
 
 How it works:
 
-- Days unlock in order. Each quiz allows retries; the first try is recorded.
-- Each simulator call scores 100 if the first response is right, otherwise 100 minus that response's penalty. The QA
-  score average is the mean of the three call scores. The live QA score starts at 85 and stays between 0 and 100.
-- The certificate unlocks after all 7 quizzes and all 3 calls. "Print or save as PDF" prints only the certificate.
-- Progress lives in the visitor's browser only (`localStorage` key `bv-bootcamp-v1`), so it does not follow them to
-  another device, and anyone with browser tools could fake a certificate on screen. The registered record in Netlify
-  Forms is what counts. A real check belongs in the VA Hub later.
-- The curriculum, quiz answers and the three leads live in the `DAYS` and `LEADS` lists near the top of the page's
-  script. Every lead, name, phone number and email is fictional.
+- Modules unlock in order. A module's quiz opens when its lessons are marked complete and passes at 80%. Retakes are
+  allowed and the best score counts.
+- The certificate needs every module quiz passed, every practice assignment marked done, and every practice call
+  completed. "Register my certificate" posts the name, ID and scores to the `isa-certification` form on that Netlify
+  project.
+- Each practice call scores 100 if the first response is right, otherwise 100 minus that response's penalty. The QA
+  average is the mean of the call scores.
+- Progress lives in the visitor's browser only (`localStorage` key `bv-isa-program-v1`). Anyone with browser tools could
+  fake a certificate on screen, so the registered record in Netlify Forms is what counts.
+- To change the content, edit the JSON in `private/curriculum-src/`, run `node private/curriculum-src/build.js`, and
+  redeploy `private/` (as `index.html` plus `curriculum.js`) to the unlisted project. Every lead, name, phone number and
+  email in it is fictional.
+- Writers flagged facts for Charly to confirm, among them the contractor tax wording, pay calendar details, whether
+  flagged idle time is paid, and time-zone examples. Have an attorney check the compliance module.
 
 Changes from the brief the boot camp was built from, for accuracy and compliance:
 

@@ -1,0 +1,767 @@
+{
+  "id": "F2",
+  "part": "foundations",
+  "title": "Working with US clients",
+  "summary": "The culture, time zones, phone English, writing habits and reliability that make a US real estate client trust you from week one.",
+  "objectives": [
+    "Communicate in the direct, friendly style US clients expect, and understand the workplace phrases and abbreviations they use.",
+    "Convert any time between your clock, your client's clock and a lead's clock, including the daylight saving changes in March and November.",
+    "Speak clearly on the phone: open a call, spell names, say numbers, prices and addresses, and confirm details without confusion.",
+    "Write short, clear emails, texts and channel messages using US formats for dates, times and money.",
+    "Apply the reliability habits that keep a client: acknowledge within 15 minutes, commit to a time with a time zone, and report problems early."
+  ],
+  "lessons": [
+    {
+      "id": "F2-1",
+      "title": "How US clients think about work",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Every culture has its own rules about work. None is better than another, but if you do not know the rules, good work can look bad. This lesson explains the habits most US real estate clients share, so that your good work is seen as good work."
+        },
+        {
+          "t": "p",
+          "text": "**1. Direct is polite.** In many Latin American workplaces, people soften bad news, or say “yes” to avoid disappointing the boss. In the US, clients usually prefer a clear answer, even when it is “no” or “not yet”. A clear “I can’t finish all 40 today; I can finish 25 by 5 PM. Which ones first?” is respected. A soft “Yes, no problem” followed by 25 done is a broken promise."
+        },
+        {
+          "t": "p",
+          "text": "**2. Questions are a sign of quality.** Some VAs worry that asking questions makes them look less capable. In the US it is the opposite. A question before the work shows care; a mistake after the work shows guessing. Ask short, specific questions: “Should the follow-up text go out today or tomorrow morning?”"
+        },
+        {
+          "t": "p",
+          "text": "**3. Time is money.** Most agents are paid only when a home sells. Every hour they spend fixing a problem is an hour they are not selling. Fast replies, short messages and work that does not need correcting save them money, and they notice."
+        },
+        {
+          "t": "p",
+          "text": "**4. First names and friendly tone.** Clients usually want you to use their first name: “Hi Mark”, not “Dear Mr. Johnson” or “Sir”. The tone is friendly, but still professional. A short greeting is enough; you do not need long formal openings."
+        },
+        {
+          "t": "p",
+          "text": "**5. Small talk is short.** A client may ask “How was your weekend?” on a Monday call. Answer in one or two sentences and ask back: “Good, thanks! I went to the beach with my family. How about you?” Then move to work. Avoid politics, religion and personal problems with clients."
+        },
+        {
+          "t": "p",
+          "text": "**6. Real estate is a weekend business.** Agents show homes on evenings and weekends, when buyers are free. Your client may send messages on Saturday or late at night. You only work your agreed hours, but understand that their schedule is not nine to five. A message sent at 9 PM their time does not mean they expect an answer at 9 PM."
+        },
+        {
+          "t": "callout",
+          "title": "US holidays to know",
+          "text": "On these days many clients slow down or take time off, but buyers may tour more: New Year’s Day (January 1), Memorial Day (last Monday in May), Independence Day (July 4), Labor Day (first Monday in September), Thanksgiving (fourth Thursday in November) and Christmas (December 25). Ask your client in advance whether you work on each one. Some states also limit sales calls on holidays; you will see this in F6."
+        },
+        {
+          "t": "p",
+          "text": "**Workplace phrases you will hear.** US clients use many short phrases and abbreviations. Learn these now so you are never confused."
+        },
+        {
+          "t": "glossary",
+          "terms": [
+            {
+              "term": "Heads up",
+              "def": "A warning or early notice. “Heads up: the Garcia showing moved to 4 PM.”"
+            },
+            {
+              "term": "Circle back",
+              "def": "Return to a topic later. “Let’s circle back on this Friday.”"
+            },
+            {
+              "term": "Touch base",
+              "def": "Have a short contact or check-in. “Let’s touch base tomorrow morning.”"
+            },
+            {
+              "term": "On my plate",
+              "def": "Tasks I am responsible for. “What’s on your plate today?”"
+            },
+            {
+              "term": "ASAP",
+              "def": "As soon as possible. Ask what that means in hours if it matters."
+            },
+            {
+              "term": "EOD / EOW",
+              "def": "End of day / end of week, in the client’s time zone."
+            },
+            {
+              "term": "ETA",
+              "def": "Estimated time of arrival or completion. “What’s your ETA on the report?”"
+            },
+            {
+              "term": "FYI",
+              "def": "For your information. No action needed unless they say so."
+            },
+            {
+              "term": "OOO",
+              "def": "Out of office."
+            },
+            {
+              "term": "Sounds good / Will do",
+              "def": "Short ways to say “I agree” and “I will do it”."
+            },
+            {
+              "term": "Loop me in",
+              "def": "Include me in the messages about this."
+            },
+            {
+              "term": "Ballpark",
+              "def": "A rough estimate. Careful: never give a ballpark price or home value; that is for the agent."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**False friends for Spanish speakers.** Some English words look like Spanish words but mean something different. These cause real confusion:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "English word",
+            "What it really means",
+            "Spanish look-alike"
+          ],
+          "rows": [
+            [
+              "Actually",
+              "In fact, really",
+              "Not “actualmente” (currently = “currently”)"
+            ],
+            [
+              "Eventually",
+              "In the end, finally",
+              "Not “eventualmente” (possibly = “possibly”)"
+            ],
+            [
+              "Assist",
+              "Help",
+              "Not “asistir” (attend = “attend”)"
+            ],
+            [
+              "Realize",
+              "Understand suddenly",
+              "Not “realizar” (carry out = “do”, “complete”)"
+            ],
+            [
+              "Embarrassed",
+              "Ashamed, uncomfortable",
+              "Not “embarazada” (pregnant)"
+            ],
+            [
+              "Sensible",
+              "Reasonable, practical",
+              "Not “sensible” (sensitive = “sensitive”)"
+            ]
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Give a clear answer, including “no” or “not yet”, with an alternative.",
+            "Ask a specific question before you start a task you do not fully understand.",
+            "Keep greetings short and friendly, then get to the point."
+          ],
+          "dont": [
+            "Say “yes” to everything to seem helpful.",
+            "Use very formal phrases like “Dear Sir, I hope this message finds you well” in a quick channel message.",
+            "Share opinions about politics or religion with clients or leads."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F2-2",
+      "title": "Time zones: your clock, your client's clock and the lead's clock",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Time zones cause more VA mistakes than English does. A message that says “I’ll call at 3” can mean three different times. In this lesson you learn to think in three clocks and to never write a time without its zone."
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Your clock:** where you live. Honduras uses Central Standard Time (UTC minus 6) all year and does **not** change its clocks.",
+            "**Your client’s clock:** where the agent or team works. Your schedule, your deadlines and your daily report use this clock.",
+            "**The lead’s clock:** where the lead lives. For calls and texts, **this** is the clock that counts. A client in Florida can have a lead who is moving from California."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The four main US time zones.** Eastern (ET), Central (CT), Mountain (MT) and Pacific (PT). Most US states change their clocks for daylight saving time: clocks move **one hour forward on the second Sunday in March** and **one hour back on the first Sunday in November**. Honduras does not move, so the difference between you and your client changes twice a year. Most of Arizona and all of Hawaii do not change either."
+        },
+        {
+          "t": "table",
+          "head": [
+            "When it is 10:00 AM in Honduras",
+            "March to November (daylight time)",
+            "November to March (standard time)"
+          ],
+          "rows": [
+            [
+              "Eastern (New York, Florida, Georgia)",
+              "12:00 PM",
+              "11:00 AM"
+            ],
+            [
+              "Central (Texas, Illinois, Tennessee)",
+              "11:00 AM",
+              "10:00 AM"
+            ],
+            [
+              "Mountain (Colorado, Utah)",
+              "10:00 AM",
+              "9:00 AM"
+            ],
+            [
+              "Arizona (most of the state)",
+              "9:00 AM",
+              "9:00 AM"
+            ],
+            [
+              "Pacific (California, Washington, Nevada)",
+              "9:00 AM",
+              "8:00 AM"
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "If you do not live in Honduras",
+          "text": "Build this same table for your own country. Colombia and Peru, for example, use UTC minus 5 all year, so they are one hour ahead of Honduras. Check whether your country changes its clocks, and save your table where you can see it during every shift."
+        },
+        {
+          "t": "p",
+          "text": "**Your schedule is set in the client’s time zone.** If you work 9:00 AM to 5:00 PM Pacific, that means 10:00 AM to 6:00 PM in Honduras in summer, but 11:00 AM to 7:00 PM in winter. When the US changes its clocks, your hours in Honduras change too. Put a reminder in your calendar for both Sundays every year, and confirm your hours with your coordinator the week before."
+        },
+        {
+          "t": "p",
+          "text": "**Calls follow the lead’s clock.** Our house calling window is 9:00 AM to 8:00 PM in the **lead’s** local time, Monday to Saturday, and noon to 8:00 PM on Sunday. Texts follow the same window. Some states are stricter, and your manager tells you their rules before you dial. You will study the full rules in F6. For now, practice the math."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "Find the lead’s location: the address in the CRM, the area of the home they asked about, or the area code of their phone. If these disagree, call only at a time that is inside the window in every possible location and ask your manager.",
+            "Convert the window to your clock. Example: a lead in Los Angeles in December. 9:00 AM PT is 11:00 AM in Honduras, and 8:00 PM PT is 10:00 PM in Honduras.",
+            "Check the day. On Sunday the window starts at noon: noon PT is 2:00 PM in Honduras in December.",
+            "Before every call, ask yourself: what time is it **for them** right now?"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Always write the zone.** Never write “I’ll send it by 3.” Write “I’ll send it by 3:00 PM ET.” When you write to a lead, use **their** time zone and do not add the abbreviation if it sounds strange in a friendly text: “Does tomorrow at 4 PM work for you?” is fine when you already converted it to their time."
+        },
+        {
+          "t": "script",
+          "title": "Confirming a time across zones",
+          "lines": [
+            {
+              "who": "Client",
+              "text": "Can you book the Patel consult for Thursday at 10?"
+            },
+            {
+              "who": "You",
+              "text": "Sure! Just to confirm: Thursday 11/12 at 10:00 AM Central, your time? The Patels are in Denver, so for them that is 9:00 AM Mountain. Does that still work?"
+            },
+            {
+              "who": "Client",
+              "text": "Good catch. Make it 11 Central so it’s 10 for them."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**A real mistake to avoid.** In November, a VA in Honduras kept calling a lead at what she thought was 9:15 AM Eastern. But the clocks had changed the Sunday before, and she had not updated her table. She was calling at 8:15 AM Eastern, before the house calling window. The lead complained. The fix is simple: update your table on the clock-change Sundays, and use a world clock on your screen that shows your client’s zone and the zones of your leads."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Keep a world clock with your zone, your client’s zone and the four US zones.",
+            "Write every time with its zone in messages to your client.",
+            "Check the lead’s local time before every call and text."
+          ],
+          "dont": [
+            "Assume the lead lives in the same zone as your client.",
+            "Forget that your hours in your country change in March and November.",
+            "Call or text because “it is already 10 AM here”."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F2-3",
+      "title": "Phone English that sounds confident",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "On the phone, the other person cannot see your face, your smile or your hands. They only hear your voice. Clarity matters more than accent. Many successful US agents speak English with an accent; what makes a caller sound professional is a clear structure, a calm pace and correct details. This lesson gives you all three."
+        },
+        {
+          "t": "p",
+          "text": "**Pace and voice.** When we are nervous, we speak fast. Slow down to about 80 percent of your natural speed. Pause after your name and after every question. Smile while you speak; people can hear it. Stand up or sit straight for important calls. Use a good headset in a quiet room, and close windows and doors."
+        },
+        {
+          "t": "p",
+          "text": "**Open every call the same way.** Say who you are, who you work for and why you are calling, in the first sentences. Our house rule is to also say that the call may be recorded, on every call. Your client may give you a specific script; use theirs."
+        },
+        {
+          "t": "script",
+          "title": "A clear call opening",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi, is this Jennifer?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, who’s this?"
+            },
+            {
+              "who": "You",
+              "text": "Hi Jennifer, this is Sofia with the Parker Home Team. Just so you know, this call may be recorded. You asked about the house on 1820 Elm Street this morning, so I wanted to call you right away. Do you have two minutes?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Numbers.** Numbers are where most phone mistakes happen. Learn how Americans say them:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Written",
+            "Said",
+            "Tip"
+          ],
+          "rows": [
+            [
+              "(661) 555-0142",
+              "six-six-one, five-five-five, zero-one-four-two",
+              "Say phone numbers in groups of 3, 3 and 4, with a pause between groups."
+            ],
+            [
+              "1820 Elm St",
+              "eighteen-twenty Elm Street",
+              "House numbers are often said in pairs."
+            ],
+            [
+              "405 Oak Ave",
+              "four-oh-five Oak Avenue",
+              "Zero is often “oh” in addresses and phone numbers."
+            ],
+            [
+              "$450,000",
+              "four hundred fifty thousand (or “four-fifty”)",
+              "Agents often say “four-fifty” or “450K”."
+            ],
+            [
+              "$1.2M",
+              "one point two million",
+              "M means million; K means thousand."
+            ],
+            [
+              "3 bd / 2 ba",
+              "three bedrooms, two bathrooms",
+              "Agents say “a three-two”."
+            ],
+            [
+              "6:30 PM",
+              "six-thirty in the evening",
+              "Add “in the morning” or “in the evening” when you confirm."
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Fifteen or fifty?",
+          "text": "13 and 30, 14 and 40, 15 and 50 sound almost the same on the phone. When a number matters, say it a second way: “fifteen, one-five”. When the lead says it, repeat it back: “Was that one-five or five-zero?”"
+        },
+        {
+          "t": "p",
+          "text": "**Spelling names and emails.** Never guess a spelling. Ask, and spell it back using simple words. You can use the international alphabet (Alpha, Bravo, Charlie) or common words (“B as in boy, M as in Mary”). Both are fine."
+        },
+        {
+          "t": "script",
+          "title": "Confirming an email",
+          "lines": [
+            {
+              "who": "You",
+              "text": "What’s the best email to send the listings to?"
+            },
+            {
+              "who": "Lead",
+              "text": "It’s jen dot walsh at example dot com."
+            },
+            {
+              "who": "You",
+              "text": "Great. Let me read it back: J-E-N, dot, W-A-L-S-H, at example dot com. Is Walsh with an S-H at the end?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, that’s right."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Useful phrases.** Keep these on a card near your screen until they are automatic:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "When you did not hear: “Sorry, I didn’t catch that. Could you say it one more time?”",
+            "When the line is bad: “You’re breaking up a little. Can I call you right back?”",
+            "When you need a moment: “Let me check that for you. One moment, please.”",
+            "To confirm: “Just to confirm, you’re looking for three bedrooms in Mesa, under 450, and you’d like to move by March?”",
+            "When you do not know: “That’s a great question for the agent. I’ll make sure they cover it with you.”",
+            "To close: “Perfect. You’ll get a text confirmation in a minute. Thanks, Jennifer, have a great afternoon!”"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Sounds to practice.** Spanish speakers often find a few English sounds hard. Practice these pairs out loud for five minutes a day: **ship / sheep**, **live / leave** (short and long i), **very / berry** (v and b), **chair / share** (ch and sh), **think / sink** (th). Also pronounce the last consonant: “tour**s**”, “walk**ed**”, “hou**se**”. You do not need to sound American; you need to be understood the first time."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Slow down, pause and smile.",
+            "Repeat back every number, name, email and time.",
+            "Say your name, your client’s team and the recording notice at the start of the call."
+          ],
+          "dont": [
+            "Fill silences with “ehh”, “este” or “okay, okay”. A short pause is professional.",
+            "Pretend you understood when you did not.",
+            "Read a script like a robot. Learn it well enough to say it naturally."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F2-4",
+      "title": "Writing emails, texts and channel messages",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most of your communication with your client is written. Clear writing saves the client time and protects you from misunderstandings. The rule for everything you write: **answer first, details second, short always**."
+        },
+        {
+          "t": "p",
+          "text": "**Channel messages to your client.** Start with the most important information. Use one message per topic, not five messages in a row. Use a short list when you have more than two items."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Weak message",
+            "Strong message"
+          ],
+          "rows": [
+            [
+              "“Hi Mark, good morning, how are you? I was working on the contacts and I saw something, some of them don’t have emails, I don’t know if you want me to do something.”",
+              "“Mark, 28 of 40 contacts are updated. 12 have no email (list in the CRM note). Skip them, or text them to ask? I’ll keep going on the rest meanwhile.”"
+            ],
+            [
+              "“Done.” (about which task?)",
+              "“Done: Friday’s three showings are confirmed and in your calendar.”"
+            ],
+            [
+              "“I’ll send it later.”",
+              "“I’ll send the newsletter draft by 3:00 PM ET.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**US formats.** These are different from many Latin American countries, and mistakes here look careless to a US client:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Dates:** month first. 11/03/2026 means **November 3**, not March 11. When it matters, write the month as a word: “Tue, Nov 3”.",
+            "**Times:** 12-hour clock with AM or PM and the zone: “4:30 PM CT”. Avoid 16:30.",
+            "**Money:** dollar sign first, commas for thousands, a period for cents: **$1,250.50**. In many Latin countries it is written 1.250,50; in the US that is wrong.",
+            "**Phone numbers:** (661) 555-0142.",
+            "**Addresses:** number, street, city, state abbreviation, ZIP: 1820 Elm St, Lancaster, CA 93534."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Emails.** Use a clear subject line that says what the email is about and whether action is needed: “Action needed: confirm Saturday open house details” or “FYI: 3 new leads from the Oak Ave open house”. Start with “Hi Mark,” and end with a short line like “Thanks, Sofia”. Keep emails to five short paragraphs or fewer. Read every email once before sending, and check names, dates, times and attachments."
+        },
+        {
+          "t": "p",
+          "text": "**Texts to leads.** Texts are short, friendly and personal. Every first text says your name and your client’s team. Ask one question at a time, and make it easy to answer."
+        },
+        {
+          "t": "script",
+          "title": "A good first text to a lead",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Jennifer, this is Sofia with the Parker Home Team. You asked about 1820 Elm St. It’s still available! Would you like to see it tomorrow at 4 PM or Saturday at 11 AM?"
+            },
+            {
+              "who": "Lead",
+              "text": "Saturday works!"
+            },
+            {
+              "who": "You",
+              "text": "Great, Saturday at 11 AM it is. I’ll text you the agent’s name and the address the day before. Thanks, Jennifer!"
+            }
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Texting rules (preview of F6)",
+          "text": "Text only leads who agreed to receive texts. Texts follow the same window as calls: 9:00 AM to 8:00 PM in the lead’s time, noon to 8:00 PM on Sunday. If a lead replies “STOP”, “remove me” or “don’t text me”, you stop at once and follow the opt-out steps you will learn in F6. Never argue."
+        },
+        {
+          "t": "p",
+          "text": "**Tone and style.** Friendly, simple and correct. A few rules:"
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Use short sentences and simple words.",
+            "Use the lead’s first name and your client’s team name.",
+            "Run a spell check before sending anything long.",
+            "Write CRM notes in English, always, even when the call was in Spanish.",
+            "Match your client’s style: if they write short and casual, you can too."
+          ],
+          "dont": [
+            "Write in ALL CAPITAL LETTERS. It reads as shouting.",
+            "Use many emojis with clients, and none with leads unless your client’s templates use them.",
+            "Use slang like “u”, “thx”, “pls” in client or lead messages.",
+            "Send long blocks of text with no line breaks.",
+            "Translate word by word from Spanish. Write the idea in simple English instead."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Spanish-speaking leads.** One of your strengths is that you are bilingual. If a lead prefers Spanish, follow your client’s rule. Many clients are happy for you to continue in Spanish. Either way, your notes, reports and messages to the client are always in English, so the agent can read them."
+        },
+        {
+          "t": "p",
+          "text": "**Before you press send, check:** Is the most important point first? Is every time written with its zone? Are the date, money and phone formats correct? Is the name spelled right? Would I understand this message if I read it on my phone in ten seconds? If yes, send it."
+        }
+      ]
+    },
+    {
+      "id": "F2-5",
+      "title": "Reliability: the habits that keep a client",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Clients rarely end a relationship because of one mistake. They end it because they stop trusting that things will happen without them checking. Reliability means the client never has to wonder. These are the habits that build it."
+        },
+        {
+          "t": "p",
+          "text": "**1. Acknowledge every request within 15 minutes.** During your shift, reply to every request from your client within 15 minutes, even if you cannot do the task yet. The reply tells them three things: you saw it, you understood it, and when it will be done."
+        },
+        {
+          "t": "script",
+          "title": "Acknowledging a request",
+          "lines": [
+            {
+              "who": "Client",
+              "text": "Can you pull all the leads from last weekend’s open house and send them a thank-you text?"
+            },
+            {
+              "who": "You",
+              "text": "On it! 14 leads from the Oak Ave open house. I’ll check which ones agreed to texts, send the thank-you within the calling hours, and confirm here by 2:00 PM ET."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**2. Commit to a time, with a time zone.** “Soon” and “later” mean nothing. “By 2:00 PM ET” is a promise the client can plan around. Choose a time you are sure you can meet, with a little extra margin."
+        },
+        {
+          "t": "p",
+          "text": "**3. Close the loop.** When the task is done, say **“Done”** and what was done. If part of it could not be done, say what is missing and why: “Done: 11 of 14 texted. 3 had not agreed to texts, so I added a call task for each instead.” Never leave a request without a final answer."
+        },
+        {
+          "t": "p",
+          "text": "**4. Bad news early.** If you see you will miss a deadline, tell the client as soon as you know, not at the deadline. A good rule: if half the time is gone and less than half the work is done, send a message. Bring a suggestion with the problem."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Too late",
+            "Early and helpful"
+          ],
+          "rows": [
+            [
+              "At 5:00 PM: “Sorry, I couldn’t finish the 40 contacts.”",
+              "At 2:00 PM: “Heads up: the contacts are taking longer because many have duplicates. I’ll finish 25 today. Should I prioritize the newest leads?”"
+            ],
+            [
+              "The day after: “I forgot to confirm the showing.”",
+              "Before the showing: “I missed the confirmation text last night. I just called the buyer and confirmed 11 AM. The process fix: I set reminders the moment I book.”"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**5. Be there when you said you would be.** Be online five minutes before your start time. Keep the same schedule every day. If you will be late or absent, message your coordinator and the client channel **before** your start time. For planned days off, tell your coordinator as early as possible so they can arrange coverage; you will learn the full policy in F5."
+        },
+        {
+          "t": "p",
+          "text": "**6. Keep your own task list.** Do not depend on memory. Every request goes into a list with the due time in the client’s zone. Before you end your shift, check it: every item is done, in progress with a new time, or handed over. Memory has no alarm button."
+        },
+        {
+          "t": "p",
+          "text": "**7. Confirm before you start.** For any task that is new or unclear, repeat it back in one sentence before you begin. It takes 20 seconds and prevents hours of rework."
+        },
+        {
+          "t": "callout",
+          "title": "The reliability test",
+          "text": "At the end of every shift, ask: Did I answer every request within 15 minutes? Did every promise have a time and a zone? Did I close every loop? Did I warn early about anything late? Did I post my daily report? Five yes answers is a reliable day."
+        },
+        {
+          "t": "p",
+          "text": "**An example of reliability in action.** Kevin is an ISA for a team in Atlanta. At 1:00 PM his client asks him to call 30 old leads before 5:00 PM ET. Kevin replies at 1:04 PM: “On it, 30 leads by 5:00 PM ET. I’ll check each one is cleared for calling first.” At 3:00 PM he has called 12, because several leads talked for a long time. He writes: “Heads up: 12 of 30 done, 2 appointments set! Long conversations are slowing me down. I can finish about 22 by 5. Should I continue tomorrow morning with the rest?” The client answers: “Great work. Yes, finish tomorrow.” Kevin did not finish the task, and the client is happier than if he had rushed all 30."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Reply to client requests within 15 minutes during your shift.",
+            "Say “Done” with details, or say exactly what is missing.",
+            "Warn early and bring a suggestion."
+          ],
+          "dont": [
+            "Go silent while you work on a long task.",
+            "Promise a time you are not sure about.",
+            "Wait until the deadline to say there is a problem."
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Clocks, calls and messages drill",
+    "minutes": 75,
+    "intro": "Three short drills that train the skills from this module: time-zone math, clear phone English and strong written messages. Work alone, then record and write your answers for your coach.",
+    "steps": [
+      "Build your personal time-zone table: your country against ET, CT, MT, Arizona and PT, for both March to November and November to March. Add the dates of the next two US clock changes.",
+      "Solve these in writing, showing your clock and the other clock: (a) Your client is in Florida; a lead lives in Seattle. It is Sunday in January. What is the earliest time in your clock you may call the lead? (b) You work 9:00 AM to 5:00 PM CT. What are your hours in your country in July and in December? (c) A lead in Phoenix asks for a call “at 7 PM” in June. What time is that for your client in Dallas, and for you?",
+      "Record yourself (audio) reading the call opening script from F2-3 three times: once fast, once at 80 percent speed, once at 80 percent speed while smiling. Listen and choose the best one.",
+      "Record yourself saying these out loud: (661) 555-0142; (480) 555-0199; 1820 Elm St; 405 Oak Ave; $450,000; $1.2M; 3 bd / 2 ba; 6:30 PM; the email jen.walsh@example.com spelled letter by letter.",
+      "Record a 2-minute mock call with a friend or family member playing a lead named Jennifer: open the call with the recording notice, confirm her email by spelling it back, confirm a date and time, and close politely.",
+      "Rewrite these three weak messages into strong ones: (a) “hi, the thing you asked is not done yet sorry”; (b) “I’ll call them later”; (c) “ok” in reply to “Can you confirm the 3 showings for Saturday?”",
+      "Write one subject line and a five-line email to your client reporting that Saturday’s open house sign-in sheets are entered (22 visitors, 9 agreed to texts, 4 want a call back).",
+      "Write your answers to the reliability test from F2-5 for an imaginary day where you missed one deadline, and write the early warning message you should have sent."
+    ],
+    "deliverable": "One document with your time-zone table, the three time calculations, the three rewritten messages, the email and the reliability answers, plus three audio files: the best call opening, the numbers drill and the 2-minute mock call. Send them to your coach, named Lastname_F2_practice_date."
+  },
+  "quiz": [
+    {
+      "q": "Your client asks for 40 contacts by 5 PM, and you know you can only finish 25. What is the best answer?",
+      "options": [
+        "“Yes, no problem!” and do your best",
+        "“I can finish 25 by 5:00 PM ET. Which ones should come first?”",
+        "Say nothing and finish what you can",
+        "“That’s impossible.”"
+      ],
+      "answer": 1,
+      "explain": "In US workplaces, direct is polite. A clear answer with an alternative is respected; a “yes” followed by a missed promise breaks trust."
+    },
+    {
+      "q": "It is 10:00 AM in Honduras in July. What time is it in Los Angeles (Pacific)?",
+      "options": [
+        "8:00 AM",
+        "10:00 AM",
+        "9:00 AM",
+        "12:00 PM"
+      ],
+      "answer": 2,
+      "explain": "From March to November, Pacific Daylight Time is one hour behind Honduras. In winter it is two hours behind."
+    },
+    {
+      "q": "Your client is in Florida. The lead lives in California. Whose clock decides when you may call the lead?",
+      "options": [
+        "The lead's clock",
+        "Your clock",
+        "Your client's clock",
+        "Whichever is earliest"
+      ],
+      "answer": 0,
+      "explain": "The calling window is always in the lead's local time. A Florida client can have California leads."
+    },
+    {
+      "q": "When do most US states change their clocks?",
+      "options": [
+        "The first Sunday in January and July",
+        "The last Sunday in March and October",
+        "The US does not change its clocks",
+        "Forward on the second Sunday in March, back on the first Sunday in November"
+      ],
+      "answer": 3,
+      "explain": "Daylight saving time starts on the second Sunday in March and ends on the first Sunday in November. Honduras does not change, so your hours there move."
+    },
+    {
+      "q": "A lead says their budget is “fifteen hundred a month”, but the line is bad. What do you do?",
+      "options": [
+        "Write 1,500 and move on",
+        "Repeat it back and confirm a second way: “Just to confirm, fifteen hundred, one-five-zero-zero?”",
+        "Ask them to email it",
+        "Guess from the price of homes they viewed"
+      ],
+      "answer": 1,
+      "explain": "Teen and -ty numbers (15 and 50) sound alike on the phone. Always repeat important numbers back, and say them a second way."
+    },
+    {
+      "q": "How do you write November 3, 2026 for a US client?",
+      "options": [
+        "3/11/2026",
+        "2026/3/11",
+        "11/03/2026, or “Tue, Nov 3”",
+        "3 Nov 26"
+      ],
+      "answer": 2,
+      "explain": "US dates put the month first. When it matters, write the month as a word to avoid confusion."
+    },
+    {
+      "q": "Which money format is correct in the US?",
+      "options": [
+        "$1.250,50",
+        "1250,50 USD",
+        "$ 1 250.50",
+        "$1,250.50"
+      ],
+      "answer": 3,
+      "explain": "In the US, commas separate thousands and a period separates cents, with the dollar sign first."
+    },
+    {
+      "q": "Your client posts a new request while you are busy on another task. What is the reliability standard?",
+      "options": [
+        "Acknowledge within 15 minutes with what you will do and by when",
+        "Reply when the first task is done",
+        "Reply at the end of the day in the report",
+        "Only reply if it is urgent"
+      ],
+      "answer": 0,
+      "explain": "Acknowledge every request within 15 minutes during your shift: you saw it, you understood it, and when it will be done."
+    },
+    {
+      "q": "Halfway through the time for a task, you have done less than a third of it. What should you do?",
+      "options": [
+        "Work faster and hope",
+        "Wait until the deadline to explain",
+        "Tell the client now, with a suggestion",
+        "Ask another VA to do it secretly"
+      ],
+      "answer": 2,
+      "explain": "Bad news early. If half the time is gone and less than half the work is done, send a heads-up with a suggestion."
+    },
+    {
+      "q": "Which word is a false friend that can confuse a Spanish speaker?",
+      "options": [
+        "Actually, which means “in fact”, not “currently”",
+        "Lead, which means a prospect",
+        "Showing, which means a home tour",
+        "Closing, which means the end of a sale"
+      ],
+      "answer": 0,
+      "explain": "“Actually” means “in fact” or “really”. To say “actualmente”, use “currently”."
+    }
+  ]
+}

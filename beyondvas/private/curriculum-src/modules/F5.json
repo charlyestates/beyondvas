@@ -1,0 +1,598 @@
+{
+  "id": "F5",
+  "part": "foundations",
+  "title": "Professionalism, confidentiality and your scope",
+  "summary": "What an unlicensed assistant may and may not do or say, how to protect your client’s data, and how to stay reliable and professional when real life happens.",
+  "objectives": [
+    "List what ISAs handle and what they never do, and explain why your scope depends on your client’s state",
+    "Redirect any out-of-scope question (price, value, contract, loan, inspection, commission) with a professional phrase that keeps the conversation moving toward an appointment",
+    "Protect client data: work only inside client systems, use the password vault, never download or export, and report a possible leak within the hour",
+    "Communicate absences, outages and problems early and through the right channel",
+    "Handle hard situations (a client asking for out-of-scope work, a private DM, an unscrubbed list) by pausing and escalating to your manager"
+  ],
+  "lessons": [
+    {
+      "id": "F5-1",
+      "title": "Your scope as an unlicensed assistant",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "In the United States, helping someone buy, sell or lease a home for pay is licensed work. Each state decides what needs a license, and each state licenses its own agents and brokers. You do not hold a US real estate license. That is completely normal for an ISA or VA, and it does not make you less valuable. It does mean there is a clear line around what you may do. Crossing that line can cost your client their license, expose them to fines and lawsuits, and end your contract. Staying inside it, every time, is what makes you trustworthy."
+        },
+        {
+          "t": "p",
+          "text": "Here is the boundary in one picture. In the box below, “Do” lists what ISAs handle and “Don’t” lists what ISAs never do. Memorize it."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Discovery",
+            "A.L.M. Qualification",
+            "Appointment Scheduling"
+          ],
+          "dont": [
+            "Give pricing promises",
+            "Quote legal clauses",
+            "Interpret inspection reports",
+            "Sign agency agreements",
+            "Negotiate, or discuss price, terms or commission",
+            "Act as an agent or give an opinion of value"
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Your scope depends on your client’s state",
+          "text": "In some states (Texas, for example) an unlicensed assistant may not call to find out whether someone wants to buy, sell or lease. Your manager sets your scope before you dial."
+        },
+        {
+          "t": "p",
+          "text": "**What each “never” means in practice:**"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Pricing promises:** “You’ll definitely get it under asking” or “This will sell in a week” are promises only an agent may make, and even agents avoid them.",
+            "**Legal clauses:** you do not read, quote or explain a contract, an addendum or a disclosure, even if the lead sends it to you.",
+            "**Inspection reports:** you can schedule an inspection. You never say whether a crack, a leak or a roof is serious.",
+            "**Agency agreements:** buyer agreements and listing agreements are sent, explained and signed by the agent only.",
+            "**Negotiation, price, terms, commission:** you never suggest an offer amount, a counteroffer, a closing date, a repair credit or what the agent charges.",
+            "**Acting as an agent or giving an opinion of value:** you never call yourself an agent, show a home, host an open house, or say what a home is worth, not even a range."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**What you can usually do (your manager confirms it for your state):** answer calls, confirm and arrange appointments, relay facts your client has already advertised (the list price shown on the listing, the number of bedrooms, the open house time), call your client’s past clients, and do admin work. A few states allow more under the broker’s supervision. Some allow less. That is why the manager gives you a **scope card** for your client’s state before you start. Read it on your first days until you know it by heart, and ask when anything is unclear."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Example state rule (your manager confirms the current rules)",
+            "What it means for you"
+          ],
+          "rows": [
+            [
+              "Texas: an unlicensed assistant may not call anyone to find out whether they want to buy, sell or lease.",
+              "Your work for a Texas client may be limited to inbound calls, confirming appointments, past clients and admin. Your manager tells you exactly."
+            ],
+            [
+              "Every state: outbound prospecting is set up only where license law permits it and after the client signs the BeyondVAs telemarketing compliance addendum. Florida, for example, has its own strict telemarketing law on top of federal rules.",
+              "No outbound dialing until the manager confirms the addendum is signed and tells you the state’s rules."
+            ],
+            [
+              "California (example): outbound calling is possible when every compliance step is in place: scrubbed lists, the house calling window, identifying yourself and honoring opt-outs.",
+              "Outbound is possible with all compliance steps. You still never negotiate or give value."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Why the line protects you too.** If a lead later says “The assistant told me the house was worth $500,000” or “The assistant said the inspection was fine”, your client is responsible for what you said. A clear, consistent habit of sending these questions to the agent means nobody can ever say you gave advice. It also makes the agent look good: the lead hears that there is a professional who will answer properly."
+        },
+        {
+          "t": "callout",
+          "title": "When in doubt",
+          "text": "If you are not sure whether something is in scope, it is not, until your manager says it is. Pause, tell the lead the agent will follow up, and ask your manager in the client channel or your BeyondVAs channel."
+        }
+      ]
+    },
+    {
+      "id": "F5-2",
+      "title": "What you can and cannot say: redirect without losing the lead",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Leads will ask you out-of-scope questions every single day. They are not trying to trick you. They want answers, and you are the person on the phone. If you say “I can’t answer that” and stop, the lead feels blocked and may hang up. If you answer, you break the rules. The skill is the third option: **acknowledge, redirect to the agent, and move toward the appointment.**"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Acknowledge:** show the question is important. “Great question.” “That’s smart to ask.”",
+            "**Redirect:** name the right professional and why. “That’s exactly what your agent will go over with you, with real numbers for your situation.”",
+            "**Move forward:** ask a discovery question or offer two appointment times. “Could you meet Thursday at 5 or Saturday at 10?”"
+          ]
+        },
+        {
+          "t": "table",
+          "head": [
+            "The lead asks",
+            "Do not say",
+            "Say instead"
+          ],
+          "rows": [
+            [
+              "“What’s my house worth?”",
+              "“Probably around $380K.”",
+              "“Your agent will prepare a full analysis of recent sales near you. Would Tuesday at 4 or Wednesday at 10 work for a quick visit?”"
+            ],
+            [
+              "“Will they take $20K less?”",
+              "“Sellers usually accept 5% less.”",
+              "“That’s a negotiation question, and your agent is the expert there. Let’s get you in front of them. Are you free this weekend?”"
+            ],
+            [
+              "“What does this clause in the contract mean?”",
+              "“It means you can cancel within 10 days.”",
+              "“I want you to get an exact answer on that, so I’ll have your agent call you today. What time works?”"
+            ],
+            [
+              "“The inspector found a crack in the foundation. Is that bad?”",
+              "“That’s usually nothing.”",
+              "“Your agent will review the report with you and can help you decide next steps. I’ll ask them to call you this afternoon.”"
+            ],
+            [
+              "“What rate can I get? Is my credit good enough?”",
+              "“Rates are about 6% and you should be fine.”",
+              "“The lender is the right person for that. Would you like your agent to connect you with one?” (only if the agent has said to)"
+            ],
+            [
+              "“How much does your agent charge?”",
+              "“Usually around 2.5%.”",
+              "“Your agent explains that clearly in the agreement before any tour. Want me to set up that conversation?”"
+            ],
+            [
+              "“Is this a good neighborhood? Is it safe?”",
+              "“Yes, very safe, great schools.”",
+              "“Great question for your agent. I can also send you public sources.”"
+            ],
+            [
+              "“Can you show me the house tomorrow?”",
+              "“Sure, I’ll meet you there.”",
+              "“I’ll book you with your agent. Would 11 or 2 tomorrow work?”"
+            ]
+          ]
+        },
+        {
+          "t": "script",
+          "title": "A price question handled well",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "The house on Maple is listed at $415,000. Do you think they’d take $390,000?"
+            },
+            {
+              "who": "You",
+              "text": "I love that you’re already thinking about an offer. Pricing strategy is exactly what your agent does best, and they’ll look at recent sales to guide you. What do you like most about the Maple house?"
+            },
+            {
+              "who": "Lead",
+              "text": "The backyard, and it’s close to my work."
+            },
+            {
+              "who": "You",
+              "text": "That’s a great combination. Let’s get you inside it. Your agent has Saturday at 11 or 2. Which is better?"
+            },
+            {
+              "who": "Lead",
+              "text": "Eleven."
+            },
+            {
+              "who": "You",
+              "text": "Perfect, Saturday at 11. Your agent will send you a short agreement to sign before the tour, which is standard now. I’ll note that you’re interested in an offer strategy."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Relaying advertised facts is fine.** If the listing says 3 bedrooms, a list price of $415,000 and an open house Sunday 1 to 4 PM, you can repeat those facts. Add “as listed” when the information could change: “It’s listed at $415,000.” Never add your opinion: not “That’s a great price” and not “That’s overpriced”."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Use the same redirect phrases every time so they become automatic",
+            "Write the out-of-scope question in your note so the agent can answer it",
+            "Tell the lead when the agent will follow up, and make sure it happens"
+          ],
+          "dont": [
+            "Say “I’m not allowed to say” and stop talking",
+            "Guess, even with “I think” or “maybe” in front",
+            "Share private MLS remarks, lockbox or showing instructions, the seller’s reasons or the seller’s lowest price"
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Never say you are the agent",
+          "text": "Introduce yourself with your name and your client’s team: “Hi, this is Ana with the Riverside Homes Team.” If a lead asks “Are you the agent?”, say: “I’m Ana, I work with the team and help schedule time with your agent.” Never pretend, and never let a lead believe it."
+        }
+      ]
+    },
+    {
+      "id": "F5-3",
+      "title": "Confidentiality and client data",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Every day you will see names, phone numbers, home addresses, family situations, incomes, divorces, job losses and debts. Real estate leads tell ISAs very personal things because they trust the team. Treat every piece of that information the way you would want your own family’s information treated. This is a legal duty under the confidentiality agreement you signed with BeyondVAs, and it is the reason clients trust us with their business."
+        },
+        {
+          "t": "p",
+          "text": "**Every lead belongs to your client.** The leads, the notes, the scripts, the Smart Lists and the way the team works all belong to your client. You never contact a client’s lead outside the client’s systems, never keep a copy, never take a lead or a contact list to another client or another job, and never share how the team operates. This is true while you work for the client and after you finish."
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Your own computer, a private network.** Work only on your own computer with an up-to-date system and a screen lock. Never use a public computer, an internet café or open public Wi-Fi for client work.",
+            "**Inside the client’s systems only.** Work in the client’s Follow Up Boss, email and calendar. Never download, export, print or copy client data out of them, not even “to work offline”. Clients contract with us on this rule.",
+            "**Passwords only through the password vault.** Never send or accept a password by text, chat, email or a screenshot. If a client sends you a password in chat, do not use it; ask them to share it through the vault, and tell your manager so the password can be changed.",
+            "**No photos of the screen.** Do not take pictures of client screens with your phone or keep lead information on your personal phone.",
+            "**No personal tools.** Do not paste lead names, phone numbers or notes into personal apps, personal AI chat tools, translation websites or personal notes. Use only the tools your client and BeyondVAs approved.",
+            "**Lock your screen** every time you step away, even for one minute. Family members should not see client screens.",
+            "**Talk to the client only in the client channel.** No private DMs, personal WhatsApp or personal email with your client or their leads."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Report a possible leak within the hour",
+          "text": "If something goes wrong (you sent a text to the wrong lead, you clicked a suspicious link, your laptop was stolen, someone saw your screen), tell your BeyondVAs manager **within one hour**. Do not hide it and do not try to fix it alone. A fast report lets us change passwords and protect the client. A hidden mistake is much worse than a reported one."
+        },
+        {
+          "t": "p",
+          "text": "**Phishing.** People pretending to be your client, a portal or a bank will email or text you asking you to “confirm your login” or open an attachment. Check the sender’s address, never log in from a link in a message, and when in doubt ask in the client channel. A real client will never be upset that you checked."
+        },
+        {
+          "t": "script",
+          "title": "When a client asks for something unsafe",
+          "lines": [
+            {
+              "who": "Client",
+              "text": "Hey, can you export all my leads to a spreadsheet and email it to me? I want to look at them tonight."
+            },
+            {
+              "who": "You",
+              "text": "Happy to help you review them. For data security I don’t download or export lead data, but I can build a Smart List in Follow Up Boss so you can see all of them in one view tonight. Would that work? I’ll also mention it to my manager in case you need a different option."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**What you may share, and with whom.** Inside the client’s systems, you share lead information with the agents who need it, through notes and the client channel. You never share it with friends, family, other VAs who do not work for that client, or other clients. When you talk with your coach about a call, describe the situation without full names, numbers or addresses unless your coach is reviewing it inside the client’s system."
+        },
+        {
+          "t": "p",
+          "text": "**When you finish with a client,** your access is removed the same day. You do not keep files, screenshots, notes or contacts. If you notice you still have access somewhere, tell your manager."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Use the password vault for every login",
+            "Report a mistake or a suspicious message within the hour",
+            "Keep lead information inside the client’s CRM"
+          ],
+          "dont": [
+            "Export, download or print lead lists",
+            "Save leads in your personal phone or personal tools",
+            "Talk about a client’s leads or business with anyone outside the client’s team and BeyondVAs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F5-4",
+      "title": "Reliability: honest time, early messages and when life happens",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "US clients often say the most valuable quality in an assistant is not talent but reliability: being there when you said you would, doing what you said you would, and telling them early when something changes. You can be the best caller on the team, but if you disappear without warning once, the client will remember that more than your appointments."
+        },
+        {
+          "t": "p",
+          "text": "**Honest time.** You are an independent contractor paid in USD for the hours you work. Hubstaff tracks your time and takes random screenshots about every two minutes while you are clocked in. Your client can see your hours and screenshots. Unexplained idle time is flagged and reviewed by your manager before the client is billed. This protects you and the client: hours worked are proven, and hours not worked are never billed."
+        },
+        {
+          "t": "list",
+          "items": [
+            "Clock in when you start working and clock out for every break, lunch and personal task.",
+            "If you are working away from the computer (for example, a call on the headset while you look at a printed script), add a short note so the idle time is explained.",
+            "Never use tools or tricks to look active. It is dishonest, it is easy to detect, and it ends contracts."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**When life happens.** Everyone gets sick, loses power or has a family emergency. What matters is how you communicate."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "You are sick or cannot start on time",
+              "Message **before** your start time, not after, in the client channel and to your coordinator. Say when you expect to be back."
+            ],
+            [
+              "Internet or power goes out",
+              "Tell your manager at once and switch to your backup internet or power. If you cannot switch within a few minutes, tell the client channel too."
+            ],
+            [
+              "You need a day off",
+              "Declare days off at least **10 business days** ahead, so the client and your coordinator can plan coverage. You work your client’s holiday calendar, not your country’s, unless you declare the day off."
+            ],
+            [
+              "A client crosses a line (shouts, insults, asks for something illegal or out of scope, sends personal messages)",
+              "Stay polite, do not argue, and tell your BeyondVAs manager **the same day**. Your manager handles it with the client."
+            ],
+            [
+              "You made a mistake",
+              "Tell your client and coordinator the same day, with what happened and what you did to fix it."
+            ]
+          ]
+        },
+        {
+          "t": "script",
+          "title": "An early, professional message",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Good morning, team. My power went out in my area at 7:40 AM. I switched to my backup and I’m online now, but the connection may be slower. If it drops, I’ll update you here within 10 minutes. Today’s new leads are being called first."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Your daily report.** At the end of every shift, post a short report in the client channel: dials, live conversations, appointments set, important notes, and anything the agent must do tomorrow. A clear daily report shows your value without the client having to ask. You will learn the exact format in the ISA track."
+        },
+        {
+          "t": "p",
+          "text": "**Tone.** Be warm, short and positive in writing. Answer client messages within 15 minutes during your shift. When you do not know, say “Let me check and get back to you by 2 PM” and do it. Use complete sentences, check spelling, and never send a message when you are angry: wait ten minutes, then write."
+        },
+        {
+          "t": "callout",
+          "title": "Your commitment",
+          "text": "I will protect client information, communicate early and clearly, track my time honestly, and ask for help when I need it."
+        }
+      ]
+    },
+    {
+      "id": "F5-5",
+      "title": "Hard situations: pause, protect, escalate",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most days are routine. But sooner or later someone will ask you to do something that feels wrong. It might be a lead, an agent on the team or even your client. In those moments you do not need to win an argument or decide alone. You need a simple habit: **pause, protect, escalate.**"
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Pause:** do not act yet. Say something polite and neutral, like “Let me confirm that and get right back to you.”",
+            "**Protect:** do nothing that breaks a rule while you wait: no out-of-scope answers, no unscrubbed calls, no data leaving the system.",
+            "**Escalate:** tell your BeyondVAs manager the same day, with the facts. Your manager talks with the client. That is their job, and they have your back."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Work through these real situations. Read each one and decide what you would do before you read the answer."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Situation",
+            "What a professional does"
+          ],
+          "rows": [
+            [
+              "An agent asks you to “just tell the seller lead their house is worth about $450K so they’ll take the appointment.”",
+              "Pause. You never give an opinion of value, even when an agent asks. Offer the appointment instead and tell your manager."
+            ],
+            [
+              "Your client uploads an old list of 2,000 phone numbers and asks you to start calling today.",
+              "Pause. Old databases and purchased lists can be called only after a Do Not Call scrub. Ask your manager to confirm the list was scrubbed before you dial."
+            ],
+            [
+              "Your client asks you to use an autodialer “to go faster.”",
+              "Pause. You dial by hand. An autodialer needs written consent that your manager must confirm. Escalate."
+            ],
+            [
+              "A lead asks for your personal WhatsApp “to make it easier.”",
+              "Keep the conversation in the client’s systems. “I’ll text you from our team line, that way your agent sees everything too.”"
+            ],
+            [
+              "An agent sends you a private DM asking you to work extra hours off the clock.",
+              "Answer in the client channel politely and tell your manager. Every hour you work is tracked and billed through BeyondVAs."
+            ],
+            [
+              "A lead says, “Don’t ever call me again.”",
+              "Stop. Tag DNC, set the stage Archived / DNC, pause automations, log it. You learn this fully in F6."
+            ],
+            [
+              "A lead is angry and insulting.",
+              "Stay calm, do not argue, end the call politely, note it and tell your manager if it is serious."
+            ],
+            [
+              "You realize you told a lead a wrong open-house time.",
+              "Fix it right away with a correction text (if they agreed to texts) or call, note it, and tell your client the same day."
+            ]
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Saying no to your client, politely",
+          "lines": [
+            {
+              "who": "Agent",
+              "text": "Just tell her the inspection stuff is minor. She’s nervous and I don’t want to lose the deal."
+            },
+            {
+              "who": "You",
+              "text": "I understand, and I want to help keep her calm. I can’t comment on the inspection myself, but I can tell her you’ll call her today to walk through it. Would 4 PM work for you to call her? I’ll book it now."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice the pattern: you never say “That’s illegal” or lecture the client. You offer what you **can** do, right away. Most of the time the client is busy, not dishonest, and they will appreciate that you protected them."
+        },
+        {
+          "t": "callout",
+          "title": "You are never alone",
+          "text": "Your BeyondVAs coordinator and manager are your backup. You are never expected to break a rule to keep a client happy. If a client keeps pushing you outside your scope, your manager handles that conversation, not you."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Offer the in-scope alternative immediately",
+            "Write down the facts (who, what, when) before you escalate",
+            "Escalate the same day"
+          ],
+          "dont": [
+            "Do the out-of-scope task “just this once”",
+            "Argue with or lecture a client or lead",
+            "Wait days to tell your manager, hoping it goes away"
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Scope card, redirect drill and workstation security check",
+    "minutes": 60,
+    "intro": "This practice makes your scope automatic. You will build your own scope card, drill the redirects out loud until they feel natural, check that your workstation is secure, and sign your commitment.",
+    "steps": [
+      "Write your scope card on one page: the three things ISAs handle, the six things ISAs never do, five things you may usually do, and the state example your coordinator gives you (or Texas, if you have no client yet).",
+      "Write a redirect for each of these 10 questions using acknowledge, redirect, move forward: home value, offer amount, contract clause, inspection crack, interest rate, credit score, commission, “Is it a safe area?”, “Can you show me the house?”, “Are you the agent?”.",
+      "Record yourself reading all 10 redirects as if on a live call (audio is fine). Listen back. Re-record any that sound robotic, unsure, or that slip into an opinion.",
+      "Role-play 5 of them with a teammate or your coach: they ask, you answer without reading. Each must end with a discovery question or two appointment times.",
+      "Complete a workstation self-check and write yes or no for each: own computer with screen lock; system updates on; private home network with a password; backup internet tested this week; backup power tested; password vault installed; no client data in personal phone, personal apps or downloads folder.",
+      "Write the message you would send if your internet went out 20 minutes before your shift, and the message you would send if you texted a lead’s information to the wrong person.",
+      "Copy and sign the commitment: “I will protect client information, communicate early and clearly, track my time honestly, and ask for help when I need it.”"
+    ],
+    "deliverable": "Send your coach your scope card, the 10 written redirects with the audio recording, the workstation self-check (with a plan for any “no”), your two messages and your signed commitment. Name the files Lastname_F5_practice_date."
+  },
+  "quiz": [
+    {
+      "q": "Which three things do ISAs handle?",
+      "options": [
+        "Discovery, A.L.M. qualification and appointment scheduling",
+        "Pricing, negotiation and contracts",
+        "Showings, open houses and inspections",
+        "Loan advice, appraisals and closings"
+      ],
+      "answer": 0,
+      "explain": "ISAs do discovery, A.L.M. qualification and appointment scheduling. Everything licensed stays with the agent."
+    },
+    {
+      "q": "A lead asks, “What does the financing contingency in my contract mean?” What is the best reply?",
+      "options": [
+        "Explain that it lets them cancel if the loan is not approved",
+        "Say “I can’t talk about that” and end the call",
+        "Acknowledge the question, say the agent will give an exact answer, and offer a time for the agent to call today",
+        "Tell them to search online for the meaning"
+      ],
+      "answer": 2,
+      "explain": "Quoting or explaining contract terms is out of scope. Acknowledge, redirect to the agent and move forward with a time."
+    },
+    {
+      "q": "Why does your scope depend on your client’s state?",
+      "options": [
+        "Because time zones change what you may say",
+        "Because each state’s license law decides what an unlicensed assistant may do; some, like Texas, do not allow an unlicensed assistant to call to find out whether someone wants to buy, sell or lease",
+        "Because only California allows ISAs",
+        "It does not; scope is the same in every state"
+      ],
+      "answer": 1,
+      "explain": "License law is state law. Your manager sets your scope for your client’s state before you dial."
+    },
+    {
+      "q": "Your client sends you their Follow Up Boss password in the team chat. What do you do?",
+      "options": [
+        "Use it and delete the message",
+        "Save it in your phone notes so you don’t forget",
+        "Forward it to your coordinator by email",
+        "Don’t use it; ask the client to share it through the password vault and tell your manager so it can be changed"
+      ],
+      "answer": 3,
+      "explain": "Passwords travel only through the password vault. A password shown in chat should be changed."
+    },
+    {
+      "q": "You accidentally texted one lead’s address to a different lead. When should you tell your manager?",
+      "options": [
+        "Within one hour",
+        "At the end of the week in your report",
+        "Only if the lead complains",
+        "Never, if you deleted the message"
+      ],
+      "answer": 0,
+      "explain": "A possible leak is reported within the hour so the team can respond. Hidden mistakes cause much bigger problems."
+    },
+    {
+      "q": "A lead asks if you are the agent. What is the right answer?",
+      "options": [
+        "“Yes, I handle everything for you.”",
+        "“I’m with the team and I help schedule time with your agent.”",
+        "Avoid the question and change the subject",
+        "“Kind of, I’m almost an agent.”"
+      ],
+      "answer": 1,
+      "explain": "Never pretend or let a lead believe you are the agent. Give your name and your role clearly."
+    },
+    {
+      "q": "You wake up with a fever and cannot work today. What do you do?",
+      "options": [
+        "Log in late when you feel better",
+        "Message the client channel and your coordinator after your shift should have started",
+        "Message the client channel and your coordinator before your start time and say when you expect to be back",
+        "Ask a friend to log in for you"
+      ],
+      "answer": 2,
+      "explain": "Message before your start time, not after, through the right channels. Never let anyone else use your access."
+    },
+    {
+      "q": "A listing shows a price of $415,000. A lead asks, “Is that a good price?” What may you say?",
+      "options": [
+        "“Yes, it’s below market.”",
+        "“It’s overpriced; offer less.”",
+        "“Homes there usually sell for more.”",
+        "“It’s listed at $415,000. Your agent can show you recent sales so you can judge the price. Could you meet Saturday?”"
+      ],
+      "answer": 3,
+      "explain": "You may relay advertised facts, never an opinion about price or value."
+    },
+    {
+      "q": "Your client asks you to start calling an old list of 2,000 numbers today. What is the professional first step?",
+      "options": [
+        "Pause and ask your manager to confirm the list was scrubbed against the National Do Not Call Registry and the client’s DNC list",
+        "Start dialing right away to impress the client",
+        "Refuse and stop working for the client",
+        "Load the list into an autodialer"
+      ],
+      "answer": 0,
+      "explain": "Pause, protect, escalate. Lists other than inbound leads who asked to be contacted are called only after a DNC scrub."
+    },
+    {
+      "q": "An agent asks you to tell a nervous buyer that the inspection problems are “minor.” What do you do?",
+      "options": [
+        "Do it, because the agent is licensed",
+        "Tell the buyer the problems are serious",
+        "Offer to book a call where the agent explains the report, and do not comment on the inspection yourself",
+        "Ignore the request and say nothing to anyone"
+      ],
+      "answer": 2,
+      "explain": "You never interpret inspection reports, even when asked. Offer the in-scope alternative right away and escalate if pressure continues."
+    }
+  ]
+}

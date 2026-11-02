@@ -1,0 +1,871 @@
+{
+  "id": "F4",
+  "part": "foundations",
+  "title": "Real estate basics and vocabulary",
+  "summary": "How a US home is bought and sold, who does each job, where leads come from, and the 50 words you will hear every day on a real estate team.",
+  "objectives": [
+    "Explain the buyer journey and the seller journey step by step, and say where an ISA or VA helps in each one",
+    "Name the people in a US transaction (agent, broker, lender, escrow and title, inspector, appraiser, transaction coordinator) and what each one does",
+    "Read a listing on the MLS or a portal and turn it into a clear summary for your agent",
+    "Recognize the most common lead sources and listing statuses and what they mean for your next call",
+    "Use and pronounce 50 core real estate terms correctly in calls, texts and Follow Up Boss notes"
+  ],
+  "lessons": [
+    {
+      "id": "F4-1",
+      "title": "Who does what on a US real estate team",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Buying a home in the United States is the largest purchase most families ever make. It takes many people, many documents and usually 30 to 60 days from accepted offer to keys. Your client, the agent or team you work for, sits in the middle of all of it. Before you can help them, you need to know who the other players are, what each one is responsible for, and where your job begins and ends."
+        },
+        {
+          "t": "p",
+          "text": "In this lesson you meet the cast. Learn the names well: you will hear them in every team meeting, every lead note and every call."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Role",
+            "What they do",
+            "How you interact with them"
+          ],
+          "rows": [
+            [
+              "**Real estate agent** (also “salesperson” or “licensee”)",
+              "Holds a state license. Represents a buyer or a seller, gives advice, shows homes, writes and negotiates offers.",
+              "Your client, or an agent on your client’s team. You book appointments on their calendar and hand leads to them."
+            ],
+            [
+              "**REALTOR®**",
+              "An agent who is a member of the National Association of REALTORS® and follows its Code of Ethics. Not every agent is a REALTOR®.",
+              "Same as an agent. Always write it with a capital R."
+            ],
+            [
+              "**Broker**",
+              "Holds a higher license. Supervises agents and is legally responsible for their work. Every agent works under a broker.",
+              "Rarely. The broker’s rules decide what you may do."
+            ],
+            [
+              "**Team lead**",
+              "A senior agent who runs a team of agents, sets the lead rules and often owns the CRM.",
+              "Often your day-to-day client contact."
+            ],
+            [
+              "**ISA** (inside sales agent)",
+              "Calls and texts leads, qualifies them with A.L.M. and books appointments for agents.",
+              "This may be you."
+            ],
+            [
+              "**VA** (virtual assistant)",
+              "Handles admin: inbox, calendar, CRM updates, listing paperwork, showing confirmations.",
+              "This may be you, or a teammate."
+            ],
+            [
+              "**Lender / loan officer**",
+              "Checks the buyer’s income, credit and savings and issues a pre-approval, then the actual loan.",
+              "You never give loan advice. You connect a lead with the client’s preferred lender only when the agent says so."
+            ],
+            [
+              "**Escrow officer / title company**",
+              "A neutral party that holds the money, checks that the seller really owns the home, and runs the closing.",
+              "You may send them documents or confirm dates if your client asks."
+            ],
+            [
+              "**Home inspector**",
+              "Examines the home’s condition (roof, plumbing, electrical) and writes a report for the buyer.",
+              "You may schedule the inspection. You never explain or interpret the report."
+            ],
+            [
+              "**Appraiser**",
+              "Gives the lender an independent opinion of the home’s value so the bank does not lend more than the home is worth.",
+              "Usually none. The lender orders the appraisal."
+            ],
+            [
+              "**Transaction coordinator** (TC)",
+              "Manages the paperwork and deadlines from accepted offer to closing.",
+              "On some teams a VA does this job. You keep them informed of what you hear from leads."
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Listing agent and buyer’s agent",
+          "text": "The agent who represents the **seller** is the **listing agent** (or seller’s agent). The agent who represents the **buyer** is the **buyer’s agent**. In most deals there are two agents, one on each side. When a lead calls about a home your client has listed, they are calling the listing agent’s team. When a lead wants to buy, your client becomes their buyer’s agent."
+        },
+        {
+          "t": "p",
+          "text": "**Where you fit.** Agents earn money when a home closes, and they close more homes when they spend their time in front of serious clients: at showings, listing consultations and negotiations. Every hour an agent spends dialing leads who do not answer is an hour not spent with a client. That is why teams hire ISAs and VAs. You protect the agent’s time. You find the serious people, learn what they need, and put them on the agent’s calendar with a note so complete that the agent never has to ask the same question twice."
+        },
+        {
+          "t": "p",
+          "text": "**A day on a real estate team.** Teams run on a rhythm. Learn it so you know what your client expects at each hour."
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Morning:** new leads from the night and the early hours are called first, inside the calling window, and new leads during the day are called within five minutes. Agents prepare for showings.",
+            "**Midday:** follow-up calls and texts. Every lead you touch gets a next action and a date in the CRM.",
+            "**Afternoon:** agents are out at appointments, showings and listing consultations. You confirm tomorrow’s appointments and update notes.",
+            "**Evening (still inside the window):** many working people answer after 5 PM their time. This is often your best hour for live conversations.",
+            "**Weekly:** the team meets. Bring your numbers: dials, conversations, appointments set, appointments that happened."
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Learn the name and role of every person on your client’s team in your first week",
+            "Say “your agent” or the agent’s name when you talk to leads",
+            "Ask your coordinator when you are not sure whether a task belongs to you"
+          ],
+          "dont": [
+            "Call yourself an agent, a realtor or a loan officer",
+            "Contact a lender, inspector or escrow officer for a lead unless your client asked you to",
+            "Assume every team works the same way: the roles above are common, but each client sets its own"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Common mistake:** new assistants sometimes answer a lead’s question about the loan, the inspection or the price because they want to be helpful. Being helpful here means connecting the lead to the right professional fast, not answering for them. You will practice the exact words in F5."
+        }
+      ]
+    },
+    {
+      "id": "F4-2",
+      "title": "The buyer journey, from first click to keys",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most of the leads you call are buyers, or people who might become buyers. To have a good conversation with them, you need to know where they are in the journey and what comes next. A buyer who is “just looking” online is at step one. A buyer who already has a pre-approval and wants to see a home on Saturday is at step four. You ask different questions and offer different next steps for each."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Dreaming and browsing.** The buyer looks at homes on portals and social media, often 6 to 12 months before buying. Many of your leads start here.",
+            "**First contact.** They click “request a tour” or “contact agent”, call a sign or fill a form. A lead is created in the CRM. This is where speed to lead matters most.",
+            "**Discovery with the ISA.** You learn A.L.M.: when they could meet (Appointment), where and what they want (Location), and why they are moving and by when (Motivation).",
+            "**Consultation with the agent and the buyer agreement.** The agent meets the buyer, explains how they work and signs a written buyer agreement before any tour. Since August 2024 this agreement is required before touring, and it states what the agent will be paid. The agent sends and explains it, never you.",
+            "**Pre-approval.** A lender reviews income, credit and savings and says how much the buyer can borrow. Sellers usually want to see this letter with any offer.",
+            "**Home search and showings.** The agent tours homes with the buyer, in person or by video.",
+            "**Offer and negotiation.** The agent writes an offer with a price, an earnest money deposit, a closing date and contingencies. The seller can accept, reject or counter.",
+            "**Under contract (in escrow).** The offer is accepted. The earnest money goes to escrow. Deadlines start.",
+            "**Inspection and appraisal.** The inspector checks the home’s condition; the appraiser checks its value for the lender. Problems may lead to repair requests or a new price.",
+            "**Loan approval and final walk-through.** The lender gives final approval (“clear to close”). The buyer walks through the home one last time.",
+            "**Closing.** Documents are signed, money moves, the deed is recorded, and the buyer gets the keys. The agent is paid at closing."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "The buyer agreement rule",
+          "text": "An agent working with a buyer needs a **written buyer agreement before any tour**. When you book a tour, flag it in the calendar invite so the agent sends it first. If the lead asks what the agreement says or how much the agent is paid, say: “Your agent will walk you through that agreement before the tour.”"
+        },
+        {
+          "t": "p",
+          "text": "**Contingencies, explained simply.** A contingency is a condition in the offer that lets the buyer cancel without losing their deposit if something goes wrong. The three most common are the **inspection contingency** (the home has serious problems), the **appraisal contingency** (the home is valued below the price) and the **financing contingency** (the loan is not approved). You do not need to explain them to leads. You need to understand them so you know why a deal can fall apart in escrow and why an agent may suddenly ask you to call back a lead who was “under contract”."
+        },
+        {
+          "t": "p",
+          "text": "**How long it takes.** From the first click to closing can be a few weeks or more than a year. Once an offer is accepted, a financed purchase usually closes in 30 to 45 days. A cash purchase can close in one to two weeks."
+        },
+        {
+          "t": "table",
+          "head": [
+            "What the lead says",
+            "Where they probably are",
+            "Your best next step"
+          ],
+          "rows": [
+            [
+              "“I’m just looking at what’s out there.”",
+              "Step 1, browsing",
+              "Ask what caught their eye, learn their timeline, offer a call with the agent or set a nurture follow-up."
+            ],
+            [
+              "“Can I see 123 Oak Street on Saturday?”",
+              "Step 2, first contact, ready to tour",
+              "Qualify with A.L.M., book the agent, flag the buyer agreement in the invite."
+            ],
+            [
+              "“We’re pre-approved up to $450,000.”",
+              "Step 5, serious",
+              "Treat as hot. Book an appointment within days, not weeks."
+            ],
+            [
+              "“Our lease ends in March.”",
+              "Motivation and a deadline",
+              "Note the date. Plan the follow-up backwards from it."
+            ],
+            [
+              "“We’re already under contract on a house.”",
+              "Step 8, in escrow with another agent or your client",
+              "Ask if they are working with an agent; note it; do not pitch."
+            ]
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Figure out the step before you choose your questions",
+            "Write the step and the timeline in your Follow Up Boss note",
+            "Treat pre-approved buyers with a deadline as your top priority"
+          ],
+          "dont": [
+            "Tell a buyer how much they can afford or what rate they will get",
+            "Promise that an offer will be accepted",
+            "Book a tour without flagging the buyer agreement"
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Mistake to avoid:** treating every lead as if they want to buy this month. Most online leads are months away. If you push them too hard, they stop answering. If you ignore them, another agent wins them. The skill is matching your next step to their step in the journey, which you will practice in the ISA track."
+        }
+      ]
+    },
+    {
+      "id": "F4-3",
+      "title": "The seller journey and seller leads",
+      "minutes": 5,
+      "body": [
+        {
+          "t": "p",
+          "text": "Sellers are fewer than buyers, but each seller is very valuable to your client. A listing brings marketing, sign calls and new buyer leads, and the agent gets paid when it closes. Many teams care more about one good seller appointment than about three buyer appointments. Learn the seller journey so you can recognize a seller lead and treat it with care."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Thinking about selling.** The owner wonders what the home is worth. They often request a home-value estimate online. This creates a lead.",
+            "**First contact.** You call. You learn their motivation (why sell, by when), the property (beds, baths, condition) and when they could meet the agent.",
+            "**Listing consultation (listing appointment).** The agent visits or meets by video, looks at the home and presents a **CMA**, a comparative market analysis that compares recently sold similar homes.",
+            "**Listing agreement.** The seller signs a contract that gives the agent the right to market the home for a period of time. It states the list price and what the agent is paid. Only the agent discusses and signs it.",
+            "**Preparation.** Repairs, cleaning, staging, professional photos, a description, sometimes a video or 3D tour.",
+            "**On the market.** The agent enters the listing in the MLS. It spreads to portals. Showings and open houses start.",
+            "**Offers and negotiation.** The agent presents offers to the seller and negotiates.",
+            "**Under contract to closing.** Inspection, appraisal, the buyer’s loan approval, then closing. The seller hands over the keys and receives the money."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Types of seller leads you will meet:**"
+        },
+        {
+          "t": "list",
+          "items": [
+            "**Home-value request:** the owner typed their address into a “What is my home worth?” page. Curious, not always ready.",
+            "**FSBO** (For Sale By Owner): the owner is selling without an agent. Calling them is allowed only where your client’s state allows it, only with the client’s approved script, and only after the list is scrubbed against the Do Not Call lists.",
+            "**Expired listing:** the home was listed with an agent but did not sell before the agreement ended. Same rule as FSBO.",
+            "**Past client or sphere:** someone the agent already knows. Usually warm and friendly.",
+            "**Buyer who must sell first:** a buyer lead who owns a home. This is two leads in one: write both in the note."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Never give a value",
+          "text": "The most common seller question is “What is my home worth?” You never give a number, a range or an opinion, not even “around $400,000”. An opinion of value is the agent’s job. You say: “That is exactly what your agent will prepare for you, a full analysis of recent sales near you. Would Tuesday at 4 or Wednesday at 10 work for a quick visit?” You will practice this in the ISA track."
+        },
+        {
+          "t": "script",
+          "title": "Recognizing a hidden seller",
+          "lines": [
+            {
+              "who": "You",
+              "text": "And are you renting right now, or do you own your current home?"
+            },
+            {
+              "who": "Lead",
+              "text": "We own. We’d have to sell it to buy the bigger place."
+            },
+            {
+              "who": "You",
+              "text": "That makes sense. Have you thought about timing, selling first or buying first?"
+            },
+            {
+              "who": "Lead",
+              "text": "Not really. That’s what worries me."
+            },
+            {
+              "who": "You",
+              "text": "That’s a very common question, and your agent can map out both options with you. Could you meet Thursday at 6 PM to talk through selling and buying together?"
+            }
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Ask every buyer whether they own or rent",
+            "Note the property address, beds, baths and condition for every seller lead",
+            "Tell your agent right away about a seller lead with a deadline"
+          ],
+          "dont": [
+            "Give a price, range or opinion of value",
+            "Promise how fast a home will sell",
+            "Call FSBO or expired listings unless your manager confirmed your state allows it and the list is scrubbed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F4-4",
+      "title": "The MLS, portals, listing statuses and lead sources",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Every lead you call saw a home somewhere. To speak with confidence, you need to know where listings live, how they spread, what their status means and where your leads come from."
+        },
+        {
+          "t": "p",
+          "text": "**The MLS.** The Multiple Listing Service is a private database where licensed agents in an area share their listings. There are hundreds of MLSs in the US, each covering a region. Agents put listings in the MLS so that other agents can bring buyers. The MLS holds details the public does not see, such as showing instructions and agent remarks. Some clients will give you MLS access; many will not. Never share MLS-only information, such as private remarks or lockbox details, with a lead."
+        },
+        {
+          "t": "p",
+          "text": "**IDX and portals.** IDX (Internet Data Exchange) lets agents show MLS listings on their own websites. Large portals such as Zillow, Realtor.com and Redfin also display listings to the public. When a buyer clicks “contact an agent” on a portal or a team website, a lead lands in your client’s CRM. Portal information can be out of date: a home that shows as active may already be under contract. That is why you never promise a lead that a home is available. You say: “Let me have your agent confirm that it’s still available.”"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Status",
+            "What it means",
+            "What you say to an interested lead"
+          ],
+          "rows": [
+            [
+              "**Coming soon**",
+              "Listed but not yet open for showings.",
+              "“It isn’t open for tours yet. I can have your agent let you know the moment it is.”"
+            ],
+            [
+              "**Active**",
+              "On the market, accepting showings and offers.",
+              "“Let’s get you in to see it. Saturday at 11 or 2?”"
+            ],
+            [
+              "**Active under contract / contingent**",
+              "An offer was accepted, but conditions are still open. Some sellers accept backup offers.",
+              "“It has an accepted offer with conditions. Your agent can check if backup offers are possible and show you similar homes.”"
+            ],
+            [
+              "**Pending**",
+              "Under contract, conditions mostly cleared, waiting to close.",
+              "“That one is pending, so it will likely close. Let’s find you similar homes.”"
+            ],
+            [
+              "**Sold / closed**",
+              "The sale is complete.",
+              "Use it to learn what they like: “What did you love about that one?”"
+            ],
+            [
+              "**Withdrawn / canceled**",
+              "Taken off the market before it sold.",
+              "Note it for the agent."
+            ],
+            [
+              "**Expired**",
+              "The listing agreement ended without a sale.",
+              "A possible seller lead, only where your state and client allow calling."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Status names vary a little from one MLS to another, so learn the exact names your client’s MLS uses. **Reading a listing.** Agents use short forms. “4 bd / 2.5 ba, 2,150 sqft, 0.2 ac, built 1998, HOA $85/mo, DOM 12” means: four bedrooms, two full bathrooms and one half bathroom (a toilet and sink but no shower), 2,150 square feet of living space, a lot of one fifth of an acre, built in 1998, a monthly homeowners association fee of 85 dollars, and 12 days on the market. Learn these short forms; you will write them in every note."
+        },
+        {
+          "t": "p",
+          "text": "**Where leads come from.** Your conversation changes with the source, so always check the lead source field in Follow Up Boss before you dial."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Lead source",
+            "Typical mindset",
+            "Opening angle"
+          ],
+          "rows": [
+            [
+              "Portal inquiry",
+              "Saw one specific home, often early in the journey",
+              "Ask about that home first, then what else they want"
+            ],
+            [
+              "Paid ad (social or search)",
+              "Clicked an offer like a home list or a value estimate; may not remember",
+              "Remind them gently what they requested"
+            ],
+            [
+              "Team website (IDX)",
+              "Registered to save searches; browsing",
+              "Ask what areas and price they are watching"
+            ],
+            [
+              "Open house sign-in",
+              "Met the agent or saw the home in person",
+              "Mention the home and the date they visited"
+            ],
+            [
+              "Sign call",
+              "Drove by a listing; local and curious",
+              "Ask what they liked about the home and the area they live in now"
+            ],
+            [
+              "Past client or sphere",
+              "Knows and likes the agent",
+              "Warm, personal, ask how they are and what is changing"
+            ],
+            [
+              "Referral",
+              "Recommended by someone they trust",
+              "Mention who referred them; treat as hot"
+            ]
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Why this matters",
+          "text": "A lead who saw a specific home wants to hear about that home in the first 10 seconds. Opening with “Are you thinking of buying?” when they asked about 123 Oak Street sounds like you did not read their inquiry. Check the source and the property, then open with it."
+        },
+        {
+          "t": "p",
+          "text": "**Common mistake:** confusing the MLS with the portals. The MLS is the agents’ database; portals are public websites that show listings. Another mistake is telling a lead the price or condition of a home from memory. Read the listing, relay only what is published, and send every question about value, negotiation or condition to the agent."
+        }
+      ]
+    },
+    {
+      "id": "F4-5",
+      "title": "Glossary part 1: people, properties and listings",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "These terms are the vocabulary of your daily work. Read each one aloud. If a word is new, write your own example sentence. In the practice assignment you will use 20 of these terms in notes and a recorded explanation. Pronunciation tips are in brackets where English speakers often hear mistakes."
+        },
+        {
+          "t": "glossary",
+          "terms": [
+            {
+              "term": "Lead",
+              "def": "A person who showed interest (a form, a call, a sign-in) and may buy or sell. Your client’s leads are your work list."
+            },
+            {
+              "term": "Prospect",
+              "def": "Another word for a lead, often one you are actively working."
+            },
+            {
+              "term": "Sphere (sphere of influence)",
+              "def": "People the agent already knows: friends, family, past clients. Often the warmest leads."
+            },
+            {
+              "term": "Past client",
+              "def": "Someone who already bought or sold with the agent."
+            },
+            {
+              "term": "CRM",
+              "def": "Customer relationship management software. Most of our clients use Follow Up Boss, where every lead, note and task lives."
+            },
+            {
+              "term": "ISA",
+              "def": "Inside sales agent: calls and texts leads, qualifies them and books appointments for agents."
+            },
+            {
+              "term": "Listing",
+              "def": "A home for sale under a listing agreement, or the online page that describes it. [LIS-ting]"
+            },
+            {
+              "term": "Listing agent / seller’s agent",
+              "def": "The agent who represents the seller."
+            },
+            {
+              "term": "Buyer’s agent",
+              "def": "The agent who represents the buyer."
+            },
+            {
+              "term": "Single-family home (SFH)",
+              "def": "A detached house for one household on its own lot."
+            },
+            {
+              "term": "Condo (condominium)",
+              "def": "A unit the buyer owns inside a building or complex; shared areas are owned together and managed by an HOA."
+            },
+            {
+              "term": "Townhouse / townhome",
+              "def": "A home that shares one or two walls with neighbors, usually on several floors, often with an HOA."
+            },
+            {
+              "term": "Multi-family",
+              "def": "A building with 2 to 4 units (duplex, triplex, fourplex), often bought by investors."
+            },
+            {
+              "term": "New construction",
+              "def": "A home just built or still being built, often sold by a builder with its own sales agent."
+            },
+            {
+              "term": "bd / ba",
+              "def": "Bedrooms / bathrooms. “2.5 ba” means two full baths and one half bath (toilet and sink, no shower)."
+            },
+            {
+              "term": "Square footage (sqft)",
+              "def": "The living area of the home in square feet. 1,000 sqft is about 93 square meters."
+            },
+            {
+              "term": "Lot",
+              "def": "The land the home sits on. Often in acres: 1 acre is about 4,047 square meters."
+            },
+            {
+              "term": "HOA",
+              "def": "Homeowners association: manages shared areas and rules and charges a monthly or yearly fee. Say each letter: H-O-A."
+            },
+            {
+              "term": "MLS",
+              "def": "Multiple Listing Service: the private listing database agents share in an area."
+            },
+            {
+              "term": "IDX",
+              "def": "The data feed that lets agents show MLS listings on their own websites."
+            },
+            {
+              "term": "Portal",
+              "def": "A large public home-search website that shows listings and sends inquiries to agents."
+            },
+            {
+              "term": "DOM (days on market)",
+              "def": "How long a home has been listed. A high number can mean the price is too high."
+            },
+            {
+              "term": "List price",
+              "def": "The price the seller asks for. Not the same as the sale price."
+            },
+            {
+              "term": "Price reduction",
+              "def": "The seller lowered the list price. A good reason to call back interested buyers."
+            },
+            {
+              "term": "Showing",
+              "def": "A visit to a home for sale with an agent. Also called a tour."
+            },
+            {
+              "term": "Open house",
+              "def": "A set time when the home is open for anyone to visit, hosted by an agent."
+            },
+            {
+              "term": "Coming soon / Active / Pending / Sold",
+              "def": "Listing statuses: not yet showing / on the market / under contract / closed."
+            },
+            {
+              "term": "FSBO",
+              "def": "For Sale By Owner: a seller with no agent. Say “FIZZ-bo”."
+            },
+            {
+              "term": "Expired",
+              "def": "A listing whose agreement ended without a sale."
+            },
+            {
+              "term": "CMA",
+              "def": "Comparative market analysis: the agent’s report comparing recent nearby sales to estimate a price. Only the agent prepares and presents it."
+            },
+            {
+              "term": "Comps (comparables)",
+              "def": "Recently sold homes similar to the one being priced."
+            },
+            {
+              "term": "Staging",
+              "def": "Furnishing and decorating a home to look its best for photos and showings."
+            }
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Words that sound alike",
+          "text": "**Realtor** is said “REEL-ter” (two syllables), not “real-a-tor”. **Escrow** is “ES-kro”. **Lien** sounds like “lean”. **Suite** (a unit) sounds like “sweet”. If you say a word wrong, a lead may not trust you; practice them aloud."
+        },
+        {
+          "t": "p",
+          "text": "**How to study.** Make flashcards with the term on one side and your own example on the other. Ten minutes a day for a week is better than one long session. Use the words in your Follow Up Boss notes: “Wants SFH, 3 bd / 2 ba, no HOA, under $400K.” Correct, short notes are a sign of a professional."
+        }
+      ]
+    },
+    {
+      "id": "F4-6",
+      "title": "Glossary part 2: money, contracts and closing",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "These terms describe the money and the contract side of a sale. You will hear them from agents and leads all the time. Understanding them is required. Explaining or advising on them is not your job: when a lead asks what one of these means for them, you send the question to the agent or, if the agent says so, to the lender."
+        },
+        {
+          "t": "glossary",
+          "terms": [
+            {
+              "term": "Pre-qualification",
+              "def": "A quick, informal estimate from a lender of what a buyer might borrow, based on what the buyer says. Weak."
+            },
+            {
+              "term": "Pre-approval",
+              "def": "A lender reviewed documents and credit and states how much the buyer can borrow. Sellers expect a pre-approval letter with an offer."
+            },
+            {
+              "term": "Mortgage",
+              "def": "The loan used to buy a home, with the home as security."
+            },
+            {
+              "term": "Down payment",
+              "def": "The part of the price the buyer pays in cash; the loan covers the rest."
+            },
+            {
+              "term": "Cash buyer",
+              "def": "A buyer who pays without a loan. Usually closes faster."
+            },
+            {
+              "term": "FHA / VA / conventional loan",
+              "def": "Common loan types. FHA is government-insured with a lower down payment; VA is for eligible veterans and service members; conventional is a regular bank loan. Never advise on which is better."
+            },
+            {
+              "term": "Interest rate",
+              "def": "The cost of borrowing, as a yearly percentage. You never quote or predict rates."
+            },
+            {
+              "term": "Closing costs",
+              "def": "Fees paid at closing for the loan, title, escrow, taxes and more, beyond the price."
+            },
+            {
+              "term": "Buyer agreement (buyer representation agreement)",
+              "def": "A written contract between a buyer and their agent. Required before any tour since August 2024. It states what the agent will be paid. Only the agent sends and explains it."
+            },
+            {
+              "term": "Listing agreement",
+              "def": "A contract that gives the listing agent the right to market and sell a home for a set period."
+            },
+            {
+              "term": "Commission",
+              "def": "What an agent is paid, usually at closing. You never discuss it with leads."
+            },
+            {
+              "term": "Offer",
+              "def": "A written proposal to buy: price, deposit, closing date and conditions."
+            },
+            {
+              "term": "Counteroffer",
+              "def": "The other side’s answer with different terms."
+            },
+            {
+              "term": "Multiple offers",
+              "def": "More than one buyer made an offer on the same home."
+            },
+            {
+              "term": "Earnest money (EMD)",
+              "def": "A deposit the buyer pays when the offer is accepted, held by escrow, to show they are serious."
+            },
+            {
+              "term": "Contingency",
+              "def": "A condition that lets the buyer cancel without losing the deposit, such as inspection, appraisal or financing."
+            },
+            {
+              "term": "Under contract",
+              "def": "An offer was accepted and signed; the sale is in progress."
+            },
+            {
+              "term": "Escrow",
+              "def": "The period from accepted offer to closing, and the neutral company that holds money and documents. “In escrow” means under contract."
+            },
+            {
+              "term": "Title / title insurance",
+              "def": "Title is legal ownership. The title company checks it and insures it against problems such as an old lien."
+            },
+            {
+              "term": "Lien",
+              "def": "A legal claim on a property for an unpaid debt."
+            },
+            {
+              "term": "Home inspection",
+              "def": "A professional review of the home’s condition for the buyer. You never interpret the report."
+            },
+            {
+              "term": "Appraisal",
+              "def": "An independent value estimate ordered by the lender."
+            },
+            {
+              "term": "Clear to close (CTC)",
+              "def": "The lender has approved everything; closing can happen."
+            },
+            {
+              "term": "Final walk-through",
+              "def": "The buyer’s last visit to check the home before closing."
+            },
+            {
+              "term": "Closing / settlement",
+              "def": "The day documents are signed, money moves and ownership transfers."
+            },
+            {
+              "term": "Closing date (COE)",
+              "def": "The planned date of closing (close of escrow)."
+            },
+            {
+              "term": "Deed",
+              "def": "The document that transfers ownership to the buyer."
+            },
+            {
+              "term": "Investor",
+              "def": "A buyer who purchases to rent out or resell, not to live in."
+            },
+            {
+              "term": "Relocation",
+              "def": "Moving to a new city, often for a job. A strong motivation with a clear deadline."
+            },
+            {
+              "term": "Contingent on sale",
+              "def": "A buyer who must sell their current home before they can buy."
+            }
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Using the vocabulary without giving advice",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Should I do FHA or conventional? And what’s the rate right now?"
+            },
+            {
+              "who": "You",
+              "text": "Those are really important questions, and I want you to get the right answer for your situation, not a guess from me. That’s the lender’s specialty. Would you like your agent to connect you with someone, or are you already working with a lender?"
+            },
+            {
+              "who": "Lead",
+              "text": "I haven’t talked to anyone yet."
+            },
+            {
+              "who": "You",
+              "text": "Got it, I’ll note that for your agent. While I have you, which areas are you looking at?"
+            }
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "Know the word, send the question",
+          "text": "Knowing the vocabulary makes you sound professional and helps you write clear notes. It does not make you an advisor. Every question about loans, rates, credit, contract terms, inspections, value or commission goes to the right professional."
+        },
+        {
+          "t": "p",
+          "text": "**Writing notes with these terms.** Compare two notes. Weak: “Lead has money, wants to buy soon.” Strong: “Pre-approved (says $425K, lender not yet named), 10% down, wants to close before lease ends Mar 31, no home to sell first.” The strong note tells the agent exactly where the lead stands and uses the right words."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Read the market like a pro: listings, journeys and vocabulary",
+    "minutes": 75,
+    "intro": "In this assignment you use the vocabulary and the journeys on real public listings. You will not contact anyone. Use a public portal in a US city your coordinator gives you (or any large US city if you do not have a client yet).",
+    "steps": [
+      "Find five public listings in the city: one single-family home, one condo, one townhouse, one pending listing and one with a recent price reduction. For each, write a one-line summary in note short forms (for example: “SFH, 4 bd / 2.5 ba, 2,150 sqft, HOA $85/mo, DOM 12, list $489K, Active”).",
+      "For each listing, write which question you would ask first if a lead had inquired about it, and why, based on its status.",
+      "Write the buyer journey from memory in 11 steps, then check it against lesson F4-2 and correct it. Do the same for the 8-step seller journey.",
+      "For each of these four leads, write which journey step they are in and your next step: (a) “Just looking, maybe next year.” (b) “Pre-approved, lease ends in 60 days.” (c) “What is my house worth?” (d) “We’re under contract, but the inspection was bad.”",
+      "Make flashcards for all glossary terms. Study them for 10 minutes, then cover the definitions and write 20 terms in your own words without looking.",
+      "Record a 3-minute audio or video of yourself explaining, in English, the buyer journey to a new teammate, using at least 10 glossary terms. Listen to it once and re-record if you mispronounce Realtor, escrow, lien, FSBO or HOA.",
+      "Write three Follow Up Boss-style notes for imaginary leads that each use at least four glossary terms correctly."
+    ],
+    "deliverable": "Send your coach one document with the five listing summaries, the four journey answers, your 20 written definitions and the three notes, plus your 3-minute recording. Name the files Lastname_F4_practice_date."
+  },
+  "quiz": [
+    {
+      "q": "A lead asks you, “Who actually holds my deposit after the seller accepts my offer?” Which role are they asking about?",
+      "options": [
+        "The appraiser",
+        "The home inspector",
+        "The escrow officer or title company",
+        "The listing agent"
+      ],
+      "answer": 2,
+      "explain": "Escrow and title are the neutral party that holds the earnest money and documents until closing. You can name the role, but the agent explains the details."
+    },
+    {
+      "q": "Since August 2024, what must be in place before an agent tours a home with a buyer?",
+      "options": [
+        "A written buyer agreement, sent and explained by the agent",
+        "A pre-approval letter from the client’s preferred lender",
+        "A signed offer on at least one home",
+        "A verbal promise from the buyer to work only with that agent"
+      ],
+      "answer": 0,
+      "explain": "A written buyer agreement is required before any tour. The agent sends and explains it; the ISA only flags it in the calendar invite."
+    },
+    {
+      "q": "What is the difference between the MLS and a portal?",
+      "options": [
+        "They are two names for the same database",
+        "The MLS is the private database agents share; a portal is a public website that displays listings and sends inquiries",
+        "A portal is only for sellers; the MLS is only for buyers",
+        "The MLS is run by lenders; portals are run by brokers"
+      ],
+      "answer": 1,
+      "explain": "The MLS is the agents’ private database with details the public cannot see. Portals show listings to the public and can be out of date, so you never promise availability."
+    },
+    {
+      "q": "A lead says they love a home that shows as “Pending.” What is the best response?",
+      "options": [
+        "Tell them to make a higher offer right away",
+        "Promise that the deal will probably fall apart",
+        "Say it is under contract and will likely close, then learn what they liked so the agent can find similar homes",
+        "Tell them the portal is wrong and book a showing"
+      ],
+      "answer": 2,
+      "explain": "Pending means under contract with most conditions cleared. Use their interest to learn what they want, and never discuss offers or negotiation yourself."
+    },
+    {
+      "q": "“3 bd / 2.5 ba” in a listing means:",
+      "options": [
+        "Three bedrooms, two full bathrooms and one half bathroom",
+        "Three bedrooms and two and a half floors",
+        "Three buildings and 2.5 acres",
+        "Three bedrooms, 2.5 miles from downtown"
+      ],
+      "answer": 0,
+      "explain": "A half bath has a toilet and sink but no shower or tub. Use these short forms in your notes."
+    },
+    {
+      "q": "A seller lead asks, “Just give me a rough number. What’s my house worth, $400,000?” What do you do?",
+      "options": [
+        "Give a range so they stay interested",
+        "Look up a portal estimate and read it to them",
+        "Agree that $400,000 sounds right",
+        "Explain that the agent prepares a full analysis of recent nearby sales, and offer two times for the consultation"
+      ],
+      "answer": 3,
+      "explain": "Any number, range or agreement is an opinion of value, which only a licensed agent gives. Your job is to book the listing consultation where the agent presents the CMA."
+    },
+    {
+      "q": "During discovery a buyer says, “We own our place and would need to sell it first.” What should your note show?",
+      "options": [
+        "Nothing extra; they are a buyer lead",
+        "That this is both a buyer lead and a possible seller lead, with the property details and timing",
+        "That they are not qualified because they must sell first",
+        "That they should get a bridge loan"
+      ],
+      "answer": 1,
+      "explain": "A buyer who must sell is two opportunities. Record both, and never give financing suggestions like bridge loans."
+    },
+    {
+      "q": "Which of these is a contingency?",
+      "options": [
+        "The earnest money deposit",
+        "The listing agreement",
+        "The right to cancel without losing the deposit if the home appraises below the price",
+        "The commission paid at closing"
+      ],
+      "answer": 2,
+      "explain": "An appraisal contingency protects the buyer if the appraisal comes in low. Inspection and financing are the other common contingencies."
+    },
+    {
+      "q": "Why do real estate teams hire ISAs?",
+      "options": [
+        "To negotiate offers so agents can rest",
+        "To protect the agents’ time by finding serious leads, qualifying them and booking them on the agents’ calendars",
+        "To replace the lender’s pre-approval",
+        "To write CMAs for sellers"
+      ],
+      "answer": 1,
+      "explain": "Agents earn by spending time with serious clients. ISAs do discovery, A.L.M. qualification and scheduling, never licensed work."
+    }
+  ]
+}

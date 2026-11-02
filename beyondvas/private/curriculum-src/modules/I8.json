@@ -1,0 +1,672 @@
+{
+  "id": "I8",
+  "part": "isa",
+  "title": "Appointments, calendars and the 3-way handoff",
+  "summary": "Book appointments the agent can actually keep, put them on the calendar with everything the agent needs, hand the lead to the agent warmly by phone or text, and protect the show rate with confirmations and follow-up.",
+  "objectives": [
+    "Ask for and book a buyer tour or listing consultation with two specific options that fit the agent's calendar rules and the lead's time zone.",
+    "Create a complete calendar invite: Follow Up Boss link, A.L.M. summary, 24-hour and 1-hour text reminders, and the buyer-agreement flag for any tour, then move the stage to Pending Handoff.",
+    "Run a 3-way warm phone handoff with the standard script, and use a warm text introduction when the agent cannot join live.",
+    "Confirm appointments the day before, handle reschedules and no-shows calmly, and log the outcome after every appointment."
+  ],
+  "lessons": [
+    {
+      "id": "I8-1",
+      "title": "What a good appointment is",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Your main result as an ISA is an **A.L.M.-qualified appointment**: a real meeting between a lead and one of your client's agents, at a set time and place, with the Location and Motivation already known. Your daily target is 2 to 3 of them per shift. This module is about the moment you get a “yes” and everything that happens after it, until the agent and the lead are sitting together."
+        },
+        {
+          "t": "p",
+          "text": "An appointment that never happens is worth nothing. An appointment where the agent arrives unprepared is worth very little. So a good appointment is not only booked; it is **kept**, and the agent walks in knowing the lead."
+        },
+        {
+          "t": "table",
+          "head": [
+            "Appointment type",
+            "Who it is for",
+            "What usually happens"
+          ],
+          "rows": [
+            [
+              "Buyer consultation",
+              "A buyer who wants to start the search",
+              "The agent meets the buyer (in person, by phone or video) to plan the search and explain how they work together."
+            ],
+            [
+              "Home tour (showing)",
+              "A buyer who wants to see one or more homes",
+              "The agent opens the homes and walks through them with the buyer."
+            ],
+            [
+              "Listing consultation",
+              "A homeowner thinking about selling",
+              "The agent visits the home, looks at it, and later explains a price strategy and a marketing plan."
+            ],
+            [
+              "Phone or video call with the agent",
+              "A lead who is not ready to meet but wants advice",
+              "A 15 to 30-minute call; often the step before a consultation."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Your client tells you which types you may book, for which agents, and how long each one lasts. Ask on your first day: “Which appointment types can I book, how long are they, and how much travel time do you need between them?” Write the answers in your notes."
+        },
+        {
+          "t": "p",
+          "text": "**Always ask for the appointment.** The “A” in A.L.M. comes first for a reason. Never end a call without proposing a date and time. The strongest way to ask is with **two specific options**, not an open question:"
+        },
+        {
+          "t": "script",
+          "title": "Two-option ask",
+          "lines": [
+            {
+              "who": "You",
+              "text": "The best way to know if this home works for you is to walk through it with our local specialist. Would Saturday at 11 AM or 2 PM work better for you?"
+            },
+            {
+              "who": "Lead",
+              "text": "Saturday is hard. Maybe Sunday?"
+            },
+            {
+              "who": "You",
+              "text": "Sure. Sunday I have 1 PM or 3:30 PM. Which one is easier?"
+            },
+            {
+              "who": "Lead",
+              "text": "1 PM."
+            },
+            {
+              "who": "You",
+              "text": "Perfect. Sunday at 1 PM. Let me confirm a few details so your agent is ready."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "“When are you free?” gives the lead a big decision and often ends with “I'll let you know.” Two options give a small decision. If neither works, offer two more. If the lead truly cannot commit, propose a tentative time and a task to confirm: “Let me hold Sunday at 1 PM, and I'll text you tomorrow at 10 to confirm. Does that work?”"
+        },
+        {
+          "t": "p",
+          "text": "**Only offer times the agent can keep.** Before your first call of the day, open the agent's calendar (your client will give you view or edit access to Google Calendar). Look for open blocks, the agent's personal blocks and travel time. If the agent shows homes on the other side of town at 1 PM, a 1:30 PM tour 40 minutes away is not really available. Some clients give you fixed “bookable” windows, for example Saturday 10 AM to 4 PM and weekdays after 5 PM; that makes this easy."
+        },
+        {
+          "t": "callout",
+          "title": "Never book what you cannot confirm",
+          "text": "If you are not sure the agent is free, do not promise the time. Say: “Let me lock that with your agent and text you a confirmation within 15 minutes.” Then actually do it in 15 minutes."
+        },
+        {
+          "t": "p",
+          "text": "**Check the basics before you hang up.** For every appointment you need: full name, best phone, email, the exact address (for a tour or a listing consultation), the date and time **in the lead's time zone**, who will attend (for example, a spouse who also decides), and permission to text a confirmation if they have not agreed to texts yet. Repeat the date and time back to the lead. “So that's Sunday the 8th at 1 PM, at 2214 Palm Drive. Correct?”"
+        },
+        {
+          "t": "p",
+          "text": "**Stay inside your scope.** When booking, leads often ask questions that belong to the agent: “Do you think they'll take less?”, “What is my house worth?”, “Is this a good area for kids?” You never discuss price, terms or value, never negotiate, never describe areas by who lives there, schools, crime or “safety”. Use your bridge: “Great question for your agent. I can also send you public sources.” Then return to the booking."
+        }
+      ]
+    },
+    {
+      "id": "I8-2",
+      "title": "Booking it right: calendar, reminders and stage",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "The moment the lead says yes, you follow the same routine every time. Do it during the call or within two minutes after it. Memory has no alarm button: **every appointment goes in the calendar before the call ends** or right after you hang up, never “later”."
+        },
+        {
+          "t": "p",
+          "text": "These are the calendar booking rules:"
+        },
+        {
+          "t": "list",
+          "items": [
+            "Paste the Follow Up Boss lead profile link directly into the Google Calendar invite.",
+            "Set 24-hour and 1-hour text reminders.",
+            "Change the Follow Up Boss Stage immediately to “Pending Handoff”.",
+            "For any tour, note in the invite that the agent needs a signed buyer agreement before the showing. The agent sends and explains it; you never do."
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Why each rule exists.** The Follow Up Boss link lets the agent open the full history in one tap from their phone, in the car, five minutes before the meeting. The reminders cut no-shows; people forget. Pending Handoff tells the team the lead now belongs to an agent and stops the automated cold drip campaigns, so the lead does not get a “are you still looking?” text the day before their tour. The buyer-agreement flag protects the agent and the lead, as you will see in lesson 4."
+        },
+        {
+          "t": "script",
+          "title": "Calendar invite template",
+          "lines": [
+            {
+              "who": "Title",
+              "text": "Tour: Priya Shah, 2214 Palm Dr, Phoenix"
+            },
+            {
+              "who": "When",
+              "text": "Sun Nov 8, 1:00 to 1:45 PM (Arizona time)"
+            },
+            {
+              "who": "Where",
+              "text": "2214 Palm Dr, Phoenix, AZ"
+            },
+            {
+              "who": "Guests",
+              "text": "Agent Jordan Kim (plus the lead only if your client invites leads to calendar events)"
+            },
+            {
+              "who": "Lead",
+              "text": "Priya Shah, (602) 555-0148, priya.shah@example.com, Text OK"
+            },
+            {
+              "who": "FUB",
+              "text": "[Follow Up Boss profile link]"
+            },
+            {
+              "who": "A.L.M.",
+              "text": "A: tour confirmed Sun 1 PM. L: Phoenix (Arcadia or Central), 3 bd / 2 ba, up to $425K. M: new job starts in May, lease ends April 30."
+            },
+            {
+              "who": "Note",
+              "text": "BUYER AGREEMENT: agent to send and explain the written buyer agreement before the showing. Spouse Arjun will attend. Prefers text."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Your client may have its own template. Use theirs, but check that it has the same information. Also create the appointment in Follow Up Boss if your client uses Follow Up Boss appointments; many Follow Up Boss accounts sync with Google Calendar, so one entry may create the other. Ask your manager how your client's account is set up, and never create the same appointment twice."
+        },
+        {
+          "t": "p",
+          "text": "**Reminders inside the calling window.** Texts follow the same calling window as calls: 9:00 AM to 8:00 PM in the lead's local time, Monday to Saturday, and noon to 8:00 PM on Sunday. A 1-hour reminder for a 9:30 AM Saturday tour would go out at 8:30 AM, which is outside the window. In that case, send the reminder the evening before, before 8:00 PM, and write in the note why. For a Sunday appointment before 1:00 PM, the 1-hour reminder would land before noon; do the same. Send reminders only to leads who agreed to texts. If they did not, confirm by phone inside the window."
+        },
+        {
+          "t": "script",
+          "title": "Reminder texts (adapt to your client's wording)",
+          "lines": [
+            {
+              "who": "24 hours",
+              "text": "Hi Priya, this is Ana with the Kim Home Team. A reminder of your tour tomorrow, Sunday, at 1 PM at 2214 Palm Dr with Jordan Kim. Reply C to confirm or R if you need a new time. Reply STOP to opt out."
+            },
+            {
+              "who": "1 hour",
+              "text": "Hi Priya, Jordan will meet you at 2214 Palm Dr at 1 PM today. His cell is (602) 555-0193 if you need him. See you soon!"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Time zones: yours, the agent's, the lead's.** You work from Honduras or another Latin American country. Honduras uses Central Standard Time all year and does not change clocks for daylight saving time. (If you live in another country, check whether your clocks change and build your own table.) Most of the United States moves its clocks forward in March and back in November (Arizona and Hawaii do not). This means the difference between your clock and your client's clock **changes twice a year**. A client in California is 2 hours behind Honduras in winter but only 1 hour behind in summer. Always book in the lead's time zone, write the time zone in the invite, and double-check the week the US clocks change."
+        },
+        {
+          "t": "table",
+          "head": [
+            "US time zone (example city)",
+            "Difference from Honduras in winter (Nov to Mar)",
+            "In summer (Mar to Nov)"
+          ],
+          "rows": [
+            [
+              "Eastern (Miami)",
+              "1 hour ahead",
+              "2 hours ahead"
+            ],
+            [
+              "Central (Dallas)",
+              "Same time",
+              "1 hour ahead"
+            ],
+            [
+              "Mountain (Denver)",
+              "1 hour behind",
+              "Same time"
+            ],
+            [
+              "Arizona (Phoenix)",
+              "1 hour behind",
+              "1 hour behind"
+            ],
+            [
+              "Pacific (Los Angeles)",
+              "2 hours behind",
+              "1 hour behind"
+            ]
+          ]
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Book while the lead is on the phone, or within two minutes.",
+            "Repeat the date, time and address back to the lead.",
+            "Write the time zone in every invite.",
+            "Move the stage to Pending Handoff immediately."
+          ],
+          "dont": [
+            "Keep an appointment “in your head” or on paper until later.",
+            "Book over the agent's personal blocks or without travel time.",
+            "Send reminder texts before 9 AM or after 8 PM in the lead's time zone (noon on Sunday).",
+            "Leave a booked lead in a nurture stage where drip campaigns keep running."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I8-3",
+      "title": "The 3-way warm phone handoff",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "A **warm handoff** means the lead meets the agent through you, not as a stranger. In a **3-way handoff** you, the lead and the agent are on the same call for a moment. Some clients want this for every hot lead (for example, a buyer who wants to tour today), some only when the agent is available, and some never. Ask your manager which leads get a live transfer."
+        },
+        {
+          "t": "p",
+          "text": "The warm handoff works because the lead already trusts you after a good conversation. When you introduce the agent as “our local market expert” and repeat what the lead told you, that trust moves to the agent in 15 seconds."
+        },
+        {
+          "t": "script",
+          "title": "The 3-way warm phone handoff script (you, to the agent, with the lead on the line)",
+          "lines": [
+            {
+              "who": "You",
+              "text": "“[Agent Name], I have [Lead Name] on the line. They are looking for a [4]-bed home in [Location] around [Budget] with a goal to move by [Timeline]. [Lead], meet [Agent], our local market expert!”"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Step by step.** Your phone system decides the buttons (Follow Up Boss calling, a softphone or the client's dialer all have a way to add a caller or transfer). Practice the buttons in a test call before you ever do it live."
+        },
+        {
+          "t": "steps",
+          "items": [
+            "**Ask permission.** “Jordan, our local specialist, is available right now. Can I bring him on the line for one minute so you can meet him?”",
+            "**Put the lead on a short hold.** “I'll put you on a short hold, about 30 seconds.”",
+            "**Brief the agent privately first.** Call the agent: “Hi Jordan, I have a hot buyer, Priya, on hold. 3-bed in Phoenix up to $425K, new job in May, wants to tour Sunday 1 PM. Can you take her now?” This takes 20 seconds and means the agent is ready.",
+            "**Merge the calls and introduce,** using the script above. Use the real numbers and words the lead used.",
+            "**Step back.** Let the agent speak. Stay on the line quietly for a few seconds in case of a technical problem, then say goodbye: “I'll leave you two. Priya, you'll get a text confirmation from me.”",
+            "**Log it.** Write the A.L.M. note with “Disposition: Call, connected, 3-way handoff to Agent Jordan”, book or confirm the appointment the agent agreed, stage Pending Handoff."
+          ]
+        },
+        {
+          "t": "callout",
+          "title": "If the agent does not answer",
+          "text": "Never leave the lead on hold longer than 30 to 45 seconds. Go back: “Jordan is with another client right now. Let me book you a time with him so you have his full attention. Would Sunday at 1 or 3:30 be better?” Then book it and send a warm text introduction (lesson 4)."
+        },
+        {
+          "t": "p",
+          "text": "**Common mistakes.** Merging without briefing the agent, so the agent says “Hi, who is this?”. Reading the script like a robot. Telling the lead things the agent will have to correct (“Jordan can get you that house for $400K”). Talking over the agent after the introduction. Forgetting the recording disclosure: if your calls are recorded, you announced it at the start of your call, and if a new person joins a recorded call, the agent or you should mention that the call may be recorded. We treat every state as requiring everyone's consent."
+        },
+        {
+          "t": "p",
+          "text": "**When to transfer and when to book.** A 3-way handoff is best when the lead is hot and the agent can talk now: a buyer standing outside a home, an all-cash buyer flying in this week, a seller who wants to list this month. For most leads, a booked appointment with a warm text introduction is enough. Do not hold up a good call trying to reach an agent who is in a showing."
+        },
+        {
+          "t": "script",
+          "title": "Example: live transfer that sounds natural",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Elena, you mentioned you're flying in Friday and have proof of funds. Our specialist Jordan is free right now. Can I bring him on for a minute?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, please."
+            },
+            {
+              "who": "You",
+              "text": "Great. One short hold, about 30 seconds."
+            },
+            {
+              "who": "You",
+              "text": "(to the agent, privately) Jordan, Elena Rostova, relocating from the Bay Area, all cash, wants Saturday 11 AM on the Westside Lancaster home. She's on hold. Ready?"
+            },
+            {
+              "who": "Agent",
+              "text": "Ready, bring her in."
+            },
+            {
+              "who": "You",
+              "text": "Jordan, I have Elena on the line. She's looking for a 4-bed home in Westside Lancaster, paying cash, with a goal to move as soon as her job starts next month. Elena, meet Jordan, our local market expert!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I8-4",
+      "title": "Warm text introductions and the buyer agreement",
+      "minutes": 6,
+      "body": [
+        {
+          "t": "p",
+          "text": "Most of your appointments will not have a live transfer. The agent is showing homes, the lead booked for next week, or it is a listing consultation. In these cases you make a **warm text introduction**: a short message that tells the lead who the agent is and tells the agent everything about the lead."
+        },
+        {
+          "t": "p",
+          "text": "**Two messages, two audiences.** Send the lead a confirmation that names the agent and gives the agent's contact card or number (only to leads who agreed to texts, inside the calling window). Send the agent the summary inside the client's systems: the calendar invite, the Follow Up Boss note and assignment, and a short message in the client channel if your client wants one. Never use private DMs or a personal phone to talk with your client or the lead."
+        },
+        {
+          "t": "script",
+          "title": "Warm text introduction to the lead",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Marcus, it was great talking with you! You're confirmed for Saturday at 2 PM at 1840 Quartz Ln, Palmdale, with Sofia Ruiz, our local specialist. Sofia's number is (661) 555-0177. She'll text you before Saturday. Reply STOP to opt out."
+            }
+          ]
+        },
+        {
+          "t": "script",
+          "title": "Handoff message to the agent (client channel)",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Sofia, new appointment booked for you: Marcus Vance, Sat 2 PM, 1840 Quartz Ln, Palmdale (tour). L: Palmdale or East Quartz Hill, 4 bd with a big yard, budget not shared. M: lease ends in 45 days. Prefers text. Buyer agreement needed before the showing. Invite and FUB link are on your calendar. Stage: Pending Handoff."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**The buyer agreement rule.** Since August 2024, an agent working with a buyer needs a **written buyer agreement** signed before touring any home with that buyer. This came from changes in the industry's rules that year, and most US agents follow it everywhere. The agreement explains what the agent will do for the buyer and how the agent is paid. It is a legal document. Forms and details can differ by state and brokerage, so your manager confirms how your client handles it."
+        },
+        {
+          "t": "callout",
+          "title": "Your role is to flag it, never to handle it",
+          "text": "**The agent sends and explains the buyer agreement. You never do.** You do not send it, explain it, summarize it, discuss what it says about payment, or ask the lead to sign it. You only make sure the agent knows a tour is booked, by writing the buyer-agreement note in every tour invite."
+        },
+        {
+          "t": "p",
+          "text": "Leads sometimes ask about it. Keep your answer short, true and inside your scope:"
+        },
+        {
+          "t": "script",
+          "title": "When the lead asks about the agreement",
+          "lines": [
+            {
+              "who": "Lead",
+              "text": "Do I have to sign something before the tour? What does it say about commission?"
+            },
+            {
+              "who": "You",
+              "text": "Great question for your agent. Before the tour, Sofia will send you the paperwork and walk you through every part of it, including how she's paid, so you can ask her anything. Would it help if she called you Thursday to go over it?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, Thursday evening."
+            },
+            {
+              "who": "You",
+              "text": "I'll put Thursday at 6 PM on her calendar for a quick call."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Notice what you did not do: you did not say what the agreement contains, how much the commission is, whether it can be changed or how long it lasts. Price, terms and commission are always the agent's conversation."
+        },
+        {
+          "t": "p",
+          "text": "**Listing consultations are different.** A seller does not sign a buyer agreement. The agent may bring a listing agreement to the consultation; again, the agent explains it, never you. In the invite for a listing consultation, write what the seller told you: why they want to sell, their timeline, the property type, beds and baths, any recent updates, and whether all owners will be at the meeting. Do not write or say any price; the agent gives the opinion of value at the home."
+        },
+        {
+          "t": "p",
+          "text": "**Financing in the handoff.** If the lead mentions a loan, credit or rates, write what they said in the note (“Says pre-approved with a credit union”, “Has not talked to a lender yet”). Never give loan, rate or credit advice. Connect the lead with the client's preferred lender only when the agent says so. Many agents want the lender introduction after they meet the lead; follow your client's instructions."
+        },
+        {
+          "t": "dodont",
+          "do": [
+            "Send the lead the agent's name and number in the confirmation.",
+            "Give the agent the A.L.M. summary in the invite and the note.",
+            "Flag the buyer agreement in every tour invite.",
+            "Answer agreement questions with “Great question for your agent” and book a time."
+          ],
+          "dont": [
+            "Send, explain or summarize the buyer agreement or a listing agreement.",
+            "Talk about commission, price or terms.",
+            "Introduce a lender unless the agent asks you to.",
+            "Message the agent or the lead outside the client's channel and tools."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I8-5",
+      "title": "Confirmations, no-shows and the after-appointment loop",
+      "minutes": 7,
+      "body": [
+        {
+          "t": "p",
+          "text": "Booking is half the job. The other half is the **show rate**: the share of booked appointments that actually happen. A team that books 20 appointments a month and keeps 10 has a 50% show rate; the same team at 80% gets six more meetings with the same effort. Most clients expect you to confirm every appointment the day before and to follow up after it. Here is how."
+        },
+        {
+          "t": "p",
+          "text": "**The day-before confirmation.** The automatic 24-hour text is a reminder; your confirmation is a personal touch. The day before, inside the lead's calling window, call the lead (or text, if they prefer texts and agreed to them)."
+        },
+        {
+          "t": "script",
+          "title": "Day-before confirmation call",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Hannah, this is Ana with the Patel Team. Just a reminder that this call may be recorded. I'm calling to confirm your meeting with Raj Patel tomorrow at 5 PM at your home on Birch Street. Is that still a good time?"
+            },
+            {
+              "who": "Lead",
+              "text": "Yes, but my husband gets home at 5:30."
+            },
+            {
+              "who": "You",
+              "text": "Thank you for telling me. Since you both decide, would 5:45 work better? I'll check with Raj and text you in 10 minutes."
+            },
+            {
+              "who": "Lead",
+              "text": "That's better, yes."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "Then check the agent's calendar, ask the agent in the client channel if needed, move the invite and the reminders, update the note, and confirm with the lead as promised. A small change made the day before saves a failed meeting."
+        },
+        {
+          "t": "p",
+          "text": "**Reschedules.** When a lead needs a new time, never make them feel bad. Offer two new options right away, update the invite (do not create a second one), move the reminders and tell the agent. Write the reason in the note: “Rescheduled from Sat 11 AM to Sun 1 PM; lead's flight changed.” If the agent asks to move a time, you call the lead, apologize for the change and offer two options."
+        },
+        {
+          "t": "p",
+          "text": "**Cancellations.** If a lead cancels without a new time, ask one gentle question to understand why (“Of course. May I ask what changed?”). The answer tells you the next step: they found a home with another agent (note it, tag if they signed with that agent), their plans moved (set a nurture timeline), or they were nervous about something (offer a short phone call with the agent instead). Move the stage back from Pending Handoff to the right nurture or hot stage, and set the next task."
+        },
+        {
+          "t": "p",
+          "text": "**No-shows.** The agent tells you the lead did not come. Within 10 to 15 minutes of the start time, call the lead (inside the window). Assume the best: people get lost, stuck at work or confused about the time."
+        },
+        {
+          "t": "script",
+          "title": "No-show call",
+          "lines": [
+            {
+              "who": "You",
+              "text": "Hi Marcus, it's Ana with the Ruiz Team. Sofia is at 1840 Quartz Lane for your 2 PM tour. I wanted to make sure you're okay. Are you on your way?"
+            },
+            {
+              "who": "Lead",
+              "text": "Oh no, I thought it was tomorrow. I'm so sorry."
+            },
+            {
+              "who": "You",
+              "text": "No problem at all, it happens. Sofia has tomorrow at 11 AM or 3 PM. Which one works?"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "text": "If the lead does not answer, leave a friendly 20-second voicemail, send a text if they agreed to texts, and set a task to call again the next day. Log the no-show in the note. Never send angry or guilt texts like “The agent waited for you for 30 minutes.”"
+        },
+        {
+          "t": "p",
+          "text": "**After the appointment: close the loop.** The same day or the next morning, find out what happened. Ask the agent in the client channel, or read the agent's note in Follow Up Boss. Every appointment ends in one of a few outcomes, and you update the stage and next task to match:"
+        },
+        {
+          "t": "table",
+          "head": [
+            "Outcome",
+            "What you do"
+          ],
+          "rows": [
+            [
+              "Another appointment (more tours, a second meeting)",
+              "Book it like the first one, or confirm the agent booked it. Keep the stage the client uses for active clients."
+            ],
+            [
+              "A lender call booked or the lead now works with the agent",
+              "The agent owns the lead now. Follow your client's stage (often an active client stage). Ask if they want you to keep confirming tours."
+            ],
+            [
+              "An offer or a listing agreement",
+              "Celebrate in the client channel. The agent handles everything; update the stage only if your client wants you to."
+            ],
+            [
+              "Not ready yet",
+              "Move to the right nurture stage with a timeline tag and a dated task. Module I9 covers the follow-up."
+            ],
+            [
+              "No-show, not reached",
+              "Keep trying with the no-show steps; after the client's limit, move to nurture."
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "text": "**Track your own numbers.** In your daily report, list appointments booked, appointments that happened, no-shows and reschedules. Over time you will see patterns: maybe morning appointments have more no-shows, or leads who get a personal confirmation call show up more. Share these patterns with your manager; that is how good ISAs become great ones."
+        },
+        {
+          "t": "callout",
+          "title": "Remember",
+          "text": "**Booked is not done. Kept is done.** The confirmation call, the calm reschedule and the after-appointment follow-up are what turn your bookings into meetings for your client."
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "title": "Book, hand off and confirm: recorded role-plays and calendar build",
+    "minutes": 90,
+    "intro": "You will practice the full appointment routine with a partner (another trainee or your coach) playing the lead and the agent. Record the calls with your partner's agreement (Zoom or a phone voice recorder) and build the calendar entries in a practice Google Calendar, never your client's calendar.",
+    "steps": [
+      "Create a practice Google Calendar named “ISA practice” in your BeyondVAs account. Block these agent times as busy: Saturday 12 to 1 PM (lunch) and Sunday 10 AM to 12 PM (personal).",
+      "Role-play 1 (record it): Priya Shah, a buyer in Phoenix (Arizona time), wants to see 2214 Palm Dr. Open with the recording disclosure, confirm A.L.M. briefly, and book with a two-option ask. Your partner should say no to the first two options once.",
+      "Build Priya's calendar invite with the template from lesson 2: title, time zone, address, lead details, a placeholder for the Follow Up Boss link, the A.L.M. summary, the buyer-agreement flag. Write the stage you would set.",
+      "Write the 24-hour and 1-hour reminder texts for Priya. Then the tour is moved to Saturday 9:30 AM: write when each reminder goes out and why.",
+      "Role-play 2 (record it): a 3-way warm handoff. Your partner plays the lead, then the agent. Do all six steps: permission, hold, private brief, merge and introduce with the script, step back, log. Do it twice: once when the agent answers, once when the agent does not answer and you book a time instead.",
+      "Write the warm text introduction to the lead and the handoff message to the agent for role-play 2.",
+      "Role-play 3 (record it): the lead asks “What is this buyer agreement and how much commission will I pay?” Answer within your scope and book a call with the agent.",
+      "Role-play 4 (record it): day-before confirmation for a listing consultation where the seller needs a different time, then a no-show call the next day.",
+      "Make a table of the time difference between your city and Miami, Dallas, Denver, Phoenix and Los Angeles today, and after the next US clock change.",
+      "Listen to your recordings once. Write three things you did well and two things you will change."
+    ],
+    "deliverable": "Send your coach the four recordings, screenshots of the practice calendar invites, the reminder texts and handoff messages, the time-zone table, and your short self-review, in one shared folder."
+  },
+  "quiz": [
+    {
+      "q": "What is the proper stage in Follow Up Boss after booking an appointment with an agent?",
+      "options": [
+        "Archived / DNC",
+        "Cold Nurture",
+        "Pending Handoff / Appointment Scheduled",
+        "Unassigned"
+      ],
+      "answer": 2,
+      "explain": "Updating the stage to Pending Handoff notifies the team and stops automated cold drip campaigns."
+    },
+    {
+      "q": "Which way of asking for the appointment works best?",
+      "options": [
+        "“Would Saturday at 11 AM or 2 PM work better for you?”",
+        "“When would you like to meet someday?”",
+        "“Call us back when you are ready.”",
+        "“I'll send you some listings and you can tell me if you want to see any.”"
+      ],
+      "answer": 0,
+      "explain": "Two specific options turn a big decision into a small one. Open questions often end with “I'll let you know.”"
+    },
+    {
+      "q": "Which of these is NOT one of the calendar booking rules?",
+      "options": [
+        "Paste the Follow Up Boss lead profile link into the Google Calendar invite.",
+        "Set 24-hour and 1-hour text reminders.",
+        "Email the lead the buyer agreement and explain the commission section.",
+        "For any tour, note that the agent needs a signed buyer agreement before the showing."
+      ],
+      "answer": 2,
+      "explain": "The agent sends and explains the buyer agreement; you never do. You only flag it in the invite."
+    },
+    {
+      "q": "A tour is booked for Saturday at 9:30 AM. When should the 1-hour text reminder go out?",
+      "options": [
+        "At 8:30 AM Saturday, exactly one hour before.",
+        "At 6:00 AM Saturday so the lead wakes up to it.",
+        "No reminder at all; reminders are optional.",
+        "The evening before, before 8:00 PM in the lead's time zone, with a note explaining why."
+      ],
+      "answer": 3,
+      "explain": "Texts follow the calling window, 9:00 AM to 8:00 PM Monday to Saturday in the lead's time. A reminder at 8:30 AM would break it, so send it the evening before."
+    },
+    {
+      "q": "During a 3-way handoff, what should you do before merging the lead and the agent?",
+      "options": [
+        "Brief the agent privately in about 20 seconds: name, A.L.M., what the lead wants now.",
+        "Nothing; merge right away so the agent can introduce himself.",
+        "Tell the lead the agent can get the home for less than the asking price.",
+        "Hang up on the lead and ask the agent to call later."
+      ],
+      "answer": 0,
+      "explain": "A private brief means the agent joins ready and the lead never has to repeat themselves. Price promises are never allowed."
+    },
+    {
+      "q": "You put the lead on hold for the 3-way handoff, and the agent does not answer after 40 seconds. What now?",
+      "options": [
+        "Keep the lead on hold until the agent calls back.",
+        "Go back to the lead, explain the agent is with another client, book a specific time, and send a warm text introduction.",
+        "Give the lead the agent's personal email and end the call.",
+        "Tell the lead you will call back sometime next week."
+      ],
+      "answer": 1,
+      "explain": "Never leave a lead on hold longer than 30 to 45 seconds. Turn the missed transfer into a booked appointment with a warm introduction."
+    },
+    {
+      "q": "A lead asks: “How much commission will I pay under that buyer agreement?” What is the best reply?",
+      "options": [
+        "“Usually about 2.5%, but it depends.”",
+        "“You don't need to worry about it, just sign it.”",
+        "“Great question for your agent. She will walk you through every part of it before the tour. Would a quick call with her Thursday help?”",
+        "“I'll email you the agreement and you can read it tonight.”"
+      ],
+      "answer": 2,
+      "explain": "Commission, price and terms are always the agent's conversation. You never send, explain or summarize the agreement; you book time with the agent."
+    },
+    {
+      "q": "Your client is in Los Angeles. You work from Honduras, which does not use daylight saving time. What happens in March when US clocks move forward?",
+      "options": [
+        "Nothing changes; the difference is always 2 hours.",
+        "Los Angeles goes from 2 hours behind you to 1 hour behind you, so you must re-check every booking and your shift times.",
+        "Los Angeles becomes 3 hours behind you.",
+        "Honduras moves its clocks too, so nothing changes."
+      ],
+      "answer": 1,
+      "explain": "Honduras stays on Central Standard Time all year. When most of the US moves clocks forward, the gap to Pacific time shrinks from 2 hours to 1. Always book in the lead's time zone and write the zone in the invite."
+    },
+    {
+      "q": "The agent tells you the lead did not show up for a 2 PM tour. What is the best first step?",
+      "options": [
+        "Text the lead: “The agent waited 30 minutes for you.”",
+        "Move the lead to Archived / DNC.",
+        "Wait a week and then send a nurture email.",
+        "Within 10 to 15 minutes, call the lead in a friendly way, check they are okay, and offer two new times."
+      ],
+      "answer": 3,
+      "explain": "Most no-shows are confusion or delays, not refusals. A calm, quick call often saves the appointment. Archived / DNC is only for opt-outs."
+    }
+  ]
+}

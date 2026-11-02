@@ -1,0 +1,334 @@
+[
+  {
+    "id": "lucia",
+    "name": "Lucía Herrera",
+    "ini": "LH",
+    "color": "#9ED8B5",
+    "email": "lucia.herrera@example.com",
+    "phone": "(480) 555-2760",
+    "source": "Portal Inquiry - 3 Bed Home in Mesa",
+    "stage": "New Lead",
+    "list": "speed",
+    "listLabel": "Speed-to-Lead (0-15m)",
+    "created": "1 min ago",
+    "alm": {
+      "a": "Not Scheduled",
+      "l": "Mesa (portal listing, 3 bed)",
+      "m": "Unknown"
+    },
+    "kind": "Spanish speaker",
+    "says": "Hola, sí, yo pedí información de la casa de tres recámaras en Mesa. ¿Me puede atender en español? Mi inglés no es muy bueno.",
+    "seed": [
+      [
+        "1 min ago",
+        "system",
+        "Lead created",
+        "Portal inquiry: 3 bed home in Mesa, AZ. Form note: \"Prefiero español.\" Agreed to calls and texts. Added to the Speed-to-Lead Smart List."
+      ],
+      [
+        "1 min ago",
+        "system",
+        "Assigned",
+        "Round-robin assigned to you (ISA)."
+      ]
+    ],
+    "order": [
+      1,
+      0
+    ],
+    "choices": [
+      {
+        "label": "Continue in Spanish & Run A.L.M.",
+        "text": "“¡Claro que sí, Lucía! Con mucho gusto seguimos en español. Le comento que esta llamada puede ser grabada. ¿Qué le gustó de esa casa, y busca solo en Mesa o también en otras zonas? ¿Y qué la motiva a mudarse ahora? Si le parece, nuestro agente le puede mostrar la casa este sábado a las 10 de la mañana o a las 2 de la tarde. ¿Cuál le queda mejor?”",
+        "correct": true,
+        "pts": 25,
+        "effect": {
+          "stage": "Pending Handoff",
+          "alm": {
+            "a": "CONFIRMED: Saturday @ 10:00 AM w/ Agent Jordan (Spanish)",
+            "l": "Mesa or Chandler, 3 bed / 2 ba, up to $420K, big kitchen",
+            "m": "Lease ends in 60 days; current home is too small"
+          }
+        },
+        "coach": "She asked for Spanish, so you stayed in Spanish: that is your advantage as a bilingual ISA. You announced the recording, asked Location and Motivation in natural Spanish, and closed with two specific times. The A.L.M. note stays in English so the agent can read it.",
+        "note": {
+          "disp": "Call, connected (Spanish). Appointment set.",
+          "next": "Calendar invite to Agent Jordan with the Follow Up Boss link; flag that Lucía prefers Spanish and that the buyer agreement is needed before the tour. 24-hour and 1-hour reminders by text in Spanish."
+        }
+      },
+      {
+        "label": "Send Info & Hang Up",
+        "text": "“Claro, Lucía, sin problema. Le mando la información de la casa por correo y cualquier cosa usted me llama. ¡Que tenga buen día!”",
+        "correct": false,
+        "pts": -20,
+        "coach": "Speaking Spanish was right, but you ended a speed-to-lead call with no Location, no Motivation and no appointment ask. A Spanish-speaking buyer deserves the same full A.L.M. call as anyone else: keep going in Spanish and offer two times.",
+        "log": "Answered in Spanish but ended the call after offering to email information. No A.L.M. discovery, no appointment asked."
+      }
+    ]
+  },
+  {
+    "id": "gary",
+    "name": "Gary Whitfield",
+    "ini": "GW",
+    "color": "#F2A7A0",
+    "email": "gary.whitfield@example.com",
+    "phone": "(813) 555-6604",
+    "source": "Website Home Value Request",
+    "stage": "New Lead",
+    "list": "speed",
+    "listLabel": "Speed-to-Lead (0-15m)",
+    "created": "3 mins ago",
+    "alm": {
+      "a": "Not Scheduled",
+      "l": "Owns 4 bed in Brandon, FL (seller)",
+      "m": "Unknown"
+    },
+    "kind": "Home value",
+    "says": "Yeah, I filled out that home value form. Just give me a number. What is my house worth? I am not ready to list or anything.",
+    "seed": [
+      [
+        "3 mins ago",
+        "system",
+        "Lead created",
+        "Website home value request: 4 bed / 2 ba in Brandon, FL. Added to the Speed-to-Lead Smart List."
+      ],
+      [
+        "3 mins ago",
+        "system",
+        "Assigned",
+        "Assigned to you (ISA)."
+      ]
+    ],
+    "order": [
+      0,
+      1
+    ],
+    "choices": [
+      {
+        "label": "Guess a Price Range",
+        "text": "“Sure, Gary! Homes on your street have been selling around $480K, so I would say yours is probably worth somewhere between $470K and $490K.”",
+        "correct": false,
+        "pts": -25,
+        "coach": "That is an opinion of value, and an unlicensed ISA never gives one. A guess also anchors the seller to a number nobody verified. Explain that a real answer needs the agent to see the home, ask what is behind the question, and offer two times for a listing consultation.",
+        "log": "Gave the seller a price range for his home (opinion of value). Out of scope."
+      },
+      {
+        "label": "No Number, Set the Consultation",
+        "text": "“Great question, Gary, and it deserves a real answer, not a guess from me. Online estimates never see the inside of your home, so they can miss by a lot. Agent Jordan can walk through it and show you what it would sell for today, with no pressure to list. Can I ask what has you curious about the value right now? ... That makes sense. Would Tuesday at 5 or Thursday at 6 work for a quick walk-through?”",
+        "correct": true,
+        "pts": 25,
+        "effect": {
+          "stage": "Pending Handoff",
+          "alm": {
+            "a": "CONFIRMED: Listing consultation Thu @ 6:00 PM w/ Agent Jordan",
+            "m": "Thinking of downsizing to a smaller home; maybe sell in spring"
+          }
+        },
+        "coach": "You never gave a number: the value comes from your agent, at the home. You took his question seriously, found the motivation behind it, and turned it into a listing consultation with two specific times.",
+        "note": {
+          "disp": "Call, connected. Listing consultation set.",
+          "next": "Calendar invite to Agent Jordan with the Follow Up Boss link and the property address; 24-hour and 1-hour reminders. Seller asked for no pressure to list."
+        }
+      }
+    ]
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine Cole",
+    "ini": "JC",
+    "color": "#C3A6F2",
+    "email": "jasmine.cole@example.com",
+    "phone": "(704) 555-3381",
+    "source": "Portal Inquiry - 2 Bed Townhome",
+    "stage": "Hot",
+    "list": "hot",
+    "listLabel": "Hot Active Leads",
+    "created": "2 days ago",
+    "alm": {
+      "a": "Not Scheduled",
+      "l": "Charlotte / University area, townhome",
+      "m": "First-time buyer, wants to move within 30 days"
+    },
+    "kind": "Financing",
+    "says": "Before we go any further, what are interest rates right now? My credit score is like 640. Do you think I even qualify?",
+    "seed": [
+      [
+        "2 days ago",
+        "system",
+        "Lead created",
+        "Portal inquiry: 2 bed townhome in Charlotte, NC. Added to the Speed-to-Lead Smart List."
+      ],
+      [
+        "2 days ago",
+        "call",
+        "Call",
+        "Connected 3 min. First-time buyer, wants to move within 30 days. Moved to Hot Active. Callback today."
+      ]
+    ],
+    "order": [
+      1,
+      0
+    ],
+    "choices": [
+      {
+        "label": "No Advice, Keep A.L.M. Moving",
+        "text": "“That is such a smart question to ask early, Jasmine. I am not a lender, so I cannot speak to rates, credit or whether you qualify, and I do not want to guess about something this important. Agent Jordan works with a preferred lender and can set up that conversation if it helps. Meanwhile, are you still focused on the University area? And what is driving the 30-day timeline? Could you meet Agent Jordan Saturday at 11 or 2 to map out your plan?”",
+        "correct": true,
+        "pts": 25,
+        "effect": {
+          "stage": "Pending Handoff",
+          "alm": {
+            "a": "CONFIRMED: Buyer consult Sat @ 11:00 AM w/ Agent Jordan",
+            "l": "Charlotte University area or NoDa, 2 bed townhome, up to $300K",
+            "m": "Lease ends next month; first-time buyer; asked about rates and credit"
+          }
+        },
+        "coach": "You gave no rate, credit or qualification opinion. You offered the agent's preferred lender only as something the agent sets up, then went straight back to Location, Motivation and two appointment times.",
+        "note": {
+          "disp": "Call, connected. Appointment set. Financing questions referred.",
+          "next": "Calendar invite to Agent Jordan with the Follow Up Boss link; buyer agreement before any tour; lead asked about rates and credit: Agent Jordan to decide on a lender introduction."
+        }
+      },
+      {
+        "label": "Quote Rates & Reassure",
+        "text": "“Rates are around 6.5% right now, and honestly with a 640 you should be fine for an FHA loan. Let me get you set up with our lender today.”",
+        "correct": false,
+        "pts": -25,
+        "coach": "You quoted a rate, gave a credit opinion and promised a loan type: all financing advice an ISA never gives. You also set up the lender yourself; the agent decides that. Say you are not a lender, mention that the agent can connect her, and keep A.L.M. moving.",
+        "log": "Quoted an interest rate and told the lead she would qualify for FHA with a 640 score. Financing advice, out of scope."
+      }
+    ]
+  },
+  {
+    "id": "brian",
+    "name": "Brian Okoye",
+    "ini": "BO",
+    "color": "#8FD3E8",
+    "email": "brian.okoye@example.com",
+    "phone": "(303) 555-9147",
+    "source": "Facebook Ad - New Construction Homes",
+    "stage": "New Lead",
+    "list": "speed",
+    "listLabel": "Speed-to-Lead (0-15m)",
+    "created": "4 mins ago",
+    "alm": {
+      "a": "Not Scheduled",
+      "l": "Aurora, CO (new construction ad)",
+      "m": "Unknown"
+    },
+    "kind": "Has agent",
+    "says": "Oh, thanks for calling, but I already have an agent. We signed the buyer agreement with her last week. I just clicked on the ad out of curiosity.",
+    "seed": [
+      [
+        "4 mins ago",
+        "system",
+        "Lead created",
+        "Facebook ad: new construction homes in Aurora, CO. Added to the Speed-to-Lead Smart List."
+      ],
+      [
+        "4 mins ago",
+        "system",
+        "Assigned",
+        "Round-robin assigned to you (ISA)."
+      ]
+    ],
+    "order": [
+      0,
+      1
+    ],
+    "choices": [
+      {
+        "label": "Pitch a Second Look",
+        "text": "“Totally get it, Brian! But you can still tour these new builds with us. Our agent knows this builder really well. How about a quick look Saturday? No obligation.”",
+        "correct": false,
+        "pts": -20,
+        "coach": "He told you he signed an agreement with another agent. Offering a tour anyway is pitching around her agreement, which you never do. Thank him, respect it, note it, and tell your agent.",
+        "log": "Lead confirmed a signed buyer agreement with another agent; ISA pitched a tour anyway."
+      },
+      {
+        "label": "Respect the Agreement",
+        "text": "“Thank you for telling me, Brian, and congratulations on getting started. I will respect that and make a note so our team does not reach out about buying. If anything ever changes, you are always welcome to call us. Have a great day!”",
+        "correct": true,
+        "pts": 20,
+        "effect": {
+          "stage": "Contacted",
+          "alm": {
+            "a": "None. Respecting existing buyer agreement.",
+            "m": "Signed buyer agreement with another agent last week (per lead). Do not pitch."
+          }
+        },
+        "coach": "He confirmed a signed agreement, so you respected it, ended warmly and left the door open without pitching. Log it and tell your agent the same day; the agent decides what happens to the contact.",
+        "note": {
+          "disp": "Call, connected. Has a signed buyer agreement with another agent.",
+          "next": "Tagged Has Agent. Told Agent Jordan in the client channel; automations paused pending the agent's decision. No further outreach about buying."
+        }
+      }
+    ]
+  },
+  {
+    "id": "dana",
+    "name": "Dana Brooks",
+    "ini": "DB",
+    "color": "#F5CF7A",
+    "email": "dana.brooks@example.com",
+    "phone": "(615) 555-4418",
+    "source": "Past Client - Purchase Closed Last Year",
+    "stage": "Warm Nurture",
+    "list": "nurture",
+    "listLabel": "30-60 Day Nurture",
+    "created": "14 months ago",
+    "alm": {
+      "a": "None (past client)",
+      "l": "Bought 3 bed in Franklin, TN",
+      "m": "Annual check-in"
+    },
+    "kind": "Past client",
+    "says": "Hi! So nice of you to call. We love the house. Actually, my coworker Nina keeps asking who helped us. She wants to buy this spring, and she said I could give you her number.",
+    "seed": [
+      [
+        "14 months ago",
+        "system",
+        "Lead created",
+        "Buyer lead from website. Closed on a 3 bed in Franklin 12 months ago with Agent Jordan."
+      ],
+      [
+        "6 months ago",
+        "call",
+        "Call",
+        "Check-in call. Settled in, happy with the home. Next check-in in 6 months."
+      ]
+    ],
+    "order": [
+      1,
+      0
+    ],
+    "choices": [
+      {
+        "label": "Thank, Confirm Consent, Log",
+        "text": "“Dana, that is wonderful, thank you so much for thinking of us! Just to make sure: Nina is okay with Agent Jordan calling her? Great. What is the best number for her, and is there a time of day she prefers? I will let Jordan know the introduction came from you.”",
+        "correct": true,
+        "pts": 25,
+        "effect": {
+          "stage": "Warm Nurture",
+          "alm": {
+            "m": "Happy in home. Referred coworker Nina Carter, who agreed to a call from Agent Jordan (prefers weekday evenings)."
+          }
+        },
+        "coach": "You thanked her, confirmed that Nina agreed to be contacted and how she prefers it, and logged the referral on Dana's record. Nina gets a call from the agent, not a text, because she has not agreed to texts yet.",
+        "note": {
+          "disp": "Call, connected. Past client check-in. Referral received.",
+          "a": "None (past client). Next check-in in 6 months.",
+          "next": "New lead for Nina Carter, source Past Client Referral (Dana Brooks); consent to a call confirmed through Dana; told Agent Jordan in the client channel. Thank-you note to Dana."
+        }
+      },
+      {
+        "label": "Grab the Number & Start Texting",
+        "text": "“Perfect! Send me her number and I will add her to our list and start texting her new listings today.”",
+        "correct": false,
+        "pts": -15,
+        "coach": "A referral is a gift, but Nina agreed only to be contacted, not to texts or a listing drip. Thank Dana first, confirm Nina is okay with a call and how she prefers it, and log the referral so the agent makes the first contact.",
+        "log": "Took the referral's number and planned to text listings without her consent to texts. Did not thank the past client or confirm consent."
+      }
+    ]
+  }
+]
