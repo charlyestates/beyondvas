@@ -5,10 +5,10 @@
 | File | What it is |
 | --- | --- |
 | `site/index.html` | The whole website in one file: the HTML, the CSS and the small script for the calculator, role tabs and forms. Edit it directly; there is no build step. |
-| `site/bootcamp.html` | The ISA 7-Day Certification Boot Camp, served at `/bootcamp`: a 7-day curriculum with a quiz each day, a simulated Follow Up Boss workspace with three practice calls, and a certificate. One self-contained file like the home page. |
-| `site/favicon.svg` | The browser-tab icon, cut from the logo mark in the header. Both pages use it. |
+| `site/favicon.svg` | The browser-tab icon, cut from the logo mark in the header. |
+| `private/bootcamp.html` | The ISA 7-Day Certification Boot Camp. Private training for approved VAs, kept outside `site/` so it is never deployed with the public website. See "The ISA Boot Camp" below. |
 
-Deploy the `site/` folder as it is. The page was first built as a Claude artifact from two other files. Those were
+Deploy the `site/` folder as it is, and never the `private/` folder. The page was first built as a Claude artifact from two other files. Those were
 retired in October 2026, so `site/index.html` is the only source now. The artifact link in `HANDOFF.md` is an
 earlier preview and does not update when this file changes.
 
@@ -39,15 +39,14 @@ earlier preview and does not update when this file changes.
 
 ## Forms
 
-There are four forms, all for Netlify Forms: `book-a-call`, `va-application` (English) and `va-application-es`
-(Spanish) on the home page, and `isa-certification` on the boot camp page. Each has `data-netlify="true"`, a hidden
-`form-name` input and a honeypot field. Both application forms have an optional `bootcamp_certificate` field.
+There are three forms, all for Netlify Forms: `book-a-call`, `va-application` (English) and `va-application-es`
+(Spanish). Each has `data-netlify="true"`, a hidden `form-name` input and a honeypot field.
 
 1. Deploy to Netlify: drag the `site/` folder onto app.netlify.com, or connect this GitHub repository with
    `beyondvas/site` as the base directory and no build command.
-2. In the Netlify project, open Forms, enable form detection, then redeploy so Netlify registers the four forms.
-3. Under Forms, then Form notifications, add an email notification for each form: `book-a-call` to Charly, both
-   application forms and `isa-certification` to the Honduras recruiting team.
+2. In the Netlify project, open Forms, enable form detection, then redeploy so Netlify registers the three forms.
+3. Under Forms, then Form notifications, add an email notification for each form: `book-a-call` to Charly, and both
+   application forms to the Honduras recruiting team.
 4. Submit each form once on the live site and confirm it shows up in the Forms tab and sends the email.
 
 If a post fails, the page shows the visitor what they typed with a Copy button and asks them to email it, so nothing
@@ -55,12 +54,15 @@ is lost.
 
 ## The ISA Boot Camp
 
-How it fits the VA process (decided by Charly on November 1, 2026): the boot camp is recommended before applying and
-part of every ISA's onboarding, so the certificate field on the application stays optional. The home page links to it
-from the nav, the "Trained" pillar, a card in both VA application sections and the footer. When they finish, the certificate shows a
-verification ID (`BVA-ISA-XXXX-XXXX`). "Register my certificate" sends their name, ID and scores to the
-`isa-certification` form, so recruiters can match the ID that appears in an application's `bootcamp_certificate`
-field. "Apply with this certificate" opens the application, which fills in the ID saved in that browser.
+Who it is for (decided by Charly on November 1, 2026): only VAs who have applied and been approved. It is private,
+exclusive training, so nothing on the public website links to it, the page tells search engines not to index it, and
+it lives in `private/` outside the deployed folder.
+
+A file on a public website can be opened by anyone who has the link, so the boot camp needs a real sign-in before
+approved VAs can use it online. The natural home is the VA Hub, which already has logins and an academy. Until then
+it opens from disk for review. When a VA finishes, the certificate shows a verification ID (`BVA-ISA-XXXX-XXXX`), and
+"Register my certificate" posts their name, ID and scores to an `isa-certification` Netlify form. That only works once
+the page is hosted on Netlify.
 
 How it works:
 
@@ -85,7 +87,7 @@ Changes from the brief the boot camp was built from, for accuracy and compliance
 - Added to Day 1: ISAs never negotiate or give an opinion of value, and their scope depends on the client's state.
 - Added to Day 5 and Elena's note: the agent needs a signed buyer agreement before any tour.
 - Added to Day 6: "Before You Dial" (Do Not Call Registry, text consent, manual dialing) and "Fair Housing", which the
-  home page already promises clients. Opted-out contacts are never deleted.
+  public home page already promises clients. Opted-out contacts are never deleted.
 - The certificate says "simulated CRM practice calls" and "a training certificate, not a real estate license".
 
 Have an attorney confirm the calling and Do Not Call rules before launch.

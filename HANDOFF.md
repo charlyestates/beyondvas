@@ -15,7 +15,7 @@ the website. The founder is Charly (Beyond Estates, Palmdale CA); a partner on t
 
 | Path | What it is | Status |
 | --- | --- | --- |
-| `beyondvas/` | The public website: the home page `beyondvas/site/index.html` and the ISA 7-Day Certification Boot Camp `beyondvas/site/bootcamp.html`, with Netlify Forms. `beyondvas/README.md` covers the launch to-do list, the forms, the boot camp and deployment. | Copy done, launch items left, not deployed |
+| `beyondvas/` | The public website `beyondvas/site/index.html`, with Netlify Forms, and the private ISA 7-Day Certification Boot Camp `beyondvas/private/bootcamp.html` for approved VAs only (never deploy `private/`). `beyondvas/README.md` covers the launch to-do list, the forms, the boot camp and deployment. | Copy done, launch items left, not deployed |
 | `hq/` | The clickable prototype of the back office (BeyondVAs HQ). `hq/README.md` lists every file; `BRIEF.md`, `DESIGN-SPEC.md` and `APP-CONTRACT.md` are the product brief, the screen spec and the coding rules the real app should keep. | Version 4 |
 | `hq/data/academy.js` | The academy curriculum: five foundation modules and nine ISA-track modules adapted from the Beyond HQ agent training, with all team-specific material removed. | Content final, pending Charly's read |
 
@@ -63,8 +63,8 @@ Edit `beyondvas/site/index.html` directly; there is no build step. `beyondvas/RE
 - Add a share image, `og:url` and `twitter:card` once the domain is final, plus an apple-touch icon.
 - Link or remove Beyond Movers and Beyond Renovation in the footer.
 - Ask Charly about the hero's example dashboard, testimonials and social links.
-- Deploy `beyondvas/site` to Netlify, turn on form detection, add the four form notifications (including
-  `isa-certification` to the Honduras recruiting team) and test each form.
+- Deploy `beyondvas/site` to Netlify, turn on form detection, add the three form notifications and test each form.
+- The boot camp is private: move it behind the VA Hub sign-in (its academy) rather than the public site.
 - Have an attorney confirm the boot camp's calling-hours and Do Not Call lessons (Day 6) before launch.
 
 Rules that do not change: no hourly rates or setup-fee amounts anywhere on the site, and VAs are described as being in
