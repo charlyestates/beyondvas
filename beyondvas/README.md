@@ -22,11 +22,15 @@ earlier preview and does not update when this file changes.
 
 ## Before the site goes live
 
-1. **Email.** `hello@beyondvas.com` appears in the Book section, its Copy button, the form messages and the footer.
-   The domain has no mailbox yet, so set one up or change the address everywhere.
-2. **Booking.** The Book section is a request form (`book-a-call`); there is no calendar link on the page. Add one
-   next to the form if Charly wants people to pick their own time.
-3. **Footer contact.** Add a phone number for texting and, ideally, a US business address.
+1. **Contact details (done November 2, 2026).** Email `beyondvas@gmail.com`, text or WhatsApp (661) 916-4450, and
+   Charly's Calendly link (https://calendly.com/charlyestates/book-a-meeting-with-charly-personally) are in the Book
+   section and the footer. Switch to an `@beyondvas.com` address once the domain has a mailbox.
+2. **Live addresses (November 2, 2026).** The public site is Netlify project `beyondvas` at
+   https://beyondvas.netlify.app, deployed from `site/` only. The boot camp is a separate, unlisted project,
+   `bva-isa-training-k7q4m`, at https://bva-isa-training-k7q4m.netlify.app (noindex, no links from the public
+   site), deployed from a copy of `private/bootcamp.html` saved as `index.html` with its header links pointing at the
+   public site. Send that link to VAs only after they are approved. Connect a real domain when there is one.
+3. **Footer contact.** Ideally add a US business address.
 4. **Privacy policy and terms.** The footer says they are published at launch. They are among the legal drafts
    waiting for attorney review; link them from the footer once they are final.
 5. **Social preview and icons.** Add a 1200 × 630 share image with `og:image`, `og:url` and `twitter:card` tags once

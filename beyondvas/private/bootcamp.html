@@ -624,7 +624,7 @@ footer p{max-width:70ch}
                   <svg class="seal" viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E48A"/><stop offset=".5" stop-color="#C9971F"/><stop offset="1" stop-color="#8F6A12"/></linearGradient></defs><g fill="url(#sg)"><path d="M50 3l7 8 10-4 3 10 11 1-1 11 9 6-6 9 5 10-10 4v11l-11 1-4 10-10-4-7 8-7-8-10 4-4-10-11-1v-11l-10-4 5-10-6-9 9-6-1-11 11-1 3-10 10 4z"/></g><circle cx="50" cy="50" r="30" fill="#FBF6EA"/><circle cx="50" cy="50" r="27" fill="none" stroke="#C9971F" stroke-width="1.5"/><path d="M34 56 L50 40 L66 56" fill="none" stroke="#0F2247" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="69" text-anchor="middle" font-family="Barlow Condensed,Arial Narrow,sans-serif" font-weight="800" font-size="9" fill="#0F2247" letter-spacing="1">ISA</text></svg>
                   <div class="cf-r"><span>Verification ID</span><b class="mono" id="cId">–</b></div>
                 </div>
-                <p class="cert-issuer">Issued by the BeyondVAs Academy · A training certificate, not a real estate license · Verify at hello@beyondvas.com</p>
+                <p class="cert-issuer">Issued by the BeyondVAs Academy · A training certificate, not a real estate license · Verify at beyondvas@gmail.com</p>
               </div>
             </div>
             <p class="print-locked">Certificate locked. Finish all 7 daily knowledge checks and the 3 simulator calls to earn it.</p>
@@ -1037,7 +1037,7 @@ footer p{max-width:70ch}
     var inp=$('certName');
     if(document.activeElement!==inp) inp.value=S.name||'';
     inp.readOnly=!!S.registeredAt;
-    $('nameHint').textContent=S.registeredAt?'Registered on '+fmtDate(S.registeredAt)+'. To change the name, contact hello@beyondvas.com.':'Type it exactly as it appears on your government ID. It is printed on your certificate.';
+    $('nameHint').textContent=S.registeredAt?'Registered on '+fmtDate(S.registeredAt)+'. To change the name, contact beyondvas@gmail.com.':'Type it exactly as it appears on your government ID. It is printed on your certificate.';
     var cert=$('certCard'),notice=$('certNotice');
     cert.classList.toggle('is-locked',!ready);
     notice.hidden=ready;
@@ -1068,7 +1068,7 @@ footer p{max-width:70ch}
     msg.className='regmsg';msg.textContent='Registering…';
     fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(data).toString()})
       .then(function(r){if(!r.ok) throw new Error('bad');S.registeredAt=new Date().toISOString();save();renderCert();msg.className='regmsg ok';msg.textContent='Registered. BeyondVAs now has your certificate ID on file, so recruiters can verify it.'})
-      .catch(function(){msg.className='regmsg warn';msg.textContent='We could not register it automatically. Email your name and certificate ID to hello@beyondvas.com and we will add it.'});
+      .catch(function(){msg.className='regmsg warn';msg.textContent='We could not register it automatically. Email your name and certificate ID to beyondvas@gmail.com and we will add it.'});
   }
   function clearRegMsg(){var m=$('regMsg');m.textContent='';m.className='regmsg'}
   window.addEventListener('afterprint',function(){document.body.classList.remove('printing-cert')});

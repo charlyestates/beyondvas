@@ -363,6 +363,10 @@ details p{color:var(--fg-2);padding-bottom:20px;font-size:16px;max-width:70ch}
 .book ol li::before{content:counter(b);font-weight:700;color:var(--on-blue);background:var(--blue);font-size:13px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center}
 .book .alt{margin-top:28px;padding:20px 22px;border:1px dashed var(--blue);border-radius:12px;color:var(--fg-2);font-size:15.5px;background:var(--bg-2)}
 .book .alt a{font-weight:700}
+.book .alt + .alt{margin-top:12px}
+.book .alt.cal{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;border-style:solid;border-color:var(--gold)}
+.book .alt.cal b{color:var(--fg)}
+.book .alt.cal .btn{margin-left:auto}
 form{display:grid;gap:14px}
 .f2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media (max-width:560px){.f2{grid-template-columns:1fr}}
@@ -914,7 +918,8 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
         <li>On the call: your top five tasks, your tools, your hours, and your lead flow.</li>
         <li>Within three to five business days you meet two or three trained candidates.</li>
       </ol>
-      <div class="alt">Prefer email? Write to <span id="emailtxt">hello@beyondvas.com</span><button class="copybtn" type="button" data-copy="hello@beyondvas.com">Copy</button> and we will send you two or three times to choose from.</div>
+      <div class="alt cal"><b>Rather pick a time yourself?</b> Book straight onto the calendar.<a class="btn btn-gold btn-sm" href="https://calendly.com/charlyestates/book-a-meeting-with-charly-personally" target="_blank" rel="noopener">Pick a time on the calendar</a></div>
+      <div class="alt">Text or WhatsApp us at <a href="https://wa.me/16619164450" target="_blank" rel="noopener">(661) 916-4450</a>, or email <span id="emailtxt">beyondvas@gmail.com</span><button class="copybtn" type="button" data-copy="beyondvas@gmail.com">Copy</button>.</div>
     </div>
     <div class="card formcard">
       <h3>Request your 15-minute call</h3>
@@ -935,7 +940,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
         <button class="btn btn-gold" type="submit">Book my call</button>
         <p class="consent">By submitting you agree to be contacted by BeyondVAs by phone, text or email about your request.</p>
       </form>
-      <div class="ok" id="bookOk" role="status"><h4 tabindex="-1">Got it. We will text you within one business day.</h4><p id="bookOkP">Keep an eye on your phone. If you would rather email us, write to hello@beyondvas.com.</p><pre id="bookOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="bookCopy" hidden>Copy this request</button></div>
+      <div class="ok" id="bookOk" role="status"><h4 tabindex="-1">Got it. We will text you within one business day.</h4><p id="bookOkP">Keep an eye on your phone. If you would rather email us, write to beyondvas@gmail.com.</p><pre id="bookOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="bookCopy" hidden>Copy this request</button></div>
     </div>
   </div>
 </section>
@@ -1101,7 +1106,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
     </div>
     <div>
       <h5>Contact</h5>
-      <ul><li>hello@beyondvas.com</li><li><a href="#book">Book a 15-minute call</a></li><li><a href="#apply">Apply as a VA · <span lang="es">Aplica como asistente</span></a></li><li><a href="#faq">FAQ</a></li><li>Privacy policy and terms of service: published at launch</li></ul>
+      <ul><li><a href="mailto:beyondvas@gmail.com">beyondvas@gmail.com</a></li><li>Text or WhatsApp: <a href="https://wa.me/16619164450" target="_blank" rel="noopener">(661) 916-4450</a></li><li><a href="https://calendly.com/charlyestates/book-a-meeting-with-charly-personally" target="_blank" rel="noopener">Book a 15-minute call</a></li><li><a href="#apply">Apply as a VA · <span lang="es">Aplica como asistente</span></a></li><li><a href="#faq">FAQ</a></li><li>Privacy policy and terms of service: published at launch</li></ul>
     </div>
     <p class="legal">BeyondVAs is a managed virtual assistant service, not a licensed real estate brokerage. Virtual assistants are independent professionals contracted and paid by BeyondVAs, which provides recruiting, training, monitoring, management and replacement under your services agreement; the agreement also sets the terms of the 90-day and 9-month replacement guarantees. Clients direct the work product in their own tools and remain responsible for the licensing, telemarketing, call-recording and privacy laws that apply to their business. Beyond Estates is a sister company of BeyondVAs. Statistics on this page link to their sources and were current as of October 2026. Founded 2026. © 2026 BeyondVAs.</p>
   </div>
@@ -1165,9 +1170,9 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body}).then(function(r){if(!r.ok)throw new Error('bad');show('')}).catch(function(){show('fail')});
     });
   }
-  wire('bookForm','bookOk','bookOkPre','bookCopy','This is the preview version of the site, so nothing was sent. On the live site this request goes straight to the BeyondVAs inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to hello@beyondvas.com and we will text you within one business day.');
-  wire('applyForm','applyOk','applyOkPre','applyCopy','This is the preview version of the site, so nothing was sent. On the live site this application goes straight to the BeyondVAs recruiting inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to hello@beyondvas.com; we reply within three business days.');
-  wire('applyFormEs','applyEsOk','applyEsOkPre','applyEsCopy','Esta es la versión de vista previa del sitio, así que no se envió nada. En el sitio en vivo esta aplicación llega directamente al equipo de reclutamiento de BeyondVAs. Esto es lo que se enviaría:','No pudimos enviarlo automáticamente. Copia el texto y envíalo a hello@beyondvas.com; te respondemos en tres días hábiles.');
+  wire('bookForm','bookOk','bookOkPre','bookCopy','This is the preview version of the site, so nothing was sent. On the live site this request goes straight to the BeyondVAs inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to beyondvas@gmail.com and we will text you within one business day.');
+  wire('applyForm','applyOk','applyOkPre','applyCopy','This is the preview version of the site, so nothing was sent. On the live site this application goes straight to the BeyondVAs recruiting inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to beyondvas@gmail.com; we reply within three business days.');
+  wire('applyFormEs','applyEsOk','applyEsOkPre','applyEsCopy','Esta es la versión de vista previa del sitio, así que no se envió nada. En el sitio en vivo esta aplicación llega directamente al equipo de reclutamiento de BeyondVAs. Esto es lo que se enviaría:','No pudimos enviarlo automáticamente. Copia el texto y envíalo a beyondvas@gmail.com; te respondemos en tres días hábiles.');
 })();
 </script>
 
