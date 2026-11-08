@@ -372,6 +372,9 @@ form{display:grid;gap:14px}
 @media (max-width:560px){.f2{grid-template-columns:1fr}}
 .fl{display:grid;gap:6px}
 .fl label{font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3)}
+.fl input[type=file]{padding:10px;background:var(--bg-3);border:1px dashed var(--blue);border-radius:10px;cursor:pointer;font:inherit;font-size:14.5px;color:var(--fg-2);width:100%}
+.fl input[type=file]::file-selector-button{font:inherit;font-weight:700;font-size:13.5px;margin-right:12px;padding:8px 14px;border-radius:999px;border:0;background:var(--blue);color:var(--on-blue);cursor:pointer}
+.fhint{font-size:13px;color:var(--fg-3)}
 .chk{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 @media (max-width:560px){.chk{grid-template-columns:1fr}}
 .chk label{display:flex;gap:10px;align-items:center;background:var(--bg-3);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:15px;color:var(--fg-2);cursor:pointer}
@@ -986,7 +989,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <div class="card formcard">
         <h3>Apply now</h3>
         <p class="sub">Takes five minutes. We reply within three business days.</p>
-        <form id="applyForm" name="va-application" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+        <form id="applyForm" name="va-application" method="POST" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" action="/">
           <input type="hidden" name="form-name" value="va-application">
           <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
           <div class="f2">
@@ -1014,6 +1017,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
             <div class="fl"><label for="a-ref">Who referred you? (optional)</label><input id="a-ref" name="referral" type="text"></div>
             <div class="fl"><label for="a-why">Why do you want to work with US teams?</label><textarea id="a-why" name="why" rows="2" required></textarea></div>
           </div>
+          <div class="fl"><label for="a-file">Upload your resume or a supporting file (optional)</label><input id="a-file" name="attachment" type="file" accept=".pdf,.doc,.docx,.csv,.xls,.xlsx,.txt,.rtf,image/*" data-maxmb="8"><span class="fhint">PDF, Word, Excel, CSV or a photo, up to 8 MB.</span></div>
           <input type="hidden" name="lang" value="en">
           <button class="btn btn-gold" type="submit">Send my application</button>
           <p class="consent">By submitting you agree to be contacted by BeyondVAs by WhatsApp, phone or email about your application.</p>
@@ -1054,7 +1058,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <div class="card formcard">
         <h3>Aplica ahora</h3>
         <p class="sub">Toma cinco minutos. Respondemos en tres días hábiles.</p>
-        <form id="applyFormEs" name="va-application-es" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+        <form id="applyFormEs" name="va-application-es" method="POST" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" action="/">
           <input type="hidden" name="form-name" value="va-application-es">
           <p class="hp"><label>Deja esto vacío <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
           <div class="f2">
@@ -1082,6 +1086,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
             <div class="fl"><label for="e-ref">¿Quién te refirió? (opcional)</label><input id="e-ref" name="referral" type="text"></div>
             <div class="fl"><label for="e-why">¿Por qué quieres trabajar con equipos de Estados Unidos?</label><textarea id="e-why" name="why" rows="2" required></textarea></div>
           </div>
+          <div class="fl"><label for="e-file">Sube tu currículum o un archivo de apoyo (opcional)</label><input id="e-file" name="attachment" type="file" accept=".pdf,.doc,.docx,.csv,.xls,.xlsx,.txt,.rtf,image/*" data-maxmb="8"><span class="fhint">PDF, Word, Excel, CSV o una foto, hasta 8 MB.</span></div>
           <input type="hidden" name="lang" value="es">
           <button class="btn btn-gold" type="submit">Enviar mi aplicación</button>
           <p class="consent">Al enviar, aceptas que BeyondVAs te contacte por WhatsApp, teléfono o correo sobre tu solicitud.</p>
@@ -1156,18 +1161,23 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
 
   // Forms: on the live site (Netlify) the form posts to Netlify Forms; inside the preview it shows the request so nothing is lost.
   var inPreview=!!(window.claude&&window.claude.use)||/claude/.test(location.hostname)||location.protocol==='file:';
-  function serialize(form){var fd=new FormData(form),out=[],seen={};fd.forEach(function(v,k){if(k==='bot-field'||k==='form-name')return;if(seen[k]){out[seen[k]-1]+=', '+v}else{out.push(k+': '+v);seen[k]=out.length}});return out.join('\n')}
+  function serialize(form){var fd=new FormData(form),out=[],seen={};fd.forEach(function(v,k){if(k==='bot-field'||k==='form-name')return;if(typeof File!=='undefined'&&v instanceof File){if(!v.name)return;v='(file attached: '+v.name+')'}if(seen[k]){out[seen[k]-1]+=', '+v}else{out.push(k+': '+v);seen[k]=out.length}});return out.join('\n')}
   function wire(formId,okId,preId,copyId,preMsg,failMsg){
     var form=$(formId),ok=$(okId),pre=$(preId),cp=$(copyId);if(!form)return;
     form.addEventListener('submit',function(e){
       e.preventDefault();
+      // file fields: Netlify Forms accepts up to 8 MB per submission
+      var fileIn=form.querySelector('input[type=file]'),f=fileIn&&fileIn.files&&fileIn.files[0];
+      if(fileIn){var es=form.querySelector('input[name=lang]').value==='es';fileIn.setCustomValidity(f&&f.size>(+fileIn.getAttribute('data-maxmb')||8)*1048576?(es?'El archivo pesa más de 8 MB. Sube uno más pequeño.':'That file is over 8 MB. Please upload a smaller one.'):'')}
       if(!form.reportValidity())return;
-      var body=new URLSearchParams(new FormData(form)).toString();
+      // with a file attached, send multipart form data (the browser sets the boundary); otherwise URL-encoded as before
+      var body=fileIn?new FormData(form):new URLSearchParams(new FormData(form)).toString();
+      var headers=fileIn?{}:{'Content-Type':'application/x-www-form-urlencoded'};
       var show=function(mode){form.hidden=true;ok.classList.add('show');
         if(mode){ok.querySelector('p').textContent=(mode==='preview')?preMsg:failMsg;pre.textContent=serialize(form);pre.hidden=false;cp.hidden=false;cp.onclick=function(){copyText(pre.textContent,cp)}}
         ok.scrollIntoView({block:'center'});var h=ok.querySelector('h4');if(h){try{h.focus()}catch(x){}}};
       if(inPreview){show('preview');return}
-      fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:body}).then(function(r){if(!r.ok)throw new Error('bad');show('')}).catch(function(){show('fail')});
+      fetch('/',{method:'POST',headers:headers,body:body}).then(function(r){if(!r.ok)throw new Error('bad');show('')}).catch(function(){show('fail')});
     });
   }
   wire('bookForm','bookOk','bookOkPre','bookCopy','This is the preview version of the site, so nothing was sent. On the live site this request goes straight to the BeyondVAs inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to beyondvas@gmail.com and we will text you within one business day.');
