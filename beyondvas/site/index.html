@@ -112,6 +112,27 @@ img{max-width:100%}
 .navlinks a.va{color:var(--blue);font-weight:700}
 .navcta{display:flex;align-items:center;gap:10px}
 .menubtn{display:none;background:var(--bg-2);border:1px solid var(--line);color:var(--fg);border-radius:10px;padding:9px 12px;font:inherit;font-weight:600;cursor:pointer}
+/* Two separate paths: gold "Hire a VA" for companies, orange boxed "Apply" for job seekers */
+.btn-apply{background:#EA580C;color:#FFFFFF;border:2px solid #9A3412;border-radius:10px;box-shadow:0 10px 24px -12px rgba(234,88,12,.75);font-weight:800;letter-spacing:.01em}
+.btn-apply:hover{background:#C2410C;transform:translateY(-1px)}
+.btn-apply.btn-lg{font-size:19px;padding:18px 30px}
+.applybox{margin:24px 0 6px;padding:20px 22px;border:3px solid #EA580C;border-radius:12px;background:rgba(234,88,12,.07);display:grid;gap:10px}
+.applybox b{font-family:var(--display);font-size:28px;font-weight:800;text-transform:uppercase;color:var(--fg);line-height:1}
+.applybox p{font-size:15.5px;color:var(--fg-2)}
+.applybox .btn{justify-self:start;margin-top:4px}
+.formcard.applycard{border:3px solid #EA580C;box-shadow:0 30px 70px -34px rgba(234,88,12,.55)}
+.formcard.applycard button[type=submit]{width:100%}
+.forwho{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:6px 11px;border-radius:6px;margin-bottom:14px;background:var(--gold-soft);color:var(--gold-deep);border:1px solid var(--gold)}
+.jobnote{margin:0 0 18px;padding:12px 14px;border:2px dashed #EA580C;border-radius:10px;font-size:14.5px;color:var(--fg-2)}
+.jobnote a{color:#C2410C;font-weight:800}
+.hero-apply{margin-top:16px;font-size:15px;color:var(--fg-2)}
+.hero-apply a{color:#C2410C;font-weight:800}
+:root[data-theme="dark"] .jobnote a,:root[data-theme="dark"] .hero-apply a{color:#FB923C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .jobnote a,:root:not([data-theme="light"]) .hero-apply a{color:#FB923C}}
+.navcta .btn{gap:0}
+@media (min-width:1200px) and (max-width:1399px){.brand .tag{display:none}}
+@media (max-width:560px){.hide-s{display:none}.navcta{gap:6px}.navcta .btn{padding:8px 11px}}
+@media (max-width:430px){.navcta .btn-gold{display:none}}
 /* Seven links fit on one line from 1200px; below that the Menu button takes over. The tagline drops out where it would wrap. */
 @media (min-width:1200px) and (max-width:1279px){.brand .tag{display:none}}
 @media (max-width:1199px){
@@ -445,7 +466,8 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <a href="#apply" class="va">For VAs · <span lang="es">Aplica aquí</span></a>
     </nav>
     <div class="navcta">
-      <a class="btn btn-gold btn-sm" href="#book">Book a call</a>
+      <a class="btn btn-apply btn-sm" href="#apply">Apply<span class="hide-s">&nbsp;as a VA</span></a>
+      <a class="btn btn-gold btn-sm" href="#book">Hire<span class="hide-s">&nbsp;a VA</span></a>
       <button class="menubtn" id="menubtn" aria-expanded="false" aria-controls="navlinks">Menu</button>
     </div>
   </div>
@@ -464,6 +486,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
         <a class="btn btn-gold" href="#book">Book a 15-minute call</a>
         <a class="btn btn-ghost" href="#roles">See what your VA will do</a>
       </div>
+      <p class="hero-apply">Looking for work as a VA? <a href="#apply">Apply here &rarr;</a> <span lang="es">· ¿Buscas trabajo? <a href="#aplica">Aplica aquí</a></span></p>
       <div class="proof">
         <span>One-time setup, then tracked hours only</span><span>Available for all US time zones</span><span>90-day fit guarantee</span><span>9-month replacement</span><span>Screenshots about every 2 minutes</span><span>Cancel with two weeks' notice</span>
       </div>
@@ -913,6 +936,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
 <section class="section book" id="book">
   <div class="wrap">
     <div>
+      <div class="forwho">For companies hiring a VA</div>
       <div class="eyebrow">Book your call</div>
       <h2 class="h2">Fifteen minutes. <span class="gold">Then your hours come back.</span></h2>
       <p class="lead">Tell us what is eating your week. We will match the role, the hours and the candidates, and you will have interviews scheduled within three to five business days.</p>
@@ -927,6 +951,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
     <div class="card formcard">
       <h3>Request your 15-minute call</h3>
       <p class="sub">No commitment. If a VA is not the right move for you yet, we will say so.</p>
+      <p class="jobnote">Looking for a job as a VA? Please don’t use this form. <a href="#apply">Apply here</a> <span lang="es">· ¿Buscas trabajo? No uses este formulario. <a href="#aplica">Aplica aquí</a></span></p>
       <form id="bookForm" name="book-a-call" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
         <input type="hidden" name="form-name" value="book-a-call">
         <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
@@ -940,7 +965,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
         </div>
         <div class="fl"><label for="b-first">What should your VA take off your plate first?</label><select id="b-first" name="first_task"><option>ISA calls and appointment setting</option><option>Admin, inbox and calendar</option><option>Transaction or listing coordination</option><option>Marketing and social media</option><option>Past-client care calls</option><option>Property management phones</option><option>Not sure yet, let's talk</option></select></div>
         <div class="fl"><label for="b-msg">Anything else (optional)</label><textarea id="b-msg" name="message" rows="2" placeholder="Tools you use, hours, start date"></textarea></div>
-        <button class="btn btn-gold" type="submit">Book my call</button>
+        <button class="btn btn-gold" type="submit">Book my hiring call</button>
         <p class="consent">By submitting you agree to be contacted by BeyondVAs by phone, text or email about your request.</p>
       </form>
       <div class="ok" id="bookOk" role="status"><h4 tabindex="-1">Got it. We will text you within one business day.</h4><p id="bookOkP">Keep an eye on your phone. If you would rather email us, write to beyondvas@gmail.com.</p><pre id="bookOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="bookCopy" hidden>Copy this request</button></div>
@@ -961,6 +986,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <div>
         <h2 class="h2">Work with US real estate teams. <span class="gold">Get paid in dollars. Be treated like a professional.</span></h2>
         <p class="lead">BeyondVAs places bilingual professionals from Honduras and across Latin America with real estate teams and businesses in the United States. We train you, place you, and pay you on time, every time.</p>
+        <div class="applybox"><b>Apply here. This is the only way to apply.</b><p>Please don’t use “Hire a VA” or the call form: those are for companies hiring. We don’t take applications by phone, text or email.</p><a class="btn btn-apply btn-lg" href="#applyForm">Start my application &darr;</a></div>
         <ul class="offer">
           <li><b>From home</b><span>100% remote from your home office, in Honduras or anywhere in Latin America, on US daytime hours. No rotating shifts, no night shifts, no commute.</span></li>
           <li><b>USD pay</b><span>Paid in US dollars twice a month through BeyondVAs. No chasing clients for money. We tell you the exact pay range for the role on the first call, before any test.</span></li>
@@ -986,7 +1012,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
           </ul>
         </div>
       </div>
-      <div class="card formcard">
+      <div class="card formcard applycard">
         <h3>Apply now</h3>
         <p class="sub">Takes five minutes. We reply within three business days.</p>
         <form id="applyForm" name="va-application" method="POST" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" action="/">
@@ -1019,7 +1045,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
           </div>
           <div class="fl"><label for="a-file">Upload your resume or a supporting file (optional)</label><input id="a-file" name="attachment" type="file" accept=".pdf,.doc,.docx,.csv,.xls,.xlsx,.txt,.rtf,image/*" data-maxmb="8"><span class="fhint">PDF, Word, Excel, CSV or a photo, up to 8 MB.</span></div>
           <input type="hidden" name="lang" value="en">
-          <button class="btn btn-gold" type="submit">Send my application</button>
+          <button class="btn btn-apply btn-lg" type="submit">Send my application</button>
           <p class="consent">By submitting you agree to be contacted by BeyondVAs by WhatsApp, phone or email about your application.</p>
         </form>
         <div class="ok" id="applyOk" role="status"><h4 tabindex="-1">Application received. Gracias.</h4><p id="applyOkP">Our Honduras team will reach out on WhatsApp within three business days with next steps.</p><pre id="applyOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="applyCopy" hidden>Copy this application</button></div>
@@ -1030,6 +1056,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <div>
         <h2 class="h2">Trabaja con equipos de bienes raíces en Estados Unidos. <span class="gold">Cobra en dólares. Trabaja con el respeto que mereces.</span></h2>
         <p class="lead">BeyondVAs coloca a profesionales bilingües de Honduras y de toda Latinoamérica con equipos de bienes raíces y empresas en Estados Unidos. Te capacitamos, te colocamos y te pagamos puntualmente, siempre.</p>
+        <div class="applybox" lang="es"><b>Aplica aquí. Es la única forma de aplicar.</b><p>No uses “Hire a VA” ni el formulario de llamada: son para empresas que contratan. No recibimos aplicaciones por teléfono, mensaje ni correo.</p><a class="btn btn-apply btn-lg" href="#applyFormEs">Empezar mi aplicación &darr;</a></div>
         <ul class="offer">
           <li><b>Desde casa</b><span>100% remoto desde tu casa, en Honduras o en cualquier país de Latinoamérica, en horario de día de Estados Unidos. Sin turnos rotativos, sin turnos de madrugada y sin gastar en transporte.</span></li>
           <li><b>Pago en USD</b><span>Pago en dólares dos veces al mes a través de BeyondVAs. Nunca tienes que perseguir a un cliente por tu pago. Te decimos el rango exacto de pago del rol en la primera llamada, antes de cualquier prueba.</span></li>
@@ -1055,7 +1082,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
           </ul>
         </div>
       </div>
-      <div class="card formcard">
+      <div class="card formcard applycard">
         <h3>Aplica ahora</h3>
         <p class="sub">Toma cinco minutos. Respondemos en tres días hábiles.</p>
         <form id="applyFormEs" name="va-application-es" method="POST" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" action="/">
@@ -1088,7 +1115,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
           </div>
           <div class="fl"><label for="e-file">Sube tu currículum o un archivo de apoyo (opcional)</label><input id="e-file" name="attachment" type="file" accept=".pdf,.doc,.docx,.csv,.xls,.xlsx,.txt,.rtf,image/*" data-maxmb="8"><span class="fhint">PDF, Word, Excel, CSV o una foto, hasta 8 MB.</span></div>
           <input type="hidden" name="lang" value="es">
-          <button class="btn btn-gold" type="submit">Enviar mi aplicación</button>
+          <button class="btn btn-apply btn-lg" type="submit">Enviar mi aplicación</button>
           <p class="consent">Al enviar, aceptas que BeyondVAs te contacte por WhatsApp, teléfono o correo sobre tu solicitud.</p>
         </form>
         <div class="ok" id="applyEsOk" role="status"><h4 tabindex="-1">Aplicación recibida. Gracias.</h4><p id="applyEsOkP">Nuestro equipo en Honduras te contactará por WhatsApp en tres días hábiles.</p><pre id="applyEsOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="applyEsCopy" hidden>Copiar esta aplicación</button></div>
