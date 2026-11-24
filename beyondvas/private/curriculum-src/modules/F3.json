@@ -2,7 +2,7 @@
   "id": "F3",
   "part": "foundations",
   "title": "Your tools",
-  "summary": "Set up and use the tools every BeyondVAs assistant works with: your workstation and backups, the outage protocol, Hubstaff, the password vault, Google Workspace and Follow Up Boss.",
+  "summary": "Set up and use the tools every LockedIn VAs assistant works with: your workstation and backups, the outage protocol, Hubstaff, the password vault, Google Workspace and Follow Up Boss.",
   "objectives": [
     "Prepare a workstation with backup internet and backup power, and follow the outage protocol without losing client time or trust.",
     "Track your time honestly in Hubstaff: clock in and out correctly, write task notes, and explain low activity before it becomes a question.",
@@ -18,7 +18,7 @@
       "body": [
         {
           "t": "p",
-          "text": "A US client cannot see your office, but they feel it on every call and every task. A dropped call, a frozen screen or barking in the background costs trust. Before your first client, your workstation must be ready and tested. BeyondVAs verified your computer, internet and backup during your application. This lesson explains what “ready” means every single day."
+          "text": "A US client cannot see your office, but they feel it on every call and every task. A dropped call, a frozen screen or barking in the background costs trust. Before your first client, your workstation must be ready and tested. LockedIn VAs verified your computer, internet and backup during your application. This lesson explains what “ready” means every single day."
         },
         {
           "t": "table",
@@ -96,7 +96,7 @@
         },
         {
           "t": "p",
-          "text": "**An example.** Luis works for a team in Houston. One afternoon a storm hits his city and the power goes out. His laptop keeps running on battery, but his router turns off. Because he tested his hotspot that Monday, he switches in under two minutes, tells his manager and posts a short note in the client channel. The client barely notices. A month later, the client asks BeyondVAs for a second VA, “someone like Luis”. Preparation is invisible when it works, and that is the point."
+          "text": "**An example.** Luis works for a team in Houston. One afternoon a storm hits his city and the power goes out. His laptop keeps running on battery, but his router turns off. Because he tested his hotspot that Monday, he switches in under two minutes, tells his manager and posts a short note in the client channel. The client barely notices. A month later, the client asks LockedIn VAs for a second VA, “someone like Luis”. Preparation is invisible when it works, and that is the point."
         }
       ]
     },
@@ -112,7 +112,7 @@
         {
           "t": "steps",
           "items": [
-            "**Tell your manager at once.** Message your BeyondVAs manager from your phone the moment the outage starts: what happened, when, and what you are doing.",
+            "**Tell your manager at once.** Message your LockedIn VAs manager from your phone the moment the outage starts: what happened, when, and what you are doing.",
             "**Switch to your backup.** Turn on your hotspot or battery backup and reconnect. Most switches take a few minutes.",
             "**Tell the client channel.** Post a short, calm note: you are on backup and working, or you are offline and when you will update them.",
             "**Handle what was interrupted.** If a call dropped, call or text the lead back as soon as you are connected (inside the calling window). If you were in the middle of a task, check that nothing was saved half done.",
@@ -206,11 +206,11 @@
       "body": [
         {
           "t": "p",
-          "text": "Hubstaff is the time tracker BeyondVAs uses. It records your hours, takes screenshots and measures activity while you are clocked in. Your hours in Hubstaff are what the client is billed and what you are paid for. The client can see your hours and screenshots. Used well, Hubstaff is your best friend: it proves your work without you having to explain it."
+          "text": "Hubstaff is the time tracker LockedIn VAs uses. It records your hours, takes screenshots and measures activity while you are clocked in. Your hours in Hubstaff are what the client is billed and what you are paid for. The client can see your hours and screenshots. Used well, Hubstaff is your best friend: it proves your work without you having to explain it."
         },
         {
           "t": "p",
-          "text": "**How it works.** You install the Hubstaff desktop app, sign in with the account BeyondVAs creates for you, and choose your client’s project. When you press start, the timer runs. While it runs:"
+          "text": "**How it works.** You install the Hubstaff desktop app, sign in with the account LockedIn VAs creates for you, and choose your client’s project. When you press start, the timer runs. While it runs:"
         },
         {
           "t": "list",
@@ -270,7 +270,7 @@
         },
         {
           "t": "p",
-          "text": "**Screenshots and privacy.** Screenshots show your whole screen. That is why you keep only client work open while you are clocked in. Never open personal email, social media, banking or private chats during your shift. If you need to do something personal, stop the timer first. Screenshots may also capture client information, which is why they are visible only to your client and BeyondVAs."
+          "text": "**Screenshots and privacy.** Screenshots show your whole screen. That is why you keep only client work open while you are clocked in. Never open personal email, social media, banking or private chats during your shift. If you need to do something personal, stop the timer first. Screenshots may also capture client information, which is why they are visible only to your client and LockedIn VAs."
         },
         {
           "t": "p",
@@ -279,7 +279,7 @@
         {
           "t": "callout",
           "title": "Zero tolerance",
-          "text": "Never use any device, app or trick that fakes keyboard or mouse activity, and never let someone else work under your account. Hubstaff and your manager can detect these patterns. Fake activity is fraud and ends the placement and your relationship with BeyondVAs."
+          "text": "Never use any device, app or trick that fakes keyboard or mouse activity, and never let someone else work under your account. Hubstaff and your manager can detect these patterns. Fake activity is fraud and ends the placement and your relationship with LockedIn VAs."
         },
         {
           "t": "dodont",
@@ -307,7 +307,7 @@
         },
         {
           "t": "p",
-          "text": "**The password vault.** BeyondVAs gives you access to your client’s tools through a **password vault**: a secure app that stores logins and fills them in for you. You may never even see some passwords. The rules are simple:"
+          "text": "**The password vault.** LockedIn VAs gives you access to your client’s tools through a **password vault**: a secure app that stores logins and fills them in for you. You may never even see some passwords. The rules are simple:"
         },
         {
           "t": "list",
@@ -697,7 +697,7 @@
       "explain": "Never delete an opted-out contact: the DNC record is what stops future calls and texts. Tag it, archive it and pause automations. Full rules are in F6."
     },
     {
-      "q": "Which statement best describes the CRM rule for BeyondVAs assistants?",
+      "q": "Which statement best describes the CRM rule for LockedIn VAs assistants?",
       "options": [
         "Log calls at the end of the week",
         "Personal WhatsApp is fine for leads who prefer it",

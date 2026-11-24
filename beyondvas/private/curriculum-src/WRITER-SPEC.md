@@ -1,8 +1,8 @@
-# BeyondVAs ISA Certification Program: writer spec
+# LockedIn VAs ISA Certification Program: writer spec
 
 ## What we are building
 
-BeyondVAs places bilingual (Spanish native, English B2+) virtual assistants and inside sales agents (ISAs) from Honduras and
+LockedIn VAs places bilingual (Spanish native, English B2+) virtual assistants and inside sales agents (ISAs) from Honduras and
 Latin America with US real estate agents and teams. Approved VAs (never the public) take this program before their first
 client. It replaces a thin "7-day boot camp" that took minutes. The new program must be a real curriculum: about 20 to 26
 hours in total, which is roughly three working days, counting reading plus hands-on practice.
@@ -66,17 +66,17 @@ Zillow Preferred program rules, commission splits, team incentives, real vendors
     30-60 Day Nurtures. Stage after booking an appointment: Pending Handoff.
 13. Daily KPIs per shift: 80-100 dials, 12-15 live conversations, 2-3 A.L.M.-qualified appointments. QA rubric (100): Speed to
     Lead 20, ALM Discovery 30, Objection Handling 20, Follow Up Boss Hygiene 15, Compliance 15. Standard: 90+.
-14. BeyondVAs operations: VAs are independent contractors paid in USD twice a month (5th and 20th); Hubstaff tracks time with
+14. LockedIn VAs operations: VAs are independent contractors paid in USD twice a month (5th and 20th); Hubstaff tracks time with
     random screenshots about every two minutes while clocked in; the client can see hours and screenshots; unexplained idle
     time is flagged and reviewed by the manager before billing; a daily report goes in the client channel at end of shift;
-    a BeyondVAs coordinator/manager backs the VA up; clients talk to VAs only inside the client channel (no private DMs);
+    a LockedIn VAs coordinator/manager backs the VA up; clients talk to VAs only inside the client channel (no private DMs);
     passwords only through a password vault; never download or export client data; outages: tell the manager at once and
     switch to backup internet/power.
 
 ## Module outline and owners
 
 Foundations (every VA):
-- F1 Welcome to BeyondVAs: how the program, your coordinator, your client and getting paid work. (academy m1)
+- F1 Welcome to LockedIn VAs: how the program, your coordinator, your client and getting paid work. (academy m1)
 - F2 Working with US clients: culture, time zones, phone English, email and text etiquette, reliability. (m2)
 - F3 Your tools: Hubstaff time tracking and screenshots, Follow Up Boss tour, Google Workspace, password vault, internet and
   power backup, outage protocol. (m3)

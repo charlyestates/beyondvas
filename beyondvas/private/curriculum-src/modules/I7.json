@@ -22,7 +22,7 @@
         },
         {
           "t": "p",
-          "text": "Think about who reads what you write. Your client, the agent, opens a lead before a tour and wants to know in 30 seconds who this person is and what they want. The team leader looks at reports to decide which leads go to which agent. Your BeyondVAs coordinator checks your activity to coach you. The QA reviewer scores you, and **Follow Up Boss Hygiene is 15 of the 100 points** on your scorecard. None of these people heard your call. They only see what you logged."
+          "text": "Think about who reads what you write. Your client, the agent, opens a lead before a tour and wants to know in 30 seconds who this person is and what they want. The team leader looks at reports to decide which leads go to which agent. Your LockedIn VAs coordinator checks your activity to coach you. The QA reviewer scores you, and **Follow Up Boss Hygiene is 15 of the 100 points** on your scorecard. None of these people heard your call. They only see what you logged."
         },
         {
           "t": "callout",
@@ -632,7 +632,7 @@
       "Do your 10-minute close on the practice account and write tomorrow's first three calls with a reason for each.",
       "Take screenshots of the five lead profiles (practice account only) and put them with your notes in one document."
     ],
-    "deliverable": "One document (Google Doc in your BeyondVAs folder) with: your stage map, the Smart List order, the five lead notes and actions, the three rewritten notes, tomorrow's first three calls, and screenshots of the five practice lead profiles. Share it with your coach."
+    "deliverable": "One document (Google Doc in your LockedIn VAs folder) with: your stage map, the Smart List order, the five lead notes and actions, the three rewritten notes, tomorrow's first three calls, and screenshots of the five practice lead profiles. Share it with your coach."
   },
   "quiz": [
     {

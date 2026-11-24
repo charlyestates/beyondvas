@@ -1,12 +1,12 @@
-# BeyondVAs: handoff for the person building this with Charly
+# LockedIn VAs: handoff for the person building this with Charly
 
 Everything in this repository was built with Claude Code in October 2026. This page says what is here, how to get in,
 what to finish first, what is decided and what is still open.
 
 ## The company in one paragraph
 
-BeyondVAs places bilingual (English/Spanish) virtual assistants and inside sales agents from Honduras and across Latin
-America with US real estate teams (other industries welcome). BeyondVAs invoices the client in prepaid two-week blocks,
+LockedIn VAs places bilingual (English/Spanish) virtual assistants and inside sales agents from Honduras and across Latin
+America with US real estate teams (other industries welcome). LockedIn VAs invoices the client in prepaid two-week blocks,
 pays the VA on the 5th and 20th, tracks hours with Hubstaff (screenshots about every two minutes), and backs every
 seat with a 90-day fit guarantee and a 9-month replacement guarantee. Pricing is shared on the sales call, never on
 the website. The founder is Charly (Beyond Estates, Palmdale CA); a partner on the ground in Honduras leads recruiting.
@@ -16,7 +16,7 @@ the website. The founder is Charly (Beyond Estates, Palmdale CA); a partner on t
 | Path | What it is | Status |
 | --- | --- | --- |
 | `beyondvas/` | The public website `beyondvas/site/index.html`, with Netlify Forms, and the private ISA 7-Day Certification Boot Camp `beyondvas/private/bootcamp.html` for approved VAs only (never deploy `private/`). `beyondvas/README.md` covers the launch to-do list, the forms, the boot camp and deployment. | Copy done, launch items left, not deployed |
-| `hq/` | The clickable prototype of the back office (BeyondVAs HQ). `hq/README.md` lists every file; `BRIEF.md`, `DESIGN-SPEC.md` and `APP-CONTRACT.md` are the product brief, the screen spec and the coding rules the real app should keep. | Version 4 |
+| `hq/` | The clickable prototype of the back office (LockedIn VAs HQ). `hq/README.md` lists every file; `BRIEF.md`, `DESIGN-SPEC.md` and `APP-CONTRACT.md` are the product brief, the screen spec and the coding rules the real app should keep. | Version 4 |
 | `hq/data/academy.js` | The academy curriculum: five foundation modules and nine ISA-track modules adapted from the Beyond HQ agent training, with all team-specific material removed. | Content final, pending Charly's read |
 
 Kept out of the repository on purpose: the business plan PDF, the research digests behind it and a copy of the Beyond
@@ -88,7 +88,7 @@ Honduras and across Latin America, covering every US time zone.
 
 - Website shows no rates; pricing only on the call. VAs come from several countries and cover all US time zones.
 - Bill rates: admin $8, operations $10, ISA $12 per hour; $499 one-time setup; prepaid two-week blocks; two weeks' notice.
-- The back office is BeyondVAs HQ at hq.beyondvas.com, a separate app from Beyond HQ (the agents' coaching dashboard).
+- The back office is LockedIn VAs HQ at hq.beyondvas.com, a separate app from Beyond HQ (the agents' coaching dashboard).
 - Hubstaff for client seats (API for the nightly hours import).
 - Clients get their own login at launch, before the first invoice.
 - The manager approves each week of hours; the client can dispute within 3 business days; approval locks the week.

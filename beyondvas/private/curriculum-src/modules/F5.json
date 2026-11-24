@@ -76,7 +76,7 @@
               "Your work for a Texas client may be limited to inbound calls, confirming appointments, past clients and admin. Your manager tells you exactly."
             ],
             [
-              "Every state: outbound prospecting is set up only where license law permits it and after the client signs the BeyondVAs telemarketing compliance addendum. Florida, for example, has its own strict telemarketing law on top of federal rules.",
+              "Every state: outbound prospecting is set up only where license law permits it and after the client signs the LockedIn VAs telemarketing compliance addendum. Florida, for example, has its own strict telemarketing law on top of federal rules.",
               "No outbound dialing until the manager confirms the addendum is signed and tells you the state’s rules."
             ],
             [
@@ -92,7 +92,7 @@
         {
           "t": "callout",
           "title": "When in doubt",
-          "text": "If you are not sure whether something is in scope, it is not, until your manager says it is. Pause, tell the lead the agent will follow up, and ask your manager in the client channel or your BeyondVAs channel."
+          "text": "If you are not sure whether something is in scope, it is not, until your manager says it is. Pause, tell the lead the agent will follow up, and ask your manager in the client channel or your LockedIn VAs channel."
         }
       ]
     },
@@ -224,7 +224,7 @@
       "body": [
         {
           "t": "p",
-          "text": "Every day you will see names, phone numbers, home addresses, family situations, incomes, divorces, job losses and debts. Real estate leads tell ISAs very personal things because they trust the team. Treat every piece of that information the way you would want your own family’s information treated. This is a legal duty under the confidentiality agreement you signed with BeyondVAs, and it is the reason clients trust us with their business."
+          "text": "Every day you will see names, phone numbers, home addresses, family situations, incomes, divorces, job losses and debts. Real estate leads tell ISAs very personal things because they trust the team. Treat every piece of that information the way you would want your own family’s information treated. This is a legal duty under the confidentiality agreement you signed with LockedIn VAs, and it is the reason clients trust us with their business."
         },
         {
           "t": "p",
@@ -237,7 +237,7 @@
             "**Inside the client’s systems only.** Work in the client’s Follow Up Boss, email and calendar. Never download, export, print or copy client data out of them, not even “to work offline”. Clients contract with us on this rule.",
             "**Passwords only through the password vault.** Never send or accept a password by text, chat, email or a screenshot. If a client sends you a password in chat, do not use it; ask them to share it through the vault, and tell your manager so the password can be changed.",
             "**No photos of the screen.** Do not take pictures of client screens with your phone or keep lead information on your personal phone.",
-            "**No personal tools.** Do not paste lead names, phone numbers or notes into personal apps, personal AI chat tools, translation websites or personal notes. Use only the tools your client and BeyondVAs approved.",
+            "**No personal tools.** Do not paste lead names, phone numbers or notes into personal apps, personal AI chat tools, translation websites or personal notes. Use only the tools your client and LockedIn VAs approved.",
             "**Lock your screen** every time you step away, even for one minute. Family members should not see client screens.",
             "**Talk to the client only in the client channel.** No private DMs, personal WhatsApp or personal email with your client or their leads."
           ]
@@ -245,7 +245,7 @@
         {
           "t": "callout",
           "title": "Report a possible leak within the hour",
-          "text": "If something goes wrong (you sent a text to the wrong lead, you clicked a suspicious link, your laptop was stolen, someone saw your screen), tell your BeyondVAs manager **within one hour**. Do not hide it and do not try to fix it alone. A fast report lets us change passwords and protect the client. A hidden mistake is much worse than a reported one."
+          "text": "If something goes wrong (you sent a text to the wrong lead, you clicked a suspicious link, your laptop was stolen, someone saw your screen), tell your LockedIn VAs manager **within one hour**. Do not hide it and do not try to fix it alone. A fast report lets us change passwords and protect the client. A hidden mistake is much worse than a reported one."
         },
         {
           "t": "p",
@@ -283,7 +283,7 @@
           "dont": [
             "Export, download or print lead lists",
             "Save leads in your personal phone or personal tools",
-            "Talk about a client’s leads or business with anyone outside the client’s team and BeyondVAs"
+            "Talk about a client’s leads or business with anyone outside the client’s team and LockedIn VAs"
           ]
         }
       ]
@@ -334,7 +334,7 @@
             ],
             [
               "A client crosses a line (shouts, insults, asks for something illegal or out of scope, sends personal messages)",
-              "Stay polite, do not argue, and tell your BeyondVAs manager **the same day**. Your manager handles it with the client."
+              "Stay polite, do not argue, and tell your LockedIn VAs manager **the same day**. Your manager handles it with the client."
             ],
             [
               "You made a mistake",
@@ -381,7 +381,7 @@
           "items": [
             "**Pause:** do not act yet. Say something polite and neutral, like “Let me confirm that and get right back to you.”",
             "**Protect:** do nothing that breaks a rule while you wait: no out-of-scope answers, no unscrubbed calls, no data leaving the system.",
-            "**Escalate:** tell your BeyondVAs manager the same day, with the facts. Your manager talks with the client. That is their job, and they have your back."
+            "**Escalate:** tell your LockedIn VAs manager the same day, with the facts. Your manager talks with the client. That is their job, and they have your back."
           ]
         },
         {
@@ -413,7 +413,7 @@
             ],
             [
               "An agent sends you a private DM asking you to work extra hours off the clock.",
-              "Answer in the client channel politely and tell your manager. Every hour you work is tracked and billed through BeyondVAs."
+              "Answer in the client channel politely and tell your manager. Every hour you work is tracked and billed through LockedIn VAs."
             ],
             [
               "A lead says, “Don’t ever call me again.”",
@@ -450,7 +450,7 @@
         {
           "t": "callout",
           "title": "You are never alone",
-          "text": "Your BeyondVAs coordinator and manager are your backup. You are never expected to break a rule to keep a client happy. If a client keeps pushing you outside your scope, your manager handles that conversation, not you."
+          "text": "Your LockedIn VAs coordinator and manager are your backup. You are never expected to break a rule to keep a client happy. If a client keeps pushing you outside your scope, your manager handles that conversation, not you."
         },
         {
           "t": "dodont",

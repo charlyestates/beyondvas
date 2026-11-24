@@ -59,7 +59,7 @@
         {
           "t": "callout",
           "title": "Benchmarks, not promises",
-          "text": "These numbers are the program benchmark. Your client may adjust them: a team with few new leads may expect fewer dials, and a team with a big database may expect more. Targets are set with your client in your first week and reported every week. BeyondVAs does not guarantee appointments to clients, and nobody expects you to set appointments on day one. New ISAs usually need a few weeks to set their first appointments and longer to reach a steady pace; your manager confirms what is realistic for your client."
+          "text": "These numbers are the program benchmark. Your client may adjust them: a team with few new leads may expect fewer dials, and a team with a big database may expect more. Targets are set with your client in your first week and reported every week. LockedIn VAs does not guarantee appointments to clients, and nobody expects you to set appointments on day one. New ISAs usually need a few weeks to set their first appointments and longer to reach a steady pace; your manager confirms what is realistic for your client."
         },
         {
           "t": "p",
@@ -607,7 +607,7 @@
         },
         {
           "t": "p",
-          "text": "**Your time records.** BeyondVAs uses Hubstaff to track your time. While you are clocked in, it takes random screenshots about every two minutes, and it scores activity from keyboard and mouse use. Your client can see your hours and your screenshots. Your manager reviews each week's hours, and unexplained idle time is flagged and reviewed before the client is billed. Clients are billed for tracked hours, so accurate records protect both you and them."
+          "text": "**Your time records.** LockedIn VAs uses Hubstaff to track your time. While you are clocked in, it takes random screenshots about every two minutes, and it scores activity from keyboard and mouse use. Your client can see your hours and your screenshots. Your manager reviews each week's hours, and unexplained idle time is flagged and reviewed before the client is billed. Clients are billed for tracked hours, so accurate records protect both you and them."
         },
         {
           "t": "p",
@@ -689,7 +689,7 @@
   },
   "quiz": [
     {
-      "q": "What is the ultimate standard for an elite BeyondVAs ISA?",
+      "q": "What is the ultimate standard for an elite LockedIn VAs ISA?",
       "options": [
         "Making 300 dials without taking any notes.",
         "Executing fast speed-to-lead, securing appointments via ALM, and maintaining clean CRM data.",

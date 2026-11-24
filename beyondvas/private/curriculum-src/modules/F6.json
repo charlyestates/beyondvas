@@ -8,7 +8,7 @@
     "Check consent and Do Not Call status before you dial, and dial by hand",
     "Identify yourself, announce recording, and handle any opt-out the same moment it happens, with the correct Follow Up Boss steps",
     "Answer questions about schools, safety or “what kind of people live there” without steering, using the fair housing phrase",
-    "Explain why compliance is a shared job between you, your client and your BeyondVAs manager"
+    "Explain why compliance is a shared job between you, your client and your LockedIn VAs manager"
   ],
   "lessons": [
     {
@@ -67,7 +67,7 @@
         {
           "t": "callout",
           "title": "Compliance is a shared job",
-          "text": "Your client supplies scrubbed lists and approves every script. You dial by hand, inside legal hours, and honor every opt-out. Your BeyondVAs manager confirms your client’s state rules with them before any outbound work. If any part is missing, you pause and ask. (This is general training, not legal advice; your manager confirms the rules for your client.)"
+          "text": "Your client supplies scrubbed lists and approves every script. You dial by hand, inside legal hours, and honor every opt-out. Your LockedIn VAs manager confirms your client’s state rules with them before any outbound work. If any part is missing, you pause and ask. (This is general training, not legal advice; your manager confirms the rules for your client.)"
         },
         {
           "t": "p",

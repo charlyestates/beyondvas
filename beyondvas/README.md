@@ -1,4 +1,4 @@
-# BeyondVAs website
+# LockedIn VAs website
 
 ## What is in this folder
 
@@ -66,7 +66,7 @@ https://bva-isa-training-k7q4m.netlify.app, which is sent to VAs once they are a
 What it contains (rebuilt November 2, 2026, from the 7-day boot camp, the HQ academy outline and the Beyond HQ agent
 training with all team-specific material removed): 17 modules, about 35 hours, so four to five working days.
 
-- Foundations: Welcome to BeyondVAs, Working with US clients, Your tools, Real estate basics and vocabulary,
+- Foundations: Welcome to LockedIn VAs, Working with US clients, Your tools, Real estate basics and vocabulary,
   Professionalism and scope, Compliance essentials.
 - ISA track: buyer's shoes and A.L.M., speed to lead and the 3-strike cadence, conversations that set appointments,
   financing, objections, sellers, Follow Up Boss discipline, appointments and the 3-way handoff, nurture, client
@@ -124,3 +124,14 @@ HTML you can edit directly. To check a change, open `site/index.html` in a brows
 - $30 US inside-sales base wage (the calculator's ISA default): labelled on the page as our estimate. Add a source if one turns up.
 
 Re-check these quarterly.
+
+## Rebrand and site split (November 24, 2026)
+
+- The company is now **LockedIn VAs** (formerly BeyondVAs). Same navy and gold theme; new padlock-and-roofline logo
+  (`site/favicon.svg`, inline in each page header). The domain is still beyondvas.net and the contact email is still
+  beyondvas@gmail.com until Charly picks new ones. The `hq/` prototype still carries the old name.
+- `site/index.html` is for clients only: no application form, no "apply" buttons, one discreet "Careers" footer link.
+- `site/join/index.html` (https://beyondvas.net/join/) is the applicant landing page, in English and Spanish: the
+  job, the five hiring steps, requirements, an applicant FAQ and the two application forms. It has no "book a call".
+  This is the link to send to job seekers.
+- Both forms block double submissions. The certificate ID prefix in the training program is now `LVA-ISA-`.

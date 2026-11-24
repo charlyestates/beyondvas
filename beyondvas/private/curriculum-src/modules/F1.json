@@ -1,10 +1,10 @@
 {
   "id": "F1",
   "part": "foundations",
-  "title": "Welcome to BeyondVAs",
-  "summary": "How BeyondVAs works, how this certification program works, who supports you, how you work with your client, and how you get paid.",
+  "title": "Welcome to LockedIn VAs",
+  "summary": "How LockedIn VAs works, how this certification program works, who supports you, how you work with your client, and how you get paid.",
   "objectives": [
-    "Explain in your own words what BeyondVAs does, what it believes and what a client expects from you.",
+    "Explain in your own words what LockedIn VAs does, what it believes and what a client expects from you.",
     "Plan your study of this program: the modules, the practice assignments, the quizzes and how to send work to your coach.",
     "Name the people around you (coordinator, coach, client) and know which one to contact for each kind of problem.",
     "Describe your first 30 days with a client: the kickoff, the check-ins on days 5, 14 and 30, the daily report and the process videos.",
@@ -22,7 +22,7 @@
         },
         {
           "t": "p",
-          "text": "**What BeyondVAs does.** BeyondVAs finds, trains, tracks and pays bilingual virtual assistants (VAs) and inside sales agents (ISAs) from Honduras and Latin America. We place them with real estate agents and teams in the United States. The agent or team you work for is **your client**. The people your client wants to sell homes to, or buy homes from, are **leads** or **prospects**. You never call them “customers” of BeyondVAs: they belong to your client."
+          "text": "**What LockedIn VAs does.** LockedIn VAs finds, trains, tracks and pays bilingual virtual assistants (VAs) and inside sales agents (ISAs) from Honduras and Latin America. We place them with real estate agents and teams in the United States. The agent or team you work for is **your client**. The people your client wants to sell homes to, or buy homes from, are **leads** or **prospects**. You never call them “customers” of LockedIn VAs: they belong to your client."
         },
         {
           "t": "p",
@@ -72,7 +72,7 @@
         },
         {
           "t": "p",
-          "text": "**What this means for you.** Your client will judge BeyondVAs by you. Your coordinator will defend you, coach you and help you when something goes wrong. In return we ask for honesty, reliability and effort. If you give those three, the rest can be taught, and this program is where we teach it."
+          "text": "**What this means for you.** Your client will judge LockedIn VAs by you. Your coordinator will defend you, coach you and help you when something goes wrong. In return we ask for honesty, reliability and effort. If you give those three, the rest can be taught, and this program is where we teach it."
         },
         {
           "t": "callout",
@@ -104,7 +104,7 @@
           "rows": [
             [
               "Foundations",
-              "F1 Welcome to BeyondVAs",
+              "F1 Welcome to LockedIn VAs",
               "How the company, your coordinator, your client and your pay work"
             ],
             [
@@ -154,7 +154,7 @@
         },
         {
           "t": "p",
-          "text": "**Your coach.** A BeyondVAs coach reviews your practice deliverables and gives you feedback. Sometimes your coach asks you to repeat a role-play. That is normal. It does not mean you failed; it means the coach wants you to sound confident before a real lead hears you. On the ISA track, the program ends with supervised calls scored on our 100-point quality rubric, where the standard is 90 or more. You will learn the rubric in module I11."
+          "text": "**Your coach.** A LockedIn VAs coach reviews your practice deliverables and gives you feedback. Sometimes your coach asks you to repeat a role-play. That is normal. It does not mean you failed; it means the coach wants you to sound confident before a real lead hears you. On the ISA track, the program ends with supervised calls scored on our 100-point quality rubric, where the standard is 90 or more. You will learn the rubric in module I11."
         },
         {
           "t": "callout",
@@ -223,7 +223,7 @@
         },
         {
           "t": "p",
-          "text": "When you finish, you will know more about US real estate operations than many new agents do. That is the goal. Our clients choose BeyondVAs because our assistants arrive ready."
+          "text": "When you finish, you will know more about US real estate operations than many new agents do. That is the goal. Our clients choose LockedIn VAs because our assistants arrive ready."
         }
       ]
     },
@@ -234,7 +234,7 @@
       "body": [
         {
           "t": "p",
-          "text": "You never work alone at BeyondVAs. Three kinds of people are around you, and each one has a different job. Knowing who to contact for each problem saves time and protects you."
+          "text": "You never work alone at LockedIn VAs. Three kinds of people are around you, and each one has a different job. Knowing who to contact for each problem saves time and protects you."
         },
         {
           "t": "table",
@@ -251,28 +251,28 @@
             ],
             [
               "Your coordinator (manager)",
-              "A BeyondVAs manager who backs you up and manages the relationship with the client.",
+              "A LockedIn VAs manager who backs you up and manages the relationship with the client.",
               "Schedule, pay, time tracking, outages, days off, conflicts, anything that feels wrong"
             ],
             [
               "Your coach",
-              "A BeyondVAs trainer, sometimes the same person as your coordinator.",
+              "A LockedIn VAs trainer, sometimes the same person as your coordinator.",
               "Training questions, practice feedback, call quality, scripts and role-plays"
             ]
           ]
         },
         {
           "t": "p",
-          "text": "**The client directs the work.** You are an independent professional engaged through BeyondVAs, and the client decides what you work on each day: which leads to call, which tasks come first, how they like their CRM. Follow their process. If you think a process could be better, suggest it politely, but keep following the current process until they agree to change it."
+          "text": "**The client directs the work.** You are an independent professional engaged through LockedIn VAs, and the client decides what you work on each day: which leads to call, which tasks come first, how they like their CRM. Follow their process. If you think a process could be better, suggest it politely, but keep following the current process until they agree to change it."
         },
         {
           "t": "p",
-          "text": "**The coordinator carries the relationship.** BeyondVAs holds the agreements, the monitoring and the payments. Your coordinator runs the kickoff with your client, checks in with them during your first month and reviews your time before the client is billed. Your coordinator is on your side. When something goes wrong, the coordinator wants to hear it from you first, not from the client."
+          "text": "**The coordinator carries the relationship.** LockedIn VAs holds the agreements, the monitoring and the payments. Your coordinator runs the kickoff with your client, checks in with them during your first month and reviews your time before the client is billed. Your coordinator is on your side. When something goes wrong, the coordinator wants to hear it from you first, not from the client."
         },
         {
           "t": "callout",
           "title": "The client channel",
-          "text": "Your client talks to you **only inside the client channel** that BeyondVAs sets up. No private direct messages, no personal WhatsApp, no personal email. If a client sends you a private message, answer politely in the channel: “Thanks, Mark! Moving this to our channel so everything stays in one place.” This protects you, the client and the record of what was agreed."
+          "text": "Your client talks to you **only inside the client channel** that LockedIn VAs sets up. No private direct messages, no personal WhatsApp, no personal email. If a client sends you a private message, answer politely in the channel: “Thanks, Mark! Moving this to our channel so everything stays in one place.” This protects you, the client and the record of what was agreed."
         },
         {
           "t": "p",
@@ -350,8 +350,8 @@
           "t": "steps",
           "items": [
             "**Interviews.** After a client signs, they meet two or three trained VAs on short video interviews and choose one. Camera on, quiet room, good light, a clean background. Prepare two sentences about yourself and one question about their business.",
-            "**Setup week.** BeyondVAs sets up your Hubstaff tracking account, the client’s access to your hours and screenshots, and secure access to the client’s tools through the password vault. You check that every login works before day one.",
-            "**Day one: the kickoff.** A BeyondVAs manager runs a kickoff call with you and the client. Together you set week-one priorities, your schedule in the client’s time zone and how the client wants to be updated.",
+            "**Setup week.** LockedIn VAs sets up your Hubstaff tracking account, the client’s access to your hours and screenshots, and secure access to the client’s tools through the password vault. You check that every login works before day one.",
+            "**Day one: the kickoff.** A LockedIn VAs manager runs a kickoff call with you and the client. Together you set week-one priorities, your schedule in the client’s time zone and how the client wants to be updated.",
             "**Week one: learn their business.** The client screen-shares their top five tasks. You record each process as a short video and write a checklist for it. There is a short daily check-in, usually about ten minutes.",
             "**Days 5, 14 and 30: check-ins.** Your manager checks in with the client, and with you, to see what is working and what needs to change. After day 30, weekly reports continue."
           ]
@@ -451,7 +451,7 @@
         },
         {
           "t": "p",
-          "text": "**Your status.** You are an **independent contractor** engaged and paid through BeyondVAs. You are not an employee of your client. The client never pays you directly, and you never send invoices to the client. BeyondVAs bills the client and pays you. This protects you: you never have to chase a client for money. As an independent contractor, you are responsible for your own taxes and registrations in your country; if you are not sure what applies to you, ask a local accountant."
+          "text": "**Your status.** You are an **independent contractor** engaged and paid through LockedIn VAs. You are not an employee of your client. The client never pays you directly, and you never send invoices to the client. LockedIn VAs bills the client and pays you. This protects you: you never have to chase a client for money. As an independent contractor, you are responsible for your own taxes and registrations in your country; if you are not sure what applies to you, ask a local accountant."
         },
         {
           "t": "table",
@@ -474,7 +474,7 @@
             ],
             [
               "Who pays",
-              "BeyondVAs, using the payment method you set up during onboarding"
+              "LockedIn VAs, using the payment method you set up during onboarding"
             ],
             [
               "Pay calendar",
@@ -493,7 +493,7 @@
         {
           "t": "callout",
           "title": "Clock in only when you work",
-          "text": "Clock in when you start working for the client. Clock out for lunch, breaks, personal calls and errands. Never leave the tracker running while you are away, and never use any tool or trick that fakes activity. Fake activity is fraud. It ends the placement and the relationship with BeyondVAs."
+          "text": "Clock in when you start working for the client. Clock out for lunch, breaks, personal calls and errands. Never leave the tracker running while you are away, and never use any tool or trick that fakes activity. Fake activity is fraud. It ends the placement and the relationship with LockedIn VAs."
         },
         {
           "t": "p",
@@ -564,15 +564,15 @@
   },
   "quiz": [
     {
-      "q": "A client is a US real estate team. In BeyondVAs language, what are the people that team wants to help buy or sell homes?",
+      "q": "A client is a US real estate team. In LockedIn VAs language, what are the people that team wants to help buy or sell homes?",
       "options": [
-        "BeyondVAs customers",
+        "LockedIn VAs customers",
         "Leads or prospects of your client",
         "Your clients",
         "Contractors"
       ],
       "answer": 1,
-      "explain": "Your client is the agent or team you work for. The people they want to work with are their leads or prospects. They belong to your client, not to BeyondVAs."
+      "explain": "Your client is the agent or team you work for. The people they want to work with are their leads or prospects. They belong to your client, not to LockedIn VAs."
     },
     {
       "q": "Your client sends you a private direct message asking you to call a lead. What do you do?",
@@ -608,15 +608,15 @@
       "explain": "A channel is a shared memory. Private messages get lost or misread; the channel shows what was agreed and gives you backup."
     },
     {
-      "q": "When are BeyondVAs VAs paid?",
+      "q": "When are LockedIn VAs VAs paid?",
       "options": [
         "Every Friday, by the client",
         "Once a month in local currency",
         "When the client approves each task",
-        "Twice a month, on the 5th and the 20th, in US dollars, by BeyondVAs"
+        "Twice a month, on the 5th and the 20th, in US dollars, by LockedIn VAs"
       ],
       "answer": 3,
-      "explain": "You are an independent contractor paid in USD by BeyondVAs on the 5th and the 20th. The client never pays you directly."
+      "explain": "You are an independent contractor paid in USD by LockedIn VAs on the 5th and the 20th. The client never pays you directly."
     },
     {
       "q": "You are an ISA on a 20-minute call with a lead, and you barely touch the keyboard. What should you do in Hubstaff?",

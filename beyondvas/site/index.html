@@ -1,5 +1,5 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0F2247"><meta property="og:title" content="BeyondVAs | Bilingual VAs and ISAs for Real Estate Teams"><meta property="og:site_name" content="BeyondVAs"><meta property="og:description" content="Bilingual, sales-trained virtual assistants and ISAs from Honduras and across Latin America for real estate teams, in every US time zone. A fraction of a US hire, screenshots about every two minutes, 90-day fit guarantee."><meta property="og:type" content="website"><style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-family:system-ui,sans-serif;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>BeyondVAs | Bilingual VAs and ISAs for Real Estate Teams</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#0F2247"><meta property="og:title" content="LockedIn VAs | Bilingual VAs and ISAs for Real Estate Teams"><meta property="og:site_name" content="LockedIn VAs"><meta property="og:description" content="Bilingual, sales-trained virtual assistants and ISAs from Honduras and across Latin America for real estate teams, in every US time zone. A fraction of a US hire, screenshots about every two minutes, 90-day fit guarantee."><meta property="og:type" content="website"><style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-family:system-ui,sans-serif;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>LockedIn VAs | Bilingual VAs and ISAs for Real Estate Teams</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta name="description" content="Bilingual, sales-trained virtual assistants and ISAs from Honduras and across Latin America for real estate teams, in every US time zone. A fraction of a US hire, screenshots about every two minutes, 90-day fit guarantee.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -132,7 +132,6 @@ img{max-width:100%}
 .navcta .btn{gap:0}
 @media (min-width:1200px) and (max-width:1399px){.brand .tag{display:none}}
 @media (max-width:560px){.hide-s{display:none}.navcta{gap:6px}.navcta .btn{padding:8px 11px}}
-@media (max-width:430px){.navcta .btn-gold{display:none}}
 /* Seven links fit on one line from 1200px; below that the Menu button takes over. The tagline drops out where it would wrap. */
 @media (min-width:1200px) and (max-width:1279px){.brand .tag{display:none}}
 @media (max-width:1199px){
@@ -447,27 +446,58 @@ footer a{color:var(--fg-2);text-decoration:none}
 footer a:hover{color:var(--blue)}
 footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px;margin-top:10px;font-size:13.5px;max-width:100ch}
 .copybtn{background:var(--bg-2);border:1px solid var(--line);color:var(--blue);border-radius:6px;padding:3px 9px;font:inherit;font-size:12.5px;cursor:pointer;margin-left:8px}
+/* LockedIn VAs brand */
+.brand svg{width:34px;height:40px}
+.brand .word{display:inline-flex;align-items:center;gap:.12em;letter-spacing:.02em}
+.brand .word .in{background:var(--btn-gold);color:#2A1E00;border-radius:5px;padding:.06em .2em .02em;line-height:1}
+.brand .word .vas{color:var(--gold-deep);font-size:.72em;align-self:flex-end;padding-bottom:.08em;text-transform:none}
+@media (max-width:960px){.brand svg{width:27px;height:32px}}
+/* benefits grid */
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
+@media (max-width:900px){.benefits{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.benefits{grid-template-columns:1fr}}
+.benefit{padding:24px 22px}
+.benefit .bi{width:44px;height:44px;border-radius:12px;background:var(--gold-soft);color:var(--gold-deep);display:grid;place-items:center;margin-bottom:14px}
+.benefit h3{font-size:24px;font-weight:800;margin-bottom:8px}
+.benefit p{font-size:15.5px;color:var(--fg-2)}
+/* applicant page */
+.jhero .wrap{display:block}
+.jhero h1{max-width:16ch}
+.jhero .lead{margin-top:18px}
+.jhero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px;align-items:center}
+.jchips{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:22px;padding:0;list-style:none}
+.jchips li{font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--fg-2);background:var(--bg-2);border:1px solid var(--line);border-radius:999px;padding:7px 13px}
+.jsteps{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:36px;padding:0;list-style:none;counter-reset:js}
+@media (max-width:1000px){.jsteps{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.jsteps{grid-template-columns:1fr}}
+.jsteps li{counter-increment:js;background:var(--bg-2);border:1px solid var(--line);border-radius:var(--radius);padding:20px 18px;box-shadow:var(--shadow)}
+.jsteps li::before{content:counter(js);display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:#EA580C;color:#fff;font-family:var(--display);font-weight:800;font-size:20px;margin-bottom:12px}
+.jsteps b{display:block;font-family:var(--display);font-size:22px;font-weight:800;text-transform:uppercase;color:var(--fg);line-height:1.05;margin-bottom:6px}
+.jsteps span{font-size:15px;color:var(--fg-2)}
+.jnote{margin-top:26px;padding:16px 18px;border:2px solid #EA580C;border-radius:12px;background:rgba(234,88,12,.07);font-size:15.5px;color:var(--fg-2);max-width:80ch}
+.jnote b{color:var(--fg)}
+.jfoot{padding:28px 0 40px;border-top:1px solid var(--line);font-size:13.5px;color:var(--fg-3)}
+.jfoot p{max-width:90ch;margin-top:10px}
 </style>
 </head>
 <body>
 
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="#top" aria-label="BeyondVAs home">
-      <svg viewBox="0 0 88 60" aria-hidden="true"><defs><linearGradient id="gm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6E48A"/><stop offset=".5" stop-color="#D4AF37"/><stop offset="1" stop-color="#A5801F"/></linearGradient></defs><path d="M6 44 L44 8 L82 44" fill="none" stroke="url(#gm)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 44 L44 22 L66 44" fill="none" stroke="url(#gm)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="39" y="30" width="10" height="10" rx="1.5" fill="url(#gm)"/><path d="M2 54 H86" stroke="url(#gm)" stroke-width="2" stroke-linecap="round" opacity=".7"/></svg>
-      <span><span class="word"><span class="chrome">BEYOND</span><span class="vas">VAs</span></span><span class="tag">Bilingual virtual assistants</span></span>
+    <a class="brand" href="#top" aria-label="LockedIn VAs home">
+      <svg viewBox="0 0 48 56" aria-hidden="true"><defs><linearGradient id="gm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6D365"/><stop offset=".55" stop-color="#F4B62E"/><stop offset="1" stop-color="#B8860B"/></linearGradient></defs><path d="M14 25V16a10 10 0 0 1 20 0v9" fill="none" stroke="url(#gm)" stroke-width="5.5" stroke-linecap="round"/><rect x="5" y="23" width="38" height="30" rx="8" fill="url(#gm)"/><path d="M14.5 41 L24 31.5 L33.5 41" fill="none" stroke="#0F2247" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="21.4" y="40" width="5.2" height="6.4" rx="1.2" fill="#0F2247"/></svg>
+      <span><span class="word"><span class="chrome">LOCKED</span><span class="in">IN</span><span class="vas">VAs</span></span><span class="tag">Bilingual virtual assistants</span></span>
     </a>
     <nav class="navlinks" id="navlinks" aria-label="Site">
+      <a href="#benefits">Benefits</a>
       <a href="#roles">What your VA does</a>
       <a href="#pricing">What's included</a>
       <a href="#how">How it works</a>
       <a href="#guarantee">Guarantee</a>
       <a href="#faq">FAQ</a>
-      <a href="#apply" class="va">For VAs · <span lang="es">Aplica aquí</span></a>
     </nav>
     <div class="navcta">
-      <a class="btn btn-apply btn-sm" href="#apply">Apply<span class="hide-s">&nbsp;as a VA</span></a>
-      <a class="btn btn-gold btn-sm" href="#book">Hire<span class="hide-s">&nbsp;a VA</span></a>
+      <a class="btn btn-gold btn-sm" href="#book">Book a call</a>
       <button class="menubtn" id="menubtn" aria-expanded="false" aria-controls="navlinks">Menu</button>
     </div>
   </div>
@@ -481,12 +511,11 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
     <div>
       <div class="eyebrow">A Beyond company · Talent in Honduras and across Latin America · English + Spanish</div>
       <h1><span class="chrome">A bilingual, sales-trained assistant for a fraction of a US hire.</span> <span class="gold">Tracked. Trained. Guaranteed.</span></h1>
-      <p class="lead"><strong>BeyondVAs finds, trains, tracks and pays a bilingual assistant or inside sales agent for your real estate business.</strong> You hand off the busywork. You keep the appointments.</p>
+      <p class="lead"><strong>LockedIn VAs finds, trains, tracks and pays a bilingual assistant or inside sales agent for your real estate business.</strong> You hand off the busywork. You keep the appointments.</p>
       <div class="ctas">
         <a class="btn btn-gold" href="#book">Book a 15-minute call</a>
         <a class="btn btn-ghost" href="#roles">See what your VA will do</a>
       </div>
-      <p class="hero-apply">Looking for work as a VA? <a href="#apply">Apply here &rarr;</a> <span lang="es">· ¿Buscas trabajo? <a href="#aplica">Aplica aquí</a></span></p>
       <div class="proof">
         <span>One-time setup, then tracked hours only</span><span>Available for all US time zones</span><span>90-day fit guarantee</span><span>9-month replacement</span><span>Screenshots about every 2 minutes</span><span>Cancel with two weeks' notice</span>
       </div>
@@ -522,6 +551,27 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
   </div>
 </section>
 
+<!-- BENEFITS -->
+<section class="section" id="benefits">
+  <div class="wrap">
+    <div class="eyebrow">Why teams lock in</div>
+    <h2 class="h2">Everything a great hire gives you. <span class="gold">None of the overhead.</span></h2>
+    <p class="lead">A LockedIn VA is recruited, trained, tracked and managed for you, so the only thing you do is hand off the work.</p>
+    <div class="benefits">
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h9M8.5 3v2M6 9c1.5 3 4 5 7 6M12 5c-.8 4-3.5 8-8 10"/><path d="M13 21l4-9 4 9M14.5 18h5"/></svg></div><h3>Truly bilingual</h3><p>Native Spanish and screened, confident English. Your Spanish-speaking leads get called back in Spanish instead of going to voicemail.</p></div>
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></div><h3>Sales-trained before day one</h3><p>Every ISA finishes our certification program first: speed to lead, qualifying, objections, CRM habits and compliance.</p></div>
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></div><h3>Leads answered in minutes</h3><p>New leads get a call while they are still on the page, then steady follow-up until an appointment is on your calendar.</p></div>
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>You see the work</h3><p>Clock in and out, random screenshots about every two minutes, and weekly hour reports. You pay for tracked hours only.</p></div>
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="4"/><path d="M2 21a7 7 0 0 1 14 0M17 11l2 2 4-4"/></svg></div><h3>Managed for you</h3><p>We recruit, vet, train, coach and replace. A manager reviews hours before billing and stays on your account.</p></div>
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Guaranteed fit</h3><p>A 90-day fit guarantee and a 9-month replacement guarantee. If it is not working, we replace your VA at no new setup fee.</p></div>
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div><h3>A fraction of a US hire</h3><p>No payroll taxes, benefits or desk. One simple invoice from us, and we pay your VA on time, every time.</p></div>
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></div><h3>On your clock</h3><p>Your VA works your business hours in Pacific, Mountain, Central or Eastern time, inside your own tools and phone system.</p></div>
+      <div class="card benefit"><div class="bi" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div><h3>Your data stays yours</h3><p>Signed confidentiality, a password vault instead of shared logins, and access removed the day a VA leaves.</p></div>
+    </div>
+    <div class="after-cta" style="justify-content:center"><a class="btn btn-gold" href="#book">Book a 15-minute call</a></div>
+  </div>
+</section>
+
 <!-- BOTTLENECK -->
 <section class="section" id="bottleneck">
   <div class="wrap twocol">
@@ -530,8 +580,8 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <h2 class="h2">You are the most expensive admin <span class="gold">in your office.</span></h2>
     </div>
     <div>
-      <p class="lead">Count the hours you spent last week on CRM entry, listing input, scheduling, confirmations and follow-up. Put a price on each one. A BeyondVA does that work for a fraction of a US hire, and every one of those hours is an hour you were not listing, showing or negotiating. That is the real cost.</p>
-      <p class="lead"><strong>Every big team started with one assistant.</strong> That hire gave the team leader the hours to build it. We built BeyondVAs so that first hire is cheap to try and easy to undo.</p>
+      <p class="lead">Count the hours you spent last week on CRM entry, listing input, scheduling, confirmations and follow-up. Put a price on each one. A LockedIn VA does that work for a fraction of a US hire, and every one of those hours is an hour you were not listing, showing or negotiating. That is the real cost.</p>
+      <p class="lead"><strong>Every big team started with one assistant.</strong> That hire gave the team leader the hours to build it. We built LockedIn VAs so that first hire is cheap to try and easy to undo.</p>
     </div>
   </div>
 </section>
@@ -541,7 +591,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
   <div class="wrap">
     <div class="eyebrow">What changes the day your VA clocks in</div>
     <h2 class="h2">Imagine your next repetitive task. <span class="gold">Now imagine you never did it again.</span></h2>
-    <p class="lead">Every line below is a task a BeyondVA is trained to take over, starting with the ones we hand off in our own real estate business. Pick the ones eating your week.</p>
+    <p class="lead">Every line below is a task a LockedIn VA is trained to take over, starting with the ones we hand off in our own real estate business. Pick the ones eating your week.</p>
     <div class="grid">
       <div class="im"><b>Imagine</b><span>every new lead gets a <strong>call back in under five minutes</strong>, even while you are in a showing.</span></div>
       <div class="im"><b>Imagine</b><span>opening your calendar on Monday and finding <strong>six appointments you did not set</strong>.</span></div>
@@ -568,7 +618,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
   <div class="wrap">
     <div class="eyebrow">What your VA does</div>
     <h2 class="h2">Built for real estate. <span class="gold">Open to every industry.</span></h2>
-    <p class="lead">Pick your seat. These are the tasks to hand a BeyondVA in the first 30 days.</p>
+    <p class="lead">Pick your seat. These are the tasks to hand a LockedIn VA in the first 30 days.</p>
     <div class="tabs" role="tablist" aria-label="Choose your role">
       <button class="tab" role="tab" aria-selected="true" aria-controls="r-solo" id="t-solo">Solo agent</button>
       <button class="tab" role="tab" aria-selected="false" aria-controls="r-team" id="t-team">Team leader</button>
@@ -607,7 +657,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       </ul>
     </div>
     <div class="panel" role="tabpanel" id="r-broker" aria-labelledby="t-broker" hidden>
-      <div><h3>Recruit, retain and run the office for a fraction of a US hire.</h3><p class="why">Brokerages lose agents to slow onboarding and silent phones. A BeyondVA answers every call, chases every file, and makes recruiting calls every afternoon.</p></div>
+      <div><h3>Recruit, retain and run the office for a fraction of a US hire.</h3><p class="why">Brokerages lose agents to slow onboarding and silent phones. A LockedIn VA answers every call, chases every file, and makes recruiting calls every afternoon.</p></div>
       <ul class="tasks">
         <li>Recruiting calls and appointment setting with agents</li>
         <li>Agent onboarding and compliance file checks</li>
@@ -659,7 +709,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       </ul>
     </div>
     <div class="panel" role="tabpanel" id="r-any" aria-labelledby="t-any" hidden>
-      <div><h3>If it happens on a phone or a screen, your VA can do it.</h3><p class="why">Law offices, contractors, insurance agencies, e-commerce stores and service businesses can use a BeyondVA the same way: dedicated, bilingual, tracked, guaranteed.</p></div>
+      <div><h3>If it happens on a phone or a screen, your VA can do it.</h3><p class="why">Law offices, contractors, insurance agencies, e-commerce stores and service businesses can use a LockedIn VA the same way: dedicated, bilingual, tracked, guaranteed.</p></div>
       <ul class="tasks">
         <li>Phones, customer service and appointment setting</li>
         <li>Order, inventory and scheduling admin</li>
@@ -714,7 +764,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <div class="card">
         <div class="big gold">One-time setup</div>
         <h4>Charged once per VA, when you sign</h4>
-        <ul><li>Recruiting, interviews and vetting</li><li>BeyondVAs onboarding training</li><li>Clock-in and screenshot tracking account</li><li>Your own access to hours and screenshots</li><li>Billing setup: one invoice, we pay your VA</li><li>Kickoff with a BeyondVAs manager</li></ul>
+        <ul><li>Recruiting, interviews and vetting</li><li>LockedIn VAs onboarding training</li><li>Clock-in and screenshot tracking account</li><li>Your own access to hours and screenshots</li><li>Billing setup: one invoice, we pay your VA</li><li>Kickoff with a LockedIn VAs manager</li></ul>
       </div>
       <div class="card">
         <div class="big chrome">Every hour</div>
@@ -731,7 +781,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
   <div class="wrap">
     <div class="eyebrow">Do the math</div>
     <h2 class="h2">What a US hire really costs you.</h2>
-    <p class="lead">A US admin or ISA costs wages plus payroll taxes, benefits, equipment and turnover. Move the sliders to your market, then ask us for the BeyondVA number on your call.</p>
+    <p class="lead">A US admin or ISA costs wages plus payroll taxes, benefits, equipment and turnover. Move the sliders to your market, then ask us for the LockedIn VA number on your call.</p>
     <div class="calc">
       <div class="card">
         <div class="field"><label for="hours">Hours per week <output id="hoursOut" class="num">40</output></label><input type="range" id="hours" min="20" max="40" step="5" value="40"></div>
@@ -745,7 +795,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
           <div class="res"><span>US hire, per month</span><b class="num" id="usMonth">$7,430</b></div>
           <div class="res big cost"><span>US hire, per year</span><b class="num" id="usYear">$89,163</b></div>
           <div class="res"><span>Closings per year just to cover that hire</span><b class="num" id="deals">9.9</b></div>
-          <div class="res gold-line"><span>A BeyondVA runs a fraction of this. We put your exact number in front of you on the call.</span></div>
+          <div class="res gold-line"><span>A LockedIn VA runs a fraction of this. We put your exact number in front of you on the call.</span></div>
         </div>
         <p class="note">Monthly figures use 4.33 weeks. Defaults: $21 is the average advertised wage for a US real estate assistant (<a href="https://www.indeed.com/salaries/Real-Estate-Assistant-Salaries" target="_blank" rel="noopener">Indeed, October 2026</a>) and $30 our estimate of a US inside-sales base; 43% is what benefits add on top of wages for US private-industry employees (<a href="https://www.bls.gov/news.release/ecec.nr0.htm" target="_blank" rel="noopener">BLS, June 2026</a>). The US cost leaves out recruiting, turnover and office space.</p>
         <div class="cta"><a class="btn btn-gold" href="#book">Book a 15-minute call</a><p>Bring these numbers. If a VA does not pay for itself in your market, we will say so.</p></div>
@@ -761,10 +811,10 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
     <h2 class="h2">Three ways to get help. <span class="gold">One of them is low-risk.</span></h2>
     <div class="tablewrap">
       <table>
-        <thead><tr><th scope="col">What you deal with</th><th scope="col">US employee</th><th scope="col">Freelancer you find yourself</th><th scope="col" class="you">BeyondVA</th></tr></thead>
+        <thead><tr><th scope="col">What you deal with</th><th scope="col">US employee</th><th scope="col">Freelancer you find yourself</th><th scope="col" class="you">LockedIn VA</th></tr></thead>
         <tbody>
           <tr><th scope="row">Hourly cost</th><td class="meh">About $21 average wage, plus about 43% in benefits and taxes</td><td class="meh">You negotiate it; rates vary widely</td><td class="you">A fraction of a US hire, with training, tracking and management included; exact rate on your call</td></tr>
-          <tr><th scope="row">Payroll taxes, workers' comp, benefits</th><td class="meh">You carry them</td><td class="meh">None, but you are on your own</td><td class="you">None to administer. Your VA is engaged and paid through BeyondVAs.</td></tr>
+          <tr><th scope="row">Payroll taxes, workers' comp, benefits</th><td class="meh">You carry them</td><td class="meh">None, but you are on your own</td><td class="you">None to administer. Your VA is engaged and paid through LockedIn VAs.</td></tr>
           <tr><th scope="row">Recruiting and vetting</th><td class="meh">Weeks of your time</td><td class="meh">Hours of your time, every time</td><td class="you">Done before you meet them</td></tr>
           <tr><th scope="row">Training</th><td class="meh">You train them</td><td class="meh">You train them</td><td class="you">Trained before day one, plus monthly for life</td></tr>
           <tr><th scope="row">Knowing they are working</th><td class="meh">Walk by their desk</td><td class="meh">Trust</td><td class="you">Screenshots about every 2 minutes, hourly reports, your own report access</td></tr>
@@ -773,7 +823,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
           <tr><th scope="row">Paying them</th><td class="meh">Payroll service and filings</td><td class="meh">Wires, PayPal, Western Union fees</td><td class="you">One invoice. We pay your VA.</td></tr>
           <tr><th scope="row">Bilingual</th><td class="meh">Sometimes</td><td class="meh">Sometimes</td><td class="you">Always, English and Spanish</td></tr>
           <tr><th scope="row">Trained for sales calls</th><td class="meh">Rarely</td><td class="meh">Rarely</td><td class="you">Scripts, role-play and mock calls before placement</td></tr>
-          <tr><th scope="row">Who manages them</th><td class="meh">You</td><td class="meh">You</td><td class="you">A BeyondVAs manager, with you</td></tr>
+          <tr><th scope="row">Who manages them</th><td class="meh">You</td><td class="meh">You</td><td class="you">A LockedIn VAs manager, with you</td></tr>
         </tbody>
       </table>
     </div>
@@ -789,7 +839,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <div class="card step"><h3>Book a 15-minute call</h3><p>Tell us the five tasks you want gone first. We map the role, the hours, your lead flow and the tools you already use.</p><em>Today</em></div>
       <div class="card step"><h3>Sign, then meet your candidates</h3><p>Sign the services agreement and pay the one-time setup, then meet two or three pre-vetted, trained VAs on 20-minute video interviews. You choose.</p><em>3 to 5 business days</em></div>
       <div class="card step"><h3>We set everything up</h3><p>Tracking account, your report access, billing, and secure access to your tools through a password vault.</p><em>Setup week</em></div>
-      <div class="card step"><h3>Day one, with a manager</h3><p>A BeyondVAs manager runs the kickoff, sets week-one priorities, and checks in at days 5, 14 and 30.</p><em>Then weekly reports</em></div>
+      <div class="card step"><h3>Day one, with a manager</h3><p>A LockedIn VAs manager runs the kickoff, sets week-one priorities, and checks in at days 5, 14 and 30.</p><em>Then weekly reports</em></div>
     </div>
   </div>
 </section>
@@ -816,7 +866,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <div class="card pillar">
         <div class="ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/><path d="M6 12h.01M18 12h.01"/></svg></div>
         <h3>One invoice. We pay your VA.</h3>
-        <p>No Western Union, no PayPal fees, no wires, no exchange-rate guesswork. You pay BeyondVAs in two-week blocks, trued up to tracked hours. We pay your VA on time, every time.</p>
+        <p>No Western Union, no PayPal fees, no wires, no exchange-rate guesswork. You pay LockedIn VAs in two-week blocks, trued up to tracked hours. We pay your VA on time, every time.</p>
         <ul><li>Card or bank account on file</li><li>Hours reviewed by a manager before billing</li><li>Full accountability, both directions</li></ul>
       </div>
     </div>
@@ -850,11 +900,11 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <div class="card no"><b>Health benefits</b><p>No plans, no enrollment, no renewals.</p></div>
       <div class="card no"><b>Unemployment claims</b><p>No state unemployment account or claims.</p></div>
       <div class="card no"><b>Office and equipment</b><p>Your VA works from a vetted home office with their own computer.</p></div>
-      <div class="card no"><b>HR paperwork</b><p>Agreements, confidentiality and onboarding are handled by BeyondVAs.</p></div>
+      <div class="card no"><b>HR paperwork</b><p>Agreements, confidentiality and onboarding are handled by LockedIn VAs.</p></div>
       <div class="card no"><b>International transfers</b><p>No wires, no transfer apps, no exchange rates. One invoice.</p></div>
       <div class="card no"><b>Recruiting fees</b><p>Sourcing, vetting and interviews are inside the one-time setup.</p></div>
     </div>
-    <p class="carrynote">Your VA is an independent professional engaged and paid through BeyondVAs. You direct the work; we carry the relationship, the agreements, the monitoring and the payments. You keep what every business keeps: your own licensing, calling-consent and client-data responsibilities. We train your VA on all three.</p>
+    <p class="carrynote">Your VA is an independent professional engaged and paid through LockedIn VAs. You direct the work; we carry the relationship, the agreements, the monitoring and the payments. You keep what every business keeps: your own licensing, calling-consent and client-data responsibilities. We train your VA on all three.</p>
   </div>
 </section>
 
@@ -877,7 +927,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
         <li><b>Lifestyle</b><span>Available for your full US business-hours schedule, a reliable routine, long-term intent</span></li>
         <li><b>Skills</b><span>Typing, written English, a mock sales call and a CRM task</span></li>
         <li><b>Background</b><span>ID, references from recent employers, police record certificate</span></li>
-        <li><b>Training</b><span>BeyondVAs onboarding academy, certified before placement</span></li>
+        <li><b>Training</b><span>LockedIn VAs onboarding academy, certified before placement</span></li>
       </ul>
     </div>
     <ul class="inds" aria-label="Industries we serve">
@@ -894,7 +944,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <h2 class="h2">We run our own real estate business on VAs we recruited and trained <span class="gold">in Latin America, the same way.</span></h2>
     </div>
     <div>
-      <p class="lead">BeyondVAs comes from Beyond Estates, a real estate team in California's Antelope Valley. We hired bilingual assistants in Honduras for ourselves first, and we built the vetting, training, tracking and payment system because we needed it. Our recruiting team, led from Honduras, now screens and prepares VAs across Latin America.</p>
+      <p class="lead">LockedIn VAs comes from Beyond Estates, a real estate team in California's Antelope Valley. We hired bilingual assistants in Honduras for ourselves first, and we built the vetting, training, tracking and payment system because we needed it. Our recruiting team, led from Honduras, now screens and prepares VAs across Latin America.</p>
       <p class="lead">Beyond Estates is our sister company. We are new as a company, and small on purpose: we onboard about five new clients a month so every VA is trained properly and every kickoff has a manager on the call. <strong>Our first clients get founder-level attention.</strong></p>
     </div>
   </div>
@@ -910,20 +960,20 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       <details><summary>What time zone are they in?</summary><p>Yours. Our VAs are in Honduras and across Latin America, between one hour behind and three hours ahead of US Central Time depending on the season, so we match a VA to your schedule whether you are on Pacific, Mountain, Central or Eastern time. Your VA clocks in and out on your clock.</p></details>
       <details><summary>What does a VA cost?</summary><p>We share exact rates on a 15-minute call. Rates are by role and the same for every client; there is one one-time setup per VA, and after that you pay for tracked hours only. The number is a fraction of a US hire once payroll taxes and benefits are counted, and the calculator above shows what that hire costs you.</p></details>
       <details><summary>How do I know they are actually working?</summary><p>Your VA clocks in and out, their screen is captured about every two minutes, activity is scored, and you get your own access to the hours and screenshots. Unexplained idle time is flagged and reviewed before you are billed. You pay for tracked hours only.</p></details>
-      <details><summary>I cannot afford it right now.</summary><p>A BeyondVA costs a fraction of a US hire, with no payroll taxes, benefits or desk on top, and you pay for tracked hours only from a 20-hour-a-week minimum. Add up the hours you spent last week on CRM entry, listing input, scheduling and follow-up, then ask what those hours would have been worth on appointments. We put the exact number in front of you on the call, and if it does not pay for itself in your market, we will say so.</p></details>
-      <details><summary>How is my client data protected?</summary><p>Every VA signs a confidentiality agreement. Access is granted through a password vault, so passwords are never shared in text, and we revoke access the day a VA leaves and confirm it in writing. VAs work inside your systems and are contractually barred from downloading or exporting client data. Screenshots are stored by our tracking vendor for a limited period and are visible only to you and your BeyondVAs manager, who reviews each week's hours before you are billed. You own every account.</p></details>
+      <details><summary>I cannot afford it right now.</summary><p>A LockedIn VA costs a fraction of a US hire, with no payroll taxes, benefits or desk on top, and you pay for tracked hours only from a 20-hour-a-week minimum. Add up the hours you spent last week on CRM entry, listing input, scheduling and follow-up, then ask what those hours would have been worth on appointments. We put the exact number in front of you on the call, and if it does not pay for itself in your market, we will say so.</p></details>
+      <details><summary>How is my client data protected?</summary><p>Every VA signs a confidentiality agreement. Access is granted through a password vault, so passwords are never shared in text, and we revoke access the day a VA leaves and confirm it in writing. VAs work inside your systems and are contractually barred from downloading or exporting client data. Screenshots are stored by our tracking vendor for a limited period and are visible only to you and your LockedIn VAs manager, who reviews each week's hours before you are billed. You own every account.</p></details>
       <details><summary>Can an unlicensed assistant make calls for me?</summary><p>It depends on your state's rules for unlicensed assistants, and we set your VA's scope to match them. In every state your VA can answer calls, confirm and arrange appointments, relay facts you have already advertised, call your past clients, and do admin. A few states allow more under broker supervision; Texas, for example, does not let an unlicensed assistant call anyone to find out whether they want to buy, sell or lease, even to book a follow-up. Your VA never negotiates, discusses price or terms, or acts as an agent. Do-Not-Call, consent, calling-hour and call-recording rules apply to every call made on your behalf, so compliance is a shared job: you supply scrubbed lists and approve every script; your ISA dials manually, inside legal hours, and honors every opt-out. We confirm your state's rules with you before any outbound work. This is general information, not legal advice.</p></details>
       <details><summary>Will my clients know I use a VA?</summary><p>Only if you want them to. Your VA works from your email domain and your phone system and introduces themselves as your assistant, working on your behalf. What clients notice is that someone answers, and that Spanish-speaking clients get called back in Spanish.</p></details>
-      <details><summary>Can I hire more than one VA?</summary><p>Yes. Each VA has its own one-time setup, its own tracking and its own 90-day and 9-month guarantees. One BeyondVAs manager coordinates the group and you get one invoice.</p></details>
+      <details><summary>Can I hire more than one VA?</summary><p>Yes. Each VA has its own one-time setup, its own tracking and its own 90-day and 9-month guarantees. One LockedIn VAs manager coordinates the group and you get one invoice.</p></details>
       <details><summary>How fast will an ISA produce?</summary><p>Weeks one and two are your scripts, your CRM and your lead sources. Most ISAs set their first appointments in weeks two to four and reach a steady pace by month three. We set dial and conversation targets with you in week one and report them every week. We do not guarantee appointments.</p></details>
       <details><summary>What if my VA quits?</summary><p>We replace them free within nine months, and the new VA studies your SOPs before day one. Your tracking reports, tool access and process documents stay in place.</p></details>
-      <details><summary>What if it is not a good fit?</summary><p>That is what the 90-day guarantee is for. Tell your BeyondVAs manager, we coach first, and if it is still not right we present replacement candidates within ten business days at no new setup fee.</p></details>
-      <details><summary>I tried a VA before and it did not work.</summary><p>Almost every failed VA story has the same three gaps: no training, no tracking, no manager. BeyondVAs provides all three, which is why the hourly rate includes them.</p></details>
+      <details><summary>What if it is not a good fit?</summary><p>That is what the 90-day guarantee is for. Tell your LockedIn VAs manager, we coach first, and if it is still not right we present replacement candidates within ten business days at no new setup fee.</p></details>
+      <details><summary>I tried a VA before and it did not work.</summary><p>Almost every failed VA story has the same three gaps: no training, no tracking, no manager. LockedIn VAs provides all three, which is why the hourly rate includes them.</p></details>
       <details><summary>I do not have time to train someone.</summary><p>Less than you think, but not zero. Your VA arrives trained on real estate vocabulary, phone scripts and common CRMs. What only you can give them is how your business runs: plan on a few hours in week one, which is a kickoff call, screen-sharing your top five tasks, and a ten-minute daily check-in. Your VA records each process into a short video and checklist as you show it, so you explain it once. Our manager runs the kickoff and checks in at days 5, 14 and 30.</p></details>
       <details><summary>I am not big enough for an assistant yet.</summary><p>Nobody feels big enough until after they hire help. Ask a team leader when they hired their first assistant and the usual answer is "later than I should have." Start at 20 hours a week and grow the schedule as the business grows.</p></details>
       <details><summary>Do I have to commit to 40 hours?</summary><p>The minimum is 20 hours a week. We recommend 40: a full-time VA learns your business faster and stays longer.</p></details>
       <details><summary>What do I need to provide?</summary><p>Seats in the tools you already use: a CRM login (Follow Up Boss, kvCORE, Sierra, BoldTrail, Lofty or similar), a calling seat in your CRM dialer or phone system, and an email address on your domain. If you have no dialer, we recommend one on the call. We handle recruiting, training, tracking, management and payment.</p></details>
-      <details><summary>What does the one-time setup cover?</summary><p>Recruiting and vetting, onboarding training, the tracking account, your own access to hours and screenshots, billing setup, and the kickoff with a BeyondVAs manager. It is charged once per VA, when you sign, and we share the amount on your call.</p></details>
+      <details><summary>What does the one-time setup cover?</summary><p>Recruiting and vetting, onboarding training, the tracking account, your own access to hours and screenshots, billing setup, and the kickoff with a LockedIn VAs manager. It is charged once per VA, when you sign, and we share the amount on your call.</p></details>
       <details><summary>Why Latin America instead of the Philippines?</summary><p>Your time zone (we staff Pacific, Mountain, Central and Eastern hours), native Spanish for your bilingual market, strong US call-center culture, and no twelve-hour offset. Your VA is awake when your clients are.</p></details>
       <details><summary>How fast can I start?</summary><p>Interviews within three to five business days, and your VA is clocked in on your systems in about two weeks.</p></details>
       <details><summary>I am not in real estate. Can I still hire?</summary><p>Yes. We started with real estate because that is where we come from, and the same VAs run phones, admin, marketing and customer care for any business.</p></details>
@@ -936,7 +986,6 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
 <section class="section book" id="book">
   <div class="wrap">
     <div>
-      <div class="forwho">For companies hiring a VA</div>
       <div class="eyebrow">Book your call</div>
       <h2 class="h2">Fifteen minutes. <span class="gold">Then your hours come back.</span></h2>
       <p class="lead">Tell us what is eating your week. We will match the role, the hours and the candidates, and you will have interviews scheduled within three to five business days.</p>
@@ -951,7 +1000,6 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
     <div class="card formcard">
       <h3>Request your 15-minute call</h3>
       <p class="sub">No commitment. If a VA is not the right move for you yet, we will say so.</p>
-      <p class="jobnote">Looking for a job as a VA? Please don’t use this form. <a href="#apply">Apply here</a> <span lang="es">· ¿Buscas trabajo? No uses este formulario. <a href="#aplica">Aplica aquí</a></span></p>
       <form id="bookForm" name="book-a-call" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
         <input type="hidden" name="form-name" value="book-a-call">
         <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
@@ -965,161 +1013,10 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
         </div>
         <div class="fl"><label for="b-first">What should your VA take off your plate first?</label><select id="b-first" name="first_task"><option>ISA calls and appointment setting</option><option>Admin, inbox and calendar</option><option>Transaction or listing coordination</option><option>Marketing and social media</option><option>Past-client care calls</option><option>Property management phones</option><option>Not sure yet, let's talk</option></select></div>
         <div class="fl"><label for="b-msg">Anything else (optional)</label><textarea id="b-msg" name="message" rows="2" placeholder="Tools you use, hours, start date"></textarea></div>
-        <button class="btn btn-gold" type="submit">Book my hiring call</button>
-        <p class="consent">By submitting you agree to be contacted by BeyondVAs by phone, text or email about your request.</p>
+        <button class="btn btn-gold" type="submit">Book my call</button>
+        <p class="consent">By submitting you agree to be contacted by LockedIn VAs by phone, text or email about your request.</p>
       </form>
       <div class="ok" id="bookOk" role="status"><h4 tabindex="-1">Got it. We will text you within one business day.</h4><p id="bookOkP">Keep an eye on your phone. If you would rather email us, write to beyondvas@gmail.com.</p><pre id="bookOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="bookCopy" hidden>Copy this request</button></div>
-    </div>
-  </div>
-</section>
-
-<!-- VA APPLY -->
-<section class="section vas" id="apply">
-  <div class="wrap">
-    <div class="langbar">
-      <div class="eyebrow" style="margin:0">For virtual assistants · <span lang="es">Para asistentes virtuales</span></div>
-      <div class="lang" role="group" aria-label="Language"><button type="button" aria-pressed="true" data-lang="en">English</button><button type="button" aria-pressed="false" data-lang="es" lang="es">Español</button></div>
-    </div>
-    <span id="aplica"></span>
-
-    <div class="vagrid" id="va-en">
-      <div>
-        <h2 class="h2">Work with US real estate teams. <span class="gold">Get paid in dollars. Be treated like a professional.</span></h2>
-        <p class="lead">BeyondVAs places bilingual professionals from Honduras and across Latin America with real estate teams and businesses in the United States. We train you, place you, and pay you on time, every time.</p>
-        <div class="applybox"><b>Apply here. This is the only way to apply.</b><p>Please don’t use “Hire a VA” or the call form: those are for companies hiring. We don’t take applications by phone, text or email.</p><a class="btn btn-apply btn-lg" href="#applyForm">Start my application &darr;</a></div>
-        <ul class="offer">
-          <li><b>From home</b><span>100% remote from your home office, in Honduras or anywhere in Latin America, on US daytime hours. No rotating shifts, no night shifts, no commute.</span></li>
-          <li><b>USD pay</b><span>Paid in US dollars twice a month through BeyondVAs. No chasing clients for money. We tell you the exact pay range for the role on the first call, before any test.</span></li>
-          <li><b>Steady hours</b><span>Most placements are 40 hours a week on US business hours with one client; some start at 20 to 30 hours. You are paid for every tracked hour.</span></li>
-          <li><b>Training</b><span>A one-to-two-week onboarding academy before your first placement and a monthly training session for as long as you work with us, both at no cost to you.</span></li>
-          <li><b>Someone on your side</b><span>A BeyondVAs coordinator who handles the client relationship, backs you up and coaches you.</span></li>
-          <li><b>Growth</b><span>A pay review at 90 days, appointment bonuses for ISAs, and a path to team lead and trainer roles.</span></li>
-          <li><b>Respect</b><span>Our clients are real estate professionals who know your work is what grows their business.</span></li>
-        </ul>
-        <div class="contractor"><b>How it works:</b> you work with BeyondVAs as an independent contractor, not as an employee. We pay you in US dollars, we do not withhold taxes, and you are responsible for your own taxes in your country (in Honduras most VAs invoice with an RTN). We walk you through every document before you sign.</div>
-        <div class="req">
-          <h4>What you need</h4>
-          <ul>
-            <li>Fluent English (B2 or better) and native Spanish, spoken and written</li>
-            <li>Internet of at least 25 Mbps down and 5 Mbps up, plus a backup connection on another carrier</li>
-            <li>A private, quiet workspace and a noise-cancelling headset</li>
-            <li>A computer with 8 GB of RAM or more, a webcam, Windows 10/11 or macOS</li>
-            <li>A laptop with hours of battery or a UPS, plus backup power for your modem, for outages</li>
-            <li>Availability for your client's US business hours (Pacific, Mountain, Central or Eastern); we tell you the exact schedule in your local time before you accept a placement</li>
-            <li>Comfortable working with clock-in time tracking and randomized screenshots while on the clock</li>
-            <li>18 or older with a valid government ID; a criminal record certificate (antecedentes penales, or your country's equivalent) is requested only at the final stage, before placement</li>
-            <li>Customer service, call-center or sales experience is a plus</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card formcard applycard">
-        <h3>Apply now</h3>
-        <p class="sub">Takes five minutes. We reply within three business days.</p>
-        <form id="applyForm" name="va-application" method="POST" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" action="/">
-          <input type="hidden" name="form-name" value="va-application">
-          <p class="hp"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-          <div class="f2">
-            <div class="fl"><label for="a-name">Full name</label><input id="a-name" name="name" type="text" required autocomplete="name"></div>
-            <div class="fl"><label for="a-country">Country</label><select id="a-country" name="country" required><option value="" disabled selected>Choose your country</option><option>Honduras</option><option>El Salvador</option><option>Guatemala</option><option>Nicaragua</option><option>Costa Rica</option><option>Panama</option><option>Belize</option><option>Mexico</option><option>Dominican Republic</option><option>Colombia</option><option>Venezuela</option><option>Ecuador</option><option>Peru</option><option>Bolivia</option><option>Chile</option><option>Argentina</option><option>Paraguay</option><option>Uruguay</option><option>Other</option></select></div>
-          </div>
-          <div class="f2">
-            <div class="fl"><label for="a-city">City</label><input id="a-city" name="city" type="text" required placeholder="San Pedro Sula"></div>
-            <div class="fl"><label for="a-email">Email</label><input id="a-email" name="email" type="email" required autocomplete="email"></div>
-          </div>
-          <div class="fl"><label for="a-wa">WhatsApp number, with country code</label><input id="a-wa" name="whatsapp" type="tel" required autocomplete="tel" placeholder="+504 9999-9999"></div>
-          <div class="f2">
-            <div class="fl"><label for="a-eng">English level</label><select id="a-eng" name="english"><option>Advanced (C1+): I can run a sales call with a US client with no trouble</option><option>Upper intermediate (B2): I handle calls and emails in English every day</option><option>Intermediate (B1): I read and write well but speaking is still hard for me</option></select></div>
-            <div class="fl"><label for="a-exp">Experience</label><select id="a-exp" name="experience"><option>Call center or customer service</option><option>Sales or appointment setting</option><option>Virtual assistant or admin</option><option>Real estate</option><option>Recent graduate or first job</option><option>Other</option></select></div>
-          </div>
-          <div class="f2">
-            <div class="fl"><label for="a-speed">Internet speed: paste your speedtest.net result link, or type Mbps down / up</label><input id="a-speed" name="internet" type="text" placeholder="50 / 10" required></div>
-            <div class="fl"><label for="a-pc">Computer (RAM, processor)</label><input id="a-pc" name="computer" type="text" placeholder="8 GB, i5" required></div>
-          </div>
-          <div class="f2">
-            <div class="fl"><label for="a-avail">Availability</label><select id="a-avail" name="availability"><option>Full-time, Pacific hours</option><option>Full-time, Mountain or Central hours</option><option>Full-time, Eastern hours</option><option>Part-time, US hours</option></select></div>
-            <div class="fl"><label for="a-video">Link to a 60-second video intro, in English</label><input id="a-video" name="video" type="text" inputmode="url" autocomplete="url" placeholder="Loom, YouTube or Drive. Optional, but it lets us hear your English before the call."></div>
-          </div>
-          <div class="f2">
-            <div class="fl"><label for="a-ref">Who referred you? (optional)</label><input id="a-ref" name="referral" type="text"></div>
-            <div class="fl"><label for="a-why">Why do you want to work with US teams?</label><textarea id="a-why" name="why" rows="2" required></textarea></div>
-          </div>
-          <div class="fl"><label for="a-file">Upload your resume or a supporting file (optional)</label><input id="a-file" name="attachment" type="file" accept=".pdf,.doc,.docx,.csv,.xls,.xlsx,.txt,.rtf,image/*" data-maxmb="8"><span class="fhint">PDF, Word, Excel, CSV or a photo, up to 8 MB.</span></div>
-          <input type="hidden" name="lang" value="en">
-          <button class="btn btn-apply btn-lg" type="submit">Send my application</button>
-          <p class="consent">By submitting you agree to be contacted by BeyondVAs by WhatsApp, phone or email about your application.</p>
-        </form>
-        <div class="ok" id="applyOk" role="status"><h4 tabindex="-1">Application received. Gracias.</h4><p id="applyOkP">Our Honduras team will reach out on WhatsApp within three business days with next steps.</p><pre id="applyOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="applyCopy" hidden>Copy this application</button></div>
-      </div>
-    </div>
-
-    <div class="vagrid" id="va-es" lang="es" hidden>
-      <div>
-        <h2 class="h2">Trabaja con equipos de bienes raíces en Estados Unidos. <span class="gold">Cobra en dólares. Trabaja con el respeto que mereces.</span></h2>
-        <p class="lead">BeyondVAs coloca a profesionales bilingües de Honduras y de toda Latinoamérica con equipos de bienes raíces y empresas en Estados Unidos. Te capacitamos, te colocamos y te pagamos puntualmente, siempre.</p>
-        <div class="applybox" lang="es"><b>Aplica aquí. Es la única forma de aplicar.</b><p>No uses “Hire a VA” ni el formulario de llamada: son para empresas que contratan. No recibimos aplicaciones por teléfono, mensaje ni correo.</p><a class="btn btn-apply btn-lg" href="#applyFormEs">Empezar mi aplicación &darr;</a></div>
-        <ul class="offer">
-          <li><b>Desde casa</b><span>100% remoto desde tu casa, en Honduras o en cualquier país de Latinoamérica, en horario de día de Estados Unidos. Sin turnos rotativos, sin turnos de madrugada y sin gastar en transporte.</span></li>
-          <li><b>Pago en USD</b><span>Pago en dólares dos veces al mes a través de BeyondVAs. Nunca tienes que perseguir a un cliente por tu pago. Te decimos el rango exacto de pago del rol en la primera llamada, antes de cualquier prueba.</span></li>
-          <li><b>Horas estables</b><span>La mayoría de las colocaciones son de 40 horas semanales en horario de Estados Unidos con un solo cliente; algunas empiezan con 20 a 30 horas. Se te paga cada hora registrada.</span></li>
-          <li><b>Capacitación</b><span>Academia de inducción de una a dos semanas antes de tu primera colocación y una sesión de capacitación cada mes mientras trabajes con nosotros, ambas sin costo para ti.</span></li>
-          <li><b>Alguien de tu lado</b><span>Un coordinador de BeyondVAs que lleva la relación con el cliente, te respalda y te da coaching.</span></li>
-          <li><b>Crecimiento</b><span>Revisión de pago a los 90 días, bonos por citas logradas para los ISA, y camino a roles de líder de equipo y capacitador.</span></li>
-          <li><b>Respeto</b><span>Nuestros clientes son profesionales que saben que tu trabajo es lo que hace crecer su negocio.</span></li>
-        </ul>
-        <div class="contractor"><b>Cómo funciona:</b> trabajas con BeyondVAs como contratista independiente, no como empleado. Te pagamos en dólares, no hacemos retenciones y tú te encargas de tus impuestos en tu país (en Honduras la mayoría factura con su RTN). Te explicamos cada documento antes de que firmes.</div>
-        <div class="req">
-          <h4>Lo que necesitas</h4>
-          <ul>
-            <li>Inglés fluido (B2 o más) hablado y escrito, y español nativo</li>
-            <li>Internet de al menos 25 Mbps de bajada y 5 Mbps de subida, más una conexión de respaldo con otro proveedor</li>
-            <li>Un espacio de trabajo privado y silencioso, y un headset (audífonos con micrófono) con cancelación de ruido</li>
-            <li>Computadora con 8 GB de RAM o más, cámara web, Windows 10/11 o macOS</li>
-            <li>Laptop con varias horas de batería o UPS (batería de respaldo), más respaldo para el módem, para los apagones</li>
-            <li>Disponibilidad en el horario de oficina de tu cliente en Estados Unidos (Pacífico, Montaña, Central o Este); te decimos el horario exacto en tu hora local antes de que aceptes una colocación</li>
-            <li>Cómodo trabajando con registro de horas y capturas de pantalla aleatorias mientras estás en turno</li>
-            <li>Mayor de 18 años con documento de identidad vigente; la constancia de antecedentes penales (o su equivalente en tu país) se pide solo al final del proceso, antes de la colocación, no para aplicar</li>
-            <li>Experiencia en call center, servicio al cliente o ventas es un plus</li>
-          </ul>
-        </div>
-      </div>
-      <div class="card formcard applycard">
-        <h3>Aplica ahora</h3>
-        <p class="sub">Toma cinco minutos. Respondemos en tres días hábiles.</p>
-        <form id="applyFormEs" name="va-application-es" method="POST" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field" action="/">
-          <input type="hidden" name="form-name" value="va-application-es">
-          <p class="hp"><label>Deja esto vacío <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-          <div class="f2">
-            <div class="fl"><label for="e-name">Nombre completo</label><input id="e-name" name="name" type="text" required autocomplete="name"></div>
-            <div class="fl"><label for="e-country">País</label><select id="e-country" name="country" required><option value="" disabled selected>Elige tu país</option><option value="Honduras">Honduras</option><option value="El Salvador">El Salvador</option><option value="Guatemala">Guatemala</option><option value="Nicaragua">Nicaragua</option><option value="Costa Rica">Costa Rica</option><option value="Panama">Panamá</option><option value="Belize">Belice</option><option value="Mexico">México</option><option value="Dominican Republic">República Dominicana</option><option value="Colombia">Colombia</option><option value="Venezuela">Venezuela</option><option value="Ecuador">Ecuador</option><option value="Peru">Perú</option><option value="Bolivia">Bolivia</option><option value="Chile">Chile</option><option value="Argentina">Argentina</option><option value="Paraguay">Paraguay</option><option value="Uruguay">Uruguay</option><option value="Other">Otro</option></select></div>
-          </div>
-          <div class="f2">
-            <div class="fl"><label for="e-city">Ciudad</label><input id="e-city" name="city" type="text" required placeholder="San Pedro Sula"></div>
-            <div class="fl"><label for="e-email">Correo</label><input id="e-email" name="email" type="email" required autocomplete="email"></div>
-          </div>
-          <div class="fl"><label for="e-wa">Número de WhatsApp, con código de país</label><input id="e-wa" name="whatsapp" type="tel" required autocomplete="tel" placeholder="+504 9999-9999"></div>
-          <div class="f2">
-            <div class="fl"><label for="e-eng">Nivel de inglés</label><select id="e-eng" name="english"><option value="Advanced (C1+)">Avanzado (C1 o más): puedo manejar una llamada de ventas con un cliente estadounidense sin problema</option><option value="Upper intermediate (B2)">Intermedio alto (B2): atiendo llamadas y correos en inglés a diario</option><option value="Intermediate (B1)">Intermedio (B1): leo y escribo bien, pero hablar todavía me cuesta</option></select></div>
-            <div class="fl"><label for="e-exp">Experiencia</label><select id="e-exp" name="experience"><option value="Call center or customer service">Call center o servicio al cliente</option><option value="Sales or appointment setting">Ventas o programación de citas</option><option value="Virtual assistant or admin">Asistente virtual o administrativo</option><option value="Real estate">Bienes raíces</option><option value="Recent graduate or first job">Recién graduado o primer empleo</option><option value="Other">Otra</option></select></div>
-          </div>
-          <div class="f2">
-            <div class="fl"><label for="e-speed">Velocidad de internet: pega el enlace de tu resultado de speedtest.net, o escribe Mbps de bajada / subida</label><input id="e-speed" name="internet" type="text" placeholder="50 / 10" required></div>
-            <div class="fl"><label for="e-pc">Computadora (RAM, procesador)</label><input id="e-pc" name="computer" type="text" placeholder="8 GB, i5" required></div>
-          </div>
-          <div class="f2">
-            <div class="fl"><label for="e-avail">Disponibilidad</label><select id="e-avail" name="availability"><option value="Full-time, Pacific hours">Tiempo completo, horario del Pacífico</option><option value="Full-time, Mountain or Central hours">Tiempo completo, horario de Montaña o Central</option><option value="Full-time, Eastern hours">Tiempo completo, horario del Este</option><option value="Part-time, US hours">Medio tiempo, horario de EE. UU.</option></select></div>
-            <div class="fl"><label for="e-video">Enlace a un video de presentación de 60 segundos, en inglés</label><input id="e-video" name="video" type="text" inputmode="url" autocomplete="url" placeholder="Loom, YouTube o Drive. Opcional, pero nos deja escuchar tu inglés antes de la llamada."></div>
-          </div>
-          <div class="f2">
-            <div class="fl"><label for="e-ref">¿Quién te refirió? (opcional)</label><input id="e-ref" name="referral" type="text"></div>
-            <div class="fl"><label for="e-why">¿Por qué quieres trabajar con equipos de Estados Unidos?</label><textarea id="e-why" name="why" rows="2" required></textarea></div>
-          </div>
-          <div class="fl"><label for="e-file">Sube tu currículum o un archivo de apoyo (opcional)</label><input id="e-file" name="attachment" type="file" accept=".pdf,.doc,.docx,.csv,.xls,.xlsx,.txt,.rtf,image/*" data-maxmb="8"><span class="fhint">PDF, Word, Excel, CSV o una foto, hasta 8 MB.</span></div>
-          <input type="hidden" name="lang" value="es">
-          <button class="btn btn-apply btn-lg" type="submit">Enviar mi aplicación</button>
-          <p class="consent">Al enviar, aceptas que BeyondVAs te contacte por WhatsApp, teléfono o correo sobre tu solicitud.</p>
-        </form>
-        <div class="ok" id="applyEsOk" role="status"><h4 tabindex="-1">Aplicación recibida. Gracias.</h4><p id="applyEsOkP">Nuestro equipo en Honduras te contactará por WhatsApp en tres días hábiles.</p><pre id="applyEsOkPre" hidden></pre><button class="btn btn-ghost btn-sm" type="button" id="applyEsCopy" hidden>Copiar esta aplicación</button></div>
-      </div>
     </div>
   </div>
 </section>
@@ -1129,18 +1026,18 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
 <footer>
   <div class="wrap">
     <div>
-      <a class="brand" href="#top" aria-label="BeyondVAs"><span><span class="word"><span class="chrome">BEYOND</span><span class="vas">VAs</span></span><span class="tag">Bilingual virtual assistants</span></span></a>
+      <a class="brand" href="#top" aria-label="LockedIn VAs"><svg viewBox="0 0 48 56" aria-hidden="true"><defs><linearGradient id="gm3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6D365"/><stop offset=".55" stop-color="#F4B62E"/><stop offset="1" stop-color="#B8860B"/></linearGradient></defs><path d="M14 25V16a10 10 0 0 1 20 0v9" fill="none" stroke="url(#gm3)" stroke-width="5.5" stroke-linecap="round"/><rect x="5" y="23" width="38" height="30" rx="8" fill="url(#gm3)"/><path d="M14.5 41 L24 31.5 L33.5 41" fill="none" stroke="#0F2247" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="21.4" y="40" width="5.2" height="6.4" rx="1.2" fill="#0F2247"/></svg><span><span class="word"><span class="chrome">LOCKED</span><span class="in">IN</span><span class="vas">VAs</span></span><span class="tag">Bilingual virtual assistants</span></span></a>
       <p style="margin-top:14px;max-width:40ch">Bilingual, sales-trained virtual assistants and ISAs from Honduras and across Latin America for real estate teams and growing businesses, in every US time zone.</p>
     </div>
     <div>
       <h5>The Beyond family</h5>
-      <ul><li><a href="#top">BeyondVAs</a></li><li><a href="https://beyond-estate.com" target="_blank" rel="noopener">Beyond Estates</a></li><li>Beyond Movers</li><li>Beyond Renovation</li></ul>
+      <ul><li><a href="#top">LockedIn VAs</a></li><li><a href="https://beyond-estate.com" target="_blank" rel="noopener">Beyond Estates</a></li><li>Beyond Movers</li><li>Beyond Renovation</li></ul>
     </div>
     <div>
       <h5>Contact</h5>
-      <ul><li><a href="mailto:beyondvas@gmail.com">beyondvas@gmail.com</a></li><li>Text or WhatsApp: <a href="https://wa.me/16619164450" target="_blank" rel="noopener">(661) 916-4450</a></li><li><a href="https://calendly.com/charlyestates/book-a-meeting-with-charly-personally" target="_blank" rel="noopener">Book a 15-minute call</a></li><li><a href="#apply">Apply as a VA · <span lang="es">Aplica como asistente</span></a></li><li><a href="#faq">FAQ</a></li><li>Privacy policy and terms of service: published at launch</li></ul>
+      <ul><li><a href="mailto:beyondvas@gmail.com">beyondvas@gmail.com</a></li><li>Text or WhatsApp: <a href="https://wa.me/16619164450" target="_blank" rel="noopener">(661) 916-4450</a></li><li><a href="https://calendly.com/charlyestates/book-a-meeting-with-charly-personally" target="_blank" rel="noopener">Book a 15-minute call</a></li><li><a href="join/">Careers</a></li><li><a href="#faq">FAQ</a></li><li>Privacy policy and terms of service: published at launch</li></ul>
     </div>
-    <p class="legal">BeyondVAs is a managed virtual assistant service, not a licensed real estate brokerage. Virtual assistants are independent professionals contracted and paid by BeyondVAs, which provides recruiting, training, monitoring, management and replacement under your services agreement; the agreement also sets the terms of the 90-day and 9-month replacement guarantees. Clients direct the work product in their own tools and remain responsible for the licensing, telemarketing, call-recording and privacy laws that apply to their business. Beyond Estates is a sister company of BeyondVAs. Statistics on this page link to their sources and were current as of October 2026. Founded 2026. © 2026 BeyondVAs.</p>
+    <p class="legal">LockedIn VAs is a managed virtual assistant service, not a licensed real estate brokerage. Virtual assistants are independent professionals contracted and paid by LockedIn VAs, which provides recruiting, training, monitoring, management and replacement under your services agreement; the agreement also sets the terms of the 90-day and 9-month replacement guarantees. Clients direct the work product in their own tools and remain responsible for the licensing, telemarketing, call-recording and privacy laws that apply to their business. Beyond Estates is a sister company of LockedIn VAs. Statistics on this page link to their sources and were current as of October 2026. Founded 2026. © 2026 LockedIn VAs.</p>
   </div>
 </footer>
 
@@ -1174,12 +1071,6 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
   $('wage').value=30;
   calc();
 
-  // Language toggle for the VA section
-  var langBtns=document.querySelectorAll('.lang button');
-  function setLang(es){$('va-en').hidden=es;$('va-es').hidden=!es;langBtns.forEach(function(x){x.setAttribute('aria-pressed',(x.getAttribute('data-lang')==='es')===es?'true':'false')})}
-  langBtns.forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-lang')==='es');try{localStorage.setItem('bv-lang',b.getAttribute('data-lang'))}catch(e){}})});
-  try{var saved=localStorage.getItem('bv-lang');var esBrowser=/^es/i.test(navigator.language||'');var esHash=location.hash==='#aplica';var wantEs=saved?saved==='es':(esBrowser||esHash);if(wantEs){setLang(true)}}catch(e){}
-
   // Copy buttons
   function copyText(txt,btn){var done=function(){var o=btn.textContent;btn.textContent='Copied';setTimeout(function(){btn.textContent=o},1500)};
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,function(){fallback()})}else{fallback()}
@@ -1198,6 +1089,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       if(fileIn){var es=form.querySelector('input[name=lang]').value==='es';fileIn.setCustomValidity(f&&f.size>(+fileIn.getAttribute('data-maxmb')||8)*1048576?(es?'El archivo pesa más de 8 MB. Sube uno más pequeño.':'That file is over 8 MB. Please upload a smaller one.'):'')}
       if(!form.reportValidity())return;
       // with a file attached, send multipart form data (the browser sets the boundary); otherwise URL-encoded as before
+      if(form.__busy)return;form.__busy=true;var sb=form.querySelector("button[type=submit]");if(sb){sb.disabled=true;sb.style.opacity=".6"}
       var body=fileIn?new FormData(form):new URLSearchParams(new FormData(form)).toString();
       var headers=fileIn?{}:{'Content-Type':'application/x-www-form-urlencoded'};
       var show=function(mode){form.hidden=true;ok.classList.add('show');
@@ -1207,9 +1099,7 @@ footer .legal{grid-column:1/-1;border-top:1px solid var(--line);padding-top:20px
       fetch('/',{method:'POST',headers:headers,body:body}).then(function(r){if(!r.ok)throw new Error('bad');show('')}).catch(function(){show('fail')});
     });
   }
-  wire('bookForm','bookOk','bookOkPre','bookCopy','This is the preview version of the site, so nothing was sent. On the live site this request goes straight to the BeyondVAs inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to beyondvas@gmail.com and we will text you within one business day.');
-  wire('applyForm','applyOk','applyOkPre','applyCopy','This is the preview version of the site, so nothing was sent. On the live site this application goes straight to the BeyondVAs recruiting inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to beyondvas@gmail.com; we reply within three business days.');
-  wire('applyFormEs','applyEsOk','applyEsOkPre','applyEsCopy','Esta es la versión de vista previa del sitio, así que no se envió nada. En el sitio en vivo esta aplicación llega directamente al equipo de reclutamiento de BeyondVAs. Esto es lo que se enviaría:','No pudimos enviarlo automáticamente. Copia el texto y envíalo a beyondvas@gmail.com; te respondemos en tres días hábiles.');
+  wire('bookForm','bookOk','bookOkPre','bookCopy','This is the preview version of the site, so nothing was sent. On the live site this request goes straight to the LockedIn VAs inbox. Here is what would be sent:','We could not send this automatically. Copy the text below and email it to beyondvas@gmail.com and we will text you within one business day.');
 })();
 </script>
 
