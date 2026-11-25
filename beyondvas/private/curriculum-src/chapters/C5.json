@@ -1,0 +1,69 @@
+{
+  "id": "C5",
+  "title": "Calling rules that protect you",
+  "steps": [
+    {"t": "say", "icon": "⏰", "h": "Do you call?", "text": "A new lead comes in. It is 7 AM for the lead. Do you call now? No. Here is why."},
+    {"t": "say", "icon": "🕘", "h": "The calling window", "text": "You may call leads only at set hours. We call this the calling window. These rules protect you and your client."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Monday to Saturday", "back": "9 AM to 8 PM, the lead's time."},
+      {"front": "Sunday", "back": "Noon to 8 PM, the lead's time."},
+      {"front": "Texts", "back": "Same hours as calls."},
+      {"front": "Some states", "back": "Shorter hours. Your coordinator tells you before you dial."}
+    ]},
+    {"t": "tattoo", "text": "The lead's clock counts. Not your clock.", "sub": "The lead may live in a different time zone."},
+    {"t": "fill", "h": "Finish the line", "before": "On Sunday, you can call from ", "after": " to 8 PM.", "options": ["9 AM", "noon", "6 AM"], "answer": 1},
+    {"t": "sort", "h": "Call now or wait?", "left": "Call now", "right": "Wait", "items": [
+      {"text": "Tuesday, 9:30 AM lead's time", "side": "left"},
+      {"text": "Monday, 8:15 AM lead's time", "side": "right"},
+      {"text": "Sunday, 10 AM lead's time", "side": "right"},
+      {"text": "Saturday, 7:45 PM lead's time", "side": "left"},
+      {"text": "Friday, 8:30 PM lead's time", "side": "right"},
+      {"text": "Sunday, 1 PM lead's time", "side": "left"}
+    ]},
+    {"t": "pick", "q": "It is 8:30 PM for the lead. Can you send a text?", "options": ["Yes, texts are always fine", "Yes, if it is short", "No. Texts follow the same hours."], "answer": 2, "why": "Texts follow the calling window too."},
+    {"t": "pick", "q": "A lead comes in at 7 AM their time. What do you do?", "options": ["Call at 9 AM their time", "Call right now", "Call tomorrow night"], "answer": 0, "why": "Wait for the window. Then call first."},
+    {"t": "say", "icon": "🛑", "h": "DNC means Do Not Call", "text": "A lead says \"STOP\", \"remove me\" or \"don't call\". That lead is now DNC. You stop right away."},
+    {"t": "chat", "who": "Rick", "channel": "call", "says": "STOP CALLING ME!", "options": [
+      {"text": "Sorry! Just one quick question first?", "good": false, "why": "Stop means stop. Never ask again."},
+      {"text": "Why? I only want to help you.", "good": false, "why": "Never argue with a lead who says stop."},
+      {"text": "I'm sorry about that. I will remove you right now.", "good": true, "why": "Kind, short and done. Now tag the lead DNC."}
+    ]},
+    {"t": "order", "h": "A lead says STOP. Put your steps in order", "items": ["Say sorry and goodbye", "Tag the lead DNC", "Set the stage to Archived / DNC", "Pause all automatic messages", "Write it in your note"]},
+    {"t": "pick", "q": "Can you delete a DNC lead?", "options": ["Yes, to keep the list clean", "No. Keep the lead and the DNC tag.", "Yes, after one week"], "answer": 1, "why": "The tag tells the whole team never to call again."},
+    {"t": "tattoo", "text": "STOP means stop. Tag DNC. Never argue. Never delete.", "sub": "This protects you and your client."},
+    {"t": "speak", "h": "Say it out loud", "line": "I'm sorry about that. I will remove you right now. Have a good day.", "times": 2},
+    {"t": "say", "icon": "📥", "h": "Two kinds of leads", "text": "An inbound lead asked for a call. You may call them inside the window. Other lists have one more rule."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Inbound lead", "back": "They asked to be contacted. OK to call in the window."},
+      {"front": "Old or bought list", "back": "Call only after it is scrubbed."},
+      {"front": "Scrubbed", "back": "Checked against the Do Not Call lists."},
+      {"front": "Not sure?", "back": "Ask your coordinator before you dial."}
+    ]},
+    {"t": "pick", "q": "Your client sends an old list of 200 names. What is first?", "options": ["Start calling fast", "Ask if the list was scrubbed", "Text all of them"], "answer": 1, "why": "Old lists must be scrubbed before any call."},
+    {"t": "say", "icon": "💬", "h": "Text only with a yes", "text": "Text only leads who agreed to get texts. No yes, no text."},
+    {"t": "pick", "q": "A lead never agreed to texts. They did not answer. What now?", "options": ["Send one short text", "Text from my own phone", "Do not text. Call again later."], "answer": 2, "why": "No yes, no text. Call again inside the window."},
+    {"t": "say", "icon": "☝️", "h": "Dial by hand", "text": "You dial each number yourself. No robot dialers. No recorded sales messages."},
+    {"t": "sort", "h": "OK or not OK?", "left": "OK", "right": "Not OK", "items": [
+      {"text": "Dial one number by hand", "side": "left"},
+      {"text": "Use a robot dialer", "side": "right"},
+      {"text": "Play a recorded sales message", "side": "right"},
+      {"text": "Leave a voicemail in my own voice", "side": "left"},
+      {"text": "Text a lead who said STOP", "side": "right"}
+    ]},
+    {"t": "say", "icon": "🎙️", "h": "Say it is recorded", "text": "On every call, say the call may be recorded. Say it at the start."},
+    {"t": "speak", "h": "Say it out loud", "line": "Hi Maria, this is Sofia with Dana Lee's team. This call may be recorded.", "times": 3},
+    {"t": "fill", "h": "Finish the line", "before": "This call may be ", "after": ".", "options": ["recorded", "long", "free"], "answer": 0},
+    {"t": "chat", "who": "Ben", "channel": "text", "says": "Remove me from your list.", "options": [
+      {"text": "Done. I am removing you now. Take care.", "good": true, "why": "\"Remove me\" means DNC. You stopped right away."},
+      {"text": "OK. Can I text you next month?", "good": false, "why": "Never ask again after a lead says stop."}
+    ]},
+    {"t": "win", "text": "Great job! You know when to call, when to stop and what to say."}
+  ],
+  "quiz": [
+    {"q": "A lead says \"STOP CALLING ME.\" What do you do?", "options": ["Ask why", "Delete the lead", "Say sorry, stop and tag DNC"], "answer": 2, "explain": "Stop means stop. Never argue. Never delete."},
+    {"q": "When can you call on Sunday?", "options": ["Noon to 8 PM, lead's time", "9 AM to 8 PM, lead's time", "Any time"], "answer": 0, "explain": "Sunday starts at noon. Texts follow the same hours."},
+    {"q": "Whose clock counts?", "options": ["My clock", "The lead's clock", "My client's clock"], "answer": 1, "explain": "The window uses the lead's local time."},
+    {"q": "Who can you text?", "options": ["Any lead", "Leads who did not answer", "Leads who agreed to texts"], "answer": 2, "explain": "No yes, no text."},
+    {"q": "What do you say on every call?", "options": ["This call may be recorded.", "This call is free.", "This is a sales call."], "answer": 0, "explain": "Always say the call may be recorded."}
+  ]
+}

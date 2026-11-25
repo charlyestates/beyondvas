@@ -1,0 +1,57 @@
+{
+  "id": "C1",
+  "title": "Welcome. Your job in one line",
+  "steps": [
+    {"t": "say", "icon": "👋", "h": "Meet Maria", "text": "Maria sees a home online. She taps **Contact agent**. One minute later, her phone rings. Who is calling? **You.**"},
+    {"t": "say", "icon": "📞", "h": "Your job in one line", "text": "You are an **ISA**: an inside sales agent. You call leads. You set appointments for an agent."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Lead", "back": "A person who asked about a home."},
+      {"front": "Client", "back": "The US agent or team you work for."},
+      {"front": "Appointment", "back": "A set day and time to meet the agent."},
+      {"front": "ISA", "back": "You! You call leads and book appointments."}
+    ]},
+    {"t": "pick", "q": "What is your main job?", "options": ["Sell homes", "Set appointments for the agent", "Give home prices"], "answer": 1, "why": "The agent sells homes. You book the agent's appointments."},
+    {"t": "sort", "h": "Whose job is it?", "left": "My job", "right": "Agent's job", "items": [
+      {"text": "Call new leads fast", "side": "left"},
+      {"text": "Show the home", "side": "right"},
+      {"text": "Ask a few easy questions", "side": "left"},
+      {"text": "Talk about price", "side": "right"},
+      {"text": "Book the appointment", "side": "left"},
+      {"text": "Write the offer", "side": "right"}
+    ]},
+    {"t": "tattoo", "text": "You set the appointment. The agent does the rest.", "sub": "That is how you both win."},
+    {"t": "say", "icon": "🤝", "h": "Who is LockedIn VAs?", "text": "**LockedIn VAs** is your company. We train you, pay you and help you. Your **coordinator** is your helper there."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Coordinator", "back": "Your LockedIn VAs helper. Tell them problems first."},
+      {"front": "Your client", "back": "The agent. They give you the daily work."},
+      {"front": "Client channel", "back": "The one chat where you and your client talk."}
+    ]},
+    {"t": "chat", "who": "Mark", "channel": "text", "says": "Hey, send me your WhatsApp. It's easier.", "options": [
+      {"text": "Sure! Here is my number.", "good": false, "why": "No private chats. Your coordinator cannot see them."},
+      {"text": "Thanks, Mark! Let's keep it in our channel.", "good": true, "why": "Kind and clear. Everything stays in one place."}
+    ]},
+    {"t": "tattoo", "text": "All client talk stays in the client channel.", "sub": "Your coordinator can see it and help you."},
+    {"t": "pick", "q": "Your internet stops working. Who do you tell first?", "options": ["The lead", "Nobody. Wait and see.", "Your coordinator"], "answer": 2, "why": "Your coordinator helps you. Tell them at once."},
+    {"t": "say", "icon": "💵", "h": "How you get paid", "text": "You are paid **once a month**, in **US dollars**. You are paid for your **tracked hours**. A tool named Hubstaff tracks them."},
+    {"t": "fill", "h": "Finish the line", "before": "You are paid once a ", "after": " in US dollars.", "options": ["week", "month", "day"], "answer": 1},
+    {"t": "pick", "q": "Who pays you?", "options": ["LockedIn VAs", "The lead", "The client, in cash"], "answer": 0, "why": "LockedIn VAs bills the client and pays you. Simple."},
+    {"t": "pick", "q": "Your pay looks wrong. Who do you ask?", "options": ["Your client", "Your coordinator", "A lead"], "answer": 1, "why": "Never ask the client about pay. Your coordinator checks it."},
+    {"t": "say", "icon": "🎮", "h": "How this boot camp works", "text": "12 short chapters. One day. You tap, flip, sort and speak. Each chapter ends with 5 quick questions."},
+    {"t": "pick", "q": "You tap a wrong answer. What happens?", "options": ["You fail the boot camp", "You lose pay", "You try again"], "answer": 2, "why": "Wrong taps help you learn. No stress."},
+    {"t": "speak", "h": "Say it out loud", "line": "Hi Maria, this is Sofia with Dana Lee's team.", "times": 3},
+    {"t": "say", "icon": "⭐", "h": "What a great ISA does", "text": "A great ISA calls **fast** and is kind. A great ISA asks easy questions. Then asks for the appointment. Then writes a note."},
+    {"t": "pick", "q": "What does a great ISA do?", "options": ["Talks a lot about prices", "Calls fast and asks for the appointment", "Waits for leads to call back"], "answer": 1, "why": "Fast, kind, and always asks for a day and time."},
+    {"t": "order", "h": "Put Maria's story in order", "items": ["Maria asks about a home online", "You call her fast", "You ask a few easy questions", "You book a time with the agent", "The agent meets Maria"]},
+    {"t": "fill", "h": "Finish the line", "before": "The agent you work for is your ", "after": ".", "options": ["client", "lead", "coordinator"], "answer": 0},
+    {"t": "speak", "h": "Say it out loud", "line": "I can set a time with the agent. Does today or tomorrow work better?", "times": 3},
+    {"t": "tattoo", "text": "Not sure? Ask your coordinator.", "sub": "Asking is smart. Guessing is risky."},
+    {"t": "win", "text": "Nice work! You know your job, your team and your pay."}
+  ],
+  "quiz": [
+    {"q": "What does an ISA do?", "options": ["Calls leads and sets appointments", "Sells homes", "Gives home loans"], "answer": 0, "explain": "You call leads and set appointments. The agent sells homes."},
+    {"q": "How often are you paid?", "options": ["Every week", "Every two weeks", "Once a month, in US dollars"], "answer": 2, "explain": "Pay comes once a month, in US dollars, for tracked hours."},
+    {"q": "Where do you talk with your client?", "options": ["Private WhatsApp", "Only in the client channel", "Personal email"], "answer": 1, "explain": "The client channel keeps everything in one safe place."},
+    {"q": "What does a great ISA do?", "options": ["Waits for leads to call", "Calls fast and asks for the appointment", "Tells leads what a home is worth"], "answer": 1, "explain": "Call fast, be kind and ask for a time."},
+    {"q": "Your pay looks wrong. Who do you ask?", "options": ["Your coordinator", "Your client", "The lead"], "answer": 0, "explain": "Your coordinator checks your hours and your pay."}
+  ]
+}

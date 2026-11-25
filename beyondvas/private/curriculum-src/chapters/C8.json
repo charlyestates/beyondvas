@@ -1,0 +1,339 @@
+{
+  "id": "C8",
+  "title": "A.L.M. and the two-minute call",
+  "steps": [
+    {
+      "t": "say",
+      "icon": "🎉",
+      "h": "She picked up!",
+      "text": "Maria answers the phone. You have about 20 seconds. Then she decides to stay or go. Good news: you only need **3 letters**."
+    },
+    {
+      "t": "flip",
+      "h": "Tap each letter",
+      "cards": [
+        {
+          "front": "A",
+          "back": "Appointment. A day and time with the agent."
+        },
+        {
+          "front": "L",
+          "back": "Location. The area and the home they want."
+        },
+        {
+          "front": "M",
+          "back": "Motivation. Why they want to move, and when."
+        }
+      ]
+    },
+    {
+      "t": "fill",
+      "h": "Finish the line",
+      "before": "A.L.M. means Appointment, Location and ",
+      "after": ".",
+      "options": [
+        "Money",
+        "Mortgage",
+        "Motivation"
+      ],
+      "answer": 2
+    },
+    {
+      "t": "tattoo",
+      "text": "A.L.M. = Appointment, Location, Motivation.",
+      "sub": "Get these three on every call."
+    },
+    {
+      "t": "say",
+      "icon": "👋",
+      "h": "Your opening line has 4 parts",
+      "text": "Say **who you are**. Say the call **may be recorded**. Say the **home** they asked about. Then ask for **two minutes**."
+    },
+    {
+      "t": "order",
+      "h": "Put the opening in order",
+      "items": [
+        "Hi Maria, this is Ana with Rivera Home Team.",
+        "This call may be recorded.",
+        "You asked about 12 Oak Street.",
+        "Do you have two minutes?"
+      ]
+    },
+    {
+      "t": "speak",
+      "h": "Say your opening out loud",
+      "line": "Hi Maria, this is Ana with Rivera Home Team. This call may be recorded. You asked about 12 Oak Street.",
+      "times": 3
+    },
+    {
+      "t": "flip",
+      "h": "4 easy questions. Tap each one",
+      "cards": [
+        {
+          "front": "What did you like about that home?",
+          "back": "L. What the home needs."
+        },
+        {
+          "front": "Which areas do you like?",
+          "back": "L. Where they want to live."
+        },
+        {
+          "front": "Why are you thinking about moving?",
+          "back": "M. The reason."
+        },
+        {
+          "front": "When would you like to move?",
+          "back": "M. The date."
+        }
+      ]
+    },
+    {
+      "t": "sort",
+      "h": "Is it L or M?",
+      "left": "L: Location",
+      "right": "M: Motivation",
+      "items": [
+        {
+          "text": "Close to my job",
+          "side": "left"
+        },
+        {
+          "text": "We must move by March",
+          "side": "right"
+        },
+        {
+          "text": "3 bedrooms and a big yard",
+          "side": "left"
+        },
+        {
+          "text": "We need more space",
+          "side": "right"
+        },
+        {
+          "text": "Under $500,000",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "t": "pick",
+      "q": "Which question gets a longer answer?",
+      "options": [
+        "Do you like the home?",
+        "Are you moving soon?",
+        "What did you like about the home?"
+      ],
+      "answer": 2,
+      "why": "\"What\" questions get stories. Yes or no questions do not."
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "We just need more space.",
+      "options": [
+        {
+          "text": "OK. What is your price, your area and your date?",
+          "good": false,
+          "why": "Three questions at once is too much. Ask one."
+        },
+        {
+          "text": "Tell me more. What does more space look like?",
+          "good": true,
+          "why": "One easy question. Now she tells you the real need."
+        },
+        {
+          "text": "Then buy now. Prices will go up.",
+          "good": false,
+          "why": "Never push. Never guess about prices."
+        }
+      ]
+    },
+    {
+      "t": "say",
+      "icon": "📅",
+      "h": "Always ask for the appointment",
+      "text": "Ask on **every** call. Give **two choices**: a day and a time. Two choices are easy. She just picks one."
+    },
+    {
+      "t": "fill",
+      "h": "Finish the line",
+      "before": "Would Saturday at 11 or ",
+      "after": " work better?",
+      "options": [
+        "Sunday at 2",
+        "some day",
+        "whenever"
+      ],
+      "answer": 0
+    },
+    {
+      "t": "pick",
+      "q": "Which ask is best?",
+      "options": [
+        "Daniel can show it Thursday at 5 or Saturday at 11. Which is better?",
+        "When are you free?",
+        "Let me know if you want to see it."
+      ],
+      "answer": 0,
+      "why": "Two real times are easy to answer."
+    },
+    {
+      "t": "tattoo",
+      "text": "Always offer two times. Never ask \"When works?\"",
+      "sub": "Two choices make yes easy."
+    },
+    {
+      "t": "speak",
+      "h": "Say the ask out loud",
+      "line": "Daniel can show it Thursday at 5 or Saturday at 11. Which is better?",
+      "times": 3
+    },
+    {
+      "t": "say",
+      "icon": "⏱️",
+      "h": "Ask early",
+      "text": "She asked about one home. So ask for the tour in the **first minute**. A tour is a visit to the home. Then ask about L and M."
+    },
+    {
+      "t": "order",
+      "h": "Put the two-minute call in order",
+      "items": [
+        "Say your opening line",
+        "Ask easy questions about the home",
+        "Offer two times",
+        "Repeat the day, time and place"
+      ]
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "Is it still for sale?",
+      "options": [
+        {
+          "text": "I will check with Daniel, our agent, right now. Want to see it tomorrow at 4 or 6?",
+          "good": true,
+          "why": "Honest. And you asked for the appointment."
+        },
+        {
+          "text": "Yes, for sure. It is a great price too.",
+          "good": false,
+          "why": "Never guess. Never give a price opinion."
+        }
+      ]
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "Saturday at 11 works.",
+      "options": [
+        {
+          "text": "OK, great. Bye!",
+          "good": false,
+          "why": "Repeat the details first. Then she will not forget."
+        },
+        {
+          "text": "Great! I think the seller will take less.",
+          "good": false,
+          "why": "Never talk about price. That is the agent's job."
+        },
+        {
+          "text": "Great! Saturday at 11 at 12 Oak Street with Daniel. Is this your best number?",
+          "good": true,
+          "why": "You repeat day, time and place. Now it is a real plan."
+        }
+      ]
+    },
+    {
+      "t": "pick",
+      "q": "You had a nice 8-minute call. No day, no time. What went wrong?",
+      "options": [
+        "You talked too fast",
+        "You never asked for the appointment",
+        "The call was too short"
+      ],
+      "answer": 1,
+      "why": "A nice call with no appointment is only a chat."
+    },
+    {
+      "t": "say",
+      "icon": "😊",
+      "h": "What a great call sounds like",
+      "text": "You **smile**. People can hear it. You speak **slowly**. The lead talks **more than you**."
+    },
+    {
+      "t": "pick",
+      "q": "Maria says, \"Sorry? What?\" What do you do?",
+      "options": [
+        "Say it again, louder",
+        "Say sorry and hang up",
+        "Say it again, slower, with easy words"
+      ],
+      "answer": 2,
+      "why": "Slow and clear wins. Your accent is not a problem."
+    },
+    {
+      "t": "tattoo",
+      "text": "The lead talks more than you.",
+      "sub": "You ask. You listen. Then you book."
+    },
+    {
+      "t": "win",
+      "text": "Great work! You can now run a two-minute A.L.M. call."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What does A.L.M. stand for?",
+      "options": [
+        "Agent, Listing, Mortgage",
+        "Appointment, Location, Motivation",
+        "Ask, Listen, Move"
+      ],
+      "answer": 1,
+      "explain": "Appointment, Location, Motivation. Get all three on every call."
+    },
+    {
+      "q": "Which line is in every opening?",
+      "options": [
+        "This call may be recorded.",
+        "I am the agent.",
+        "How much money do you make?"
+      ],
+      "answer": 0,
+      "explain": "Always say the call may be recorded."
+    },
+    {
+      "q": "How do you ask for the appointment?",
+      "options": [
+        "Ask \"When are you free?\"",
+        "Wait for the lead to ask",
+        "Offer two choices of day and time"
+      ],
+      "answer": 2,
+      "explain": "Two choices make it easy to say yes."
+    },
+    {
+      "q": "\"We must move by March.\" Which letter is this?",
+      "options": [
+        "A",
+        "M",
+        "L"
+      ],
+      "answer": 1,
+      "explain": "M is Motivation: why they move, and when."
+    },
+    {
+      "q": "A lead asks about one home. When do you ask for the tour?",
+      "options": [
+        "Early, in the first minute",
+        "At the end of a long call",
+        "On the second call"
+      ],
+      "answer": 0,
+      "explain": "Ask early. Then ask about L and M."
+    }
+  ]
+}

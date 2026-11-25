@@ -5,12 +5,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0A1630">
 <meta name="robots" content="noindex, nofollow">
-<title>ISA Certification Program | LockedIn VAs Academy</title>
+<title>ISA Boot Camp | LockedIn VAs Academy</title>
 <meta name="description" content="Private LockedIn VAs training for approved ISAs: a full curriculum with lessons, practice assignments and quizzes, practice calls in a simulated Follow Up Boss workspace, and a certificate.">
 <meta property="og:title" content="ISA Certification Program | LockedIn VAs Academy">
 <meta property="og:description" content="Private training for approved LockedIn VAs ISAs.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="LockedIn VAs">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('lva-theme')||'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 <link rel="icon" href="../site/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,8 +31,28 @@
   --mono:ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
   --radius:16px; --shadow:0 24px 60px -28px rgba(0,0,0,.75);
   --roof:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120' viewBox='0 0 160 120'%3E%3Cpath d='M20 70 L60 30 L100 70 M40 90 L80 50 L120 90' fill='none' stroke='%23F4B62E' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.10'/%3E%3C/svg%3E");
+  --inset:rgba(10,22,48,.45); --glass:rgba(10,22,48,.92); --code-bg:#081126; --code-fg:#DCE6FA;
   color-scheme:dark;
 }
+/* Light theme (the default). The moon/sun button in the header switches; the choice is saved on the device. */
+:root[data-theme="light"]{
+  --bg:#F3F7FE; --bg-2:#FFFFFF; --card:#FFFFFF; --card-2:#EAF1FC; --card-3:#DCE7F9;
+  --line:rgba(27,63,158,.14); --line-2:rgba(27,63,158,.28);
+  --fg:#0F2247; --fg-2:#2F4369; --fg-3:#5B6C8E;
+  --gold:#D99A12; --gold-2:#8A5D08; --gold-deep:#A8720A; --gold-soft:rgba(244,182,46,.18); --gold-line:rgba(201,143,18,.55);
+  --good:#0B8A58; --good-soft:rgba(14,159,102,.12); --bad:#C8371F; --bad-soft:rgba(226,78,54,.10);
+  --blue:#2B63D9; --blue-soft:rgba(43,99,217,.10);
+  --inset:rgba(43,99,217,.05); --glass:rgba(243,247,254,.94); --code-bg:#F1F5FD; --code-fg:#0F2247;
+  --shadow:0 24px 60px -30px rgba(27,63,158,.35);
+  --roof:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='120' viewBox='0 0 160 120'%3E%3Cpath d='M20 70 L60 30 L100 70 M40 90 L80 50 L120 90' fill='none' stroke='%23F4B62E' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' opacity='.30'/%3E%3C/svg%3E");
+  color-scheme:light;
+}
+:root[data-theme="light"] .stg-warm{color:#A65A0A}
+:root[data-theme="light"] .stg-dnc{background:#FCE8EC;color:#A3243F}
+:root[data-theme="light"] .ans.right .al,:root[data-theme="light"] .ordlist li.on::before,:root[data-theme="light"] .day-btn.is-passed .di,:root[data-theme="light"] .dots i.on{color:#fff}
+:root[data-theme="light"] .brand svg path[stroke="#0A1630"]{stroke:#0F2247}
+.themebtn{background:var(--card);border:1px solid var(--line-2);color:var(--fg);border-radius:999px;padding:8px 14px;font-weight:700;font-size:13.5px;cursor:pointer;white-space:nowrap}
+.themebtn:hover{border-color:var(--gold)}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -55,7 +76,7 @@ button{font:inherit;color:inherit}
 .ic{width:1em;height:1em;flex:none}
 
 /* Site header (same links as the home page) */
-.nav{position:sticky;top:0;z-index:60;background:rgba(10,22,48,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{position:sticky;top:0;z-index:60;background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px;position:relative}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--fg)}
 .brand svg{width:31px;height:36px;flex:none}
@@ -83,7 +104,7 @@ button{font:inherit;color:inherit}
 
 /* Hero */
 .hero{position:relative;overflow:hidden;padding:44px 0 28px;background:var(--roof) center top/160px 120px repeat}
-.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 80% at 85% 0%,rgba(244,182,46,.16),transparent 60%),linear-gradient(180deg,rgba(10,22,48,0) 40%,var(--bg) 100%);pointer-events:none}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(60% 80% at 85% 0%,rgba(244,182,46,.16),transparent 60%),linear-gradient(180deg,transparent 40%,var(--bg) 100%);pointer-events:none}
 .hero .wrap{position:relative;display:grid;grid-template-columns:1.25fr .9fr;gap:36px;align-items:end}
 @media (max-width:900px){.hero .wrap{grid-template-columns:1fr;gap:24px}}
 .eyebrow{font-weight:700;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:12px;margin-bottom:14px}
@@ -99,7 +120,7 @@ button{font:inherit;color:inherit}
 .pc-top h2{font-size:22px;font-weight:800}
 .pc-top span{font-size:12.5px;color:var(--fg-3)}
 .pc-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.pc-stat{background:rgba(10,22,48,.55);border:1px solid var(--line);border-radius:12px;padding:12px}
+.pc-stat{background:var(--inset);border:1px solid var(--line);border-radius:12px;padding:12px}
 .pc-stat b{display:block;font-family:var(--display);font-size:30px;font-weight:800;color:var(--fg);line-height:1}
 .pc-stat span{display:block;font-size:12px;color:var(--fg-3);margin-top:6px;letter-spacing:.02em}
 .pc-bar{height:6px;border-radius:99px;background:rgba(150,174,224,.15);margin:16px 0 14px;overflow:hidden}
@@ -107,7 +128,7 @@ button{font:inherit;color:inherit}
 .pc-actions{display:flex;gap:10px;flex-wrap:wrap}
 
 /* Boot camp tabs */
-.bc-tabs-bar{position:sticky;top:68px;z-index:50;background:rgba(10,22,48,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);border-top:1px solid var(--line)}
+.bc-tabs-bar{position:sticky;top:68px;z-index:50;background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);border-top:1px solid var(--line)}
 .bc-tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:10px 0}
 .bc-tabs::-webkit-scrollbar{display:none}
 .bc-tab{flex:none;display:inline-flex;align-items:center;gap:10px;background:transparent;border:1px solid transparent;border-radius:12px;padding:10px 16px;cursor:pointer;color:var(--fg-2);font-weight:700;font-size:14.5px;white-space:nowrap}
@@ -157,7 +178,7 @@ button{font:inherit;color:inherit}
 .lesson-head::after{content:"";position:absolute;right:-30px;top:-40px;width:220px;height:160px;background:var(--roof) center/160px 120px;opacity:.9;pointer-events:none}
 .lesson-k{font-weight:700;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
 .lesson-head h2{font-size:clamp(30px,3.6vw,44px);font-weight:800;margin-top:8px;max-width:22ch;position:relative}
-.objective{margin-top:14px;display:flex;gap:12px;align-items:flex-start;background:rgba(10,22,48,.5);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px;position:relative;max-width:72ch}
+.objective{margin-top:14px;display:flex;gap:12px;align-items:flex-start;background:var(--inset);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px;position:relative;max-width:72ch}
 .objective b{color:var(--gold-2);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;padding-top:2px;flex:none}
 .lessons{display:grid;gap:14px;margin-top:14px}
 .lcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px}
@@ -180,7 +201,7 @@ button{font:inherit;color:inherit}
 @media (max-width:560px){.tline{grid-template-columns:1fr 1fr;row-gap:14px}.tline::before{display:none}}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px}
 @media (max-width:640px){.two{grid-template-columns:1fr}}
-.box{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:rgba(10,22,48,.45)}
+.box{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--inset)}
 .box h4{font-family:var(--body);font-size:12px;letter-spacing:.14em;margin-bottom:10px;color:var(--fg-3)}
 .box.do h4{color:var(--good)}
 .box.dont h4{color:var(--bad)}
@@ -196,7 +217,7 @@ button{font:inherit;color:inherit}
 .flow li + li::before{content:"";width:18px;height:2px;background:var(--gold-line)}
 .alm3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 @media (max-width:760px){.alm3{grid-template-columns:1fr}}
-.almc{border:1px solid var(--line);border-radius:12px;padding:16px;background:rgba(10,22,48,.45);border-top:3px solid var(--gold)}
+.almc{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--inset);border-top:3px solid var(--gold)}
 .almc .big{font-family:var(--display);font-weight:800;font-size:44px;color:var(--gold);line-height:.9}
 .almc h4{font-size:20px;margin:4px 0 8px}
 .almc p{font-size:14.5px}
@@ -205,28 +226,28 @@ button{font:inherit;color:inherit}
 @media (max-width:700px){.obj{grid-template-columns:1fr}}
 .obj .q{padding:14px 16px;background:var(--bad-soft);color:var(--fg);font-weight:700;font-size:15px}
 .obj .q small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--bad);margin-bottom:4px;font-weight:700}
-.obj .a{padding:14px 16px;background:rgba(10,22,48,.45);font-size:15px}
+.obj .a{padding:14px 16px;background:var(--inset);font-size:15px}
 .obj .a small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--good);margin-bottom:4px;font-weight:700}
 .obj .a em{color:var(--fg);font-style:normal}
 .obj .a .if{display:block;margin-top:8px;font-size:13.5px;color:var(--fg-3)}
 .prio{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:p}
-.prio li{counter-increment:p;display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:rgba(10,22,48,.45)}
+.prio li{counter-increment:p;display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:10px 14px;background:var(--inset)}
 .prio li::before{content:counter(p);display:grid;place-items:center;width:32px;height:32px;border-radius:9px;background:var(--gold);color:#2A1E00;font-family:var(--display);font-weight:800;font-size:19px}
 .prio b{color:var(--fg)}
 .prio .tag{font-size:12px;font-weight:700;color:var(--fg-3);background:var(--card-2);border-radius:99px;padding:3px 10px;white-space:nowrap}
 @media (max-width:560px){.prio li{grid-template-columns:36px 1fr}.prio .tag{grid-column:2;justify-self:start}}
-.notetpl{font-family:var(--mono);font-size:13.5px;line-height:1.7;background:#081126;border:1px solid var(--line-2);border-radius:12px;padding:14px 16px;color:#DCE6FA;overflow-x:auto;white-space:pre;margin-top:12px}
+.notetpl{font-family:var(--mono);font-size:13.5px;line-height:1.7;background:var(--code-bg);border:1px solid var(--line-2);border-radius:12px;padding:14px 16px;color:var(--code-fg);overflow-x:auto;white-space:pre;margin-top:12px}
 .notetpl .k{color:var(--gold-2)}
 .notetpl .c{color:var(--fg-3)}
 .strikes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 @media (max-width:760px){.strikes{grid-template-columns:1fr}}
-.strike{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:rgba(10,22,48,.45);position:relative}
+.strike{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--inset);position:relative}
 .strike .when{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--gold-2);background:var(--gold-soft);border-radius:99px;padding:3px 10px;margin-bottom:8px}
 .strike h4{font-size:21px;margin-bottom:6px}
 .strike p{font-size:14.5px}
 .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
 @media (max-width:560px){.kpis{grid-template-columns:1fr}}
-.kpi{border:1px solid var(--line);border-radius:12px;padding:16px;background:rgba(10,22,48,.45);text-align:center}
+.kpi{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--inset);text-align:center}
 .kpi b{display:block;font-family:var(--display);font-size:42px;font-weight:800;color:var(--fg);line-height:1}
 .kpi span{display:block;margin-top:6px;font-size:13.5px;color:var(--fg-3)}
 .script{border:1px solid var(--gold-line);border-radius:12px;padding:16px 18px;background:linear-gradient(180deg,rgba(244,182,46,.08),rgba(244,182,46,.02));font-size:16px;color:var(--fg)}
@@ -242,7 +263,7 @@ button{font:inherit;color:inherit}
 .panel .rrow{grid-template-columns:minmax(0,150px) 1fr 44px}
 .rtotal{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:10px;margin-top:4px;font-weight:700;color:var(--fg)}
 .checks{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.checks li{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:rgba(10,22,48,.45)}
+.checks li{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--inset)}
 .checks .st{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;border:2px solid var(--line-2);color:var(--fg-3)}
 .checks li.ok .st{background:var(--good);border-color:var(--good);color:#06301C}
 .checks .cnt{font-family:var(--display);font-size:22px;color:var(--fg);font-weight:800}
@@ -253,7 +274,7 @@ button{font:inherit;color:inherit}
 .quiz-k{display:flex;align-items:center;gap:8px;font-weight:700;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
 .quiz-q{display:block;font-family:var(--display);font-size:clamp(23px,2.4vw,28px);font-weight:700;color:var(--fg);text-transform:none;letter-spacing:0;line-height:1.15;margin-top:8px}
 .opts{display:grid;gap:8px}
-.opt{display:grid;grid-template-columns:32px 1fr 22px;gap:12px;align-items:center;border:1px solid var(--line-2);border-radius:12px;padding:12px 14px;cursor:pointer;background:rgba(10,22,48,.45);transition:border-color .15s,background .15s}
+.opt{display:grid;grid-template-columns:32px 1fr 22px;gap:12px;align-items:center;border:1px solid var(--line-2);border-radius:12px;padding:12px 14px;cursor:pointer;background:var(--inset);transition:border-color .15s,background .15s}
 .opt:hover{border-color:var(--gold-line)}
 .opt input{position:absolute;opacity:0;width:1px;height:1px}
 .opt .ol{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;border:1px solid var(--line-2);font-weight:700;font-size:14px;color:var(--fg-2)}
@@ -339,7 +360,7 @@ button{font:inherit;color:inherit}
 .pf-stage select{appearance:none;-webkit-appearance:none;background:var(--bg-2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F4B62E' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E") right 12px center/16px no-repeat;border:1px solid var(--line-2);border-radius:10px;color:var(--fg);padding:10px 38px 10px 12px;font:inherit;font-weight:700;font-size:14.5px;cursor:pointer}
 .contact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}
 @media (max-width:560px){.contact{grid-template-columns:minmax(0,1fr)}}
-.contact div{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:rgba(10,22,48,.45);min-width:0}
+.contact div{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--inset);min-width:0}
 .contact span{display:block;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--fg-3)}
 .contact b{display:block;color:var(--fg);font-size:14px;font-weight:600;margin-top:3px;overflow-wrap:anywhere}
 .alm{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:12px}
@@ -355,7 +376,7 @@ button{font:inherit;color:inherit}
 .call-h .rec{display:inline-flex;align-items:center;gap:8px}
 .call-h .rec i{width:8px;height:8px;border-radius:50%;background:var(--bad);animation:pulse-r 1.4s infinite}
 @keyframes pulse-r{50%{opacity:.25}}
-.call-b{padding:16px 14px;display:grid;gap:12px;background:rgba(10,22,48,.35)}
+.call-b{padding:16px 14px;display:grid;gap:12px;background:var(--inset)}
 .bubble{max-width:620px;background:var(--card-2);border:1px solid var(--line-2);border-radius:4px 16px 16px 16px;padding:12px 14px;color:var(--fg);font-size:15.5px}
 .bubble small{display:block;font-size:11.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3);margin-bottom:4px}
 .bubble.me{justify-self:end;border-radius:16px 4px 16px 16px;background:rgba(244,182,46,.12);border-color:var(--gold-line)}
@@ -387,13 +408,13 @@ button{font:inherit;color:inherit}
 .htop{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;font-weight:700;color:var(--fg)}
 .htop time{font-weight:500;color:var(--fg-3);font-size:12.5px;white-space:nowrap}
 .hbody{font-size:14px;margin-top:3px;color:var(--fg-2);white-space:pre-line}
-.hbody.mono{font-family:var(--mono);font-size:12.5px;line-height:1.65;background:#081126;border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-top:6px;color:#DCE6FA;overflow-x:auto}
+.hbody.mono{font-family:var(--mono);font-size:12.5px;line-height:1.65;background:var(--code-bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-top:6px;color:var(--code-fg);overflow-x:auto}
 .sim-foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px;font-size:12.5px;color:var(--fg-3)}
 .back-list{display:none}
 @media (max-width:980px){.back-list{display:inline-flex}}
 
 /* View 3: certification */
-.score{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.score{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 @media (max-width:900px){.score{grid-template-columns:1fr 1fr}}
 .sc{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;display:flex;gap:14px;align-items:center;min-width:0}
 .ring{--p:0;width:64px;height:64px;border-radius:50%;flex:none;background:conic-gradient(var(--gold) calc(var(--p)*1%),rgba(150,174,224,.15) 0);display:grid;place-items:center}
@@ -474,7 +495,7 @@ footer p{max-width:70ch}
 .objective ul{margin:0;padding-left:18px;display:grid;gap:4px}
 @media (max-width:560px){.objective{flex-direction:column;gap:6px}}
 .mod-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;position:relative}
-.mod-meta span{font-size:12.5px;font-weight:700;color:var(--fg-2);background:rgba(10,22,48,.55);border:1px solid var(--line);border-radius:99px;padding:5px 11px}
+.mod-meta span{font-size:12.5px;font-weight:700;color:var(--fg-2);background:var(--inset);border:1px solid var(--line);border-radius:99px;padding:5px 11px}
 .secnav{display:flex;gap:6px;overflow-x:auto;margin-top:14px;padding-bottom:4px;scrollbar-width:thin}
 .secnav button{flex:none;display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line-2);border-radius:999px;padding:8px 13px;font-size:13px;font-weight:700;color:var(--fg-2);cursor:pointer}
 .secnav button.done{color:var(--good);border-color:rgba(61,214,140,.45)}
@@ -500,7 +521,7 @@ footer p{max-width:70ch}
 .btable th{text-align:left;background:var(--bg-2);color:var(--gold-2);font-size:12px;letter-spacing:.08em;text-transform:uppercase;padding:9px 12px}
 .btable td{padding:9px 12px;border-top:1px solid var(--line);vertical-align:top}
 .gloss{margin:14px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
-.gloss div{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:rgba(10,22,48,.45)}
+.gloss div{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--inset)}
 .gloss dt{font-weight:700;color:var(--fg)}
 .gloss dd{margin:3px 0 0;font-size:14px}
 .lnav{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:22px;padding-top:16px;border-top:1px solid var(--line)}
@@ -512,6 +533,88 @@ footer p{max-width:70ch}
 .qexp{margin-top:10px;font-size:14.5px;padding:10px 12px;border-radius:10px}
 .qexp.ok{background:var(--good-soft)}
 .qexp.no{background:var(--bad-soft)}
+
+/* Boot camp player: one small screen at a time */
+.pl-head{background:linear-gradient(135deg,var(--card-2),var(--card));border:1px solid var(--line-2);border-radius:var(--radius);padding:18px 20px}
+.pl-head h2{font-size:clamp(24px,3vw,34px);font-weight:800;margin-top:6px}
+.pl-bar{height:8px;border-radius:99px;background:rgba(150,174,224,.15);margin-top:14px;overflow:hidden}
+.pl-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold-deep),var(--gold-2));border-radius:99px;transition:width .35s ease}
+.pl-card{margin-top:14px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;min-height:340px;display:flex;flex-direction:column;justify-content:center;gap:16px;animation:plin .25s ease}
+@keyframes plin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.pl-card h3{font-family:var(--body);text-transform:none;letter-spacing:0;font-size:clamp(20px,2.4vw,25px);font-weight:700;line-height:1.3;color:var(--fg)}
+.pl-card p{font-size:clamp(17px,2vw,19.5px);line-height:1.55;color:var(--fg-2);max-width:60ch}
+.pl-card b{color:var(--fg)}
+.s-say,.s-win,.s-tat{text-align:center;display:grid;gap:14px;justify-items:center}
+.s-icon{font-size:60px;line-height:1}
+.s-say h3,.s-win h3{font-family:var(--display);text-transform:uppercase;font-size:clamp(28px,4vw,40px);font-weight:800;line-height:1.02}
+.s-tat{border:2px solid var(--gold);border-radius:18px;padding:30px 20px;background:radial-gradient(80% 90% at 50% 0%,rgba(244,182,46,.16),transparent 70%)}
+.tat-k{font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#2A1E00;background:var(--gold);border-radius:99px;padding:5px 12px}
+.pl-card .tat-t{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(30px,5vw,48px);line-height:1.02;color:var(--fg);max-width:18ch}
+.pl-card .tat-s{font-size:17px;color:var(--gold-2)}
+.hint,.count,.ask{font-size:14px!important;color:var(--fg-3)!important;font-weight:700;letter-spacing:.04em}
+.ask{text-transform:uppercase;letter-spacing:.12em;font-size:12.5px!important}
+.flips{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.flips.n3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:640px){.flips,.flips.n3{grid-template-columns:1fr}}
+.flipc{min-height:130px;border-radius:14px;border:2px dashed var(--line-2);background:var(--bg-2);color:var(--fg);padding:16px;cursor:pointer;display:grid;gap:8px;align-content:center;justify-items:center;text-align:center;transition:transform .2s,border-color .2s,background .2s}
+.flipc:hover{border-color:var(--gold);transform:translateY(-2px)}
+.flipc .fk{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--fg-3)}
+.flipc .ft{font-family:var(--display);font-weight:800;font-size:26px;text-transform:uppercase;line-height:1.05}
+.flipc.on{border-style:solid;border-color:var(--gold);background:var(--gold-soft);animation:flipin .3s ease}
+.flipc.on .fk{color:var(--gold-2)}
+.flipc.on .ft{font-family:var(--body);font-weight:600;font-size:17px;text-transform:none;line-height:1.4}
+@keyframes flipin{from{transform:rotateX(90deg)}to{transform:none}}
+.answers{display:grid;gap:10px}
+.answers.row{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:560px){.answers.row{grid-template-columns:1fr}}
+.ans{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;text-align:left;background:var(--bg-2);border:2px solid var(--line-2);border-radius:14px;padding:14px 16px;color:var(--fg);font-size:17px;line-height:1.4;cursor:pointer;transition:border-color .15s,transform .15s}
+.ans:not(:has(.al)){grid-template-columns:1fr}
+.ans:hover:not([disabled]){border-color:var(--gold);transform:translateY(-1px)}
+.ans .al{display:grid;place-items:center;width:30px;height:30px;border-radius:9px;border:1px solid var(--line-2);font-weight:800;font-size:14px;color:var(--fg-2)}
+.ans.right{border-color:var(--good);background:var(--good-soft)}
+.ans.right .al{background:var(--good);border-color:var(--good);color:#06301C}
+.ans.wrong{border-color:var(--bad);background:var(--bad-soft);animation:shake .3s}
+.ans.wrong .al{background:var(--bad);border-color:var(--bad);color:#3A0909}
+.ans[disabled]{cursor:default}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.shake{animation:shake .3s}
+.snote{border-radius:12px;padding:12px 14px;font-size:16px;line-height:1.45}
+.snote:focus{outline:none}
+.snote.good{background:var(--good-soft);border:1px solid rgba(61,214,140,.5)}
+.snote.good b{color:var(--good)}
+.snote.bad{background:var(--bad-soft);border:1px solid rgba(255,127,127,.5)}
+.snote.bad b{color:var(--bad)}
+.pl-card .fill{font-size:clamp(20px,2.6vw,26px);color:var(--fg);font-weight:600;line-height:1.5}
+.blank{display:inline-block;min-width:70px;text-align:center;border-bottom:3px solid var(--gold);color:var(--gold-2);margin:0 6px;padding:0 6px}
+.blank.done{color:var(--good);border-color:var(--good)}
+.chatbox{border:1px solid var(--line-2);border-radius:16px;overflow:hidden;background:var(--inset);display:grid;gap:10px;padding-bottom:14px}
+.chat-h{background:var(--bg-2);padding:9px 14px;font-size:13px;font-weight:700;color:var(--fg-2);border-bottom:1px solid var(--line)}
+.bub{max-width:85%;margin:0 14px;padding:11px 14px;border-radius:4px 16px 16px 16px;background:var(--card-2);border:1px solid var(--line-2);color:var(--fg);font-size:17px;line-height:1.45;justify-self:start}
+.bub small{display:block;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--fg-3);margin-bottom:3px}
+.bub.me{justify-self:end;border-radius:16px 4px 16px 16px;background:rgba(244,182,46,.14);border-color:var(--gold-line)}
+.bub.me small{color:var(--gold-2)}
+.sortcard{border:2px solid var(--gold-line);background:var(--gold-soft);border-radius:16px;padding:26px 18px;text-align:center;font-size:clamp(19px,2.4vw,23px);font-weight:700;color:var(--fg);line-height:1.35}
+.sortbtns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sb{border-radius:14px;padding:16px 10px;font-weight:800;font-size:16px;cursor:pointer;border:2px solid}
+.sb.l{background:var(--good-soft);border-color:var(--good);color:var(--good)}
+.sb.r{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.sb:hover{transform:translateY(-1px)}
+.ordlist{margin:0;padding:0;list-style:none;display:grid;gap:8px;counter-reset:o}
+.ordlist li{counter-increment:o;display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:center;border:1px dashed var(--line-2);border-radius:12px;padding:10px 12px;min-height:50px;font-size:16.5px;color:var(--fg)}
+.ordlist li::before{content:counter(o);display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:var(--card-2);font-family:var(--display);font-weight:800;font-size:18px;color:var(--fg-2)}
+.ordlist li.on{border-style:solid;border-color:var(--good);background:var(--good-soft)}
+.ordlist li.on::before{background:var(--good);color:#06301C}
+.pl-card .speakline{font-size:clamp(21px,2.8vw,28px);font-weight:700;color:var(--fg);line-height:1.4;border-left:4px solid var(--gold);padding-left:16px}
+.dots{display:flex;gap:8px}
+.dots i{width:16px;height:16px;border-radius:50%;border:2px solid var(--line-2)}
+.dots i.on{background:var(--good);border-color:var(--good)}
+.pl-nav{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;margin-top:14px}
+.pl-nav>:last-child{justify-self:end}
+.pl-nav>:first-child{justify-self:start}
+.pl-nav.wrap{display:flex;flex-wrap:wrap;justify-content:center}
+.pl-nav .btn-gold{font-size:17px;padding:15px 26px}
+.pl-count{font-size:13px;font-weight:700;color:var(--fg-3)}
+@media (max-width:560px){.pl-card{padding:22px 16px;min-height:300px}.pl-nav{position:sticky;bottom:8px;background:var(--glass);padding:8px;border-radius:999px;border:1px solid var(--line)}.pl-nav .btn-gold{padding:13px 18px}}
 
 /* Print. The "Print or save as PDF" button adds .printing-cert so only the earned certificate prints, on one landscape page.
    Printing anything else prints the open view in black on white. A locked certificate never prints. */
@@ -545,6 +648,7 @@ footer p{max-width:70ch}
     <nav class="navlinks" id="navlinks" aria-label="Site">
     </nav>
     <div class="navcta">
+      <button class="themebtn" id="themeBtn" type="button" aria-label="Switch between light and dark"></button>
       <button class="menubtn" id="menubtn" hidden type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
     </div>
   </div>
@@ -555,14 +659,14 @@ footer p{max-width:70ch}
     <div class="wrap">
       <div>
         <div class="eyebrow">LockedIn VAs Academy · Private</div>
-        <h1 id="bc-title">ISA <span class="gold">Certification Program</span></h1>
-        <p class="lead">The full training for approved LockedIn VAs ISAs: <b id="heroMods">17 modules</b> of lessons, practice assignments and quizzes, <b id="heroHours">about 20 hours</b> in all, plus <b id="heroCalls">8 practice calls</b> in a simulated Follow Up Boss workspace and a certificate with a verification ID when you finish. Please do not share this page.</p>
-        <div class="micro"><span>For approved VAs only</span><span>Plan on four to five working days</span><span>In English, like the calls you will make</span><span>Progress saves on this device</span></div>
+        <h1 id="bc-title">ISA <span class="gold">Boot Camp</span></h1>
+        <p class="lead">One day. <b id="heroMods">12 short chapters</b>, one small screen at a time. Tap, pick and say it out loud. Then <b id="heroCalls">8 practice calls</b>. It takes <b id="heroHours">about 4 hours</b> in all, and you are ready for real leads tomorrow.</p>
+        <div class="micro"><span>For approved VAs only</span><span>Go at your own speed</span><span>Your progress saves on this device</span></div>
       </div>
       <div class="progress-card">
         <div class="pc-top"><h2>Your progress</h2><span id="pcLabel">Not started</span></div>
         <div class="pc-stats">
-          <div class="pc-stat"><b id="pcDays">0</b><span>Modules passed</span></div>
+          <div class="pc-stat"><b id="pcDays">0</b><span>Chapters done</span></div>
           <div class="pc-stat"><b id="pcCalls">0</b><span>Practice calls</span></div>
           <div class="pc-stat"><b id="pcQa">–</b><span>QA average</span></div>
         </div>
@@ -575,7 +679,7 @@ footer p{max-width:70ch}
   <div class="bc-tabs-bar">
     <div class="wrap">
       <div class="bc-tabs" role="tablist" aria-label="Program sections">
-        <button class="bc-tab" role="tab" id="tab-curriculum" aria-controls="view-curriculum" aria-selected="true" data-tab="curriculum"><span class="n">1</span>Curriculum<span class="pill" id="tabDays">0</span></button>
+        <button class="bc-tab" role="tab" id="tab-curriculum" aria-controls="view-curriculum" aria-selected="true" data-tab="curriculum"><span class="n">1</span>Boot Camp<span class="pill" id="tabDays">0</span></button>
         <button class="bc-tab" role="tab" id="tab-simulator" aria-controls="view-simulator" aria-selected="false" tabindex="-1" data-tab="simulator"><span class="n">2</span>Follow Up Boss Simulator<span class="pill" id="tabCalls">0</span></button>
         <button class="bc-tab" role="tab" id="tab-certificate" aria-controls="view-certificate" aria-selected="false" tabindex="-1" data-tab="certificate"><span class="n">3</span>Certification &amp; QA<span class="pill" id="tabCert">Locked</span></button>
       </div>
@@ -585,8 +689,8 @@ footer p{max-width:70ch}
   <!-- VIEW 1: CURRICULUM -->
   <section class="view" id="view-curriculum" role="tabpanel" aria-labelledby="tab-curriculum" tabindex="-1">
     <div class="wrap cur">
-      <aside class="days" aria-label="Curriculum modules">
-        <h2>Curriculum</h2>
+      <aside class="days" aria-label="Chapters">
+        <h2>Chapters</h2>
         <ol id="dayList"></ol>
         <div class="days-foot"><span>Saved on this device</span><button class="linkbtn" type="button" data-act="reset-all">Reset progress</button></div>
       </aside>
@@ -648,7 +752,7 @@ footer p{max-width:70ch}
         <div>
           <div class="notice" id="certNotice" role="status">
             <span class="ni" aria-hidden="true"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:20px;height:20px"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
-            <div><h3>Your certificate is locked</h3><p id="certNoticeP">Pass every module quiz, finish every practice assignment and complete every practice call to unlock your certificate.</p></div>
+            <div><h3>Your certificate is locked</h3><p id="certNoticeP">Finish every chapter and do every practice call to unlock your certificate.</p></div>
           </div>
           <div class="cert-wrap" style="margin-top:16px">
             <div class="cert is-locked" id="certCard" aria-label="LockedIn VAs certificate">
@@ -661,7 +765,7 @@ footer p{max-width:70ch}
                 <h2 class="cert-title">LockedIn VAs Certified Real Estate ISA</h2>
                 <p class="cert-pre">This certifies that</p>
                 <p class="cert-name ph" id="cName">Your full legal name</p>
-                <p class="cert-body" id="cBody">has completed the LockedIn VAs ISA Certification Program.</p>
+                <p class="cert-body" id="cBody">has completed the LockedIn VAs ISA Boot Camp.</p>
                 <div class="cert-foot">
                   <div class="cf-l"><span>Issued</span><b id="cDate">–</b></div>
                   <svg class="seal" viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E48A"/><stop offset=".5" stop-color="#C9971F"/><stop offset="1" stop-color="#8F6A12"/></linearGradient></defs><g fill="url(#sg)"><path d="M50 3l7 8 10-4 3 10 11 1-1 11 9 6-6 9 5 10-10 4v11l-11 1-4 10-10-4-7 8-7-8-10 4-4-10-11-1v-11l-10-4 5-10-6-9 9-6-1-11 11-1 3-10 10 4z"/></g><circle cx="50" cy="50" r="30" fill="#FBF6EA"/><circle cx="50" cy="50" r="27" fill="none" stroke="#C9971F" stroke-width="1.5"/><path d="M34 56 L50 40 L66 56" fill="none" stroke="#0F2247" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="69" text-anchor="middle" font-family="Barlow Condensed,Arial Narrow,sans-serif" font-weight="800" font-size="9" fill="#0F2247" letter-spacing="1">ISA</text></svg>
@@ -670,7 +774,7 @@ footer p{max-width:70ch}
                 <p class="cert-issuer">Issued by the LockedIn VAs Academy · A training certificate, not a real estate license · Verify at beyondvas@gmail.com</p>
               </div>
             </div>
-            <p class="print-locked">Certificate locked. Pass every module quiz, finish every practice assignment and complete every practice call to earn it.</p>
+            <p class="print-locked">Certificate locked. Finish every chapter and do every practice call to earn it.</p>
             <div class="cert-actions" id="certActions" hidden>
               <button class="btn btn-gold" type="button" data-act="register">Register my certificate</button>
               <button class="btn btn-ghost" type="button" data-act="print">Print or save as PDF</button>
@@ -702,7 +806,7 @@ footer p{max-width:70ch}
 <script>
 (function(){
   'use strict';
-  var KEY='bv-isa-program-v1';
+  var KEY='lva-bootcamp-v3';
   var $=function(id){return document.getElementById(id)};
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
   var ICON={
@@ -717,9 +821,9 @@ footer p{max-width:70ch}
     trophy:'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>'
   };
 
-  /* ---------- Curriculum (content lives in curriculum.js) ---------- */
-  var C=window.BV_CURRICULUM||{modules:[],sim:[]};
-  var MODS=C.modules||[];
+  /* ---------- Boot camp chapters (content lives in curriculum.js) ---------- */
+  var C=window.BV_CURRICULUM||{chapters:[],sim:[]};
+  var CH=C.chapters||[];
   var PASS=80;
   var RUBRIC=[['Speed to Lead',20],['ALM Discovery',30],['Objection Handling',20],['Follow Up Boss Hygiene',15],['Compliance',15]];
 
@@ -776,35 +880,31 @@ footer p{max-width:70ch}
 
   /* ---------- State (saved on this device) ---------- */
   function fresh(){
-    var s={v:1,tab:'curriculum',mod:0,sec:'L0',done:{},practice:{},quiz:{},qa:85,filter:'all',sel:LEADS[0].id,leads:{},name:'',certId:'',completedAt:'',registeredAt:''};
+    var s={v:3,tab:'curriculum',ch:0,pos:{},quiz:{},qa:85,filter:'all',sel:LEADS[0].id,leads:{},name:'',certId:'',completedAt:'',registeredAt:''};
     LEADS.forEach(function(l){s.leads[l.id]=freshLead(l)});
     return s;
   }
   function freshLead(l){return {stage:l.stage,alm:{a:l.alm.a,l:l.alm.l,m:l.alm.m},history:[],picked:[],done:false,score:null}}
   function load(){
-    try{var raw=localStorage.getItem(KEY);if(raw){var s=JSON.parse(raw);if(s&&s.v===1){var f=fresh();for(var k in f){if(!(k in s)) s[k]=f[k]}LEADS.forEach(function(l){if(!s.leads[l.id]) s.leads[l.id]=freshLead(l)});if(!MODS[s.mod]) s.mod=0;return s}}}catch(e){}
+    try{var raw=localStorage.getItem(KEY);if(raw){var s=JSON.parse(raw);if(s&&s.v===3){var f=fresh();for(var k in f){if(!(k in s)) s[k]=f[k]}LEADS.forEach(function(l){if(!s.leads[l.id]) s.leads[l.id]=freshLead(l)});if(!CH[s.ch]) s.ch=0;return s}}}catch(e){}
     return fresh();
   }
   var S=load();
   function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
-  var Q={}; // per-module transient quiz state {ans:{qi:oi}, graded, score, right}
+  var T={};          // state of the screen you are on (not saved)
   var flashKeys={}; var freshHist=null;
 
-  function modMinutes(m){var t=(m.practice&&m.practice.minutes)||0;(m.lessons||[]).forEach(function(l){t+=l.minutes||0});return t}
-  var TOTAL_MIN=MODS.reduce(function(a,m){return a+modMinutes(m)},0);
-  function lessonsDone(m){return m.lessons.filter(function(l){return S.done[l.id]}).length}
-  function allLessonsDone(m){return lessonsDone(m)===m.lessons.length}
-  function modPassed(i){var q=MODS[i]&&S.quiz[MODS[i].id];return !!(q&&q.passed)}
-  function modUnlocked(i){return i===0||modPassed(i-1)}
-  function passedCount(){var n=0;MODS.forEach(function(m,i){if(modPassed(i)) n++});return n}
-  function practiceCount(){var n=0;MODS.forEach(function(m){if(S.practice[m.id]) n++});return n}
+  function chMin(c){return c.mins||Math.round(c.steps.length*0.5+3)}
+  var TOTAL_MIN=CH.reduce(function(a,c){return a+chMin(c)},0);
+  function posOf(c){return Math.min(S.pos[c.id]||0,c.steps.length)}
+  function chPassed(i){var q=CH[i]&&S.quiz[CH[i].id];return !!(q&&q.passed)}
+  function chUnlocked(i){return i===0||chPassed(i-1)}
+  function passedCount(){var n=0;CH.forEach(function(c,i){if(chPassed(i)) n++});return n}
   function callsDone(){var n=0;LEADS.forEach(function(l){if(S.leads[l.id].done) n++});return n}
   function qaAvg(){var t=0,n=0;LEADS.forEach(function(l){var st=S.leads[l.id];if(st.done&&st.score!=null){t+=st.score;n++}});return n?Math.round(t/n):null}
-  function quizAvg(){var t=0,n=0;MODS.forEach(function(m){var q=S.quiz[m.id];if(q&&q.attempts){t+=q.best;n++}});return n?Math.round(t/n):null}
-  function certReady(){return MODS.length>0&&passedCount()===MODS.length&&practiceCount()===MODS.length&&callsDone()===LEADS.length}
-  function nextMod(){for(var i=0;i<MODS.length;i++) if(!modPassed(i)) return i;return -1}
-  function firstSec(m,i){for(var k=0;k<m.lessons.length;k++) if(!S.done[m.lessons[k].id]) return 'L'+k;return modPassed(i)?'L0':(S.practice[m.id]?'Q':'P')}
-  function hours(min){return Math.round(min/60)}
+  function quizAvg(){var t=0,n=0;CH.forEach(function(c){var q=S.quiz[c.id];if(q&&q.attempts){t+=q.best;n++}});return n?Math.round(t/n):null}
+  function certReady(){return CH.length>0&&passedCount()===CH.length&&callsDone()===LEADS.length}
+  function nextCh(){for(var i=0;i<CH.length;i++) if(!chPassed(i)) return i;return -1}
   function clamp(v){return Math.max(0,Math.min(100,v))}
   function newId(){
     var A='ABCDEFGHJKLMNPQRSTUVWXYZ23456789',b=new Uint8Array(8),out='';
@@ -816,8 +916,8 @@ footer p{max-width:70ch}
   function fmtDate(iso){try{return new Date(iso).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}catch(e){return iso}}
   function checkCert(){if(certReady()&&!S.certId){S.certId=newId();S.completedAt=new Date().toISOString()}}
   function md(s){return esc(s).replace(/\*\*(.+?)\*\*/g,'<b>$1</b>')}
-  function partName(p){return p==='isa'?'ISA track':'Foundations'}
-  function toLesson(){var L=$('lesson');var y=L.getBoundingClientRect().top+window.scrollY-140;if(window.scrollY>y+10) window.scrollTo({top:y,behavior:'smooth'})}
+  function timeTxt(min){return min<60?min+' minutes':'about '+(Math.round(min/30)/2)+' hours'}
+  function toLesson(){var L=$('lesson');var y=L.getBoundingClientRect().top+window.scrollY-140;if(Math.abs(window.scrollY-y)>30) window.scrollTo({top:y,behavior:'smooth'})}
 
   /* ---------- Tabs ---------- */
   var TABS=['curriculum','simulator','certificate'];
@@ -838,131 +938,114 @@ footer p{max-width:70ch}
 
   /* ---------- Render: hero + tab pills ---------- */
   function renderTop(){
-    var N=MODS.length,p=passedCount(),pr=practiceCount(),c=callsDone(),avg=qaAvg(),ready=certReady();
+    var N=CH.length,p=passedCount(),c=callsDone(),avg=qaAvg(),ready=certReady();
     $('pcDays').textContent=p+'/'+N;$('pcCalls').textContent=c+'/'+LEADS.length;$('pcQa').textContent=avg==null?'–':avg;
-    $('pcBar').style.width=Math.round((p+pr+c)/Math.max(1,2*N+LEADS.length)*100)+'%';
+    var stepsAll=0,stepsDone=0;CH.forEach(function(x,i){stepsAll+=x.steps.length+1;stepsDone+=chPassed(i)?x.steps.length+1:posOf(x)});
+    $('pcBar').style.width=Math.round((stepsDone+c)/Math.max(1,stepsAll+LEADS.length)*100)+'%';
     $('tabDays').textContent=p+'/'+N;$('tabDays').className='pill'+(N&&p===N?' ok':'');
     $('tabCalls').textContent=c+'/'+LEADS.length;$('tabCalls').className='pill'+(c===LEADS.length?' ok':'');
     $('tabCert').textContent=ready?'Unlocked':'Locked';$('tabCert').className='pill'+(ready?' ok':'');
-    $('heroMods').textContent=N+' modules';$('heroHours').textContent='about '+hours(TOTAL_MIN)+' hours';$('heroCalls').textContent=LEADS.length+' practice calls';
-    var go=$('pcGo'),lbl=$('pcLabel'),nm=nextMod();
+    $('heroMods').textContent=N+' short chapters';$('heroHours').textContent=timeTxt(TOTAL_MIN+LEADS.length*4);$('heroCalls').textContent=LEADS.length+' practice calls';
+    var go=$('pcGo'),lbl=$('pcLabel'),nc=nextCh();
     if(ready){go.textContent='View your certificate';go.setAttribute('data-next','certificate');lbl.textContent='Certificate unlocked'}
-    else if(nm>=0){var fresh0=p===0&&lessonsDone(MODS[0])===0;go.textContent=fresh0?'Start Module 1':'Continue Module '+(nm+1);go.setAttribute('data-next','mod');lbl.textContent=fresh0?'Not started':'Module '+(nm+1)+' of '+N}
-    else if(pr<N){go.textContent='Finish your practice assignments';go.setAttribute('data-next','practice');lbl.textContent='All quizzes passed'}
-    else{go.textContent='Finish the practice calls';go.setAttribute('data-next','simulator');lbl.textContent='All modules passed'}
+    else if(nc>=0){var fresh0=p===0&&posOf(CH[0])===0;go.textContent=fresh0?'Start Chapter 1':'Continue Chapter '+(nc+1);go.setAttribute('data-next','ch');lbl.textContent=fresh0?'Not started':'Chapter '+(nc+1)+' of '+N}
+    else{go.textContent='Do the practice calls';go.setAttribute('data-next','simulator');lbl.textContent='All chapters passed'}
   }
 
-  /* ---------- Render: curriculum ---------- */
-  function renderModules(){
-    var h='',part='';
-    MODS.forEach(function(m,i){
-      if(m.part!==part){part=m.part;h+='<li class="parthead">'+esc(partName(part))+'</li>'}
-      var cur=S.mod===i,pas=modPassed(i),lock=!modUnlocked(i);
+  /* ---------- Render: chapter list ---------- */
+  function renderChapters(){
+    var h='';
+    CH.forEach(function(c,i){
+      var cur=S.ch===i,pas=chPassed(i),lock=!chUnlocked(i),p=posOf(c);
       var cls='day-btn'+(cur?' is-current':'')+(pas?' is-passed':'')+(lock?' is-locked':'');
-      var status=pas?('Passed · '+S.quiz[m.id].best+'%'):(lock?'Locked':(lessonsDone(m)+' of '+m.lessons.length+' lessons'));
+      var status=pas?'Done':(lock?'Locked':(p>0?Math.round(p/c.steps.length*100)+'% done':chMin(c)+' min'));
       var ic=pas?ICON.check:(lock?ICON.lock:'');
-      h+='<li><button type="button" class="'+cls+'" data-act="mod" data-mod="'+i+'"'+(cur?' aria-current="step"':'')+' aria-label="Module '+(i+1)+': '+esc(m.title)+', '+status+'">'+
-        '<span class="dn">'+(i+1)+'</span><span class="dtxt"><span class="dt">'+esc(m.title)+'</span><span class="ds">'+status+'</span></span><span class="di" aria-hidden="true">'+ic+'</span></button></li>';
+      h+='<li><button type="button" class="'+cls+'" data-act="ch" data-ch="'+i+'"'+(cur?' aria-current="step"':'')+' aria-label="Chapter '+(i+1)+': '+esc(c.title)+', '+status+'">'+
+        '<span class="dn">'+(i+1)+'</span><span class="dtxt"><span class="dt">'+esc(c.title)+'</span><span class="ds">'+status+'</span></span><span class="di" aria-hidden="true">'+ic+'</span></button></li>';
     });
     $('dayList').innerHTML=h;
   }
   function rubricHTML(){
     return RUBRIC.map(function(r){return '<div class="rrow"><b>'+esc(r[0])+'</b><span class="rbar"><i style="width:'+(r[1]/30*100)+'%"></i></span><span class="pts">'+r[1]+'</span></div>'}).join('')+'<div class="rtotal"><span>Total</span><span>100 points</span></div>';
   }
-  function blocks(arr){
-    return (arr||[]).map(function(b){
-      switch(b.t){
-        case 'p': return '<p>'+md(b.text)+'</p>';
-        case 'list': return '<ul class="blist">'+(b.items||[]).map(function(x){return '<li>'+md(x)+'</li>'}).join('')+'</ul>';
-        case 'steps': return '<ol class="bsteps">'+(b.items||[]).map(function(x){return '<li>'+md(x)+'</li>'}).join('')+'</ol>';
-        case 'callout': return '<div class="callout">'+(b.title?'<b>'+md(b.title)+'</b> ':'')+md(b.text)+'</div>';
-        case 'script': return '<div class="bscript"><div class="bscript-h">'+md(b.title||'Script')+'</div>'+(b.lines||[]).map(function(l){var me=/^(you|isa)\b/i.test(l.who||'');return '<div class="bline'+(me?' me':'')+'"><span>'+esc(l.who)+'</span><p>'+md(l.text)+'</p></div>'}).join('')+'</div>';
-        case 'dodont': return '<div class="two"><div class="box do"><h4>Do</h4><ul class="ticks">'+(b['do']||[]).map(function(x){return '<li>'+md(x)+'</li>'}).join('')+'</ul></div><div class="box dont"><h4>Don’t</h4><ul class="ticks x">'+(b.dont||[]).map(function(x){return '<li>'+md(x)+'</li>'}).join('')+'</ul></div></div>';
-        case 'table': return '<div class="tblwrap"><table class="btable"><thead><tr>'+(b.head||[]).map(function(x){return '<th>'+md(x)+'</th>'}).join('')+'</tr></thead><tbody>'+(b.rows||[]).map(function(r){return '<tr>'+r.map(function(x){return '<td>'+md(x)+'</td>'}).join('')+'</tr>'}).join('')+'</tbody></table></div>';
-        case 'glossary': return '<dl class="gloss">'+(b.terms||[]).map(function(t){return '<div><dt>'+md(t.term)+'</dt><dd>'+md(t.def)+'</dd></div>'}).join('')+'</dl>';
-        default: return '';
+
+  /* ---------- Render: one screen at a time ---------- */
+  function shuffled(n){var a=[],k=n%5===0?3:5;for(var i=0;i<n;i++) a.push(i);a.sort(function(x,y){return ((x*k+2)%n)-((y*k+2)%n)});if(n>1&&a.every(function(v,i){return v===i})) a.push(a.shift());return a}
+  var LET='ABCD';
+  function optBtn(act,k,text,cls,dis){return '<button type="button" class="ans '+(cls||'')+'" data-act="'+act+'" data-k="'+k+'"'+(dis?' disabled':'')+'><span class="al">'+LET[k]+'</span><span>'+md(text)+'</span></button>'}
+  function note(kind,head,text){return '<div class="snote '+kind+'" role="status" tabindex="-1"><b>'+head+'</b> '+md(text||'')+'</div>'}
+  function stepHTML(s){
+    var h='',ok=true;
+    switch(s.t){
+      case 'say':
+        h='<div class="s-say">'+(s.icon?'<div class="s-icon" aria-hidden="true">'+esc(s.icon)+'</div>':'')+(s.h?'<h3>'+md(s.h)+'</h3>':'')+'<p>'+md(s.text)+'</p></div>';break;
+      case 'tattoo':
+        h='<div class="s-tat"><span class="tat-k">Brain tattoo</span><p class="tat-t">'+md(s.text)+'</p>'+(s.sub?'<p class="tat-s">'+md(s.sub)+'</p>':'')+'</div>';break;
+      case 'flip':
+        T.fl=T.fl||{};ok=s.cards.every(function(c,k){return T.fl[k]});
+        h='<h3>'+md(s.h||'Tap each card')+'</h3><div class="flips n'+s.cards.length+'">'+s.cards.map(function(c,k){var f=!!T.fl[k];return '<button type="button" class="flipc'+(f?' on':'')+'" data-act="flip" data-k="'+k+'" aria-pressed="'+f+'"><span class="fk">'+(f?'Answer':'Tap to flip')+'</span><span class="ft">'+md(f?c.back:c.front)+'</span></button>'}).join('')+'</div>'+(ok?'':'<p class="hint">Tap every card to go on.</p>');break;
+      case 'pick':
+        ok=T.sel===s.answer;
+        h='<h3>'+md(s.q)+'</h3><div class="answers">'+s.options.map(function(o,k){var cls=T.sel===k?(k===s.answer?'right':'wrong'):'';return optBtn('opt',k,o,cls,ok)}).join('')+'</div>'+
+          (ok?note('good','Yes!',s.why):(T.sel!=null?note('bad','Not this one.','Try another answer.'):''));break;
+      case 'fill':
+        ok=T.sel===s.answer;
+        h='<h3>'+md(s.h||'Finish the line')+'</h3><p class="fill">“'+md(s.before)+'<span class="blank'+(ok?' done':'')+'">'+(ok?md(s.options[s.answer]):'&nbsp;&nbsp;?&nbsp;&nbsp;')+'</span>'+md(s.after||'')+'”</p><div class="answers row">'+s.options.map(function(o,k){var cls=T.sel===k?(k===s.answer?'right':'wrong'):'';return optBtn('opt',k,o,cls,ok)}).join('')+'</div>'+
+          (ok?note('good','Yes!',''):(T.sel!=null?note('bad','Not this one.','Try again.'):''));break;
+      case 'chat':
+        var pk=T.sel!=null?s.options[T.sel]:null;ok=!!(pk&&pk.good);
+        h='<div class="chatbox"><div class="chat-h">'+(s.channel==='text'?'💬 Text':'📞 Call')+' with '+esc(s.who||'the lead')+'</div><div class="bub them"><small>'+esc(s.who||'Lead')+'</small>'+md(s.says)+'</div>'+(ok?'<div class="bub me"><small>You</small>'+md(pk.text)+'</div>':'')+'</div>'+
+          (ok?'':'<p class="ask">What do you say?</p><div class="answers">'+s.options.map(function(o,k){return optBtn('opt',k,o.text,T.sel===k?'wrong':'',false)}).join('')+'</div>')+
+          (pk?note(ok?'good':'bad',ok?'Great reply.':'Not this one.',pk.why+(ok?'':' Try again.')):'');break;
+      case 'sort':
+        T.si=T.si||0;ok=T.si>=s.items.length;
+        if(!ok){var it=s.items[T.si];h='<h3>'+md(s.h||'Sort it')+'</h3><p class="count">'+(T.si+1)+' of '+s.items.length+'</p><div class="sortcard'+(T.bad?' shake':'')+'">'+md(it.text)+'</div><div class="sortbtns"><button type="button" class="sb l" data-act="sort" data-k="left">'+md(s.left)+'</button><button type="button" class="sb r" data-act="sort" data-k="right">'+md(s.right)+'</button></div>'+(T.bad?note('bad','Not that side.','Try the other one.'):'')}
+        else h='<h3>'+md(s.h||'Sort it')+'</h3><div class="two"><div class="box do"><h4>'+md(s.left)+'</h4><ul class="ticks">'+s.items.filter(function(x){return x.side==='left'}).map(function(x){return '<li>'+md(x.text)+'</li>'}).join('')+'</ul></div><div class="box dont"><h4>'+md(s.right)+'</h4><ul class="ticks x">'+s.items.filter(function(x){return x.side!=='left'}).map(function(x){return '<li>'+md(x.text)+'</li>'}).join('')+'</ul></div></div>'+note('good','All sorted!','');
+        break;
+      case 'order':
+        T.ord=T.ord||[];ok=T.ord.length===s.items.length;var sh=shuffled(s.items.length);
+        h='<h3>'+md(s.h||'Put them in order')+'</h3><ol class="ordlist">'+s.items.map(function(x,k){return '<li class="'+(k<T.ord.length?'on':'')+'">'+(k<T.ord.length?md(x):'&nbsp;')+'</li>'}).join('')+'</ol>'+
+          (ok?note('good','Right order!',''):'<p class="ask">Tap what comes '+(T.ord.length?'next':'first')+'.</p><div class="answers">'+sh.filter(function(k){return T.ord.indexOf(k)<0}).map(function(k){return '<button type="button" class="ans'+(T.badk===k?' wrong':'')+'" data-act="ord" data-k="'+k+'"><span>'+md(s.items[k])+'</span></button>'}).join('')+'</div>'+(T.badk!=null?note('bad','Not yet.','Something else comes before this.'):''));break;
+      case 'speak':
+        var need=s.times||3;T.sp=T.sp||0;ok=T.sp>=need;
+        h='<h3>🎙️ '+md(s.h||'Say it out loud')+'</h3><p class="speakline">“'+md(s.line)+'”</p><div class="dots">'+Array.apply(null,Array(need)).map(function(_,k){return '<i class="'+(k<T.sp?'on':'')+'"></i>'}).join('')+'</div>'+
+          (ok?note('good','Nice.','Your mouth knows the words now.'):'<button type="button" class="btn btn-ghost" data-act="spoke">I said it out loud ('+T.sp+' of '+need+')</button>');break;
+      case 'win':
+        h='<div class="s-win"><div class="s-icon" aria-hidden="true">🏆</div><h3>Lessons done!</h3><p>'+md(s.text)+'</p><p class="hint">Next: 5 quick questions.</p></div>';break;
+      default: h='<p>'+md(s.text||'')+'</p>';
+    }
+    return {html:h,ok:ok};
+  }
+  function renderPlayer(){
+    var el=$('lesson'),i=S.ch,c=CH[i],N=CH.length;
+    if(!c){el.innerHTML='<div class="locked"><h2 tabindex="-1">The boot camp did not load</h2><p>Reload the page. If it keeps happening, tell your coordinator.</p></div>';return}
+    if(!chUnlocked(i)){var nc=Math.max(0,nextCh());
+      el.innerHTML='<div class="locked"><div class="lk">'+ICON.lock.replace('class="ic"','class="ic" style="width:26px;height:26px"')+'</div><h2 tabindex="-1">Chapter '+(i+1)+' is locked</h2><p>Chapters open in order. You are on Chapter '+(nc+1)+'.</p><button class="btn btn-gold" type="button" data-act="ch" data-ch="'+nc+'">Go to Chapter '+(nc+1)+'</button></div>';return}
+    var n=c.steps.length,p=posOf(c),total=n+1,at=Math.min(p,n);
+    var head='<div class="pl-head"><div class="lesson-k">Chapter '+(i+1)+' of '+N+' · '+chMin(c)+' min</div><h2 tabindex="-1">'+esc(c.title)+'</h2><div class="pl-bar" role="progressbar" aria-valuemin="0" aria-valuemax="'+total+'" aria-valuenow="'+at+'"><i style="width:'+Math.round(at/total*100)+'%"></i></div></div>';
+    var body,foot='';
+    if(p<n){
+      var r=stepHTML(c.steps[p]);
+      body='<div class="pl-card t-'+c.steps[p].t+'">'+r.html+'</div>';
+      foot='<div class="pl-nav">'+(p>0?'<button type="button" class="btn btn-ghost btn-sm" data-act="st-back">Back</button>':'<span></span>')+'<span class="pl-count">'+(p+1)+' / '+n+'</span><button type="button" class="btn btn-gold" data-act="st-next"'+(r.ok?'':' disabled')+'>'+(p===n-1?'Start the quiz':'Next')+' '+ICON.arrow+'</button></div>';
+    } else if(chPassed(i)&&!T.quiz){
+      var rec=S.quiz[c.id],nx=i+1<N?'<button type="button" class="btn btn-gold" data-act="ch" data-ch="'+(i+1)+'">Chapter '+(i+2)+': '+esc(CH[i+1].title)+' '+ICON.arrow+'</button>':(certReady()?'<button type="button" class="btn btn-gold" data-act="tab" data-tab="certificate">See your certificate '+ICON.arrow+'</button>':'<button type="button" class="btn btn-gold" data-act="tab" data-tab="simulator">Now the practice calls '+ICON.arrow+'</button>');
+      body='<div class="pl-card t-win"><div class="s-win"><div class="s-icon" aria-hidden="true">✅</div><h3>Chapter '+(i+1)+' done. Quiz: '+rec.best+'%</h3><p>'+(i+1<N?'Take a short break if you need one. Then keep going.':'You finished every chapter.')+'</p></div></div>';
+      foot='<div class="pl-nav wrap">'+nx+'<button type="button" class="btn btn-ghost btn-sm" data-act="review">Review this chapter</button></div>';
+    } else {
+      var q=T.quiz||(T.quiz={i:0,right:0,sel:null,done:false});
+      if(!q.done){var Q=c.quiz[q.i],ans=q.sel!=null;
+        body='<div class="pl-card t-quiz"><div class="quiz-k">'+ICON.flag+' Quiz · question '+(q.i+1)+' of '+c.quiz.length+'</div><h3>'+md(Q.q)+'</h3><div class="answers">'+Q.options.map(function(o,k){var cls=ans?(k===Q.answer?'right':(k===q.sel?'wrong':'')):'';return optBtn('qz',k,o,cls,ans)}).join('')+'</div>'+(ans?note(q.sel===Q.answer?'good':'bad',q.sel===Q.answer?'Correct.':'Not quite.',Q.explain):'')+'</div>';
+        foot='<div class="pl-nav"><span></span><span class="pl-count">Pass with '+Math.ceil(c.quiz.length*PASS/100)+' of '+c.quiz.length+'</span><button type="button" class="btn btn-gold" data-act="qz-next"'+(ans?'':' disabled')+'>'+(q.i===c.quiz.length-1?'See my score':'Next')+' '+ICON.arrow+'</button></div>';
+      } else {
+        var pass=q.score>=PASS;
+        body='<div class="pl-card t-win"><div class="s-win"><div class="s-icon" aria-hidden="true">'+(pass?'🎉':'💪')+'</div><h3>'+(pass?'You passed! ':'Almost. ')+q.right+' of '+c.quiz.length+' right</h3><p>'+(pass?'Chapter '+(i+1)+' is done.':'You need '+Math.ceil(c.quiz.length*PASS/100)+' right. Look at the chapter again, then try once more.')+'</p></div></div>';
+        foot='<div class="pl-nav wrap">'+(pass?'<button type="button" class="btn btn-gold" data-act="qz-done">Continue '+ICON.arrow+'</button>':'<button type="button" class="btn btn-gold" data-act="qz-retry">Try the quiz again</button><button type="button" class="btn btn-ghost btn-sm" data-act="review">Review this chapter</button>')+'</div>';
       }
-    }).join('');
-  }
-  function renderModule(){
-    var el=$('lesson'),i=S.mod,m=MODS[i],N=MODS.length;
-    if(!m){el.innerHTML='<div class="locked"><h2 tabindex="-1">The curriculum did not load</h2><p>Reload the page. If it keeps happening, tell your coordinator.</p></div>';return}
-    if(!modUnlocked(i)){
-      var nm=Math.max(0,nextMod());
-      el.innerHTML='<div class="locked"><div class="lk">'+ICON.lock.replace('class="ic"','class="ic" style="width:26px;height:26px"')+'</div><h2 tabindex="-1">Module '+(i+1)+' is locked</h2><p>Modules unlock in order: pass the quiz of Module '+i+' to open '+esc(m.title)+'. You are on Module '+(nm+1)+'.</p><button class="btn btn-gold" type="button" data-act="mod" data-mod="'+nm+'">Go to Module '+(nm+1)+'</button></div>';
-      return;
     }
-    var lessonsMin=m.lessons.reduce(function(a,l){return a+(l.minutes||0)},0);
-    var h='<div class="lesson-head"><div class="lesson-k">Module '+(i+1)+' of '+N+' · '+esc(partName(m.part))+'</div><h2 tabindex="-1">'+esc(m.title)+'</h2>'+
-      '<p class="mod-sum">'+md(m.summary||'')+'</p>'+
-      '<div class="objective"><b>You will</b><ul>'+(m.objectives||[]).map(function(o){return '<li>'+md(o)+'</li>'}).join('')+'</ul></div>'+
-      '<div class="mod-meta"><span>'+m.lessons.length+' lessons · about '+lessonsMin+' min</span><span>Practice · about '+((m.practice&&m.practice.minutes)||0)+' min</span><span>Quiz · '+m.quiz.length+' questions</span></div></div>';
-    // section navigation
-    var sec=S.sec||'L0',all=allLessonsDone(m);
-    h+='<nav class="secnav" aria-label="Module sections">';
-    m.lessons.forEach(function(l,k){var on=sec==='L'+k,d=S.done[l.id];h+='<button type="button" data-act="sec" data-sec="L'+k+'" class="'+(on?'on':'')+(d?' done':'')+'"'+(on?' aria-current="true"':'')+' title="'+esc(l.title)+'">'+(d?ICON.check:'')+'Lesson '+(k+1)+'</button>'});
-    h+='<button type="button" data-act="sec" data-sec="P" class="'+(sec==='P'?'on':'')+(S.practice[m.id]?' done':'')+'"'+(sec==='P'?' aria-current="true"':'')+'>'+(S.practice[m.id]?ICON.check:'')+'Practice</button>';
-    h+='<button type="button" data-act="sec" data-sec="Q" class="'+(sec==='Q'?'on':'')+(modPassed(i)?' done':'')+'"'+(sec==='Q'?' aria-current="true"':'')+'>'+(modPassed(i)?ICON.check:(all?'':ICON.lock))+'Quiz</button></nav>';
-    if(sec.charAt(0)==='L'){
-      var k=Math.min(+sec.slice(1)||0,m.lessons.length-1),l=m.lessons[k],d=!!S.done[l.id];
-      h+='<section class="lcard lesson-body"><h3><span class="ln">Lesson '+(k+1)+' of '+m.lessons.length+' · '+(l.minutes||0)+' min</span>'+esc(l.title)+'</h3>'+blocks(l.body)+
-        '<div class="lnav">'+(k>0?'<button class="btn btn-ghost btn-sm" type="button" data-act="sec" data-sec="L'+(k-1)+'">Previous lesson</button>':'<span></span>')+
-        '<button class="btn btn-gold" type="button" data-act="lesson-done" data-lid="'+esc(l.id)+'" data-k="'+k+'">'+(d?'Completed · next '+ICON.arrow:'Mark complete and continue '+ICON.arrow)+'</button></div></section>';
-    } else if(sec==='P'){
-      var p=m.practice||{steps:[]};
-      h+='<section class="lcard practice"><h3><span class="ln">Practice assignment · about '+(p.minutes||0)+' min</span>'+esc(p.title||'Practice')+'</h3>'+(p.intro?'<p>'+md(p.intro)+'</p>':'')+
-        '<ol class="bsteps">'+(p.steps||[]).map(function(x){return '<li>'+md(x)+'</li>'}).join('')+'</ol>'+
-        (p.deliverable?'<div class="callout"><b>Send to your coach:</b> '+md(p.deliverable)+'</div>':'')+
-        '<label class="pchk"><input type="checkbox" id="pracChk" data-mod="'+esc(m.id)+'"'+(S.practice[m.id]?' checked':'')+'> I finished this assignment and sent it to my coach</label>'+
-        '<div class="lnav"><button class="btn btn-ghost btn-sm" type="button" data-act="sec" data-sec="L'+(m.lessons.length-1)+'">Back to the lessons</button><button class="btn btn-gold" type="button" data-act="sec" data-sec="Q">Go to the quiz '+ICON.arrow+'</button></div></section>';
-    } else {
-      if(!all){var fk=0;while(fk<m.lessons.length&&S.done[m.lessons[fk].id]) fk++;
-        h+='<div class="locked"><div class="lk">'+ICON.lock.replace('class="ic"','class="ic" style="width:26px;height:26px"')+'</div><h2>Finish the lessons first</h2><p>The quiz opens when all '+m.lessons.length+' lessons of this module are marked complete. You have '+lessonsDone(m)+' done.</p><button class="btn btn-gold" type="button" data-act="sec" data-sec="L'+fk+'">Go to Lesson '+(fk+1)+'</button></div>';
-      } else h+=quizHTML(m,i);
-    }
-    el.innerHTML=h;
+    el.innerHTML=head+body+foot;
   }
-  function quizHTML(m,i){
-    var st=Q[m.id]||{ans:{}},rec=S.quiz[m.id],graded=!!st.graded,L='ABCD',n=m.quiz.length;
-    var h='<form class="quiz" id="quiz" data-mod="'+esc(m.id)+'" novalidate><div class="quiz-k">'+ICON.flag+' Module quiz · '+n+' questions · pass with '+PASS+'%</div>';
-    if(rec&&rec.passed&&!graded) h+='<div class="fb good show"><h4>Passed with '+rec.best+'%.</h4><p>You can retake it for practice; your best score counts.</p></div>';
-    m.quiz.forEach(function(q,qi){
-      var sel=st.ans[qi];
-      h+='<fieldset class="qblock"'+(graded?' disabled':'')+'><legend><span class="qnum">Question '+(qi+1)+' of '+n+'</span><span class="quiz-q">'+md(q.q)+'</span></legend><div class="opts">';
-      q.options.forEach(function(o,oi){
-        var cls='opt';if(graded){if(oi===q.answer) cls+=' is-right';else if(oi===sel) cls+=' is-wrong';cls+=' is-locked'}
-        var mark=graded&&oi===q.answer?ICON.check:(graded&&oi===sel?ICON.x:'');
-        h+='<label class="'+cls+'"><input type="radio" name="q'+qi+'" value="'+oi+'"'+(sel===oi?' checked':'')+'><span class="ol">'+L[oi]+'</span><span class="ot">'+md(o)+'</span><span class="om" aria-hidden="true">'+mark+'</span></label>';
-      });
-      h+='</div>';
-      if(graded) h+='<p class="qexp '+(sel===q.answer?'ok':'no')+'">'+(sel===q.answer?'<b>Correct.</b> ':'<b>Not quite.</b> ')+md(q.explain)+'</p>';
-      h+='</fieldset>';
-    });
-    if(!graded){
-      h+='<div class="quiz-actions"><button class="btn btn-gold" type="submit">Submit answers</button><span class="quiz-hint">Answer all '+n+' questions, then submit.</span></div><div class="fb" id="quizMsg" role="status"></div>';
-    } else {
-      var pass=st.score>=PASS,next;
-      if(i+1<MODS.length) next='<button class="btn btn-gold btn-sm" type="button" data-act="mod" data-mod="'+(i+1)+'">Continue to Module '+(i+2)+' '+ICON.arrow+'</button>';
-      else if(certReady()) next='<button class="btn btn-gold btn-sm" type="button" data-act="tab" data-tab="certificate">See your certificate '+ICON.arrow+'</button>';
-      else next='<button class="btn btn-gold btn-sm" type="button" data-act="continue" data-next="'+(practiceCount()<MODS.length?'practice':'simulator')+'">'+(practiceCount()<MODS.length?'Finish your practice assignments':'Finish the practice calls')+' '+ICON.arrow+'</button>';
-      h+='<div class="fb '+(pass?'good':'bad')+' show" role="'+(pass?'status':'alert')+'" id="quizResult"><h4>'+(pass?'Passed: ':'Not yet: ')+st.score+'% ('+st.right+' of '+n+' correct)</h4><p>'+(pass?(S.practice[m.id]?'Module complete.':'Quiz passed. Remember to finish this module’s practice assignment; the certificate needs every one.'):'You need '+PASS+'%. Read the explanations above, review the lessons, then try again.')+'</p>'+
-        (pass?next+' ':'')+'<button class="btn btn-ghost btn-sm" type="button" data-act="retake" data-mod="'+esc(m.id)+'">'+(pass?'Retake for practice':'Try again')+'</button></div>';
-    }
-    return h+'</form>';
-  }
-  function submitQuiz(form){
-    var id=form.getAttribute('data-mod'),i=-1;MODS.forEach(function(x,k){if(x.id===id) i=k});var m=MODS[i];if(!m) return;
-    var st=Q[id]||{ans:{}},n=m.quiz.length,missing=0;
-    for(var qi=0;qi<n;qi++){if(st.ans[qi]==null) missing++}
-    if(missing){var msg=$('quizMsg');if(msg){msg.className='fb info show';msg.innerHTML='<h4>'+missing+' question'+(missing===1?' is':'s are')+' still unanswered.</h4><p>Answer every question, then submit.</p>'}return}
-    var right=0;m.quiz.forEach(function(q,k){if(st.ans[k]===q.answer) right++});
-    var score=Math.round(right/n*100);
-    var rec=S.quiz[id]||{best:0,attempts:0,passed:false,first:null};
-    rec.attempts++;if(rec.first==null) rec.first=score;rec.best=Math.max(rec.best,score);if(score>=PASS) rec.passed=true;
-    S.quiz[id]=rec;Q[id]={ans:st.ans,graded:true,score:score,right:right};
-    checkCert();save();renderAll();
-    var r=$('quizResult');if(r){r.setAttribute('tabindex','-1');try{r.focus({preventScroll:true})}catch(e){}r.scrollIntoView({block:'center',behavior:'smooth'})}
-  }
+  function rerender(focusNote){renderPlayer();if(focusNote){var nn=document.querySelector('#lesson .snote');if(nn){try{nn.focus({preventScroll:true})}catch(e){}}}}
 
   /* ---------- Render: simulator ---------- */
   function stageBadge(s){return '<span class="stg '+(STAGE_CLS[s]||'stg-contacted')+'">'+esc(s)+'</span>'}
@@ -1048,16 +1131,14 @@ footer p{max-width:70ch}
 
   /* ---------- Render: certification ---------- */
   function renderCert(){
-    var N=MODS.length,p=passedCount(),pr=practiceCount(),c=callsDone(),avg=qaAvg(),qz=quizAvg(),ready=certReady();
+    var N=CH.length,p=passedCount(),c=callsDone(),avg=qaAvg(),qz=quizAvg(),ready=certReady();
     $('scorecard').innerHTML=
-      '<div class="sc"><div class="ring'+(N&&p===N?' good':'')+'" style="--p:'+Math.round(p/Math.max(1,N)*100)+'"><b>'+p+'/'+N+'</b></div><div><h3>Modules passed</h3><div class="v">'+p+' of '+N+'</div><p>Quiz average: '+(qz==null?'–':qz+'%')+'</p></div></div>'+
-      '<div class="sc"><div class="ring'+(N&&pr===N?' good':'')+'" style="--p:'+Math.round(pr/Math.max(1,N)*100)+'"><b>'+pr+'/'+N+'</b></div><div><h3>Practice assignments</h3><div class="v">'+pr+' of '+N+' done</div><p>Sent to your coach</p></div></div>'+
-      '<div class="sc"><div class="ring'+(c===LEADS.length?' good':'')+'" style="--p:'+Math.round(c/LEADS.length*100)+'"><b>'+c+'/'+LEADS.length+'</b></div><div><h3>Practice calls</h3><div class="v">'+c+' of '+LEADS.length+' complete</div><p>Live QA score: '+S.qa+'/100</p></div></div>'+
+      '<div class="sc"><div class="ring'+(N&&p===N?' good':'')+'" style="--p:'+Math.round(p/Math.max(1,N)*100)+'"><b>'+p+'/'+N+'</b></div><div><h3>Chapters done</h3><div class="v">'+p+' of '+N+'</div><p>Quiz average: '+(qz==null?'–':qz+'%')+'</p></div></div>'+
+      '<div class="sc"><div class="ring'+(c===LEADS.length?' good':'')+'" style="--p:'+Math.round(c/LEADS.length*100)+'"><b>'+c+'/'+LEADS.length+'</b></div><div><h3>Practice calls</h3><div class="v">'+c+' of '+LEADS.length+' done</div><p>Live QA score: '+S.qa+'/100</p></div></div>'+
       '<div class="sc"><div class="ring'+(avg!=null&&avg>=90?' good':'')+'" style="--p:'+(avg==null?0:avg)+'"><b>'+(avg==null?'–':avg)+'</b></div><div><h3>QA score average</h3><div class="v">'+(avg==null?'No calls yet':avg+'/100')+'</div><p>Our standard is 90 or more</p></div></div>';
     $('reqs').innerHTML=
-      '<li class="'+(N&&p===N?'ok':'')+'"><span class="st">'+(N&&p===N?ICON.check:'')+'</span><span>Pass every module quiz ('+PASS+'% or more)</span><span class="cnt">'+p+'/'+N+'</span></li>'+
-      '<li class="'+(N&&pr===N?'ok':'')+'"><span class="st">'+(N&&pr===N?ICON.check:'')+'</span><span>Finish every practice assignment</span><span class="cnt">'+pr+'/'+N+'</span></li>'+
-      '<li class="'+(c===LEADS.length?'ok':'')+'"><span class="st">'+(c===LEADS.length?ICON.check:'')+'</span><span>Complete every practice call</span><span class="cnt">'+c+'/'+LEADS.length+'</span></li>';
+      '<li class="'+(N&&p===N?'ok':'')+'"><span class="st">'+(N&&p===N?ICON.check:'')+'</span><span>Finish every chapter and pass its quiz</span><span class="cnt">'+p+'/'+N+'</span></li>'+
+      '<li class="'+(c===LEADS.length?'ok':'')+'"><span class="st">'+(c===LEADS.length?ICON.check:'')+'</span><span>Do every practice call</span><span class="cnt">'+c+'/'+LEADS.length+'</span></li>';
     $('callRows').innerHTML=LEADS.map(function(l){var st=S.leads[l.id];return '<div class="minirow"><span>'+esc(l.name)+' · '+esc(l.kind)+'</span>'+(st.done?'<b class="ok">'+st.score+'/100</b>':'<span class="no">Not done</span>')+'</div>'}).join('');
     $('rubricSide').innerHTML=rubricHTML();
     var inp=$('certName');
@@ -1068,19 +1149,19 @@ footer p{max-width:70ch}
     cert.classList.toggle('is-locked',!ready);
     notice.hidden=ready;
     if(!ready){var rm=$('regMsg');rm.textContent='';rm.className='regmsg';
-      var need=[];if(p<N) need.push((N-p)+' module quiz'+(N-p===1?'':'zes'));if(pr<N) need.push((N-pr)+' practice assignment'+(N-pr===1?'':'s'));if(c<LEADS.length) need.push((LEADS.length-c)+' practice call'+(LEADS.length-c===1?'':'s'));
-      $('certNoticeP').textContent='Pass every module quiz, finish every practice assignment and complete every practice call to unlock your certificate. Still to go: '+need.join(', ')+'.';
+      var need=[];if(p<N) need.push((N-p)+' chapter'+(N-p===1?'':'s'));if(c<LEADS.length) need.push((LEADS.length-c)+' practice call'+(LEADS.length-c===1?'':'s'));
+      $('certNoticeP').textContent='Finish every chapter and do every practice call to unlock your certificate. Still to go: '+need.join(' and ')+'.';
     }
     renderCertName();
     $('cId').textContent=ready&&S.certId?S.certId:'LVA-ISA-••••-••••';
     $('cDate').textContent=ready&&S.completedAt?fmtDate(S.completedAt):'–';
-    $('cBody').textContent='has completed the LockedIn VAs ISA Certification Program: '+N+' modules and about '+hours(TOTAL_MIN)+' hours of training, every module quiz passed'+(ready&&qz!=null?' with an average of '+qz+'%':'')+', and '+LEADS.length+' simulated CRM practice calls'+(ready&&avg!=null?' with a QA score average of '+avg+' out of 100.':'.');
+    $('cBody').textContent='has completed the LockedIn VAs ISA Boot Camp: '+N+' chapters, every chapter quiz passed'+(ready&&qz!=null?' with an average of '+qz+'%':'')+', and '+LEADS.length+' simulated CRM practice calls'+(ready&&avg!=null?' with a QA score average of '+avg+' out of 100.':'.');
     $('certActions').hidden=!ready;
     var rb=document.querySelector('[data-act="register"]');if(rb){rb.disabled=!!S.registeredAt;rb.textContent=S.registeredAt?'Registered':'Register my certificate'}
   }
   function renderCertName(){var n=(S.name||'').trim(),el=$('cName');el.textContent=n||'Your full legal name';el.classList.toggle('ph',!n)}
 
-  function renderAll(){renderTop();renderModules();renderModule();renderSim();renderCert()}
+  function renderAll(){renderTop();renderChapters();renderPlayer();renderSim();renderCert()}
 
   /* ---------- Certificate registration (Netlify Forms) ---------- */
   var inPreview=!!(window.claude&&window.claude.use)||/claude/.test(location.hostname)||location.protocol==='file:';
@@ -1088,11 +1169,11 @@ footer p{max-width:70ch}
     var msg=$('regMsg'),n=(S.name||'').trim();
     if(!certReady()) return;
     if(n.length<3||!/[A-Za-zÀ-ÿ]/.test(n)||n.split(/\s+/).length<2){msg.className='regmsg warn';msg.textContent='Type your full legal name (first and last name) before registering.';$('certName').focus();return}
-    var data={'form-name':'isa-certification','full_name':n,'certificate_id':S.certId,'modules_passed':passedCount()+'/'+MODS.length,'quiz_average':String(quizAvg()),'practice_completed':practiceCount()+'/'+MODS.length,'calls_completed':callsDone()+'/'+LEADS.length,'qa_average':String(qaAvg()),'qa_live':String(S.qa),'completed_at':S.completedAt};
+    var data={'form-name':'isa-certification','full_name':n,'certificate_id':S.certId,'modules_passed':passedCount()+'/'+CH.length,'quiz_average':String(quizAvg()),'practice_completed':'n/a','calls_completed':callsDone()+'/'+LEADS.length,'qa_average':String(qaAvg()),'qa_live':String(S.qa),'completed_at':S.completedAt};
     if(inPreview){msg.className='regmsg warn';msg.textContent='This is a preview copy, so nothing was sent. On the live page this registers your certificate ID with LockedIn VAs.';return}
     msg.className='regmsg';msg.textContent='Registering…';
     fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(data).toString()})
-      .then(function(r){if(!r.ok) throw new Error('bad');S.registeredAt=new Date().toISOString();save();renderCert();msg.className='regmsg ok';msg.textContent='Registered. LockedIn VAs now has your certificate ID on file, so recruiters can verify it.'})
+      .then(function(r){if(!r.ok) throw new Error('bad');S.registeredAt=new Date().toISOString();save();renderCert();msg.className='regmsg ok';msg.textContent='Registered. LockedIn VAs now has your certificate ID on file.'})
       .catch(function(){msg.className='regmsg warn';msg.textContent='We could not register it automatically. Email your name and certificate ID to beyondvas@gmail.com and we will add it.'});
   }
   function clearRegMsg(){var m=$('regMsg');m.textContent='';m.className='regmsg'}
@@ -1105,42 +1186,48 @@ footer p{max-width:70ch}
   }
 
   /* ---------- Events ---------- */
-  function openMod(n,focusSide){
-    if(!(n>=0&&n<MODS.length)) return;
-    S.mod=n;S.sec=firstSec(MODS[n],n);save();setTab('curriculum');renderModules();renderModule();toLesson();
-    var tgt=focusSide?document.querySelector('.day-btn[data-mod="'+n+'"]'):$('lesson').querySelector('h2');if(tgt){try{tgt.focus({preventScroll:true})}catch(x){}}
+  function openCh(n,focusSide){
+    if(!(n>=0&&n<CH.length)) return;
+    S.ch=n;T={};save();setTab('curriculum');renderChapters();renderPlayer();toLesson();
+    var tgt=focusSide?document.querySelector('.day-btn[data-ch="'+n+'"]'):$('lesson').querySelector('h2');if(tgt){try{tgt.focus({preventScroll:true})}catch(x){}}
   }
+  function curStep(){var c=CH[S.ch];return c&&c.steps[posOf(c)]}
   document.addEventListener('click',function(e){
     var b=e.target.closest('[data-act]');if(!b) return;
-    var act=b.getAttribute('data-act');
+    var act=b.getAttribute('data-act'),k=b.getAttribute('data-k'),c=CH[S.ch],s=curStep();
     if(act==='tab'){setTab(b.getAttribute('data-tab'),true);return}
-    if(act==='mod'){openMod(+b.getAttribute('data-mod'),!!b.closest('.days'));return}
-    if(act==='sec'){S.sec=b.getAttribute('data-sec');save();renderModule();toLesson();var h3=$('lesson').querySelector('.secnav [aria-current="true"]');if(h3){try{h3.focus({preventScroll:true})}catch(x){}}return}
-    if(act==='lesson-done'){var m=MODS[S.mod],k=+b.getAttribute('data-k');S.done[b.getAttribute('data-lid')]=true;S.sec=k+1<m.lessons.length?'L'+(k+1):'P';save();renderAll();toLesson();var hh=$('lesson').querySelector('.lesson-body h3,.practice h3');if(hh){hh.setAttribute('tabindex','-1');try{hh.focus({preventScroll:true})}catch(x){}}return}
-    if(act==='retake'){var id=b.getAttribute('data-mod');Q[id]={ans:{}};renderModule();var qz=$('quiz');if(qz){qz.scrollIntoView({block:'start',behavior:'smooth'});var f=qz.querySelector('input');if(f) f.focus({preventScroll:true})}return}
+    if(act==='ch'){openCh(+b.getAttribute('data-ch'),!!b.closest('.days'));return}
+    if(act==='flip'){T.fl=T.fl||{};T.fl[+k]=true;rerender();var fb=document.querySelector('.flipc[data-k="'+k+'"]');if(fb) fb.focus();return}
+    if(act==='opt'){T.sel=+k;rerender(true);return}
+    if(act==='sort'&&s){var it=s.items[T.si||0];if(it&&it.side===k){T.si=(T.si||0)+1;T.bad=false}else T.bad=true;rerender(T.bad||T.si>=s.items.length);return}
+    if(act==='ord'&&s){T.ord=T.ord||[];if(+k===T.ord.length){T.ord.push(+k);T.badk=null}else T.badk=+k;rerender(T.badk!=null||T.ord.length===s.items.length);return}
+    if(act==='spoke'){T.sp=(T.sp||0)+1;rerender(T.sp>=((s&&s.times)||3));return}
+    if(act==='st-next'&&c){S.pos[c.id]=posOf(c)+1;T={};save();renderTop();renderChapters();renderPlayer();toLesson();var nb=document.querySelector('#lesson [data-act="st-next"],#lesson .ans');if(nb){try{nb.focus({preventScroll:true})}catch(x){}}return}
+    if(act==='st-back'&&c){S.pos[c.id]=Math.max(0,posOf(c)-1);T={};save();renderPlayer();return}
+    if(act==='review'&&c){S.pos[c.id]=0;T={};save();renderChapters();renderPlayer();toLesson();return}
+    if(act==='qz'&&T.quiz&&T.quiz.sel==null){T.quiz.sel=+k;if(+k===c.quiz[T.quiz.i].answer) T.quiz.right++;rerender(true);return}
+    if(act==='qz-next'&&T.quiz){var q=T.quiz;if(q.i<c.quiz.length-1){q.i++;q.sel=null}else{q.done=true;q.score=Math.round(q.right/c.quiz.length*100);var rec=S.quiz[c.id]||{best:0,attempts:0,passed:false};rec.attempts++;rec.best=Math.max(rec.best,q.score);if(q.score>=PASS) rec.passed=true;S.quiz[c.id]=rec;checkCert();save();renderTop();renderChapters();renderCert()}renderPlayer();toLesson();return}
+    if(act==='qz-retry'){T={quiz:{i:0,right:0,sel:null,done:false}};renderPlayer();return}
+    if(act==='qz-done'){T={};renderPlayer();return}
     if(act==='continue'){var nx=b.getAttribute('data-next');
       if(nx==='certificate') setTab('certificate',true);
       else if(nx==='simulator') setTab('simulator',true);
-      else if(nx==='practice'){var pi=0;while(pi<MODS.length&&S.practice[MODS[pi].id]) pi++;if(pi<MODS.length){S.mod=pi;S.sec='P';save();setTab('curriculum',true);renderAll()}}
-      else{openMod(Math.max(0,nextMod()),false);setTab('curriculum',true)}
+      else{openCh(Math.max(0,nextCh()),false);setTab('curriculum',true)}
       return}
     if(act==='filter'){var fv=b.getAttribute('data-filter');S.filter=fv;var shown=LEADS.filter(function(l){return S.filter==='all'||l.list===S.filter});if(shown.length&&!shown.some(function(l){return l.id===S.sel})) S.sel=shown[0].id;save();renderSim();var fb2=document.querySelector('#lists [data-filter="'+fv+'"]');if(fb2) fb2.focus();return}
     if(act==='lead'){S.sel=b.getAttribute('data-id');var pk=leadById(S.sel);if(S.filter!=='all'&&pk.list!==S.filter) S.filter='all';save();setTab('simulator');renderSim();if(window.matchMedia('(max-width:980px)').matches){$('profile').scrollIntoView({behavior:'smooth',block:'start'})}try{$('profile').focus({preventScroll:true})}catch(x){}return}
     if(act==='back-list'){document.querySelector('.people').scrollIntoView({behavior:'smooth',block:'start'});return}
     if(act==='pick'){pick(b.getAttribute('data-id'),+b.getAttribute('data-i'));return}
-    if(act==='reset-sim'){if(!confirm('Replay all practice calls? Your call scores and live QA score start over, and your certificate stays locked until you finish the calls again. Your curriculum progress'+(S.certId?' and verification ID stay.':' stays.'))) return;S.qa=85;LEADS.forEach(function(l){S.leads[l.id]=freshLead(l)});clearRegMsg();save();renderAll();return}
-    if(act==='reset-all'){var reg=!!S.registeredAt;if(!confirm('Reset all progress on this device? This clears your lessons, quizzes, practice assignments and calls'+(reg?'. Your registered certificate ID stays.':' and your certificate.'))) return;
-      var keep=reg?{name:S.name,certId:S.certId,completedAt:S.completedAt,registeredAt:S.registeredAt}:null;S=fresh();if(keep){for(var kk in keep) S[kk]=keep[kk]}Q={};clearRegMsg();save();renderAll();setTab('curriculum');return}
+    if(act==='reset-sim'){if(!confirm('Replay all practice calls? Your call scores start over. Your chapters stay done.')) return;S.qa=85;LEADS.forEach(function(l){S.leads[l.id]=freshLead(l)});clearRegMsg();save();renderAll();return}
+    if(act==='reset-all'){var reg=!!S.registeredAt;if(!confirm('Start the boot camp over on this device? This clears your chapters and calls'+(reg?'. Your registered certificate ID stays.':' and your certificate.'))) return;
+      var keep=reg?{name:S.name,certId:S.certId,completedAt:S.completedAt,registeredAt:S.registeredAt}:null;S=fresh();if(keep){for(var kk in keep) S[kk]=keep[kk]}T={};clearRegMsg();save();renderAll();setTab('curriculum');return}
     if(act==='register'){register();return}
     if(act==='print'){document.body.classList.add('printing-cert');window.print();setTimeout(function(){document.body.classList.remove('printing-cert')},500);return}
     if(act==='copy-id'){copyId(b);return}
   });
-  document.addEventListener('submit',function(e){if(e.target&&e.target.id==='quiz'){e.preventDefault();submitQuiz(e.target)}});
   document.addEventListener('change',function(e){
     var t=e.target;
-    if(t&&t.id==='stageSel'){var id=t.getAttribute('data-id'),st=S.leads[id],old=st.stage;if(t.value===old) return;st.stage=t.value;st.history.unshift({t:new Date().toISOString(),kind:'stage',title:'Stage changed manually',text:old+' → '+t.value});freshHist=id;save();renderSim();var s=$('stageSel');if(s) s.focus();return}
-    if(t&&t.id==='pracChk'){S.practice[t.getAttribute('data-mod')]=t.checked;checkCert();save();renderTop();renderModules();renderCert();return}
-    if(t&&/^q\d+$/.test(t.name||'')&&t.form&&t.form.id==='quiz'){var mid=t.form.getAttribute('data-mod');var st2=Q[mid]||(Q[mid]={ans:{}});st2.ans[+t.name.slice(1)]=+t.value;var mm=$('quizMsg');if(mm){mm.className='fb';mm.innerHTML=''}}
+    if(t&&t.id==='stageSel'){var id=t.getAttribute('data-id'),st=S.leads[id],old=st.stage;if(t.value===old) return;st.stage=t.value;st.history.unshift({t:new Date().toISOString(),kind:'stage',title:'Stage changed manually',text:old+' → '+t.value});freshHist=id;save();renderSim();var s2=$('stageSel');if(s2) s2.focus();return}
   });
   var nameTimer;
   $('certName').addEventListener('input',function(e){if(S.registeredAt) return;S.name=e.target.value.replace(/\s+/g,' ').replace(/^\s/,'');renderCertName();clearTimeout(nameTimer);nameTimer=setTimeout(save,250)});
@@ -1158,6 +1245,11 @@ footer p{max-width:70ch}
   nl.addEventListener('click',function(e){if(e.target.closest('a')){nl.classList.remove('open');mb.setAttribute('aria-expanded','false')}});
   window.addEventListener('hashchange',function(){var h=location.hash.replace('#','');if(TABS.indexOf(h)>=0&&h!==S.tab) setTab(h)});
 
+  // light / dark switch
+  var tb=$('themeBtn');
+  function paintTheme(){var d=document.documentElement.getAttribute('data-theme')==='dark';tb.textContent=d?'☀️ Light':'🌙 Dark';tb.setAttribute('aria-pressed',d?'true':'false')}
+  tb.addEventListener('click',function(){var n=document.documentElement.getAttribute('data-theme')==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',n);try{localStorage.setItem('lva-theme',n)}catch(e){}paintTheme()});
+  paintTheme();
   // start
   checkCert();
   var h0=location.hash.replace('#','');

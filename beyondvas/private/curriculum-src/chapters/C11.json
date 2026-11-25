@@ -1,0 +1,66 @@
+{
+  "id": "C11",
+  "title": "Follow Up Boss and the handoff",
+  "steps": [
+    {"t": "say", "icon": "😮", "h": "A great call. Then nothing.", "text": "Ana books a tour. She forgets to write it down. The agent never knows. The buyer waits alone. Ouch."},
+    {"t": "tattoo", "text": "Not in Follow Up Boss? It did not happen.", "sub": "Nobody heard your call. They only see your notes."},
+    {"t": "flip", "h": "Smart Lists are your to-do lists. Tap each one", "cards": [
+      {"front": "New Speed-to-Lead", "back": "New leads. Call within 180 seconds."},
+      {"front": "Hot Active", "back": "Ready to buy or sell within 30 days."},
+      {"front": "Tasks due today", "back": "Calls and texts you promised for today."},
+      {"front": "30-60 Day Nurture", "back": "A month or two away. Friendly check-ins."}
+    ]},
+    {"t": "order", "h": "Put the Smart Lists in order", "items": ["New Speed-to-Lead", "Hot Active", "Tasks due today", "30-60 Day Nurture"]},
+    {"t": "pick", "q": "You are calling nurture leads. A new lead arrives. What now?", "options": ["Finish the whole nurture list first", "Call the new lead tomorrow", "Finish this call, then dial the new lead"], "answer": 2, "why": "New leads always come first. Dial within 180 seconds."},
+    {"t": "say", "icon": "📝", "h": "The 6-part note", "text": "After every talk, write a note. Always the same six parts. Then any agent can read it fast."},
+    {"t": "flip", "h": "Tap each part", "cards": [
+      {"front": "Date/Time", "back": "When you called or texted."},
+      {"front": "Disposition", "back": "What happened. Example: Call, connected, 4 minutes."},
+      {"front": "A, L, M", "back": "Appointment, Location, Motivation. Three parts you know!"},
+      {"front": "Next Step", "back": "What happens next, and who does it."}
+    ]},
+    {"t": "order", "h": "Put the note in order", "items": ["Date/Time", "Disposition", "A, L, M", "Next Step"]},
+    {"t": "sort", "h": "Where does it go in the note?", "left": "L: Location", "right": "M: Motivation", "items": [
+      {"text": "Westside, 4 bedrooms", "side": "left"},
+      {"text": "Lease ends in March", "side": "right"},
+      {"text": "Up to $550,000", "side": "left"},
+      {"text": "New job, moving by May", "side": "right"}
+    ]},
+    {"t": "pick", "q": "Which note is best?", "options": ["Tue 10:42. Call, connected. A: Sat 11. L: Mesa. M: lease ends May. Next: send invite.", "Good call! Nice lady.", "Wants Mesa. Send homes."], "answer": 0, "why": "It has all six parts. Facts only."},
+    {"t": "tattoo", "text": "Write about the home, not the person.", "sub": "Fair housing: log what they want, not who they are."},
+    {"t": "sort", "h": "Can you write it in a note?", "left": "OK to write", "right": "Not OK", "items": [
+      {"text": "Needs a yard for a dog", "side": "left"},
+      {"text": "Probably cannot afford it", "side": "right"},
+      {"text": "Wants one story, 3 bedrooms", "side": "left"},
+      {"text": "Older couple from another country", "side": "right"},
+      {"text": "Says pre-approved up to $480,000", "side": "left"}
+    ]},
+    {"t": "say", "icon": "✅", "h": "You booked it! Now three fast steps", "text": "Do them before your next call. Change the stage. Send the calendar invite. Set the reminders."},
+    {"t": "fill", "h": "Finish the line", "before": "After booking, change the stage to ", "after": ".", "options": ["Hot Active", "Pending Handoff", "Archived"], "answer": 1},
+    {"t": "flip", "h": "What goes in the calendar invite?", "cards": [
+      {"front": "The Follow Up Boss link", "back": "The agent opens the lead's story in one tap."},
+      {"front": "Two reminders", "back": "One 24 hours before. One 1 hour before."},
+      {"front": "A buyer agreement note", "back": "For tours only. It tells the agent to handle it."}
+    ]},
+    {"t": "pick", "q": "When do you put the appointment on the calendar?", "options": ["At the end of the shift", "Before your next call", "On Friday"], "answer": 1, "why": "You may forget later. Do it right away."},
+    {"t": "say", "icon": "📄", "h": "The buyer agreement", "text": "Before a tour, the agent needs a signed buyer agreement. It is a paper between buyer and agent. The agent sends and explains it. Never you."},
+    {"t": "chat", "who": "Priya", "channel": "call", "says": "Do I have to sign something before the tour?", "options": [
+      {"text": "Yes. I will email it to you now.", "good": false, "why": "You never send it. The agent does."},
+      {"text": "No, do not worry about that.", "good": false, "why": "Not true. The agent needs it signed."},
+      {"text": "Great question for your agent. Daniel will explain it before the tour.", "good": true, "why": "Short and true. The agent handles it."}
+    ]},
+    {"t": "say", "icon": "🤝", "h": "The 3-way warm handoff", "text": "Sometimes the agent is free right now. You bring the agent into the call. The lead meets the agent through you."},
+    {"t": "order", "h": "Put the handoff in order", "items": ["Ask the lead if the agent can join", "Put the lead on a short hold", "Tell the agent the lead's story", "Join the calls and introduce them"]},
+    {"t": "speak", "h": "Say the handoff line out loud", "line": "Daniel, I have Priya on the phone. She wants a 3-bed in Phoenix by May. Priya, meet Daniel, our local expert!", "times": 3},
+    {"t": "pick", "q": "The agent does not answer the handoff. What do you do?", "options": ["Go back and book a time with two choices", "Keep the lead on hold", "End the call"], "answer": 0, "why": "Never leave a lead waiting. Book a time."},
+    {"t": "tattoo", "text": "Booked? Stage, invite, reminders. Right away.", "sub": "Then the agent is ready and the lead shows up."},
+    {"t": "win", "text": "Great job! You can now log a call and hand off a lead."}
+  ],
+  "quiz": [
+    {"q": "What does every note need?", "options": ["Date/Time, Disposition, A, L, M, Next Step", "Only the lead's name", "Your feelings about the call"], "answer": 0, "explain": "Six parts, every time."},
+    {"q": "What is the stage after you book an appointment?", "options": ["Hot Active", "Archived", "Pending Handoff"], "answer": 2, "explain": "Pending Handoff tells the agent a lead is ready."},
+    {"q": "Which Smart List comes first?", "options": ["30-60 Day Nurture", "New Speed-to-Lead", "Tasks due today"], "answer": 1, "explain": "New leads always come first."},
+    {"q": "Who sends and explains the buyer agreement?", "options": ["You", "The lead", "The agent"], "answer": 2, "explain": "Always the agent. Never you."},
+    {"q": "Which reminders go with the calendar invite?", "options": ["24 hours and 1 hour before", "One week before", "No reminders"], "answer": 0, "explain": "Two reminders help the lead show up."}
+  ]
+}

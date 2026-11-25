@@ -1,0 +1,69 @@
+{
+  "id": "C6",
+  "title": "Zillow and Realtor.com leads",
+  "steps": [
+    {"t": "say", "icon": "🛋️", "h": "Meet Maria", "text": "Maria is on her couch. She sees a pretty house on Zillow. She taps a button. Now you get a new lead."},
+    {"t": "say", "icon": "🌐", "h": "Two big home sites", "text": "Zillow and Realtor.com are big home search sites. People look at homes for sale there. Most of your leads come from them."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Contact agent", "back": "A button. The lead wants to ask about a home."},
+      {"front": "Request a tour", "back": "A button. The lead wants to see the home."},
+      {"front": "Lead", "back": "A person who asked about a home."},
+      {"front": "Tour", "back": "A visit to see the home inside."}
+    ]},
+    {"t": "pick", "q": "What did your lead just do?", "options": ["Bought a home", "Tapped a button on a home they like", "Signed papers with an agent"], "answer": 1, "why": "They asked about one home. They did not buy yet."},
+    {"t": "say", "icon": "🥇", "h": "They expect a fast call", "text": "They just asked for help. They may have asked other agents too. The first kind, helpful caller usually wins."},
+    {"t": "tattoo", "text": "Be first. Be kind. Be helpful.", "sub": "The first helpful call usually wins the lead."},
+    {"t": "pick", "q": "Why do you call fast?", "options": ["The lead may have asked other agents too", "Fast calls are shorter", "My shift ends soon"], "answer": 0, "why": "The first helpful call usually wins."},
+    {"t": "say", "icon": "📍", "h": "Say the address", "text": "Open with the address of the home they looked at. Now they know why you are calling."},
+    {"t": "speak", "h": "Say it out loud", "line": "Hi Maria, this is Sofia with Dana Lee's team. This call may be recorded. You asked about 12 Oak Street, right?", "times": 3},
+    {"t": "fill", "h": "Finish the line", "before": "You asked about ", "after": " on Zillow, right?", "options": ["a home", "something", "12 Oak Street"], "answer": 2},
+    {"t": "chat", "who": "Maria", "channel": "call", "says": "Hello? Who is this?", "options": [
+      {"text": "Hi Maria! Do you want to buy a home?", "good": false, "why": "Too sudden. She does not know why you called."},
+      {"text": "Hi Maria, it's Sofia with Dana Lee's team. You asked about 12 Oak Street?", "good": true, "why": "The address tells her why you called."},
+      {"text": "Hi, I am calling from a real estate company.", "good": false, "why": "Not clear. Say the home's address."}
+    ]},
+    {"t": "tattoo", "text": "Always say the home's address.", "sub": "It tells the lead why you are calling."},
+    {"t": "say", "icon": "🏡", "h": "That home first", "text": "Ask about that home first. \"What did you like about it?\" Then do A.L.M. That means Appointment, Location, Motivation."},
+    {"t": "order", "h": "Put the call in order", "items": ["Say your name and your team", "Say the call may be recorded", "Say the home's address", "Ask about that home", "Do A.L.M. and offer a tour time"]},
+    {"t": "flip", "h": "3 kinds of leads", "cards": [
+      {"front": "Tour request", "back": "They want to see the home. Offer a time now."},
+      {"front": "Question", "back": "They want to know one thing. Help, then offer a tour."},
+      {"front": "Just looking", "back": "They are early. Be kind and follow up."}
+    ]},
+    {"t": "chat", "who": "Maria", "channel": "call", "says": "Yes, I want to see that house.", "options": [
+      {"text": "OK, I will email you some info.", "good": false, "why": "She asked for a tour. Offer a time now."},
+      {"text": "Great! The agent will call you some day.", "good": false, "why": "\"Some day\" is not a plan. Offer two times."},
+      {"text": "Great! Would Saturday at 11 or 2 work better?", "good": true, "why": "Two choices make it easy to say yes."}
+    ]},
+    {"t": "speak", "h": "Say it out loud", "line": "Would Saturday at 11 or 2 work better to see the home?", "times": 3},
+    {"t": "chat", "who": "Tom", "channel": "call", "says": "Does that house have a garage?", "options": [
+      {"text": "Good question. I will ask the agent. Want to see it Saturday?", "good": true, "why": "You helped. Then you offered a tour."},
+      {"text": "I'm not sure. I think so.", "good": false, "why": "Never guess. Ask the agent."},
+      {"text": "Sorry, I can't answer questions.", "good": false, "why": "You can still help. Ask the agent for them."}
+    ]},
+    {"t": "chat", "who": "Ana", "channel": "call", "says": "I'm just looking right now.", "options": [
+      {"text": "OK, sorry to bother you. Bye.", "good": false, "why": "You gave up too fast. Many buyers start this way."},
+      {"text": "No problem! Many people start that way. What did you like about that home?", "good": true, "why": "Kind and calm. You kept the talk going."},
+      {"text": "You should buy now. Prices will go up.", "good": false, "why": "Never push. Never talk about prices."}
+    ]},
+    {"t": "say", "icon": "🌱", "h": "Early is normal", "text": "Many leads are early. They are just looking. That is OK. Be kind. Follow up later."},
+    {"t": "pick", "q": "A lead says, \"Maybe I will buy next year.\" What do you do?", "options": ["Delete the lead", "Call every day", "Be kind, take notes and follow up"], "answer": 2, "why": "Early leads can buy later. Stay friendly."},
+    {"t": "pick", "q": "Where do you write about each call?", "options": ["Follow Up Boss", "A paper notebook", "My own phone"], "answer": 0, "why": "Every call gets a note in Follow Up Boss. Your leads live there."},
+    {"t": "sort", "h": "Do this or not?", "left": "Do this", "right": "Not this", "items": [
+      {"text": "Call fast", "side": "left"},
+      {"text": "Wait until tomorrow", "side": "right"},
+      {"text": "Say the home's address", "side": "left"},
+      {"text": "Push an early looker", "side": "right"},
+      {"text": "Offer a tour time", "side": "left"},
+      {"text": "Skip the note", "side": "right"}
+    ]},
+    {"t": "win", "text": "You did it! You can open a Zillow or Realtor.com call the right way."}
+  ],
+  "quiz": [
+    {"q": "What did a Zillow or Realtor.com lead just do?", "options": ["Tapped a button about a home", "Bought a home", "Met your agent"], "answer": 0, "explain": "They tapped \"Contact agent\" or \"Request a tour\"."},
+    {"q": "How do you show the lead why you called?", "options": ["Talk about loan rates", "Say the home's address", "Say your company name twice"], "answer": 1, "explain": "The address tells the lead why you called."},
+    {"q": "Why call fast?", "options": ["Fast calls are shorter", "My shift ends soon", "The first helpful call usually wins"], "answer": 2, "explain": "The lead may have asked other agents too."},
+    {"q": "A lead wants a tour. What do you do?", "options": ["Send an email", "Offer two times", "Ask them to call back"], "answer": 1, "explain": "Ask, \"Would Saturday at 11 or 2 work better?\""},
+    {"q": "A lead is just looking. What do you do?", "options": ["Be kind and follow up", "Delete the lead", "Push them to buy now"], "answer": 0, "explain": "Early lookers are normal. Many buy later."}
+  ]
+}

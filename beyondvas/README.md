@@ -135,3 +135,16 @@ Re-check these quarterly.
   job, the five hiring steps, requirements, an applicant FAQ and the two application forms. It has no "book a call".
   This is the link to send to job seekers.
 - Both forms block double submissions. The certificate ID prefix in the training program is now `LVA-ISA-`.
+
+## One-day ISA Boot Camp (rebuilt November 25, 2026)
+
+Charly found the 35-hour program overwhelming, so the training page is now a one-day, bite-size boot camp at the same
+unlisted link. 12 chapters, 293 small screens, about 3.6 hours including the 8 practice calls. Written at grade 3 to 5
+English. Screen types: say, brain tattoo, flip cards, pick, chat reply, sort, put in order, fill the line, say it out
+loud. Each chapter ends with a 5-question quiz (pass with 4). Chapters open in order; the certificate needs every
+chapter and every practice call. Chapter 6 covers Zillow and Realtor.com leads.
+
+- Content: `private/curriculum-src/chapters/C1.json` to `C12.json`, rules in `BOOTCAMP-SPEC.md`. Run
+  `node private/curriculum-src/build.js` to validate and regenerate `private/curriculum.js`, then redeploy.
+- The long modules in `private/curriculum-src/modules/` are kept as a reference library and are no longer shown.
+- Progress is saved under the `localStorage` key `lva-bootcamp-v3`, so progress from the long version does not carry over.

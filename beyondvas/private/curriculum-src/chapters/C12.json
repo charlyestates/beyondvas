@@ -1,0 +1,68 @@
+{
+  "id": "C12",
+  "title": "Follow-up, mistakes and your numbers",
+  "steps": [
+    {"t": "say", "icon": "🌱", "h": "Kevin did not answer. Five times.", "text": "You called Kevin five times. No answer. On call six, he booked a tour. This happens a lot."},
+    {"t": "tattoo", "text": "Most appointments come after several tries.", "sub": "So do not stop after one call."},
+    {"t": "pick", "q": "A buyer says: \"Not for six months.\" What is that?", "options": ["A no", "An opt-out", "A date"], "answer": 2, "why": "They told you when. Set a task for it."},
+    {"t": "say", "icon": "🗓️", "h": "Nurture", "text": "Nurture means friendly follow-up over time. The sooner they plan to move, the more often you call."},
+    {"t": "flip", "h": "How often? Tap each card", "cards": [
+      {"front": "Ready in 30 days", "back": "Every 1 to 3 days."},
+      {"front": "1 to 2 months away", "back": "About once a week."},
+      {"front": "3 to 6 months away", "back": "Every 2 to 3 weeks."},
+      {"front": "6 months or more", "back": "About once a month."}
+    ]},
+    {"t": "sort", "h": "Which follow-up text is better?", "left": "Good text", "right": "Weak text", "items": [
+      {"text": "Two new 3-bed homes came up. Want them?", "side": "left"},
+      {"text": "Just checking in!!", "side": "right"},
+      {"text": "Is spring still your plan?", "side": "left"},
+      {"text": "Are you ready to buy yet?", "side": "right"}
+    ]},
+    {"t": "fill", "h": "Finish the line", "before": "Last time you said your lease ends in March. Is that still the ", "after": "?", "options": ["price", "plan", "problem"], "answer": 1},
+    {"t": "chat", "who": "Kevin", "channel": "call", "says": "My landlord is selling. I must move in January.", "options": [
+      {"text": "That is soon! Would Saturday at 10 or Sunday at 2 work?", "good": true, "why": "A closer date means ask for the appointment."},
+      {"text": "OK. I will call you in March.", "good": false, "why": "His date changed. He is ready now."}
+    ]},
+    {"t": "pick", "q": "A lead texts: \"STOP CALLING ME.\" What now?", "options": ["Text one more time to say sorry", "Tag DNC. No more contact.", "Delete the lead"], "answer": 1, "why": "STOP means stop now. Never argue. Never delete."},
+    {"t": "say", "icon": "😬", "h": "Oops. You made a mistake", "text": "Every ISA makes mistakes. You book the wrong time. You forget a callback. What matters is the next hour."},
+    {"t": "tattoo", "text": "Tell your agent fast. Bring the fix.", "sub": "A hidden mistake breaks trust. A told one builds it."},
+    {"t": "order", "h": "Put your mistake message in order", "items": ["Say what happened", "Say what you already fixed", "Say what you changed for next time", "Say what you need from them"]},
+    {"t": "sort", "h": "Strong sorry or weak sorry?", "left": "Strong", "right": "Weak", "items": [
+      {"text": "I missed your call. I am sorry.", "side": "left"},
+      {"text": "Sorry if there was confusion.", "side": "right"},
+      {"text": "I booked the wrong time.", "side": "left"},
+      {"text": "The system did not save it.", "side": "right"}
+    ]},
+    {"t": "pick", "q": "Where do you tell your agent about a mistake?", "options": ["In the client channel", "In a private text", "Nowhere. Fix it quietly."], "answer": 0, "why": "Always the client channel. Your coordinator sees it too."},
+    {"t": "chat", "who": "Daniel (your agent)", "channel": "text", "says": "Megan booked a tour. Why did she get a \"still looking?\" text?", "options": [
+      {"text": "Sorry, the system does that sometimes.", "good": false, "why": "That is an excuse. Say it was your mistake."},
+      {"text": "My mistake. I forgot the stage. It is fixed, and I texted Megan.", "good": true, "why": "You say it was you. You bring the fix."}
+    ]},
+    {"t": "pick", "q": "You texted a lead at 7 AM their time. What do you do?", "options": ["Call them to say sorry", "Say nothing", "Stop. Tell your coordinator now."], "answer": 2, "why": "Rule mistakes go to your coordinator first. Never hide them."},
+    {"t": "say", "icon": "🔢", "h": "Your daily numbers", "text": "Three numbers show your day. Dials, talks and appointments. They are goals. Nobody expects them on day one."},
+    {"t": "flip", "h": "Tap each number", "cards": [
+      {"front": "Dials", "back": "80 to 100 calls, dialed by hand."},
+      {"front": "Talks", "back": "12 to 15 real talks with leads."},
+      {"front": "Appointments", "back": "2 to 3 booked, with A.L.M."}
+    ]},
+    {"t": "fill", "h": "Finish the line", "before": "A good shift has ", "after": " appointments.", "options": ["2 to 3", "10 to 12", "20 to 30"], "answer": 0},
+    {"t": "pick", "q": "You had many talks but no appointments. What do you fix?", "options": ["Dial more", "Ask for a day and time on every call", "Talk longer"], "answer": 1, "why": "No ask, no appointment. Always offer two times."},
+    {"t": "say", "icon": "💯", "h": "Your 100-point score card", "text": "Your team listens to some of your calls. Each call gets a score out of 100. The goal is 90 or more."},
+    {"t": "flip", "h": "Where do the 100 points come from?", "cards": [
+      {"front": "Speed to Lead: 20", "back": "Did you call within 180 seconds?"},
+      {"front": "A.L.M. Discovery: 30", "back": "Did you ask A, L and M?"},
+      {"front": "Objections: 20", "back": "Did you stay calm and ask again?"},
+      {"front": "Notes: 15. Rules: 15.", "back": "Good Follow Up Boss notes. Calling rules followed."}
+    ]},
+    {"t": "pick", "q": "Which part has the most points?", "options": ["Speed to Lead", "Follow Up Boss notes", "A.L.M. Discovery"], "answer": 2, "why": "A.L.M. is 30 points. Always ask for the appointment."},
+    {"t": "speak", "h": "Say your promise out loud", "line": "I call fast. I ask A, L and M. I write it down. I follow up.", "times": 3},
+    {"t": "win", "text": "Boot camp done! You are ready for your first real calls."}
+  ],
+  "quiz": [
+    {"q": "What does a great ISA do?", "options": ["Calls fast, asks A.L.M., writes it down, follows up", "Talks as long as possible", "Gives price advice"], "answer": 0, "explain": "Fast, A.L.M., notes, follow-up. That is the job."},
+    {"q": "You make a mistake. What do you do first?", "options": ["Hide it", "Wait for the agent to find it", "Tell your agent fast, with the fix"], "answer": 2, "explain": "A told mistake builds trust."},
+    {"q": "How many appointments is a good shift?", "options": ["2 to 3", "8 to 10", "20"], "answer": 0, "explain": "The goal is 2 to 3 per shift."},
+    {"q": "What score is the goal on the score card?", "options": ["50 or more", "90 or more", "70 or more"], "answer": 1, "explain": "The goal is 90 out of 100."},
+    {"q": "A lead does not answer your first call. What is true?", "options": ["They are not interested", "You should delete the lead", "Keep trying. Most appointments come after several tries."], "answer": 2, "explain": "Do not stop after one call."}
+  ]
+}

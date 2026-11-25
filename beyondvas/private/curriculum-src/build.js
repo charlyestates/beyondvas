@@ -1,72 +1,61 @@
-// Assembles modules/*.json + sim.json into beyondvas/private/curriculum.js and validates them.
+// Builds ../curriculum.js for the one-day boot camp from chapters/*.json + sim.json, and validates them.
+// (The long reference modules in modules/ are no longer built into the page.)
 const fs = require('fs'), path = require('path');
-const DIR = __dirname;
-const OUT = path.join(__dirname, '..', 'curriculum.js');
-const ORDER = ['F1','F2','F3','F4','F5','F6','I1','I2','I3','I4','I5','I6','I7','I8','I9','I10','I11'];
-const BLOCKS = new Set(['p','list','steps','callout','script','dodont','table','glossary']);
-const errs = [], warn = [];
-const modules = [];
+const DIR = __dirname, OUT = path.join(DIR, '..', 'curriculum.js');
+const ORDER = ['C1','C2','C3','C4','C5','C6','C7','C8','C9','C10','C11','C12'];
+const errs = [], warn = [], chapters = [];
+const words = (o) => JSON.stringify(o).replace(/"(t|icon|side|channel|answer|good|times)":[^,}]*/g, '').split(/\s+/).length;
+const longSent = (s) => String(s || '').split(/(?<=[.!?])\s+/).filter(x => x.split(/\s+/).length > 16);
 let total = 0;
-const ids = new Set();
 for (const id of ORDER) {
-  const f = path.join(DIR, 'modules', id + '.json');
+  const f = path.join(DIR, 'chapters', id + '.json');
   if (!fs.existsSync(f)) { errs.push('missing ' + id); continue; }
-  let m;
-  try { m = JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { errs.push(id + ' bad JSON: ' + e.message); continue; }
-  if (m.id !== id) warn.push(id + ': id field is ' + m.id + ', fixed');
-  m.id = id;
-  m.part = id[0] === 'F' ? 'foundations' : 'isa';
-  if (!m.title) errs.push(id + ' no title');
-  if (!Array.isArray(m.lessons) || m.lessons.length < 3) errs.push(id + ' lessons: ' + (m.lessons || []).length);
-  let words = 0, mins = 0;
-  (m.lessons || []).forEach((l, k) => {
-    if (!l.id) l.id = id + '-' + (k + 1);
-    if (ids.has(l.id)) { errs.push('duplicate lesson id ' + l.id); }
-    ids.add(l.id);
-    (l.body || []).forEach(b => {
-      if (!BLOCKS.has(b.t)) errs.push(l.id + ' unknown block ' + b.t);
-      const txt = JSON.stringify(b);
-      words += txt.split(/\s+/).length;
-      if (/<[a-z]/i.test(txt)) warn.push(l.id + ' contains HTML-like text');
-    });
-    if (!l.minutes) l.minutes = Math.max(3, Math.round(words / 120));
-    mins += l.minutes;
+  let c; try { c = JSON.parse(fs.readFileSync(f, 'utf8')); } catch (e) { errs.push(id + ' bad JSON ' + e.message); continue; }
+  c.id = id;
+  const E = (m) => errs.push(id + ': ' + m);
+  if (!c.title) E('no title');
+  const st = c.steps || [];
+  if (st.length < 14 || st.length > 32) E('steps ' + st.length);
+  let run = 0, inter = 0;
+  st.forEach((s, k) => {
+    const at = 'step ' + (k + 1) + ' (' + s.t + ')';
+    run = s.t === 'say' ? run + 1 : 0; if (run > 2) warn.push(id + ' ' + at + ': more than two say steps in a row');
+    if (['flip','pick','chat','sort','order','fill','speak'].includes(s.t)) inter++;
+    switch (s.t) {
+      case 'say': if (!s.text) E(at + ' no text'); break;
+      case 'tattoo': if (!s.text) E(at + ' no text'); break;
+      case 'flip': if (!Array.isArray(s.cards) || s.cards.length < 2 || s.cards.some(x => !x.front || !x.back)) E(at + ' cards'); break;
+      case 'pick': if (!Array.isArray(s.options) || s.options.length < 2 || !(s.answer >= 0 && s.answer < s.options.length) || !s.q) E(at + ' options/answer'); break;
+      case 'fill': if (!Array.isArray(s.options) || !(s.answer >= 0 && s.answer < s.options.length) || s.before == null) E(at + ' options/answer'); break;
+      case 'chat': if (!Array.isArray(s.options) || s.options.filter(o => o.good).length !== 1 || !s.says || s.options.some(o => !o.text || !o.why)) E(at + ' needs exactly one good option, text and why'); break;
+      case 'sort': if (!Array.isArray(s.items) || !s.left || !s.right || !s.items.some(x => x.side === 'left') || !s.items.some(x => x.side === 'right') || s.items.some(x => !['left','right'].includes(x.side))) E(at + ' items/sides'); break;
+      case 'order': if (!Array.isArray(s.items) || s.items.length < 3) E(at + ' items'); break;
+      case 'speak': if (!s.line) E(at + ' no line'); break;
+      case 'win': if (k !== st.length - 1) E(at + ' must be last'); break;
+      default: E(at + ' unknown type');
+    }
+    ['text','sub','says','line','why'].forEach(key => longSent(s[key]).forEach(x => warn.push(id + ' ' + at + ' long sentence: ' + x.slice(0, 70))));
   });
-  if (!m.practice || !m.practice.steps) errs.push(id + ' no practice'); else mins += m.practice.minutes || 0;
-  (m.quiz || []).forEach((q, qi) => {
-    if (!Array.isArray(q.options) || q.options.length !== 4) errs.push(id + ' q' + (qi + 1) + ' options ' + (q.options || []).length);
-    if (!(q.answer >= 0 && q.answer < (q.options || []).length)) errs.push(id + ' q' + (qi + 1) + ' answer ' + q.answer);
-    if (!q.explain) warn.push(id + ' q' + (qi + 1) + ' no explanation');
-  });
-  if ((m.quiz || []).length < 6) errs.push(id + ' quiz length ' + (m.quiz || []).length);
-  const pos = (m.quiz || []).map(q => q.answer); const same = pos.length && pos.every(p => p === pos[0]);
-  if (same) warn.push(id + ' all answers in the same position');
-  const banned = /Beyond Estates|Charly|Zillow Preferred|beyondestatestc|g1boisjolie|drive\.google|\(323\)|\(661\) 220|\(951\)|split/i;
-  const raw = JSON.stringify(m); const hit = raw.match(banned); if (hit) warn.push(id + ' mentions "' + hit[0] + '"');
-  total += mins;
-  modules.push(m);
-  console.log(id.padEnd(4), String(m.lessons.length).padStart(2), 'lessons', String(mins).padStart(4), 'min', String((m.quiz || []).length).padStart(3), 'q ', m.title);
+  if (st.length && st[st.length - 1].t !== 'win') E('last step is not win');
+  if (st.length && inter / st.length < 0.5) warn.push(id + ' only ' + Math.round(inter / st.length * 100) + '% interactive');
+  const q = c.quiz || [];
+  if (q.length !== 5) E('quiz has ' + q.length);
+  q.forEach((x, k) => { if (!Array.isArray(x.options) || x.options.length < 3 || x.options.length > 4 || !(x.answer >= 0 && x.answer < x.options.length) || !x.explain) E('quiz ' + (k + 1) + ' invalid'); });
+  if (q.length && q.every(x => x.answer === q[0].answer)) warn.push(id + ' quiz answers all in the same position');
+  const raw = JSON.stringify(c);
+  const bad = raw.match(/Beyond Estates|BeyondVA|twice a month|5th and|<[a-z]+[ >]/i); if (bad) warn.push(id + ' contains "' + bad[0] + '"');
+  c.mins = Math.round(st.length * 0.5 + 3);
+  total += c.mins;
+  const w = words(c); if (w > 1100) warn.push(id + ' has ' + w + ' words');
+  chapters.push(c);
+  console.log(id.padEnd(4), String(st.length).padStart(2), 'screens', String(Math.round(inter / Math.max(1, st.length) * 100)).padStart(3) + '% interactive', String(w).padStart(5), 'words', String(c.mins).padStart(3), 'min ', c.title);
 }
 let sim = [];
-const sf = path.join(DIR, 'sim.json');
-if (fs.existsSync(sf)) {
-  try { sim = JSON.parse(fs.readFileSync(sf, 'utf8')); } catch (e) { errs.push('sim.json bad JSON: ' + e.message); }
-  sim.forEach(l => {
-    ['id','name','ini','color','email','phone','source','stage','list','listLabel','created','alm','kind','says','seed','order','choices'].forEach(k => { if (!(k in l)) errs.push('sim ' + l.id + ' missing ' + k); });
-    if (!['speed','hot','nurture'].includes(l.list)) errs.push('sim ' + l.id + ' list ' + l.list);
-    const st = ['New Lead','Contacted','Warm Nurture','Hot','Pending Handoff','Archived / DNC'];
-    if (!st.includes(l.stage)) errs.push('sim ' + l.id + ' stage ' + l.stage);
-    (l.choices || []).forEach(c => { if (c.correct && (!c.effect || !c.note || !c.note.disp || !c.note.next)) errs.push('sim ' + l.id + ' correct choice incomplete'); if (c.correct && c.effect && c.effect.stage && !st.includes(c.effect.stage)) errs.push('sim ' + l.id + ' effect stage ' + c.effect.stage); if (!c.correct && !c.log) errs.push('sim ' + l.id + ' wrong choice has no log'); });
-    if ((l.choices || []).length !== 2 || (l.choices || []).filter(c => c.correct).length !== 1) errs.push('sim ' + l.id + ' needs exactly 2 choices, 1 correct');
-    if (JSON.stringify(l.order.slice().sort()) !== '[0,1]') errs.push('sim ' + l.id + ' order ' + JSON.stringify(l.order));
-    if (['marcus','elena','david'].includes(l.id)) errs.push('sim id clashes: ' + l.id);
-  });
-} else errs.push('missing sim.json');
-console.log('TOTAL', total, 'min =', (total / 60).toFixed(1), 'hours;', modules.length, 'modules;', sim.length, 'new calls');
-if (warn.length) console.log('WARN\n  ' + warn.join('\n  '));
+try { sim = JSON.parse(fs.readFileSync(path.join(DIR, 'sim.json'), 'utf8')); } catch (e) { errs.push('sim.json ' + e.message); }
+console.log('TOTAL', total, 'min of chapters +', (3 + sim.length) * 4, 'min of practice calls =', ((total + (3 + sim.length) * 4) / 60).toFixed(1), 'hours');
+if (warn.length) console.log('WARN (' + warn.length + ')\n  ' + warn.slice(0, 40).join('\n  '));
 if (errs.length) { console.log('ERRORS\n  ' + errs.join('\n  ')); process.exitCode = 1; }
 if (!errs.length || process.argv.includes('--force')) {
-  const js = '/* BeyondVAs ISA Certification Program: curriculum content. Generated from the module files; edit the JSON and rebuild. */\nwindow.BV_CURRICULUM = ' + JSON.stringify({ modules, sim }) + ';\n';
-  fs.writeFileSync(OUT, js, 'utf8');
-  console.log('wrote', OUT, Math.round(js.length / 1024) + ' KB');
+  fs.writeFileSync(OUT, '/* LockedIn VAs ISA Boot Camp content. Generated by curriculum-src/build.js; edit the chapter JSON and rebuild. */\nwindow.BV_CURRICULUM = ' + JSON.stringify({ chapters, sim }) + ';\n', 'utf8');
+  console.log('wrote curriculum.js', Math.round(fs.statSync(OUT).size / 1024) + ' KB');
 }

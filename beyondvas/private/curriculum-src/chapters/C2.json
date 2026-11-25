@@ -1,0 +1,69 @@
+{
+  "id": "C2",
+  "title": "Your tools and your day",
+  "steps": [
+    {"t": "say", "icon": "☕", "h": "It is 8:55 AM", "text": "Your shift starts in five minutes. Your headset is on. What do you open first?"},
+    {"t": "pick", "q": "What do you do first?", "options": ["Call a lead", "Clock in on Hubstaff", "Check Facebook"], "answer": 1, "why": "No clock in, no tracked hours. Tracked hours are your pay."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Hubstaff", "back": "The tool that tracks your work time."},
+      {"front": "Clock in", "back": "Start the timer when you start work."},
+      {"front": "Clock out", "back": "Stop the timer for breaks and lunch."},
+      {"front": "Screenshot", "back": "A picture of your screen, about every two minutes."}
+    ]},
+    {"t": "sort", "h": "Timer on or off?", "left": "Clocked in", "right": "Clocked out", "items": [
+      {"text": "Calling leads", "side": "left"},
+      {"text": "Lunch", "side": "right"},
+      {"text": "Writing notes", "side": "left"},
+      {"text": "A personal call", "side": "right"},
+      {"text": "Writing your daily report", "side": "left"}
+    ]},
+    {"t": "tattoo", "text": "Clock in to work. Clock out for breaks.", "sub": "Honest time keeps your pay safe."},
+    {"t": "say", "icon": "📸", "h": "Your client can see", "text": "Hubstaff takes screenshots while you are clocked in. Your client can see them. Keep only work on your screen."},
+    {"t": "sort", "h": "OK on your screen at work?", "left": "OK", "right": "Not OK", "items": [
+      {"text": "Follow Up Boss", "side": "left"},
+      {"text": "Facebook", "side": "right"},
+      {"text": "Your bank", "side": "right"},
+      {"text": "The client channel", "side": "left"},
+      {"text": "Personal email", "side": "right"}
+    ]},
+    {"t": "pick", "q": "A friend has an app that fakes mouse moves. Do you use it?", "options": ["Yes, on slow days", "Only at lunch", "Never"], "answer": 2, "why": "That is cheating. Honest hours keep your job safe."},
+    {"t": "say", "icon": "🗂️", "h": "Where leads live", "text": "**Follow Up Boss** is your main tool. Every lead is there. You see the name, the phone and the home they liked."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Follow Up Boss", "back": "The tool where all the leads live."},
+      {"front": "Note", "back": "What happened on the call. You write it."},
+      {"front": "Password vault", "back": "A safe app that holds and fills your passwords."}
+    ]},
+    {"t": "fill", "h": "Finish the line", "before": "After every call, write a ", "after": " in Follow Up Boss.", "options": ["note", "price", "password"], "answer": 0},
+    {"t": "chat", "who": "Mark", "channel": "text", "says": "I'll send you the login password here in chat.", "options": [
+      {"text": "OK, send it here.", "good": false, "why": "Chat is not safe for passwords."},
+      {"text": "Thanks! Please add it to the vault instead.", "good": true, "why": "Passwords travel only in the vault. You said it kindly."},
+      {"text": "Text it to my phone.", "good": false, "why": "Texts are not safe. Use the vault."}
+    ]},
+    {"t": "sort", "h": "Safe or not safe?", "left": "Safe", "right": "Not safe", "items": [
+      {"text": "Log in with the vault", "side": "left"},
+      {"text": "Write a password in a notebook", "side": "right"},
+      {"text": "Download the lead list", "side": "right"},
+      {"text": "Work inside the client's tools", "side": "left"},
+      {"text": "Use café Wi-Fi for work", "side": "right"}
+    ]},
+    {"t": "tattoo", "text": "Passwords live in the vault. Client data stays inside.", "sub": "Never download or copy client data."},
+    {"t": "say", "icon": "⚡", "h": "Power out!", "text": "Power or internet can stop. It is not your fault. Tell your **coordinator** at once. Then switch to your backup."},
+    {"t": "order", "h": "Outage! Put the steps in order", "items": ["Tell your coordinator at once", "Switch to your backup internet or power", "Tell the client channel", "Call back any dropped lead"]},
+    {"t": "speak", "h": "Say it out loud", "line": "Hi Carla, my power is out. I am switching to my backup now.", "times": 3},
+    {"t": "pick", "q": "Why tell your coordinator so fast?", "options": ["So you can rest", "New leads keep coming. Someone must call them.", "It is just a nice habit"], "answer": 1, "why": "Your coordinator can get help for the new leads."},
+    {"t": "tattoo", "text": "Outage? Tell your coordinator at once.", "sub": "Fast news lets your team help."},
+    {"t": "say", "icon": "📝", "h": "The daily report", "text": "At the end of every shift, post a short report. Put it in the client channel. Share your calls, appointments and any problems."},
+    {"t": "fill", "h": "Finish the line", "before": "Post your daily report in the ", "after": ".", "options": ["private chat", "password vault", "client channel"], "answer": 2},
+    {"t": "order", "h": "Put a normal shift in order", "items": ["Clock in on Hubstaff", "Call new leads first", "Follow up and write notes", "Post your daily report", "Clock out"]},
+    {"t": "pick", "q": "What is the last thing before you clock out?", "options": ["Post your daily report", "Delete old leads", "Change your password"], "answer": 0, "why": "Every shift ends with a daily report. Every time."},
+    {"t": "speak", "h": "Say it out loud", "line": "Thanks, Mark! Could you add it to the vault instead?", "times": 2},
+    {"t": "win", "text": "You know your tools and your day. Next: real estate words!"}
+  ],
+  "quiz": [
+    {"q": "What tracks your work hours?", "options": ["Follow Up Boss", "Hubstaff", "The password vault"], "answer": 1, "explain": "Hubstaff tracks your time. Tracked hours are your pay."},
+    {"q": "Where do leads live?", "options": ["Follow Up Boss", "Hubstaff", "Your notebook"], "answer": 0, "explain": "Every lead and every note is in Follow Up Boss."},
+    {"q": "Your internet goes out. What do you do first?", "options": ["Wait quietly", "Go to a café", "Tell your coordinator at once"], "answer": 2, "explain": "Tell your coordinator first. Then switch to your backup."},
+    {"q": "How should a client share a password with you?", "options": ["In the chat", "In the password vault", "By text"], "answer": 1, "explain": "Passwords travel only in the vault."},
+    {"q": "What do you post at the end of every shift?", "options": ["A daily report", "A screenshot", "A new password"], "answer": 0, "explain": "The daily report goes in the client channel, every shift."}
+  ]
+}

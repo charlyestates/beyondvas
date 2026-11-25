@@ -1,0 +1,337 @@
+{
+  "id": "C9",
+  "title": "Objections made easy",
+  "steps": [
+    {
+      "t": "say",
+      "icon": "🚧",
+      "h": "\"I'm just looking\"",
+      "text": "Maria says, \"I'm just looking.\" Is the call over? No! This is an **objection**. An objection is a reason to say \"not now\"."
+    },
+    {
+      "t": "say",
+      "icon": "🧘",
+      "h": "Stay calm",
+      "text": "Most objections mean \"Please do not push me.\" So smile, slow down, and use **3 steps**."
+    },
+    {
+      "t": "flip",
+      "h": "Tap each step",
+      "cards": [
+        {
+          "front": "1. Acknowledge",
+          "back": "Show you heard them. \"Totally fine!\""
+        },
+        {
+          "front": "2. Ask",
+          "back": "Ask one easy question about the home or the timing."
+        },
+        {
+          "front": "3. Appointment",
+          "back": "Offer two times with the agent."
+        }
+      ]
+    },
+    {
+      "t": "order",
+      "h": "Put the 3 steps in order",
+      "items": [
+        "Acknowledge",
+        "Ask",
+        "Appointment"
+      ]
+    },
+    {
+      "t": "tattoo",
+      "text": "Acknowledge. Ask. Appointment.",
+      "sub": "Three steps fix almost every objection."
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "We're just looking.",
+      "options": [
+        {
+          "text": "OK. Sorry to bother you. Bye!",
+          "good": false,
+          "why": "Do not give up so fast. Most leads start this way."
+        },
+        {
+          "text": "This home will sell fast. Decide today.",
+          "good": false,
+          "why": "That is pushing. Pushing ends calls."
+        },
+        {
+          "text": "Totally fine! Most people look early. Which area do you like most?",
+          "good": true,
+          "why": "You acknowledge. Then you ask an easy question."
+        }
+      ]
+    },
+    {
+      "t": "speak",
+      "h": "Say it out loud",
+      "line": "Totally fine! Most people look early. Which area do you like most?",
+      "times": 3
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "I already have an agent.",
+      "options": [
+        {
+          "text": "Understood. Did you sign an agreement with them?",
+          "good": true,
+          "why": "This one question tells you what to do next."
+        },
+        {
+          "text": "Our agent is better. Give us a try.",
+          "good": false,
+          "why": "Never say bad things about another agent."
+        },
+        {
+          "text": "Oh. OK, goodbye.",
+          "good": false,
+          "why": "Ask about a signed agreement first."
+        }
+      ]
+    },
+    {
+      "t": "pick",
+      "q": "She says, \"Yes, we signed.\" What now?",
+      "options": [
+        "Offer a second opinion anyway",
+        "Say \"Great, I'll make a note.\" Then tell your agent.",
+        "Call her again next week"
+      ],
+      "answer": 1,
+      "why": "A signed agreement is a promise. Respect it."
+    },
+    {
+      "t": "pick",
+      "q": "She says, \"No, nothing signed.\" What now?",
+      "options": [
+        "Say goodbye and end the call",
+        "Tell her to drop the other agent",
+        "Offer a short call with your agent. Give two times."
+      ],
+      "answer": 2,
+      "why": "With no agreement, she can still talk to your agent."
+    },
+    {
+      "t": "tattoo",
+      "text": "Signed with an agent? Respect it. Tell your agent.",
+      "sub": "It is fair. It protects your client."
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "Just send me info.",
+      "options": [
+        {
+          "text": "Sure. I will email it. Bye!",
+          "good": false,
+          "why": "You sent info but have no next step."
+        },
+        {
+          "text": "I will send it right now! Are you free Saturday morning or afternoon to see it?",
+          "good": true,
+          "why": "Say yes. Then ask for the appointment."
+        }
+      ]
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "I'm busy. Call me later.",
+      "options": [
+        {
+          "text": "This takes one minute. Please listen.",
+          "good": false,
+          "why": "She said she is busy. Respect that."
+        },
+        {
+          "text": "OK. I will call you some time.",
+          "good": false,
+          "why": "\"Some time\" is not a plan."
+        },
+        {
+          "text": "No problem. Is today at 6 or tomorrow at noon better?",
+          "good": true,
+          "why": "Two choices turn \"later\" into a real time."
+        }
+      ]
+    },
+    {
+      "t": "say",
+      "icon": "⏰",
+      "h": "Keep your promise",
+      "text": "Call back at that **exact** time. Set a task in Follow Up Boss. Then you never forget."
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "Wait. Is this a sales call?",
+      "options": [
+        {
+          "text": "No. I am the agent.",
+          "good": false,
+          "why": "Never say you are the agent. It is not true."
+        },
+        {
+          "text": "I'm Ana, an assistant with Rivera Home Team. You asked about 12 Oak Street.",
+          "good": true,
+          "why": "Honest and clear. You say who you are and why."
+        },
+        {
+          "text": "No, it is only a short survey.",
+          "good": false,
+          "why": "Never lie. One lie breaks all trust."
+        }
+      ]
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "call",
+      "says": "What are rates right now?",
+      "options": [
+        {
+          "text": "Rates are low. You should buy now.",
+          "good": false,
+          "why": "That is loan advice. You never give it."
+        },
+        {
+          "text": "Great question for your agent. Daniel can get you real numbers. Thursday at 5 or Saturday at 10?",
+          "good": true,
+          "why": "Rates are the cost of a loan. The agent or their lender helps."
+        }
+      ]
+    },
+    {
+      "t": "sort",
+      "h": "Can you say it?",
+      "left": "OK to say",
+      "right": "Not OK",
+      "items": [
+        {
+          "text": "Great question for your agent.",
+          "side": "left"
+        },
+        {
+          "text": "Rates will drop soon.",
+          "side": "right"
+        },
+        {
+          "text": "Did you sign an agreement with them?",
+          "side": "left"
+        },
+        {
+          "text": "Buy now before prices go up.",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "t": "say",
+      "icon": "✌️",
+      "h": "Two tries, then stop",
+      "text": "Use the 3 steps up to **two times** on one call. A third \"no\"? Thank them. Ask for a good day to call back."
+    },
+    {
+      "t": "pick",
+      "q": "Maria says \"no\" a third time. What do you do?",
+      "options": [
+        "Try the 3 steps again, faster",
+        "Thank her and set a day to call back",
+        "Hang up without a word"
+      ],
+      "answer": 1,
+      "why": "Respect wins. A happy lead answers your next call."
+    },
+    {
+      "t": "chat",
+      "who": "David",
+      "channel": "call",
+      "says": "Stop calling me!",
+      "options": [
+        {
+          "text": "Can I ask just one question first?",
+          "good": false,
+          "why": "Never argue. Stop means stop."
+        },
+        {
+          "text": "I'm sorry. I will remove your number now. Have a good day.",
+          "good": true,
+          "why": "Then tag the lead DNC. Never delete the lead."
+        }
+      ]
+    },
+    {
+      "t": "tattoo",
+      "text": "\"Stop\" is not an objection. Just stop.",
+      "sub": "Say sorry and tag the lead DNC."
+    },
+    {
+      "t": "win",
+      "text": "Nice! Now you know what to say when a lead says \"no\"."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What are the 3 steps for an objection?",
+      "options": [
+        "Argue, push, close",
+        "Acknowledge, ask, appointment",
+        "Apologize, wait, hang up"
+      ],
+      "answer": 1,
+      "explain": "Acknowledge, ask, then offer two times."
+    },
+    {
+      "q": "\"I already have an agent.\" What do you ask first?",
+      "options": [
+        "Did you sign an agreement with them?",
+        "Is your agent any good?",
+        "Can you drop them?"
+      ],
+      "answer": 0,
+      "explain": "If they signed, respect it and tell your agent."
+    },
+    {
+      "q": "\"Just send me info.\" What is the best reply?",
+      "options": [
+        "Send it and end the call",
+        "Say no, a meeting is better",
+        "Say yes, then offer two times to see the home"
+      ],
+      "answer": 2,
+      "explain": "Send the info. Ask for the appointment too."
+    },
+    {
+      "q": "\"What are rates right now?\" What do you do?",
+      "options": [
+        "Tell them today's rate",
+        "Say the agent can get real numbers, then offer two times",
+        "Say rates will drop soon"
+      ],
+      "answer": 1,
+      "explain": "You never give loan advice. The agent or their lender helps."
+    },
+    {
+      "q": "\"Stop calling me!\" What do you do?",
+      "options": [
+        "Say sorry, stop and tag DNC",
+        "Ask why they are upset",
+        "Call back tomorrow to check"
+      ],
+      "answer": 0,
+      "explain": "Stop is not an objection. Never argue."
+    }
+  ]
+}

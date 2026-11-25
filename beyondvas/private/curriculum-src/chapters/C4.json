@@ -1,0 +1,77 @@
+{
+  "id": "C4",
+  "title": "What you can say. What you cannot",
+  "steps": [
+    {"t": "say", "icon": "🤔", "h": "A hard question", "text": "Maria asks, \"Is this house worth the price?\" You do not know. Good news: you do not have to answer."},
+    {"t": "say", "icon": "✅", "h": "Your 3 jobs", "text": "You ask friendly questions. You do A.L.M. You set appointments. That is your whole job on the phone."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Discovery", "back": "Friendly questions to learn what the lead wants."},
+      {"front": "A.L.M.", "back": "Appointment, Location, Motivation. You learn it soon."},
+      {"front": "Appointment", "back": "A set day and time with the agent."}
+    ]},
+    {"t": "say", "icon": "🪪", "h": "The agent has a license", "text": "A license is a permit from the state. Your agent has one. You do not. So some topics are only for the agent."},
+    {"t": "flip", "h": "Things you never do", "cards": [
+      {"front": "Price", "back": "Never say what a home is worth."},
+      {"front": "Law and loans", "back": "Never give legal or loan advice."},
+      {"front": "Inspection", "back": "A home checkup. Never explain the report."},
+      {"front": "Deals and pay", "back": "Never negotiate. Never talk about commission, the agent's pay."}
+    ]},
+    {"t": "tattoo", "text": "Hard question? Send it to your agent.", "sub": "The agent has the license. You set the meeting."},
+    {"t": "speak", "h": "Say it out loud", "line": "Great question for your agent. Let's set a time to talk with them.", "times": 3},
+    {"t": "sort", "h": "Can you say it?", "left": "OK to say", "right": "Not OK", "items": [
+      {"text": "What area do you like?", "side": "left"},
+      {"text": "This home costs too much.", "side": "right"},
+      {"text": "Would Saturday at 11 work?", "side": "left"},
+      {"text": "You should offer less.", "side": "right"},
+      {"text": "The agent can answer that.", "side": "left"},
+      {"text": "That contract line means...", "side": "right"}
+    ]},
+    {"t": "chat", "who": "Maria", "channel": "call", "says": "Is this house worth the price?", "options": [
+      {"text": "Yes, it is a great price.", "good": false, "why": "That is a price opinion. Only the agent gives one."},
+      {"text": "Great question for your agent. Would Saturday at 11 or 2 work?", "good": true, "why": "You sent it to the agent. You asked for a time."},
+      {"text": "I think it is a bit high.", "good": false, "why": "Never say what a home is worth."}
+    ]},
+    {"t": "chat", "who": "Tom", "channel": "call", "says": "The inspection found a roof problem. Is that bad?", "options": [
+      {"text": "Great question for your agent. I will tell them today.", "good": true, "why": "You did not guess. The agent will help."},
+      {"text": "Roofs are easy to fix. Don't worry.", "good": false, "why": "You explained an inspection. That is not your job."}
+    ]},
+    {"t": "pick", "q": "A lead asks, \"Will the seller take less?\" What do you do?", "options": ["Say \"Yes, probably\"", "Call the seller yourself", "Send the question to your agent"], "answer": 2, "why": "That is negotiating. Only the agent negotiates."},
+    {"t": "pick", "q": "A lead asks, \"Are you the agent?\" What do you say?", "options": ["Yes, I am.", "No, I am on the agent's team.", "I can't tell you."], "answer": 1, "why": "Always tell the truth. Never say you are the agent."},
+    {"t": "fill", "h": "Finish the line", "before": "Great question for your ", "after": ". Let's set a time.", "options": ["cousin", "bank", "agent"], "answer": 2},
+    {"t": "order", "h": "A hard question comes. Put your steps in order", "items": ["Say, \"Great question for your agent.\"", "Ask for a day and time", "Write the question in your note"]},
+    {"t": "say", "icon": "⚖️", "h": "Fair housing", "text": "Fair housing is a US law. Every person gets the same help. So you treat every lead the same."},
+    {"t": "say", "icon": "🏘️", "h": "Never describe an area", "text": "Never describe an area by its people, schools, crime or safety. Even a nice word can break the rule."},
+    {"t": "chat", "who": "Ana", "channel": "call", "says": "Is this a safe neighborhood?", "options": [
+      {"text": "Yes, very safe. Good families live there.", "good": false, "why": "You described the area by safety and people."},
+      {"text": "No, I would not live there.", "good": false, "why": "That is your opinion about an area. Never give one."},
+      {"text": "Great question for your agent. I can also send you public sources.", "good": true, "why": "You stayed fair. You still helped."}
+    ]},
+    {"t": "sort", "h": "Fair or not?", "left": "OK to say", "right": "Not OK", "items": [
+      {"text": "How many bedrooms do you need?", "side": "left"},
+      {"text": "The schools there are the best.", "side": "right"},
+      {"text": "Do you want a yard?", "side": "left"},
+      {"text": "Lots of young families live there.", "side": "right"},
+      {"text": "It is a quiet, safe street.", "side": "right"}
+    ]},
+    {"t": "pick", "q": "What do you write in your notes?", "options": ["What the lead wants in the home", "Where the lead is from", "The lead's religion"], "answer": 0, "why": "Write what they want in the home. Not who they are."},
+    {"t": "tattoo", "text": "Talk about the home. Never about the people.", "sub": "This keeps every lead treated the same."},
+    {"t": "speak", "h": "Say it out loud", "line": "Great question for your agent. I can also send you public sources.", "times": 2},
+    {"t": "say", "icon": "🔒", "h": "Client data stays private", "text": "Lead names, phones and emails belong to your client. They stay inside the client's tools. Never copy, download or share them."},
+    {"t": "sort", "h": "Safe or not safe?", "left": "Safe", "right": "Not safe", "items": [
+      {"text": "Work inside Follow Up Boss", "side": "left"},
+      {"text": "Send a lead list to my email", "side": "right"},
+      {"text": "Use the password vault", "side": "left"},
+      {"text": "Take a photo of my screen", "side": "right"},
+      {"text": "Share a login in a chat", "side": "right"}
+    ]},
+    {"t": "pick", "q": "You think you shared client data by mistake. What do you do?", "options": ["Wait and see", "Tell your coordinator at once", "Fix it and tell no one"], "answer": 1, "why": "Fast and honest is always best. Your coordinator will help."},
+    {"t": "win", "text": "Nice work! You know what to say and what to send to your agent."}
+  ],
+  "quiz": [
+    {"q": "A lead asks what a home is worth. What do you say?", "options": ["It is worth the price.", "Great question for your agent.", "Offer a little less."], "answer": 1, "explain": "Never give a price opinion. Send it to your agent."},
+    {"q": "Which one is your job?", "options": ["Set appointments", "Negotiate the price", "Explain the contract"], "answer": 0, "explain": "You ask questions, do A.L.M. and set appointments."},
+    {"q": "A lead asks, \"Is the area safe?\" What do you do?", "options": ["Say it is very safe", "Talk about the neighbors", "Send it to your agent and offer public sources"], "answer": 2, "explain": "Never describe an area by safety or people."},
+    {"q": "What goes in your notes?", "options": ["What the lead wants in the home", "The lead's religion", "Where the lead was born"], "answer": 0, "explain": "Write about the home they want. Not who they are."},
+    {"q": "Where does client data stay?", "options": ["In my email", "In the client's tools", "On my phone"], "answer": 1, "explain": "Never copy, download or share client data."}
+  ]
+}

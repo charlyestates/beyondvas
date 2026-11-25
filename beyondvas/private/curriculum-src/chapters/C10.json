@@ -1,0 +1,77 @@
+{
+  "id": "C10",
+  "title": "Seller leads",
+  "steps": [
+    {"t": "say", "icon": "🏡", "h": "Linda wants to sell", "text": "Linda typed her address on a website. She wants to know her home's value. Now you call her. What do you say?"},
+    {"t": "flip", "h": "What every seller wants to know", "cards": [
+      {"front": "What is my home worth?", "back": "The agent answers this. Never you."},
+      {"front": "How fast can it sell?", "back": "The agent answers this too."},
+      {"front": "How much money do I keep?", "back": "This is called the net. The agent shows it."}
+    ]},
+    {"t": "tattoo", "text": "You never give a home value.", "sub": "Only the agent can. A guess hurts everyone."},
+    {"t": "sort", "h": "Can you say it?", "left": "OK to say", "right": "Not OK", "items": [
+      {"text": "Daniel will show you real numbers.", "side": "left"},
+      {"text": "Homes there sell for about $450,000.", "side": "right"},
+      {"text": "Can I ask why you are selling?", "side": "left"},
+      {"text": "That online price sounds right.", "side": "right"},
+      {"text": "Those websites are always wrong.", "side": "right"}
+    ]},
+    {"t": "say", "icon": "🎯", "h": "Your goal: a listing consultation", "text": "A listing consultation is a meeting. The agent visits the home. The agent shows the seller a real price. Your job is to book it."},
+    {"t": "pick", "q": "What is your goal on a seller call?", "options": ["Tell them the home's value", "Get them to sign papers", "Book a meeting with the agent"], "answer": 2, "why": "You book the listing consultation. The agent does the rest."},
+    {"t": "flip", "h": "Seller A.L.M. Same letters. Tap each one", "cards": [
+      {"front": "A", "back": "Appointment: the agent visits the home."},
+      {"front": "L", "back": "Location: the home's address and a few facts."},
+      {"front": "M", "back": "Motivation: why they are selling, and by when."}
+    ]},
+    {"t": "speak", "h": "Say the opening out loud", "line": "Hi Linda, this is Ana with Rivera Home Team. This call may be recorded. You asked about 418 Maple Court, right?", "times": 3},
+    {"t": "order", "h": "Put the seller call in order", "items": ["Say your name and the address", "Ask why they are selling", "Ask when they want to move", "Offer two times with the agent"]},
+    {"t": "fill", "h": "Finish the line", "before": "Can I ask what has you thinking about ", "after": "?", "options": ["your loan", "selling", "the price"], "answer": 1},
+    {"t": "chat", "who": "Linda", "channel": "call", "says": "My husband got a job in Phoenix.", "options": [
+      {"text": "Great! Your home will sell fast.", "good": false, "why": "You cannot promise that. Ask a question."},
+      {"text": "That is great news! When do you need to move?", "good": true, "why": "Kind, and you learn her timeline."},
+      {"text": "How much do you owe on the home?", "good": false, "why": "Money questions belong to the agent."}
+    ]},
+    {"t": "tattoo", "text": "The reason sets the timeline.", "sub": "Ask why they are selling. Then ask when."},
+    {"t": "chat", "who": "Robert", "channel": "call", "says": "Just give me a number. What is it worth?", "options": [
+      {"text": "I am an assistant. I cannot give values. Daniel can, at your home.", "good": true, "why": "Honest and clear. Next, offer two times."},
+      {"text": "Maybe $400,000 to $500,000.", "good": false, "why": "A range is still a value. Never guess."}
+    ]},
+    {"t": "chat", "who": "Linda", "channel": "call", "says": "A website says my home is worth $520,000.", "options": [
+      {"text": "That sounds about right.", "good": false, "why": "Agreeing is giving a value."},
+      {"text": "Those sites are always wrong.", "good": false, "why": "Never say bad things about the websites."},
+      {"text": "Good starting point. A website cannot see inside your home.", "good": true, "why": "True and kind. Now offer the agent's visit."}
+    ]},
+    {"t": "speak", "h": "Say it out loud", "line": "Daniel can visit your home and show you real numbers. Would Tuesday at 5 or Thursday at 6 work?", "times": 3},
+    {"t": "pick", "q": "Linda and her husband both own the home. Who should be at the meeting?", "options": ["Only Linda", "Both owners", "Only the agent"], "answer": 1, "why": "Everyone who decides should be there."},
+    {"t": "say", "icon": "🛡️", "h": "Three seller objections", "text": "Sellers say \"not now\" too. Use the same three steps. Acknowledge, ask, appointment."},
+    {"t": "chat", "who": "Robert", "channel": "call", "says": "We just want to see what we could get.", "options": [
+      {"text": "OK. Call us when you are ready.", "good": false, "why": "You gave up. Always offer a time."},
+      {"text": "Smart. Daniel can show you real numbers. Tuesday at 5 or Thursday at 6?", "good": true, "why": "You agree first. Then you ask for the meeting."}
+    ]},
+    {"t": "chat", "who": "Linda", "channel": "call", "says": "We are not selling for six months.", "options": [
+      {"text": "Thank you. Many sellers meet the agent early. When should I check back?", "good": true, "why": "You respect her date and plan a call back."},
+      {"text": "Six months is too late. Sell now.", "good": false, "why": "Never push. Respect her date."}
+    ]},
+    {"t": "chat", "who": "Robert", "channel": "call", "says": "What is your commission?", "options": [
+      {"text": "It is about the same everywhere.", "good": false, "why": "You never talk about commission."},
+      {"text": "Great question for your agent. Daniel will explain it when you meet.", "good": true, "why": "Commission is the agent's topic."}
+    ]},
+    {"t": "tattoo", "text": "Later is a date, not a no.", "sub": "Set a task. Call back when you said."},
+    {"t": "sort", "h": "Who answers it?", "left": "You ask it", "right": "The agent answers it", "items": [
+      {"text": "Why are you selling?", "side": "left"},
+      {"text": "What is my home worth?", "side": "right"},
+      {"text": "When do you want to move?", "side": "left"},
+      {"text": "What is the commission?", "side": "right"},
+      {"text": "How much will I keep?", "side": "right"}
+    ]},
+    {"t": "pick", "q": "A buyer says: \"We must sell our house first.\" What is this?", "options": ["A seller lead too", "A problem", "A reason to end the call"], "answer": 0, "why": "You found a seller. Log both needs. Tell your agent."},
+    {"t": "win", "text": "Nice work! You can now handle a seller call and book the meeting."}
+  ],
+  "quiz": [
+    {"q": "A seller asks: \"What is my home worth?\" What do you do?", "options": ["Give a price range", "Say the agent will show real numbers", "Read the website price"], "answer": 1, "explain": "You never give a value. The agent does."},
+    {"q": "What is the goal of a seller call?", "options": ["A listing consultation", "A signed contract", "A sale price"], "answer": 0, "explain": "You book the meeting. The agent does the rest."},
+    {"q": "In seller A.L.M., what is L?", "options": ["The lender", "The lead's last name", "The home's address"], "answer": 2, "explain": "L is Location. For a seller, it is their home."},
+    {"q": "A seller says: \"Not for six months.\" What do you do?", "options": ["Delete the lead", "Call every day", "Set a task and check back"], "answer": 2, "explain": "Later is a date, not a no."},
+    {"q": "A seller asks about commission. What do you say?", "options": ["It is the same everywhere", "Great question for your agent. Daniel will explain it.", "We can lower it"], "answer": 1, "explain": "You never talk about commission."}
+  ]
+}

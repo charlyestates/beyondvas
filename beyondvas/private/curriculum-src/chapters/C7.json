@@ -1,0 +1,298 @@
+{
+  "id": "C7",
+  "title": "Speed to lead and the 3 strikes",
+  "steps": [
+    {
+      "t": "say",
+      "icon": "📱",
+      "h": "Maria taps a button",
+      "text": "Maria sees a home online. She taps \"Contact agent\". Her phone is still in her hand. How fast should you call?"
+    },
+    {
+      "t": "pick",
+      "q": "How fast do you call a new lead?",
+      "options": [
+        "In 30 minutes",
+        "In 180 seconds",
+        "The same day"
+      ],
+      "answer": 1,
+      "why": "180 seconds is 3 minutes. She is still thinking about the home."
+    },
+    {
+      "t": "tattoo",
+      "text": "New lead? Call in 180 seconds.",
+      "sub": "The first helpful call usually wins."
+    },
+    {
+      "t": "say",
+      "icon": "🏆",
+      "h": "Fast is 21 times better",
+      "text": "A call in 5 minutes beats a call in 30 minutes. Your chance is about **21 times better**."
+    },
+    {
+      "t": "fill",
+      "h": "Finish the line",
+      "before": "A call in 5 minutes is about ",
+      "after": " times better.",
+      "options": [
+        "2",
+        "21",
+        "5"
+      ],
+      "answer": 1
+    },
+    {
+      "t": "flip",
+      "h": "Why does speed win? Tap each card",
+      "cards": [
+        {
+          "front": "Did she ask other agents?",
+          "back": "Maybe. The first helpful call usually wins."
+        },
+        {
+          "front": "You are writing a note. A lead comes in.",
+          "back": "Stop and dial. Only finish a live call first."
+        }
+      ]
+    },
+    {
+      "t": "say",
+      "icon": "🕘",
+      "h": "Stay inside the calling window",
+      "text": "Call **9 AM to 8 PM**, Monday to Saturday. On Sunday, **noon to 8 PM**. Use the **lead's** time, not yours. Texts follow the same window."
+    },
+    {
+      "t": "sort",
+      "h": "This is the lead's time. Call now?",
+      "left": "Call now",
+      "right": "Wait",
+      "items": [
+        {
+          "text": "Tuesday 10:12 AM",
+          "side": "left"
+        },
+        {
+          "text": "Tuesday 8:15 AM",
+          "side": "right"
+        },
+        {
+          "text": "Saturday 7:50 PM",
+          "side": "left"
+        },
+        {
+          "text": "Sunday 10:05 AM",
+          "side": "right"
+        },
+        {
+          "text": "Wednesday 9:45 PM",
+          "side": "right"
+        },
+        {
+          "text": "Sunday 1:00 PM",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "t": "pick",
+      "q": "A lead comes in at 10:40 PM their time. What do you do?",
+      "options": [
+        "Call at 9 AM tomorrow, before any other call",
+        "Send a text now. It is only a text.",
+        "Call now, but keep it short"
+      ],
+      "answer": 0,
+      "why": "No calls or texts after 8 PM. Call first when the window opens."
+    },
+    {
+      "t": "tattoo",
+      "text": "The calling window always beats speed.",
+      "sub": "Follow the rules first. Then be fast."
+    },
+    {
+      "t": "say",
+      "icon": "📵",
+      "h": "No answer? That is normal",
+      "text": "Most leads do not answer the first call. They are at work or driving. So you use **3 strikes**. A strike is one try."
+    },
+    {
+      "t": "flip",
+      "h": "Tap each strike",
+      "cards": [
+        {
+          "front": "Strike 1",
+          "back": "Call now. Let it ring 5 to 6 times. Leave a 20-second voicemail."
+        },
+        {
+          "front": "Strike 2",
+          "back": "Text at 2 minutes. Only if they agreed to texts."
+        },
+        {
+          "front": "Strike 3",
+          "back": "Call again about 4 hours later, before 6 PM their time."
+        }
+      ]
+    },
+    {
+      "t": "order",
+      "h": "Put the 3 strikes in order",
+      "items": [
+        "Call and leave a short voicemail",
+        "Text 2 minutes later",
+        "Call again about 4 hours later"
+      ]
+    },
+    {
+      "t": "speak",
+      "h": "Say your voicemail out loud",
+      "line": "Hi Maria, this is Ana with Rivera Home Team. You asked about 12 Oak Street. I will try you again soon.",
+      "times": 3
+    },
+    {
+      "t": "pick",
+      "q": "Which Strike 2 text is best?",
+      "options": [
+        "Hi! Are you still looking?",
+        "PLEASE CALL ME BACK TODAY!!",
+        "Hi Maria, it's Ana with Rivera Home Team. I called about 12 Oak Street. Want to see it Thursday at 5 or Saturday at 11?"
+      ],
+      "answer": 2,
+      "why": "It says her name, the home, and two times."
+    },
+    {
+      "t": "pick",
+      "q": "Maria did not agree to texts. What is Strike 2?",
+      "options": [
+        "Skip the text. Set the Strike 3 call.",
+        "Text her one time only",
+        "Call her again in 2 minutes"
+      ],
+      "answer": 0,
+      "why": "Text only leads who agreed to texts."
+    },
+    {
+      "t": "pick",
+      "q": "A lead comes in Tuesday at 6:30 PM. No answer. When is Strike 3?",
+      "options": [
+        "Tonight at 10:30 PM",
+        "Wednesday at 9 AM their time",
+        "Next Monday"
+      ],
+      "answer": 1,
+      "why": "Four hours later is too late. Call first when the window opens."
+    },
+    {
+      "t": "say",
+      "icon": "✅",
+      "h": "They answered? Strikes stop",
+      "text": "If the lead answers or texts back, the strikes stop. Now you talk and offer a time. **Log every try** in Follow Up Boss."
+    },
+    {
+      "t": "chat",
+      "who": "Maria",
+      "channel": "text",
+      "says": "Hi! Is 12 Oak Street still for sale?",
+      "options": [
+        {
+          "text": "Yes! And the price can go lower.",
+          "good": false,
+          "why": "Never guess. Never talk about price."
+        },
+        {
+          "text": "I will ask Daniel, our agent, now. Want to see it Thursday at 5 or Saturday at 11?",
+          "good": true,
+          "why": "Honest, fast, and it offers two times."
+        },
+        {
+          "text": "I will get back to you next week.",
+          "good": false,
+          "why": "Too slow. She will find another agent."
+        }
+      ]
+    },
+    {
+      "t": "pick",
+      "q": "What is your goal in the first 3 minutes?",
+      "options": [
+        "Read every old note first",
+        "Wait to see if the lead calls you",
+        "Call fast, learn what they want, and set an appointment"
+      ],
+      "answer": 2,
+      "why": "Call fast. Learn what they want. Book a time with the agent."
+    },
+    {
+      "t": "pick",
+      "q": "Three strikes and still no answer. Is the lead lost?",
+      "options": [
+        "Yes. Delete the lead.",
+        "No. Log all 3 tries. Follow-up keeps going.",
+        "Yes. Tag the lead DNC."
+      ],
+      "answer": 1,
+      "why": "Many leads answer later. Never delete a lead for no answer."
+    },
+    {
+      "t": "tattoo",
+      "text": "No answer? Text at 2 minutes.",
+      "sub": "Many people read texts but skip calls."
+    },
+    {
+      "t": "win",
+      "text": "You did it! You can now call fast and run the 3 strikes."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "A new lead comes in at 2 PM their time. When do you call?",
+      "options": [
+        "Within 180 seconds",
+        "Within 30 minutes",
+        "At the end of your shift"
+      ],
+      "answer": 0,
+      "explain": "Call in 180 seconds, inside the calling window."
+    },
+    {
+      "q": "A call in 5 minutes, not 30, makes your chance about:",
+      "options": [
+        "2 times better",
+        "21 times better",
+        "The same"
+      ],
+      "answer": 1,
+      "explain": "Fast calls are about 21 times better."
+    },
+    {
+      "q": "The lead does not answer your first call. What is next?",
+      "options": [
+        "Wait three days, then call",
+        "Mark the lead as lost",
+        "Leave a voicemail, then text at 2 minutes"
+      ],
+      "answer": 2,
+      "explain": "Strike 2 is a text, if they agreed to texts."
+    },
+    {
+      "q": "A lead comes in at 9:30 PM their time. What do you do?",
+      "options": [
+        "Call right away",
+        "Call first when the window opens",
+        "Text now and call tomorrow"
+      ],
+      "answer": 1,
+      "explain": "No calls or texts after 8 PM their time."
+    },
+    {
+      "q": "What is your goal in the first 3 minutes?",
+      "options": [
+        "Call fast, learn what they want, set an appointment",
+        "Send a long email",
+        "Wait for the lead to call"
+      ],
+      "answer": 0,
+      "explain": "Speed, then questions, then an appointment."
+    }
+  ]
+}

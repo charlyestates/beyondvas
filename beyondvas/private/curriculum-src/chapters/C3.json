@@ -1,0 +1,65 @@
+{
+  "id": "C3",
+  "title": "Real estate in 15 minutes",
+  "steps": [
+    {"t": "say", "icon": "🏡", "h": "Two people, two dreams", "text": "Maria wants to **buy** a home. Tom wants to **sell** his home. Both need help. Let's meet the team."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Buyer", "back": "A person who wants to buy a home."},
+      {"front": "Seller", "back": "A person who wants to sell a home."},
+      {"front": "Agent", "back": "A licensed person who helps people buy or sell."},
+      {"front": "Lender", "back": "A bank or company that lends money for a home."}
+    ]},
+    {"t": "pick", "q": "Who lends Maria the money?", "options": ["The seller", "The lender", "The ISA"], "answer": 1, "why": "A lender gives the home loan. Not you, not the agent."},
+    {"t": "say", "icon": "📋", "h": "Homes for sale", "text": "A **listing** is a home for sale. The **MLS** is the agents' big list of homes for sale."},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Listing", "back": "A home that is for sale."},
+      {"front": "MLS", "back": "The agents' big list of homes for sale."},
+      {"front": "Showing (or tour)", "back": "A visit to see a home inside."},
+      {"front": "Offer", "back": "The buyer says, in writing: I will pay this price."}
+    ]},
+    {"t": "fill", "h": "Finish the line", "before": "A visit to see a home is a ", "after": ".", "options": ["closing", "showing", "lender"], "answer": 1},
+    {"t": "say", "icon": "💌", "h": "The magic letter", "text": "A **pre-approval** is a letter from a lender. It says how much the buyer can borrow. It shows the buyer is ready."},
+    {"t": "pick", "q": "Maria has a pre-approval. What does it mean?", "options": ["A lender said how much she can borrow", "She owns the home now", "She must buy today"], "answer": 0, "why": "It is a lender's letter. It shows she is ready."},
+    {"t": "speak", "h": "Say it out loud", "line": "Have you talked with a lender about a pre-approval yet?", "times": 3},
+    {"t": "flip", "h": "Tap each card", "cards": [
+      {"front": "Inspection", "back": "An expert checks the home for problems."},
+      {"front": "Escrow", "back": "The waiting time between offer and closing."},
+      {"front": "Closing", "back": "The last day. Papers are signed. The buyer gets keys."}
+    ]},
+    {"t": "tattoo", "text": "Offer, then escrow, then closing.", "sub": "Every sale follows this order."},
+    {"t": "say", "icon": "🛣️", "h": "The buyer's road", "text": "Every buyer walks the same road. It has five steps. You meet most buyers near the start."},
+    {"t": "order", "h": "Put the buyer's road in order", "items": ["Get a pre-approval from a lender", "Tour homes with the agent", "Make an offer", "Escrow: checks and papers", "Closing: get the keys"]},
+    {"t": "pick", "q": "Maria says: \"I saw a home online. Can I see it?\" Where is she?", "options": ["At closing", "In escrow", "Ready to tour"], "answer": 2, "why": "She wants a showing. Time to book the agent!"},
+    {"t": "chat", "who": "Maria", "channel": "call", "says": "I want to see the home on Oak Street.", "options": [
+      {"text": "What price will you offer?", "good": false, "why": "Too soon. And price talk is the agent's job."},
+      {"text": "Great! The agent can show you. Saturday or Sunday?", "good": true, "why": "You offered a tour with two choices. Perfect."}
+    ]},
+    {"t": "say", "icon": "🔑", "h": "The seller's road", "text": "Sellers have a road too. It also has five steps. It starts with a meeting with the agent."},
+    {"t": "order", "h": "Put the seller's road in order", "items": ["Meet the agent", "List the home for sale", "Buyers come to showings", "Accept an offer", "Escrow and closing"]},
+    {"t": "sort", "h": "Buyer or seller?", "left": "Buyer says", "right": "Seller says", "items": [
+      {"text": "I want to see this home.", "side": "left"},
+      {"text": "What is my home worth?", "side": "right"},
+      {"text": "I need a loan.", "side": "left"},
+      {"text": "I want to list my home.", "side": "right"},
+      {"text": "We got an offer on our home.", "side": "right"}
+    ]},
+    {"t": "chat", "who": "Tom", "channel": "call", "says": "So, what is my home worth?", "options": [
+      {"text": "Great question for your agent. Can they call you today?", "good": true, "why": "Only the agent talks about value. You book the time."},
+      {"text": "About $400,000, I think.", "good": false, "why": "Never guess a price. That is the agent's job."},
+      {"text": "I don't know. Bye!", "good": false, "why": "Do not end the call. Offer a time with the agent."}
+    ]},
+    {"t": "tattoo", "text": "You book the meeting. The agent gives the advice.", "sub": "Price, loans and contracts are not your job."},
+    {"t": "fill", "h": "Finish the line", "before": "The day the buyer gets the keys is the ", "after": ".", "options": ["closing", "listing", "showing"], "answer": 0},
+    {"t": "pick", "q": "Who goes to the showing with the buyer?", "options": ["You", "The lender", "The agent"], "answer": 2, "why": "You book it. The agent opens the door."},
+    {"t": "speak", "h": "Say it out loud", "line": "Would you like to see the home this week?", "times": 3},
+    {"t": "pick", "q": "What is the MLS?", "options": ["A kind of loan", "The agents' list of homes for sale", "A closing paper"], "answer": 1, "why": "Agents put homes for sale on the MLS."},
+    {"t": "win", "text": "You speak real estate now! Buyer road, seller road, done."}
+  ],
+  "quiz": [
+    {"q": "What is a pre-approval?", "options": ["A lender's letter saying how much a buyer can borrow", "A home for sale", "The last day of a sale"], "answer": 0, "explain": "A lender writes it. It shows the buyer is ready."},
+    {"q": "What is a listing?", "options": ["A loan", "A home tour", "A home for sale"], "answer": 2, "explain": "A listing is a home that is for sale."},
+    {"q": "What comes right after the offer is accepted?", "options": ["A showing", "Escrow", "A pre-approval"], "answer": 1, "explain": "Offer, then escrow, then closing."},
+    {"q": "What happens at closing?", "options": ["The buyer tours the home", "The agent lists the home", "Papers are signed and the buyer gets keys"], "answer": 2, "explain": "Closing is the last day. The buyer gets the keys."},
+    {"q": "A seller asks what the home is worth. What do you do?", "options": ["Guess a price", "Book a time with the agent", "Send them to a lender"], "answer": 1, "explain": "Only the agent talks about value. You book the meeting."}
+  ]
+}
