@@ -66,7 +66,7 @@ Zillow Preferred program rules, commission splits, team incentives, real vendors
     30-60 Day Nurtures. Stage after booking an appointment: Pending Handoff.
 13. Daily KPIs per shift: 80-100 dials, 12-15 live conversations, 2-3 A.L.M.-qualified appointments. QA rubric (100): Speed to
     Lead 20, ALM Discovery 30, Objection Handling 20, Follow Up Boss Hygiene 15, Compliance 15. Standard: 90+.
-14. LockedIn VAs operations: VAs are independent contractors paid in USD twice a month (5th and 20th); Hubstaff tracks time with
+14. LockedIn VAs operations: VAs are independent contractors paid in USD once a month; Hubstaff tracks time with
     random screenshots about every two minutes while clocked in; the client can see hours and screenshots; unexplained idle
     time is flagged and reviewed by the manager before billing; a daily report goes in the client channel at end of shift;
     a LockedIn VAs coordinator/manager backs the VA up; clients talk to VAs only inside the client channel (no private DMs);

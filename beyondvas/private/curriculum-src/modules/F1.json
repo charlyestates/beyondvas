@@ -8,7 +8,7 @@
     "Plan your study of this program: the modules, the practice assignments, the quizzes and how to send work to your coach.",
     "Name the people around you (coordinator, coach, client) and know which one to contact for each kind of problem.",
     "Describe your first 30 days with a client: the kickoff, the check-ins on days 5, 14 and 30, the daily report and the process videos.",
-    "Explain how you are paid (USD, the 5th and the 20th, tracked hours) and what keeps you in good standing."
+    "Explain how you are paid (USD, once a month, tracked hours) and what keeps you in good standing."
   ],
   "lessons": [
     {
@@ -466,7 +466,7 @@
             ],
             [
               "Pay dates",
-              "Twice a month: the 5th and the 20th"
+              "Once a month, on the pay date in your pay calendar"
             ],
             [
               "What is paid",
@@ -478,7 +478,7 @@
             ],
             [
               "Pay calendar",
-              "Your coordinator gives you the calendar that shows which dates each payment covers"
+              "Your coordinator gives you the calendar that shows each monthly pay date and the dates it covers"
             ]
           ]
         },
@@ -611,12 +611,12 @@
       "q": "When are LockedIn VAs VAs paid?",
       "options": [
         "Every Friday, by the client",
-        "Once a month in local currency",
+        "Twice a month in local currency",
         "When the client approves each task",
-        "Twice a month, on the 5th and the 20th, in US dollars, by LockedIn VAs"
+        "Once a month, in US dollars, by LockedIn VAs"
       ],
       "answer": 3,
-      "explain": "You are an independent contractor paid in USD by LockedIn VAs on the 5th and the 20th. The client never pays you directly."
+      "explain": "You are an independent contractor paid in USD by LockedIn VAs once a month. The client never pays you directly."
     },
     {
       "q": "You are an ISA on a 20-minute call with a lead, and you barely touch the keyboard. What should you do in Hubstaff?",
